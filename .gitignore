@@ -1,0 +1,13 @@
+*.pch
+**/workspace.xml
+*.xcuserstate
+*.swp
+a.out
+*.xcbkptlist
+143_easy_braille/ObjectiveC/CodeKata/.idea/workspace.xml
+132_intermediate_tiny_assembler/ObjectiveC/CodeKata/.idea/workspace.xml
+.DS_Store
+132_intermediate_tiny_assembler/ObjectiveC/CodeKata/CodeKata.xcodeproj/project.xcworkspace/xcuserdata/afolmert.xcuserdatad/UserInterfaceState.xcuserstate
+113_easy_stringtype_checking/ObjectiveC/CodeKata/.idea/workspace.xml
+113_easy_stringtype_checking/ObjectiveC/CodeKata/CodeKata.xcodeproj/project.xcworkspace/xcuserdata/afolmert.xcuserdatad/UserInterfaceState.xcuserstate
+*.xcuserstate
