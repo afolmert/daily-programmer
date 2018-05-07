@@ -1,0 +1,2788 @@
+ 
+r/dailyprogrammer
+log insign upsign in
+Reddit Feeds
+
+  • popular
+  • all
+  • 
+
+Sign up and stay connected to your favorite communities.
+
+sign uplog in
+ 
+r/
+
+dailyprogrammer
+
+Posts
+49
+Posted by
+u/Cosmologicon
+2 35 years ago
+
+[11/6/2012] Challenge #111 [Easy] Star delete
+
+Write a function that, given a string, removes from the string any * character,
+or any character that's one to the left or one to the right of a * character.
+Examples:
+
+"adf*lp" --> "adp"
+"a*o" --> ""
+"*dech*" --> "ec"
+"de**po" --> "do"
+"sa*n*ti" --> "si"
+"abc" --> "abc"
+
+Thanks to user larg3-p3nis for suggesting this problem in r/
+dailyprogrammer_ideas!
+
+143 comments
+share
+95% Upvoted
+Sort by
+best
+ 
+best
+ 
+top
+ 
+new
+ 
+controversial
+ 
+old
+ 
+q&a
+DannyP72
+7 points·5 years ago·edited 5 years ago
+
+Ruby
+
+def star_delete(input)
+  input.gsub(/.?[*]+.?/,'')
+end
+
+edit: typo
+
+share
+Save
+swarage
+0 01 point·5 years ago
+
+I understand the ".?" part of the regex, but what would "[]+" do? I assume that
+it would substitute every star in the string. (edit : I would have submitted
+almost a carbon copy of this code (without the []+), but luckily I ctrl+Fed for
+ruby before i submitted my code xD)
+
+share
+Save
+DannyP72
+1 point·5 years ago·edited 5 years ago
+
+It's just matching 1 or more consecutive stars like in the example "de**po". It
+doesn't need to be in brackets, I could of just escaped the star character like
+'/.?\*+.?/'.
+
+edit: oh the irony, I forgot to escape the * characters in my comment.
+
+share
+Save
+swarage
+0 02 points·5 years ago
+
+xD. Thanks. I'm not used to regex with and without brackets, so that put me off
+a little. By the way, I asked the_mighty_skeetadon about this as well, but
+still I ask, where did you learn regex? I learned at tutorials point but I
+still don't have as firm a grasp and I thought I did.
+
+share
+Save
+DannyP72
+3 points·5 years ago
+
+I use http://rubular.com/ to help write regex, which is very useful. It's just
+a case of checking the reference and experimenting.
+
+share
+Save
+keldwud
+2 points·5 years ago
+
+I agree with rubular being a good tool for learning regex.
+
+I also use Expresso on windows. It goes so far as converting regexes into plain
+English. Also allows you to view each group and drill down. The most regexes I
+learned was when I played with regexes in Espresso.
+
+share
+Save
+zoidbergLOL
+1 point·5 years ago
+
+A little late but wouldn't
+
+ /.[*]+./
+
+work? Without the '?'
+
+share
+Save
+DannyP72
+3 points·5 years ago·edited 5 years ago
+
+Without the ? it wouldn't match any word with a * at the start or end like
+"*dech*"
+
+share
+Save
+skeeto
+-9 86 points·5 years ago·edited 5 years ago
+
+Emacs Lisp,
+
+(defun unstar (string)
+  (replace-regexp-in-string ".?\\*+.?" "" string))
+
+JavaScript,
+
+function unstar(string) {
+    return string.replace(/.?\*+.?/g, '');
+}
+
+share
+Save
+the_mighty_skeetadon
+2 points·5 years ago·edited 5 years ago
+
+Hmm -- nevermind, looks like I wasn't parsing the regex right.
+
+share
+Save
+skeeto
+-9 82 points·5 years ago
+
+It works just fine in both languages with that regex:
+
+(unstar "sa*n*ti")
+=> "si"
+
+unstar("sa*n*ti");
+=> "si"
+
+It's not match, cut, match, cut, match, etc. It finds all the matches first,
+then it replaces those matches. It will never match against the replacement
+string. So in your example, it matches "a*n" (greedily on the overlapping "n")
+and "*t". Each of those is replaced with the empty string match.
+
+To demonstrate this, I can modify it to capture the match and surround it in
+brackets instead of removing it,
+
+(defun unstar2 (string)
+  (replace-regexp-in-string "\\(.?\\*+.?\\)" "[\\1]" string))
+
+(unstar2 "sa*n*ti") => "s[a*n][*t]i"
+
+share
+Save
+the_mighty_skeetadon
+1 point·5 years ago
+
+Yep, you're right, I figured that out shortly after I proposed it. Sorry!
+
+share
+Save
+MattM88
+2 points·5 years ago
+
+Anyone know where I can find a good regex tutorial for JS? I would so like to
+understand how that's working
+
+share
+Save
+skeeto
+-9 82 points·5 years ago
+
+JavaScript regular expressions are pretty standard, so any regex tutorial will
+do. Technically, JavaScript regular expressions are more than regular
+expressions in the rigorous academic sense, because it has backreferencing --
+i.e. Perl-style regex. I learned regex in the last millennium so I don't know
+of any good online tutorials myself.
+
+If you really want to understand regex through-and-through -- enough to
+properly implement your own regex engine -- I recommend reading Mastering
+Regular Expressions.
+
+share
+Save
+MattM88
+1 point·5 years ago
+
+Thanks!
+
+share
+Save
+adamzx3
+1 point·5 years ago
+
+Thanks for posting your JS answer, I was having trouble with my regex and I
+ended up with a more brittle solution... gotta love this subreddit!
+
+share
+Save
+rowenlemming
+1 point·5 years ago·edited 5 years ago
+
+RegExp newbie -- why do you need the concat after the *? Wouldn't
+
+/.?\*.?/g
+
+work?
+
+EDIT: reviewing the JS RegExp docs on w3schools, wouldn't
+
+/.\*./
+
+work? That would match any single character preceding the asterisk, the
+asterisk itself, and any single character following the asterisk. Isn't that
+exactly what we want?
+
+share
+Save
+skeeto
+-9 83 points·5 years ago
+
+The + is called a "Kleene cross" and it's unrelated to concatenation. It means
+match at least one and as many as possible (greedy). Without this, when two *
+are next to each other, the second * will be gobbled up by the trailing .
+match. Here it won't be matched as an * but discarded as being a character
+adjacent to a * . The character adjacent to it won't be discarded.
+
+Here it is without the cross.
+
+"a**b".replace(/.?\*.?/g, '');
+=> "b"
+
+The Kleene cross essentially compresses a line of * into a single one.
+
+The ? is necessary because there may not be a character preceeding or following
+the * in the string: when the * is at the beginning or end of the string, or
+the preceeding character was matched by a previous *.
+
+"*b".replace(/.\*+./g, '');
+=> "*b"
+
+"*a*b".replace(/.\*+./g, '');
+=> "*"
+
+share
+Save
+robotfarts
+1 point·5 years ago
+
+It wouldn't match multiple *'s in a row.
+
+share
+Save
+cooper6581
+5 points·5 years ago
+
+C
+
+#include <stdio.h>
+#include <string.h>
+
+void star_delete(char *s)
+{
+    int s_len = strlen(s);
+    for (int i = 0; i < s_len; i++) {
+        if (s[i] == '*') {
+            s[i] = -1;
+            s[i-1] = -1;
+            if (s[i+1] != '*')
+                s[i+1] = -1;
+        }
+    }
+    for (int i = 0; i < s_len; i++) {
+        if (s[i] != -1)
+            printf("%c",s[i]);
+    }
+    printf("\n");
+}
+
+int main(int argc, char **argv)
+{
+    if (argc != 2) {
+        fprintf(stderr,"Usage: %s <string>\n", argv[0]);
+        return 1;
+    }
+    star_delete(argv[1]);
+    return 0;
+}
+
+share
+Save
+Comment deleted5 years ago
+Miss_Moss
+1 point·5 years ago
+
+out is allocated one character smaller than s, it doesn't account for the space
+the null terminator takes.
+
+You assign s[i] to temp, even though temp is a pointer and s[i] is a char. This
+makes strcat explode. (I'm not actually sure what you're trying to do here,
+strcat copies strings, not individual characters)
+
+share
+Save
+slavy
+1 point·5 years ago
+
+Wouldn't this crash when the string starts or ends with a *?
+
+share
+Save
+Ledrug
+0 24 points·5 years ago
+
+C. Only print the result of deletions, not making a copy, though the idea is
+the same.
+
+#include <stdio.h>
+
+void stardel(char *s)
+{
+        int i;
+        for (i = 0; s[i]; i++) {
+                if ((i && s[i-1] == '*') || s[i] == '*' || s[i+1] == '*')
+                        continue;
+                putchar(s[i]);
+        }
+        putchar('\n');
+}
+
+int main(void) {
+        char *ss[] = {
+                "adf*lp", "a*o", "*dech*", "de**po", "sa*n*ti", "abc", 0
+        };
+
+        int i;
+        for (i = 0; ss[i]; i++) {
+                printf("%s\t-> ", ss[i]);
+                stardel(ss[i]);
+        }
+
+        return 0;
+}
+
+share
+Save
+[deleted]
+4 points·5 years ago
+
+J -- create a binary vector of where the '*'s are, shift it left and right and
+OR those three together, then filter chars based on that.
+
+   s =. 'adf*lpa*ode**posa*n*ti'
+
+   s #~ -. +./ (|.!.0 & (s='*')) "0 i:1
+adpdosi
+
+Or another, more interesting (but slower) way -- calculating the distances to
+the closest '*' per char:
+
+   s #~ 1 < <./ | (-&(i.#s))"0 I. '*' = s
+
+share
+Save
+FlightOfGrey
+1 point·5 years ago
+
+I'm sure you just smashed random keys for your second answer haha, makes me
+curious as to learn a bit about J.
+
+share
+Save
+JerMenKoO
+0 01 point·5 years ago
+
+J is mindfuck. A solid one. But I like it. :)
+
+share
+Save
+adamzx3
+5 points·5 years ago
+
+CoffeeScript
+
+delStar = (s) ->
+   s.replace /[a-zA-Z]?\*[a-zA-Z]?/g,""
+
+share
+Save
+skeeto
+-9 84 points·5 years ago
+
+Common Lisp,
+
+(defun unstar (input)
+  (loop for (a b c) on (cons t (coerce input 'list))
+     unless (or (not b) (member #\* (list a b c)))
+     collect b into output
+     finally (return (coerce output 'string))))
+
+Finally have a good use for destructuring bindings in a loop.
+
+share
+Save
+prophile
+7 points·5 years ago
+
+In Haskell:
+
+deleteStar :: String -> String
+deleteStar "" = ""
+deleteStar (_:'*':xs) = deleteStar ('*':xs)
+deleteStar ('*':_:xs) = deleteStar xs
+deleteStar "*" = ""
+deleteStar (x:xs) = x:deleteStar xs
+
+share
+Save
+leobm
+2 points·5 years ago
+
+ok, I copy your solution in erlang. My first solution was a little bit longer
+:) I did'nt realize that I had to switch the first/second position match order
+for the star.
+
+     -module(unstar).
+     -compile(export_all).
+
+     unstar(S)->
+        case S of
+           []         -> "";
+           [$*]       -> "";
+           [_, $*|T]  -> unstar([$*|T]);
+           [$*, _ |T] -> unstar(T);
+           [X|T]      -> [X | unstar(T)]
+        end.
+
+share
+Save
+leobm
+1 point·5 years ago
+
+my first clojure script. But I have no clue about clojure :)
+
+  (defn star? [c] (= \* c))
+
+  (defn join
+    ([coll] (apply str coll))
+    ([c coll] (apply str (cons c coll)))
+  )
+
+  (defn not-nil? [x] (not (nil? x)))
+
+  (defn unstar [s]
+    (let [[first second & rest] s]
+       (cond
+          (nil? first) ""
+         (and (star? first) (nil? second)) ""
+          (star? second) (unstar (join \* rest))
+          (and (star? first) (not-nil? second)) (unstar (join rest))
+          :else (str first (unstar (join second rest)))
+      )
+  ))
+  (unstar "adf*lp")
+  (unstar "a*o")
+  (unstar "*dech*")
+  (unstar "de**po")
+  (unstar "sa*n*ti")
+  (unstar "abc")
+
+share
+Save
+alecbenzer
+3 points·5 years ago
+
+new to go, trying to familiarize myself with it:
+
+import (
+        "fmt"
+        "os"
+)
+
+func main() {
+        in := os.Args[1]
+        var out string
+
+        if in[0] != '*' && in[1] != '*' {
+                out += string(in[0])
+        }
+
+        for i := 1; i < len(in) - 1; i++ {
+                if in[i] != '*' && in[i-1] != '*' && in[i+1] != '*' {
+                        out += string(in[i])
+                }
+        }
+
+
+        if in[len(in)-1] != '*' && in[len(in)-2] != '*' {
+                out += string(in[len(in)-1])
+        }
+
+        fmt.Println(out)
+}
+
+share
+Save
+Solumin
+1 point·5 years ago
+
+There should be an easier way to do this. Go has a regular expression package
+in the standard library, but I can't get it to work. For some reason, it's not
+recognizing * as a proper escape sequence, even though it should be.
+
+It's not even an error with the regexp library. Go literally will not compile
+or run the program.
+
+share
+Save
+alecbenzer
+1 point·5 years ago
+
+Yeah after seeing the other solutions I tried getting it to work with the
+regexp package, but something wasn't working for me either.
+
+share
+Save
+recursive
+3 points·5 years ago
+
+Zippy python:
+
+def stardelete(s):
+        return "".join(t[1] for t in zip(" "+s, s, s[1:]+" ") if "*" not in t)
+
+words = "adf*lp", "a*o", "*dech*", "de**po", "sa*n*ti", "abc"
+for word in words:
+        print word, "-->", stardelete(word)
+
+share
+Save
+quimilicious
+1 point·5 years ago
+
+hey man this is awesome. Im a total noobie at this and I'm just wondering what
+part the t and the zip play in the .join function? Also what does the "-->" do?
+cheers for any input you can give me.
+
+share
+Save
+recursive
+3 points·5 years ago
+
+Thanks! The arrow is just a string for output. Note the quotes.
+
+The zip function will merge a series of parallel lists. In this case, it's
+merging strings. t is a tuple consisting of the previous character, the current
+one, and the next one.
+
+share
+Save
+quimilicious
+1 point·5 years ago
+
+Ah, cheers mate!
+
+share
+Save
+nagasgura
+0 03 points·5 years ago
+
+Python one-liner:
+
+lambda a: ''.join([(' '+a+' ')[i].strip() for i in range(len(a)+1) if not any(str((' '+a+' '))[i+j] == '*' for j in range(-1,2))])
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+Not sure if beautiful or confusing, or both.
+
+share
+Save
+nagasgura
+0 03 points·5 years ago
+
+Well I'm not sure you could exactly call it elegant, but it sure is concise.
+
+share
+Save
+flatterflatflatland
+0 03 points·5 years ago
+
+Java, using Regex:
+
+public static String starDelete(String inStr) {
+        return inStr.replaceAll(".?\\*+.?", "");
+}
+
+share
+Save
+Bigelownage
+2 points·5 years ago·edited 5 years ago
+
+Could you explain to me how this works? I'm still learning how to do Regex.
+
+I understand the .? and sorta understand the *+.?, but I don't get the \\.
+
+share
+Save
+flatterflatflatland
+0 06 points·5 years ago·edited 5 years ago
+
+The \ is the escape character of java, so: To produce an backslash you have use
+\\.
+
+As I understand in most languages a single backslash would suffice, but not in
+Java, since you give the regex as a string. \\X would look for the character X.
+
+X? finds none or one character who is equal to X. In combination with the
+point, who is like an any-character .? finds any character in front of the rest
+if there's one.
+
+X* finds none or multiple characters who are equal to X. (Necessary for
+somthing like a***b.)
+
+So *+.? is not complete. \*+.? is complete. \* looks for the *-character, in
+combination with + it finds any combination of *-characters. And .? looks out
+for a single following character.
+
+See here for more info and here for a usefull table.
+
+share
+Save
+Bigelownage
+2 points·5 years ago
+
+Great explanation, thanks a lot.
+
+share
+Save
+ahlk
+0 03 points·5 years ago
+
+Perl one-liner
+
+perl -ne "s/.?\*+.?//g; print;"
+
+share
+Save
+[deleted]
+6 points·5 years ago·edited 5 years ago
+
+Python:
+
+import re
+
+def main(string):
+    string = re.sub('[^*]?\*[^*]?', '', string)
+    return string
+
+I fucking love regular expressions.
+
+EDIT: Fixed the regex. I escaped an * inside of a character class. Derp.
+
+share
+Save
+johnbarry3434
+0 01 point·5 years ago·edited 5 years ago
+
+Could you explain the [^\*]?
+
+share
+Save
+[deleted]
+4 points·5 years ago
+
+Sure! Anything inside [] is called a "character class". It's like a wildcard
+except it only matches the characters inside of it. For example, [aeiouy] would
+match any vowel. You can invert a character class by adding an unescaped ^. For
+example, [^aeiouy] will match anything that isn't a vowel.
+
+FAKE EDIT: I just realized what I think you were pointing out. I didn't need to
+escape the * because you can't repeat something inside of a character class
+zero or more times. I'll go fix that.
+
+share
+Save
+johnbarry3434
+0 02 points·5 years ago
+
+I wasn't actually but thanks for the great explanation.
+
+share
+Save
+danredux
+0 05 points·5 years ago·edited 5 years ago
+
+Python:
+
+def unstar(x):
+        t = []+list(x)+[]
+        for i in range(len(x)):
+                if x[i]=='*':
+                        t[i],t[i-1],t[i+1]='','',''
+        return ''.join(t)
+
+share
+Save
+recursive
+1 point·5 years ago
+
+I think you forgot the empty strings in your empty list literals.
+
+share
+Save
+danredux
+0 01 point·5 years ago
+
+It seemed to work with just Null's as str.join will handle nulls as empty
+strings. Apparently. I didn't know that before this project, lol.
+
+Also, the formatting is off. I don't know how to fix it.
+
+*Figured it out, formatted now
+
+share
+Save
+recursive
+1 point·5 years ago
+
+You mean None? Python doesn't have Null. In order to get Nones in there, you
+need to do [None] instead of [].
+
+share
+Save
+danredux
+0 01 point·5 years ago
+
+Ok, fair enough, but then why does the code work even when n-1 should be out of
+bounds?
+
+share
+Save
+recursive
+1 point·5 years ago
+
+I don't think it does. I get IndexError: list assignment index out of range.
+
+share
+Save
+CylonOven
+1 point·5 years ago
+
+I don't think that works for strings such as "123**45"
+wouldn't it return "1245" Rather then "125" ?
+
+share
+Save
+lsakbaetle3r9
+0 03 points·5 years ago·edited 5 years ago
+
+python:
+
+strings = ['adf*lp','a*o','*dech*','de**po','sa*n*ti','abc']
+
+print "old : new"
+
+for string in strings:
+    if '*' not in string:
+        print string,":",string
+    else:
+        strlist = []
+        for letter in string:
+            strlist.append(letter)
+        inds = [i for i,n in enumerate(strlist) if n == "*"][::-1]
+        for ind in inds:
+            try:
+                strlist[ind-1] = ''
+                strlist[ind] = ''
+                strlist[ind+1] = ''
+            except IndexError:
+                pass
+    print string,":",''.join(strlist)
+
+share
+Save
+mowe91
+0 01 point·5 years ago·edited 5 years ago
+
+Cool! I thought about lists, but did not consider simply setting left and right
+to ''. I was too fixated on deleting the entry!
+
+share
+Save
+CylonOven
+1 point·5 years ago
+
+Why did you reverse inds with [::-1]?
+
+share
+Save
+lsakbaetle3r9
+0 01 point·5 years ago
+
+To be honest I don't know, just commented that off and ran the code - it worked
+fine. I guess this a lesson in why I should comment my code!!
+
+share
+Save
+skeeto
+-9 82 points·5 years ago
+
+POSIX C,
+
+#include <regex.h>
+#include <string.h>
+
+void unstar(char *input, char *output) {
+    regex_t regex;
+    regmatch_t match;
+    for (regcomp(&regex, ".?\\*+.?", REG_EXTENDED);
+         !regexec(&regex, input, 1, &match, 0);
+         input += match.rm_eo, output += match.rm_so)
+        memcpy(output, input, match.rm_so);
+    memcpy(output, input, strlen(input) + 1);
+    regfree(&regex);
+}
+
+Usage:
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char *input = "fo*ib and ga***abc";
+    char *output = malloc(sizeof(input));
+    unstar(input, output);
+    printf("%s --> %s\n", input, output);
+    free(output);
+    return 0;
+}
+
+Output:
+
+$ gcc -Wall -Wextra -ansi -o unstar unstar.c
+$ ./unstar
+fo*ib and ga***abc --> fb and gbc
+
+share
+Save
+the_mighty_skeetadon
+2 points·5 years ago
+
+I did this one when it was just an idea! =) Here's my Ruby answer, using Regex:
+
+class String
+    def aster
+        return self.gsub(/(\A|[^*])([*]+([^*]|\Z))+/,'')
+    end
+end
+
+share
+Save
+s23b
+0 02 points·5 years ago
+
+Perl:
+
+sub star {
+        $_[0]=~s/.?\*+.?//g+1&&$_[0];
+}
+
+the +1 is there so it returns the string even if no results are found.
+
+share
+Save
+[deleted]
+2 points·5 years ago
+
+coffeescript
+
+star_del = (str) ->
+        star_idxs = (i for s,i in str when s is '*')
+        bad_idxs = star_idxs.concat (i-1 for i in star_idxs).concat (i+1 for i in star_idxs)
+        (s for s,i in str when i not in bad_idxs).join ''
+
+share
+Save
+taterNuts
+2 points·5 years ago·edited 5 years ago
+
+C#:
+
+public static string starDelete(string str)
+{
+    List<char> chars = str.ToList();
+    List<int> delIndex = new List<int>();
+    StringBuilder builder = new StringBuilder();
+
+    for (int i = 0; i < chars.Count; i++)
+    {
+        if (chars[i] == '*')
+        {
+            delIndex.Add(i);
+            if (i > 0)
+            {
+                delIndex.Add(i - 1);
+            }
+            if (i + 1 < chars.Count)
+            {
+                delIndex.Add(i + 1);
+            }
+        }
+    }
+
+    for (int i = 0; i < chars.Count; i++)
+    {
+        if (!delIndex.Contains(i))
+            builder.Append(chars[i]);
+    }
+
+    return builder.ToString();
+}
+
+edit: [DEL:doesn't work in all cases, will refactor tomorrow:DEL] should work
+now, tried doing it without regex although it's probably not the best solution.
+// updated with u/jappacappa's fix
+
+share
+Save
+jappacappa
+2 points·5 years ago
+
+"*as" returns: "as"
+
+share
+Save
+jappacappa
+2 points·5 years ago
+
+Found the flaw, here is a correction:
+
+                delIndex.Add(i);
+                if (i > 0)
+                {
+                    delIndex.Add(i - 1);
+                }
+                if (i + 1 < chars.Count)
+                {
+                    delIndex.Add(i + 1);
+                }
+
+share
+Save
+taterNuts
+1 point·5 years ago
+
+thanks! updated
+
+share
+Save
+ChristopherShine
+2 points·5 years ago
+
+Couple days late, but non-regex JavaScript:
+
+function removeStar(original) {
+  var updated = '';
+    for (var i = 0, l = original.length; i < l; i++) {
+      if (original[i] != '*' && original[i - 1] != '*' && original[i + 1] != '*') {
+        updated += original[i];
+      }
+    };
+  return updated;
+}
+
+share
+Save
+thoneney
+2 points·5 years ago·edited 5 years ago
+
+In C:
+
+#include <stdio.h>
+#include <string.h>
+
+void delete_star(char str[])
+{
+        int len = strlen(str);
+        int i;
+        for(i = 0;i < len;i++){
+                if(str[i+1] != '*' && str[i-1] != '*' && str[i] != '*') printf("%c", str[i]);
+        }
+}
+
+int main(int argc, char **argv)
+{
+
+        delete_star(argv[1]);
+        printf("\n");
+}
+
+share
+Save
+[deleted]
+3 points·5 years ago
+
+JAVA
+
+public String cleanStr(String input){
+    int index = -1;
+    StringBuilder temp = new StringBuilder(input);
+    while((index = temp.indexOf("*")) > -1){
+        int startDel = index - 1;
+        int endDel = index + 2;
+        if(index == 0){
+            startDel = index;
+        }else if(index == temp.length()){
+            endDel = index + 1;
+        }
+        temp.delete(startDel,endDel);
+    }
+    return temp.toString();
+}
+
+share
+Save
+[deleted]
+2 points·5 years ago
+
+Python. Any feedback would be much appreciated.
+
+def remove(s):
+    l = []
+    length = len(s)
+    if length <= 1:
+        return s if s == '' or s[0] != '*' else ''
+    else:
+        if s[1] != '*':
+            if s[0] != '*':
+                l.append(s[0])
+        for index,char in enumerate(s):
+            if char != '*':
+                if index != 0 and index != length-1:
+                    if s[index-1] != '*' and s[index+1] != '*':
+                        l.append(char)
+        if s[-2] != '*':
+            if s[-1] != '*':
+                l.append(s[-1])
+        return ''.join(l)
+
+share
+Save
+eagleeye1
+0 12 points·5 years ago
+
+In your nested ifs, since you are checking s[1] then s[0] without any
+operations in between, you may want to string them together in a single
+conditional. I made some changes to your code you can look at.
+
+def remove(s):
+
+    l = []
+
+    if '*' not in s:
+        return s
+
+    else:
+        if '*' not in s[:2]:
+            l.append(s[0])
+        for index,char in enumerate(s):
+            if char != '*':
+                if index != 0 and index != len(s)-1:
+                    if s[index-1] != '*' and s[index+1] != '*':
+                        l.append(char)
+        if '*' not in s[-2:]:
+            l.append(s[-1])
+
+        print s, ' --> ', ''.join(l)
+
+        return ''.join(l)
+
+remove('*awef*')
+remove('*awefawef')
+remove('aweoifjawef*')
+remove('ad*ewaf*ewaf*')
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+Thanks for the suggestions! The nested ifs were sort of obscuring the logic of
+my code. Also, although I had been taking care of cases when the input string
+lacked '*'s I guess it would have better to explicitly separate out that case
+as you've done above.
+
+share
+Save
+kirsybuu
+0 12 points·5 years ago
+
+D language.
+
+import std.stdio, std.algorithm, std.range, std.conv;
+
+string stardelete(string s) {
+    bool[] mask;
+    mask.length = s.length + 2;
+
+    foreach(i ; 0 .. s.length)
+        if (s[i] == '*')
+            mask[i .. i+3] = true;
+
+    return mask[1 .. $-1].zip(s)
+                         .filter!"!a[0]"
+                         .map!"a[1]"
+                         .text();
+}
+void main() {
+    assert("adf*lp".stardelete == "adp");
+    assert("a*o".stardelete == "");
+    assert("*dech*".stardelete == "ec");
+    assert("de**po".stardelete == "do");
+    assert("sa*n*ti".stardelete == "si");
+    assert("abc".stardelete == "abc");
+}
+
+share
+Save
+mowe91
+0 02 points·5 years ago·edited 5 years ago
+
+in Python
+
+import re
+
+def mod_string(s):
+    results = re.split(r'.?[*]+.?', s)
+    return ''.join(results)
+
+without regex. Very ugly, I am sure -- I am beginner :)
+
+def mod_string(s):
+    star = s.find('*')
+    new_start = star + 2
+
+    if star == -1:
+        return s
+
+    if star != len(s) - 1:
+        neighbor = star + 1
+        while s[neighbor] == '*':
+            new_start += 1
+            neighbor += 1
+
+    if star == 0:
+        return mod_string(s[new_start:])
+
+    return s[:star-1] + mod_string(s[new_start:])
+
+share
+Save
+galudwig
+2 points·5 years ago
+
+I like your 'ugly' solution a lot.
+
+I'm an absolute newbie (just started like two days ago) and yours is the only
+one I understand at this point
+
+The one I made is like three times that size (but it does work), after seeing
+yours I realize how needlessly long and noob mine is :)
+
+share
+Save
+JerMenKoO
+0 01 point·5 years ago
+
+Do you know there is a index method of str objects?
+
+share
+Save
+Scroph
+0 01 point·5 years ago
+
+In the fifth example, shouldn't it be "i" ? The first star removes a and n so
+the word becomes "s*ti" and the second then removes s and t, leaving only the i
+letter.
+
+Reserving this post for my solution.
+
+share
+Save
+Cosmologicon
+2 3Original Poster1 point·5 years ago
+
+No you handle the deletions all at once. The s is not adjacent to a * in the
+original string so it stays.
+
+share
+Save
+jordiee
+1 point·5 years ago
+
+groovy
+
+ def s_delete(input) { return input.replaceAll('.?\\*+.?', '') }
+
+share
+Save
+hmmdar
+0 01 point·5 years ago
+
+Non-regex method in go
+
+func starFighter(in string) string {
+    var out string
+
+    inLen := len(in)
+    for i := 0; i < inLen; i++ {
+        if (i > 0 && in[i-1] == '*') || in[i] == '*' || in[i+1] == '*' {
+            continue
+        }
+        out += string(in[i]);
+    }
+
+    return out
+}
+
+share
+Save
+meowfreeze
+1 point·5 years ago·edited 5 years ago
+
+Python.
+
+import re
+
+def star(x):
+        return re.sub(r'.?\*+.?', '', x)
+
+share
+Save
+idexterous
+1 point·5 years ago
+
+It fails for "de**po" --> "do"
+
+share
+Save
+johnbarry3434
+0 01 point·5 years ago
+
+You are correct. They should have added a plus after the star in their regex.
+
+import re
+
+def star(x): return re.sub(r'.?*+.?', '', x)
+
+share
+Save
+idexterous
+1 point·5 years ago
+
+Python interpretor throws some error here.
+
+http://www.reddit.com/r/dailyprogrammer/comments/12qi5b/
+1162012_challenge_111_easy_star_delete/c6xjuuj
+
+Look at this answer. It is clean and elegant solution.
+
+share
+Save
+meowfreeze
+1 point·5 years ago
+
+Thanks for pointing that out. Fixed.
+
+share
+Save
+pitkali
+1 point·5 years ago
+
+Common Lisp, non-regexp version for the fun of learning a new language:
+
+(defun unstar (astring)
+  "Remove asterisks from ASTRING, as well as characters immediately adjacent
+to asterisks. This is a fancy version not using regexps for educational
+purposes.
+
+Return string will be a fresh simple string using only as much space, as
+required to hold the result."
+  (loop
+     with orig-length = (length astring)
+     with new-string = (make-array orig-length
+                                   :element-type 'character
+                                   :fill-pointer 0)
+     for i = 0 then (1+ i) while (< i orig-length)
+     do (let ((next-index (1+ i))
+              (current-char (aref astring i)))
+          (cond
+            ((and (< next-index orig-length)
+                  (char= (aref astring next-index) #\*))
+             nil)                       ; * is next, discard character
+            ((char= current-char #\*)
+             (incf i))                  ; skip next character
+            (t
+             (vector-push current-char new-string))))
+     finally (return (copy-seq new-string))))
+
+share
+Save
+shaggorama
+1 point·5 years ago
+
+Stress programming because of the election. Here's python without RegEx:
+
+import string
+
+def star_delete(inStr, star='*'):
+    f = inStr[0]
+    l = inStr[-1]
+    if f != star:
+        f=inStr[:2]
+    else: f=''
+    if l != star:
+        l = inStr[-2:]
+    else: l=''
+
+    strSplit = inStr.split(star)
+    newSplit = []
+    for s in strSplit:
+        newSplit.append(s[1:-1])
+    return f+string.join(newSplit, '')+l
+
+share
+Save
+mowe91
+0 01 point·5 years ago
+
+star_delete('a*cde**fga')
+
+'a*dgga'
+
+You do need to check the second and second to last letters as well!
+
+share
+Save
+shaggorama
+1 point·5 years ago
+
+I just coded this in a hurry to help take my mind off the election before my
+friend swung by to drink and play halo. I didn't really test too much. Thanks
+for checking my code though :p
+
+share
+Save
+CujoIHSV
+1 point·5 years ago·edited 5 years ago
+
+C++
+
+std::string deleteStars (std::string stringin)
+{
+
+        std::string stringout = stringin;
+        std::set<size_t> toDelete;
+
+        for (size_t stringoutI = 0; stringoutI < stringout.size(); ++stringoutI)
+        {
+
+                if (stringout[stringoutI] == '*')
+                {
+
+                        if (stringoutI != 0)
+                        {
+                                toDelete.insert(stringoutI - 1);
+                        }
+
+                        toDelete.insert(stringoutI);
+
+                        if (stringoutI != stringout.size() - 1)
+                        {
+                                toDelete.insert(stringoutI + 1);
+                        }
+
+                }
+
+        }
+
+        size_t delOff = 0;
+        for (std::set<size_t>::iterator delI = toDelete.begin();
+                delI != toDelete.end();
+                ++delI)
+        {
+                stringout.erase((*delI) - delOff++, 1);
+        }
+
+        return stringout;
+
+}
+
+Edit: In retrospect, I probably could have done both parts of this with
+iterators to maintain consistency, but this still works just fine.
+
+share
+Save
+xXGNomesXx
+1 point·5 years ago
+
+This code might make the work a little clearer.
+
+std::string removeStars( std::string data )
+{
+    std::string correctWord = "";
+
+    for( int i = 0; i < data.length(); i++ )
+    {
+        if( i < data.length() - 1 && data[ i + 1 ] == '*' )
+            continue;
+
+        if( data[ i ] == '*' )
+        {
+            i++;
+            continue;
+        }
+
+        correctWord += data[ i ];
+    }
+
+    return correctWord;
+}
+
+share
+Save
+charmlesscoin
+0 01 point·5 years ago·edited 5 years ago
+
+Learning C now, threw together this thing with my own print function. Probably
+not the best approach, but it works.
+
+#include <stdio.h>
+#include <string.h>
+
+void print_string(char string[]);
+
+int main(void)
+{
+        int i;
+        char string[6] = "te*st";
+
+        printf("%s\n", string);
+        for(i = 0; i < strlen(string); i++) {
+                if(string[i] == '*') {
+                        string[i] = -1;
+                        if(string[i - 1]) {
+                        printf("string[%d - 1] is %c\n", i, string[i - 1]);
+                                string[i - 1] = -1;
+                        }
+                        if(string[i + 1] && string[i + 1] != '*') {
+                                printf("string[%d + 1]: %c\n", i,  string[i + 1]);
+                                string[i + 1] = -1;
+                        }
+                }
+                printf("result from loop %d is %s\n", i, string);
+        }
+        print_string(string);
+
+        return 0;
+}
+
+void print_string(char string[])
+{
+        int i;
+        for(i = 0; i <= strlen(string); i++) {
+                if(string[i] > 0) {
+                        putchar(string[i]);
+                }
+        }
+        putchar('\n');
+}
+
+share
+Save
+Comment deleted5 years ago
+JonasW87
+0 01 point·5 years ago
+
+Doesn't this delete a star if there are two consecutive ones?
+
+Here is my ugly solution using arrays :
+
+function starDel($string) {
+        $homeArray = str_split($string);
+
+        $matching = array_keys($homeArray, "*");
+
+        foreach ( $matching as $j ) {
+                        $matching[] = $j - 1;
+                        $matching[] = $j + 1;
+        }
+
+        foreach($matching as $j) {
+                if(isset($homeArray[$j])) {
+                        unset($homeArray[$j]);
+                }
+        }
+
+        return implode("" , $homeArray);
+}
+
+share
+Save
+dgamma3
+1 point·5 years ago
+
+Javascript - noob.
+
+var n="asdasd*dfgfh".match(/[^*]/g)
+document.write(n);
+
+Not sure how to combine the output though, any suggestions?
+
+share
+Save
+ChristopherShine
+1 point·5 years ago
+
+Doesn't remove the character before and after the star.
+
+n.join('');
+
+Will combine the array you have.
+
+share
+Save
+pbl24
+1 point·5 years ago
+
+Not thoroughly tested, but here's my pass using Python and list comprehensions:
+
+def doIt(input):
+    return [input[x] for x in range(0, len(input)) if input[x] != '*' and (x == 0 or input[x - 1]) != '*' and (x == len(input) - 1 or input[x + 1] != '*')]
+
+print doIt(sys.argv[1])
+
+share
+Save
+ssuda
+1 point·5 years ago
+
+s = s.replace(/.\*./, '')
+
+share
+Save
+Cosmologicon
+2 3Original Poster1 point·5 years ago
+
+This fails on at least one of the examples.
+
+share
+Save
+eagleeye1
+0 11 point·5 years ago
+
+Python regex and non-regex comparison
+
+import re
+
+def non_regex(test):
+        print 'Before (nrx): ', ''.join(test)
+        stars = [index for index, char in enumerate(test) if char == '*']
+
+        for ind in stars:
+                left = ind-1 if (ind-1 >= 0 and test[ind-1] != '*') else -1
+                right = ind+1 if (ind+1 < len(test) and test[ind+1] != '*') else -1
+
+                indices = [left, right, ind]
+
+                for ind in set(indices)-set([-1]):
+                        test[ind] = '-'
+
+        test = ''.join([x for x in test if x != '-'])
+        print 'After (nrx): ', test, '\n'
+
+
+def regex(test):
+        print 'Before (rx): ', test
+        test = re.sub(".?\*+.?", '', test)
+        print 'After (rx): ', test, '\n'
+
+tests = ["adf*lp", "a*o", "*dech*", "de**po", "sa*n*ti", "abc"]
+
+for test in tests:
+        regex(test)
+
+tests = [list(t) for t in tests]
+for test in tests:
+        non_regex(test)
+
+share
+Save
+error1f1f
+0 01 point·5 years ago·edited 5 years ago
+
+In C++:
+
+#include <regex>
+
+std::string removeStars(std::string s)
+{
+        regex e (".?\\*+.?");
+        return ((regex_replace(s,e,"")));
+}
+
+share
+Save
+timmense
+1 point·5 years ago·edited 5 years ago
+
+Python (non regex). Thanks to the fantastic 'Learn To Program' course from
+Coursera for teaching me Python.
+
+def star_delete(s):
+    '''(str)->str
+
+    Returns a string with '*', left and right neighbouring character deleted from s
+
+    >>>star_delete('adf*ip')
+    'adp'
+    >>>star_delete('a*o')
+    ''
+    '''
+    exclude = []
+    # iterate through each char
+    for i in range(len(s)):
+    # if char is *, add index and neighbouring indexes to exclude list
+        if (s[i] == '*'):
+            if not(i in exclude):
+                exclude.append(i)
+            if i-1 >= 0 and not(i-1 in exclude):
+                exclude.append(i-1)
+            if i+1 < len(s) and not(i+1 in exclude):
+                exclude.append(i+1)
+    # loop thru string and create a new one from letters that aren't in exclude list
+    new_s = ''
+    for i in range(len(s)):
+        if not(i in exclude):
+            new_s = new_s + s[i]
+    return new_s
+
+share
+Save
+pivotallever
+2 points·5 years ago
+
+I rewrote yours to be a bit more 'pythonic'. Hope this helps.
+
+def star_delete(s):
+    exclude = []
+    for idx, char in enumerate(s):
+        head, tail = idx - 1, idx + 1
+        if char == '*':
+            if not idx in exclude:
+                exclude.append(idx)
+            if head >= 0 and not head in exclude:
+                exclude.append(head)
+            if tail < len(s) and not tail in exclude:
+                exclude.append(tail)
+    return ''.join([c for i, c in enumerate(s) if i not in exclude])
+
+if __name__ == '__main__':
+    tests = ("adf*lp", "a*o", "*dech*", "de**po", "sa*n*ti", "abc")
+    for case in tests:
+        print '"%s"' % case, '-->', '"%s"' % star_delete(case)
+
+output:
+
+"adf*lp" --> "adp"
+"a*o" --> ""
+"*dech*" --> "ec"
+"de**po" --> "do"
+"sa*n*ti" --> "si"
+"abc" --> "abc"
+
+share
+Save
+timmense
+1 point·5 years ago·edited 5 years ago
+
+TIL the list comprehension.
+
+    if name == 'main':
+
+Why is this necessary and what purpose does it serve?
+
+share
+Save
+pivotallever
+2 points·5 years ago
+
+It prevents the code within the if __name__ == '__main__' block from being
+executed if you import your module into the interpreter/another file.
+
+A more detailed answer: http://stackoverflow.com/a/419185
+
+share
+Save
+learnin2python
+0 01 point·5 years ago
+
+python noob comments welcome.
+
+def star_delete(in_str):
+    count = 0
+    out_str = ''
+    subs = in_str.split('*')
+
+    if subs[0] == in_str:
+        out_str = in_str
+    else:
+        for s in subs:
+            if count == 0 and s != '':
+                out_str += s[:-1]
+            elif count == len(subs) - 1 and s != '':
+                out_str += s[1:]
+            elif s != '':
+                out_str += s[1:-1]
+            count += 1
+    print out_str
+
+if __name__ == '__main__':
+    strings = ['adf*lp', 'a*o', '*dech*', 'de**po', 'sa*n*ti', 'abc']
+
+    for s in strings:
+        star_delete(s)
+
+share
+Save
+Miss_Moss
+1 point·5 years ago
+
+C++
+
+string makeMagic(const string& input) {
+    auto hasStar = [&input](size_t i) -> bool {
+        return input[i] == '*' || (i < input.size()-1 && input[i+1] == '*') || i > 0 && input[i-1] == '*';
+    };
+    stringstream ss;
+    for(size_t i = 0; i < input.size(); i++)
+        if(!hasStar(i))
+            ss << input[i];
+    return ss.str();
+}
+
+share
+Save
+fruitcakefriday
+1 point·5 years ago·edited 5 years ago
+
+Python, can specify culling range. Commented.
+
+def cullinate(string_in, cut_range):
+    # Generate a list of asterix positions
+    asterixes = []
+    for i in range(len(string_in)):
+        if string_in[i] == '*':
+            asterixes.append(i)
+
+    # Iterate through string_in chars, decide if
+    # they are valid to be copied to string_out by
+    # comparing against each asterix position.
+    string_out = ''
+    for i in range(len(string_in)):
+        cut = False
+        for j in asterixes:
+            if abs(i - j) <= cut_range: # Is it within culling range of an asterix?
+                cut = True
+                break
+        if not cut:
+            string_out += string_in[i]
+
+share
+Save
+takac00
+1 point·5 years ago
+
+Clojure solution:
+
+( use '[clojure.string :only ( replace ) ] )
+( defn destar [s] ( replace s #".?\*[^*]?" "" ) )
+
+share
+Save
+PonchoMF
+1 point·5 years ago
+
+Like a thousand years later my answer (On python), but I'm new at reddit and I
+just saw this.
+
+def remove_star(s):
+    new_s = ""
+
+    for i in range(len(s)):
+            if s[i] != '*':
+                    if i >= 1:
+                            if s[i-1] != '*':
+                                    new_s += s[i]
+                                if s[i] != s[-1] and s[i+1] == '*':
+                                        new_s = new_s[:-1]
+                else:
+                        if s[i+1] != '*':
+                                new_s += s[i]
+
+    return new_s
+
+share
+Save
+Zamarok
+1 point·5 years ago
+
+JavaScript
+
+function starDelete(s) {
+  return s.replace(/.?\*+.?/g, '');
+}
+
+share
+Save
+letterboxed
+0 01 point·5 years ago
+
+def star_delete(input):
+        # start from the left. Find the first star, then the first non-star
+        star = '*'
+        if star not in input:
+                        return input
+
+        nuked = [] # this holds the indexes which need to be deleted
+        length = len(input)
+
+        # go thru input and get indexes of stars and +-1 positions
+        for i in range(length):
+                if input[i] == star:
+                        nuked.append(i)
+                        if i > 0:
+                                nuked.append(i - 1)
+                        if i < (length - 1):
+                                nuked.append(i + 1)
+
+        # remove dupes
+        nuked = list(set(nuked))
+
+        # build output string, excluding nuked indexes
+        output = ''
+        for i in range(len(input)):
+                if i not in nuked:
+                        output = output + input[i]
+
+        return output
+
+
+def test(input, expected):
+        actual = star_delete(input)
+        if expected == actual:
+                print "%s --> %s (correct)" % (input, actual)
+        else:
+                print "%s --> %s (WRONG, expected %s)" % (input, actual, expected)
+
+
+if __name__ == '__main__':
+        test("adf*lp", "adp")
+        test("a*o", "")
+        test("*dech*", "ec")
+        test("de**po", "do")
+        test("sa*n*ti", "si")
+        test("abc", "abc")
+
+share
+Save
+thegoodvibe
+0 01 point·5 years ago
+
+Ok, better late than never. this is my first time, so my code is a bit longer
+than some of the others i have seen here. (java)
+
+public class StarDelete {
+
+public StarDelete() {
+
+}
+
+public String delete(String input){
+        String temp ="";
+        char temp2 =' ';
+        int j =0;
+        int length = input.length();
+        String sub ="";
+        for (int i = 0; i<length;i++){
+                temp2= input.charAt(i);
+                if(temp2 == '*'){
+                        if(length <= 3){
+                                return "";
+                        }
+                        else if (i<j){
+                                i=j;
+                                j++;
+                        }
+                        else if (i == j){
+                                j = j+2;
+                                continue;
+                        }
+                        else if (i ==0 || i == 1){
+                                j = i+2;
+                                continue;
+                        }
+                        else if(i == length -1){
+                                if (j == i - 1)
+                                        return temp;
+                                else{
+                                        sub = input.substring(j, i-1);
+                                        temp = temp+ sub;
+                                }
+                        }
+                        else {
+                                sub =input.substring(j, i-1);
+                                temp = temp+ sub;
+                                j= i+2;
+                        }
+                }
+                if (i == length -1 && temp2 != '*'){
+                        sub = input.substring(j);
+                        temp = temp+ sub;
+                }
+
+        }
+
+        return temp;
+}
+
+Also, please let me know what you think, as i mentioned, im a new programmer,
+so I'm still getting the hang of things.
+
+share
+Save
+taterNuts
+1 point·5 years ago
+
+I'll have to read through your code to see what you are tryign to do but on
+first glance, you should be really cautious of using that many if/else
+statements, especially with one nested. If you can't do it in 2-3 if/else's or
+a switch, you generally want to take a look at your underlying logic and reduce
+redundancies
+
+share
+Save
+thebugfinder
+1 point·5 years ago
+
+Hi everyone, this is my Ruby code, i tried to stay away from the regexp and
+take a complete different approach.
+
+def unstar(s)
+        #create an index list
+        list = []
+        length = s.length
+        #iterate over the string
+        s.chars.each_with_index{ |e, i|
+                if e == '*'
+                        #add the index of the *
+                        list << i
+                        #add previous unless it's the first char
+                        list << i-1 unless i == 0
+                        #add the following one, unless we are on the last char
+                        list << i+1 unless i == length - 1
+                end
+        }
+        #create a result copy of the original string, to avoid modifying a frozen string
+        r = s.dup
+        #reverse the list it to avoid changing the position of the following chars
+        list.uniq.sort.reverse.each{ |i| r[i] = '' }
+        r
+end
+
+require "test/unit"
+
+class TestUnstar < Test::Unit::TestCase
+        def test_simple
+                cases = {
+                        "adf*lp" => "adp",
+                        "a*o" => "",
+                        "*dech*" => "ec",
+                        "de**po" => "do",
+                        "sa*n*ti" => "si",
+                        "sa*n*ti*" => "s",
+                        "abc" => "abc",
+                        "*abcde**f*gh*" => "bcd",
+                }
+                cases.each do |input, output|
+                        assert_equal(unstar(input), output, "Input: #{input}")
+                end
+        end
+end
+
+Ouput:
+
+Finished tests in 0.015625s, 64.0000 tests/s, 512.0000 assertions/s.
+1 tests, 8 assertions, 0 failures, 0 errors, 0 skips
+
+share
+Save
+TimeWizid
+1 point·5 years ago·edited 5 years ago
+
+Using C# and LINQ, this solution gets the neighbors for each char and returns
+the chars that aren't stars and that don't have any stars for neighbors.
+
+public static string DeleteStarsAndNeighbors(string word)
+{
+    char deleteChar = '*';
+    char dummyChar = '$';
+    string paddedWord = dummyChar + word + dummyChar;
+    var filtered = from index in Enumerable.Range(0, word.Count())
+                   let substring = paddedWord.Substring(index, 3)
+                   where substring.Contains(deleteChar) == false
+                   select substring[1];
+    return new string(filtered.ToArray());
+}
+
+public static void Test(string word, string expectedResult)
+{
+    string result = DeleteStarsNeighbors(word);
+    if (result == expectedResult)
+        Console.WriteLine("{0} --> {1} (correct)", word, result);
+    else
+        Console.WriteLine("{0} --> {1} (INCORRECT! Expected {2})", word, result, expectedResult);
+}
+
+public static void Main(string[] args)
+{
+    Test("adf*lp", "adp");
+    Test("a*o", "");
+    Test("*dech*", "ec");
+    Test("de**po", "do");
+    Test("sa*n*ti", "si");
+    Test("abc", "abc");
+}
+
+Edit: Method syntax actually works fairly nicely for assigning filtered:
+
+var filtered = word.Where((_, i) => paddedWord.Substring(i, 3).Contains(deleteChar) == false);
+
+share
+Save
+OhHaiMark
+0 01 point·5 years ago
+
+I'm very new to Python. Here's what I came up with:
+
+def removeStar(userInput):
+    cleaned = ""
+    ignoreThese = []
+
+    for i in range(len(userInput)):
+        if userInput[i] == "*":
+            ignoreThese.append(i-1)
+            ignoreThese.append(i)
+            ignoreThese.append(i+1)
+
+    for i in range(len(userInput)):
+        if i not in ignoreThese:
+            cleaned += userInput[i]
+
+    print cleaned
+
+share
+Save
+strider978
+1 point·5 years ago
+
+C++
+
+#include <string>
+string starDelete(string word)
+    {
+        int letter = 0;
+        int goodLetters = 0;
+        for (int i = 0; i < word.length(); i++)
+        {
+                if (word[i] != '*' && (word[i-1] != '*' || i == 0) && (word[i+1] != '*' || i == word.length() - 1))
+                {
+                        word[letter] = word[i];
+                        letter++;
+                        goodLetters++;
+                }
+        }
+        return word.substr(0, goodLetters);
+    }
+
+share
+Save
+bob1000bob
+1 point·5 years ago·edited 5 years ago
+
+A c++ version that doesn't suck:
+
+#include <boost/spirit/include/qi.hpp>
+#include <string>
+#include <iostream>
+#include <iterator>
+std::string star_d(const std::string& str) {
+    namespace qi=boost::spirit::qi;
+    auto first =str.begin(), last=str.end();
+    std::string output;
+    qi::parse(first, last,
+            *( *qi::omit[ -~qi::char_("*") >> qi::lit("*") >> -~qi::char_("*") ]
+                >> qi::char_),
+            output
+    );
+    return output;
+}
+int main() {
+    std::vector<std::string>  in
+            {"adf*lp", "a*o", "*dech*", "de**po", "sa*n*ti", "abc"};
+    std::transform(in.begin(), in.end(),
+            std::ostream_iterator<std::string>(std::cout, "\n"), star_d);
+}
+
+The output:
+
+adp
+ec
+do
+si
+abc
+
+share
+Save
+ahoy1
+1 point·5 years ago
+
+my hackneyed solution in python
+
+import re
+def no_stars(string):
+        output = ''
+    parts = re.split('[*]', string)
+    for i in range(len(parts)):
+            if i == 0:
+                    parts[i] = parts[0][:-1]
+            elif i == len(parts)-1:
+                    parts[i] = parts[-1][1:]
+            else:
+                    parts[i] = parts[i][1:-1]
+            output += parts[i]
+return output
+
+print no_stars("sa*n*ti")
+
+It's ugly, but I'm pretty new at programming.
+
+share
+Save
+Steve132
+0 11 point·5 years ago
+
+#include<string>
+#include<algorithm>
+#include<iterator>
+using namespace std;
+
+string remove_star(string s)
+{
+        size_t len=s.size();
+        if(s[0]=='*')
+        {
+                s[1]='*';
+        }
+        if(s[len-1]=='*')
+        {
+                s[len-2]='*';
+        }
+        for(size_t i=1;i<len-1;i++)
+        {
+                if(s[i]=='*')
+                {
+                        s[i-1]=s[i+1]='*';
+                }
+        }
+        string out;
+        remove_copy(s.begin(),s.end(),back_inserter(out),'*');
+        return out;
+}
+
+share
+Save
+Ty-chan
+0 01 point·5 years ago
+
+Despite being beyond late, I finished it in some rather ugly code.
+
+python
+
+def deleteStar(string):
+
+        if (string.find("*") != -1):
+                print "* found!"
+                string = list(string)
+                locations = []
+                length = len(string)
+                for place in range(0, length):
+                        if string[place] == "*":
+                                locations.append(place)
+
+                        for place in locations:
+                                if(place != ''):
+                                        try:
+                                                if place - 1 >- 0:
+                                                        string[place - 1] = ""
+                                                else:
+                                                        pass
+                                        except IndexError:
+                                                pass
+
+                                        string[place] = ""
+
+                                        try:
+                                                if place + 1 <= length:
+                                                        string[place + 1] = ""
+                                                else:
+                                                        pass
+                                        except IndexError:
+                                                pass
+
+                return "".join(string)
+
+        else:
+                return string
+
+string = raw_input("String: ")
+
+result = deleteStar(string)
+print result
+
+share
+Save
+kaoskastle
+0 01 point·5 years ago·edited 5 years ago
+
+My Ruby effort. Brand new to programming, so this one took me a while to cook
+up. Looking through the examples here from more experienced Ruby users, it
+looks like I have a lot to learn, haha. Anyway, here's my attempt; probably not
+the best solution, but it works!
+
+x = gets.chomp
+while x.include?('*')
+    x[/[^*]?\*[^*]?/] = " "
+end
+puts x.delete(' ')
+
+edit: cleaned up the regex a bit
+
+share
+Save
+wocamai
+1 point·5 years ago
+
+My late python 2.7 submission. Kind of janky but it works.
+
+def stardelete(word):
+stardex = set()
+for i in xrange(len(word)):
+        if word[i] == '*':
+                stardex.add(i)
+t1 = set(x-1 for x in stardex)
+t2 = set(x+1 for x in stardex)
+stardex = stardex.union(t1.union(t2))
+newword = ''
+for i in xrange(len(word)):
+        if i not in stardex:
+                newword += word[i]
+return newword
+
+share
+Save
+ktbonefish
+1 point·5 years ago
+
+# daily programmer #111 easy
+
+startString = input(str("Enter a string: ")) #user inputs string with * somewhere
+
+starPosition = startString.find("*") # find first star
+
+if starPosition == -1:
+print("No stars found")
+else:
+while starPosition > -1:
+
+        if starPosition == 0:
+                newString = startString[starPosition + 2:] # used for star at beginning of string
+                print (newString)
+        elif starPosition > 0:
+                beforeStar = startString[:starPosition - 1] # get string before star
+                afterStar = startString[starPosition + 2:] # get string after star
+                newString = beforeStar + afterStar # add two strings together
+                print (newString)
+        elif starPosition == startString[-1]:
+                newString = startString[:starPosition - 1] # used for star at end of string
+                print (newString)
+
+        starPosition = newString.find("*") # find next star
+
+Formatting is probably screwed up now. But i can get it to go with 1 star, but
+can't get it to loop properly : \
+
+share
+Save
+Quasimoto3000
+1 01 point·5 years ago
+
+Simple python solution. Kinda ugly but works.
+
+import sys
+
+input = sys.argv[1]
+output = ""
+spread = list()
+
+for l in input:
+    spread.append(l)
+
+for i in range(0, len(spread)):
+    if spread[i] == '*':
+        if i+1<len(spread):
+            spread.pop(i+1)
+
+        spread.pop(i)
+        if i>0:
+            spread.pop(i-1)
+
+        break
+
+for l in spread:
+    output += l
+
+print (output)
+
+share
+Save
+cdelahousse
+1 point·5 years ago
+
+C
+
+        #include <stdio.h>
+        #include <string.h>
+        #include <stdlib.h>
+
+        void unstar(char * str) {
+                int len = strlen(str);
+                int mask[len + 2];
+                char newstr[len+1];
+
+                int j;
+                for (j=0; j < len + 2; j++)
+                        mask[j] = 0;
+
+                int i;
+                for (i = 1; i < len + 1; i++) {
+                        if (str[i-1] == '*') {
+                                mask[i-1] = mask[i] = mask[i+1] = -1;
+                        }
+                }
+
+                int l,s;
+                for (l = 0, s = 0; l < len; l++) {
+                        if (mask[l+1] == 0) {
+                                newstr[s] = str[l];
+                                s++;
+                        }
+
+                }
+                newstr[s] = 0;
+
+                printf("%s --> %s\n", str, newstr);
+        }
+
+        int main() {
+
+                unstar ("adf*lp");
+                unstar ("a*o");
+                unstar ("*dech*");
+                unstar ("de**po");
+                unstar ("sa*n*ti");
+                unstar ("abc");
+
+                return 0;
+        }
+
+share
+Save
+cdelahousse
+1 point·5 years ago
+
+Javascript
+
+        function unstar(str) {
+                return str.replace(/.?\*+.?/g, '');
+        }
+
+
+        console.log(unstar ("adf*lp"))
+        console.log(unstar ("a*o"))
+        console.log(unstar ("*dech*"))
+        console.log(unstar ("de**po"))
+        console.log(unstar ("sa*n*ti"))
+        console.log(unstar ("abc"))
+
+share
+Save
+ttr398
+0 01 point·5 years ago
+
+VB.Net because fuck you.
+
+Also I'm not super happy with this one. I struggled with it a bit. Any feedback
+would be great. I settled on this iterative approach after failing to make
+recursion work.
+
+My original solution was essentially the unstar() function, but with a call to
+itself on the output. This only worked for the first run through the word, ie -
+the first star.
+
+As may be clear I've not really used recursion yet, so again - any pointers v.
+welcome. Not entirely confident that recursion would have been the right way to
+go with this anyway (excluding the obvious pattern matching possibilities).
+
+Sub Main()
+    Dim Input As String = Console.ReadLine()
+    Dim Switch As Boolean = False
+        While Not Switch = True
+            If Input.Contains("*") Then
+                Input = Unstar(Input)
+            Else
+                Console.WriteLine(Input)
+                Switch = True
+            End If
+        End While
+        Console.ReadLine()
+End Sub
+
+Private Function Unstar(ByVal starString As String)
+    Dim output As String = ""
+    Dim i As Integer = starString.IndexOf("*")
+    For j As Integer = 0 To i - 2
+        output = output & starString(j)
+    Next
+    For j As Integer = i + 2 To starString.Length - 1
+        output = output & starString(j)
+    Next
+    Return output
+End Function
+
+share
+Save
+no1warlord
+1 point·5 years ago·edited 5 years ago
+
+I'm a fellow VB noob, here's my take on it:
+
+Module Module1
+  Sub Main()
+    Dim a As String = Console.ReadLine()
+    Console.WriteLine(Stars(a))
+    Console.ReadLine()
+  End Sub
+
+  Function Stars(ByVal a As String)
+    Dim SI As Integer
+    Do Until a.Contains("*") = False
+        SI = a.IndexOf("*")
+        If a.StartsWith("*") Then
+            a = a.Remove(SI, 2)
+        ElseIf a.LastIndexOf("*") = a.IndexOf("*") Then
+            a = a.Remove(SI - 1, 2)
+        Else
+            a = a.Remove(SI - 1, 3)
+        End If
+    Loop
+    Return a
+  End Function
+End Module
+
+share
+Save
+marekkpie
+1 point·5 years ago·edited 5 years ago
+
+Lua. Pretty simple with pattern matching.
+
+function stardelete(text)
+  return text:gsub('.?[*]+.?', '')
+end
+
+To explain the pattern:
+
+.? -- find 0 or 1 of anything
+[*]+ -- find at least 1 *
+
+Erlang:
+
+stardelete(S) -> lists:filter(fun(X) -> not lists:member(X, "*") end, S).
+
+share
+Save
+nanermaner
+1 01 point·5 years ago
+
+It's Hideous, I'm a beginner and I'm not proud of it, I had a hard time having
+it deal with when the first or the last character in the string is a *, but it
+works. Java:
+
+public class EasyChallenge111
+{
+public static void main(String[] args)
+{
+  Scanner kb = new Scanner(System.in);
+  System.out.print("Enter a string and I will remove any letters surrounding an asterix: ");
+  String s = kb.nextLine();
+
+  String finale = "";
+  int i = 0;
+
+  if (!s.substring(0,1).equals("*"))
+  {
+  finale = s.substring(0, 1);
+  i = 1;
+  }
+  else
+  {
+    finale = s.substring(2,3);
+    i=3;
+  }
+
+  for(i=i; i<s.length()-1; i++)
+  {
+    if(!s.substring(i,i+1).equals("*") && !s.substring(i-1, i).equals("*") && !s.substring(i+1,i+2).equals("*"))
+    {
+      finale = finale + s.substring(i,i+1);
+    }
+  }
+  if (!s.substring(s.length()-1, s.length()).equals("*"))
+  {
+  finale = finale + s.substring(s.length()-1, s.length());
+  }
+  System.out.println("Original String with asterix and surrounding letters removed: "+finale);
+}
+
+}
+
+share
+Save
+mrdoodlecakes
+0 01 point·5 years ago
+
+In Java, I'm really late for this one.
+
+import java.util.Scanner;
+import java.util.regex.*;
+public class Main {
+static String input;
+public static void main(String[] args){
+        @SuppressWarnings("resource")
+        Scanner s = new Scanner(System.in);
+
+        input = s.next();
+        deleteStar("[*]", input);
+}
+public static void deleteStar(String str, String str2Check){
+        Pattern checkRegex = Pattern.compile(str);
+        Matcher regexMatcher = checkRegex.matcher( str2Check );
+
+        while ( regexMatcher.find() ){
+                System.out.print(input.substring(0, regexMatcher.start()-1));
+                System.out.println(input.substring(regexMatcher.end()+1));
+        }
+}
+
+}
+
+share
+Save
+RichardBoyd42
+1 point·5 years ago·edited 5 years ago
+
+ruby
+
+puts "Enter a string:"
+input = gets.chomp
+inputCharacters = input.split(//)
+if (inputCharacters.include?('*'))
+    star=inputCharacters.index('*')
+    3.times {inputCharacters.delete_at(star-1)}
+end
+puts inputCharacters.join
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+javascript
+
+regex:
+
+function i_love_regex(s)s.replace(/.?\*+.?/g,'')
+
+not regex:
+
+function i_hate_regex(s,i){
+        for (i=0,s=s.split('');i<s.length;i++)
+                (s[i]=='*')&&(s[i]=s[i-1]='')|1&&(s[i+1]=s[i+1]=='*'?s[i+1]:'');
+        return s.join('');
+}
+
+share
+Save
+gammadistribution
+0 00 points·5 years ago·edited 5 years ago
+
+The hardest part for me is concisely making a docstring :\
+
+~~def replace(string, char):~~
+        ~~"""~~
+        ~~Find all instances of char in string and replace character to the~~
+        ~~left of char, char, and character to the right of char with the empty~~
+        ~~string.  Replaces only char and character to the right of char if char~~
+        ~~is found at the beginning of the string and replaces only character to~~
+        ~~the left of char and char if char is found at the end of the string.~~
+        ~~"""~~
+        ~~if char in string:~~
+            ~~return "".join([sub[1:-1] for sub in string.split(char) if sub])~~
+        ~~else:~~
+            ~~return string~~
+
+EDIT: I was hoping to do it without regexp. Too inelegant though.
+
+import re
+
+def reg_replace(string):
+    return re.sub(r'.?\*+.?', '', string)
+
+Also if you are downvoting me, please leave a reply explaining why.
+
+share
+Save
+Cosmologicon
+2 3Original Poster3 points·5 years ago
+
+You should check your solution against the examples given in the post. It works
+for some but not all!
+
+share
+Save
+gammadistribution
+0 01 point·5 years ago
+
+Sorry it's fixed now. I thought it could be done nicely without regexp.
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+Running your code on IDLE:
+
+replace('sd*g', '*')
+
+returns
+
+''
+
+share
+Save
+robotreader
+0 points·5 years ago
+
+I got a little carried away. Ruby's fun!
+
+def rem (str="adf*lp")
+  if !str[0]
+    ""
+  elsif str[0] == '*'
+    puts "gpt"
+    rem str[1.. -1]
+  else
+    puts str[0]
+    str[0] + rem(str[1..-1])
+  end
+end
+
+str = "*santi*"
+puts rem(str)
+
+#alternatively:
+puts str
+ans = ""
+str.each_char do |c|
+  if c != "*" then ans += c end
+end
+puts ans
+
+#alternatively:
+puts str
+puts str.gsub("*", "")
+
+share
+Save
+bfabri
+0 points·5 years ago·edited 5 years ago
+
+My solution in javascript:
+
+function starDelete(text) {
+    return text.replace(/(.?\\*+.?)/g, "");
+}
+
+share
+Save
+Community Details
+r/dailyprogrammer
+
+141k
+
+Subscribers
+
+74
+
+Online
+
+**Welcome to r/DailyProgrammer!** First time visitors of Daily Programmer
+please [Read the Wiki] (http://www.reddit.com/r/dailyprogrammer/wiki/index) to
+learn everything about this subreddit. 3 Programming Challenges a week!
+
+SubscribeCreate Post
+aboutcareerspress
+advertisebloghelp
+the reddit appreddit goldreddit gifts
+content policy| privacy policy
+user agreement| mod policy
+© 2018 Reddit, Inc. All rights reserved
+back to top

@@ -1,0 +1,3343 @@
+close this window
+jump to content
+my subreddits
+edit subscriptions
+
+  • popular
+  • -all
+  • -random
+  • -users
+
+ | 
+
+  • AskReddit
+  • -worldnews
+  • -videos
+  • -funny
+  • -todayilearned
+  • -pics
+  • -gaming
+  • -movies
+  • -news
+  • -gifs
+  • -mildlyinteresting
+  • -aww
+  • -Showerthoughts
+  • -television
+  • -Jokes
+  • -science
+  • -OldSchoolCool
+  • -sports
+  • -IAmA
+  • -Documentaries
+  • -TwoXChromosomes
+  • -explainlikeimfive
+  • -personalfinance
+  • -books
+  • -tifu
+  • -Futurology
+  • -dataisbeautiful
+  • -WritingPrompts
+  • -nottheonion
+  • -food
+  • -Music
+  • -photoshopbattles
+  • -EarthPorn
+  • -philosophy
+  • -Art
+  • -nosleep
+  • -GetMotivated
+  • -askscience
+  • -LifeProTips
+  • -space
+  • -UpliftingNews
+  • -DIY
+  • -history
+  • -gadgets
+  • -creepy
+  • -listentothis
+  • -blog
+  • -announcements
+  • -InternetIsBeautiful
+
+more >>
+dailyprogrammer dailyprogrammer
+
+  • comments
+
+Want to join? Log in or sign up in seconds.|
+
+  • English
+
+[                    ][]
+[ ]limit my search to r/dailyprogrammer
+
+use the following search parameters to narrow your results:
+
+subreddit:subreddit
+    find submissions in "subreddit"
+author:username
+    find submissions by "username"
+site:example.com
+    find submissions from "example.com"
+url:text
+    search for "text" in url
+selftext:text
+    search for "text" in self post contents
+self:yes (or self:no)
+    include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+    include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+
+see the search faq for details.
+
+advanced search: by author, subreddit...
+
+this post was submitted on  07 Jan 2013
+66 points (95% upvoted)
+shortlink:  [https://redd.it/164z]
+[                    ][                    ]
+[ ]remember mereset password
+login
+Submissions restricted
+Only approved users may post in this community.
+
+dailyprogrammer
+
+subscribeunsubscribe141,927 readers
+
+89 users here now
+
+ 1. Challenge #321: Easy
+ 2. Challenge #321: Intermediate
+ 3. Challenge #321: Hard
+ 4. Weekly #25: Escape the trolls
+
+Welcome to r/DailyProgrammer!
+
+First time visitors of Daily Programmer please Read the Wiki to learn
+everything about this subreddit.
+
+  • Solution Submission Tutorial
+  • Solution Submission Guidelines
+  • Code / Peer-Review Guidelines
+  • Problem Submission Guidelines
+  • Achievements System
+  • Community Projects
+  • Links to other Programming subreddits
+  • Special Thanks
+
+Can't submit solutions?
+
+If you are a new or unverified account, and are unable to post comment replies,
+please click here to verify your account. Otherwise, read the Solution
+Submission Tutorial for a walkthrough of submitting a solution, or click below
+to message the moderators for assistance.
+
+Write your own challenge!
+
+To help the community and write your own challenge to be submitted, head on
+over to /r/DailyProgrammer_Ideas and share your project - read the sidebar in
+that subreddit for more information.
+
+IRC Channel
+
+Message the Moderators
+
+Challenge List in Chronological Order
+
+created by nottoobadguya community for 6 years
+message the moderators
+
+MODERATORS
+
+  • rya111113 1
+  • nint221 2
+  • Cosmologicon2 3
+  • Elite68091 1
+  • XenophonOfAthens2 1
+  • jnazario2 0
+  • Godspiral3 3
+  • Blackshell2 0
+  • fvandepitte0 0
+  • G33kDude1 1
+  • about moderation team >>
+
+discussions in r/dailyprogrammer
+<>
+X
+ 
+62 . 21 comments
+[2018-05-04] Challenge #359 [Hard] Primes in Grids
+ 
+42 . 36 comments
+[2018-05-02] Challenge #359 [Intermediate] Unwrap Some Text
+ 
+64 . 106 comments
+[2018-04-30] Challenge #359 [Easy] Regular Paperfold Sequence Generator
+ 
+65 . 12 comments
+[2018-04-27] Challenge #358 [Hard] Puzzle me this
+ 
+51 . 36 comments
+[2018-04-25] Challenge #358 [Intermediate] Everyone's A Winner!
+ 
+72 . 75 comments
+[2018-04-23] Challenge #358 [Easy] Decipher The Seven Segments
+ 
+55 . 28 comments
+[2018-04-20] Challenge #357 [Hard] Continued Fractions
+ 
+55 . 26 comments
+[2018-04-19] Challenge #357 [Intermediate] Kolakoski Sequences
+ 
+74 . 114 comments
+[2018-04-11] Challenge #356 [Intermediate] Goldbach's Weak Conjecture
+ 
+85 . 78 comments
+[2018-03-28] Challenge #355 [Intermediate] Possible Number of Pies
+
+Welcome to Reddit,
+
+the front page of the internet.
+
+Become a Redditor
+
+and subscribe to one of thousands of communities.
+
+x
+
+65
+66
+67
+
+[01/07/13] Challenge #116 [Easy] Permutation of a string (self.dailyprogrammer)
+
+submitted 5 years ago by nint221 2
+
+ (Easy): Permutation of a string
+
+Write a function that prints all of the permutatons of the unique characters of
+a given string. For example, permute("baz") would print:
+
+baz
+bza
+abz
+azb
+zba
+zab
+
+Find all the permutations of daily.
+
+Author: skeeto
+
+Formal Inputs & Outputs
+
+Input Description
+
+Your function should accept a single string variable which is guaranteed to be
+at least 1 character long.
+
+Output Description
+
+Print all permutations of the given string variable.
+
+Sample Inputs & Outputs
+
+Sample Input
+
+Let the string argument be "ab"
+
+Sample Output
+
+All permutations of "ab" would be ["ab", "ba"]
+
+Challenge Input
+
+Let the string argument be "abbccc"
+
+Challenge Input Solution
+
+abbccc abcbcc abccbc abcccb acbbcc acbcbc acbccb accbbc accbcb acccbb babccc
+bacbcc baccbc bacccb bbaccc bbcacc bbccac bbccca bcabcc bcacbc bcaccb bcbacc
+bcbcac bcbcca bccabc bccacb bccbac bccbca bcccab bcccba cabbcc cabcbc cabccb
+cacbbc cacbcb caccbb cbabcc cbacbc cbaccb cbbacc cbbcac cbbcca cbcabc cbcacb
+cbcbac cbcbca cbccab cbccba ccabbc ccabcb ccacbb ccbabc ccbacb ccbbac ccbbca
+ccbcab ccbcba cccabb cccbab cccbba
+
+Note
+
+  • Bonus 1: Instead of printing, be functional. Return a collection (array,
+    etc.) of the permutations.
+
+  • Bonus 2: Correctly handle the case when the input contains a character
+    multiple times. That is, don't output repeats and ensure the output
+    contains the same number of characters as the input. For example, there are
+    three permutations of foo: foo, ofo, oof.
+
+  • Note that this challenge is a near-duplicate of challenge #12, hence why
+    there is the above "bonus" challenges
+
+  • 107 comments
+  • share
+  • save
+  • hide
+  • report
+
+all 107 comments
+sorted by:
+best
+topnewcontroversialoldrandomq&alive (beta)
+ [                    ]
+
+Want to add to the discussion?
+
+Post a comment!
+
+Create an account
+
+[–]GodComplex20 1 17 points18 points19 points 5 years ago (2 children)
+
+For people having trouble understanding how to do this, I've tried to write an
+algorithm that's easy to understand Python:
+
+def permute(s):
+"""
+Returns a set of the permutations of the given string
+
+Algorithm:
+1. Define a substring which is the string to permute minus the last letter
+2. Get the permutations of the substring (recursion)
+    2.1 A substring of length 1 has only one permutation (itself)
+3. For each permutation from step 2 (called a 'seed')
+    3.1 Add the final character of the string to each potential location
+    in the seed (ie at the beginning, between each letter, and at
+    the end) in turn
+    3.2 These are the permutations of the string
+
+To understand this algorithm try doing it on paper:
+Permute "A" --> A
+Then permute "AB" --> AB, BA
+Then permute "ABC" --> CAB, ACB, ABC, CBA, BCA, BAC
+
+Realise that what your doing each time you lengthen the string by a
+character is you're adding the new character to each potential location
+in the permutations of the previous string - this is most obvious in the
+"ABC" example:
+    Add C to each point in AB --> CAB, ACB, ABC
+    Add C to each point in BA --> CBA, BCA, BAC
+"""
+if len(s) == 1:
+    return set([s])
+
+perms = set()
+
+for seed in permute(s[:-1]):
+    for position in range(len(s)):
+        perms.add(seed[:position] + s[-1] + seed[position:])
+
+return perms
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ttr3980 0 2 points3 points4 points 5 years ago (0 children)
+
+Thanks for that - clears it up a lot.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nint221 2[S] 2 points3 points4 points 5 years ago (0 children)
+
+A clean implementation of the classic approach, so +1 silver medal! Good
+documentation too.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 10 points11 points12 points 5 years ago (0 children)
+
+J:
+
+~.(i.!#y)A.y
+
+A. is the Anagram operator: x A. y finds the xth permutation of y. We pass the
+list of integers from 0 to n!-1 to A. to have it generate all n! possible
+permutations. Then, we filter unique items using ~. (Nub).
+
+  • permalink
+  • embed
+  • save
+
+[–]skeeto-9 8 7 points8 points9 points 5 years ago (8 children)
+
+These all satisfy both bonuses. Removing an element from the middle of a
+sequence seems to be ugly in every language. slice slice append
+
+Clojure,
+
+(defn permute
+  ([string]
+     (permute string ""))
+  ([string prefix]
+     (if (empty? string)
+       [prefix]
+       (distinct
+        (flatten
+         (for [i (range (count string))]
+           (permute (str (.substring string 0 i) (.substring string (inc i)))
+                    (str prefix (get string i)))))))))
+
+JavaScript,
+
+function permute(string) {
+    function recur(string, prefix) {
+        if (string.length === 0) {
+            return [prefix];
+        } else {
+            var out = [];
+            for (var i = 0; i < string.length; i++) {
+                var pre = string.substring(0, i);
+                var post = string.substring(i + 1);
+                out = out.concat(recur(pre + post, string[i] + prefix));
+            }
+            return out;
+        }
+    }
+    var distinct = {};
+    recur(string, "").forEach(function(result) {
+        distinct[result] = true;
+    });
+    return Object.keys(distinct);
+}
+
+Common Lisp / Emacs Lisp,
+
+(defun permute (string &optional (prefix ""))
+  (if (string= "" string)
+      (list prefix)
+      (flet ((cat (a b) (concatenate 'string a b)))
+        (loop for i below (length string)
+           for new-string = (cat (subseq string 0 i) (subseq string (1+ i)))
+           for new-prefix = (cat prefix (subseq string i (1+ i)))
+           append (permute new-string new-prefix) into output
+           finally (return (remove-duplicates output :test #'string=))))))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]indivitalism 4 points5 points6 points 5 years ago (6 children)
+
+Hi, could you please comment and describe in detail your Clojure and JS code?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]skeeto-9 8 11 points12 points13 points 5 years ago (5 children)
+
+It's the same algorithm for all three, just expressed idiomatically for each
+language. The algorithm is generatively recursive, accumulating a prefix
+string, initially empty, as the second argument. Possibly the most important
+thing to pay attention to is the types of the inputs and outputs. The inputs
+are always strings and the output is always a collection of strings.
+
+The prefix can be considered an arbitrary string that needs to be prepended to
+all permutations of the input string. In the case where the input string is
+empty -- the bottom of the recursion -- there is exactly one permutation: the
+empty string. Since this is appended to the prefix, all that we need to return
+is the prefix string stuffed into a collection.
+
+If the input string is not empty, pick the first letter in the string (locking
+it in place), compute the permutations of the remainder (recurse), and prepend
+the selected letter to the results. This prepend is done by appending it to the
+prefix and passing it as the new prefix when recursing. Repeat for each letter
+in the input string.
+
+Clojure
+
+In the Clojure code the function has two arities, making for an optional second
+argument, so the caller doesn't need to worry about passing the empty string
+for the prefix. It then checks to see if the recursion bottomed out (empty?),
+returning the prefix in a vector (remember, this function always returns a
+collection).
+
+Ignore flatten and distinct for the moment. If the input string isn't empty,
+use for to do a list comprehension across the characters of the input string.
+The results of each run of the body of the for loop is collected into a vector.
+It's important to note that I'm walking by index instead of by character. This
+is because I want to handle the case where the same character appears multiple
+times in the input, so I need to know exactly which character I'm on.
+
+When recursing, I remove the current character from the input (using the
+.substring method) and append the character to the prefix (str). I can't use
+recur here, to avoid using stack, since the body of the for loop isn't actually
+a tail position.
+
+Since permute always returns a vector, the for loop is now a vector of vecote.
+I'd prefer if the for loop could concatenate its results instead of collecting
+them, but that's not an option (my loop macro in the Common Lisp solution does
+do this). I use flatten to flatten the vector of vectors into a simple vector
+of strings.
+
+If the same character appears twice or more, we'll see the same permutation
+again. I use distinct to remove any duplicates before returning the vector.
+This is a brute-force way to go about it and I bet there's a better way to
+avoid generating duplicates in the first place, but this wasn't obvious to me.
+That's why I made it a bonus when I wrote this challenge.
+
+JavaScript
+
+For JavaScript I recurse in a private function. This takes care of the optional
+argument but also has an addition advantage over the other two functions I
+wrote. It only removes duplicates once, at the top level function.
+
+So recur is the same algorithm as Clojure, except ECMAScript 5 doesn't have
+nice list comprehensions, so I use an explicit for loop -- with explicit
+mutation, which is entirely absent from the Clojure version.
+
+The bottom part creates an object called distinct and uses each of the
+permutations as properties on it. The value true is completely unimportant here
+and could be anything. This process collapses duplicates into a single instance
+-- in linear time, too -- because properties can only appear once. To pull out
+only the unique permutations I just grab all the properties of this object
+(Object.keys()).
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]jwdink 1 point2 points3 points 5 years ago (4 children)
+
+Sorry for being dense, but I'm having a lot of trouble understanding your JS
+code.
+
+This part, especially, is giving me a hard time:
+
+recur(string, "").forEach(function(result) {
+        distinct[result] = true;
+    });
+
+Where does "result" come from? I obviously don't have a good grasp on passing
+functions into other functions, as it looks like you're doing here.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]skeeto-9 8 8 points9 points10 points 5 years ago* (3 children)
+
+In JavaScript, functions are first-class. This means functions can be passed
+around just like any other value, such as numbers and strings. In JavaScript
+it's also possible to create functions without a name, called anonymous
+functions. An expression that does this is sometimes called a lambda expression
+, named after Church's lambda calculus.
+
+For example, this should be familiar to you. It creates a new variable, a
+binding, assigning the name x to the number 10 for some scope.
+
+var x = 10;
+
+Instead of a number, a function can be assigned to x.
+
+var x = function() { return 5; }
+
+Afterwards x can be treated just like a normally declared function. Here, x is
+called, evaluating its body and returning a value.
+
+x();  // Calls `x`, evaluating to 5
+
+This last assignment is nearly identical to the more familiar form. (I won't
+get into the two small differences here.)
+
+function x() { return 5; }
+
+The parameters of functions also create bindings in the same way, specifically
+for the body of the function (a scope). Here, the name x inside the function is
+bound to the value passed to the function, not the global variable x.
+
+var x = 10; // Not directly accessible due to being masked!
+function square(x) {
+    return x * x;
+}
+
+square(4);  // Evaluates to 16
+
+Applying the knowledge above, a function can be passed to another function,
+where it is bound to a name given by a parameter. That name can be treated just
+like a function.
+
+function callWithTen(f) {
+    return f(10);
+}
+
+callWithTen(function(x) { return 2 * x; });  // Evaluates to 20
+
+Here, an anonymous function is passed to the function callWithTen, which
+applies the function to the value 10.
+
+The forEach method on arrays accepts a function and applies that function to
+each element in the array (purely for side effects). Similarly, I could write
+my own each function, which takes an array and a function and applies it to
+each element of the array.
+
+function each(array, f) {
+    for (var i = 0; i < array.length; i++) {
+        f(array[i]);
+    }
+}
+
+In the same way I could have not used forEach and instead iterated over the
+array with a normal for loop. However, I prefer these higher-order constructs
+when available.
+
+There's actually a whole lot more to first-class functions than this. In
+JavaScript, functions are full lexical closures, closing over the environment
+in which they were instantiated. I'm not taking advantage of this in my
+challenge solution. There's also a whole category of functions that accept
+functions as arguments and return other functions. These are called
+higher-order functions. Here's a parting example of a higher-order function
+that returns a closure,
+
+/* A higher-order function. */
+function complement(f) {
+    return function(x) { return !f(x); };
+}
+
+[1, NaN, 3].filter(complement(isNaN)); // Evaluates to [1, 3]
+
+For the long explanation: SICP
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nint221 2[S] 3 points4 points5 points 5 years ago (2 children)
+
++1 silver for an awesome solution approach, and +1 gold medal for being a great
+user, explaining your code! Thanks for helping out make our community great.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]skeeto-9 8 3 points4 points5 points 5 years ago (1 child)
+
+Don't I get another +1 gold since this was also my problem from r/
+dailyprogrammer_ideas? ;-)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nint221 2[S] 7 points8 points9 points 5 years ago (0 children)
+
+You think these virtual gold medals grow on trees?! (+1 gold added :P)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]aredna1 0 0 points1 point2 points 5 years ago (0 children)
+
+You comment regarding no good way to remove an element from the middle reminded
+me that in SQL there is a STUFF function which replaces text at a specific
+position in the string. If you tell it to replace with an empty string it just
+removes that text instead. For example
+
+select stuff('test',2,1,'')
+
+will give you 'tst'.
+
+It wouldn't surprise me to find this function in some real programming
+languages as well.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nudan1 6 points7 points8 points 5 years ago (2 children)
+
+C++: (hint: this problem screams recursion!)
+
+#include <iostream>
+#include <string>
+
+void premute_string_aux (std::string prefix, std::string rest)
+{
+    if (rest == "") {
+        std::cout << prefix << std::endl;
+    } else {
+        for (int i = 0; i < rest.length (); i++) {
+            if (rest.find (rest[i]) == i) {
+                std::string new_prefix = prefix + rest[i];
+                std::string new_rest = rest.substr (0, i) + rest.substr (i + 1);
+                premute_string_aux (new_prefix, new_rest);
+            }
+        }
+    }
+}
+
+void premute_string (std::string str)
+{
+    premute_string_aux ("", str);
+}
+
+int main ()
+{
+    premute_string ("abbccc");
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 5 years ago (1 child)
+
+[deleted]
+
+[–]nudan1 1 point2 points3 points 5 years ago (0 children)
+
+Hello,
+
+If you look at the reference documentation for the find function you will see
+that it returns a size_t type, which is integral, hence you can compare with i.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]tsahyt 4 points5 points6 points 5 years ago (0 children)
+
+I feel that this is sort of cheating but, a quick python one-liner using
+itertools.permutations does it nicely while handling both the bonuses:
+
+permute = lambda s: [reduce(lambda s, x: c: s+c, i, "") for i in permutations(s)]
+
+So here we go with some C code, quick and dirty (read: has some bugs and
+doesn't satisfy the bonuses):
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <alloca.h>
+
+static int charcmp(const void* a, const void* b)
+{
+    return *(char*)a - *(char*)b;
+}
+
+static void charswp(char* a, char* b)
+{
+    char t;
+
+    t = *a;
+    *a = *b;
+    *b = t;
+}
+
+void permute(const char* string)
+{
+    char*  wstr;
+    size_t len;
+    int    i,j,k,l;
+
+    len   = strlen(string);
+    wstr  = (char*)alloca(sizeof(char) * (len + 2));
+    strncpy(wstr + 1, string, len + 2);
+    wstr[0] = 1; /* algorithm needs an a_0 smaller than all others */
+
+    qsort(wstr, len, sizeof(char), &charcmp);
+
+    i = 0;
+    for(;;)
+    {
+        /* visit */
+        printf("%s\n", wstr);
+
+        /* find j */
+        j = len - 1;
+        while(charcmp(wstr + j, wstr + j + 1) >= 0 && j > 0) { --j; }
+        if(!j) { break; }
+
+        /* increase aj */
+        l = len;
+        while(charcmp(wstr + j, wstr + l) >= 0) { --l; }
+        charswp(wstr + j, wstr + l);
+
+        /* reverse aj+1 ... an */
+        k = j + 1;
+        l = len;
+        while(k < l)
+        {
+            charswp(wstr + k, wstr + l);
+            ++k;
+            --l;
+        }
+
+        ++i;
+    }
+}
+
+int main(int argc, const char *argv[])
+{
+    if(argc == 2)
+    {
+        permute(argv[1]);
+    }
+    else
+    {
+        printf("supply word as argument!\n");
+    }
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ixid0 0 4 points5 points6 points 5 years ago* (4 children)
+
+Bogo-permute, written in the D language. An intentionally stupid method that
+randomly rearranges the array until it's in an order that's not been seen
+before with the added bonus of getting stuck if it's already done all
+permuations.
+
+// Bogo Permute
+import std.stdio, std.algorithm, std.random, std.range;
+
+auto permuteClosure(T)() {
+    bool[T[]] seen;
+    return (T[] a) => shuffle!T(a, seen);
+}
+
+auto shuffle(T)(T[] a, ref bool[T[]] seen) {
+    while(a in seen)
+        a.map!(x => uniform(0UL, ulong.max)).array.zip(a).sort!"a[0] > b[0]";
+    seen[a.idup] = true;
+    return a;
+}
+
+void main() {
+    auto permute = permuteClosure!int;
+
+    foreach(i;0..6)
+        permute([1,2,3]).writeln;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]hamishiam1 0 6 points7 points8 points 5 years ago (3 children)
+
+Awesome answer, but I think there may be a bug! With long strings it is not
+possible to generate all permutations: Note that a pseudo-random number
+generator seeds the next generated number using only the previously generated
+number, so a random ordering of the characters is fully determined by the first
+number generated. A 64-bit generator can produce only 2^64 distinct values,
+hence only 2^64 permutations. So your algorithm will never halt on a string of
+length 21 (because 21! > 2^64). This is a serious issue since O(infinity) is a
+significantly worse running time than the O(life-span of the universe) is
+should take. :-)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ixid0 0 4 points5 points6 points 5 years ago (0 children)
+
+I'm just testing this out, I'll get back to you when it halts.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nint221 2[S] 0 points1 point2 points 5 years ago (1 child)
+
++1 gold because of badass topic to bring up!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]hamishiam1 0 1 point2 points3 points 5 years ago (0 children)
+
+Yay! Thanks. You made my day. :-)
+
+Yeah, I really like the limitations of pseudo-randomness topic. I wonder if
+there's a challenge there, to bring it to peoples attention...
+
+Thanks again for the medal.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]aredna1 0 5 points6 points7 points 5 years ago (6 children)
+
+As a MSSQL Query. Horribly inefficient, but in theory would work for strings up
+nvarchar limits.
+
+MS SQL String Permutations
+
+For some reason I get the following error every time I try to post something
+with a CTE to reddit, even with extensions disabled. I'd love to be able to
+post the solution inline if anyone has any suggestions.
+
+an error occurred while posting (status: 0)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 2 points3 points4 points 5 years ago (2 children)
+
+Wow! VERY cool! Now, contrary to popular belief, (pseudo-standard) SQL is
+actually Turing Complete nice proof here... but this feat of little hackery is
+really impressive well worth a golden medal. Slick answer, very nice!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]aredna1 0 2 points3 points4 points 5 years ago (1 child)
+
+Fancy, I was just hoping for a silver!
+
+With that proof of completeness I'm definitely going to try to force future
+problems into a single query. The travelling salesman problem example in that
+PDF is amazing. I'm stuck using MSSQL 2008 right now, but maybe I should
+download PostgreSQL for some future problems for some of the extra features it
+has such as the ARRAY data type and being able to convert tables/subqueries to
+and from it.
+
+Now if I can figure out how to actually post CTEs on here in line. I need to do
+some more testing to figure out exactly what part of the query prevents the
+post from going through.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nint221 2[S] 1 point2 points3 points 5 years ago (0 children)
+
+If you're really into the hard-core proof of it all, rather than fun examples
+of programs, all you have to do is focus on the ability to read/write memory
+(this part is easy) and dynamic conditionals (the hard part!). Someone wrote
+Conway's game of life in standard SQL, which was their approach to the proof
+(implementing such a game is not proof enough, but they had method to the
+madness which was enough)!
+
+Just go crazy, try something out, and keep at it! Writing code in an obscure
+language is one thing, but writing in a language that wasn't designed to do the
+features in question is pretty fu**ing awesome!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]shaggorama 1 point2 points3 points 5 years ago (2 children)
+
+I speak Oracle SQL but not MSSQL so I'm not entirely sure what you're doing
+here, but if you wanted to use a database solution, why didn't you just chop up
+the input string into n records (1 for each character) and then take the
+cartesian product of joining on n copies of the resultant table?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]aredna1 0 0 points1 point2 points 5 years ago (1 child)
+
+That would actually work as well. Is there an easy way to do a cartesian
+product n times? I can't think of one without building and executing a query
+string, but I'm sure there are other ways that I haven't thought about. I'm not
+familiar with Oracle, but maybe it's in there.
+
+Regarding how my query works, the idea is that we generate all strings through
+recursion. I uploaded a new copy here with comments and better variable names
+that may help with understanding how it works: http://pastebin.com/ij0VZ2cj
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]shaggorama 1 point2 points3 points 5 years ago* (0 children)
+
+Yeah, I was thinking of just building the SQL query with n references to the
+table name and then executing the query, so something like (in oracle PL/SQL):
+
+CREATE TABLE temp (chars varchar2(1));
+
+DECLARE
+sql_str varchar2(255);
+CURSOR cur IS SELECT * FROM temp;
+in_word := 'baz'
+BEGIN
+    sql_str := 'CREATE TABLE results AS SELECT * FROM '
+    FOR c IN cur LOOP
+        sql_str:= sql_str || 'temp, '
+    END LOOP;
+    sql_str:= sql_str || 'dual' -- handle trailing comma from loop
+    EXECUTE IMMEDIATE sql_str;
+END;
+
+EDIT: Totally forgot to populate "temp" with the individual characters in the
+input string. Oops. You get the idea.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Glassfish0 0 3 points4 points5 points 5 years ago* (2 children)
+
+Scala:
+
+val str="abbccc"
+(str permutations) toList
+
+Edit:
+
+Without using the built-int function:
+
+def permutations(s:List[Char]):List[List[Char]]= s match{
+     case head :: Nil  => List(List(head))
+     case _ => for(i<-s; p<-permutations(s diff List(i)))yield i::p
+}
+permutations("abbccc".toList) toSet
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]domlebo701 2 2 points3 points4 points 5 years ago (1 child)
+
+You can change yours slightly and make it a tiny bit nicer:
+
+def permutations(s: List[Char]): List[List[Char]] = s match{
+   case Nil  => List(Nil)
+   case _ => for(i <- s; p <- permutations(s diff List(i))) yield i :: p
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Glassfish0 0 1 point2 points3 points 5 years ago (0 children)
+
+Yes, you're right, this makes more sense. Thank you :D
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]redried1 0 3 points4 points5 points 5 years ago (0 children)
+
+Javascript with underscore for a clumsy functional approach. (Don't quite get
+it, but this was fun.)
+
+#!/usr/bin/env node
+
+var _ = require('underscore');
+
+
+// Returns an array with the element at index removed.
+Array.prototype.remove = function (index) {
+  var out = this.slice(0, index);
+  out.push(this.slice(index + 1));
+  return _.flatten(out);
+};
+
+// Returns an array of unique character permutations of the string
+var permuteString = function (str_in) {
+  return _.uniq( // ha ha, now it's unique
+  _.map(permute(str_in.split('')), function (array_in) {
+    return array_in.join('');
+  }));
+};
+
+var permute = function (array_in) {
+
+  // Return ['a'] or ['b'], ie a one element array
+  if (array_in.length === 1) return array_in;
+
+  var array_out = [];
+  // Or return an array of arrays
+  // [ ['a','b'], ['b','a'] ]
+  _.each(array_in, function (element, index) {
+    _.each(permute(array_in.remove(index)), function (permutation) {
+      array_out.push(_.flatten([element, permutation]));
+    });
+  });
+  return array_out;
+};
+
+console.log(permuteString("abbccc"));
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]marekkpie 2 points3 points4 points 5 years ago* (0 children)
+
+Lua.
+
+Didn't see a Lua version here. Lua's strings cannot be nicely indexed, so I
+have to turn the string into a table before I can permute through it.
+
+Also, the mathematical term for Bonus 2 is a combination
+
+function permute(text)
+  local function inner(a, n, tbl)
+    if n > 0 then
+      for i = 1, n do
+        a[i], a[n] = a[n], a[i]
+        inner(a, n - 1, tbl)
+        a[i], a[n] = a[n], a[i]
+      end
+    else
+      local text = table.concat(a, '')
+      for _,v in pairs(tbl) do -- ugly combination checker
+        if v == text then return end
+      end
+      table.insert(tbl, text)
+    end
+  end
+
+  local tbl = {}
+  local collection = {}
+
+  for c in text:gmatch('.') do table.insert(tbl, c) end
+
+  inner(tbl, #tbl, collection)
+
+  return collection
+end
+
+Erlang:
+
+permute([]) -> [[]];
+permute(L) -> [[H|T] || H <- L, T <- permute(L -- [H])].
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]javamonk 2 points3 points4 points 5 years ago (0 children)
+
+A recursive solution in ruby:
+
+def permute( inString )
+ if ( inString.length == 1 )
+
+     return inString
+ else
+     permutations = []
+
+     for i in (1..inString.length-1) do
+         for permutation1 in permute( inString[0,i] ) do
+             for permutation2 in permute( inString[i,inString.length-1] ) do
+                 permutations << permutation1 + permutation2
+                 permutations << permutation2 + permutation1
+             end
+         end
+
+     end
+
+     return permutations
+ end
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]HandOfTheCEO 2 points3 points4 points 5 years ago* (0 children)
+
+Haskell solution:
+
+permute :: (Eq a) => [a] -> [[a]]
+permute [] = [[]]
+permute [a,b] = [[a,b],[b,a]]
+permute l = tail $ foldl (\acc x -> acc ++ (map (x:) (permute (del x l)))) [[]] l
+where
+    del :: (Eq a) => a -> [a] -> [a]
+    del x = filter (x/=)
+
+EDIT: It worked for input "daily". Doesn't work for repetitions. Will update it
+when done.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]foreveranewbie 2 points3 points4 points 5 years ago* (0 children)
+
+It works and achieves the bonus challenges. I'm pretty sure the nested while
+statements are inadvisable but that was all I could think of without cheating.
+Any other critiques would be appreciated.
+
+Python:
+
+from string import join
+from copy import deepcopy
+
+def letter_swap(string, index1, index2):
+    new_string = deepcopy(string)
+    new_string[index2] = string[index1]
+    new_string[index1] = string[index2]
+    return join(new_string, '')
+
+def permutations(string):
+    res = [string]
+    string = list(string)
+    i = 0
+    while i < len(string) - 1:
+        t = i + 1
+        while t < len(string):
+            q = letter_swap(string, i, t)
+            if q in res:
+                t += 1
+            else:
+                res.append(letter_swap(string, i, t))
+                t += 1
+        i += 1
+    return res
+
+if __name__ == '__main__':
+    print permutations('abbccc')
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]hamishiam1 0 2 points3 points4 points 5 years ago* (0 children)
+
+Another recursive Java solution, including bonuses.
+
+Worked on optimisation a fair bit. Points of interest:
+
+  • It doesn't use a set for uniqueness, but instead only recurses on each
+    unique character (huge performance gain.)
+
+  • Needless copying is avoided as much as possible, by re-arranging the input
+    array before recursing, then repairing it afterwards.
+
+Notes:
+
+  • The BitSet is used to record which characters have already been seen. It's
+    repeated creation and modification is by far the most expensive part of the
+    algorithm. I had an alternative idea, which was to keep the input
+    characters ordered so you would only need to look at the previous character
+    to know if the current was a repeat, but in-place swapping made this
+    approach troublesome.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+public static List<String> permute(String str) {
+    List<String> result = new ArrayList<String>();
+    if (!str.isEmpty())
+        permute0(str.toCharArray(), 0, result);
+    return result;
+}
+
+private static void permute0(char[] arr, int start,
+             Collection<String> result) {
+    if (start == arr.length - 1) {
+        result.add(new String(arr));
+    } else {
+        BitSet seen = new BitSet(128);
+        for (int i = start; i < arr.length; i++) {
+            if (!seen.get(arr[i])) {
+                swap(arr, i, start);
+                permute0(arr, start + 1, result);
+                swap(arr, i, start);
+                seen.set(arr[i]);
+            }
+        }
+    }
+}
+
+private static void swap(char[] arr, int i, int j) {
+    final char tmp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = tmp;
+}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Edit: Fixed formatting
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 2 points3 points4 points 5 years ago (0 children)
+
+Java
+
+import java.util.*;
+
+public class Permute {
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        permute("google");
+    }
+    public static void permute(String input){
+        HashSet<String> results = new HashSet<String>();
+        results = permuteHelper(input, results, "");
+        String[] output = new String[results.size()];
+        Iterator<String> combinations = results.iterator();
+        for(int i = 0; i < output.length; i++){
+            output[i] = combinations.next();
+        }
+        System.out.println(Arrays.toString(output));
+    }
+
+    public static HashSet<String> permuteHelper(String input, HashSet<String> results, String word){
+        if(input.length() == 1){
+            results.add(word + input);
+        }
+        else{
+            for(int i = 0; i < input.length(); i++){
+                word = word + input.charAt(i);
+                if(i == 0 ){
+                    results = permuteHelper(input.substring(1, input.length()), results, word);
+                } else if (i == input.length() -1){
+                    results = permuteHelper(input.substring(0, input.length() - 1), results, word);
+                } else {
+                    results = permuteHelper(input.substring(0, i) + input.substring(i+1, input.length()), results, word);
+                }
+                word = word.substring(0, word.length()-1);
+            }
+        }
+        return results;
+    }
+}
+
+Seems to work with bonuses (permute finishes with a Hash set, use an array to
+print it)
+
+Not the cleanest ending in the world, but the code seems pretty good. sorry for
+lack of comments.
+
+  • permalink
+  • embed
+  • save
+
+[–]wallstop1 1 3 points4 points5 points 5 years ago* (0 children)
+
+Since the sum-pairs, set's have been on my mind. The code below hits all the
+requirements and all bonuses.
+
+Java.
+
+public static HashSet<String> permuteString(String inputString)
+{
+    HashSet<String> permutationSet; //Used to hold all permutations
+    HashSet<String> tempSet;    //Used as a temporary holder so as to not update while iterating
+    String currentString;
+    char currentChar;
+
+    permutationSet = new HashSet<String>();
+
+    permutationSet.add(inputString.charAt(0) + "");
+
+    for(int i = 1; i < inputString.length(); i++)
+    {
+        currentChar = inputString.charAt(i);
+        tempSet = new HashSet<String>();    //Emptied every time
+
+        for(String element : permutationSet)
+        {
+            currentString = element;
+
+            for(int j = 0; j <= i; j++)
+            {
+                tempSet.add(currentString.substring(0, j) + currentChar + currentString.substring(j, currentString.length()));  //All possible permutations!
+            }
+        }
+
+        permutationSet = tempSet;   //Update permutationSet
+    }
+
+    //Prints
+    for(String element : permutationSet)
+        System.out.println(element);
+
+    return permutationSet;
+}
+
+Edit: Doesn't handle empty strings :( This is all that's needed to fix it:
+
+    if(!inputString.isEmpty())
+        permutationSet.add(inputString.charAt(0) + "");
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 5 years ago (5 children)
+
+[deleted]
+
+[–]KarmaAndLies 2 points3 points4 points 5 years ago (2 children)
+
+Holy shit that is difficult to read.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]robertmeta 4 points5 points6 points 5 years ago (0 children)
+
+Linq takes getting used to
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ixid0 0 0 points1 point2 points 5 years ago (0 children)
+
+It's really not, just read it left to right when it's dots as each thing is
+piped to the next and => are the lambda functions.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nint221 2[S] 0 points1 point2 points 5 years ago (0 children)
+
+Slick use of lambdas and stacking function-calls: +1 silver!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Feroc 0 points1 point2 points 5 years ago (0 children)
+
+I really have to get used to Linq. It may not be the easiest to read, but it's
+just so short.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]SplashAttacks0 1 3 points4 points5 points 5 years ago (0 children)
+
+Java with Recursion
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+
+public class Challenge116 {
+    private static int factorial(int n) {
+        int result = n;
+        for (int i = n - 1; i >= 1; i--) {
+            result *= i;
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        Challenge116 challenge = new Challenge116();
+        String testString = "abbccc";
+        List<String> permutations = challenge
+                .permuteWithoutDuplicates(testString);
+        int numberOfSolutions = numberOfSolutions(testString);
+        if (permutations.size() != numberOfSolutions) {
+            throw new RuntimeException("Number of solutions found "
+                    + permutations.size()
+                    + " does not equal the number of solutions expected "
+                    + numberOfSolutions);
+        }
+        Collections.sort(permutations);
+        for (String permutation : permutations) {
+            System.out.println(permutation);
+        }
+    }
+
+    private static int numberOfSolutions(String string) {
+        int result = factorial(string.length());
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
+        for (int i = 0; i < string.length(); i++) {
+            char c = string.charAt(i);
+            Integer count = map.get(c);
+            if (count == null) {
+                map.put(c, 1);
+            } else {
+                map.put(c, count + 1);
+            }
+        }
+        for (Integer count : map.values()) {
+            result /= factorial(count);
+        }
+        return result;
+    }
+
+    private static String swap(String string, int index1, int index2) {
+        char[] c = string.toCharArray();
+
+        char temp = c[index1];
+        c[index1] = c[index2];
+        c[index2] = temp;
+
+        return new String(c);
+    }
+
+    private List<String> permuteWithDuplicates(String string) {
+        List<String> result = new ArrayList<String>();
+        if (string.length() == 2) {
+            result.add(string);
+            result.add(swap(string, 0, 1));
+        } else {
+            for (int i = 0; i < string.length(); i++) {
+                String swappedString = swap(string, 0, i);
+                char startingChar = swappedString.charAt(0);
+                for (String str : permuteWithDuplicates(swappedString
+                        .substring(1))) {
+                    result.add(startingChar + str);
+                }
+            }
+        }
+        return result;
+    }
+
+    private List<String> permuteWithoutDuplicates(String string) {
+        return new ArrayList<String>(new HashSet<String>(
+                permuteWithDuplicates(string)));
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 1 point2 points3 points 5 years ago (0 children)
+
+In Go:
+
+func permutations(s string) []string {
+    if len(s) <= 1 {
+        return []string { s }
+    }
+    perms := permutations(s[1:])
+    c := s[0]
+    result := make([]string, 0)
+    for _, perm := range perms {
+        for i := 0; i < len(perm); i++ {
+            result = append(result, string(perm[:i] + string(c) + perm[i:]))
+        }
+    }
+    return result
+}
+
+  • permalink
+  • embed
+  • save
+
+[–]robertmeta 1 point2 points3 points 5 years ago* (0 children)
+
+Erlang: (escript allows running as a script rather than compiled, + both
+bonuses)
+
+#!/usr/bin/env escript
+main([Args]) -> io:format("Permutations are ~p~n", [lists:usort(permutations(Args))]).
+
+permutations([]) -> [[]];
+permutations(L)  -> [[H|T] || H <- L, T <- permutations(L--[H])].
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Zolrath 1 point2 points3 points 5 years ago (3 children)
+
+Done in Go, solving all bonuses.
+
+package main
+
+import "fmt"
+
+func contains(a []string, s string) bool {
+    for _, v := range a {
+        if v == s {
+            return true
+        }
+    }
+    return false
+}
+
+func permutations(s string) []string {
+    if len(s) == 1 {
+        return []string{s}
+    }
+
+    results := []string{}
+    for i := range s {
+        for _, j := range permutations(s[:i] + s[i+1:]) {
+            perm := string(s[i])+string(j)
+            if !contains(results, perm) {
+                results = append(results, perm)
+            }
+        }
+    }
+    return results
+}
+
+func main() {
+    fmt.Println(permutations("ab"))
+    fmt.Println(permutations("abbccc"))
+    fmt.Println(permutations("foo"))
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 1 point2 points3 points 5 years ago (2 children)
+
+I'm curious as to what this line does?
+
+for _, v := range a
+
+It looks like a "for each char" sort of expression? I'd love a little more
+discussion on your approach.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Zolrath 1 point2 points3 points 5 years ago (0 children)
+
+The range keyword lets you iterate through an array/map and can be assigned to
+either one or two variables. If you bind it to one variable:
+
+for i := range someList
+
+you iterate through someList, binding i to an index in a slice or to a key in a
+map (key ordering is random) on each iteration.
+
+If you bind it to two variables:
+
+for i, v := range someList
+
+then i is once again the index/key and v is bound to the value of someList[i]
+
+In my case, as I didn't use the index of the []string only cared about the
+value, I used the blank identifier _ to throw away the index and only use the
+value.
+
+for _, v := range someList
+
+I hope that made sense!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]JerMenKoO0 0 0 points1 point2 points 5 years ago (0 children)
+
+Even the explanation is below, same works in python as well. :)
+
+_, b = (1, 3) -> _ = 1 and the value of b = 3
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]kirsybuu0 1 1 point2 points3 points 5 years ago* (0 children)
+
+Fun in the D Language: On-demand permutation range (both bonuses)
+
+import std.stdio, std.algorithm, std.range, std.ascii;
+
+auto perms(string str)
+in { foreach(c ; str) assert(lowercase.canFind(c)); }
+body {
+    enum NCHAR = 26;
+
+    static struct PermRange {
+        private uint[] branch;
+        private string current;
+
+        private void cacheFront() {
+            current = branch.map!(o => cast(immutable char)(o+'a')).array();
+        }
+
+        @property string front() const {
+            assert(! empty());
+
+            return current;
+        }
+
+        void popFront() {
+            assert(! empty());
+            current = null;
+            bool foundPerm = false;
+
+            size_t[NCHAR] cCount;
+            size_t pos = branch.length;
+
+            // scan from end to find new permutation
+            backscan:
+            for(pos--; pos < branch.length; pos--) {
+                // reinsert current char into pool
+                cCount[ branch[pos] ]++;
+
+                // look for lex higher chars in pool
+                for(branch[pos]++; branch[pos] < NCHAR; branch[pos]++) {
+                    if (cCount[ branch[pos] ] > 0) {
+                        // take new char
+                        cCount[ branch[pos] ]--;
+
+                        break backscan;
+                    }
+                }
+            }
+
+            if (pos >= branch.length) {
+                // no next permutation found
+                branch = null;
+                return;
+            }
+
+            // take every remaining char in lex order
+            for(pos++; pos < branch.length; pos++) {
+                uint start = 0;
+
+                for(branch[pos] = start; branch[pos] < NCHAR; branch[pos]++) {
+                    if (cCount[ branch[pos] ] > 0) {
+                        // take new char
+                        cCount[ branch[pos] ]--;
+
+                        break;
+                    }
+                    start++;
+                }
+            }
+
+            cacheFront();
+        }
+
+        @property bool empty() const {
+            return (current is null);
+        }
+
+        PermRange save() const {
+            return PermRange(branch.dup, current);
+        }
+    }
+
+    PermRange pr;
+
+    // count characters
+    size_t[NCHAR] charCount;
+    foreach(c ; str) {
+        charCount[c-'a']++;
+    }
+
+    // initialize branch
+    pr.branch.length = str.length;
+
+    size_t pos = 0;
+    foreach(uint i, size_t n ; charCount) {
+        pr.branch[pos .. pos+n] = i;
+        pos += n;
+    }
+
+    // cache first "front"
+    pr.cacheFront();
+
+    return pr;
+}
+
+void main() {
+    writeln(perms("daily"));
+    writeln(perms("abbccc"));
+    writeln(perms("foo"));
+}
+
+Currently only allows [a-z] chars for efficiency, but could be reworked for
+more if necessary.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]niomaster 1 point2 points3 points 5 years ago (0 children)
+
+My haskell solution without the permutations function, plus bonus one:
+
+--Takes a given element at an index out of a list
+without :: [a] -> Int -> [a]
+without [] _ = []
+without list i = (take i list) ++ (drop (i+1) list)
+
+--Adds an element to all lists in a list
+addAll :: a -> [[a]] -> [[a]]
+addAll _ [] = []
+addAll el (x:xs) = (el:x) : addAll el xs
+
+--Gives all permutations of a list
+permutations :: [a] -> [[a]]
+permutations [] = []
+permutations [x] = [[x]]
+permutations list = concat [ addAll (list !! i) (permutations $ list `without` i) | i <- [0..length list - 1] ]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jeff3030 2 1 point2 points3 points 5 years ago* (1 child)
+
+Bonus 2 solution, in Python, cheating:
+
+input_str="abbccc"
+for result in set(map(lambda str : ''.join(str), itertools.permutations(input_str))):
+    print(result)
+
+[DEL:I'll update this comment later if I have a chance to do a "non-cheating"
+solution:DEL]
+
+Update
+
+OK, this turned out to be much more difficult than I expected - far moreso than
+the previous "intermediate" challenge. Here is my non-cheating solution, in
+Python (assuming you don't count using itertools to remove duplicates as
+described here cheating). It satisfies both bonus conditions and can calculate
+permutations of any type of list (not just strings).
+
+import itertools
+
+def permute(items):
+    num_items = len(items)
+    perms = []
+    if num_items == 1:
+        #first base case, trivial
+        perms.append([items[0]])
+    elif num_items == 2:
+        #second base case, easy
+        perms.append([items[0],items[1]])
+        perms.append([items[1],items[0]])
+    elif num_items > 2:
+        for i in range(0, num_items):
+            other_perms = permute(items[:i]+items[i+1:])
+            perms.extend([[items[i]] + sp  for sp in other_perms])
+            perms.extend([sp + [items[i]] for sp in other_perms])
+    return perms
+
+def permute_main(items):
+    perms = permute(items)
+    perms.sort()
+    return list(perms for perms,_ in itertools.groupby(perms))
+
+if __name__ == '__main__':
+    #permute the challenge input string "abbccc"
+    for perm in permute_main("abbccc"):
+        print(''.join(list(perm)))
+    #permute a list of integers
+    for perm in permute_main([1,2,3,4]):
+        print(perm)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 1 point2 points3 points 5 years ago (0 children)
+
++1 silver for going back and doing a hand-crafted solution! :D
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]HilgerZzZ 1 point2 points3 points 5 years ago* (0 children)
+
+Python:
+
+def permutationsOfString(string):
+    words = set()
+    def recursiveWordGenerator(stringSoFar, lettersSoFar):
+        if len(stringSoFar) == len(string):
+            words.add(stringSoFar)
+        else:
+            for letter in lettersSoFar:
+                strIndex = lettersSoFar.index(letter)
+                recursiveWordGenerator(stringSoFar + letter,
+                    lettersSoFar[:strIndex] + lettersSoFar[strIndex + 1:])
+    recursiveWordGenerator('', string)
+    return words
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jprimero 1 point2 points3 points 5 years ago (0 children)
+
+Hi guys, just found this. Great idea, I will definitely be on board for the
+next challenges.
+
+Anyway, here is Java
+
+public static void main(String[] args) {
+    System.out.println(permute("foo"));
+}
+
+public static HashSet<String> permute(String toPermute) {
+    HashSet<String> set = new HashSet<String>();
+    if (toPermute.length() <= 1) {
+        set.add(toPermute);
+    } else {
+        for (int i = 0; i < toPermute.length(); i++) {
+            for (String s : permute(toPermute.substring(0, i) + toPermute.substring(i + 1))) {
+                set.add(toPermute.substring(i, i + 1) + s);
+            }
+        }
+    }
+    return set;
+}
+
+And this is the same in F#
+
+let rec permute (toPermute:string) =
+    let mutable permutations = Set.empty
+    if toPermute.Length <= 1 then permutations <- permutations.Add toPermute
+    else
+        for i = 0 to toPermute.Length - 1 do
+            for s in permute(toPermute.Remove(i,1)) do
+                permutations <- permutations.Add (toPermute.Substring(i,1) + s)
+    permutations
+// run permute
+for str in permute("abbccc") do
+    printfn "%s" str
+
+With bonuses, i guess
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]PuffGuru 1 point2 points3 points 5 years ago (0 children)
+
+Writes all permutations to a file, and counts number of permutations.
+Constructive criticism always welcomed.
+
+Implementation in C:
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+void ListPermutations(char *letters);
+void RecursivePermute(char *prefix, char *rest, int *ptr);
+
+main()
+{
+    ListPermutations("abbccc");
+    return 0;
+}
+
+void ListPermutations(char *letters)
+{
+    int count = 0;
+    RecursivePermute("", letters, &count);
+    printf("Total of %d permutations\n", count);
+}
+
+void RecursivePermute (char *prefix, char *rest, int *ptr)
+{
+    char *temp       = malloc(sizeof(char *));
+    char *new_prefix = malloc(sizeof(char *));
+    char *rest_left  = malloc(sizeof(char *));
+    char *rest_right = malloc(sizeof(char *));
+    char *new_rest   = malloc(sizeof(char *));
+    char rest_char;
+    int idx = 0;
+    int first_occurance = 0;
+    int i;
+    FILE *file;
+    strncpy(temp, rest, 120);
+    if (*rest == '\0')
+    {
+        *ptr += 1;
+        printf("Permutation %d: %s\n", *ptr, prefix);
+        file = fopen("permutations.txt", "a");
+        fprintf(file,"%s\n",prefix);
+        fclose(file);
+        return;
+    }
+    else
+    {
+        size_t rest_size = strlen(rest);
+        while (*rest != '\0')
+        {
+
+            first_occurance = (strchr(temp, *rest) - temp - idx);
+            if (first_occurance == 0)
+            {
+                rest_char = *rest;
+                rest_left = strncpy(rest_left, rest-idx, idx);
+                rest_right = strncpy(rest_right, rest+1, rest_size-1);
+                sprintf(new_rest, "%s%s", rest_left, rest_right);
+                sprintf(new_prefix,"%s%c", prefix, rest_char);
+                RecursivePermute( new_prefix, new_rest, ptr);
+            }
+            rest++;
+            idx ++;
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]capncanuck 1 point2 points3 points 5 years ago (0 children)
+
+Here is my solution in Java. All bonuses are satisfied.
+
+package n116.easy;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+
+public class Main {
+    private static Collection<CharSequence> appendAll(final char c, final Iterator<CharSequence> iterator) {
+        final Collection<CharSequence> output = new ArrayList<CharSequence>();
+
+        while (iterator.hasNext()) {
+            final StringBuffer next = new StringBuffer(iterator.next());
+            next.insert(0, c);
+            output.add(next);
+        }
+
+        return output;
+    }
+
+    public static void main(final String[] args) {
+        if (args.length > 0) {
+            show(permute(args[0]));
+        }
+    }
+
+    private static Iterator<CharSequence> permute(final String word) {
+        final Collection<CharSequence> output = new ArrayList<CharSequence>();
+
+        if (word.length() == 1) {
+            output.add(word);
+        } else {
+            for (int i = 0; i < word.length(); i++) {
+                final StringBuffer buffer = new StringBuffer(word);
+                final char c = buffer.charAt(i);
+                buffer.deleteCharAt(i);
+
+                final int index = buffer.indexOf(String.valueOf(c));
+
+                if (index == -1 || index >= i) {
+                    output.addAll(appendAll(c, permute(buffer.toString())));
+                }
+            }
+        }
+
+        return output.iterator();
+    }
+
+    private static void show(final Iterator<CharSequence> iterator) {
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 1 point2 points3 points 5 years ago (0 children)
+
+// /r/dailyprogrammer // 1/10/13 // Challenge 116 // code: jakenherman
+
+public class RedditDP {
+
+public static void main(String[] args) {
+
+String baz = "baz";
+
+System.out.println(baz);
+
+    String funcb = baz.substring(0,1);
+    String funca = baz.substring(1,2);
+    String funcz = baz.substring(2,3);
+
+
+System.out.println(funcb + funcz + funca);
+System.out.println(funca+funcb+funcz);
+System.out.println(funca+funcz+funcb);
+System.out.println(funcz+funcb+funca);
+System.out.println(funcz+funca+funcb);
+
+}
+
+}
+
+// I realize this is probably not the correct way to do it, // however I AM a
+beginning programmer!
+
+  • permalink
+  • embed
+  • save
+
+[–]shaggorama 1 point2 points3 points 5 years ago (0 children)
+
+Python:
+
+from copy import copy
+
+def permute_string(s):
+    results = set()
+    if len(s) ==1:
+        return s
+    if type(s) == type(""):
+        letters = [c for c in s]
+    else:
+        letters = s
+    for char in letters:
+        others = copy(letters)
+        others.remove(char)
+        sub = permute_string(others)
+        for substr in sub:
+            results.add(char + substr)
+    return results
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jwdink 1 point2 points3 points 5 years ago* (2 children)
+
+I know I'm late to the game, but can anyone tell what's wrong with this code?
+It does things correctly for length=1, 2, or 3, but freezes up on length=4 (or
+greater).
+
+EDIT: this is javascript
+
+I'm stumped-- any help would be appreciated.
+
+var permute = function(aword){
+  if(aword.length===1){
+    return aword;
+  }else{
+    if(aword.length===2){
+      return [aword,aword[1]+aword[0]];
+    }else{
+      out=[];
+      k=0;
+      first=aword.substring(0,aword.length-1);
+      last =aword.substring(aword.length-1,aword.length);
+      permutations=permute(first);
+      for (j=0;j<permutations.length;j++){
+        for (i=0;i<permutations[j].length+1;i++){
+           out[k]=permutations[j].substring(0,i) + last + permutations[j].substring(i,permutations[j].length);
+          k++;
+        }
+      }
+      return out;
+    }
+  }
+};
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 1 point2 points3 points 5 years ago (1 child)
+
+I have yet to run your code (assuming it is Python), but you are likely running
+into an issue of "too much work to do". Since you are using recursion, you
+might be doing a significant amount of work, so much so your app freezes... but
+then again, it shouldn't do that at 4 characters are longer.
+
+Try to print off what your code is doing, or just load up your code in a
+debugger :-)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]jwdink 1 point2 points3 points 5 years ago* (0 children)
+
+Oops, sorry, forgot to mention it's Javascript (not python).
+
+I don't think the problem is that the stack is getting too big, but instead
+that variables are getting overwritten when the function is called within
+itself. But I don't know how to avoid that.
+
+EDIT: Also, I have yet to find a good program for debugging or printing off
+what my code is doing for javascript. Any suggestions welcome!
+
+EDIT 2: Nevermind, figured it out! My hunch was correct: variables were getting
+overwritten. Explained here: http://stackoverflow.com/questions/5058889/
+what-am-i-doing-wrong-with-this-recursive-javascript-function
+
+Here's the correct code:
+
+var permute = function(aword){
+  if(aword.length===1){
+    return [aword];
+  }else{
+    var out=[];
+    var k=0;
+    var permutations=[];
+    var first=aword.substring(0,aword.length-1);
+    permutations=permute(first);
+    var last =aword.substring(aword.length-1,aword.length);
+    console.log(last);
+    for (j=0;j<permutations.length;j++){
+      for (i=0;i<permutations[j].length+1;i++){
+        var a=permutations[j].substring(0,i) + last + permutations[j].substring(i,permutations[j].length);
+        out[k]=a.slice(0);
+        k++;
+      }
+    }
+    return out;
+  }
+};
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Quasimoto30001 0 1 point2 points3 points 5 years ago (0 children)
+
+I really like string slicing in python.
+
+def permute(remaining, prefix=""):
+    if len(remaining) == 0:
+        print prefix
+    else:
+        for i in range(0, len(remaining)):
+            permute(remaining[:i] + remaining[i+1:], prefix+remaining[i])
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 1 point2 points3 points 5 years ago* (0 children)
+
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+int n, s[100], solution;
+string a;
+
+int ok(int k)
+{
+    for(int i = 1; i < k; i++)
+    {
+        if(s[k] == s[i]) return 0;
+    }
+
+    return 1;
+}
+
+void show()
+{
+    for(int i = 1; i <= n; i++)
+    {
+        cout<<a[s[i]];
+    }
+    cout<<endl;
+    solution++;
+}
+
+void back(int k)
+{
+    for(int i = 0; i < n; i++)
+    {
+        s[k] = i;
+        if(ok(k))
+        {
+            if(k == n) show();
+            back(k+1);
+        }
+    }
+}
+
+int main()
+{
+    cin>>a;
+    n = a.size();
+    back(1);
+
+    cout<<"We have "<<solution<<" solutions.";
+}
+
+C++ backtracking.
+
+  • permalink
+  • embed
+  • save
+
+[–]Selfmadecelo 2 points3 points4 points 5 years ago* (5 children)
+
+Ruby:
+
+prompt = '>'
+
+puts "Enter a string to permutate:"
+print prompt
+
+string = gets.chomp()
+
+permarray = string.chars.to_a.permutation.map(&:join).uniq
+
+print permarray
+
+Edit: Fairly new to Ruby so if anybody has a better way I'd appreciate the
+input!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]xanderstrike1 0 5 points6 points7 points 5 years ago* (2 children)
+
+Well, if you're going to use the permutations method (ruby is awesome) you can
+totally do the whole thing in one line! It even qualifies as a solution to both
+bonuses!
+
+gets.chomp.split("").permutation.map(&:join).uniq
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Selfmadecelo 1 point2 points3 points 5 years ago (0 children)
+
+I knew there had to be a simpler way! Thanks for the info
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]CodeBop 0 points1 point2 points 5 years ago (0 children)
+
+Nice, there are a few other ways to do this in Ruby (as is often the case), but
+this is the most simple, cleanest.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 1 point2 points3 points 5 years ago (1 child)
+
+You could also extend the String class and do something like this:
+
+class String
+  def permutations
+    self.each_char.to_a.permutation.map(&:join).uniq
+  end
+end
+
+Then you can just do something like:
+
+"baz".permutations # => ["baz", "bza", "abz", "azb", "zba", "zab"]
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]Selfmadecelo 1 point2 points3 points 5 years ago (0 children)
+
+Very cool. Thanks for the tip!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Rapptz0 0 3 points4 points5 points 5 years ago (4 children)
+
+I assume this is cheating?
+
+C++. Both bonuses should pass.
+
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <set>
+
+int main() {
+    std::string original = "abbccc";
+    std::set<std::string> permutations;
+    std::string copy = original;
+    for(;;) {
+        permutations.insert(copy);
+        std::next_permutation(copy.begin(),copy.end());
+        if(copy == original)
+            break;
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 1 point2 points3 points 5 years ago (2 children)
+
+For me it isn't cheating to use any and all tools you have access to. You do
+have to decide what you want to get out of these: developing good coding skills
+vs. simple challenge completion vs. learning algorithms, etc.
+
+On a personal note, since I enjoy C/C++, the "for(;;)" line really should just
+be "while(true)" for the sake of easier reading. "for(;;)" used to have a
+legitimate purpose since that compiled into a strict non-conditional jump loop,
+whereas "while(true)" used to compile to a conditional-jump. Nowadays the
+compiler is aware of these kind of optimizations and will deal with it
+appropriately.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Rapptz0 0 3 points4 points5 points 5 years ago (1 child)
+
+I know. for(;;) is easier to type.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nint221 2[S] 1 point2 points3 points 5 years ago (0 children)
+
+Well now I feel like an arse :P
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]tangerinelion 1 point2 points3 points 5 years ago (0 children)
+
+I would change the for(;;) to a do-while loop:
+
+do {
+    permutations.insert(copy);
+} while(std::next_permutation(copy.begin(),copy.end()));
+
+Also no reason to make a copy to start with, unless you declared original to be
+a const std::string.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Splanky2220 0 2 points3 points4 points 5 years ago (4 children)
+
+Not really fair in MATLAB, solution and both bonuses are a simple one-liner
+
+easy116 = @(st) perms(unique(st));
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jwdink 0 points1 point2 points 5 years ago* (3 children)
+
+this doesn't quite work, right? for example, for the word "test," it just omits
+the 2nd t. Or am I confused. Sorry, brand new to matlab.
+
+EDIT: this worked better for me
+
+permsout=unique(cellstr(perms('test')));
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Splanky2220 0 0 points1 point2 points 5 years ago (2 children)
+
+so your 'unique' call is finding unique cells in the cell array you created
+with cellstr. I tried my method on 'test' and it works perfectly.
+Here's the question: why are you using cellstr? Is there a reason you feel you
+need cell arrays?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]jwdink 0 points1 point2 points 5 years ago (1 child)
+
+I must just misunderstand something basic here. What's the @ symbol doing?
+
+cellstr turns the array of chars (so, for example, row 3 is 't' 'e' 's' 't')
+into a list of strings (row 3 is "test"), so that it can toss out at any
+duplicates (e.g., "test" and "test" look the same, even though technically it's
+'t1' 'e' 's' 't2' vs. 't2' 'e' 's' 't1')
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Splanky2220 0 0 points1 point2 points 5 years ago* (0 children)
+
+Check out [function handles] http://www.mathworks.com/help/matlab/
+function-handles.html
+
+Also, your critique of my program is technically correct, I think the question
+is somewhat poorly worded, and the example was differently when I solved it
+
+    all of the permutatons of the unique characters of a given string is sort
+    of vague
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]DangerousDuck 1 point2 points3 points 5 years ago (2 children)
+
+Python:
+
+Although I wouldn't even think of using this over itertools.permuntations,
+here's a recursive approach using a set to filter out all duplicates.
+
+def permutations(letters, words = None):
+    if words == None:
+        words = {''}
+    if len(letters) == 0: #We're done
+        return words
+    return permutations(letters[1:], {word[:i] + letters[0] + word[i:] for word in words for i in range(len(word)+1)})
+
+print permutations("abbccc")
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 1 point2 points3 points 5 years ago (1 child)
+
+Can you explain a bit more about how you prevent duplicate results that have
+same sub-strings, i.e. "abbccc" has several permutations that looks the same.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]DangerousDuck 1 point2 points3 points 5 years ago (0 children)
+
+I build the result with a set comprehension, so all duplicates get filtered out
+right away. Also shortened it a bit further. :P
+
+Oddly enough, for this specific case of use, it does seem to beat
+itertools.permutations after very quick testing. I assume this is because
+itertools.permutations uses 'unique by index', so it quickly grows larger
+because the duplicates each cost additional time further down the line and will
+only get filtered out at the end.
+
+import time
+import itertools
+
+def p(ls, ws = ('',)):
+    return ws if not ls else p(ls[1:], {w[:i] + ls[0] + w[i:] for w in ws for i in range(len(w)+1)})
+
+letters = "abbcddeeef"
+
+t = time.time()
+x = {''.join(i) for i in itertools.permutations(letters)}
+print time.time() - t
+
+t = time.time()
+y =  p(letters)
+print time.time() - t
+
+print x == y
+
+Output:
+
+1.468
+0.085
+True
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Saxasaurus 1 point2 points3 points 5 years ago (0 children)
+
+Java: Solves all challenges.
+
+public class ExampleMain {
+    public static void main(String[] args) {
+        Permutation p = new Permutation("abbccc");
+        System.out.println(p);
+    }
+}
+
+
+//-----newfile----
+import java.util.LinkedHashSet;
+public class Permutation {
+    private LinkedHashSet<String> set;
+    private String s;
+    private boolean found;
+    Permutation(String s){
+        this.s = s;
+        found = false;
+        set = new LinkedHashSet<String>();
+    }
+    Permutation(String s, boolean run){
+        this(s);
+        if(run)
+            run();
+    }
+    public LinkedHashSet<String> getPurmutations(){
+        if(found)
+            return set;
+        else{
+            run();
+            return set;
+        }
+    }
+    public void run(){
+        recPerms("",s);
+            found = true;
+    }
+    private void recPerms(String begin, String end){
+        if(end.isEmpty()){
+            set.add(begin);
+        }
+        else{
+            for(int i=0; i<end.length();i++){
+                recPerms(begin + String.valueOf(end.charAt(i)),end.substring(0, i)+end.substring(i+1));
+            }
+        }
+    }
+    @Override
+    public String toString(){
+        if(found)
+            return set.toString();
+        else{
+            run();
+            return set.toString();
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]UltimateHater 1 point2 points3 points 5 years ago* (3 children)
+
+Haskell:
+import Data.List(permutations)
+perms s = nub $ permutations s
+
+EDIT: Hrrm. Not quite sure how to set this to hidden.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]robertmeta 3 points4 points5 points 5 years ago (1 child)
+
+lead it with 4 spaces
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]UltimateHater 0 points1 point2 points 4 years ago (0 children)
+
+Thanks!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]dkukral -1 points0 points1 point 5 years ago (2 children)
+
+Python:
+
+from itertools import permutations
+
+def perms(n):
+    return set(permutations(n))
+
+if __name__ == "__main__":
+    p = perms('abbccc')
+    print p
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]swankystank 18 points19 points20 points 5 years ago (0 children)
+
+You really went above and beyond, sir.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]toxichack3r 3 points4 points5 points 5 years ago (0 children)
+
+I don't think importing a permutations function counts... Otherwise, Ruby:
+
+gets.to_a.permutation
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 0 points1 point2 points 5 years ago* (0 children)
+
+Python, using sets
+
+def permutations(word):
+
+    if len(word) <= 1:
+        return set(word)
+    else:
+        result = set()
+        for i in xrange(len(word)):
+            for perm in permutations(word[1:]):
+                result.add(insert(perm, word[0], i))
+
+        return result
+
+def insert(to, what, where):
+    return to[:where]+what+to[where:]
+
+edit: updated it to use 2.7's built-in set class
+
+  • permalink
+  • embed
+  • save
+
+[–]batailleye 0 points1 point2 points 5 years ago (0 children)
+
+Java
+
+import java.io.*;
+import java.util.ArrayList;
+
+public class easy116
+{
+  public static void main(String[] args)
+  {
+    String input = args[0];
+    ArrayList<String>perms = permutation(input);
+
+    System.out.println("Number of permutations: " + perms.size());
+
+    for(int i=0; i < perms.size(); i++)
+    {
+      System.out.println(perms.get(i));
+    }
+
+  }
+
+  public static ArrayList<String> permutation (String input)
+  {
+    if (input.length() == 1)
+    {
+      ArrayList<String> temp = new ArrayList<String>();
+      temp.add(input);
+      return temp;
+    }
+
+    if (input.length() == 2)
+    {
+      ArrayList<String> temp = new ArrayList<String>();
+      temp.add(input.substring(0,1) + input.substring(1));
+      temp.add(input.substring(1)   + input.substring(0,1));
+      return temp;
+    }
+
+    ArrayList<String> perms = new ArrayList<String>();
+    for(int i = 0; i < input.length();  i++)
+    {
+      String start = input.substring(i, i+1);
+      ArrayList<String> remainder = permutation(input.substring(0, i) + input.substring(i+1));
+      for(int j = 0; j < remainder.size(); j++)
+      {
+        String output = start + remainder.get(j);
+        if(!perms.contains(output))
+        {
+          perms.add(output);
+        }
+      }
+    }
+
+    return perms;
+  }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]poorbowelcontrol 0 points1 point2 points 5 years ago (0 children)
+
+Solution in Javascript:
+
+var found = [];
+function permute(string)
+{
+    perm(string,'');
+    window.alert(found.toString());
+}
+
+function perm(tail, head)
+{
+    if(tail.length==2){
+        if(found.indexOf(head+tail.substr(1)+tail.substr(0,1))==-1)
+            found.push(head+tail.substr(1)+tail.substr(0,1));
+        if(found.indexOf(head+tail)==-1)
+            found.push(head+tail);
+    }
+    var letters = tail.split("");
+    for( var i= 0;i<letters.length;i++)
+    {
+            if(i+1==letters.length)
+            perm(tail.substr(0,i),head+letters[i]);
+        else
+            perm(tail.substr(0,i)+tail.substr(i+1),head+letters[i]);
+        }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]shubhamVerma 0 points1 point2 points 5 years ago (0 children)
+
+Python:
+
+import itertools
+
+def permute(word):
+    #generate all permutations
+    perms = [''.join(i) for i in itertools.permutations(word)]
+
+    #remove all duplicates
+    final = []
+    for i in perms:
+        if i not in final:
+            final.append(i)
+
+    return final
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]JustinBieber313 0 points1 point2 points 5 years ago (0 children)
+
+C++, iterative solution.
+
+#include <string>
+#include <iostream>
+#include <vector>
+
+
+std::vector<std::string>* PermuteString(std::string);
+
+void main()
+{
+
+    std::vector<std::string>* permutations = PermuteString    ("abbccc");
+
+    for(std::vector<std::string>::iterator i = permutations->begin();     i != permutations->end(); ++i)
+    {
+        std::cout << *i << std::endl;
+    }
+
+    return;
+}
+
+
+ std::vector<std::string>* PermuteString(std::string word)
+ {
+    std::vector<std::string>* perms = new std::vector<std::string>();
+    std::string workString;
+    std::vector<std::string> workPerms;
+
+
+     for(int i = 0; i < word.length(); i++)
+     {
+        if(perms->size() == 0)
+        {
+            perms->push_back(word.substr(i,1));
+        }
+         else
+         {
+            //for each existing perumtation, add the next letter to each possible position
+            for(std::vector<std::string>::iterator permsI = perms->begin(); permsI != perms->end(); ++permsI)
+            {
+                //each word has n + 1 permutations with a new letter,    where n is the length of the word
+
+                //Now add a new permutation for each of the next possible spots
+                for(int spotIndex = 1; spotIndex <= permsI->length(); spotIndex++)
+                {
+                     workString = *permsI;
+
+                    workPerms.push_back(workString.insert(spotIndex, 1, word[i]));
+
+
+                }
+                *permsI = permsI->insert(0, 1, word[i]);
+            }
+            perms->insert(perms->end(), workPerms.begin(), workPerms.end());
+            workPerms.clear();
+        }
+    }
+
+    return perms;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Frichjaskla 0 points1 point2 points 5 years ago (3 children)
+
+Python both bonus challenges is handled
+
+def permute(str):
+  if len(str) == 1:
+    return [str]
+  ret = []
+  for i in range(len(str)):
+    for p in permute(str[:i] + str[i+1:]):
+      perm = str[i] +  p
+      if not perm in ret:
+        ret.append( perm)
+  return ret
+
+Tests
+
+print permute("abc") print permute("abbccc")
+
+['abc', 'acb', 'bac', 'bca', 'cab', 'cba']
+
+['abbccc', 'abcbcc', 'abccbc', 'abcccb', 'acbbcc', 'acbcbc', 'acbccb',
+'accbbc', 'accbcb', 'acccbb', 'babccc', 'bacbcc', 'baccbc', 'bacccb', 'bbaccc',
+'bbcacc', 'bbccac', 'bbccca', 'bcabcc', 'bcacbc', 'bcaccb', 'bcbacc', 'bcbcac',
+'bcbcca', 'bccabc', 'bccacb', 'bccbac', 'bccbca', 'bcccab', 'bcccba', 'cabbcc',
+'cabcbc', 'cabccb', 'cacbbc', 'cacbcb', 'caccbb', 'cbabcc', 'cbacbc', 'cbaccb',
+'cbbacc', 'cbbcac', 'cbbcca', 'cbcabc', 'cbcacb', 'cbcbac', 'cbcbca', 'cbccab',
+'cbccba', 'ccabbc', 'ccabcb', 'ccacbb', 'ccbabc', 'ccbacb', 'ccbbac', 'ccbbca',
+'ccbcab', 'ccbcba', 'cccabb', 'cccbab', 'cccbba']
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]calzoneman 0 points1 point2 points 5 years ago (2 children)
+
+A tip for the future: if you use the set datatype, you won't need to manually
+handle ignoring duplicates. For example, set([1, 1, 1, 1, 1]) returns {1}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Frichjaskla 0 points1 point2 points 5 years ago (1 child)
+
+I did try with set, but set("abc") which would create the set: set(['a', 'c',
+'b'])
+
+I finally found the solution set(["abc"])
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]mikeoquinn 1 point2 points3 points 5 years ago (0 children)
+
+Something similar to yours, with logging since I enjoy watching how it all
+works (change logging.INFO to logging.DEBUG for more info than you want).
+
+import logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+def permute(some_str):
+  logging.debug('[%s] Entered permute' % some_str)
+  if len(some_str) <= 1:
+    results = set(some_str)
+  else:
+    results = set()
+    for i in range(len(some_str)):
+      logging.debug('[%s - %d] Entering new iteration' % (some_str, i))
+      for p in permute(some_str[:i] + some_str[i+1:]):
+        logging.debug('[%s - %d] %s + %s is %s' % (some_str, i, some_str[i], p, some_str[i] + p))
+        results.add(some_str[i] + p)
+
+  logging.debug('[%s - RETURN] - Found %r' % (some_str , results))
+  return results
+
+print(permute('spam'))
+
+{'smap', 'pasm', 'msap', 'aspm', 'masp', 'sapm', 'asmp', 'spam', 'psam', 'maps', 'pmas', 'samp', 'amsp', 'mspa', 'apms', 'pams', 'smpa', 'mpas', 'mpsa', 'pmsa', 'spma', 'psma', 'apsm', 'amps'}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Laremere1 0 0 points1 point2 points 5 years ago (0 children)
+
+Python
+
+def perm(a):
+    #If only one string, return that string in a set
+    if len(a) == 1:
+        return set([a])
+    b = set() #Our set
+    for i in range(0, len(a)): #For every place in the string
+        for j in perm(a[0:i] + a[i + 1: len(a)]):
+            b.add(a[i] + j) #Add each item from the permutation function to the string
+    return b
+
+#Test
+print perm("abbccc")
+import math
+print len(perm("abbccc"))
+print math.factorial(6) / ( math.factorial(1) * math.factorial(2) * math.factorial(3))
+
+Outputs:
+set(['bccacb', 'cbccba', 'bacccb', 'bbaccc', 'abcbcc', 'bacbcc', 'bcbcac',
+'acccbb', 'ccabbc', 'ccbcba', 'bccbca', 'bcccab', 'cccabb', 'abcccb', 'bbccca',
+'acbccb', 'cccbba', 'bcccba', 'abccbc', 'cbcacb', 'acbbcc', 'bccbac', 'cabcbc',
+'accbbc', 'bcacbc', 'ccbacb', 'cacbbc', 'babccc', 'cbbacc', 'cbcbac', 'cbcbca',
+'bccabc', 'ccbbca', 'baccbc', 'ccbcab', 'ccbbac', 'bcbcca', 'abbccc', 'acbcbc',
+'cbccab', 'cbacbc', 'bcbacc', 'caccbb', 'ccabcb', 'cbcabc', 'bbcacc', 'accbcb',
+'bbccac', 'cabccb', 'cbabcc', 'bcaccb', 'ccacbb', 'cabbcc', 'ccbabc', 'bcabcc',
+'cbbcac', 'cbbcca', 'cbaccb', 'cacbcb', 'cccbab'])
+60
+60
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]calzoneman 0 points1 point2 points 5 years ago* (2 children)
+
+Python 3. Pretty standard recursive approach
+
+#!/usr/bin/python3
+
+def permute(string):
+    if len(string) == 1:
+        return set(string)
+    perms = set()
+    for i in range(len(string)):
+        remainder = string[:i] + string[i+1:]
+        for choice in permute(remainder):
+            perms.add(string[i] + choice)
+            perms.add(choice + string[i])
+    return perms
+
+
+while True:
+    print(sorted(permute(input("> "))))
+
+Becomes unusably slow for strings of length 10 due to the sheer number of
+recursive calls required.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 5 years ago (1 child)
+
+[deleted]
+
+[–]calzoneman 0 points1 point2 points 5 years ago (0 children)
+
+Good catch! When I was originally thinking through the algorithm, I was
+thinking about the "ab"/"ba" example and it slipped my mind that the "ba" case
+would be covered by my code already.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]r4mtha 0 points1 point2 points 5 years ago (0 children)
+
+Java:
+
+public Set<String> permute(char [] entry, Set<Integer> usedValues)
+{
+    if(!(entry.length >= 1))
+        throw new RuntimeException("Input must be at least one character.");
+
+    Set<String> results = new HashSet<String>();
+
+    if(usedValues.size() == entry.length)
+    {
+        results.add("");
+        return results;
+    }
+
+    for(int i=0; i < entry.length; i++)
+    {
+        if(usedValues.contains(i))
+            continue;
+
+        Set<Integer> usedValuesThisBranch = new HashSet<Integer>();
+        usedValuesThisBranch.addAll(usedValues);
+        usedValuesThisBranch.add(i);
+
+        for(String s : permute(entry, usedValuesThisBranch))
+            results.add(entry[i] + s);
+    }
+
+    return results;
+}
+
+It should be noted that dynamic programming is probably a great way to solve
+this problem; my recursive solution executes something like 700 times to return
+60 actual values; dynamic programming would eliminate this issue by storing
+previously solved subproblems (recursion + state == dynamic programming as they
+say). I'll try to solve again dynamically if I have time tomorrow.
+
+Edit: Solves all bonus problems (trick is treating each value in array as
+unique integer).
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]possiblywrong 0 points1 point2 points 5 years ago (0 children)
+
+This is almost just for comedy, but it's why I like Mathematica (handles both
+bonuses):
+
+perms[s_String] := Permutations[Characters[s]]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Wedamm -2 points-1 points0 points 5 years ago (0 children)
+
+Haskell:
+
+import Data.List
+
+permute :: Eq a => [a] -> [[a]]
+permute = nub . permutations
+
+Both bonuses ;-]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+  • about
+  • blog
+  • about
+  • advertising
+  • careers
+
+  • help
+  • site rules
+  • Reddit help center
+  • wiki
+  • reddiquette
+  • mod guidelines
+  • contact us
+
+  • apps & tools
+  • Reddit for iPhone
+  • Reddit for Android
+  • mobile website
+  • buttons
+
+  • <3
+  • reddit gold
+  • redditgifts
+
+Use of this site constitutes acceptance of our User Agreement and Privacy
+Policy. (C) 2018 reddit inc. All rights reserved.
+
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+Advertise - technology
+
+[pixel]
+
+π Rendered by PID 97908 on app-397  at 2018-05-07 20:20:41.894375+00:00 running
+37be41a country code: CH.
+

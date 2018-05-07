@@ -1,0 +1,5499 @@
+ 
+r/dailyprogrammer
+log insign upsign in
+Reddit Feeds
+
+  • popular
+  • all
+  • 
+
+Sign up and stay connected to your favorite communities.
+
+sign uplog in
+ 
+r/
+
+dailyprogrammer
+
+Posts
+71
+Posted by
+u/nint22
+5 years ago
+
+[01/28/13] Challenge #119 [Easy] Change Calculator
+
+ (Easy): Change Calculator
+
+Write A function that takes an amount of money, rounds it to the nearest penny
+and then tells you the minimum number of coins needed to equal that amount of
+money. For Example: "4.17" would print out:
+
+Quarters: 16
+Dimes: 1
+Nickels: 1
+Pennies: 2
+
+Author: nanermaner
+
+Formal Inputs & Outputs
+
+Input Description
+
+Your Function should accept a decimal number (which may or may not have an
+actual decimal, in which you can assume it is an integer representing dollars,
+not cents). Your function should round this number to the nearest hundredth.
+
+Output Description
+
+Print the minimum number of coins needed. The four coins used should be 25
+cent, 10 cent, 5 cent and 1 cent. It should be in the following format:
+
+Quarters: <integer>
+Dimes: <integer>
+Nickels: <integer>
+Pennies: <integer>
+
+Sample Inputs & Outputs
+
+Sample Input
+
+1.23
+
+Sample Output
+
+Quarters: 4
+Dimes: 2
+Nickels: 0
+Pennies: 3
+
+Challenge Input
+
+10.24
+0.99
+5
+00.06
+
+Challenge Input Solution
+
+Not yet posted
+
+Note
+
+This program may be different for international users, my examples used
+quarters, nickels, dimes and pennies. Feel free to use generic terms like "10
+cent coins" or any other unit of currency you are more familiar with.
+
+  • Bonus: Only print coins that are used at least once in the solution.
+
+212 comments
+share
+95% Upvoted
+Sort by
+best
+ 
+best
+ 
+top
+ 
+new
+ 
+controversial
+ 
+old
+ 
+q&a
+Dr_Legacy
+27 points·5 years ago
+
+COBOL.
+
+   IDENTIFICATION DIVISION.
+   PROGRAM-ID. chgmaker.
+   DATE-WRITTEN.   1/28/2013.
+  *       AUTHOR    Dr_Legacy
+  *       REMARKS   reddit dailyprogrammer challenge #119
+   ENVIRONMENT DIVISION.
+   CONFIGURATION SECTION.
+   INPUT-OUTPUT SECTION.
+   FILE-CONTROL.
+   DATA DIVISION.
+   FILE SECTION.
+   WORKING-STORAGE SECTION.
+   01 AMOUNT-IN                        PIC X(10).
+   01 NFRAC                            PIC X(5).
+   01 NFRAC9 REDEFINES NFRAC           PIC 9(5).
+   01 N1                               PIC X(10).
+   01 N2                               PIC X(10) VALUE ZEROS.
+   01 N29 REDEFINES N2                 PIC 9(10).
+   01 CHARCOUNT                        PIC 99    VALUE ZERO.
+   01 CC2                              PIC 99    VALUE ZERO.
+   01 AMOUNT-WORKING                   PIC 9(11)V99.
+   01 QUARTER-VALUE                    PIC 9V99  VALUE 0.25.
+   01 DIME-VALUE                       PIC 9V99  VALUE 0.10.
+   01 NICKEL-VALUE                     PIC 9V99  VALUE 0.05.
+   01 PENNY-VALUE                      PIC 9V99  VALUE 0.01.
+   01 QUARTER-COUNT                    PIC 9(11) VALUE ZERO.
+   01 DIME-COUNT                       PIC 9     VALUE ZERO.
+   01 NICKEL-COUNT                     PIC 9     VALUE ZERO.
+   01 PENNY-COUNT                      PIC 9     VALUE ZERO.
+   01 AMOUNT-OUT                       PIC Z(10)9.
+
+ *****
+
+   PROCEDURE DIVISION.
+
+ *****
+
+   MAIN-LOGIC SECTION.
+   MAIN-BEGIN.
+       DISPLAY  "CHANGE MAKING PROGRAM".
+
+       DISPLAY "ENTER AMOUNT".
+       ACCEPT AMOUNT-IN.
+
+       IF AMOUNT-IN EQUAL SPACE THEN
+          GO TO EXIT-PROGRAM.
+
+ ***   old COBOL doesn't have any really fancy string functions
+
+       UNSTRING AMOUNT-IN
+         DELIMITED BY ALL SPACES
+                       OR "."
+         INTO N1, NFRAC.
+       INSPECT NFRAC REPLACING ALL SPACE BY ZERO.
+       COMPUTE AMOUNT-WORKING ROUNDED = NFRAC9 / 100000 .
+       IF N1 NOT EQUAL SPACE THEN
+         PERFORM VARYING CHARCOUNT FROM 10 BY -1
+           UNTIL N1(CHARCOUNT:1) NOT = SPACE
+ ***     reference modification. YOU KIDS HAVE IT EASY I TELL YOU
+         END-PERFORM
+         COMPUTE CC2 = 10 - CHARCOUNT + 1
+         STRING N1(1:CHARCOUNT) DELIMITED SIZE INTO N2
+           POINTER CC2
+         ADD AMOUNT-WORKING N29 GIVING AMOUNT-WORKING
+         .
+
+       DISPLAY "".
+
+       DIVIDE AMOUNT-WORKING BY QUARTER-VALUE
+         GIVING QUARTER-COUNT
+         REMAINDER AMOUNT-WORKING.
+       IF QUARTER-COUNT IS GREATER THAN ZERO
+         MOVE QUARTER-COUNT TO AMOUNT-OUT
+         DISPLAY "QUARTERS: " AMOUNT-OUT.
+
+       DIVIDE AMOUNT-WORKING BY DIME-VALUE
+         GIVING DIME-COUNT
+         REMAINDER AMOUNT-WORKING.
+       IF DIME-COUNT IS GREATER THAN ZERO
+         MOVE DIME-COUNT TO AMOUNT-OUT
+         DISPLAY "DIMES: " AMOUNT-OUT.
+
+       DIVIDE AMOUNT-WORKING BY NICKEL-VALUE
+         GIVING NICKEL-COUNT
+         REMAINDER AMOUNT-WORKING.
+       IF NICKEL-COUNT IS GREATER THAN ZERO
+         MOVE NICKEL-COUNT TO AMOUNT-OUT
+         DISPLAY "NICKELS: " AMOUNT-OUT.
+
+       DIVIDE AMOUNT-WORKING BY PENNY-VALUE
+         GIVING PENNY-COUNT
+         REMAINDER AMOUNT-WORKING.
+       IF PENNY-COUNT IS GREATER THAN ZERO
+         MOVE PENNY-COUNT TO AMOUNT-OUT
+         DISPLAY "PENNIES: " AMOUNT-OUT.
+
+       IF AMOUNT-WORKING IS GREATER THAN ZERO
+         DISPLAY "wtf ".
+
+   MAIN-END-PROGRAM.
+       GO TO EXIT-PROGRAM.
+   MAIN-EXIT.
+       EXIT.
+  /
+
+   DRLEGACY-MISC SECTION.
+   EXIT-PROGRAM.
+       EXIT PROGRAM.
+
+share
+Save
+Taylorhill89
+24 points·5 years ago
+
+Is it just me, or does COBOL look like it's shouting code?
+
+share
+Save
+Dr_Legacy
+16 points·5 years ago
+
+For the computers of the day to do what you wanted, you had to code really
+loud.
+
+share
+Save
+chrisidone
+2 points·4 years ago
+
+Exactly! With buckle spring keyboards!
+
+share
+Save
+[deleted]
+4 points·5 years ago
+
+TAKE YOUR GODAMN QUARTERS
+
+TAKE YOUR GODAMN DIMES
+
+TAKE YOUR GODAMN NICKLES
+
+TAKE YOUR GODAMN PENNIES
+
+refreshing...
+
+TAKE...
+
+share
+Save
+KeasbeyMornings
+9 points·5 years ago
+
+Strong username to programming language correlation. Solution looks good to me
+from what I can tell!
+
+share
+Save
+Monkeyget
+4 points·5 years ago
+
+http://en.wikipedia.org/wiki/Aptronym
+
+share
+Save
+isopsephile
+13 points·5 years ago
+
+Ruby, with code in the argument list for lulz:
+
+def change _, amount = (_ * 100).round
+  {Quarters: 25, Dimes: 10, Nickels: 5, Pennies: 1}.each do |coin, value|
+    amount -= value * (count = amount / value)
+    puts "#{coin}: #{count}" unless count < 1
+  end
+end
+
+share
+Save
+KeasbeyMornings
+3 points·5 years ago
+
+Excellent job. I like your approach via descent.
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+I'm new to ruby and was wondering if something like the "unless count < 1"
+existed when I was writing my solution. Thanks for showing me something new and
+useful!
+
+share
+Save
+Laremere
+1 09 points·5 years ago
+
+Python with bonus
+
+x = int( float(raw_input()) * 100)
+for i in [(25,"quarters"),(10,"dimes"),(5,"nickles"),(1,"pennies")]:
+    x, y = (x%i[0],x//i[0])
+    if y: print i[1] + ": " + str(y)
+
+share
+Save
+Cosmologicon
+2 313 points·5 years ago
+
+Command line (without awk or bc) with bonus. Someone can probably do much
+better.
+
+sed 's|[0-9]*|&00|;s|\.| + |' | xargs expr | xargs seq | sed 's|.*|p|' | tr -d "\n" | sed 's|ppppp|n|g;s|nnnnn|q|g;s|nn|d|g' | sed 's|\(.\)|&\n|g' | uniq -c | sed 's| *\(.*\)q|Quarters: \1|;s| *\(.*\)d|Dimes: \1|;s| *\(.*\)n|Nickels: \1|;s| *\(.*\)p|Pennies: \1|'
+
+share
+Save
+blexim
+2 points·5 years ago
+
+I really like this
+
+share
+Save
+skeeto
+-9 812 points·5 years ago·edited 5 years ago
+
+JavaScript,
+
+function coins(amount) {
+    return [25, 10, 5, 1].map(function(coin) {
+        return [~~(amount / coin), amount %= coin][0];
+    });
+}
+
+Example usage,
+
+coins(123);
+// => [4, 2, 0, 3]
+
+Common Lisp,
+
+(defun coins (money)
+  (loop for amount = money then (rem amount coin)
+     for coin in '(25 10 5 1)
+     collect (floor amount coin)))
+
+Clojure,
+
+(defn coins [money]
+  (loop [[coin & coins] [25 10 5 1]
+         amount money
+         result []]
+    (if (zero? amount)
+      result
+      (recur coins (rem amount coin) (conj result (quot amount coin))))))
+
+share
+Save
+aredna
+1 07 points·5 years ago
+
+C++ w/ Bonus & Rounding - Using a greedy solution
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double n;
+    cin >> n;
+    int m = int(n*1000+5+1e-9)/10; // round to nearest penny, tolerance of 1e-9
+
+    if (m >= 25) cout << "Quarters: " << m/25 << endl;
+    m %= 25;
+    if (m >= 10) cout << "Dimes: " << m/10 << endl;
+    m %= 10;
+    if (m >= 5) cout << "Nickles: " << m/5 << endl;
+    m %= 5;
+    if (m >= 1) cout << "Pennies: " << m/1 << endl;
+
+    return 0;
+}
+
+Challenge Results:
+
+1.23
+Quarters: 4
+Dimes: 2
+Pennies: 3
+
+10.24
+Quarters: 40
+Dimes: 2
+Pennies: 4
+
+0.99
+Quarters: 3
+Dimes: 2
+Pennies: 4
+
+5
+Quarters: 20
+
+0.06
+Nickles: 1
+Pennies: 1
+
+This is interesting problem as using the US coin denominations a greedy
+solution always works and most people just assume this is the case. Take for
+example the case where you have the standard US denominations, but add an 18
+cent coin as well so you have: 25,18,10,5,1.
+
+If you were asked to provide change for 36 cents the optimal solution would be
+2x18 cent coins. However a greedy solution starts at the top and uses a 25 cent
+piece first, leaving 11 cents. In the end you use an extra coin and end up
+using: 1x25, 1x10, and 1x1.
+
+The becomes a much more difficult problem to solve, but is probably best served
+in an intermediate (or even hard pending input limitations).
+
+share
+Save
+Wolfspaw
+3 points·5 years ago
+
+Nice insight!
+
+I seem to remember that an easy way to tell if you can use a greedy solution in
+a counting coins problem is to see if each coin-value cannot be surpassed or
+equaled by summing the lesser ones. Example:
+
+Usual coin denominations: 25 > 10 + 5 + 1 and 10 > 5 + 1.
+
+18 coin denomination : 25 < 18 + 10 + 5 + 1
+
+share
+Save
+possiblywrong
+5 points·5 years ago
+
+This is not a sufficient condition; consider denominations 1, 6, and 10.
+Greedily making change for 12 cents requires 3 coins (10+1+1), which is not
+optimal (6+6).
+
+share
+Save
+rowenlemming
+3 points·5 years ago
+
+Condition seems pretty straight forward to me. Every denomination is equally
+divisible by another denomination (except the lowest).
+
+share
+Save
+possiblywrong
+2 points·5 years ago
+
+I may misunderstand your comment, but (1) this is not the same condition
+specified by Wolfspaw, and (2) as Wolfspaw's condition is not sufficient,
+neither is yours necessary. Consider denominations 1, 2, and 5 (which is not
+divisible by 2).
+
+share
+Save
+drch
+0 13 points·5 years ago
+
+With 18c coin, you'd also have to find a way to break ties. 90c = 5x18 or 3x25,
+1x10, 1x5.
+
+share
+Save
+aredna
+1 03 points·5 years ago
+
+Certainly! That's a great addition to the complexities this can quickly have
+for many combinations of denominations.
+
+My quick google searches aren't finding any countries where a greedy solution
+is sub-optimal today, but I seem to recall a European country where this wasn't
+the case before the Euro. I'll have to research it a bit more later tonight.
+
+share
+Save
+possiblywrong
+7 points·5 years ago
+
+I also don't know of any actual currencies where greedy is sub-optimal. But the
+problem of characterizing those currencies for which greedy is optimal turns
+out to be extremely interesting, and harder than it looks. I remember missing a
+question about this on an algorithms exam in grad school; the intended solution
+was based on an incorrect characterization in a paper (sort of a
+"super-linearity" condition on the denominations). The linked paper in this
+math.stackexchange discussion gives a good survey of the problem.
+
+share
+Save
+domlebo70
+1 21 point·5 years ago
+
+Nice. Your solution seems simpler than mine, though in essence it's the same.
+
+share
+Save
+
+3 more replies
+
+bheinks
+0 07 points·5 years ago·edited 5 years ago
+
+Python (with bonus)
+
+from decimal import *
+
+coins = (
+    ("Quarters", 0.25),
+    ("Dimes", 0.10),
+    ("Nickels", 0.05),
+    ("Pennies", 0.01))
+
+def to_coins(money):
+    def to_decimal(value):
+        return Decimal(value).quantize(Decimal(".01"), rounding = ROUND_DOWN)
+
+    money = to_decimal(money)
+
+    for coin, value in ((coin, to_decimal(value)) for (coin, value) in coins):
+        number_of_coins, money = divmod(money, value)
+
+        if number_of_coins > 0:
+            print("{}: {}".format(coin, number_of_coins))
+
+Challenge output
+
+# 10.24
+Quarters: 40
+Dimes: 2
+Pennies: 4
+
+# 0.99
+Quarters: 3
+Dimes: 2
+Pennies: 4
+
+# 5
+Quarters: 20
+
+# 00.06
+Nickels: 1
+Pennies: 1
+
+Edit: divmod
+
+share
+Save
+lawlrng
+0 16 points·5 years ago
+
+Howdy!
+
+There's a fun function in Python called divmod that you can use inside your for
+loop. =) You can replace what you have with the following:
+
+number_of_coins, money = divmod(money, value)
+
+share
+Save
+bheinks
+0 02 points·5 years ago
+
+You know what... You're absolutely right. I was originally under the impression
+that the use of divmod was deprecated in modern versions, but now I realize
+that that's only the case for complex numbers. Reading comprehension is not
+always my strong suit.
+
+Thanks for the tip.
+
+share
+Save
+Ydirbut
+2 points·5 years ago
+
+Just curious, is there a reason you defined a to_decimal function instead of
+using the built-in round function?
+
+share
+Save
+bheinks
+0 02 points·5 years ago·edited 5 years ago
+
+Floating point accuracy can be pretty unpredictable. Via the Python
+documentation:
+
+    Note: The behavior of round() for floats can be surprising: for example,
+    round(2.675, 2) gives 2.67 instead of the expected 2.68. This is not a bug:
+    it’s a result of the fact that most decimal fractions can’t be represented
+    exactly as a float. See Floating Point Arithmetic: Issues and Limitations
+    for more information.
+
+Because of this, the use of floats is discouraged when working with precision
+values (especially money). You can generally bypass this by either multiplying
+and casting to int, or by creating a decimal representation with a more
+explicit rounding functionality (the approach I chose).
+
+share
+Save
+Ydirbut
+1 point·5 years ago
+
+Thanks!
+
+share
+Save
+bheinks
+0 01 point·5 years ago
+
+Not a problem.
+
+share
+Save
+JayBlay77
+1 point·5 years ago
+
+I'm having a hard time understanding how your double for loop works. I think it
+might be I'm not sure which for loop is going first. Could you possibly explain
+what it's doing?
+
+share
+Save
+bheinks
+0 01 point·5 years ago
+
+Surely. So what you're looking at is actually referred to as a generator
+expression. The expression in question is semantically equivalent to the
+following:
+
+...
+def __coin_to_decimal(coins): # declare function anonymously
+    for (coin, value) in coins: # loop over coins
+        yield (coin, to_decimal(value)) # return decimalized coin value
+
+for coin, value in __coin_to_decimal(coins): # loop over generator
+...
+
+In this context, I made use of a generator expression to loop over the coins
+tuple in a manner that casted each float value to decimal without explicit
+definition of a generator function.
+
+While I could very well have used a list comprehension instead ([(coin,
+to_decimal(value)) for (coin, value) in coins] *note the brackets*), we are not
+storing the results of the casting in any way, so a generator is the more
+logical option performance-wise.
+
+share
+Save
+crawphish
+1 point·5 years ago
+
+Could you explain what the for loop is doing? Im still learning python and I
+got sort of confused by it.
+
+share
+Save
+Drewlite
+4 points·5 years ago
+
+Little solution done in R. %/% are modulo operations
+
+change<-function(x){
+    x<-round(x*100)
+    change<-c(0,0,0,0)
+    if(x>=25){
+        change[1]<-x%/%25
+        x<-x-(change[1]*25)
+    }
+    if(x>=10){
+        change[2]<-x%/%10
+        x<-x-(change[2]*10)
+    }
+    if(x>=5){
+        change[3]<-x%/%5
+        x<-x-(change[3]*5)
+    }
+    if(x>=1){
+        change[4]<-x
+    }
+    cat(change[1],"quarters,",change[2],"dimes",change[3],"nickels",change[4],"pennies\n")
+}
+
+And the output:
+
+> change(10.42)
+41 quarters, 1 dimes 1 nickels 2 pennies
+> change(10.24)
+40 quarters, 2 dimes 0 nickels 4 pennies
+> change(.99)
+3 quarters, 2 dimes 0 nickels 4 pennies
+> change(5)
+20 quarters, 0 dimes 0 nickels 0 pennies
+> change(00.06)
+0 quarters, 0 dimes 1 nickels 1 pennies
+
+share
+Save
+drch
+0 17 points·5 years ago·edited 5 years ago
+
+C# w/ bonus
+
+public void Easy119(double amount)
+{
+    int cents = (int)(Math.Round(amount, 2) * 100);
+
+    var coins = new[] {
+        new { Name = "Quarters", Value = 25 }, new { Name = "Dimes", Value = 10 },
+        new { Name = "Nickels", Value = 5 }, new { Name = "Pennies", Value = 1 } };
+
+    var change = coins.Select(coin => new { Amt = Math.DivRem(cents, coin.Value, out cents), Coin = coin })
+                .Where(x => x.Amt != 0).ToList();
+
+    change.ForEach(x => Console.WriteLine(x.Coin.Name + ": " + x.Amt));
+}
+
+share
+Save
+
+1 more reply
+
+dante9999
+6 points·5 years ago
+
+Here's my solution in JavaScript, this is my first post here, so any feedback
+will be appreciated :)
+
+function calculate_change () {
+
+var input = prompt('Enter the amount');
+
+var message = "You want to change " + input + "$, right?<br>";
+
+//coins used in US...
+var quarter = 0.25;
+var dime = 0.10;
+var nickel = 0.05;
+var cent = 0.01;
+
+//calculating the change
+var quarters = input/quarter;
+var dimes = ((input%quarter).toFixed(2))/dime;
+var nickels = ((((input%quarter).toFixed(2))%dime).toFixed(2))/nickel;
+var cents = (((((input%quarter).toFixed(2)%dime).toFixed(2))%nickel).toFixed(2))/cent;
+
+message += "Quarters: " + Math.floor(quarters) + "<br>";
+message += "Dimes: " + Math.floor(dimes) + "<br>";
+message += "Nickels: " + Math.floor(nickels) + "<br>";
+message += "Cents: " + Math.floor(cents) + "<br>";
+
+document.write(message);
+}
+
+share
+Save
+t-j-b
+1 point·5 years ago·edited 5 years ago
+
+Nice solution, I don't really have good feedback; I tried my own version using
+a variable to track the remainder (and I converted it into British pounds)
+http://jsfiddle.net/masyG/2/ so not so much an improvement, I just used this to
+learn the method and make it slightly clearer for myself to read
+
+share
+Save
+dante9999
+2 points·5 years ago
+
+Thanks! I'm certainly not an expert (I'm just beginning to learn js and some
+php), but your solution at jsfiddle looks good, clear, readable and aesthetic
+:)) I'm not sure about efficiency of it (I don't know if my solution is the
+most efficient either), but I think that the challenges here are rather about
+understanding concepts and procedures and not so much about efficiency...
+
+share
+Save
+Skooljester
+0 01 point·5 years ago
+
+I think the only way to shorten it would be to use the numbers themselves
+instead of having quarter, dime, nickel, and cent as variables. Other than that
+it looks good.
+
+share
+Save
+Rapptz
+0 03 points·5 years ago·edited 5 years ago
+
+Using C++ and just regular integer arithmetic, with bonus.
+
+#include <iostream>
+
+int main() {
+    std::cout << "How much money do you have?";
+    float fChange;
+    std::cin >> fChange;
+    int change = fChange * 100;
+    int quarters = change/25;
+    int dimes = (change %= 25)/10;
+    int nickels = (change %= 10)/5;
+    int pennies = (change %= 5);
+    if(quarters) std::cout << "Quarters: " << quarters;
+    if(dimes) std::cout << "\nDimes: " << dimes;
+    if(nickels) std::cout << "\nNickels: " << nickels;
+    if(pennies) std::cout << "\nPennies: " << pennies;
+}
+
+Challenge output:
+
+10.24
+Quarters: 40
+Dimes: 2
+Pennies: 4
+
+0.99
+Quarters: 3
+Dimes: 2
+Pennies: 4
+
+5
+Quarters: 20
+
+0.06
+Nickels: 1
+Pennies: 1
+
+share
+Save
+bezuhov
+3 points·5 years ago
+
+Python with the bonus:
+
+from sys import argv
+
+number = float(argv[1])
+
+def calculateChange(num):
+        print '${:.2f}'.format(num)
+        num = int(num * 100)
+        if num / 25:
+                print 'Quarters:', num / 25
+                num = num % 25
+
+        if num / 10:
+                print 'Dimes:', num / 10
+                num = num % 10
+
+        if num / 5:
+                print 'Nickels:', num / 5
+                num = num % 5
+
+        if num:
+                print 'Pennies:', num
+
+calculateChange(number)
+
+And in JavaScript with bonus (using Node.js) just because:
+
+var number = process.argv.splice(2);
+
+var calculateChange = function(num) {
+        console.log('$' + num);
+        var n = Math.floor(num * 100);
+        if (n / 25 >= 1) {
+                console.log("Quarters: " + Math.floor(n / 25));
+                n = n % 25;
+        }
+        if (n / 10 >= 1) {
+                console.log("Dimes: " + Math.floor(n / 10));
+                n = n % 10;
+        }
+        if (n / 5 >= 1) {
+                console.log("Nickels: " + Math.floor(n / 5));
+                n = n % 5;
+        }
+        if (n) {
+                console.log("Pennies: " + n);
+        }
+}
+
+calculateChange(number);
+
+share
+Save
+fweakout
+1 point·5 years ago
+
+How does your if work in the Python example? I'm still fairly new to Python but
+I've never seen the division operator used like this. Thank you in advance.
+
+share
+Save
+bezuhov
+2 points·5 years ago
+
+Best way to see is to fire up your Python interpreter (IDLE or python in your
+terminal application). This is the case because Python performs integer
+division here, which only pays attention to the whole numbers. Both num and the
+number being divided by are integers (type int), so Python just ignores any
+decimal points. That can seem pretty unintuitive. Try these in your Python
+interpreter:
+
+>>> 5 / 10
+>>> 5.0 / 10
+>>> float(5 / 10)
+>>> int(5.0 / 10)
+
+As you can probably guess by now, my code works because anything less than the
+divisor evaluates to 0, and Python treats that basically the same as False.*
+
+* Fun fact that I just learned the other day: Python originally didn't have
+True and False in the language. Instead, it relied on 0 for false values and
+anything else for true values.
+
+share
+Save
+fweakout
+1 point·5 years ago
+
+Thank you for your clear reponse.
+
+share
+Save
+
+2 more replies
+
+DolphR
+3 points·5 years ago
+
+Another Haskell solution. It's reading more than one line in case you want
+that.
+
+main = getContents >>= mapM_ (putStr . calc . read) . lines
+
+calc x =
+  let
+    y          = round $ x * 100
+    (q, rest)  = y `divMod` 25
+    (d, rest1) = rest `divMod` 10
+    (n, rest2) = rest1 `divMod` 5
+    (c, rest3) = rest2 `divMod` 1
+  in
+    pretty(q,d,n,c)
+
+pretty (q,d,n,c) = unlines ["Quarters: "++ show q, "Dimes: "++show d, "Nickels: "++ show n, "Pennies: "++ show c]
+
+share
+Save
+rand486
+3 points·5 years ago
+
+PHP with bonus - would appreciate feedback on a better solution for the
+floating point error if I actually use decimals:
+
+<?php
+
+$coins = array ('Quarters' => 25,
+        'Dimes' => 10,
+        'Nickels' => 5,
+        'Pennies' => 1);
+
+//Express in cents, not dollars, because floating point error garbage
+$total_price = 116;
+
+foreach ($coins as $coin => $coin_value) {
+$num = floor($total_price/$coin_value);
+$total_price = $total_price - ($coin_value * $num);
+if ($num != 0) echo "$coin: $num<br />";
+
+}
+
+share
+Save
+mapmaker_y2k
+1 point·5 years ago
+
+Another solution for PHP. Much less elegant, but it utilizes floating points.
+
+<?
+    $quarter = 0.25;
+    $dime = 0.10;
+    $nickel = 0.05;
+    $penny = 0.01;
+
+    $input = 5.38;
+
+    $quarters = intval($input / $quarter);
+    $dimes = intval(($input - ($quarters * $quarter)) / $dime);
+    $nickels = intval(($input - (($quarters * $quarter) + ($dimes * $dime))) / $nickel);
+    $pennies = intval(($input - (($quarters * $quarter) + ($dimes * $dime) + ($nickels * $nickel))) / $penny);
+
+    echo("Quarters: ".$quarters."\n");
+    echo("Dimes: ".$dimes."\n");
+    echo("Nickels: ".$nickels."\n");
+    echo("Pennies: ".$pennies."\n");
+?>
+
+share
+Save
+rand486
+2 points·5 years ago
+
+Your four lines of intval() statements could easily become a recursive
+statement, rather than typing it out. That was my first inclination when I
+approached the problem. For four lines, not a big deal though.
+
+Thanks for the note though, I was using floor() and floating point errors were
+messing with my pennies. intval() looks like it solves what I was struggling
+with.
+
+Or maybe my server just knows I'm Canadian (we just got rid of the penny up
+here).
+
+share
+Save
+mapmaker_y2k
+1 point·5 years ago·edited 5 years ago
+
+Since I've got someone actively eye-balling my PHP what do you think of this?
+
+<?
+    $coins = array('Quarters' => 0.25, 'Dimes' => 0.10, 'Nickels' => 0.05, 'Pennies' => 0.01);
+
+    $input = 4.48;
+    $totalCoinValue = 0;
+
+    foreach($coins as $key => $value) {
+        $remainder = $input - $totalCoinValue;
+        $numcoins = intval($remainder / $value);
+        echo('<p>'."$key: $numcoins".'</p>');
+        $totalCoinValue += $numcoins * $value;
+    }
+?>
+
+Edit: I ran into the floating point issue if I subtracted the total value of
+the current coins from the remainder of the previous round. Creating the
+totalCoinValue variable and calculating the remainder each iteration seemed to
+solve it.
+
+share
+Save
+rand486
+1 point·5 years ago
+
+
+    I ran into the floating point issue if I subtracted the total value of the
+    current coins from the remainder of the previous round. Creating the
+    totalCoinValue variable and calculating the remainder each iteration seemed
+    to solve it.
+
+Ah, that must've been the source of my bug as well. Thanks!
+
+Otherwise, it seems remarkably similar to my solution. Glad to see we're
+thinking alike?
+
+share
+Save
+blakzer0
+1 point·5 years ago·edited 5 years ago
+
+PHP w/ Bonus I noticed I was also having issues 00.06 input when using
+decimals. My solution was multiply the previous total and the amount of coins
+by 100 first then perform the subtraction.
+
+<pre>
+<?php
+
+        /**
+         * [01/28/13] Challenge #119 [Easy] Change Calculator
+         *
+         * @author: Neal Lambert
+         * @date:       02/17/2013
+         * @desc:       Write A function that takes an amount of money,
+                                rounds it to the nearest penny and then tells you the minimum
+                                number of coins needed to equal that amount of money.
+         * @url:        http://www.reddit.com/r/dailyprogrammer/comments/17f3y2/012813_challenge_119_easy_change_calculator/
+         */
+
+$inputs         = array(10.24,0.99,5,00.06);
+$currency       = array('Quarters' => .25,'Dimes' => .10,'Nickels' => .05,'Pennies' => .01);
+
+foreach($inputs as $total)
+{
+        $total = round($total, 2);
+
+        echo "Change to be made: $".number_format($total,2)." \n";
+
+        foreach ($currency as $denomination => $value)
+        {
+                $coins = floor($total/$value);
+                $total = (($total*100) - ($coins*$value*100))*.01;
+
+                if($coins > 0)
+                        echo $denomination.": ".$coins."\n";
+        }
+
+        echo "\n";
+}
+
+?>
+</pre>
+
+Output:
+
+Change to be made: $10.24
+Quarters: 40
+Dimes: 2
+Pennies: 4
+
+Change to be made: $0.99
+Quarters: 3
+Dimes: 2
+Pennies: 4
+
+Change to be made: $5.00
+Quarters: 20
+
+Change to be made: $0.06
+Nickels: 1
+Pennies: 1
+
+share
+Save
+bunsonh
+3 points·5 years ago
+
+Codecademy was down for maintenance yesterday, so I decided to give one of
+these a whirl. Here's what I got with my basic understanding.
+
+Python:
+
+ def coin_count(x):
+     coin = x * 100
+     q_count = 0
+     d_count = 0
+     n_count = 0
+     p_count = 0
+     q = 25
+     d = 10
+     n = 05
+     p = 01
+
+     q_count = int(coin/q)
+     coin = coin - (int(coin/q)*q)
+     d_count = int(coin/d)
+     coin = coin - (int(coin/d)*d)
+     n_count = int(coin/n)
+     coin = coin - (int(coin/n)*n)
+     p_count = coin
+     coin = coin - p_count
+     print "Quarters - " + str(q_count)
+     print "Dimes - " + str(d_count)
+     print "Nickles - " + str(n_count)
+     print "Pennies - " + str(int(p_count))
+     print ""
+
+share
+Save
+[deleted]
+3 points·4 years ago
+
+C++ in case anyone ever reads this:
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double money;
+    int quarters, dimes, nickels, pennies;
+
+    while(true)
+    {
+        cout << "Amount of money: $";
+        cin >> money;
+
+        quarters = money / 0.25;
+        money -= (quarters * 0.25);
+        dimes = money / 0.1;
+        money -= (dimes * 0.1);
+        nickels = money / 0.05;
+        money -= (nickels * 0.05);
+        pennies = money / 0.01;
+
+        if(quarters > 0)
+        {
+            cout << "Quarters: " << quarters <<endl;
+        }
+
+        if(dimes > 0)
+       {
+            cout << "Dimes: " << dimes <<endl;
+       }
+
+       if(nickels > 0)
+       {
+           cout << "Nickels: " << nickels <<endl;
+       }
+
+       if(pennies > 0)
+       {
+          cout << "Pennies: " << pennies <<endl;
+       }
+
+       cout << '\n';
+   }
+
+   return 0;
+   }
+
+I apologize if this looks indented strangely on reddit.
+
+share
+Save
+blexim
+4 points·5 years ago
+
+Python, with bonus:
+
+ import sys
+ y = int(float(sys.argv[1])*100)
+ if y/25: print "Quarters: %d"  % (y/25)
+ if (y%25)/10: print "Dimes: %d" % ((y%25)/10)
+ if (y%10)/5: print "Nickels: %d" % ((y%10)/5)
+ if y%5: print "Pennies: %d" % (y%5)
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+This gives me 1.04 when I pass the argument ".99"
+
+share
+Save
+domlebo70
+1 22 points·5 years ago·edited 5 years ago
+
+My attempt in Scala (code here):
+
+def change(amount: Double) = {
+  val coins = Map[Int, String](25 -> "Quarter", 10 -> "Dime", 5 -> "Nickel", 1 -> "Penny")
+  def recurse(m: Int, cs: List[Int] = coins.keys.toList): List[Int] = cs match {
+    case Nil     => Nil
+    case x :: rs => List.fill(m/x)(x) ::: recurse(m % x, rs)
+  }
+  val result = recurse((amount*100).toInt)
+  coins.filterKeys(k => result.contains(k))
+       .map { case (k, v) => v + "s: " + result.count(_ == k)}
+       .mkString("\n")
+}
+
+And the use case:
+
+def main(args: Array[String]) = println(change(1.23))
+
+Gives:
+
+Quarters: 4
+Dimes: 2
+Pennys: 3
+
+My challenge input results:
+
+// 10.24
+Quarters: 40
+Dimes: 2
+Pennys: 4
+
+//0.99
+Quarters: 3
+Dimes: 2
+Pennys: 4
+
+//5
+Quarters: 20
+
+//00.06
+Nickels: 1
+Pennys: 1
+
+share
+Save
+KeasbeyMornings
+2 points·5 years ago
+
+Excellent job! I like the scalability of your solution by using a finite map.
+
+share
+Save
+Wolfspaw
+2 points·5 years ago
+
+With bonus, C++11:
+
+#import <competitive.hpp>
+
+int main () {
+    real input;
+    cin >> input;
+    uint money = x100(input);
+
+    uint Quarters, Dimes, Nickels, Pennies;
+
+    Quarters = money / 25; money %= 25;
+    Dimes    = money / 10; money %= 10;
+    Nickels  = money / 5;  money %= 5;
+    Pennies  = money;
+    if (Quarters > 0) cout << "Quarters: " << Quarters << "\n";
+    if (Dimes    > 0) cout << "Dimes: "    << Dimes << "\n";
+    if (Nickels  > 0) cout << "Nickels: "  << Nickels << "\n";
+    if (Pennies  > 0) cout << "Pennies: "  << Pennies << "\n";
+}
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+I was thinking how I would do this in C++, I'm not going to do it anymore since
+I'd pretty much be copying, but what does %= do? I know modulus, just not %=.
+
+share
+Save
+Rapptz
+0 01 point·5 years ago
+
+It does modulus and then applies the result to the variable.
+
+Say for example you had the variable a, which we'll set to 29. If you do a %=
+25 you'd get a = 4, because 29 % 25 is 4, and it will assign it to that
+variable. It's the same as all the other operators with as similar scheme, *=,
+-=, +=, /= for example.
+
+share
+Save
+Wolfspaw
+1 point·5 years ago
+
+On c++ "x op= y" is a shortcut for "x = x op y", in this case it is the same
+modulus you know, "%", but it's a more concise syntax.
+
+As such:
+
+money %= 25; is the equivalent of: money = money % 25;
+
+share
+Save
+applesElmi
+0 12 points·5 years ago
+
+Here's my crack at the challenge, probably not the best solution. Beginner
+programmer, programming for a couple of months now. Anyways, here's my code for
+Challenge #119
+
+share
+Save
+vderyagin
+2 points·5 years ago·edited 5 years ago
+
+Go solution, with bonus.
+
+package main
+
+import (
+        "fmt"
+        "os"
+)
+
+var coins = []struct {
+        NamePlural string
+        Cents      int
+}{
+        {"Quarters", 25},
+        {"Dimes", 10},
+        {"Nickels", 5},
+        {"Pennies", 1},
+}
+
+func main() {
+        if len(os.Args) != 2 {
+                fmt.Println("argument is missing")
+                os.Exit(1)
+        }
+
+        var input float32
+        _, err := fmt.Sscanf(os.Args[1], "%f", &input)
+
+        if err != nil {
+                fmt.Println("invalid argument")
+                os.Exit(1)
+        }
+
+        centsLeft := int(input * 100)
+
+        for _, coin := range coins {
+                if amount := centsLeft / coin.Cents; amount > 0 {
+                        fmt.Printf("%s: %d\n", coin.NamePlural, amount)
+                }
+
+                centsLeft %= coin.Cents
+        }
+}
+
+share
+Save
+marekkpie
+2 points·5 years ago
+
+Lua, with bonus.
+
+function change(price)
+  local t = {}
+
+  price = price * 100
+
+  t.Quarters = price / 25
+  price = price % 25
+
+  t.Dimes = price / 10
+  price = price % 10
+
+  t.Nickels = price / 5
+  price = price % 5
+
+  t.Pennies = price
+
+  return t
+end
+
+for i = 1, #arg do
+  io.write(arg[i] .. '\n')
+  for k,v in pairs(change(arg[i])) do
+    if v >= 1 then
+      io.write(string.format('%s: %d\n', k, v))
+    end
+  end
+  io.write('\n')
+end
+
+share
+Save
+minno
+2 points·5 years ago
+
+Python, using the laziest solution possible:
+
+def get_input():
+    raw = raw_input()
+    return int(round(100 * float(raw)))
+
+def print_coins(q, d, n, p):
+    if q != 0:
+        print "Quarters: %d" % q
+    if d != 0:
+        print "Dimes: %d" % d
+    if n != 0:
+        print "Nickels: %d" % n
+    if p != 0:
+        print "Pennies: %d" % p
+
+def main():
+    num = get_input()
+    q = num / 25
+    num %= 25
+    d = num / 10
+    num %= 10
+    n = num / 5
+    num %= 5
+    p = num
+    print_coins(q, d, n, p)
+
+if __name__ == '__main__':
+    main()
+
+share
+Save
+Gotler
+2 points·5 years ago
+
+My solution in C#
+
+static void changeCalculator(string change)
+{
+    change += ".0";
+    int cents = Int32.Parse(change.Split('.')[0])*100 + Int32.Parse(change.Split('.')[1]);
+    int[] coins = new[] { 25, 10, 5, 1 };
+    Queue<string> names = new Queue<string>(new[] { "Quarters: ", "Dimes: ", "Nickels: ", "Pennies: " });
+    foreach (var item in coins)
+        Console.WriteLine(names.Dequeue() + Math.DivRem(cents, item, out cents));
+}
+
+Should work for all valid inputs, even though it isn't very pretty.
+
+share
+Save
+Wedamm
+2 points·5 years ago
+
+Haskell:
+
+import Data.Fixed
+import Data.Maybe
+import Control.Arrow
+import Data.List
+
+printChangedCoins :: Centi -> IO ()
+printChangedCoins = mapM_ (\(n,coin) -> putStrLn (show n
+                                                  ++ " times "
+                                                  ++ showCoin coin))
+                    . changedCoins
+
+changedCoins = map (length &&& head) . group . change coins
+
+change coins@(c:cs) x | x >= c = c : change coins (x-c)
+                      | x < c  = change cs x
+change [] _ = []
+
+coins = [2, 1, 0.5, 0.2, 0.1, 0.05, 0.02, 0.01]
+
+showCoin x = fromMaybe
+               (show x ++ " Euro") $
+               lookup x [(2,"2 Euro"), (1,"1 Euro"), (0.5,"50 cent"), (0.2,"20 cent"),
+                         (0.1,"10 cent"), (0.05,"5 cent"), (0.02,"2 cent"), (0.01,"1 cent")]
+
+Usage:
+
+> printChangedCoins 7.97
+3 times 2 Euro
+1 times 1 Euro
+1 times 50 cent
+2 times 20 cent
+1 times 5 cent
+1 times 2 cent
+
+share
+Save
+lsakbaetle3r9
+0 02 points·5 years ago·edited 5 years ago
+
+Does this count??
+
+def make_change(ammount):
+    ammount = float(ammount)
+    coins = [('quarters:',.25),('dimes:',.1),('nickels:',.05),('pennies:',.009)]
+    for coin,value in coins:
+        #print ammount
+        print coin, int(ammount//value)
+        ammount = ammount - int(ammount//value)*value
+
+share
+Save
+dhbikoff
+1 point·5 years ago
+
+You're output is correct, but you may want to clean up your print statements
+for better formatting. Also, if you add a simple if statement you could get the
+bonus. Good work.
+
+share
+Save
+lsakbaetle3r9
+0 01 point·5 years ago
+
+I wasn't sure if it counted because I used .009 and not .01.
+
+One of the print statements was supposed to be deleted//commented out.
+
+share
+Save
+bubbygus
+2 points·5 years ago
+
+My attempt in Python (super newbie here) I can't figure out why my code skips
+overs that last penny in .06
+
+def change_calculator(amount):
+    coins = [.25,.10,.05,.01]
+    rounded = round(amount,2)
+    total = 0
+    for x in coins:
+        counter = 0
+        while (total + x) <= rounded:
+            total += x
+            counter += 1
+        if x == .25 and counter > 0:
+            print "Quarters: " + str(counter)
+        if x == .10 and counter > 0:
+            print "Dimes: " + str(counter)
+        if x == .05 and counter > 0:
+            print "Nickles: " + str(counter)
+        if x == .01 and counter > 0:
+            print "Pennies: " + str(counter)
+
+print change_calculator(10.24)
+print change_calculator(0.99)
+print change_calculator(5)
+print change_calculator(00.06)
+
+share
+Save
+eagleeye1
+0 12 points·5 years ago
+
+I don't know what your problem was, but it can be fixed by changing your while
+condition to
+
+while total+x < rounded+0.001: # (a number smaller than all our comparisons)
+
+share
+Save
+bubbygus
+1 point·5 years ago
+
+The weird problem was that it outputted everything correctly for the first 3
+tests. But the 4th, 0.06, would skip that last penny in the while loop. It
+works fine for .99 as you can see here. Thanks for the help though!
+
+share
+Save
+Merketos
+2 points·5 years ago
+
+I'm only posting mine because it's different than the other javascript
+solutions, even if I probably used the wrong way.
+
+var quarter = 0;
+var dime = 0;
+var nickel = 0;
+var penny = 0;
+
+function calcChange(total) {
+    if (isNaN(total)) {
+        return;
+    } else {
+        total = Math.round(total*100);
+        while (total > 0) {
+            if (total >= 25) {
+                total -= 25;
+                quarter++;
+            } else if (total >= 10) {
+                total -= 10;
+                dime++;
+            } else if (total >= 5) {
+                total -= 5;
+                nickel++;
+            } else {
+                total -= 1;
+                penny++;
+            }
+        }
+        document.getElementById("answer").innerHTML = ("Quarters: " + quarter + "</br>" +
+                       "Dimes: " + dime + "</br>" +
+                       "Nickels: " + nickel + "</br>" +
+                       "Pennies: " + penny);
+    }
+}
+
+share
+Save
+porterbrown
+2 points·5 years ago
+
+Just learning Javascript - anything best practice I could do to improve? (I did
+read some of the other JS entries...they all were more eloquent than mine, but
+mine works; baby steps I guess. Had fun! Criticism welcome!
+
+ var quarters = 0;
+ var dimes = 0;
+ var nickles = 0;
+ // Declaring initial variables (I just like doing this at the top, habbit from other languages)
+
+ var valueStart = 1.23;
+ // This could be changed to whatever number, or promoted from the user.
+
+ var roundedStart = Math.round(valueStart*100)/100;
+ // Rounding the initial value to the nearest hundreth as per the challenge.
+
+ roundedStart = roundedStart*100;
+ //This multiples the decimal based numbers to full integers, as Javascript
+ //and decimal based math were giving me some odd results.
+
+ while(roundedStart>=25){
+     quarters++;
+     roundedStart-=25;
+ }  // Checking for quarters
+
+ while(roundedStart>=10){
+     dimes++;
+     roundedStart-=10;
+ } // Checking for dimes
+
+ while(roundedStart>5){
+     nickles++;
+     roundedStart-=5;
+ } // Checking for nickles
+
+ console.log("It takes:\n"+quarters+" Quarters, \n"+dimes+" Dimes,\n"+nickles+" Nickles, and \n"+Math.round(roundedStart*1)/1+" pennies.");
+ //A simple output - this could be used any way, creation of a text node in the DOM, changing the inner
+ //html of an element, etc.
+
+share
+Save
+kubunto
+1 point·5 years ago
+
+maybe modulus would clean it up a bit but that is all I can offer.
+
+share
+Save
+porterbrown
+1 point·5 years ago
+
+Could someone give me a quick explanation of how I could incorporate modulus? I
+know that it is used to give the remainder (and have used it for that), but how
+could that count how many quarters for example were in a given amount?
+
+share
+Save
+isopsephile
+2 points·5 years ago
+
+Multiplication is repeated addition, division repeated subtraction. Rather than
+using a while loop to (wastefully) simulate division, you could do something
+like this:
+
+quarters = roundedStart / 25;
+roundedStart %= 25;
+
+With a value of 123, for instance, this would put 4 in quarters in one fell
+swoop, rather than one at a time with ++. Since quarters are no longer needed,
+roundedStart can become the remainder of dividing itself by 25. Repeating this
+process for each of the denominations gets you to the solution in just 12
+"operations", irrespective of the size of the initial value. Contrast that with
+your while loops, which would come to a grinding halt if somebody wanted change
+for a billion dollars.
+
+share
+Save
+porterbrown
+2 points·5 years ago
+
+@isopsephile - I think I get it. Working off the code of:
+
+ quarters = roundedStart / 25;
+
+I then just round down the the integer quarters to get whole quarters right?
+That makes sense.
+
+On a side note, I have done some Lynda javascript classes/videos, and I am
+currently reading Eloquent Javascript (good reviews online). Not trying to be a
+smart ass, how can someone learn that while loops are wasteful and not best
+practice to use in this instance? I am sure you are right, I just want learn
+how to learn this.
+
+This is the type of info I enjoy getting from sub like dailyprogrammer! Thanks
+you.
+
+share
+Save
+isopsephile
+1 point·5 years ago
+
+Ah, sorry about that. I forgot JavaScript doesn't do integer division. You do
+indeed have to floor() it. As for the inefficiency of looping, it's kind of
+just intuitive, isn't it? The less work you ask the computer to do, the faster
+your code will generally be. Using a while loop to do division is like being
+forced to carry in one bag of groceries at a time when you're perfectly capable
+of handling a dozen. You would surely become frustrated with such a
+time-wasting endeavor, and that's how a computer feels when you presume to
+teach it how to do division all over again. : )
+
+share
+Save
+porterbrown
+1 point·5 years ago
+
+Taking advice, how about this for a cleaner version:
+
+ // Prompt user for money amount:
+ var valueStart = prompt("How much money do you have?");
+
+ // Get to integer based math for JS:
+ rounded = Math.round(valueStart*100);
+
+ // Use modulus and floor to figure out full coins:
+ quarters = rounded/25;
+ fullQuarters = Math.floor(quarters);
+ dimes = (rounded%25)/10;
+ fullDimes = Math.floor(dimes);
+ nickles = ((rounded%25)%10)/5;
+ fullNickles = Math.floor(nickles);
+ pennies = (((rounded%25)%10)%5);
+
+
+ // Output string with start value and breakdown:
+ console.log("A value of " + valueStart + " would be broken down into...");
+ console.log("Quarters: " + fullQuarters);
+ console.log("Dimes:" + fullDimes);
+ console.log("Nickles: " + fullNickles);
+ console.log("Pennies:" + pennies);
+
+share
+Save
+porterbrown
+1 point·5 years ago
+
+Wow - I ran some tests using Date() objects and counting milliseconds between
+the start and end of my first code (with lots of while loops) and my revised
+code (using modulus). I found that for simple calculations of less than say 10
+dollars my initial while-based loop was marginally faster (5 milliseconds vs 7
+milliseconds), but when the numbers inflated to like $30,000 plus the revised
+code was dramatically faster, like a difference of 428 milliseconds for the old
+code, vs. 7 for the revised.
+
+I found this quite interesting, and goes right along with what isopsephile was
+saying. Anything else I could do? :-)
+
+share
+Save
+nanermaner
+1 02 points·5 years ago
+
+Java Solution:
+
+ public static void main(String[] args)
+{
+  Scanner kb = new Scanner(System.in);
+  System.out.print("Please Enter An Amont of Cash: ");
+  double moneyInput = kb.nextDouble();
+
+  int money = (int) Math.round(moneyInput*100);
+
+  int quarters;
+  int dimes;
+  int nickels;
+  int pennies;
+
+  quarters = money/25;
+  money = money%25;
+  dimes = money/10;
+  money = money%10;
+  nickels = money/5;
+  money = money%5;
+  pennies = money;
+
+  System.out.println();
+
+  if (quarters>0) {System.out.println("Quarters: "+quarters);}
+  if (dimes>0) {System.out.println("Dimes: "+dimes);}
+  if (nickels>0) {System.out.println("Nickels: "+nickels);}
+  if (pennies>0) {System.out.println("Pennies: "+pennies);}
+
+}
+
+share
+Save
+kubunto
+2 points·5 years ago·edited 5 years ago
+
+brute force python solution:
+
+ #!/usr/bin/python
+
+ inputChange = float(raw_input("enter how much you want change for" + "\n"))
+ quarters = 0
+ dimes = 0
+ nickles = 0
+ pennies = 0
+ leftOvers = 0
+
+ quarters = int(inputChange / .25)
+ leftOvers = inputChange % .25
+
+ dimes = int(leftOvers / .1)
+ leftOvers = leftOvers % .1
+
+ nickles = int(leftOvers / .05)
+ leftOvers = leftOvers % .05
+
+ pennies = int(leftOvers / .01)
+
+ print "Quarters: " + str(quarters) + "\nDimes: " + str(dimes) + "\nNickles: " + str(nickles) + "\nPennies: " + str(pennies)
+
+share
+Save
+kubunto
+1 point·5 years ago
+
+should have converted the decimals to integers
+
+share
+Save
+narcodis
+2 points·5 years ago·edited 5 years ago
+
+First year CS student here... comments on messiness, efficiency, whatever
+appreciated.
+
+in Java (works with all challenges)
+
+EDIT: included the bonus, which I noticed after posting. whoops!
+
+public static void changeCalculator()
+{
+        int quarters=0, nickels=0, dimes=0;
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter change: ");
+        double amount = Double.parseDouble(in.next());
+        in.close();
+        int pennies = (int)(Math.round(amount * 100));
+
+        while (pennies >= 25) { quarters++; pennies=pennies-25; }
+        while (pennies >= 10) { dimes++; pennies=pennies-10; }
+        while (pennies >= 5) { nickels++; pennies=pennies-5; }
+
+        if (quarters>0)
+                System.out.println( "Quarters: " + quarters);
+        if (dimes>0)
+                System.out.println( "Dimes: " + dimes);
+        if (nickels>0)
+                System.out.println( "Nickels: " + nickels);
+        if (pennies>0)
+                System.out.println( "Pennies: " + pennies);
+
+}
+
+share
+Save
+lawlrng
+0 11 point·5 years ago
+
+It's been a bit since I've used Java, but these are generally pretty standard
+changes you can make:
+
+int quarters=0, nickels=0, dimes=0; Can be changed to int quarters=nickels=
+dimes=0;.
+
+Anytime you have a mathematical operation using a variable then updating it,
+you can use the shorthand way of writing it. EG: pennies -= 25 accomplishes the
+same thing as pennies = pennies - 25.
+
+share
+Save
+fishbot
+2 points·5 years ago
+
+Python 3 #!/usr/bin/env python
+
+amt= round(float(input('>')) * 100)
+
+print("{}{}{}{}".format(\
+  'Quarters = {}\n'.format(amt // 25) if amt // 25 else '',\
+  'Dimes = {}\n'.format((amt % 25) // 10) if (amt % 25) // 10 else '',\
+  'Nickels = {}\n'.format(((amt % 25) % 10) // 5) if ((amt % 25) % 10) // 5 else '',\
+  'Pennys = {}\n'.format(((amt % 25) % 10) % 5) if ((amt % 25) % 10) % 5 else ''))
+
+share
+Save
+ihardy
+2 points·5 years ago
+
+In Python. I'm a beginner so any comments and suggestions are appreciated.
+
+def makechange():
+  money = int(input("enter a dollar amount $.$$: ") * 100)
+  q = (money - (money % 25))/25
+  money = money % 25
+  d = (money - (money % 10))/10
+  money = money % 10
+  n = (money - (money % 5))/5
+  p = money % 5
+
+  print  "Your change is %s quarters, %s dimes, %s nickels, and %s pennies" % (q, d, n, p)
+
+Challenge Inputs:
+
+enter a dollar amount $.$$: 10.24 Your change is 40 quarters, 2 dimes, 0
+nickels, and 4 pennies
+
+enter a dollar amount $.$$: 0.99 Your change is 3 quarters, 2 dimes, 0 nickels,
+and 4 pennies
+
+enter a dollar amount $.$$: 5 Your change is 20 quarters, 0 dimes, 0 nickels,
+and 0 pennies
+
+enter a dollar amount $.$$: 00.06 Your change is 0 quarters, 0 dimes, 1
+nickels, and 1 pennies
+
+share
+Save
+_Daimon_
+1 12 points·5 years ago·edited 5 years ago
+
+Solution in Ansi C. It's not my strongest language, so any improvement
+suggestions will be gladly welcomed :) Includes bonus and essy change to
+different currency.
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+#define COIN_NUM 4
+
+int main(int argc, char** argv)
+{
+    char coinage[COIN_NUM][32] = {"Quaters", "Dimes", "Penny", "Nickles"};
+    int rates[COIN_NUM] = {25, 10, 5, 1};
+    int results[COIN_NUM] = {0, 0, 0, 0};
+    int money = round(atof(argv[1]) * 100);
+    int i;
+    for (i = 0; i < COIN_NUM; i++) {
+        results[i] = money / rates[i];
+        money %= rates[i];
+        if (results[i]) {
+            printf("%s: %d\n", coinage[i], results[i]);
+        }
+    }
+    return 0;
+}
+
+share
+Save
+tsahyt
+2 points·5 years ago
+
+Python solution with a greedy pick
+
+#!/usr/bin/python
+import sys
+
+# currencies
+USD = { "Quarter" : 0.25, "Dime" : 0.10, "Nickel" : 0.05, "Penny" : 0.01 }
+EUR = { "50c" : 0.5, "20c" : 0.2, "10c" : 0.1, "5c" : 0.05, "2c" : 0.02, "1c" : 0.01 }
+
+# functions
+def change(amount, cval):
+        return int(amount/cval), amount%cval
+
+def coinnums(amount, coinvalues):
+        usage = dict([(i,0) for i in coinvalues])
+        while amount > 0:
+                x = max((i for i in coinvalues if coinvalues[i] <= amount), key=lambda i: coinvalues[i])
+                usage[x] += 1
+                amount = round(amount - coinvalues[x], 2)
+        return usage
+
+def pretty(c):
+        byval = sorted(c, key=lambda k: c[k], reverse=True)
+        for i in byval:
+                if c[i] > 0: print "{0}: {1}".format(i, c[i])
+
+# main
+def main():
+        amount = float(sys.argv[1])
+        currency = USD;
+        coinsneeded = coinnums(amount, currency)
+        pretty(coinsneeded)
+
+if __name__ == '__main__':
+        main()
+
+share
+Save
+srhb
+0 12 points·5 years ago·edited 5 years ago
+
+Haskell, using State to sequence through the remainders.
+
+import Control.Monad.State
+
+change dollars = evalState (mapM (state . flip quotRem) [25,10,5,1]) . round $ dollars * 100
+
+main = readLn >>= putStrLn . pretty . change
+
+pretty = unlines . zipWith (++)
+            [ "Quarters: "
+            , "Dimes   : "
+            , "Nickels : "
+            , "Cents   : " ] . map show
+
+EDIT: Realized quotRem is excellent for State. Removed remDivs entirely and
+inlined the logic into calc.
+
+share
+Save
+Somebody__
+2 points·5 years ago
+
+Lua, will run on a ComputerCraft turtle in Minecraft: http://pastebin.com/
+YWaXyBsG This implementation includes the bonus objective.
+
+share
+Save
+FidiBidi
+2 points·5 years ago
+
+C++, First submission! Woooo
+
+int main(int argc, const char * argv[])
+{
+    float Ttl;
+    int QtR = 0, DmS = 0, NiS = 0, PeS = 0;
+    cout << "Enter Money to be broken apart: " << endl;
+    cin >> Ttl;
+        if(Ttl > .25)
+        {
+            QtR = int(Ttl/(.25));
+            Ttl -= .25*float(QtR);
+        }
+        if(Ttl <.25){
+            DmS = int(Ttl/.10);
+            Ttl -= .10*float(DmS);
+        }
+        if(Ttl < .10){
+            NiS = int( Ttl/.05);
+            Ttl -= .05 * float(NiS);
+        }
+        if(Ttl < .05){
+            PeS = int( Ttl/.01);
+            Ttl -= .01 * float(PeS);
+        }
+
+    cout << "Quarters: " << QtR << endl;
+    cout << "Dimes: " << DmS << endl;
+    cout << "Nickels: " << NiS << endl;
+    cout << "Pennies: " << PeS << endl;
+
+    return 0;
+}
+
+share
+Save
+John_Bonforte
+2 points·5 years ago
+
+C++
+
+I don't completely like my solution because, to simplify, I'm using a function
+that both modifies a parameter and returns something (to get around the one
+return type restriction). I guess I could use a container to return 2 values at
+once an that would be more generic and extendable.
+
+Solution:
+
+#include <iostream>
+#include <cmath>
+
+using std::cout;
+using std::cin;
+using std::endl;
+
+double div_and_mod(const double& original, double &rest, const double &factor) {
+    double res = floor(original / factor);
+    rest = fmod(original, factor);
+    return res;
+}
+
+struct Conversion {
+public:
+    Conversion(double original): original(original), dimes(0), nickels(0), pennies(0) {
+        double rest = 0.0;
+        quarters = div_and_mod(original, rest, 0.25);
+        if(rest > 0.0) {
+            dimes = div_and_mod(rest, rest, 0.1);
+            if(rest > 0.0) {
+                nickels = div_and_mod(rest, rest, 0.05);
+                pennies = rest*100;
+            }
+        }
+    }
+    double original;
+    double quarters;
+    double dimes;
+    double nickels;
+    double pennies;
+    void show() {
+        if(quarters) cout << "Quarters: " << quarters << endl;
+        if(dimes) cout << "Dimes: " << dimes << endl;
+        if(nickels) cout << "Nickels: " << nickels << endl;
+        if(pennies) cout << "Pennies: " << pennies << endl;
+    }
+};
+
+int main(int argc, char **argv) {
+    double number = 4.17;
+    if(argc > 1) number = atof(argv[1]);
+    Conversion conv(number);
+    conv.show();
+}
+
+Output:
+
+$ ./run.exe 10.24
+Quarters: 40
+Dimes: 2
+Pennies: 4
+
+$ ./run.exe 0.99
+Quarters: 3
+Dimes: 2
+Pennies: 4
+
+$ ./run.exe 5
+Quarters: 20
+
+$ ./run.exe 00.06
+Nickels: 1
+Pennies: 1
+
+share
+Save
+lulhead
+3 points·5 years ago
+
+Java with Bonus:
+
+import java.util.Scanner;
+
+
+public class calc {
+
+        public static void main(String[] args) {
+                int quarter, dime, nickel, penny = 0;
+
+                Scanner input = new Scanner(System.in);
+
+                System.out.println("Input the amount you want changed.");
+
+                double money = Double.parseDouble(input.nextLine()) * 100;
+
+                quarter = (int)(money / 25);
+                money = money % 25;
+
+                dime = (int)(money / 10);
+                money = money % 10;
+
+                nickel = (int)(money / 5);
+                money = money % 5;
+
+                penny = (int)(money / 1);
+
+                if (quarter > 0){
+                        System.out.print("Quarters: ");
+                        System.out.println(quarter);
+                }
+
+                if (dime > 0){
+                        System.out.print("Dimes: ");
+                        System.out.println(dime);
+                }
+
+                if (nickel > 0){
+                        System.out.print("Nickels: ");
+                        System.out.println(nickel);
+                }
+
+                if (penny > 0){
+                        System.out.print("Pennies: ");
+                        System.out.println(penny);
+                }
+        }
+
+}
+
+Output:
+
+1.23
+Quarters: 4
+Dimes: 2
+Pennies: 3
+
+10.24
+Quarters: 40
+Dimes: 2
+Pennies: 4
+
+0.99
+Quarters: 3
+Dimes: 2
+Pennies: 4
+
+5
+Quarters: 20
+
+00.06
+Nickels: 1
+Pennies: 1
+
+share
+Save
+
+1 more reply
+
+lawlrng
+0 12 points·5 years ago·edited 5 years ago
+
+Python solution with the bonus.
+
+def reduce_amount(a):
+    coins = (25, 10, 5, 1)
+    amounts = [0, 0, 0, 0]
+
+    for i, c in enumerate(coins):
+        amounts[i], a = divmod(a, c)
+
+    return amounts
+
+def print_coins(coins, print_blank = False):
+    for i, name in enumerate('Quarters Dimes Nickels Pennies'.split()):
+        if coins[i] or print_blank:
+            print name + ': %s' % coins[i]
+
+def get_input():
+    return int(input("Amount: ") * 100)
+
+if __name__ == '__main__':
+    print_coins(reduce_amount(get_input()))
+
+Output:
+
+Amount: 1.23
+Quarters: 4
+Dimes: 2
+Pennies: 3
+
+Amount: 10.24
+Quarters: 40
+Dimes: 2
+Pennies: 4
+
+Amount: .99
+Quarters: 3
+Dimes: 2
+Pennies: 4
+
+Amount: 5
+Quarters: 20
+
+Amount: .06
+Nickels: 1
+Pennies: 1
+
+share
+Save
+CrazedToCraze
+2 points·5 years ago
+
+C#, practising OOP and good practice rather than code golf. W/ bonus (I'm not
+sure how you can not get the bonus?)
+
+class Program
+{
+    static void Main()
+    {
+        float input = 1.23F;
+        Currency[] USCurrency = new Currency[4] { new Currency("Quarter", 0.25F),
+            new Currency("Dime", 0.10F), new Currency("Nickel", 0.05F), new Currency("Penny", 0.01F) };
+        for (int i = 0; i < USCurrency.Length; i++)
+        {
+            int CoinCount;
+            for (CoinCount = 0; input >= USCurrency[i].Value; CoinCount++)
+                input -= USCurrency[i].Value;
+            Console.WriteLine("{0}: {1}", USCurrency[i].Name, CoinCount);
+        }
+    }
+}
+
+class Currency
+{
+    private float _Value;
+    public float Value
+    {
+        get { return _Value; }
+    }
+    public string Name { get; set; }
+
+    public Currency(string name, float value)
+    {
+        Name = name;
+        _Value = value;
+    }
+}
+
+share
+Save
+drch
+0 12 points·5 years ago·edited 5 years ago
+
+Hey dude,
+
+Couple of constructive pointers on your c#/oop style.
+
+  • Private fields are camelCased. the _ prefix is common (and I use it too),
+    but they should still be camelCase, eg _value;
+
+  • Local variables are camelcased as well, even if they are acronyms. eg,
+    USCurrency should be usCurrency and CointCount should be coinCount
+
+  • Use private setters for read only properties. Rather than having a backing
+    field for value, you can use a private setter. EG: public float Value {
+    get; private set; }
+
+  • It's common to use 'var' for local variables when the type is obvious. In
+    larger projects, it makes refactoring a bit easier.
+
+  • When initializing an array, you don't have to specify the size, which makes
+    it quicker to add more items later.
+
+  • If you use a double instead of a float, you don't have to put that 'f' on
+    your literals all the time ;)
+
+  • Use parenthesis on any control block (eg, your for loop). It reduces the
+    amount of hard to find bugs later on.
+
+  • In a for() loop, if you're not actually using the value of the counter
+    anywhere, you may find it more readable to use a foreach (eg, for var coin
+    in usCurrency)
+
+resulting code:
+
+class Program
+{
+    private static void Main()
+    {
+        var input = 1.23;
+        var usCurrency = new[]
+                             {
+                                 new Currency("Quarter", 0.25), new Currency("Dime", 0.10),
+                                 new Currency("Nickel", 0.05), new Currency("Penny", 0.01)
+                             };
+
+        foreach (var coin in usCurrency)
+        {
+            int coinCount;
+
+            for (coinCount = 0; input >= coin.Value; coinCount++)
+            {
+                input -= coin.Value;
+            }
+
+            Console.WriteLine("{0}: {1}", coin.Name, coinCount);
+        }
+    }
+}
+
+class Currency
+{
+    public double Value { get; private set; }
+    public string Name { get; private set; }
+
+    public Currency(string name, double value)
+    {
+        Name = name;
+        Value = value;
+    }
+}
+
+share
+Save
+Hersh3y
+1 point·5 years ago·edited 5 years ago
+
+heyy, your code is a lot more readable, thanks for that.
+
+I was wondering why u use a var in your foreach (var coin in usCurrency)
+
+thanks
+
+edit: coz currency is a var, really dumb sorry
+
+share
+Save
+liam_jm
+2 points·5 years ago
+
+Python with Bonus (using pounds sterling as I'm British):
+
+def find_change(amount):
+    amount_copy = amount
+    coins = [('50 pound note', 50.00), ('20 pound note', 20.00), ('10 pound note', 10.00), ('5 pound note', 5.00), ('2 pound coin', 2.00), ('1 pound coin', 1.00), ('50p coin', 0.50), ('20p coin', 0.20), ('10p coin', 0.10), ('5p coin', 0.05), ('2p coin', 0.02), ('1p coin', 0.01)]
+    res = {i[0]: 0 for i in coins}
+    for i in coins:
+        while i[1] < amount or (i[1] - amount) < 0.005:
+            amount -= i[1]
+            res[i[0]] += 1
+    print 'Change for', amount_copy, 'pounds:'
+    for i in coins:
+        if res[i[0]] > 0:
+            print i[0], ':', res[i[0]]
+
+Usage:
+
+>>>find_change(1.23)
+Change for 1.23 pounds:
+1 pound coin : 1
+20p coin : 1
+2p coin : 1
+1p coin : 1
+
+>>>find_change(10.24)
+Change for 10.24 pounds:
+10 pound note : 1
+20p coin : 1
+2p coin : 2
+
+>>>find_change(0.99)
+Change for 0.99 pounds:
+50p coin : 1
+20p coin : 2
+5p coin : 1
+2p coin : 2
+
+>>>find_change(5)
+Change for 5 pounds:
+5 pound note : 1
+
+>>>find_change(00.06):
+Change for 0.06 pounds:
+5p coin : 1
+1p coin : 1
+
+Would probably have been better to use decimals rather than floats to represent
+the numbers. May correct this if I have time.
+
+share
+Save
+HadleyRay
+2 points·5 years ago
+
+C++ w/bonus:
+
+/*Making Change Programming Challenge # 119*/
+
+
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+void changeMaker(double);
+
+int main()
+{
+double money;
+cout<<"How much money do you have? ";
+cin>>money;
+
+changeMaker(money);
+
+return 0;
+
+}
+
+void changeMaker(double money)
+{
+int quarters,  dimes, nickels, pennies, leftover;
+double cents;
+cout<<"You have:"<<endl;
+
+cents=money*100;  //4.17=417 cents
+quarters=cents/25;  //417/25=16 quarters
+leftover= (int)cents%25;  //17 cents leftover
+dimes= leftover/10;  // 1 dime
+leftover %= 10;   //17/10 remainder 7
+nickels = leftover/5;  //1 nickel
+pennies= leftover%5;       //2 pennies
+
+if (quarters>0)
+{
+    cout<<"Quarters: "<<quarters<<endl;
+}
+if (dimes>0)
+{
+    cout<<"Dimes: "<<setw(4)<<dimes<<endl;
+}
+if (nickels>0)
+{
+    cout<<"Nickels: "<<setw(2)<<nickels<<endl;
+}
+if (pennies>0)
+{
+    cout<<"Pennies: "<<setw(2)<<pennies<<endl;
+}
+
+
+}
+
+Sample outputs:
+
+ 1.24:
+ Quarters: 4
+ Dimes: 2
+ Pennies: 3
+
+10.24
+Quarters: 40
+Dimes: 2
+Pennies: 4
+
+.99
+Quarters: 3
+Dimes: 2
+Pennies: 4
+
+5
+Quarters: 20
+
+00.06
+Nickels: 1
+Pennies: 1
+
+share
+Save
+
+3 more replies
+
+ubiqu1ty
+2 points·5 years ago
+
+Java with bonus. Found it tricky working with floats, and since int division
+takes the highest whole number, it worked well. Man, I'm realllly rusty!
+
+import java.util.Scanner;
+public class Easy119 {
+static Scanner s = new Scanner(System.in);
+
+public static void main(String[] args) {
+        int cents = (int) Math.round(s.nextFloat() * 100);
+        int quarters = cents / 25;
+        cents -= 25 * quarters;
+        if (quarters > 0)
+                System.out.println("Quarters: " + quarters);
+        int dimes = cents / 10;
+        cents -= 10 * dimes;
+        if (dimes > 0)
+                System.out.println("Dimes: " + dimes);
+        int nickels = cents / 5;
+        cents -= 5 * nickels;
+        if (nickels > 0)
+                System.out.println("Nickels: " + nickels);
+        if (cents > 0)
+                System.out.println("Pennies: " + cents);
+    }
+}
+
+Results:
+
+10.24
+Quarters: 40
+Dimes: 2
+Pennies: 4
+
+0.99
+Quarters: 3
+Dimes: 2
+Pennies: 4
+
+5
+Quarters: 20
+
+00.06
+Nickels: 1
+Pennies: 1
+
+I feel like there must have been a more efficient way to do this. Any tips or
+criticisms are welcome!
+
+share
+Save
+mrdoodlecakes
+0 01 point·5 years ago
+
+I'm new to Java and was wondering what adding (int) next to Math.round does.
+
+share
+Save
+RustyPeach
+3 points·5 years ago
+
+converts the float to an int so that the int can carry the rounded value.
+
+share
+Save
+SplashAttacks
+0 11 point·5 years ago
+
+Here was my approach. Hope this helps.
+
+public class Easy119 {
+    private enum Coin {
+        QUARTER(25), DIME(10), NICKEL(5), PENNY(1);
+        private int value;
+
+        private Coin(int value) {
+            this.value = value;
+        }
+
+        public double getValue() {
+            return value;
+        }
+    }
+
+    public static void main(String[] args) {
+        double doubleAmount = Double.parseDouble(args[0]);
+        // Multiply by 100 to avoid rounding problems.
+        int amount = (int) (doubleAmount * 100.0);
+        for (Coin coin : Coin.values()) {
+            int count = (int) (amount / coin.getValue());
+            if (count > 0) {
+                System.out.println(coin + ": " + count);
+            }
+            amount -= (count * coin.getValue());
+        }
+        if (amount != 0) {
+            throw new RuntimeException("Something went wrong.");
+        }
+    }
+}
+
+share
+Save
+DannyP72
+1 point·5 years ago
+
+Ruby with bonus
+
+def change(amount)
+  amount = (amount.to_f*100).to_i
+  change = {}
+  {quarters:25,dimes:10,nickels:5,pennies:1}.each do |k,v|
+    remain = amount%v
+    change[k] = amount/v  if amount != remain
+    amount = remain
+  end
+  return change
+end
+
+change(ARGV[0]).each{|k,v| puts "#{k}: #{v}"}
+
+share
+Save
+Spoofed
+1 point·5 years ago
+
+Java, with bonus and adaptability in mind. Further expansion would be to read
+from a file the values and names of the coins.
+
+import java.util.Scanner;
+
+public class ChangeCalc{
+        static Scanner in = new Scanner(System.in);
+
+        public static void main(String[] args){
+                double input = in.nextDouble();
+                double[]coinWorth = {0.25, 0.1, 0.05, 0.01};
+                String[]coinName = {"Quarter", "Dime", "Nickle", "Penny"};
+                int[] coin = new int[coinWorth.length];
+
+                for (int i = 0; i < 4; i ++){
+                        double tempInput = input;
+                        while (tempInput >= coinWorth[i]){
+                                tempInput -= coinWorth[i];
+                                tempInput = Math.round(tempInput * 100) / 100.0;
+                                coin[i]++;
+                        }
+                        input -= coin[i] * coinWorth[i];
+                        input = Math.round(input * 100) / 100.0;
+                        if (coin[i] > 0){
+                                System.out.println(coinName[i] + ": " + coin[i]);
+                        }
+                }
+        }
+}
+
+Only problem I have with this is that I had to use two instances of rounding so
+the calculations wouldn't fail. Any suggestions to fix that problem would be
+greatly appreciated.
+
+share
+Save
+alsexc
+0 01 point·5 years ago
+
+I really like the way you did this. Instead of using a bunch of if statements,
+using a loop. Also correct me if i'm wrong but I don't think you need to use
+Math.round, I think you can just do integer division. since the input can never
+be less than 1 or 0 cents, you don't need the precision of a double or float
+once you've input the original amount of money. Again correct me if i'm wrong,
+sophomore cs student.
+
+edit: lots of typos...
+
+share
+Save
+Spoofed
+1 point·5 years ago
+
+That's a really good point. I should change the code to just shift everything
+over by two decimal points instead of using doubles. Thanks.
+
+share
+Save
+the_mighty_skeetadon
+1 point·5 years ago
+
+Super simple Ruby:
+
+def change(num)
+        num = num.to_f.round(2)
+        coins = [['Quarters',0.25],['Dimes',0.1],['Nickels',0.05],['Pennies',0.01]]
+        coins.each do |x|
+                if num >= x[1]
+                        numcoins = (num / x[1]).to_i
+                        puts "#{x[0]}: #{numcoins}"
+                        num = (num - (numcoins * x[1])).round(2)
+                end
+        end
+end
+
+Running the inputs:
+
+amounts = [10.24, 0.99, 5, 0.06]
+amounts.each do |x|
+        puts "Original amount: #{x}"
+        change(x)
+        puts
+end
+
+Output:
+
+Original amount: 10.24
+Quarters: 40
+Dimes: 2
+Pennies: 4
+
+Original amount: 0.99
+Quarters: 3
+Dimes: 2
+Pennies: 4
+
+Original amount: 5
+Quarters: 20
+
+Original amount: 0.06
+Nickels: 1
+Pennies: 1
+
+share
+Save
+stor_katten
+1 point·5 years ago·edited 5 years ago
+
+C solution with bonus. Any feedback appreciated
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+void convert_to_change(double amount, char *original)
+{
+    int coins[] = { 25, 10, 5, 1 };
+    char *ccoins[] = { "quarters", "dimes", "nickels", "pennies" };
+
+    int newAmount = (amount * 100) + .5;
+    int output;
+    int i = 0;
+
+    printf("Original Amount: %s\n", original);
+    printf("--------------------------\n");
+
+    for (i = 0; i < 4; i++)
+    {
+            output = newAmount / coins[i];
+            if (output > 0)
+            {
+                    printf("Number of %s: %d\n", *(ccoins +i), output);
+            }
+            newAmount = newAmount % coins[i];
+    }
+}
+
+
+int main (int argc, char *argv[])
+{
+    double amount = atof(argv[1]);
+    convert_to_change(amount, argv[1]);
+
+    return 0;
+}
+
+Example Usage (in terminal)
+
+./changeconverter 10.24
+
+The output:
+
+Original Amount: 10.24
+--------------------------
+Number of quarters: 40
+Number of dimes: 2
+Number of pennies: 4
+
+Original Amount: 0.99
+--------------------------
+Number of quarters: 3
+Number of dimes: 2
+Number of pennies: 4
+
+Original Amount: 5
+--------------------------
+Number of quarters: 20
+
+Original Amount: 00.06
+--------------------------
+Number of nickels: 1
+Number of pennies: 1
+
+share
+Save
+RustyPeach
+1 point·5 years ago·edited 5 years ago
+
+import java.util.Scanner;
+
+public class counter {
+
+public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        double[] values= {0.25,0.1,0.05,0.01};
+        String[] coin= {"Quarter:", "Dime", "Nickel", "Penny"};
+        double[] time= {0,0,0,0};
+        double input = in.nextDouble();
+        input= Math.round(input * 100);
+        input= input/100;
+        double temp = input;
+        for (int i = 0; i < 4; i++) {
+                while (temp >= values[i]) {
+                        temp = Math.round(temp * 1000);
+                        temp = temp/1000;
+                        time[i]++;
+                        temp -= values[i];
+                }
+            }
+        if (temp > 0 && temp < 0.01) time[3]++;
+        for (int i = 0; i < 4; i++) {
+                if (time[i] == 0) {} else {
+                System.out.println(coin[i] + " " + time[i]);
+                }
+        }
+}
+}
+
+My java attempt
+
+EDIT: noticed redundancy and formatting
+
+share
+Save
+isopsephile
+1 point·5 years ago
+
+
+    if (time[i] == 0) {}
+
+Huh?
+
+share
+Save
+RustyPeach
+1 point·5 years ago
+
+In the results so if no quarters were used, quarters wont show up.
+
+share
+Save
+isopsephile
+1 point·5 years ago
+
+Well, yeah, but a conditional with an empty body doesn't make much sense. That
+could just be != 0, and then there's no need for the else.
+
+share
+Save
+RustyPeach
+1 point·5 years ago
+
+Your right, this was a quick last minute line I wrote on here to get a better
+output. Ill work on better code in future challenges, this was my first.
+
+share
+Save
+dhbikoff
+1 point·5 years ago
+
+Ruby w/ bonus
+
+def make_change amount
+  amount *= 100
+  {quarters: 25,dimes: 10,nickels: 5,pennies: 1}.each { |coin, value|
+    coin_tally = (amount / value).floor
+    amount -= coin_tally * value
+    puts coin.to_s.capitalize << ': ' << coin_tally.to_s if coin_tally > 0 }
+end
+
+share
+Save
+Casao
+1 point·5 years ago
+
+Perl with the bonus:
+
+my $input = $ARGV[0];
+
+die -1 unless $input =~ m{^\d*[\.]?[\d]{0,2}$};
+
+$input = $input * 100;
+
+my $coins = {
+    25 => 'Quarters',
+    10 => 'Dimes',
+    05 => 'Nickels',
+    01 => 'Pennies'
+};
+
+for (sort {$b <=> $a} keys %$coins) {
+    my $whole = int($input / $_);
+    $input =  $input - ($whole * $_);
+    print "${$coins}{$_}: $whole\n" if $whole > 0;
+}
+
+Basic for-loop, not very clever but it gets the job done.
+
+share
+Save
+dudeman209
+1 point·5 years ago·edited 5 years ago
+
+Java with Bonus:
+
+import java.math.BigDecimal;
+
+public class Change     {
+
+    public enum Denoms      {
+            Quarters(0.25), Dimes(0.1), Nickels(0.05), Pennies(0.01);
+            private Double amt;
+            Denoms(Double amt) { this.amt = amt; }
+            Double getValue()  { return this.amt; }
+            Integer getCount(BigDecimal b) { return b.divide(BigDecimal.valueOf(this.amt)).intValue(); }
+
+    }
+
+    public static void main(String[] args)  {
+
+            try     {
+                    BigDecimal change = new BigDecimal(args[0]);
+                    for(Denoms d : Denoms.values()) {
+                            if(change.compareTo(BigDecimal.valueOf(d.getValue())) > -1)
+                                    System.out.println(d + ": " + d.getCount(change));
+                            change = change.remainder(BigDecimal.valueOf(d.getValue()));
+                    }
+            }
+            catch(NumberFormatException e)  {
+                    System.out.println("Invalid amount. Usage: java Change 0.00");
+            }
+    }
+
+}
+
+share
+Save
+
+1 more reply
+
+Lost_Secret
+1 point·5 years ago
+
+Java with bonus:
+
+import java.util.Scanner;
+public class Easy119 {
+    public static void main(String[] args){
+            int quarters = 0, dimes = 0, nickels = 0, pennies = 0;
+            Scanner currency_input = new Scanner(System.in);
+            System.out.print("Enter: $");
+            double currency = (Math.floor(currency_input.nextDouble() * 100 + 0.5) / 100) * 100;
+            currency_input.close();
+            while(currency - 25 > -1){
+                    quarters++;
+                    currency -= 25;
+            }
+            display("Quarters: ", quarters);
+            while(currency - 10 >  -1){
+                    dimes++;
+                    currency -= 10;
+            }
+            display("Dimes: ", dimes);
+            while(currency - 5 >  -1){
+                    nickels++;
+                    currency -= 5;
+            }
+            display("Nickels: ", nickels);
+            while(currency > 0){
+                    pennies++;
+                    currency -= 1;
+            }
+            display("Pennies: ", pennies);
+    }
+    public static void display(String s, int num){
+            if(num != 0){
+                    System.out.print(s + num + "\n");
+            }
+    }
+}
+
+Solution:
+
+Enter: $10.24
+Quarters: 40
+Dimes: 2
+Pennies: 4
+
+Enter: $0.99
+Quarters: 3
+Dimes: 2
+Pennies: 4
+
+Enter: $5
+Quarters: 20
+
+Enter: $00.06
+Nickels: 1
+Pennies: 1
+
+share
+Save
+Rup-Inc
+1 point·5 years ago
+
+C++ With Bonus. I did this with template meta programming so the file is too
+big to post here but here is a link to the source.
+
+You put the number of dollars in the first argument of the class and the number
+of cents in the second.
+
+The CREATE_CATCHING_COIN_CONVERTER_TEMPLATE macro is to create an end point for
+invalid branches (ie, negative cents).
+
+I tried using a typedef to cleanup coinConverter<0,n,n,n,n,n> but that leads to
+a compiler error so I must repeat that if.
+
+share
+Save
+idiot4871
+1 point·5 years ago·edited 5 years ago
+
+Java, somewhat verbose with Bonus. First post here!
+
+import java.util.Scanner;
+
+public class challenges119 {
+  public static void main(String[] args){
+  double amount;
+  if(args.length == 1){
+    amount = Double.parseDouble(args[0]);
+  }
+  else{
+    Scanner keyboard = new Scanner(System.in);
+    System.out.println("Please enter an amount: ");
+    amount = keyboard.nextDouble();
+  }
+
+  amount = Math.round(amount * 100.0)/100.0;
+  int[] change = new int[4];
+  change = Change(amount);
+
+  System.out.println("Quarters: " + change[0]);
+  System.out.println("Dimes: " + change[1]);
+  System.out.println("Nickels: " + change[2]);
+  System.out.println("Pennies: " + change[3]);
+
+}
+
+  static int[] Change(double amount){
+    int[] change = new int[4];
+    int remaining = (int)(amount*100.0);
+
+    change[0] = remaining/25; //num quarters
+    remaining = remaining - 25 * change[0];
+
+    change[1] = remaining/10; //num dimes
+    remaining = remaining - 10 * change[1];
+
+    change[2] = remaining/5; //num nickles
+    remaining = remaining - 5 * change[2];
+
+    change[3] = remaining;
+
+    return change;
+  }
+}
+
+share
+Save
+DaveSea
+0 01 point·5 years ago
+
+Java solution. This is my first time posting! I tested it using javalaunch.com
+because I do not have javac on this computer, but the site did not like the
+scanner, so I just entered in the doubles to make it work. Is the scanner
+correct?
+
+import java.util.Scanner;
+
+// Write A function that takes an amount of money,
+// rounds it to the nearest penny and then tells you the
+// minimum number of coins needed to equal that amount of money.
+public class CoinCalculator{
+
+    public static void main(String[] args){
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter a dollar amount: ");
+        double money = input.nextDouble();
+
+        // Multiply by 100 to get cents. Cast rounded double as int.
+        int cents = (int)Math.round(money*100);
+
+        // ** Figuring out min coinage **
+        int quarters = cents/25;
+        cents = cents%25;
+
+        int dimes = cents/10;
+        cents = cents % 10;
+
+        int nickles = cents/5;
+        cents = cents % 5;
+
+        int pennies = cents;
+
+        // print coins if there are some.
+        if (quarters > 0){ System.out.println("Quarters: "+ quarters); }
+        if (dimes > 0){ System.out.println("Dimes: "+ dimes); }
+        if (nickles > 0){ System.out.println("Nickels: "+ nickles); }
+        if (pennies > 0){ System.out.println("Pennies: "+ pennies); }
+
+    }
+};
+
+Results when I plug in the numbers for money rather than use scanner:
+
+10.24
+Quarters: 40
+Dimes: 2
+Pennies: 4
+
+.99
+Quarters: 3
+Dimes: 2
+Pennies: 4
+
+5
+Quarters: 20
+
+00.06
+Pennies: 1
+
+share
+Save
+y2bd
+0 01 point·5 years ago·edited 5 years ago
+
+Tried golfing it in Python 2.7, with bonus:
+
+m=int(input()*100)
+d={25:"Quarter",10:"Dime",5:"Nickel",1:"Pennie"}
+for k in d:
+ if m>=k:print d[k]+"s:",m/k;m%=k
+
+It might be fragile seeing as dictionaries don't really have an order, but I've
+tried running it in several places and it's worked so far ^_^.
+
+If anyone can get it smaller, please go ahead.
+
+share
+Save
+Sallas89
+1 point·5 years ago
+
+If you'd make a tuple instead of a dict you wouldn't have the chance of the
+order being mixed up.
+
+share
+Save
+y2bd
+0 01 point·5 years ago
+
+It would take quite a few more characters then to get the associations working,
+unless I'm misunderstanding you.
+
+share
+Save
+eagleeye1
+0 11 point·5 years ago·edited 5 years ago
+
+Python. I tried some Haskell, but couldn't get it to work, damn that language!
+
+calcChange = lambda amount, divisor: (int(amount//divisor), round(amount%divisor, 2))
+vals = {("Quarters",.25), ("Dimes",.1), ("Nickels",.05), ("Pennies",.01)}
+for amount in [10.24, .99, 5, 00.06]:
+        print amount
+        while amount > 0:
+                for key, div in vals:
+                        val, amount = calcChange(amount, div)
+                        if val > 0: print key,":",val
+
+Output:
+
+10.24
+Quarters : 40
+Dimes : 2
+Pennies : 4
+0.99
+Quarters : 3
+Dimes : 2
+Pennies : 4
+5
+Quarters : 20
+0.06
+Nickels : 1
+Pennies : 1
+
+share
+Save
+srhb
+0 11 point·5 years ago
+
+Search for DolphR on this page, probably the simplest Haskell solution you
+could think of (except perhaps for the point-free style.)
+
+share
+Save
+Graphiite
+1 point·5 years ago
+
+Not bad for some scrappy Java, I'd think.
+
+public static void change_calculator(double amount) {
+        int cents = (int)(100 * amount);
+        double[] valueArray = {25, 10, 5, 1};
+        int[] countArray = {0, 0, 0, 0};
+        String[] nameArray = {"Quarters: ", "Dimes: ", "Nickels: ", "Pennies: "};
+        for (int i = 0; i < 4; i++) {
+                while ((cents >= valueArray[i]) && (cents > 0)) {
+                        cents -= valueArray[i];
+                        countArray[i] += 1;
+                }
+        }
+        for (int e = 0; e < 4; e++) {
+                if (countArray[e] != 0) {
+                        System.out.println(nameArray[e] + countArray[e]);
+                }
+        }
+}
+
+Results:
+
+1.23
+Quarters: 4
+Dimes: 2
+Pennies: 3
+
+10.24
+Quarters: 40
+Dimes: 2
+Pennies: 4
+
+0.99
+Quarters: 3
+Dimes: 2
+Pennies: 4
+
+5.00
+Quarters: 20
+
+0.06
+Nickels: 1
+Pennies: 1
+
+share
+Save
+bigronaldo
+1 point·5 years ago
+
+C# with bonus:
+
+  decimal amount;
+  if (decimal.TryParse(Console.ReadLine(), out amount))
+  {
+    amount *= 100;
+
+    Dictionary<string, int> coins = new Dictionary<string, int>() {
+      {"Quarters", 25}, {"Dimes", 10}, {"Nickels", 5}, {"Pennies", 1} };
+
+    foreach (var coin in coins) {
+      var numberOfCoins = Math.Floor(amount / coin.Value);
+      amount -= (numberOfCoins * coin.Value);
+      if (numberOfCoins > 0) { Console.WriteLine(coin.Key + ": " + numberOfCoins); }
+    }
+  }
+
+share
+Save
+Sallas89
+1 point·5 years ago
+
+First time posting so I thought I'd just do it the 2 languages I know even
+though the code is very similar. With bonus and challenge output at the bottom.
+
+C
+
+#include <math.h>
+#include <stdio.h>
+
+int main(void)
+{
+    float change;
+    scanf("%f", &change);
+
+    int cents;
+    cents = round(change * 100);
+
+    if (cents >= 25)
+        printf("Quarters: %d\n", cents/25);
+        cents %= 25;
+    if (cents >= 10)
+        printf("Dimes: %d\n", cents/10);
+        cents %= 10;
+    if (cents >= 5)
+        printf("Nickels: %d\n", cents/5);
+        cents %= 5;
+    if (cents >= 1)
+        printf("Pennies: %d\n", cents/1);
+}
+
+Python
+
+import math
+
+change = float(raw_input(""))
+cents = int(round(change * 100))
+
+if (cents >= 25):
+    print "Quarters:", cents/25
+    cents %= 25
+if (cents >= 10):
+    print "Dimes:", cents/10
+    cents %= 10
+if (cents >= 5):
+    print "Nickels:", cents/5
+    cents %= 5
+if (cents >= 1):
+    print "Pennies:", cents/1
+
+Challenge output on both:
+
+10.04
+Quarters: 40
+Dimes: 2
+Pennies: 4
+
+0.99
+Quarters: 3
+Dimes: 2
+Pennies: 4
+
+5
+Quarters: 20
+
+00.06
+Nickels: 1
+Pennies: 1
+
+share
+Save
+Sallas89
+1 point·5 years ago
+
+Been using to much C so forgot how fancy Python can be, so I just wanted to add
+what I think is a neater version. Not sure if I can make this one any smaller.
+
+import math
+cents = int(round(float(raw_input("")) * 100))
+for i, j in [("Quarters:", 25),("Dimes:", 10),("Nickels:",5),("Pennies:",1)]:
+    if cents >= j:
+        print i, cents/j
+        cents %= j
+
+share
+Save
+Ratheronfire
+1 point·5 years ago
+
+Java, with bonus:
+
+public static void countCoins(double dollarVal)
+{
+  final int[] COIN_VALS = {25, 10, 5, 1};
+  final String[] COIN_NAMES = {"Quarters", "Nickels", "Dimes", "Pennies"};
+  int[] coinTotals = new int[4];
+  dollarVal *= 100;
+
+  for (int i = 0; i < coinTotals.length; i++)
+  {
+    while (dollarVal >= COIN_VALS[i])
+    {
+      dollarVal -= COIN_VALS[i];
+      coinTotals[i]++;
+    }
+
+    if (coinTotals[i] > 0)
+      System.out.println(COIN_NAMES[i] + ": " + coinTotals[i]);
+  }
+}
+
+Output:
+
+Quarters: 4
+Nickels: 2
+Pennies: 3
+
+share
+Save
+[deleted]
+1 point·5 years ago·edited 5 years ago
+
+Python
+
+def in_coins(n):
+    money = n
+    quarters, dimes, nickels, pennies = 0, 0, 0, 0
+
+    if n / .25 >= 1:
+        quarters += int(n / .25)
+        n = round(n % .25, 2)
+    if n / .10 >= 1:
+        dimes += int(n / .10)
+        n = round(n % .10, 2)
+    if n / .05 >= 1:
+        nickels += int(n / .05)
+        n = round(n % .05, 2)
+    if n / .01 >= 1:
+        pennies += int(n / .01)
+        n = round(n % .01, 2)
+
+    return "Original Amount: %s\n\nQuarters: %d\nDimes: %d\nNickels: %d\nPennies: %d" \
+            % (round(money, 2), quarters, dimes, nickels, pennies)
+
+amount = round(float(raw_input("Enter some dollar amount: ")), 2)
+
+print in_coins(amount)
+
+share
+Save
+Coder_d00d
+1 31 point·5 years ago
+
+C with Bonus
+
+        //
+        //  119 change calc
+        //
+
+        #include <stdio.h>
+        #include <libc.h>
+
+
+        void calculateChange(double m)
+        {
+            int quarter = 0;
+            int dime = 0;
+            int nickel = 0;
+            int penny = 0;
+            int money = 0;
+
+            if (m <= 0)
+            {
+                /* no money*/
+
+                printf ("Did you want me to break down your pocket lint?\n");
+            }
+            else
+            {
+
+                /* shift money from dollars to pennys. Round to nearest penny */
+
+                money = (m * 100 + .5);
+
+                /* Calculate quarters */
+
+                quarter = money / 25;
+                money = money % 25;
+
+                /* Calculate dimes */
+
+                dime = money / 10;
+                money = money % 10;
+
+                /* Calculate nickels */
+
+                nickel = money / 5;
+                money = money % 5;
+
+                /* remainder is pennies */
+
+                penny = money;
+
+                /* display answer*/
+
+                if (quarter) {
+                    printf("Quarters: %d\n", quarter);
+                }
+                if (dime) {
+                    printf("Dimes: %d\n", dime);
+                }
+                if (nickel) {
+                    printf("Nickels: %d\n", nickel);
+                }
+                if (penny) {
+                    printf("Pennies %d\n", penny);
+                }
+                printf ("\n");
+            }
+        }
+
+
+        int main(int argc, const char * argv[])
+        {
+            calculateChange(10.24);
+            calculateChange(.99);
+            calculateChange(5);
+            calculateChange(00.06);
+
+            return 0;
+        }
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+Python with bonus:
+
+ def min_change(money):
+    money = int(money*100)
+    coins = {'Quarters':0, 'Dimes':0, 'Nickels':0, 'Pennies':0}
+    coins['Quarters']+=(money/25)
+    money = money - 25*(money/25)
+    coins['Dimes']+=(money/10)
+    money = money - 10*(money/10)
+    coins['Nickels']+=(money/5)
+    money = money - 5*(money/5)
+    coins['Pennies']+=(money/1)
+    money = money - 1*(money/1)
+
+    for k, v in coins.iteritems():
+            if v > 0:
+                print k + ':' + str(v)
+    print '\n'
+
+share
+Save
+MassiveSwitchStiffy
+1 point·5 years ago·edited 5 years ago
+
+edit* CODE FORMATTING :O I made a C++ class because I am new to C++ and it
+feels way different to Java classes.
+
+I also wanted to use recursion but the code seems quite long compared to some
+of these other submissions
+
+ #include "Calc.h"
+
+/*
+    from main method calc gets a random amount from between $1.00 to $10.99
+    Denominations are in Australian coin units
+*/
+Calc::Calc(double to_pay)
+{
+    price = to_pay;                             //The price of the goods
+    remainder = to_pay;                         //How much the customer is paying
+
+
+    ones = 0;
+    fives = 0;
+    tens = 0;
+    twenties = 0;
+    fifties = 0;
+    dollars = 0;
+    two_dollars = 0;
+
+    work_out_remainder(remainder);
+
+ }
+ double Calc::work_out_remainder(double r)
+ {
+    if(r >= 2)
+    {
+        two_dollars++;
+        remainder -= 2;
+    }
+    else if (r >= 1)
+    {
+        dollars++;
+        remainder -=1;
+    }
+    else if (r >= .5)
+   {
+        fifties++;
+        remainder -= .5;
+
+    }
+    else if (r >= .20)
+    {
+        twenties++;
+        remainder -= .2;
+    }
+    else if (r >= .10)
+    {
+        tens++;
+        remainder -= .1;
+    }
+    else if (r >= .05)
+    {
+        fives++;
+        remainder -= .05;
+    }
+    else if (r >= .01)
+    {
+        ones++;
+        remainder -=.01;
+    }
+    else
+    {
+        return 0;
+    }
+    work_out_remainder(remainder);
+}
+double Calc::get_remainder()
+{
+    return remainder;
+}
+Calc::~Calc()
+{
+   //dtor
+}
+
+and here is output
+
+the cost is:  3.53
+the remainder was  2.46331e-016
+$2 pieces:  1
+$1 pieces:  1
+50 cent pieces:  1
+20 cent pieces:  0
+10 cent pieces:  0
+5 cent pieces:  0
+1 cent pieces:  3
+
+As you can see, there is an issue with rounding which I couldn't figure out :(
+it either does that, or it doesn't take the last cent and remainder is left at
+.01 can anyone help me with that one?
+
+share
+Save
+Porkpants81
+1 point·5 years ago
+
+JAVA - My first attempt at one of the challenges ever. No loops, very simple
+math is all. I am a college senior IS major and would love feedback, thanks
+everyone I look forward to completing as many challenges as I can, this is
+great fun! The if statements satisfy the bonus when the input is changed.
+
+import java.text.DecimalFormat;
+
+public class changeCalculator {
+
+    static int numQuarters;
+    static int numDimes;
+    static int numNickels;
+    static int numPennies;
+    static double quarter = 0.25;
+    static double dime = 0.10;
+    static double nickel = 0.05;
+    static double penny = 0.01;
+    static double temp;
+    static double input;
+
+    public static void main(String[] args) {
+            DecimalFormat decim = new DecimalFormat("0.00");
+            input = 1.23;
+            numQuarters = (int)(input/quarter);
+            temp = Double.parseDouble(decim.format(input % quarter));
+            numDimes = (int)(temp/dime);
+            temp = Double.parseDouble(decim.format(temp % dime));
+            numNickels = (int)(temp/nickel);
+            temp = Double.parseDouble(decim.format(temp % nickel));
+            numPennies = (int)(temp/penny);
+            temp = Double.parseDouble(decim.format(temp % penny));
+
+            if(numQuarters > 0){
+                    System.out.println("Quarters: " + numQuarters);
+            }
+            if(numDimes > 0){
+                    System.out.println("Dimes: " + numDimes);
+            }
+            if(numNickels > 0){
+                    System.out.println("Nickels: " + numNickels);
+            }
+            if(numPennies > 0){
+                    System.out.println("Pennies: " + numPennies);
+            }
+     }
+
+ }
+
+share
+Save
+RussianT34
+1 point·5 years ago·edited 5 years ago
+
+Python, no bonus:
+
+def main():
+    try: value = int(float(raw_input()) * 100)
+    except ValueError as e: print "Invalid change."; return
+
+    coins = {25: 0, 10: 0, 5: 0, 1: 0}
+
+    for c in coins.keys():
+        coins[c] = int(value / c)
+        value   -= coins[c] * c
+
+    print "Quarters:",  coins[25]
+    print "Dimes:",     coins[10]
+    print "Nickels:",   coins[5]
+    print "Pennies:",   coins[1]
+
+share
+Save
+phoric
+1 point·5 years ago
+
+Python 2 with bonus:
+
+import sys
+from decimal import *
+
+def change(money):
+    """
+    Accept a value, round to the nearest penny, and output the minimum # of
+    coins which equal that amount of money.
+    """
+    getcontext().rounding = ROUND_HALF_UP
+    value = int(Decimal(money).quantize(Decimal('0.01')) * 100)
+
+    if value >= 25:
+        print "Quarters: ", value/25
+        value %= 25
+    if value >= 10:
+        print "Dimes: ", value/10
+        value %= 10
+    if value >= 5:
+        print "Nickles: ", value/5
+        value %= 5
+    if value >= 1:
+        print "Pennies: ", value/1
+
+
+if __name__ == '__main__':
+    try:
+        input = sys.argv[1]
+    except IndexError:
+        print "No input specified."
+        print "Usage: python 119_changecalc.py <dollar amount>"
+        sys.exit()
+
+    change(input)
+
+share
+Save
+3point14
+1 point·5 years ago
+
+I'd like to post mine too. Python. Did a loop until a real float number is
+entered. Introduced an epsilon to avoid rounding issues.
+
+#reading money from keybord:
+error=1
+while error:
+    error=0
+    money=raw_input('enter amount of money, for example "4.17": ')
+    try:
+        money=float(money)
+    except ValueError:
+        print "Enter a valid number!"
+        error=1
+
+#introduction of epsilon solves all rounding errors
+eps=0.001
+print 'Quaters: ' + str(int(money/0.25+eps))
+print 'Dimes: ' + str(int((money%0.25)/0.1+eps))
+print 'Nickels: ' + str(int(((money%0.25)%0.1)/0.05+eps))
+print 'Pennies: ' + str(int((((money%0.25)%0.1)%0.05)/0.01+eps))+'\n'
+
+share
+Save
+Afeel
+1 point·5 years ago
+
+Works for all challenge inputs except the last one (i.e. 00.06). Can anyone
+help out?
+
+C++:
+
+#include <iostream>
+using namespace std;
+
+int main(){
+        double amount;
+        int quarters;
+        int dimes;
+        int nickels;
+        int pennies;
+        cout << "Amount: "; cin >> amount;
+        amount = amount*100;
+
+        quarters = amount/25;
+        amount = int(amount)%25;
+
+        dimes = amount/10;
+        amount = int(amount)%10;
+
+        nickels = amount/5;
+        amount = int(amount)%25;
+
+        pennies = amount;
+        amount = int(amount)%1;
+
+
+        system("pause");
+        return 0;
+}
+
+share
+Save
+kubunto
+1 point·5 years ago
+
+From what I can tell this should work fine, however I cant tell if it actually
+prints anything.
+
+share
+Save
+nagodtumu
+1 point·5 years ago
+
+Another Java solution including Bonus that gets the input from command line as
+a parameter:
+
+public class ChangeCalculator
+{
+ public static int QUARTERS = 25;
+ public static int DIMES = 10;
+ public static int NICKELS = 5;
+
+ public static void main(String[] args)
+ {
+  System.out.println("WELCOME to CHANGE CALCULATOR!");
+
+  double amount;
+
+  if(args.length > 0)
+  {
+     try
+     {
+        amount = Double.parseDouble(args[0]);
+        printCoins(amount);
+     }
+     catch (NumberFormatException e)
+     {
+        System.out.println("Argument" + " must be a double!");
+        System.exit(1);
+     }
+  }
+  else
+  {
+        System.out.println("You need to pass a parameter!");
+  }
+ }
+
+   public static void printCoins(double amount)
+ {
+    // Double rounded to the nearest hundredth.
+    double roundedAmount = ((int) ((amount * 100.0) + 0.5)) / 100.0;
+    System.out.println("Rounded Amount: " + roundedAmount);
+
+  int integerAmount = (int)(roundedAmount * 100.0);
+  System.out.println("Integer Amount: " + integerAmount);
+
+  int quarters = integerAmount / QUARTERS;
+  int quartersRemainder = integerAmount % QUARTERS;
+  int dimes = quartersRemainder / DIMES;
+  int dimesRemainder = quartersRemainder % DIMES;
+  int nickels = dimesRemainder / NICKELS;
+  int pennies = dimesRemainder % NICKELS;
+
+  System.out.println("Coins for " + roundedAmount);
+  if(quarters > 0)
+  {
+     System.out.println("Quarters: " + quarters);
+  }
+
+  if(dimes > 0)
+  {
+     System.out.println("Dimes: " + dimes);
+  }
+
+  if(nickels > 0)
+  {
+     System.out.println("Nickels: " + nickels);
+  }
+
+  if(pennies > 0)
+  {
+     System.out.println("Pennies: " + pennies);
+  }
+ }
+ }
+
+share
+Save
+erotictangerines
+1 point·5 years ago·edited 5 years ago
+
+Already had this project somewhat finished prior to reading the challenge. This
+one's pulled pretty much directly from the book Core Python Programming 2nd
+Ed., which is what I used to acclimate myself with Python. It didn't include
+the solution code, it simply provided the problem as an exercise at the end of
+a chapter. It has you finding the amount of change up to a dollar, so I just
+had to make a couple minor modifications.
+
+Python solution with bonus:
+
+dollar = raw_input('Enter amount of cents to calculate coins to a dollar: ')
+dollar = ch5mod.coins(float(dollar))
+coinStr = ['quarters', 'dimes', 'nickels', 'pennies']
+for i in xrange(4):
+    if dollar[i]:
+        print(int(dollar[i])), (coinStr[i]),
+
+def coins(x):
+    change = (25, 10, 5, 1)
+    count = 0
+    diff = int(x * 100)
+    coinList = []
+    while True:
+        total = diff / change[count]
+        if total:
+            coinList.append(total)
+        else:
+            coinList.append(0)
+        diff -= total * change[count] #Accumulator for the dollar total
+        count += 1
+        if diff == 0: #If 1 dollar has been reached.
+            count = len(coinList)
+            for i in range(count, 4): #Adds 0 to missing indices to coinList
+                coinList.append(0)
+            break
+    return coinList
+
+share
+Save
+robonaga
+1 point·5 years ago
+
+I thought I recognized this from somewhere. Did a quick search of the PDF
+version of this book I owned and you are indeed correct. Good book :)
+
+share
+Save
+programmerpimp
+1 point·5 years ago
+
+I'm sure many of these challenge concepts are renditions of other material.
+Have the moderators ever mentioned how they come up with the content?
+
+share
+Save
+andrewff
+1 point·5 years ago
+
+Here is my python solution including basic IO for it
+
+from sys import argv
+
+coins = (("quarter",0.25),("dime",0.10),("nickel",0.05),("penny",0.01))
+print "#",argv[1]
+amount = round(float(argv[1]),2)
+    for coin,value in coins:
+        count,amount = divmod(amount,value)
+        amount=round(amount,2)
+        count = int(count)
+        if count >0: print coin+":",count
+
+share
+Save
+[deleted]
+1 point·5 years ago·edited 5 years ago
+
+Haskell:
+
+import Data.Fixed
+
+changeCalculator :: Centi -> (Integer,Integer,Integer,Integer)
+                          -> (Integer,Integer,Integer,Integer)
+changeCalculator 0 (q,d,n,p) = (q,d,n,p)
+changeCalculator x (q,d,n,p)
+  | x - quater >= 0 = changeCalculator (x - quater) (q+1,d,n,p)
+  | x - dime >= 0 = changeCalculator (x - dime) (q,d+1,n,p)
+  | x - nickel >= 0 = changeCalculator (x - nickel) (q,d,n+1,p)
+  | x - penny >= 0 = changeCalculator (x - penny) (q,d,n,p+1)
+  where
+    quater = 0.25
+    dime = 0.10
+    nickel = 0.05
+    penny = 0.01
+
+prettyPrintCoins :: (Show a) => (a,a,a,a) -> [Char]
+prettyPrintCoins (a,b,c,d) = "Quarters: " ++ show a ++
+                             " Dimes: " ++  show b ++
+                             " Nickels: " ++ show c ++
+                             " Pennies: " ++ show d
+
+calculateAndPrint :: Centi -> [Char]
+calculateAndPrint x = prettyPrintCoins (changeCalculator x (0,0,0,0))
+
+Run:
+
+ghci> calculateAndPrint 4.17
+"Quarters: 16 Dimes: 1 Nickels: 1 Pennies: 2"
+ghci> calculateAndPrint 10.24
+"Quarters: 40 Dimes: 2 Nickels: 0 Pennies: 4"
+ghci> calculateAndPrint 00.06
+"Quarters: 0 Dimes: 0 Nickels: 1 Pennies: 1"
+ghci>
+
+Any and all feedback are welcome, and appropriated!
+
+share
+Save
+Napalm_Toothpaste
+1 point·5 years ago
+
+Can someone tell me what I'm doing wrong with Ruby? I only used a hash to store
+the values because I just covered them on codeacademy and wanted to test my
+knowledge.
+
+puts "Enter an amount of money: "
+amount = gets.to_i * 100
+
+change_counter = Hash.new(0)
+
+change_counter["Quarters"] = amount % 25
+amount /= 25
+change_counter["Dimes"] = amount % 10
+amount /= 10
+change_counter["Nickels"] = amount % 5
+amount /= 5
+change_counter["Pennies"] = amount
+
+change_counter.each do |x, y|
+  puts x + ": " + y.to_s
+end
+
+share
+Save
+isopsephile
+2 points·5 years ago
+
+Your division and modulus operations are backwards. If amount is 100, for
+instance, amount % 25 would be 0, which is certainly not the number of quarters
+needed to make correct change.
+
+share
+Save
+Napalm_Toothpaste
+1 point·5 years ago
+
+Thanks! I feel stupid after realizing that. Also figured out some other errors
+I had. Well, I added in the bonus to make myself feel better:
+
+Ruby
+
+puts "Enter an amount of money: "
+amount = (gets.chomp.to_f * 100).to_i
+
+change_counter = Hash.new(0)
+
+change_counter["Quarters"] = amount / 25
+amount %= 25
+change_counter["Dimes"] = amount / 10
+amount %= 10
+change_counter["Nickels"] = amount / 5
+amount %= 5
+change_counter["Pennies"] = amount
+
+change_counter.each do |x, y|
+  if y != 0
+    puts x + ": " + y.to_s
+  end
+end
+
+share
+Save
+zSanityz
+1 point·5 years ago
+
+Written in C++. All Challenge Inputs ouputted properly, just looking for
+feedback on code itself (other than the fact that it's overboard >_>).
+
+Thank you. ^-^
+
+        #include<iostream>
+
+        #define QUARTER 25
+        #define DIME 10
+        #define NICKEL 5
+        #define PENNY 1
+
+        using namespace std;
+
+
+        int round(double, const int &);
+        int *makeChange(double);
+        void printChange(int*);
+
+        int convertToCents(double num, const int &decimalPlaces)
+        {
+                int power = pow(10,decimalPlaces);
+                int i = num*10*power;
+
+                if(i%10 >= 5){
+                        return (int)(num*power)+1;
+                }
+
+                return (int)(num*power);
+        }
+
+        int *makeChange(double money)
+        {
+                int cents=convertToCents(money, 2);
+                int change[4]={0};
+
+                while(cents){
+                        if(cents>=QUARTER){
+                                ++change[0];
+                                cents-=QUARTER;
+                        }
+                        else if(cents>=DIME){
+                                ++change[1];
+                                cents-=DIME;
+                        }
+                        else if(cents>=NICKEL){
+                                ++change[2];
+                                cents-=NICKEL;
+                        }
+                        else if(cents>=PENNY){
+                                ++change[3];
+                                cents-=PENNY;
+                        }
+                }
+
+                printChange(change);
+
+                return change;
+        }
+
+        void printChange(int *change)
+        {
+                if(change[0]){
+                        cout<<"\nQuarters: "<<change[0];
+                }
+                if(change[1]){
+                        cout<<"\nDimes: "<<change[1];
+                }
+                if(change[2]){
+                        cout<<"\nNickels: "<<change[2];
+                }
+                if(change[3]){
+                        cout<<"\nPennies: "<<change[3];
+                }
+        }
+
+        int main()
+        {
+                double money;
+
+                cout<<"Enter an amount of money: $";
+                cin>>money;
+
+                makeChange(money);
+
+                return 0;
+        }
+
+share
+Save
+WrongSubreddit
+1 point·5 years ago
+
+Haskell solution with bonus
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+C++ with bonus. I think this is a terrible solution, having looked at
+others....
+
+#include <iostream>
+
+using namespace std;
+
+const int QUARTER = 25;
+const int DIME = 10;
+const int NICKEL = 5;
+const int PENNY = 1;
+
+void displayCoins(int cents)
+{
+    int quarters = 0;
+    int dimes = 0;
+    int nickels = 0;
+    int pennies = 0;
+    while (cents >= QUARTER)
+    {
+        ++quarters;
+        cents -= QUARTER;
+    }
+    while (cents >= DIME)
+    {
+        ++dimes;
+        cents -= DIME;
+    }
+    while (cents >= NICKEL)
+    {
+        ++nickels;
+        cents -= NICKEL;
+    }
+    while (cents >= PENNY)
+    {
+        ++pennies;
+        cents -= PENNY;
+    }
+    if (quarters != 0)
+        cout << "Quarters: " << quarters << endl;
+    if (dimes != 0)
+        cout << "Dimes: " << dimes << endl;
+    if (nickels != 0)
+        cout << "Nickels: " << nickels << endl;
+    if (pennies != 0)
+        cout << "Pennies: " << pennies << endl;
+}
+
+int main()
+{
+
+    double change;
+    cin >> change;
+    int cents = change * 100;
+    displayCoins(cents);
+}
+
+share
+Save
+CompactedPrism
+1 point·5 years ago
+
+Late to the party, but I did it in C to practice for a CSC-101 mid-term.
+
+#include <stdio.h>
+
+double input; /* gets user input */
+
+int quarters;
+int dimes;
+int nickels;
+int pennies;
+
+int main (void)
+{
+    printf("what change do you need? ");
+    scanf("%lf", &input);
+    input *= 100;
+
+    quarters = input / 25;
+    input -=(quarters * 25);
+
+    dimes = input / 10;
+    input -= (dimes * 10);
+
+    nickels = input / 5;
+    input -= (nickels * 5);
+
+    pennies = input;
+
+    printf("Total change is: \n %d quarters \n %d dimes \n %d nickels \n %d pennies\n", quarters, dimes, nickels, pennies);
+
+    return 0;
+ }
+
+share
+Save
+gworroll
+1 point·5 years ago
+
+Here's a quick solution in Standard ML
+
+(* Change Calculator
+ * r/dailyprogrammer Challenge #119
+ * Posted 01/28/13
+ * George E Worroll Jr
+ * Done 02/02/13*)
+
+(* Takes a decimal amount of money, rounds to the nearest cent.  Then it
+ * calculates the minimum number of coins, by type, that make up this
+ * amount of money.  Uses US Dollars, and only quarters, dimes, nickels,
+ * and pennies, none of our rarer coinage.
+ * real -> {quarters: int * dimes: int * nickles: int * pennies: int}*)
+fun change_calculator c =
+    let val dol_from_cent = (round (c*100.0))
+    fun make_change c =
+        {quarters = c div 25,
+         dimes    = (c mod 25) div 10,
+         nickels  = ((c mod 25) mod 10) div 5,
+         pennies  = c mod 5}
+    in make_change(dol_from_cent)
+    end
+
+fun display_change {quarters = q, dimes = d, nickels = n, pennies = p}=
+    let fun c_str(n,c) =
+        if c > 0
+        then concat([n, Int.toString(c), "\n"])
+        else ""
+    in
+    print( concat([c_str("Quarters = ", q), c_str("Dimes = ", d),
+                   c_str("Nickels = ", n), c_str("Pennies = ", p)]))
+    end
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+Python (with bonus):
+
+QUARTER_AMOUNT = 0.25
+DIME_AMOUNT = 0.10
+NICKEL_AMOUNT = 0.05
+PENNY_AMOUNT = 0.01
+
+def calculate_change(money):
+    # Check if they entered a dollar sign.
+    if money[:1] == "$":
+        money = money[1:]
+
+    # Try to make the number a float
+    try:
+        money = float(money)
+    except:
+        return "Sorry, but you didn't enter a proper dollar amount."
+
+    quarters = int(money / QUARTER_AMOUNT)
+    dimes = int((money - quarters * QUARTER_AMOUNT) / DIME_AMOUNT)
+    nickels = int((money - ((quarters * QUARTER_AMOUNT) + (dimes * DIME_AMOUNT))) / NICKEL_AMOUNT)
+    pennies = int((money - ((quarters * QUARTER_AMOUNT) + (dimes * DIME_AMOUNT) + (nickels * NICKEL_AMOUNT))) / PENNY_AMOUNT)
+
+    values = ""
+    values += "Quarters: %s\n" % (quarters) if quarters > 0 else ""
+    values += "Dimes: %s\n" % (dimes) if dimes > 0 else ""
+    values += "Nickels: %s\n" % (nickels) if nickels > 0 else ""
+    values += "Pennies: %s\n" % (pennies) if pennies > 0 else ""
+    return values if len(values) > 0 else "There are no coins."
+
+if __name__ == "__main__":
+    print calculate_change(raw_input("Please enter a dollar amount: "))
+
+share
+Save
+skibo_
+0 01 point·5 years ago
+
+Python 2.7 w/ bonus. No imports, no improved float rounding.
+
+def div_and_sub(money, coin):
+    div_res = int(money / coin)
+    leftover = round(money - (div_res * coin), 2)
+    return leftover, div_res
+
+m = float(raw_input('Enter amount of money: '))
+
+coins = (('quarter', .25), ('dime', .10), ('nickel', .05), ('penny', .01))
+
+for coin in coins:
+    m, res = div_and_sub(m, coin[1])
+    if res:
+        print coin[0] + ':', res
+
+Output:
+
+Enter amount of money: 10.24
+quarter: 40
+dime: 2
+penny: 4
+
+Enter amount of money: 0.99
+quarter: 3
+dime: 2
+penny: 4
+
+Enter amount of money: 5
+quarter: 20
+
+Enter amount of money: 00.06
+nickel: 1
+penny: 1
+
+share
+Save
+taterNuts
+1 point·5 years ago·edited 5 years ago
+
+This hasn't been tested.
+AS3 :
+
+    public class RedditChallenge {
+        private static const QUARTER : Number = 25;
+        private static const DIME    : Number = 10;
+        private static const NICKEL  : Number = 05;
+
+        public function RedditChallenge() {
+            RedditChallenge119(4.17);
+                RedditChallenge119(1.23);
+                RedditChallenge119(10.24);
+                RedditChallenge119(.99);
+                RedditChallenge119(00.06);
+        }
+
+        public function RedditChallenge119(num : Number) : void {
+
+                var q, d, p, n : int = 0;
+
+                num = (Math.round(num * 100) / 100) * 10;
+                q  +=  Math.floor(num / QUARTER);
+
+                num = num % QUARTER;
+                d  += Math.floor(num / DIME);
+
+                num = num % DIME;
+                n  += Math.floor(num / NICKEL);
+
+                p   = num % NICKEL;
+
+                trace("Quarters : " + q + "\n" +
+                          "Dimes    : " + d + "\n" +
+                          "Nickels  : " + n + "\n" +
+                          "Pennies  : " + p + "\n");
+        }
+    }
+
+edit: added all test cases
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+C# with bonus
+
+static void currency(double amount)
+{
+    int a = (int)(Math.Round(amount, 2) * 100);
+
+    Dictionary<string, int> coinDict = new Dictionary<string, int>() { { "Quarters", 25 }, { "Dimes", 10 }, { "Nickels", 5 }, { "Pennies", 1 } };
+    foreach (var coin in coinDict)
+    {
+        if (a / coin.Value != 0)
+            Console.WriteLine(coin.Key + ": " + Math.DivRem(a, coin.Value, out a));
+        else
+            Math.DivRem(a, coin.Value, out a);
+    }
+}
+
+My first attempts
+
+    static void currencyOne(double amount)
+    {
+        int a = (int)(Math.Round(amount, 2) * 100);
+        Console.WriteLine("Quarters: " + Math.DivRem(a, 25, out a));
+        Console.WriteLine("Dimes: " + Math.DivRem(a, 10, out a));
+        Console.WriteLine("Nickels: " + Math.DivRem(a, 5, out a));
+        Console.WriteLine("Pennies: " + Math.DivRem(a, 1, out a));
+    }
+
+a bit overkill but extendable
+
+    public class Coins
+    {
+        public string name;
+        public int value;
+
+        public Coins(string name, int value)
+        {
+            this.name = name;
+            this.value = value;
+        }
+    }
+
+    static void currencyTwo(double amount)
+    {
+        int a = (int)(Math.Round(amount, 2) * 100);
+
+        List<Coins> coinList = new List<Coins>();
+        coinList.Add(new Coins("Quarters", 25));
+        coinList.Add(new Coins("Dimes", 10));
+        coinList.Add(new Coins("Nickels", 5));
+        coinList.Add(new Coins("Pennies", 1));
+
+        //sorting, if necessary
+
+        //sorting with delegates
+        //coinList.Sort(delegate(Coins x, Coins y) { return y.value.CompareTo(x.value); });
+
+        //sorting with lambda expressions
+        //coinList.Sort((x, y) => y.value.CompareTo(x.value));
+
+        //output
+        foreach (Coins c in coinList)
+        {
+            Console.WriteLine(c.name + ": " + Math.DivRem(a, c.value, out a));
+        }
+    }
+
+I'm a bit late but if someone sees this any constructive criticism is very
+welcome.
+
+share
+Save
+Watercrystal
+1 point·5 years ago
+
+A Java solution (Using Euro and a slightly different Output):
+
+import java.util.Scanner;
+
+public class n119_easy_moneychanger {
+
+public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        Double money = input.nextDouble();
+
+        Double[] coinValues = {0.5,0.2,0.1,0.05,0.02,0.01};
+        int[] coinAmounts = new int[6];
+
+        Double remainingMoney = money;
+        System.out.println(money+" Euro:");
+        for(int i = 0; i<coinValues.length;i++){
+                coinAmounts[i] = (int)(remainingMoney/coinValues[i]);
+                remainingMoney = remainingMoney%coinValues[i];
+                System.out.print(coinAmounts[i]+" x "+(int)(coinValues[i]*100)+" Cent");
+                if(i !=coinValues.length-1){
+                        System.out.print(", ");
+                }
+                else System.out.println();
+        }
+}
+
+}
+
+share
+Save
+bwaxxlo
+1 point·5 years ago
+
+Javascript:
+
+    function change(){
+        var amount =  prompt("Please insert your change");
+        amount = Math.round(amount*100);
+        var quarters = Math.floor(amount / 25);
+        amount = amount % 25;
+        var dime = Math.floor(amount / 10);
+        amount = amount % 10;
+        var nickel = Math.floor(amount / 5);
+        amount = amount % 5;
+        var pennies = Math.floor(amount);
+
+        document.write("The change is "+quarters+" Quarter(s), " +dime+ " dime(s), " +nickel+ " nickel(s), and " +pennies+ " pennies");
+    }
+
+share
+Save
+polishnorbi
+1 point·5 years ago
+
+Python:
+
+def input(number):
+    dollar = round(number,2)*100
+    print "Dollar Amount: $"+str(int(dollar/100))
+    quarters, mod = divmod(dollar,25)
+    if quarters > 0:print "Quarters: "+str(int(quarters))
+    dimes, mod = divmod(mod,10)
+    if dimes > 0: print "Dimes: "+str(int(dimes))
+    nickels, mod = divmod(mod,05)
+    if nickels > 0: print "Nickels: "+str(int(nickels))
+    pennies, mod = divmod(mod,01)
+    if pennies > 0: print "Pennies: "+str(int(pennies))
+
+share
+Save
+cosileone
+1 point·5 years ago
+
+Python. Ran into a problem with rounding with .99, round() seemed to fix it
+though!
+
+denominations = [("Quarters", .25),
+                 ("Dimes", .10),
+                 ("Nickels", .05),
+                 ("Pennies", .01)]
+input = input("Cash amount: ")
+
+def calcCoins(total):
+  for coin in denominations:
+    if (total//coin[1] > 0):
+      print coin[0] + ": " + str(int(total//coin[1]))
+    total = round(total % coin[1],2)
+
+share
+Save
+Swiftnsilent
+1 point·5 years ago
+
+[JAVA] Works with Challenge Inputs and Bonus
+
+This is my first time doing this, how does my code look? Any suggestions?
+
+/**
+ * This program takes an amount of money(USD) and converts it
+ * to the least amount of coins needed to make the original
+ * value.
+ */
+public static void main(String[] args) {
+
+        double moneyUSD;
+        int moneyP, quarters, dimes, nickles, pennies;
+        Scanner input = new Scanner(System.in);
+
+        //Takes the amount of money to be converted
+        System.out.println("Input the amount of money in USD.");
+        moneyUSD = input.nextDouble();
+
+        //Converts dollars to pennies
+        moneyP = (int)(moneyUSD*100);
+
+        //Calculations
+        quarters = moneyP/25;
+        moneyP -= (25 * quarters);
+        dimes = moneyP/10;
+        moneyP -= (10 * dimes);
+        nickles = moneyP/5;
+        moneyP -= (5 * nickles);
+        pennies = moneyP;
+
+        //Output only printing used coins
+        if (quarters > 0)
+        System.out.println ("\nQuarters: " + quarters);
+        if (dimes > 0)
+        System.out.println("Dimes: " + dimes);
+        if (nickles > 0)
+        System.out.println("Nickles: "+ nickles );
+        if (pennies > 0)
+        System.out.println("Pennies: " + pennies);
+
+}
+
+share
+Save
+__rook
+1 point·5 years ago
+
+A recursive solution, with bonus, in Racket / PLT Scheme.
+
+The printf statement is something of a Frankenstein's Monster, but I couldn't
+find a way to spread it across statements in such a way that it remained within
+both the conditional and the coin variables' scope. I'd love to hear
+suggestions if anyone has any.
+
+#lang racket/base
+
+;; recursive solution
+(define (rec_change n)
+  (letrec
+      ([r_ch
+        (lambda (t q d n p) ;; total, quarters, dimes, nickels, pennies
+          (cond
+            [(>= t .25) (r_ch (- t .25) (add1 q) d n p)]
+            [(>= t .10) (r_ch (- t .10) q (add1 d) n p)]
+            [(>= t .05) (r_ch (- t .05) q d (add1 n) p)]
+            [(>= t .01) (r_ch (- t .01) q d n (add1 p))]
+            [else
+             (printf
+              "~a~a~a~a\n"
+              (if (> q 0)
+                  (string-append "\nQuarters:\t" (number->string q))
+                  "")
+              (if (> d 0)
+                  (string-append "\nDimes:\t" (number->string d))
+                  "")
+              (if (> n 0)
+                  (string-append "\nNickels:\t" (number->string n))
+                  "")
+              (if (> p 0)
+                  (string-append "\nPennies:\t" (number->string p))
+                  ""))]))])
+
+    (r_ch (/ (round (* n 100)) 100) 0 0 0 )))
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+C++
+
+#include <iostream>
+
+int main()
+{
+float amount;
+do{
+       std::cout << "\nEnter amount of money to be converted into coins, enter 0 to quit: ";
+       std::cin >> amount;
+       int change = (amount * 100 + 0.5);
+       int quarters = change / 25;
+       int dimes = (change %=25) / 10;
+       int nickels = (change %=10) / 5;
+       int pennies = change %= 5;
+
+       if(quarters)std::cout << "Quarters: "<<quarters;
+       if(dimes)std::cout << "\nDimes: "<<dimes;
+       if(nickels)std::cout << "\nNickels: "<<nickels;
+       if(pennies)std::cout << "\nPennies: "<<pennies;
+
+}while(amount != 0);
+
+return 0;
+}
+
+share
+Save
+itsthatguy42
+1 point·5 years ago
+
+my unique javascript solution which uses recursion:
+
+(function() {
+        var cents = Math.floor(Number(prompt("input an amount of money:"))*100);
+
+        var getNumNeeded = function(amount, coinVal) {
+                if(amount - coinVal < 0) {
+                        return 0;
+                }
+                return getNumNeeded(amount - coinVal, coinVal) + 1;
+        };
+
+        var neededCoins = [];
+
+        [25, 10, 5, 1].map(function(coinValue) {
+                var needed = getNumNeeded(cents, coinValue);
+                neededCoins.push(needed);
+                cents -= needed*coinValue;
+        });
+
+        var answer = "";
+
+        if(neededCoins[0]) { answer += "Quarters: " + neededCoins[0]; }
+        if(neededCoins[1]) { answer += "\nDimes: " + neededCoins[1]; }
+        if(neededCoins[2]) { answer += "\nNickels: " + neededCoins[2]; }
+        if(neededCoins[3]) { answer += "\nPennies: " + neededCoins[3]; }
+
+        console.log(answer);
+}());
+
+share
+Save
+brunswick
+1 point·5 years ago
+
+My boring java solution:
+
+public static void main(String[] args) {
+    java.util.Scanner input = new java.util.Scanner(System.in);
+    int[] coinValues = {1,5,10,25,100};
+    int[] numberOfCoins = new int[5];
+
+    System.out.println("What is the change?");
+    String changeString = input.nextLine();
+    double changeDouble = (Double.parseDouble(changeString)*100);
+    int change = (int) changeDouble;
+
+
+    for (int i= coinValues.length-1; i >= 0; i--) {
+        numberOfCoins[i] = change/coinValues[i];
+        change = change % coinValues[i];
+    }
+
+    System.out.println("You have: \n" + numberOfCoins[4] + " dollars \n" + numberOfCoins[3] + " quarters \n" + numberOfCoins[2] + " dimes \n" + numberOfCoins[1] + " nickels \n" + numberOfCoins[0] + " pennies");
+}
+
+share
+Save
+epi_420
+1 point·5 years ago
+
+Simple Java solution:
+
+import java.util.Scanner;
+
+public class ChangeCalculator {
+        public static void main(String[] args) {
+                Scanner input = new Scanner(System.in);
+
+                int total = (int) Math.ceil(100 * input.nextDouble());
+
+                int quarters = (total - total % 25) / 25;
+
+                total = total - quarters * 25;
+
+                int dimes = (total - total % 10) / 10;
+
+                total = total - dimes * 10;
+
+                int nickels = (total - total % 5) / 5;
+
+                total = total - nickels * 5;
+
+                int pennies = (total - total % 1) / 1;
+
+                if (quarters != 0)
+                        System.out.println("Quarters: " + quarters);
+
+                if (dimes != 0)
+                        System.out.println("Dimes: " + dimes);
+
+                if (nickels != 0)
+                        System.out.println("Nickels: " + nickels);
+
+                if (pennies != 0)
+                        System.out.println("Pennies: " + pennies);
+
+                input.close();
+        }
+}
+
+share
+Save
+pointertoArrayofHats
+1 point·5 years ago·edited 5 years ago
+
+I made something. [C]
+
+void challenge119(char *arg)
+{
+    unsigned int dollas = atoi(arg);
+    float cents = (atof(arg) - (float)dollas) * 100;
+    unsigned int centsRound = (unsigned int)(cents + 0.5);
+    unsigned int quarters = ((dollas * 4) + (centsRound / 25));
+    unsigned int dimes = ((centsRound % 25) / 10);
+    unsigned int nickels = ((centsRound - (((quarters % 4) * 25) + (dimes * 10))) / 5);
+    unsigned int pennies = (centsRound % 5);
+
+    if(quarters)
+                printf("Quarters: %u\n", quarters);
+    if(dimes)
+                printf("Dimes: %u\n", dimes);
+    if(nickels)
+                printf("Nickels: %u\n", nickels);
+    if(pennies)
+                printf("Pennies: %u\n", pennies);
+    return;
+}
+
+Nickels wouldn't work the easy way, so I did a lazy fix.
+
+share
+Save
+BloodyRory
+1 point·5 years ago
+
+I know I'm a little late to this, but I was trying to write this in java. I try
+to use the sample input and output but I only get 2 pennies instead of 3. Here
+is my code, could someone please tell me what I did wrong?
+
+public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    int quarters=0,dimes=0,nickels=0,pennies=0;
+        double input;
+
+        System.out.println("Please type the amount of money you have.");
+        input = scan.nextDouble();
+
+        while(input>=0.25){
+                input=input-0.25;
+                quarters++;
+        }
+        while(input>=0.1){
+                input=input-0.1;
+                dimes++;
+        }
+        while(input>=0.05){
+                input=input-0.05;
+                nickels++;
+        }
+        while(input>=0.01){
+                input=input-0.01;
+                pennies++;
+        }
+
+        System.out.println("Quarters: "+quarters);
+        System.out.println("Dimes: "+dimes);
+        System.out.println("Nickels: "+nickels);
+        System.out.println("Pennies: "+pennies);
+}
+
+share
+Save
+tcrenshaw4bama
+1 point·5 years ago
+
+My solution in C
+
+#include <stdio.h>
+int main()
+{
+    float  ammountInput = 0;
+    int quarters = 0,dimes = 0,nickels = 0, pennies = 0;
+    printf("Ammount:");
+    scanf("%f",&ammountInput);
+    int ammount = (int)(ammountInput*100);
+    while (ammount>0) {
+       if (ammount>=25) {ammount-=25;quarters++;}
+       else if (ammount>=10){ammount-=10;dimes++;}
+       else if (ammount>=05){ammount-=05;nickels++;}
+       else if (ammount>=01){ammount-=01; pennies++;}
+    }
+    if (quarters!=0)printf("Quarters: %d\n",quarters);
+    if (dimes!=0)   printf("Dimes: %d\n",dimes);
+    if (nickels!=0) printf("Nickels: %d\n",nickels);
+    if (pennies!=0) printf("Pennies: %d\n",pennies);
+    return 0;
+}
+
+share
+Save
+lIllII
+1 point·5 years ago
+
+Groovy with the bonus
+
+def coins = [Quarters:25,Dimes:10,Nickles:5,Pennies:1]
+
+print "Amount => \$"
+def input = (new Scanner(System.in).nextDouble()*100)
+
+for (coin in coins){
+    def coinCount = input/coin.getValue() as int
+    if (coinCount > 0)
+        println coin.getKey()+" : "+coinCount
+    input = input%coin.getValue()
+}
+
+share
+Save
+htcorgasm
+0 01 point·5 years ago
+
+In C#, with the bonus challenge. It accepts all of the challenge inputs.
+
+        decimal quarter = (decimal)0.25;
+        decimal dime = (decimal)0.10;
+        decimal nickle = (decimal)0.05;
+        decimal penny = (decimal)0.01;
+
+        string input = Console.ReadLine();
+        decimal amount = Decimal.Parse(input);
+
+        int quarterAmount = (int)(amount / quarter);
+        decimal runningAmount = amount % quarter;
+
+        int dimeAmount = (int)(runningAmount / dime);
+        runningAmount = runningAmount % dime;
+
+        int nickleAmount = (int)(runningAmount / nickle);
+        runningAmount = runningAmount % nickle;
+
+        int pennyAmount = (int)(runningAmount / penny);
+        runningAmount = runningAmount % penny;
+
+        if (quarterAmount != 0)
+            Console.WriteLine("Quarter: " + quarterAmount);
+        if (dimeAmount != 0)
+            Console.WriteLine("Dime: " + dimeAmount);
+        if (nickleAmount != 0)
+            Console.WriteLine("Nickle: " + nickleAmount);
+        if (pennyAmount != 0)
+            Console.WriteLine("Penny: " + pennyAmount);
+
+        Console.ReadLine();
+
+    }
+}
+
+share
+Save
+lfernandes
+1 point·5 years ago·edited 5 years ago
+
+This is my first time submitting here, and my first program I've ever really
+made as I just started learning from a book I'm reading last week. It handles
+all sample output! Anyway, here goes, in C++:
+
+int main()
+{
+    float input;
+    int quarter;
+    int dime;
+    int nickel;
+    int penny;
+
+    cout << "Please enter a dollar amount." << endl;
+    cin>> input;
+
+    input = input * 100;
+
+    quarter = input/25;
+    input = input-(quarter*25);
+    dime= input/10;
+    input = input-(dime*10);
+    nickel = input/5;
+    input = input-(nickel*5);
+    penny = input;
+    cout << "Quarters: " << quarter
+         << "\nDimes: " << dime
+         << "\nNickels: " << nickel
+         << "\nPennies: " << penny <<endl;
+   return 0;
+
+}
+
+share
+Save
+Nygmatic
+1 point·5 years ago·edited 5 years ago
+
+[C++] All inputs + bonus. Code critique very much accepted.
+
+I wanted to squeeze this into as small a function as I could while still
+adhering to good code design practices (Such as not setting the array size
+directly. This is the best I've gotten so far. Willing to hear suggestions.
+Thanks in advance!
+
+void changeCounter( double total )
+{
+    int array_size = 4;
+    int bank[array_size];
+    double  remain = total*100;
+
+    bank[0] = remain/25;
+    remain -= (bank[0]*25);
+    bank[1] = remain/10;
+    remain -= (bank[1]*10);
+    bank[2] = remain/5;
+    remain -= (bank[2]*5);
+    bank[3] = remain/1;
+    remain -= (bank[3]*1);
+
+    cout << "Total to be Converted: $" << total << endl;
+    for (int x=0; x < array_size; x++){
+        if (bank[x] > 0){
+            if (x==0) { cout << "Quarters: " << bank[0]; }
+            else if (x==1)  { cout << "Dimes: " << bank[1]; }
+            else if (x==2)  { cout << "Nickels: " << bank[2]; }
+            else if (x==3)  { cout << "Pennies: " << bank[3]; }
+            cout << endl;
+        }
+    }
+}
+
+share
+Save
+crawphish
+1 point·5 years ago
+
+Im sure there is a more elegant solution or something, but:
+
+Python
+
+amount = float(raw_input("How much money?"))
+
+quarter = int(amount/.25)
+amount = amount%.25
+dime = int(amount/.10)
+amount = amount%.10
+nickel = int(amount/.05)
+amount = amount%.05
+penny = int(amount/.01)
+
+print "Quarters: ", quarter, "\nDimes: ", dime, "\nNickels: ", nickel, "\nPennies: ", penny
+
+share
+Save
+SoccerGee
+1 point·5 years ago
+
+C# First time posting, any feedback would be great!
+
+    static decimal total;
+    static decimal payment;
+    static decimal balance;
+    static Dictionary<string, decimal > coins = new Dictionary<string, decimal>();
+
+    static void Main(string[] args)
+    {
+        coins.Add("twenty dollar bill", 20);
+        coins.Add("ten dollar bill", 10);
+        coins.Add("five dollar bill", 5);
+        coins.Add("one dollar bill", 1);
+        coins.Add("quarter", (decimal).25);
+        coins.Add("dime", (decimal).10);
+        coins.Add("nickle", (decimal).05);
+        coins.Add("penny", (decimal).01);
+
+        Console.WriteLine("What is the purchase amount? ");
+        Console.WriteLine("----------------------");
+        total = decimal.Parse(Console.ReadLine());
+
+        Console.WriteLine("What would you like to pay for your " + total + " purchase amount?");
+        Console.WriteLine("----------------------");
+        payment = decimal.Parse(Console.ReadLine());
+
+        Console.ReadKey();
+
+        balance = (payment) - (total);
+        Console.WriteLine("Your change is: " + (balance));
+        decimal changeGiven;
+        foreach (var coin in coins)
+        {
+            if (coin.Value <= balance)
+            {
+                changeGiven = Math.Floor((balance / coin.Value));
+                Console.WriteLine(coin.Key + " : " + changeGiven);
+                balance -= (changeGiven*coin.Value);
+            }
+        }
+        Console.ReadKey();
+    }
+
+share
+Save
+codemac
+1 point·5 years ago
+
+scheme(guile) for posterity:
+
+(define (coin-fit amount coin-size)
+  (define (coin-fit-tco am cs acc)
+    (if (< am cs)
+        acc
+        (coin-fit-tco (- am cs) cs (+ acc 1))))
+  (coin-fit-tco amount coin-size 0))
+
+(define (min-coins amount)
+  (let ((start (inexact->exact (floor (* 100 amount)))))
+    (let* ((quarters (coin-fit start 25))
+           (q-left (- start (* quarters 25)))
+           (dimes (coin-fit q-left 10))
+           (d-left (- q-left (* dimes 10)))
+           (nickels (coin-fit d-left 5))
+           (n-left (- d-left (* nickels 5)))
+           (pennies (coin-fit n-left 1)))
+      `(,quarters ,dimes ,nickels ,pennies))))
+
+(define (print-min-coins amount)
+  (let ((coins (min-coins amount)))
+    (if (> (car coins) 0)
+        (format #t "~&Quarters: ~a~%" (car coins)))
+    (if (> (cadr coins) 0)
+        (format #t "~&Dimes: ~a~%" (cadr coins)))
+    (if (> (caddr coins) 0)
+        (format #t "~&Nickels: ~a~%" (caddr coins)))
+    (if (> (cadddr coins) 0)
+        (format #t "~&Pennies: ~a~%" (cadddr coins)))))
+
+share
+Save
+StoleAGoodUsername
+1 point·5 years ago
+
+Code: http://pastebin.com/sE75xDM2
+
+Java solution. It's long. Problem I was having was that the floating point
+doubles were having accuracy problems that would mess up things. Either way,
+the output of
+
+System.out.println(change(10.24));
+System.out.println(change(0.99));
+System.out.println(change(5.00));
+System.out.println(change(0.06));
+
+is
+
+Change for: 10.24
+-------------------
+Quarters: 40
+Dimes: 2
+Nickels: 0
+Pennies: 4
+
+Change for: 0.99
+-------------------
+Quarters: 3
+Dimes: 2
+Nickels: 0
+Pennies: 4
+
+Change for: 5.0
+-------------------
+Quarters: 20
+Dimes: 0
+Nickels: 0
+Pennies: 0
+
+Change for: 0.06
+-------------------
+Quarters: 0
+Dimes: 0
+Nickels: 1
+Pennies: 1
+
+share
+Save
+cdelahousse
+1 point·5 years ago
+
+JavaScript
+
+function change(n) {
+        var denoms = [ 25, 10, 5, 1 ];
+        var names = [ "Quarters",  "Nickels", "Dimes", "Pennies" ];
+
+        return (function recur (n) {
+                var nm = names.shift();
+                var d = denoms.shift();
+                var amt = Math.floor(n/d);
+                if (!d) return "";
+
+                return (amt > 0 ? nm + ": " + amt + "\n" : "" ) + recur(n % d);
+        })(Math.floor(n*100));
+}
+
+//change(1.22);
+console.log(change(1.23));
+
+share
+Save
+cohs
+1 point·5 years ago
+
+I'm using Python. I just got into it, hence being a little behind on the
+challenges. If anyone sees this any tips are appreciated.
+
+def change(change):
+string = "\nTotal = $%.2f" % float(change)
+change = (change * 100)
+quarter, change  = int(change // 25), change % 25
+dime, change = int(change // 10), change % 10
+nick, change = int(change // 5), change % 5
+penny = int(round(change / 1))
+
+if quarter: string += "\nQuarters: " + str(quarter)
+if dime:    string += "\nDimes: " + str(dime)
+if nick:    string += "\nNickels: " + str(nick)
+if penny:   string += "\nPennies: " + str(penny)
+
+return string
+
+
+
+Total = $10.24
+Quarters: 40
+Dimes: 2
+Pennies: 4
+
+Total = $0.99
+Quarters: 3
+Dimes: 2
+Pennies: 4
+
+Total = $5.00
+Quarters: 20
+
+Total = $0.06
+Nickels: 1
+Pennies: 1
+
+share
+Save
+[deleted]
+1 point·5 years ago·edited 5 years ago
+
+In J:
+
+q=.[:<.%&0.25
+d=.[:<.0.10%~(-0.25*q)
+n=.[:<.0.05%~(-[:+/0.25 0.10*(q,d))
+p=.0.01%~(-[:+/0.25 0.10 0.05*(q,d,n))
+f=.q,d,n,p
+
+Output:
+
+    f"0 ]10.24 0.99 5 0.06
+40 2 0 4
+3 2 0 4
+20 0 0 0
+0 0 1 1
+
+share
+Save
+
+16 more replies
+
+Community Details
+r/dailyprogrammer
+
+141k
+
+Subscribers
+
+94
+
+Online
+
+**Welcome to r/DailyProgrammer!** First time visitors of Daily Programmer
+please [Read the Wiki] (http://www.reddit.com/r/dailyprogrammer/wiki/index) to
+learn everything about this subreddit. 3 Programming Challenges a week!
+
+SubscribeCreate Post
+aboutcareerspress
+advertisebloghelp
+the reddit appreddit goldreddit gifts
+content policy| privacy policy
+user agreement| mod policy
+© 2018 Reddit, Inc. All rights reserved
+back to top

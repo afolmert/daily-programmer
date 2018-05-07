@@ -1,0 +1,656 @@
+close this window
+jump to content
+my subreddits
+edit subscriptions
+
+  • popular
+  • -all
+  • -random
+  • -users
+
+ | 
+
+  • AskReddit
+  • -worldnews
+  • -videos
+  • -funny
+  • -todayilearned
+  • -pics
+  • -gaming
+  • -movies
+  • -news
+  • -gifs
+  • -mildlyinteresting
+  • -aww
+  • -Showerthoughts
+  • -television
+  • -Jokes
+  • -science
+  • -OldSchoolCool
+  • -sports
+  • -IAmA
+  • -Documentaries
+  • -TwoXChromosomes
+  • -explainlikeimfive
+  • -personalfinance
+  • -books
+  • -tifu
+  • -Futurology
+  • -dataisbeautiful
+  • -WritingPrompts
+  • -nottheonion
+  • -food
+  • -Music
+  • -photoshopbattles
+  • -EarthPorn
+  • -philosophy
+  • -Art
+  • -nosleep
+  • -GetMotivated
+  • -askscience
+  • -LifeProTips
+  • -space
+  • -UpliftingNews
+  • -DIY
+  • -history
+  • -gadgets
+  • -creepy
+  • -listentothis
+  • -blog
+  • -announcements
+  • -InternetIsBeautiful
+
+more >>
+dailyprogrammer dailyprogrammer
+
+  • comments
+
+Want to join? Log in or sign up in seconds.|
+
+  • English
+
+[                    ][]
+[ ]limit my search to r/dailyprogrammer
+
+use the following search parameters to narrow your results:
+
+subreddit:subreddit
+    find submissions in "subreddit"
+author:username
+    find submissions by "username"
+site:example.com
+    find submissions from "example.com"
+url:text
+    search for "text" in url
+selftext:text
+    search for "text" in self post contents
+self:yes (or self:no)
+    include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+    include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+
+see the search faq for details.
+
+advanced search: by author, subreddit...
+
+this post was submitted on  20 Feb 2012
+18 points (100% upvoted)
+shortlink:  [https://redd.it/pxrz]
+[                    ][                    ]
+[ ]remember mereset password
+login
+Submissions restricted
+Only approved users may post in this community.
+
+dailyprogrammer
+
+subscribeunsubscribe141,926 readers
+
+76 users here now
+
+ 1. Challenge #321: Easy
+ 2. Challenge #321: Intermediate
+ 3. Challenge #321: Hard
+ 4. Weekly #25: Escape the trolls
+
+Welcome to r/DailyProgrammer!
+
+First time visitors of Daily Programmer please Read the Wiki to learn
+everything about this subreddit.
+
+  • Solution Submission Tutorial
+  • Solution Submission Guidelines
+  • Code / Peer-Review Guidelines
+  • Problem Submission Guidelines
+  • Achievements System
+  • Community Projects
+  • Links to other Programming subreddits
+  • Special Thanks
+
+Can't submit solutions?
+
+If you are a new or unverified account, and are unable to post comment replies,
+please click here to verify your account. Otherwise, read the Solution
+Submission Tutorial for a walkthrough of submitting a solution, or click below
+to message the moderators for assistance.
+
+Write your own challenge!
+
+To help the community and write your own challenge to be submitted, head on
+over to /r/DailyProgrammer_Ideas and share your project - read the sidebar in
+that subreddit for more information.
+
+IRC Channel
+
+Message the Moderators
+
+Challenge List in Chronological Order
+
+created by nottoobadguya community for 6 years
+message the moderators
+
+MODERATORS
+
+  • rya111113 1
+  • nint221 2
+  • Cosmologicon2 3
+  • Elite68091 1
+  • XenophonOfAthens2 1
+  • jnazario2 0
+  • Godspiral3 3
+  • Blackshell2 0
+  • fvandepitte0 0
+  • G33kDude1 1
+  • about moderation team >>
+
+discussions in r/dailyprogrammer
+<>
+X
+ 
+58 . 21 comments
+[2018-05-04] Challenge #359 [Hard] Primes in Grids
+ 
+43 . 36 comments
+[2018-05-02] Challenge #359 [Intermediate] Unwrap Some Text
+ 
+64 . 106 comments
+[2018-04-30] Challenge #359 [Easy] Regular Paperfold Sequence Generator
+ 
+69 . 12 comments
+[2018-04-27] Challenge #358 [Hard] Puzzle me this
+ 
+52 . 36 comments
+[2018-04-25] Challenge #358 [Intermediate] Everyone's A Winner!
+ 
+71 . 75 comments
+[2018-04-23] Challenge #358 [Easy] Decipher The Seven Segments
+ 
+57 . 28 comments
+[2018-04-20] Challenge #357 [Hard] Continued Fractions
+ 
+60 . 26 comments
+[2018-04-19] Challenge #357 [Intermediate] Kolakoski Sequences
+ 
+69 . 114 comments
+[2018-04-11] Challenge #356 [Intermediate] Goldbach's Weak Conjecture
+ 
+83 . 78 comments
+[2018-03-28] Challenge #355 [Intermediate] Possible Number of Pies
+
+Welcome to Reddit,
+
+the front page of the internet.
+
+Become a Redditor
+
+and subscribe to one of thousands of communities.
+
+x
+
+17
+18
+19
+
+[2/20/2012] Challenge #12 [intermediate] (self.dailyprogrammer)
+
+submitted 6 years ago by nottoobadguy
+
+Create a program that will factor a number. for example:
+
+12 = 2 * 2 * 3
+
+14 = 7 * 2
+
+20 = 2 * 2 * 5
+
+thanks to bears_in_bowlers for todays challenge!
+
+  • 14 comments
+  • share
+  • save
+  • hide
+  • report
+
+all 14 comments
+sorted by:
+best
+topnewcontroversialoldrandomq&alive (beta)
+ [                    ]
+
+Want to add to the discussion?
+
+Post a comment!
+
+Create an account
+
+[–]helmetk 1 point2 points3 points 6 years ago (1 child)
+
+Python
+
+def factor(num):
+    out = str(num) + " = "
+    aux = 2
+    while(num > 1):
+        if(num%aux != 0):
+            aux += 1
+        else:
+            num = num/aux
+            if(num > 1):
+                out += str(aux) + " * "
+            else:
+                out += str(aux)
+    print out
+factor(input('Write a number: '))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]JerMenKoO0 0 4 points5 points6 points 6 years ago (0 children)
+
+Function should always return value.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]JerMenKoO0 0 1 point2 points3 points 6 years ago (0 children)
+
+Python:
+
+def primefactors(x):
+    factorlist=[]
+    loop=2
+    while loop<=x:
+        if x%loop==0:
+            x/=loop
+            factorlist.append(loop)
+        else:
+            loop+=1
+    return factorlist
+
+asdf = primefactors(input())
+asdf = [str(x) for x in asdf]
+'*'.join(asdf)
+
+My solution :]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]eruonna 1 point2 points3 points 6 years ago (0 children)
+
+Haskell:
+
+factors 1 = []
+factors n = let d = head $ filter ((==0) . mod n) [2..]
+            in d : factors (n `div` d)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]prophile 0 points1 point2 points 6 years ago (0 children)
+
+And done.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]namekuseijin 0 points1 point2 points 6 years ago (0 children)
+
+scheme:
+
+(define (prime-factors n)
+  (let try ((n n) (d 2) (factors '()))
+    (if (= 1 n) factors
+        (if (zero? (modulo n d))
+            (try (/ n d) d (cons d factors))
+            (try n (+ (if (= 2 d) 1 2) d) factors)))))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]drb2260 0 0 points1 point2 points 6 years ago (0 children)
+
+Haskell, some efficiency included:
+
+import Data.List (find, intercalate)
+import Text.Printf (printf)
+
+main = interact (unlines . map prettyFactors . lines)
+
+prettyFactors :: String -> String
+prettyFactors str = printf "%s = %s" str (intercalate " * " ans)
+  where ans = map show $ factors (read str)
+
+factors :: Int -> [Int]
+factors n = case factors' n 2 of
+  [x] -> [1,x]
+  fs -> fs
+
+factors' :: Int -> Int -> [Int]
+factors' n start = case find (`divides` n) [start..n] of
+  Just q  -> q : factors' (n `div` q) q
+  Nothing -> []
+  where k `divides` x = x `rem` k == 0
+
+Could be made more efficient by checking only the list of prime numbers. Usage:
+
+$ cat tests.txt | runhaskell factors.hs
+12 = 2 * 2 * 3
+14 = 2 * 7
+20 = 2 * 2 * 5
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Crystal_Cuckoo 0 points1 point2 points 6 years ago* (0 children)
+
+I remember reading a factorisation function in a ProjectEuler solution in
+Python, and I've tried to recreate that here from memory:
+
+from math import sqrt
+def factorise(num):
+    candidate = next((i for i in xrange(2, int(sqrt(num))+1) if num%i == 0), None)
+    return [candidate] + factorise(num/candidate) if candidate else [num]
+
+EDIT: Found it, here is the source code. It's more efficient as candidates
+doesn't start from 2 every time but from the last factor found (start):
+
+def prime_factors(num, start=2):
+    """Return all prime factors (ordered) of num in a list"""
+    candidates = xrange(start, int(sqrt(num)) + 1)
+    factor = next((x for x in candidates if (num % x == 0)), None)
+    return ([factor] + prime_factors(num / factor, factor) if factor else [num])
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nothingatall544 0 points1 point2 points 6 years ago (0 children)
+
+Again it's not super awesome, but it gets the job done with a lot of overhead.
+
+Java:
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+
+public class Main {
+
+public static void main(String[] args) {
+
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    System.out.println("What int would you like to factor?");
+    int prime = 0;
+
+    try {
+        prime = Integer.parseInt(br.readLine());
+    }
+    catch (IOException e) {
+        e.printStackTrace();
+        System.exit(1);
+    }
+
+    for (Integer i:getPrime(prime)){
+        System.out.println(i);
+    }
+}
+
+public static int[] getPrime(int num){
+    ArrayList<Integer> list = new ArrayList<Integer>();
+    int[] ret = {num};
+    for (int i = 2; i < Math.sqrt(num)+1; i++){
+        if (num%i == 0 && num != i){
+            list.add(i);
+            for (int n:getPrime(num/i)){
+                list.add(n);
+            }
+            int[] temp = new int[list.size()];
+            for (int j = 0; j < list.size(); j++){
+                temp [j] = list.get(j);
+            }
+            ret = temp;
+            break;
+        }
+    }
+    return ret;
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]joe_ally 0 points1 point2 points 6 years ago (0 children)
+
+Python. I tried to avoid using loops in an attempt to get comfortable with
+functional style programming.
+
+import sys
+from collections import deque
+
+def get_factor(n, nd=None):
+    nd = nd or (n-2)
+    if nd <= 1 : return None
+    if n % nd == 0 : return nd
+    else : return get_factor(n, nd-1)
+
+def prime_factors(n):
+    f1 = get_factor(n)
+    if f1 == None: return [n]
+    f2 = n / f1
+    return sorted(prime_factors(f1) + prime_factors(f2))
+
+num = int(sys.argv[1])
+pf = deque( prime_factors(num) )
+str1 = str(pf.popleft())
+for p in pf : str1 += " * "+str(p)
+print(str1)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 6 years ago (0 children)
+
+C++: for some reason, putting std::stringstream uberss in the while loop gave
+me a working program, while putting it at the beginning of int main() gave me a
+bunch of two's. Can anyone explain to me why this is? I really fail to
+understand how iostreams and such work.
+
+#include <iostream>
+#include <sstream>
+
+int main() {
+    int numberToFactor;
+    int numberToFactorKeep;
+    int c = 2;
+    int d;
+    std::string answerString;
+
+    std::cout << "This is Factorer. Put in a number and it'll factor it: ";
+    std::cin >> numberToFactor;
+    std::cin.ignore();
+    numberToFactorKeep = numberToFactor;
+
+    for (c; c < numberToFactorKeep; c++) {
+        while (numberToFactor%c == 0) {
+            std::stringstream uberss;
+            uberss << c;
+            std::string b = uberss.str();
+            answerString.append(b);
+            answerString.append(" * ");
+            numberToFactor = numberToFactor/c;
+            uberss.ignore(256, '\0');
+        }
+    }
+
+    answerString.erase(answerString.end() - 3, answerString.end());
+
+    std::cout << "Factors are: " << answerString << std::endl;
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+
+[–]kirk_o 0 points1 point2 points 6 years ago (0 children)
+
+C++
+
+#include <iostream>
+
+typedef unsigned int uint;
+
+uint smallest_factor(uint n) {
+    for(uint i = 2; i < n; ++i)
+        if(n % i == 0)
+            return i;
+    return n;
+}
+
+void print_factors(uint n) {
+    uint i = smallest_factor(n);
+
+    while(i != n) {
+        std::cout << i << " * ";
+
+        n = n / i;
+        i = smallest_factor(n);
+    }
+
+    std::cout << i;
+}
+
+int main() {
+    uint in;
+
+    std::cout << "type a number to factor\n";
+    std::cin >> in;
+
+    print_factors(in);
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Should_I_say_this 0 points1 point2 points 5 years ago (0 children)
+
+def factors(x):
+y=[]
+j=x
+i=2
+while i<x:
+    if j%i==0:
+        y+=[i]
+        j = j/i
+    else:
+        i+=1
+if y==[]: print('Prime Number')
+else: return y
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]kuzux0 0 0 points1 point2 points 6 years ago (0 children)
+
+Clojure
+
+(defn factors [n]
+  (loop [n n i 2 acc []]
+    (cond (= n 1) acc
+          (= (mod n i) 0) (recur (/ n i) i (conj acc i))
+          :else (recur n (+ i 1) acc))))
+(doall (map println (factors (Integer. (read-line)))))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+  • about
+  • blog
+  • about
+  • advertising
+  • careers
+
+  • help
+  • site rules
+  • Reddit help center
+  • wiki
+  • reddiquette
+  • mod guidelines
+  • contact us
+
+  • apps & tools
+  • Reddit for iPhone
+  • Reddit for Android
+  • mobile website
+  • buttons
+
+  • <3
+  • reddit gold
+  • redditgifts
+
+Use of this site constitutes acceptance of our User Agreement and Privacy
+Policy. (C) 2018 reddit inc. All rights reserved.
+
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+Advertise - technology
+
+[pixel]
+
+π Rendered by PID 127325 on app-260  at 2018-05-07 20:08:51.314297+00:00
+running 37be41a country code: CH.
+

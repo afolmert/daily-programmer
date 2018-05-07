@@ -1,0 +1,1127 @@
+close this window
+jump to content
+my subreddits
+edit subscriptions
+
+  • popular
+  • -all
+  • -random
+  • -users
+
+ | 
+
+  • AskReddit
+  • -worldnews
+  • -videos
+  • -funny
+  • -todayilearned
+  • -pics
+  • -gaming
+  • -movies
+  • -news
+  • -gifs
+  • -mildlyinteresting
+  • -aww
+  • -Showerthoughts
+  • -television
+  • -Jokes
+  • -science
+  • -OldSchoolCool
+  • -sports
+  • -IAmA
+  • -Documentaries
+  • -TwoXChromosomes
+  • -explainlikeimfive
+  • -personalfinance
+  • -books
+  • -tifu
+  • -Futurology
+  • -dataisbeautiful
+  • -WritingPrompts
+  • -nottheonion
+  • -food
+  • -Music
+  • -photoshopbattles
+  • -EarthPorn
+  • -philosophy
+  • -Art
+  • -nosleep
+  • -GetMotivated
+  • -askscience
+  • -LifeProTips
+  • -space
+  • -UpliftingNews
+  • -DIY
+  • -history
+  • -gadgets
+  • -creepy
+  • -listentothis
+  • -blog
+  • -announcements
+  • -InternetIsBeautiful
+
+more >>
+dailyprogrammer dailyprogrammer
+
+  • comments
+
+Want to join? Log in or sign up in seconds.|
+
+  • English
+
+[                    ][]
+[ ]limit my search to r/dailyprogrammer
+
+use the following search parameters to narrow your results:
+
+subreddit:subreddit
+    find submissions in "subreddit"
+author:username
+    find submissions by "username"
+site:example.com
+    find submissions from "example.com"
+url:text
+    search for "text" in url
+selftext:text
+    search for "text" in self post contents
+self:yes (or self:no)
+    include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+    include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+
+see the search faq for details.
+
+advanced search: by author, subreddit...
+
+this post was submitted on  08 Sep 2012
+25 points (87% upvoted)
+shortlink:  [https://redd.it/zkdv]
+[                    ][                    ]
+[ ]remember mereset password
+login
+Submissions restricted
+Only approved users may post in this community.
+
+dailyprogrammer
+
+subscribeunsubscribe141,926 readers
+
+74 users here now
+
+ 1. Challenge #321: Easy
+ 2. Challenge #321: Intermediate
+ 3. Challenge #321: Hard
+ 4. Weekly #25: Escape the trolls
+
+Welcome to r/DailyProgrammer!
+
+First time visitors of Daily Programmer please Read the Wiki to learn
+everything about this subreddit.
+
+  • Solution Submission Tutorial
+  • Solution Submission Guidelines
+  • Code / Peer-Review Guidelines
+  • Problem Submission Guidelines
+  • Achievements System
+  • Community Projects
+  • Links to other Programming subreddits
+  • Special Thanks
+
+Can't submit solutions?
+
+If you are a new or unverified account, and are unable to post comment replies,
+please click here to verify your account. Otherwise, read the Solution
+Submission Tutorial for a walkthrough of submitting a solution, or click below
+to message the moderators for assistance.
+
+Write your own challenge!
+
+To help the community and write your own challenge to be submitted, head on
+over to /r/DailyProgrammer_Ideas and share your project - read the sidebar in
+that subreddit for more information.
+
+IRC Channel
+
+Message the Moderators
+
+Challenge List in Chronological Order
+
+created by nottoobadguya community for 6 years
+message the moderators
+
+MODERATORS
+
+  • rya111113 1
+  • nint221 2
+  • Cosmologicon2 3
+  • Elite68091 1
+  • XenophonOfAthens2 1
+  • jnazario2 0
+  • Godspiral3 3
+  • Blackshell2 0
+  • fvandepitte0 0
+  • G33kDude1 1
+  • about moderation team >>
+
+discussions in r/dailyprogrammer
+<>
+X
+ 
+59 . 21 comments
+[2018-05-04] Challenge #359 [Hard] Primes in Grids
+ 
+42 . 36 comments
+[2018-05-02] Challenge #359 [Intermediate] Unwrap Some Text
+ 
+63 . 106 comments
+[2018-04-30] Challenge #359 [Easy] Regular Paperfold Sequence Generator
+ 
+66 . 12 comments
+[2018-04-27] Challenge #358 [Hard] Puzzle me this
+ 
+52 . 36 comments
+[2018-04-25] Challenge #358 [Intermediate] Everyone's A Winner!
+ 
+72 . 75 comments
+[2018-04-23] Challenge #358 [Easy] Decipher The Seven Segments
+ 
+55 . 28 comments
+[2018-04-20] Challenge #357 [Hard] Continued Fractions
+ 
+57 . 26 comments
+[2018-04-19] Challenge #357 [Intermediate] Kolakoski Sequences
+ 
+73 . 114 comments
+[2018-04-11] Challenge #356 [Intermediate] Goldbach's Weak Conjecture
+ 
+82 . 78 comments
+[2018-03-28] Challenge #355 [Intermediate] Possible Number of Pies
+
+Welcome to Reddit,
+
+the front page of the internet.
+
+Become a Redditor
+
+and subscribe to one of thousands of communities.
+
+x
+
+24
+25
+26
+
+[9/08/2012] Challenge #97 [easy] (Concatenate directory) (self.dailyprogrammer)
+
+submitted 5 years ago by [deleted]
+
+Write a program that concatenates all text files (*.txt) in a directory,
+numbering file names in alphabetical order. Print a header containing some
+basic information above each file.
+
+For example, if you have a directory like this:
+
+~/example/abc.txt
+~/example/def.txt
+~/example/fgh.txt
+
+And call your program like this:
+
+nooodl:~$ ./challenge97easy example
+
+The output would look something like this:
+
+=== abc.txt (200 bytes)
+(contents of abc.txt)
+
+=== def.txt (300 bytes)
+(contents of def.txt)
+
+=== ghi.txt (400 bytes)
+(contents of ghi.txt)
+
+For extra credit, add a command line option '-r' to your program that makes it
+recurse into subdirectories alphabetically, too, printing larger headers for
+each subdirectory.
+
+  • 31 comments
+  • share
+  • save
+  • hide
+  • report
+
+all 31 comments
+sorted by:
+best
+topnewcontroversialoldrandomq&alive (beta)
+ [                    ]
+
+Want to add to the discussion?
+
+Post a comment!
+
+Create an account
+
+[–]Steve1320 1 5 points6 points7 points 5 years ago (4 children)
+
+bash:
+
+#!/bin/bash
+
+for f in `find $1 -maxdepth 1 -type f`; do
+    echo === $f '('`wc -c $f | cut -f1 -d' '` bytes')';
+    cat $f;
+done
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]more_exercise[🍰] -2 points-1 points0 points 5 years ago (2 children)
+
+I love how making it recursive actually reduces the amount of code.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Steve1320 1 1 point2 points3 points 5 years ago (0 children)
+
+Honestly, it was the strange filename printing requirements that made this
+hard. I really wanted to just do
+
+grep `ls $1`
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]5outh1 0 -1 points0 points1 point 5 years ago* (0 children)
+
+It often does. Here's a super simple example of a recursive and non-recursive
+solution for a factorial function:
+
+//imperative (7 lines)
+def fact(n){
+  int accum = 1;
+  for(n, n>1, n--){
+    accum *= n;
+  }
+  return accum;
+}
+
+//recursive (4 lines)
+def fact(n){
+  if (n > 1)
+    return n*fact(n-1);
+  return 1;
+}
+
+Additionally, if your language supports the ternary operator (like Java's ?),
+you can write it this way, which is pretty cool:
+
+def fact(n){
+  return n<=1?1:n*fact(n);
+}
+
+But yeah, this is really simple. A recursive factorial function actually
+reduces the amount of code significantly less than for a problem that is
+generally solved recursively (Towers of Hanoi, solving a maze, etc). Often
+times, recursive solutions tend to be shorter.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Twoje 3 points4 points5 points 5 years ago (1 child)
+
+C# (no extra credit...yet)
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Challenge097
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Please enter directory: ");
+            string directory = Console.ReadLine();
+
+            string[] files = System.IO.Directory.GetFiles(directory, "*.txt");
+
+            foreach (string file in files)
+            {
+                // Header
+                System.IO.FileInfo fileInfo = new System.IO.FileInfo(file);
+                string fileName = fileInfo.Name;
+                long fileSize = fileInfo.Length;
+                Console.WriteLine("=== {0} ({1} bytes)", fileName, fileSize);
+
+                // Contents
+                string[] fileContents = System.IO.File.ReadAllLines(file);
+                foreach (string line in fileContents)
+                    Console.WriteLine(line);
+                Console.WriteLine();
+            }
+            Console.ReadKey();
+        }
+    }
+}
+
+It seems to alphabetize it automatically.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Amndeep7 0 points1 point2 points 5 years ago (0 children)
+
+    It seems to alphabetize it automagically.
+
+FTFY
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]oskar_stephens 2 points3 points4 points 5 years ago (0 children)
+
+Ruby
+
+directory = ARGV[0].nil? ? '.' : ARGV[0]
+Dir.entries(directory).sort.each do |file|
+  file = directory + "/" +file
+  if File.file?(file)
+    f = File.open(file)
+    printf "=== %s (%d bytes)\n" ,file, f.size
+    f.each_line{|f| print f}
+  end
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Josso 2 points3 points4 points 5 years ago (0 children)
+
+Python (with recursive as only option):
+
+import os
+from os.path import join, getsize
+
+def concatenateDir(theDir):
+    for root, dirs, files in os.walk(theDir):
+        for name in files:
+            filepath = join(root, name)
+            print "===", filepath, "("+str(getsize(filepath))+" bytes)"
+            print open(filepath).read()
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]yogsototh 2 points3 points4 points 5 years ago* (0 children)
+
+zsh with -r, show usage, accept multiple arguments (also don't bug with files
+containing spaces or even "\n" in their name):
+
+#!/usr/bin/env zsh
+
+err(){ print -- $* >&2; exit 1}
+
+[[ $1 = "-r" ]] && { recursive=1; shift }
+
+(($# == 0)) && err "usage: $0:t [-r] dir [...]
+\t-r recursive search"
+
+
+for dir in $*; do
+    if ((recursive)); then
+        ficlist=( $ficlist $dir/**/*.txt(N.) )
+    else
+        ficlist=( $ficlist $dir/*.txt(N.) )
+    fi
+done
+
+for fic in $ficlist; do
+    print -- "=== $fic ($(wc -c $fic|awk '{print $1}') bytes)"
+    cat $fic
+done
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Scroph0 0 1 point2 points3 points 5 years ago* (0 children)
+
+PHP, with bonus :
+
+<?php
+if($argc < 2)
+{
+    printf('Usage : %s directory [-r]%s', $argv[0], PHP_EOL);
+    exit;
+}
+
+$r = isset($argv[2]) && $argv[2] == '-r';
+
+$files = txt_files($argv[1], $r);
+sort($files);
+
+foreach($files as $f)
+{
+    printf('=== %s (%d bytes)%s', $f, filesize($f), PHP_EOL);
+    echo file_get_contents($f);
+}
+
+function txt_files($dir, $recurse = FALSE)
+{
+    if(!$recurse)
+    {
+        $files = glob($dir.'/*.txt');
+        return $files;
+    }
+    else
+    {
+        $files = glob($dir.'/*');
+        $results = array();
+        foreach($files as $f)
+        {
+            if(pathinfo($f, PATHINFO_EXTENSION) == 'txt')
+            {
+                $results[] = $f;
+            }
+            if(is_dir($f))
+            {
+                $results = array_merge($results, txt_files($f, TRUE));
+            }
+        }
+        return $results;
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]exteras 1 point2 points3 points 5 years ago (0 children)
+
+Python. No recursive.
+
+https://gist.github.com/3730728
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]andkerosine 1 point2 points3 points 5 years ago (0 children)
+
+Ruby:
+
+opt, dir = ARGV
+dir = opt unless dir
+glob = opt == '-r' ? '**/*' : '*'
+Dir["#{dir}/#{glob}"].sort.each do |file|
+  next unless contents = IO.read(file) rescue nil
+  puts "=== #{file} (#{contents.size} bytes)\n#{contents}\n"
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Wedamm 2 points3 points4 points 5 years ago (0 children)
+
+Haskell:
+
+import System.Directory
+import Data.List
+import Control.Monad
+import System.Environment
+
+main = do args <- getArgs
+          case args of
+               [fp] -> concatDir fp
+               _    -> putStrLn "Usage: concatDir /path/to/directory/"
+
+concatDir fp = do contents <- getDirectoryContents fp
+                  forM_ (filter ( elem ".txt" . reverse . tails) contents) (\ file ->
+                      do fileContent <- readFile file
+                         putStr $ "→ " ++ file ++ " ("
+                         let nBytes = (show . length) fileContent
+                         putStr $ nBytes ++ if nBytes == "1" then " byte, " else " bytes, "
+                         let nLines = (show . length . lines) fileContent
+                         putStr $ nLines ++  if nLines == "1" then " line)\n" else " lines)\n"
+                         putStrLn fileContent )
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]revosfts 3 points4 points5 points 5 years ago (0 children)
+
+I love this subreddit!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Medicalizawhat 1 point2 points3 points 5 years ago (0 children)
+
+Ruby no bonus:
+
+Dir.entries(Dir.pwd).reject {|el| el == '.' || el == '..'}.each do |en|
+  puts "File#{en}\nSize: #{File.size(en)}\nContents #{File.open(en).readline {|f| puts f}}\n"
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]zip_000 1 point2 points3 points 5 years ago (2 children)
+
+PHP:
+
+<?php
+if ($handle = opendir($argv[1]))
+{
+while (false !== ($entry = readdir($handle)))
+    {
+    $files = "$argv[1]/$entry";
+    $file = file_get_contents($files);
+    echo "=== ".$entry." (".filesize($files).") bytes\n".$file."\n\n";
+    }
+closedir($handle);
+}
+?>
+
+I don't see a lot of php around here, so I thought I'd give it a go. You'd call
+it from the command line like:
+
+    php test.php example
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Scroph0 0 4 points5 points6 points 5 years ago (0 children)
+
+I know that feeling bro.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]quirk 1 point2 points3 points 5 years ago (0 children)
+
+The first thing I do when checking comments is search for PHP... often there is
+only one result, and that is my flair.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ripter 0 points1 point2 points 5 years ago (1 child)
+
+coffeescript using node.js
+
+fs = require 'fs'
+path = require 'path'
+
+if process.argv.length < 2
+  console.log 'Usage: node app.js [-r] folder'
+  process.exit 0
+
+useRecursion = true for match in process.argv when match == '-r'
+useRecursion = false unless useRecursion
+
+rootFolder = process.argv[process.argv.length-1]
+rootFolder = path.normalize rootFolder
+depth = 0
+output = ''
+
+processResult = (fileData) ->
+  output += "\n#{fileData.title}\n#{fileData.body}"
+  console.log 'processResult, depth %s', depth, fileData
+
+  if depth == 0
+    console.log '\n\n', output
+
+processFile = (fileName, fileInfo, fnResult) ->
+  fs.readFile fileName, 'utf-8', (err, data) ->
+    fileName = path.basename fileName
+    depth = depth - 1
+
+    fnResult {
+      name: fileName
+      title: "=== #{fileName} (#{fileInfo.size} bytes)"
+      body: data
+    }
+
+processFolder = (baseFolder, fileList, fnResult) ->
+  fileList.forEach (fileName) ->
+    fileName = path.join(baseFolder, fileName)
+    extName = path.extname(fileName)
+
+    fs.stat fileName, (err, fileInfo) ->
+      if fileInfo.isFile() && extName == '.txt'
+        depth = depth + 1
+        processFile fileName, fileInfo, fnResult
+
+      if useRecursion && fileInfo.isDirectory()
+        fs.readdir fileName, (err, files) ->
+          processFolder fileName, files, processResult
+
+# Main
+fs.readdir rootFolder, (err, files) ->
+  processFolder rootFolder, files, processResult
+
+Not my best work. The asynchronous nature made this a lot more challenging than
+I had expected.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 5 years ago (0 children)
+
+I don't really know Coffeescript and I found this really interesting. :3
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]FattyMcButterstick 0 points1 point2 points 5 years ago (0 children)
+
+C. Didn't do extra credit
+
+#include <dirent.h>
+#include <limits.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <unistd.h>
+
+int main(int argc, char **argv)
+{
+    DIR *dir;
+    FILE *f = NULL;
+    struct dirent **namelist;
+    char cwd[PATH_MAX], path[PATH_MAX], file_path[PATH_MAX];
+    char data[4096] = "", output[4096];
+    int num_entries = -1, i = 0, bytes = 0;
+    struct stat buf;
+
+    if ((argc < 2) || (getcwd((char *)&cwd,PATH_MAX) == NULL))
+        return 1;
+
+    if (argv[1][0] == '/') // handle full or relative paths
+        snprintf(path, PATH_MAX, "%s", argv[1]);
+    else
+        snprintf(path, PATH_MAX, "%s/%s", cwd, argv[1]);
+
+    num_entries = scandir(path, &namelist, 0, alphasort);
+    if (num_entries < 1)
+        return 1;
+
+    for(i = 0; i < num_entries; i++){
+        if (namelist[i]->d_type == DT_REG){
+            snprintf(file_path, PATH_MAX, "%s/%s", path, namelist[i]->d_name);
+            if (stat(file_path,&buf) == 0) {
+                printf("=== %s (%d bytes)\n", namelist[i]->d_name, (int) buf.st_size);
+                f = fopen(file_path, "r+");
+                if (f != NULL) {
+                    while ((bytes = fread(&data, 1, 4096, f)) > 0){
+                        snprintf(output, bytes, "%s", data);
+                        printf("%s", output);
+                    }
+                    fclose(f);
+                }
+                printf("\n\n");
+            } else {
+                continue; //skip entry if can't be stat-ed
+            }
+        }
+    }
+
+    //cleanup directory entries list
+    for (i = 0; i < num_entries; i++)
+        free(namelist[i]);
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]skibo_0 0 0 points1 point2 points 5 years ago* (0 children)
+
+I tried using os.walk as suggested by others, but it wouldn't work unless I was
+in my home directory. Any ideas why? Am I missing something about how python
+handles directories that it doesn't know (i.e. the ones where you can't load
+modules from). I also had problems with directories when trying the use
+sys.argv to give a directory as an argument when running the script. Any
+comments regarding how to improve or do something in a better way are welcome.
+I'm specially interested in how to go about having the script go into
+subdirectories to the n-th level.
+
+import os
+workdir = 'DailyProgrammer/97easy_Concatenate_directory/'
+dirlist = os.listdir(workdir)
+dirlist.sort()
+diroutput = ''
+for d in dirlist:
+    if os.path.isdir(workdir + d) == True:
+        diroutput += '\n========== /%s ==========\n' %(d)
+        subdirlist = os.listdir(workdir + d)
+        subdirlist.sort()
+        for f in subdirlist:
+            if os.path.isfile(workdir + d + '/' + f) == True:
+                diroutput += f + '\t\t' + str(os.path.getsize(workdir + d + '/' + f)) + ' bytes\n'
+
+diroutput += '\n========== ROOT ==========\n'
+for d in dirlist:
+    if os.path.isfile(workdir + '/' + d) == True:
+        diroutput += d + '\t\t' + str(os.path.getsize(workdir + '/' + d)) + ' btyes\n'
+
+print diroutput
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]GradysGhost 0 points1 point2 points 5 years ago (0 children)
+
+I'm a little late, but here it is in Node.js.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]taterNuts 0 points1 point2 points 5 years ago* (0 children)
+
+C# with extra credit:
+
+    static void Main(string[] args)
+    {
+        if (args.Length == 1)
+        {
+            PrintResults(getFiles(new DirectoryInfo(args[0]), "*.txt", false));
+        }
+        else if (args.Length == 2 && args[1] == "-r")
+        {
+            PrintResults(getFiles(new DirectoryInfo(args[0]), "*.txt", true));
+        }
+        else
+        {
+            Console.WriteLine("Pattern: [directory] [setRecursive]");
+            return;
+        }
+    }
+
+    public static IEnumerable<FileInfo> getFiles(DirectoryInfo d, string pattern, bool recursive)
+    {
+        if (recursive)
+        {
+            foreach (DirectoryInfo dirInfo in d.GetDirectories())
+            {
+                foreach (FileInfo f in getFiles(dirInfo, pattern, true))
+                    yield return f;
+            }
+        }
+
+        foreach (FileInfo f in d.GetFiles(pattern))
+            yield return f;
+    }
+
+    public static void PrintResults(IEnumerable<FileInfo> files)
+    {
+        string currentDir = "";
+        foreach (FileInfo f in files)
+        {
+            if (currentDir != f.DirectoryName)
+            {
+                Console.WriteLine(string.Format("\nText files in Directory {0}", f.DirectoryName));
+                Console.WriteLine("*********************************************");
+                currentDir = f.DirectoryName;
+            }
+            Console.WriteLine(string.Format("\n=== Filename: {0} ({1} bytes)", f.Name, f.Length));
+
+            string line;
+            using (StreamReader reader = new StreamReader(f.FullName))
+            {
+                while ((line = reader.ReadLine()) != null)
+                {
+                    Console.WriteLine(line);
+                }
+            }
+        }
+        Console.ReadKey();
+    }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]quirk 0 points1 point2 points 5 years ago (0 children)
+
+PHP, no bonus.
+
+<?php
+$files = glob("$argv[1]/*.txt");
+sort($files);
+foreach($files as $file) {
+  $contents = file_get_contents($file);
+  $size = filesize($file);
+  printf("=== %s (%s bytes)\n%s\n", basename($file), $size, $contents);
+}
+?>
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 5 years ago (0 children)
+
+Python 2.7 [no bonus]
+
+import os
+for e in os.listdir('.'): print "=== " + e + " (" + str(os.path.getsize(e)) + " bytes)\n" + open(e,'r').read() + "\n"
+
+  • permalink
+  • embed
+  • save
+
+[–]marekkpie 0 points1 point2 points 5 years ago (0 children)
+
+Lua. Requires LuaFileSystem, which is kind of disappointing as this code
+snippet is directly from the examples on that library's website:
+
+local lfs = require 'lfs'
+
+function enumerate(path, recurse)
+  for file in lfs.dir(path) do
+    if file ~= '.' and file ~= '..' then
+      local f = string.format('%s/%s', path, file)
+      local attr = lfs.attributes(f)
+      if recurse == '-r' and attr.mode == 'directory' then
+        enumerate(f)
+      else
+        print(string.format('=== %s (%d bytes)', f, attr.size))
+        print(io.open(f):read('*a'))
+      end
+    end
+  end
+end
+
+if #arg == 2 then
+  enumerate(arg[2], arg[1])
+else
+  enumerate(arg[1])
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]minimalist_lvb 0 points1 point2 points 5 years ago (0 children)
+
+Go
+
+package main
+
+import (
+    "fmt"
+    "os"
+    "path/filepath"
+    "sort"
+)
+
+func main() {
+
+    // Get arguments
+    if len(os.Args) < 2 {
+        fmt.Printf("Usage: %s <path>\n", os.Args[0])
+        os.Exit(1)
+    }
+
+    // Walk through all files and put them in a map
+    names := make(map[string]string, 200)
+    filepath.Walk(os.Args[1], func(path string, info os.FileInfo, err error) error {
+        if !info.IsDir() {
+            base := filepath.Base(path)
+            names[base] = path
+        }
+        return nil
+    })
+
+    // Sort the keys of the map
+    var keys []string
+    for k, _ := range names {
+        keys = append(keys, k)
+    }
+    sort.Strings(keys)
+
+    // Go through the sorted keys and read the contents of the files
+    buf := make([]byte, 200)
+    for _, k := range keys {
+        file, _ := os.Open(names[k])
+        for {
+            count, _ := file.Read(buf)
+            if count == 0 {
+                break
+            }
+            fmt.Printf("%s", buf)
+        }
+        fmt.Println()
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]blkperl 0 points1 point2 points 5 years ago (1 child)
+
+Ruby using optparse
+
+#!/usr/bin/env ruby
+
+require 'optparse'
+
+pattern = "*"
+
+OptionParser.new do |opts|
+
+  opts.banner = "Usage: /challenge97easy example [options]"
+
+  opts.on("-r", "--[no-]recursive", "Concat files recursively") do
+    pattern = "**/*"
+  end
+end.parse!
+
+Dir.glob("#{ARGV[0]}/#{pattern}.txt").sort.each { |file|
+   puts "\n=== #{file} (#{file.size} bytes)"
+   File.open(file).each {|line| puts line}
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]bschlief0 0 0 points1 point2 points 5 years ago* (0 children)
+
+And blkperl is on the board! Success! (BTW, the Rubyist community prefers
+do..end to {..} for multi-line blocks.)
+
+The optparse part is cute. I'm filing that away to use later.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]dtuominen0 0 0 points1 point2 points 5 years ago (0 children)
+
+Python :). First one of these whoop.
+
+import os
+os.chdir('example')
+stuff = {}
+
+for path, dirs, files in os.walk('example/'):
+    for f in files:
+        stuff.update({f: os.path.getsize(os.path.join(path, f))})
+
+for f in sorted(set(stuff.items())):
+    txt = open(f[0], 'r')
+    print "===", f[0], " (", f[1], " bytes)\n"
+    strn = txt.read()
+    print "-----file contents------", strn
+    txt.close()
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+  • about
+  • blog
+  • about
+  • advertising
+  • careers
+
+  • help
+  • site rules
+  • Reddit help center
+  • wiki
+  • reddiquette
+  • mod guidelines
+  • contact us
+
+  • apps & tools
+  • Reddit for iPhone
+  • Reddit for Android
+  • mobile website
+  • buttons
+
+  • <3
+  • reddit gold
+  • redditgifts
+
+Use of this site constitutes acceptance of our User Agreement and Privacy
+Policy. (C) 2018 reddit inc. All rights reserved.
+
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+Advertise - technology
+
+[pixel]
+
+π Rendered by PID 71995 on app-413  at 2018-05-07 20:11:35.089232+00:00 running
+37be41a country code: CH.
+

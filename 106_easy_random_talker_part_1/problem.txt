@@ -1,0 +1,823 @@
+ 
+r/dailyprogrammer
+log insign upsign in
+Reddit Feeds
+
+  • popular
+  • all
+  • 
+
+Sign up and stay connected to your favorite communities.
+
+sign uplog in
+ 
+r/
+
+dailyprogrammer
+
+Posts
+24
+Posted by
+u/spacemoses
+1 15 years ago
+
+[10/23/2012] Challenge #106 [Easy] (Random Talker, Part 1)
+
+Your program will be responsible for analyzing a small chunk of text, the text
+of this entire dailyprogrammer description. Your task is to output the distinct
+words in this description, from highest to lowest count with the number of
+occurrences for each. Punctuation will be considered as separate words where
+they are not a part of the word.
+
+The following will be considered their own words: " . , : ; ! ? ( ) [ ] { }
+
+For anything else, consider it as part of a word.
+
+Extra Credit:
+
+Process the text of the ebook Metamorphosis, by Franz Kafka and determine the
+top 10 most frequently used words and their counts. (This will help for part 2)
+
+29 comments
+share
+91% Upvoted
+Sort by
+best
+ 
+best
+ 
+top
+ 
+new
+ 
+controversial
+ 
+old
+ 
+q&a
+takac00
+6 points·5 years ago
+
+I a nice simple python implementation, I'm sure there are some further
+refinements you can make...
+
+#!/usr/bin/python
+import re
+
+regx = re.compile("\w+|[\",;.:!?()[\]}{]")
+file =  open("pg5200.txt").read()
+words = regx.findall(file)
+d = {}
+for i in words:
+    i = i.lower()
+    if i not in d:
+        d[i] = 1
+    else:
+        d[i]+=1
+for w in sorted(d, key=d.get, reverse=True)[:10]:
+    print w, d[w]
+
+share
+Save
+takac00
+2 points·5 years ago·edited 5 years ago
+
+Output:
+, 1442 the 1332 . 959 to 833 and 711 he 593 of 551 his 549 was 410 in 406
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+nice, i like the use of the regex findall
+
+share
+Save
+[deleted]
+3 points·5 years ago
+
+Would "Your" and "your" be considered distinct words?
+
+share
+Save
+takac00
+9 points·5 years ago
+
+I've ignored case in my code, however I'm sure you could make a case for making
+cases distinct words.
+
+share
+Save
+Medicalizawhat
+2 points·5 years ago
+
+Ruby - http://pastebin.com/2dC2DtsU
+
+share
+Save
+andkerosine
+4 points·5 years ago
+
+Two can play that game.
+
+`curl -s www.gutenberg.org/cache/epub/5200/pg5200.txt`.scan(/[\w-]+/).reduce(Hash.new 0) { |h, w| h[w] += 1 and h }.sort_by { |v| -v[1] }.take(10).each { |p| puts p * ' ' }
+
+share
+Save
+Medicalizawhat
+2 points·5 years ago
+
+Haha that's awesome!
+
+share
+Save
+s23b
+0 02 points·5 years ago
+
+Perl:
+
+open IN, "<$ARGV[0]";
+my %h;
+while (<IN>) {
+        s/(["\.,:;!?()\[\]{}])/ $1 /g;
+        s/[^\w "\.,:;!?()\[\]{}]//g;
+        foreach (split / +/) {
+                if (defined $h{$_}) { $h{$_}++; } else { $h{$_} = 1; }
+        }
+}
+foreach ((sort {$h{$b}<=>$h{$a}} keys %h) [0..9]) { print $_, ' ', $h{$_}, "\n"; }
+close IN;
+
+output:
+
+, 1292
+the 1097
+to 753
+. 737
+and 612
+his 523
+he 495
+of 428
+was 406
+had 350
+
+share
+Save
+itstriz
+2 points·5 years ago
+
+PHP. I've got a slightly different result than some folks.
+
+$challenge_string = strtolower(file_get_contents('http://www.gutenberg.org/cache/epub/5200/pg5200.txt'));
+// Put onto a single line
+$challenge_string = trim( preg_replace( '/\s+/', ' ', $challenge_string ) );
+
+// Punctuations that should be own words
+$punc_array = array('"', '.', ',', ':', ';', '!', '?', '(', ')', '[', ']', '{', '}');
+// Cycle through string and make an array with each word as an index
+$challenge_array = array();
+$words_array = explode(' ', $challenge_string);
+
+foreach($words_array as $word) {
+        foreach(str_split($word) as $index => $letter) {
+                if(in_array($letter, $punc_array)) {
+                        // Add to $words index.
+                        if(isset($challenge_array[$letter])) {
+                                $challenge_array[$letter]++;
+                        } else {
+                                $challenge_array[$letter] = 1;
+                        }
+                        $word = str_replace($letter, '', $word);
+                }
+        }
+        if(!strlen($word) == 0) {
+                if(isset($challenge_array[$word])) {
+                        $challenge_array[$word]++;
+                } else {
+                        $challenge_array[$word] = 1;
+                }
+        }
+}
+arsort($challenge_array);
+$top_ten = array_slice($challenge_array, 0, 10);
+
+var_dump($top_ten);
+
+And the results I got is:
+
+array(10) {
+  [","]=>
+  int(1442)
+  ["the"]=>
+  int(1330)
+  ["."]=>
+  int(959)
+  ["to"]=>
+  int(833)
+  ["and"]=>
+  int(711)
+  ["he"]=>
+  int(579)
+  ["of"]=>
+  int(551)
+  ["his"]=>
+  int(549)
+  ["was"]=>
+  int(410)
+  ["in"]=>
+  int(406)
+}
+
+share
+Save
+lsakbaetle3r9
+0 01 point·5 years ago
+
+I noticed a lot of varying results - just popping in to say I had the same
+result as you!
+
+share
+Save
+dante9999
+1 point·5 years ago·edited 5 years ago
+
+PHP here! I've got completely different results (and I've used different
+methods), I wonder what exactly causes the discrepancies here. Here's my code,
+it's shorter then yours (not sure if it really takes everything into account).
+
+function computing_words_in_a_story () {
+
+$get_Kafka_file = file_get_contents('pg5200.txt');
+
+$array_with_words = array_count_values(str_word_count($get_Kafka_file, 1, "\.,:;!?()[]{}"));
+
+arsort($array_with_words);
+
+$_top_ten_Kafka_words = array_splice($array_with_words, 0,10);
+
+foreach ($_top_ten_Kafka_words as $key => $value) {
+        echo "<strong>$key</strong>: $value <br>";
+}
+}
+
+share
+Save
+dante9999
+1 point·5 years ago·edited 5 years ago
+
+My results:
+
+the: 1263 to: 817 and: 666 of: 538 his: 523 he: 495 was: 395 in: 382 had: 346
+a: 339
+
+share
+Save
+[deleted]
+2 points·5 years ago
+
+I really enjoyed this one! Python 2.7:
+
+import re
+i,p,d = open("post.txt","r"),re.compile('[^\w\s]'),{}
+e = '"', '.', ',', ':', ';', '!', '?', '(', ')', '[', ']', '{', '}'
+for n in e: d[n] = 0
+for l in i:
+    for n in e: d[n] += l.count(n)
+    s = p.sub("",l.strip()).strip().split(" ")
+    for w in s:
+        if w in d: d[w] += 1
+        else: d[w] = 1
+s = sorted(d, key=d.get, reverse=True)
+for n in s: print str(d[n]) + " - " + n + "\n"
+
+share
+Save
+spacemoses
+1 1Original Poster1 point·5 years ago
+
+Thanks!
+
+share
+Save
+eine_person
+2 points·5 years ago
+
+ruby
+
+text=File.read(ARGV[0]).downcase
+counts=Hash.new(0)
+text.scan(/\w+|[".,:;!?()\[\]{}]/).each{ |word| counts[word]+=1 }
+puts counts.each_pair.sort_by{|pair| pair[1]}.reverse[0..9].inspect
+
+share
+Save
+[deleted]
+3 points·5 years ago
+
+My first post! In Python:
+
+#!/usr/bin/env python
+
+import re
+from collections import Counter
+
+pattern_string = r"[\w]+|[\w]+'[\w]+|" + r'[".,:;!?()\[\]{}]'
+
+def get_words():
+    with open('metamorph.txt') as f:
+            pattern = re.compile(pattern_string)
+            words = []
+            for line in f:
+                    words.extend(pattern.findall(line))
+            return words
+
+for word, number in Counter(get_words()).most_common(10):
+    print (word, number)
+
+share
+Save
+ThereminsWake
+2 points·5 years ago·edited 5 years ago
+
+Python, not sure if this is what was desired
+
+import sys
+
+def topTen(words):
+        top = []
+        minWord = ""
+
+        for word in words.keys():
+                if len(top) < 10:
+                        top.append(word)
+                        minWord = getMinWord(top, words)
+                else:
+                        #check if the new word occurs more than the min word
+                        if(words[word] > words[minWord]):
+                                top.remove(minWord)
+                                top.append(word)
+                                minWord = getMinWord(top, words)
+        return top
+
+def getMinWord(top, words):
+        return min(top, key=lambda x: words[x])
+
+def printTopTen(top, words):
+        rank = 0
+
+        for word in sorted(top, key=lambda x: words[x], reverse=True):
+                rank += 1
+                print("{0}. {1} \t {2}".format(rank, word, words[word]))
+
+def addWord(word, words):
+        if len(word) == 0:
+                return
+        if word not in words.keys():
+                words[word] = 1
+        else:
+                words[word] += 1
+        return
+
+def main():
+        filename = 'test.txt'
+
+        if(len(sys.argv) > 1):
+                filename = sys.argv[1]
+
+        text = open(filename, 'r')
+        punc = ".,:;!?(){}[]\""
+        spaces = " \n\t"
+        words = {}
+
+        word = ""
+        nextchar = text.read(1)
+        prevchar = "."
+
+        while(nextchar != ''):
+                if nextchar not in spaces:
+                        if nextchar in punc:
+                                addWord(nextchar, words)
+                        elif prevchar not in spaces:
+                                word += nextchar
+                        else:
+                                addWord(word.lower(), words)
+                                word = "" + nextchar
+                prevchar = nextchar
+                nextchar = text.read(1)
+
+        text.close()
+
+        top = topTen(words)
+        printTopTen(top, words)
+
+if __name__ == '__main__':
+        main()
+
+Output for the eBook
+
+1. ,     1442
+2. the   1327
+3. .     959
+4. to    833
+5. and   707
+6. he    576
+7. of    551
+8. his   549
+9. was   410
+10. in   405
+
+share
+Save
+mortisdeus
+1 point·5 years ago
+
+It's really ugly code, but it seems to do the job correctly. Python:
+
+import re
+from operator import itemgetter
+
+punctuation = re.compile(r'([\[\]\(\)\?\{\}\.\,\"])')
+contractions = re.compile(r'(\w+\'\w+)')
+freq = {}
+
+def parse(line, regex):
+    for found in re.findall(regex, line):
+        if found in freq:
+            freq[found] += 1
+        else:
+            freq[found] = 1
+    return re.sub(regex,' ', line)
+
+def randomTalker(text):
+    f = open(text, 'r')
+    for line in f.readlines():
+        result = parse(line, punctuation)
+        result = parse(result, contractions)
+        parse(result, '\w+')
+
+    sort = sorted(freq.items(), key=itemgetter(1))
+    for s in reversed(sort[-10:]):
+        print('Word: %s  Count: %s' % (s[0],s[1]))
+
+Output:
+
+Word: ,  Count: 1442
+Word: the  Count: 1265
+Word: .  Count: 959
+Word: to  Count: 827
+Word: and  Count: 680
+Word: of  Count: 540
+Word: his  Count: 523
+Word: he  Count: 498
+Word: was  Count: 407
+Word: in  Count: 395
+
+share
+Save
+Crimsoneer
+1 point·5 years ago
+
+As a Python noob here is my very, very rough implemetation. Any feedback?
+
+http://pastebin.com/uZSF6642
+
+Couple of questions: How do you input the book? As a long string? How do you
+deal with formatting? How do you paste your code into the comment box?
+
+share
+Save
+nipoez
+1 point·5 years ago
+
+This was fun, though I will spare you all my verbose, OO Java implementation.
+(Just shy of 300 lines between two files.)
+
+  • RandomTalker class
+
+  • RandomTalkerToken utility class
+
+My output for the ebook
+
+,   : 1442
+the : 1330
+.   : 959
+to  : 833
+and : 711
+he  : 579
+of  : 551
+his : 549
+was : 410
+in  : 406
+
+I notice discrepancies in some of the counts between my and others' output. For
+instance, "the" has 1330 occurrences in mine, but ranges from 1097 to 1331 in
+other results. Do we have a guaranteed correct list for the ebook to validate
+against?
+
+edit: misunderstood the code formatting.
+
+share
+Save
+lsakbaetle3r9
+0 01 point·5 years ago
+
+I saw your snippet at the end about the various results - I did mine in python
+and got the same result as you and a few others. We seem to be the more common
+answer so I am assuming its correct.
+
+share
+Save
+skibo_
+0 01 point·5 years ago
+
+punctuation =  ['"', '.', ',', ':', ';', '!', '?', '(', ')', '[', ']', '{', '}',]
+
+def wordfreq(text, punctuation):
+
+    text = text.lower()
+
+    for char in punctuation:
+        text = text.replace(char, ' ' + char + ' ')
+
+    wordlist = text.split()
+
+    freqdic = {}
+
+    for word in wordlist:
+        if not freqdic.has_key(word):
+            freqdic[word] = wordlist.count(word)
+
+    sorted_freq = [(freqdic[key], key) for key in freqdic]
+    sorted_freq.sort()
+    sorted_freq.reverse()
+
+    return sorted_freq
+
+Kafka ebook output:
+
+>>> wordfreq(open('106easy_kafka.txt').read(), punctuation)[:10]
+
+[(1442, ','), (1331, 'the'), (959, '.'), (833, 'to'), (711, 'and'), (579, 'he'), (551, 'of'), (549, 'his'), (410, 'was'), (406, 'in')]
+
+share
+Save
+lsakbaetle3r9
+0 01 point·5 years ago·edited 5 years ago
+
+python method1:
+
+special_chars = ['"','.',',',':',';','?','(',')','[',']','{','}']
+words = {}
+
+with open("meta.txt") as text:
+    for line in text:
+        line = line.split()
+        for word in line:
+            word = word.lower()
+            word_special_chars = []
+            for char in word:
+                if char in special_chars:
+                    word_special_chars.append(char)
+            for char in word_special_chars:
+                if char in words:
+                    words[char] += 1
+                else:
+                    words[char] = 1
+             word_special_chars = "".join(list(set(word_special_chars)))
+            word = word.translate(None, word_special_chars)
+            if word in words:
+                words[word] += 1
+            else:
+                words[word] = 1
+
+
+
+ranked_words = [(key,value) for key,value in sorted(words.iteritems(),key=lambda (k,v): (v,k))]
+
+for entry in ranked_words[len(ranked_words)-1:len(ranked_words)-11:-1]:
+    print entry
+
+python method 2(after some thinking and looking at other solutions):
+
+special_chars = ['"','.',',',':',';','?','(',')','[',']','{','}']
+words = {}
+
+with open('meta.txt') as text:
+    text = text.read().lower()
+    for char in special_chars:
+        text = text.replace(char, " "+char+" ")
+    text = text.split()
+    for word in text:
+        if word in words:
+            words[word]+=1
+        else:
+            words[word]=1
+
+ranked_words = [(key,value) for key,value in sorted(words.iteritems(),key=lambda (k,v): (v,k))]
+
+for entry in ranked_words[len(ranked_words)-1:len(ranked_words)-11:-1]:
+    print entry
+
+results (same for both):
+
+(',', 1442)
+('the', 1330)
+('.', 959)
+('to', 833)
+('and', 711)
+('he', 579)
+('of', 551)
+('his', 549)
+('was', 410)
+('in', 406)
+
+share
+Save
+meowfreeze
+1 point·5 years ago·edited 5 years ago
+
+Python. Kafka word count.
+
+import re, requests
+
+r = requests.get('http://www.gutenberg.org/cache/epub/5200/pg5200.txt')
+
+text = re.findall(r'[".,:;!?()\[\]{}]|\w+', r.text.lower())
+count = [(text.count(w), w) for w in set(text)]
+
+for c in sorted(count)[-10:]:
+        print c[0], c[1]
+
+Output:
+
+406 in
+410 was
+549 his
+551 of
+593 he
+711 and
+833 to
+959 .
+1332 the
+1442 ,
+
+share
+Save
+ben174
+1 point·5 years ago
+
+Python
+
+def process_text(input):
+    words = {}
+    delimiters = '".,:;!?()[]{}'
+    for d in delimiters:
+        input = input.replace(d, ' '+d+' ')
+
+    for word in input.split():
+        if word in words:
+            words[word] = words[word] + 1
+        else:
+            words[word] = 1
+
+    for word in sorted(words, key=words.get, reverse=True):
+        print "%d: %s" % (words[word], word)
+
+share
+Save
+atticusalien
+0 01 point·5 years ago·edited 5 years ago
+
+My very verbose C# solution:
+
+static HashSet<char> punctuationWords = new HashSet<char> { '"', '.', ',', ':', ';', '!', '?', '(', ')', '[', ']', '{', '}' };
+static Dictionary<string, int> tokenCount = new Dictionary<string, int>();
+
+static void Main(string[] args)
+{
+    StreamReader input = new StreamReader(args[0]);
+
+    string currentToken = "";
+    char c;
+
+    while(!input.EndOfStream)
+    {
+        c = (char)input.Read();
+
+        if (!char.IsWhiteSpace(c) && !IsPunctuationWord(c) || char.IsLetter(c)) currentToken += c;
+        else
+        {
+            if (!string.IsNullOrWhiteSpace(currentToken))
+            {
+                currentToken = currentToken.ToLower();
+
+                if (!tokenCount.ContainsKey(currentToken)) tokenCount.Add(currentToken, 1);
+                else tokenCount[currentToken]++;
+
+                currentToken = "";
+            }
+
+            if (!char.IsWhiteSpace(c))
+            {
+                if (!tokenCount.ContainsKey(c.ToString())) tokenCount.Add(c.ToString(), 1);
+                else tokenCount[c.ToString()]++;
+            }
+        }
+    }
+
+    PrintDictionary();
+}
+
+private static bool IsPunctuationWord(char c)
+{
+    if (punctuationWords.Contains(c)) return true;
+
+    return false;
+}
+
+private static void PrintDictionary()
+{
+    int count = 0;
+    int printCount = 10;
+
+    foreach (var token in tokenCount.OrderByDescending(t => t.Value))
+    {
+        if (count < printCount)
+        {
+            System.Console.WriteLine("{0,-20} {1}", token.Key, token.Value);
+            count++;
+        }
+        else break;
+    }
+
+    System.Console.ReadLine();
+}
+
+Output:
+
+,      1442
+the    1331
+.      959
+to     833
+and    711
+he     579
+of     551
+his    549
+was    410
+in     406
+
+share
+Save
+Comment deleted5 years ago
+thePersonCSC
+0 01 point·5 years ago
+
+Apparently I didn't check the entire e-book, don't know why it didn't copy.
+
+share
+Save
+puffybaba
+0 points·5 years ago·edited 5 years ago
+
+ruby.
+
+text = 'Your program will be responsible for analyzing a small chunk of text, the text of this entire dailyprogrammer description. Your task is to output the distinct words in this description, from highest to lowest count with the number of occurrences for each. Punctuation will be considered as separate words where they are not a part of the word. The following will be considered their own words: " . , : ; ! ? ( ) [ ] { } For anything else, consider it as part of a word. Extra Credit: Process the text of the ebook Metamorphosis, by Franz Kafka and determine the top 10 most frequently used words and their counts. (This will help for part 2)'
+uniq_words = {}
+text = text.downcase
+text = text.gsub(/(\W)(\w)/, '\1 \2')
+text = text.gsub(/(\w)(\W)/, '\1 \2')
+for word in text.split.sort do
+  ( uniq_words.include? word ) and uniq_words[word] += 1
+  ( not uniq_words.include? word ) and uniq_words[word] = 1
+end
+uniq_words = uniq_words.sort_by{ |key, value| value }.reverse
+for word in uniq_words do
+  printf "%-20s %s\n", word[0], word[1]
+end
+
+share
+Save
+Community Details
+r/dailyprogrammer
+
+141k
+
+Subscribers
+
+71
+
+Online
+
+**Welcome to r/DailyProgrammer!** First time visitors of Daily Programmer
+please [Read the Wiki] (http://www.reddit.com/r/dailyprogrammer/wiki/index) to
+learn everything about this subreddit. 3 Programming Challenges a week!
+
+SubscribeCreate Post
+aboutcareerspress
+advertisebloghelp
+the reddit appreddit goldreddit gifts
+content policy| privacy policy
+user agreement| mod policy
+© 2018 Reddit, Inc. All rights reserved
+back to top

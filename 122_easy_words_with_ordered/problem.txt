@@ -1,0 +1,3750 @@
+ 
+r/dailyprogrammer
+log insign upsign in
+Reddit Feeds
+
+  • popular
+  • all
+  • 
+
+Sign up and stay connected to your favorite communities.
+
+sign uplog in
+ 
+r/
+
+dailyprogrammer
+
+Posts
+68
+Posted by
+u/nint22
+5 years ago
+
+[03/18/13] Challenge #122 [Easy] Words With Ordered Vowels
+
+ (Easy): Words With Ordered Vowels
+
+Find words in a word list that contain all the vowels in alphabetical order,
+non-repeated, where vowels are defined as A E I O U Y.
+
+Author: ikea_riot
+
+Formal Inputs & Outputs
+
+Input Description
+
+A text file with one word on each line.
+
+Output Description
+
+All words in the list that contains all the vowels A E I O U Y in alphabetical
+order.
+
+Sample Inputs & Outputs
+
+Sample Input
+
+Use this word list
+
+Sample Output
+
+abstemiously ...
+
+Challenge Input
+
+Nothing special, see sample input
+
+Challenge Input Solution
+
+Nothing special, see sample output
+
+Note
+
+We are starting to fill the queue with new challenges! Please help out by
+posting suggestions to r/dailyprogrammer_ideas
+
+195 comments
+share
+96% Upvoted
+Sort by
+best
+ 
+best
+ 
+top
+ 
+new
+ 
+controversial
+ 
+old
+ 
+q&a
+blexim
+11 points·5 years ago
+
+Command line:
+
+$ grep '[^aeiouy]*a[^aeiouy]*e[^aeiouy]*i[^aeiouy]*o[^aeiouy]*u[^aeiouy]*y' ~/Downloads/enable1.txt
+
+share
+Save
+MattTheFlash
+1 point·5 years ago
+
+egrep '^.*a.*e.*i.*o.*u.*y' enable1.txt
+
+share
+Save
+gfixler
+1 point·4 years ago
+
+This finds words such as adventitiously, which has two is in it, which fails
+the 'non-repeated' part of the requirements.
+
+share
+Save
+MattTheFlash
+1 point·4 years ago
+
+thank you, i didn't realize, i'll refactor.
+
+share
+Save
+gfixler
+1 point·4 years ago
+
+What if the word doesn't end in y?
+
+share
+Save
+CujoIHSV
+9 points·5 years ago
+
+C++
+
+#include <fstream>
+#include <iostream>
+#include <string>
+
+
+int main (int argc, char ** argv)
+{
+
+        std::ifstream infile (argv[1]);
+
+        std::string curword;
+        std::getline(infile, curword);
+
+        while (infile.good())
+        {
+
+                std::string vowels;
+                for (std::string::iterator curchar = curword.begin();
+                        curchar != curword.end();
+                        ++curchar)
+                {
+
+                        if (*curchar == 'a' || *curchar == 'e' || *curchar == 'i' ||
+                                *curchar == 'o' || *curchar == 'u' || *curchar == 'y')
+                        {
+                                vowels += *curchar;
+                        }
+
+                }
+
+                if (vowels == "aeiouy")
+                {
+                        std::cout << curword << std::endl;
+                }
+                std::getline(infile, curword);
+
+        }
+
+        infile.close();
+        return 0;
+
+}
+
+Output
+
+abstemiously
+facetiously
+
+share
+Save
+rectal_smasher_2000
+1 18 points·5 years ago·edited 5 years ago
+
+here's a multithreaded version of your code (POSIX)
+
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <vector>
+#include <pthread.h>
+
+#define NUM_OF_THREADS 4
+
+using namespace std;
+
+pthread_t threads[NUM_OF_THREADS];
+vector<string> words;
+vector<string> soughtWords;
+int wordsCount;
+
+void * checkVowels(void * id)
+{
+    int tid = (int) id;
+    string word;
+    int start = wordsCount / NUM_OF_THREADS * tid;
+    int end;
+
+    if(tid + 1 == NUM_OF_THREADS)
+    {
+            float rem = (float) wordsCount / NUM_OF_THREADS - wordsCount / NUM_OF_THREADS;
+            end = start + wordsCount / NUM_OF_THREADS + rem * NUM_OF_THREADS;
+    }
+    else
+            end = start + wordsCount / NUM_OF_THREADS;
+
+    for(int i = start; i < end; i++)
+    {
+            word = words.at(i);
+            string vowels;
+            for (string::iterator curchar = word.begin(); curchar != word.end(); ++curchar)
+            {
+
+                        if (*curchar == 'a' || *curchar == 'e' || *curchar == 'i' || *curchar == 'o' ||
+                                *curchar == 'u' || *curchar == 'y')
+                        {
+                                        vowels += *curchar;
+                        }
+
+        }
+        if(vowels == "aeiouy")
+                soughtWords.push_back(word);
+    }
+    pthread_exit(NULL);
+}
+
+int main()
+{
+    string word;
+
+    ifstream myfile("enable1.txt");
+
+    if(myfile.is_open())
+    {
+            while(myfile.good())
+            {
+                    getline(myfile, word);
+                    words.push_back(word);
+                    wordsCount++;
+            }
+            myfile.close();
+    }
+
+    for(int i = 0; i < NUM_OF_THREADS; i++)
+            pthread_create(&threads[i], NULL, checkVowels, (void*)i);
+    for(int i = 0; i < NUM_OF_THREADS; i++)
+            pthread_join(threads[i], NULL);
+
+    for(int i = 0; i < soughtWords.size(); i++)
+            cout << i + 1 << " " << soughtWords[i] << endl;
+
+    pthread_exit(NULL);
+
+    return 0;
+}
+
+same output:
+
+1 abstemiously
+2 facetiously
+
+share
+Save
+wilyuhm
+2 points·5 years ago
+
+Why are you doing *curchar == 'a' ? What's the * doing in this case?
+
+share
+Save
+CujoIHSV
+4 points·5 years ago
+
+The * in this case is called a dereference operator. The curchar variable is an
+iterator pointing to a location in memory where a character is stored. Just
+calling curchar itself would have given me the actual location in memory, but
+using the * allows me to access the character stored at that location.
+
+share
+Save
+CylonOven
+8 points·5 years ago·edited 5 years ago
+
+recursive python function: Found [DEL:6:DEL] 2 words. EDIT: didn't realize that
+'y' was included.
+
+def aeiouy(s, i=0,):
+        """Contain all the vowels in alphabetical order with no repeating vowels"""
+        v = "aeiouy"
+        #~ print(s)
+        for si in range(len(s)):
+                if i < len(v) and s[si] == v[i]:
+                        return aeiouy(s[si+1:] , i+1,)
+                if s[si] in v:
+                        return False
+        if i == len(v): return True
+        return False
+
+output:
+
+[DEL:abstemious:DEL], abstemiously, [DEL:abstentious:DEL], [DEL:arsenious:DEL],
+[DEL:facetious:DEL], facetiously,
+
+Any advice would be welcome.
+
+share
+Save
+ikea_riot
+3 points·5 years ago
+
+There are so many words in english that use Y as a vowel, I don't understand
+why it's not normally included.
+
+share
+Save
+old_brainzap
+1 point·5 years ago
+
+I'm german, today was the first time that I heard of the Y being a vowel, but
+in the english language it makes sense I guess
+
+share
+Save
+BeerIsDelicious
+1 point·4 years ago
+
+
+    why
+
+Yep.
+
+share
+Save
+CylonOven
+3 points·5 years ago·edited 5 years ago
+
+Made another version that's better.
+
+def aeiouy2(s):
+        v = "aeiouy"
+        r = ""
+        for c in s:
+                if c in v:
+                        r += c
+        if r == v: return True
+        else: return False
+
+share
+Save
+evinrows
+2 points·5 years ago
+
+I wrote mine and went to go see how everyone else did theirs and you did the
+exact same approach. D:
+
+def vpattern(word):
+    vowels = "aeiouy"
+    clean_word = ""
+    for character in word:
+        if character in vowels:
+            clean_word += character
+    if clean_word == vowels:
+        return True
+    return False
+
+share
+Save
+TheDookMaster
+3 points·5 years ago
+
+Can't you just use this return statement?
+
+return clean_word == vowels
+
+Isn't the rest just redundant?
+
+share
+Save
+evinrows
+3 points·5 years ago
+
+Yes.
+
+share
+Save
+
+3 more replies
+
+skeeto
+-9 815 points·5 years ago·edited 5 years ago
+
+JavaScript,
+
+function filterVowels(words) {
+    return words.filter(function(word) {
+        return word.replace(/[^aeiouy]/g, '') === 'aeiouy';
+    });
+}
+
+Output:
+
+filterVowels(words);
+// => ["abstemiously", "facetiously"]
+
+Lisp,
+
+(defun filter-vowels (words)
+  (flet ((not-vowel-p (c) (not (find c "aeiouy"))))
+    (loop for word in words
+          when (string= "aeiouy" (remove-if #'not-vowel-p word))
+          collect word)))
+
+Clojure,
+
+(defn filter-vowels [words]
+  (let [vowels (into [] "aeiouy")]
+    (filter #(= vowels (filter (into #{} vowels) %)) words)))
+
+share
+Save
+deathgaze
+7 points·5 years ago
+
+Curious, skeeto, because I see you submit the best code for a lot of these
+challenges... what's your secret? Years of programming experience? Or do you
+have a process or approach to solving these?
+
+share
+Save
+skeeto
+-9 825 points·5 years ago
+
+Heh, thanks for the compliment. I'm sure part of it is simply years of
+experience. I've been programming almost daily since I was a kid, about 17
+years now. However, I actually feel that I've made the greatest technical
+strides in about the last 3 years -- peculiarly, a bit shorter than my actual
+professional career. Seriously, I don't understand what my employers saw in me
+before these fairly recent advances!
+
+I think another big part is intimacy with my development environment, Emacs.
+For all three languages I used above, I can evaluate expressions directly in my
+editing buffer as I write the code. The evaluation result is flashed at the
+bottom of the editor window. I don't need to explicitly print evaluation
+results or switch back and forth between a terminal and my editor when trying
+things out. This is an extremely rapid process for experimenting with ideas,
+and for developing solutions to these dailyprogrammer problems.
+
+When I said intimate, I meant it. Last fall, unhappy with the existing
+offerings for evaluating JavaScript expressions, I developed my own extension
+for the job. This is just one example of how I modify my editor to suit my
+desired workflow.
+
+Finally, I think one of the most valuable exercises for mastering the craft is
+implementing a full programming language from scratch. By scratch I mean a
+suitably lower-level language such as C, so that you're forced to develop your
+own garbage collector and really understand how high-level concepts actually
+operate down on the metal. You can start with an interpreter but be sure to
+eventually develop a compiler, which is really just one step further. You won't
+actually use your implementation for anything serious, but you'll quickly find
+parallels between your implementation and the language implementations you do
+use, giving you much better insight into what's going on underneath.
+
+I've done this implement-a-language exercise about 2.5 times now and I learned
+invaluable lessons each time. For example, I find myself surprised by how often
+many of even the good developers around me don't truly understand what a
+variable really is, and the conceptual gap causes misunderstandings about
+performance and optimization. These kinds of things are hard to teach but will
+suddenly click when implemented as an exercise.
+
+share
+Save
+deathgaze
+4 points·5 years ago
+
+Wow, thanks for the great advice! Personally, I've considered writing plugins
+for Sublime Text 2 but I've been hesitant to try and tackle yet another
+programming language (Python) when I'm still having such a hard time with these
+supposedly "Easy" challenges using JavaScript and HtDP exercises.
+
+Now you've set before me a grand undertaking. So I suppose I should follow up
+by asking "What next?" Should I focus on learning one thing at a time or should
+I strike out and try and tackle different languages and challenges as they
+come? Put a different way, should I check my programming language ADD or let it
+thrive? ;)
+
+share
+Save
+skeeto
+-9 85 points·5 years ago
+
+When you're self-learning, do whatever is interesting to you right now.
+Emphasis on doing. Following your interests is what will keep you motivated.
+Use what you learn to scratch your personal itches (i.e. a Sublime Text
+plugin), but start very small. Don't make grandiose plans; small, useful things
+grow into big things on their own.
+
+There's little point in reading a topic if you don't immediately put it into
+practice. Otherwise you'll just forget it. If you do jump around, make sure
+you're experimenting with new concepts as you learn them, especially if it's
+literally seconds after you were just introduced.
+
+share
+Save
+Comment deleted5 years ago
+skeeto
+-9 81 point·5 years ago
+
+For an experienced developer looking to pick up JavaScript quickly, I think
+Crockford's JavaScript: The Good Parts is the best resource for that -- so long
+as you ignore his attempts at "fixing" the language's OOP.
+
+For someone new to programming ... I don't really know. A lot of people seem to
+recommend Eloquent JavaScript, but I haven't investigated it.
+
+JavaScript Allongé is a great book about higher-order JavaScript. Most of the
+content is also on the author's "blog". (Disclaimer: I was given a free copy
+because a little snippet of code I posted on reddit was used in the book.)
+Unfortunately, this is probably the most advanced JavaScript book there is. As
+a community, JavaScript is still very young.
+
+JavaScript: The Definitive Guide is the best resource for learning the browser
+APIs. It includes a JavaScript tutorial but I didn't read it, so I can't say if
+it's any good.
+
+MDN is by far the best online reference. Whatever you do, don't use W3Schools
+as a JavaScript reference.
+
+jsFiddle is generally how JavaScript devs share code online. (Check out this
+fiddle by Notch).
+
+Breaking the JavaScript Speed Limit with V8. Great for understanding some of
+how V8 (Chrome) does optimization. If you do things right with V8, sometimes
+JavaScript will be faster than C/C++!
+
+Finally, there's my own blog, where I sometimes write about JavaScript. :-)
+
+share
+Save
+baconandicecreamyum
+1 point·5 years ago
+
+There's also JavaScript is Sexy. It has a beginner and advanced "course" as
+well as a bunch of helpful articles/posts.
+
+share
+Save
+dermarr5
+1 point·5 years ago
+
+I have been enjoying "javascript and jquery the missing manual" A lot so far.
+(I am only a few chapters in)
+
+share
+Save
+rowenlemming
+5 points·5 years ago
+
+Love that use of regex, though you probably need the case insensitive flag too
+so you don't end up replacing uppercase vowels. Not an issue in this word list,
+but still...
+
+share
+Save
+IsNoyLupus
+2 points·5 years ago
+
+That feeling when you see some good javascript code...
+
+share
+Save
+Medicalizawhat
+6 points·5 years ago
+
+Ruby:
+
+def has_ordered_vowels(str)
+    return false if str.downcase.gsub(/[^aeiouy]/, '') != "aeiouy"
+    true
+end
+
+File.open("enable1.txt", "r").readlines.map(&:chomp).each do |word|
+    if has_ordered_vowels(word)
+        puts word
+    end
+end
+
+share
+Save
+the_mighty_skeetadon
+7 points·5 years ago
+
+Nice! Suggestions:
+
+  • Use File.read
+
+  • The String method #each_line is awesome. It just gives you each line as a
+    string. So you'd use File.read(fname).each_line {|x| ...}
+
+  • Use single-line if syntax in your second part: "puts word if
+    has_ordered_vowels(word)"
+
+You really don't need a method definition. Here's a simple rewrite of your
+program that makes it a one-liner:
+
+File.read("enable1.txt").each_line { |word| puts word if str.downcase.gsub(/[^aeiouy]/, '') == "aeiouy" }
+
+share
+Save
+Medicalizawhat
+3 points·5 years ago
+
+Thanks for the heads up on each_line, very handy.
+
+share
+Save
+the_mighty_skeetadon
+2 points·5 years ago
+
+Glad to be of some assistance!
+
+share
+Save
+sirelephant
+2 points·5 years ago
+
+If you or anyone else gets bored, I'd love to see a ruby solution done without
+the use of regex. I'm new and haven't learned regex just yet, so I'm trying to
+work through this without them.
+
+share
+Save
+the_mighty_skeetadon
+4 points·5 years ago
+
+My suggestion: learn regex. But here's a way to do it without regex, in Ruby:
+
+File.read('TWL06.txt').downcase.each_line do |x|
+        vowels = ['a','e','i','o','u','y']
+        x.each_char {|y| vowels.shift if y == vowels[0]}
+        puts x if vowels.empty?
+end
+
+It's not quite as efficient. But all it does is go through each character and
+remove it from the "vowels" array if it exists in the word. Then, if the vowels
+array is empty, we know that it used all of those vowels in order. Here's the
+output, from a full scrabble dictionary:
+
+abstemiously
+adventitiously
+autoeciously
+facetiously
+sacrilegiously
+[Finished in 0.7s]
+
+share
+Save
+SeaCowVengeance
+0 03 points·5 years ago
+
+This solution doesn't seem to be correct:
+
+    Find words in a word list that contain all the vowels in alphabetical
+    order, non-repeated, where vowels are defined as A E I O U Y.
+
+Take a look at 'adventitiously'
+
+share
+Save
+the_mighty_skeetadon
+3 points·5 years ago
+
+Aye, I only read the expected output section. You can do it without regex just
+as easily with this:
+
+File.read('filename.txt').downcase.each_line {|x| puts x if x.chomp.delete('^aeiouy') == 'aeiouy'}
+
+That won't yield ones with repeats. If you really want, I can fix the other
+algorithm to not repeat, but it should be fairly apparent =).
+
+share
+Save
+RogerDodger_n
+7 points·5 years ago
+
+Perl with regexes:
+
+open my $words, "<", "enable1.txt";
+while (my $word = readline $words) {
+        print $word if $word =~ m{^
+                [^aeiouy]*?a
+                [^aeiouy]*?e
+                [^aeiouy]*?i
+                [^aeiouy]*?o
+                [^aeiouy]*?u
+                [^aeiouy]*?y
+                [^aeiouy]*?
+        $}xi;
+}
+
+Perl with string indices:
+
+open my $words, "<", "enable1.txt";
+WORD: while (my $word = readline $words) {
+        my $i = 0;
+        for my $vowel (qw/a e i o u y/) {
+                $i = index($word, $vowel, $i);
+
+                #Check vowel is in word after last vowel
+                next WORD if $i == -1;
+
+                #Check vowel doesn't repeat
+                next WORD if index($word, $vowel, $i + 1) != -1; # Right of index
+                next WORD if index($word, $vowel) != $i;         # Left of index
+        }
+        print $word;
+}
+
+Output:
+
+abstemiously
+facetiously
+
+share
+Save
+IceDane
+0 06 points·5 years ago
+
+Haskell
+
+import Control.Applicative ((<$>))
+
+main :: IO ()
+main = do
+    words <- lines <$> readFile "enable1.txt"
+    mapM_ print . filter allAlphaVowels $ words
+
+allAlphaVowels :: String -> Bool
+allAlphaVowels str =
+    let vowels' = filter (`elem` vowels) str
+    in vowels' == vowels
+  where
+    vowels :: String
+    vowels = "aeiouy"
+
+Output
+
+g>main
+"abstemiously"
+"facetiously"
+it :: ()
+(0.41 secs, 203642484 bytes)
+
+share
+Save
+Tekmo
+2 points·5 years ago
+
+import Data.List
+
+allAlphaVowels str = null ("aeiouy" \\ str)
+
+share
+Save
+IceDane
+0 02 points·5 years ago
+
+Very nice. Thank you!
+
+share
+Save
+Tekmo
+1 point·5 years ago
+
+You're welcome!
+
+share
+Save
+adzeitor
+0 01 point·5 years ago
+
+λ quickCheckWith (stdArgs {maxSuccess = 10000}) (\x -> allAlphaVowels x == allAlphaVowels' x)
+*** Failed! Falsifiable (after 5499 tests and 15 shrinks):
+"eiauoy"
+
+share
+Save
+Tekmo
+2 points·5 years ago
+
+I missed the part of the problem description where it said the vowels had to be
+in order. My mistake!
+
+share
+Save
+[deleted]
+7 points·5 years ago·edited 5 years ago
+
+Python:
+
+# This program is a more general program for detecting a substring inside a string
+# By removing all the letters that aren't in the substring
+# And comparing the result with the substring
+
+def isSubstring(instring, substring):
+    ''' Determines whether the substring exists in the instring'''
+    inlist, sublist = list(instring), list(substring)
+    outlist = []
+    for i in range(len(inlist)):
+        if inlist[i] in sublist:
+            outlist.append(inlist[i])
+    return outlist == sublist
+
+def main():
+    words = []
+    for word in open("122E - enable1.txt").read().split('\n'):
+        if isSubstring(word, 'aeiouy'):
+            words.append(word)
+    return words
+
+#print(main())
+
+And here it is in one line:
+
+def main2():
+    return [word for word in open("122E - enable1.txt").read().split('\n')
+            if "".join([char for char in word if char in 'aeiouy']) == 'aeiouy']
+
+print(main2())
+
+Output:
+
+['abstemiously', 'facetiously']
+
+P.S. What is this 're' module that I keep seeing here?
+
+share
+Save
+emilvikstrom
+3 points·5 years ago
+
+re is a regular expression module, used to match each word against a pattern.
+
+share
+Save
+Junaos
+1 point·5 years ago
+
+The re module is a python module for evaluating regular expressions. Im mobile
+right now, but I believe its documented in the python documentation
+
+share
+Save
+Coder_d00d
+1 35 points·5 years ago·edited 5 years ago
+
+Objective C -- using Xcode Foundation
+
+//
+//  main.m
+//  Easy  Challenge #122 words with ordered vowels.
+//
+
+#import <Foundation/Foundation.h>
+
+int main(int argc, const char * argv[])
+{
+
+    @autoreleasepool {
+
+
+        NSArray *words;
+
+        NSString *word;
+        NSString *fileString = nil;
+        NSString *filePath = @"/Users/enable1.txt";
+
+
+        NSError *error;
+        NSUInteger numOfMatches;
+
+        NSRegularExpression *searchPattern;
+
+        NSData *rawData = [NSData dataWithContentsOfFile: filePath];
+
+        if (!rawData) {
+            NSLog(@"Error opening file or reading file!");
+            return 1;
+        }
+
+        fileString = [[NSString alloc] initWithData: rawData encoding: NSUTF8StringEncoding];
+        if (!fileString) {
+            NSLog(@"Error converting raw data to string");
+            return 1;
+        }
+
+        words = [fileString componentsSeparatedByString:@"\n"];
+        if (!words)  {
+            NSLog(@"Error Separating out Strings");
+            return 1;
+        }
+
+        for (word in words) {
+
+            if ([word length] >= 6)
+            {
+                searchPattern = [NSRegularExpression
+                   regularExpressionWithPattern: @"[b-d | f-h | j-n | p-t | v-x | z]*
+                                                   a[b-d | f-h | j-n | p-t | v-x | z]*
+                                                   e[b-d | f-h | j-n | p-t | v-x | z]*
+                                                   i[b-d | f-h | j-n | p-t | v-x | z]*
+                                                   o[b-d | f-h | j-n | p-t | v-x | z]*
+                                                   u[b-d | f-h | j-n | p-t | v-x | z]*
+                                                   y[b-d | f-h | j-n | p-t | v-x | z]*"
+                            options: NSRegularExpressionCaseInsensitive
+                            error: &error];
+
+                numOfMatches = [searchPattern numberOfMatchesInString: word
+                                                          options: 0
+                                                range: NSMakeRange(0, [word length])];
+                    if (numOfMatches > 0)
+                       NSLog(@"%@", word);
+            }
+            searchPattern = nil;
+
+        }
+        return 0;
+    }
+}
+
+share
+Save
+Coder_d00d
+1 31 point·5 years ago
+
+My Output:
+
+2013-03-18 15:44:32.667 122 words with ordered vowels.[5413:303] abstemiously
+2013-03-18 15:44:36.741 122 words with ordered vowels.[5413:303] facetiously
+
+share
+Save
+marekkpie
+4 points·5 years ago
+
+Lua:
+
+local function sequentialVowels(word)
+  return word:gsub('[^aeiouy]', '') == 'aeiouy'
+end
+
+local words = {}
+for line in io.lines(arg[1]) do
+  if sequentialVowels(line) then
+    print(line)
+  end
+end
+
+share
+Save
+ae7c
+3 points·5 years ago
+
+Python:
+
+def ordered_vowels():
+        consonants = 'bcdfghjklmnpqrstvwxz'
+        with open('enable1.txt', 'r') as f:
+                for word in f:
+                        if word.lower().strip().translate(None, consonants) == 'aeiouy':
+                                print word.strip()
+
+if __name__ == '__main__':
+        ordered_vowels()
+
+share
+Save
+ae7c
+3 points·5 years ago
+
+One line:
+
+[word.strip() for word in open('enable1.txt', 'r') if word.lower().strip().translate(None, 'bcdfghjklmnpqrstvwxz') == 'aeiouy']
+
+share
+Save
+Rapptz
+0 03 points·5 years ago·edited 5 years ago
+
+[DEL:Haven't really tried it but it should work.:DEL]
+
+Solution in C++11.
+
+#include <vector>
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <regex>
+
+int main() {
+    std::string str;
+    std::regex rgx(R"(\b.*?a.*?e.*?i.*?o.*?u.*?y.*?\b)");
+
+    std::vector<std::string> words;
+    std::fstream in("enable1.txt");
+    while(std::getline(in,str)) {
+        if(std::regex_match(str,rgx))
+            words.push_back(str);
+    }
+    for(auto& i : words)
+        std::cout << i << '\n';
+}
+
+Output:
+
+abstemiously
+adventitiously
+autoeciously
+facetiously
+sacrilegiously
+
+share
+Save
+ikea_riot
+3 points·5 years ago
+
+Ah, it has to be "alphabetical order, non-repeated, where vowels are defined as
+A E I O U Y."
+
+So, autoeciously would not count.
+
+To be honest, it was quite a contrived problem when I suggested it.
+
+share
+Save
+Rapptz
+0 01 point·5 years ago
+
+Ah. I gotcha. I guess I misread.
+
+share
+Save
+emilvikstrom
+1 point·5 years ago
+
+My mistake, I forgot to include that requirement in the formal output
+description.
+
+share
+Save
+deds_the_scrub
+1 point·5 years ago
+
+I failed to read that part of the problem as well, but quickly was able to
+correct it.
+
+share
+Save
+Sackboii
+0 03 points·5 years ago
+
+My Java regex solution. Probably not the most elegant solution -- can anybody
+come up with a better regex?
+
+public static boolean isInVowelOrder(String str) {
+        return str.matches("([^aeiou]*?)a\\1e?\\1i?\\1o?\\1u?\\1y?");
+}
+
+share
+Save
+the_mighty_skeetadon
+1 point·5 years ago
+
+I did this. Works fine:
+
+/.*a.*e.*i.*o.*u.*y.*/i
+
+The dot-match isn't necessary... can use \w instead, but this makes it look
+kinda nice =).
+
+share
+Save
+
+2 more replies
+
+[deleted]
+3 points·5 years ago
+
+Here's something in Python that I realize might be terrible after seeing
+other's responses.
+
+import sys
+
+vowels = "aeiouy"
+fd = open("enable1.txt", "r")
+wl = fd.read().split()
+fd.close()
+for word in wl:
+    last = -1
+    found = 0
+    for ch in word:
+        pos = vowels.find(ch)
+        if pos >= 0:
+            if pos <= last:
+                break
+            if pos > last:
+                found += 1
+            last = pos
+    if found == len(vowels):
+        print word
+
+share
+Save
+sirelephant
+3 points·5 years ago
+
+My newbie solution using Ruby without regex. All tips/critiques are welcome!
+
+vowels = %w[a e i o u y]
+
+File.open("enable1.txt","r").readlines.map(&:chomp).each do |x|
+  letters = x.downcase.split(//)
+
+  if (letters & vowels) == vowels
+    vowels_index = []
+    vowels.each {|i| vowels_index.push(letters.index(i))}
+    puts x if vowels_index == vowels_index.sort
+  end
+
+end
+
+share
+Save
+the_mighty_skeetadon
+3 points·5 years ago
+
+There's an easier way to do this, I realized, using the "String#delete" method:
+
+File.read('TWL06.txt').downcase.each_line {|x| puts x if x.chomp.delete('bcdfghjklmnpqrstvwxz') == 'aeiouy'}
+
+share
+Save
+wot-teh-phuck
+2 points·5 years ago
+
+Instead of typing out the bcdfghjklmnpqrstvwxz one can do: (('a'..'z').to_a -
+'aeiouy'.split('')).join :)
+
+share
+Save
+the_mighty_skeetadon
+2 points·5 years ago
+
+Even easier than that is something else I did in another comment:
+
+'this is a string'.delete('^aeiouy')
+
+Though I'll let you in on a little secret about the String#delete method: it's
+not really a non-regex solution. It takes the argument and converts it into a
+pattern -- it's basically the same thing as this:
+
+'this is a string'.gsub!(/[^aeiouy]/,'')
+
+share
+Save
+sirelephant
+1 point·5 years ago
+
+Nice logic! That's a great non-regex solution, imo.
+
+share
+Save
+Ledrug
+0 23 points·5 years ago
+
+Perl on commandline:
+
+perl -n -e 'join("", /[aeiouy]/g) eq "aeiouy" and print' enable1.txt
+
+share
+Save
+taterNuts
+3 points·5 years ago·edited 5 years ago
+
+C#
+
+static void Main(string[] args)
+{
+    var vowels = new List<char>() { 'a', 'e', 'i', 'o', 'u', 'y' };
+    var wordsMatched = new List<string>();
+
+    using (var r = new StreamReader("enable1.txt"))
+    {
+        string line;
+        while ((line = r.ReadLine()) != null)
+        {
+            var stripWord = line.Where(w => vowels.Contains(w)).ToList();
+            if (stripWord.SequenceEqual(vowels))
+                wordsMatched.Add(line);
+        }
+    }
+
+    wordsMatched.ForEach(w => Console.WriteLine(w));
+}
+
+share
+Save
+d347hm4n
+3 points·5 years ago
+
+I really like this solution.
+
+share
+Save
+monumentshorts
+2 points·4 years ago
+
+Couldn't submit mine for whatever reason so why not post it under the c# one.
+Here is an F# version that is pretty similar
+
+let words () = System.IO.File.ReadAllLines @"c:\temp\enable1.txt"
+
+let orderedVowels = "aeiouy" |> Seq.toList
+
+let isVowel = function
+    | x when List.exists ((=) x) orderedVowels -> true
+    | _ -> false
+
+let wordHasAllVowels = Seq.filter isVowel >> Seq.toList >> ((=) orderedVowels)
+
+Array.filter wordHasAllVowels (words())
+
+share
+Save
+brakx
+3 points·5 years ago
+
+Java
+
+import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
+
+class VowelReader {
+
+  public static void main(String args[]) throws FileNotFoundException {
+
+    final char[] VOWELS = {'a','e','i','o','u', 'y'};
+
+    Scanner in = new Scanner(new File(args[0]));
+
+    while (in.hasNextLine()){
+    String thisWord = in.next();
+    int i = 0;
+    for (char c : thisWord.toCharArray()){
+        boolean isVowel = false;
+        for (char v : VOWELS)
+        {
+          if (v == c)
+          {
+            isVowel = true;
+            break;
+          }
+        }
+        if (isVowel && c == VOWELS[i])
+          i++;
+        else if (isVowel && c != VOWELS[i])
+          break;
+    }
+    if (i == 6)
+        System.out.println(thisWord);
+    }
+  }
+}
+
+Output
+
+abstemiously
+facetiously
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+You should learn regex (regular expressions), makes things a lot easier for
+this challenge.
+
+share
+Save
+brakx
+2 points·5 years ago
+
+In the process of doing this right now actually!
+
+share
+Save
+[deleted]
+3 points·5 years ago
+
+C#
+
+private void challenge_122() {
+        IEnumerable<string> data=File.ReadAllLines("enable1.txt").Where(a=>Regex.Replace(a,"[^aeiouy]","")=="aeiouy");
+        foreach (var temp in data) Console.Write(temp+"\n");
+}
+
+share
+Save
+p1nk0
+2 points·5 years ago·edited 5 years ago
+
+Iterative implementation in Java that solves the problem in O(N) where N is
+total number of characters in the word list
+
+public static void findWords(final List<String> wordList) {
+                final TreeSet<Character> vowels = new TreeSet<Character>();
+                vowels.add('A');
+                vowels.add('E');
+                vowels.add('I');
+                vowels.add('O');
+                vowels.add('U');
+                vowels.add('Y');
+
+                for (final String word : wordList) {
+                        boolean foundInvalidChar = false;
+
+                        final Iterator<Character> vowelIt = vowels.iterator();
+                        Character curVowel = vowelIt.next();
+                        for (int i = 0; i < word.length(); i++) {
+                                final char wordChar = Character.toUpperCase(word.charAt(i));
+                                if ((curVowel != null) && curVowel.equals(wordChar)) {
+                                        //we found the next vowel in the sequence
+                                        curVowel = vowelIt.hasNext() ? vowelIt.next() : null;
+                                        continue;
+                                }
+
+                                if (vowels.contains(wordChar)) {
+                                        //we found a vowel out of sequence, flag and break
+                                        foundInvalidChar = true;
+                                        break;
+                                }
+                        }
+
+                        //if we have iterated over all of the vowels and foundInvalidChar is false, print word
+                        if (!foundInvalidChar && (curVowel == null)) {
+                                System.out.println(word);
+                        }
+                }
+        }
+
+share
+Save
+emilvikstrom
+2 points·5 years ago
+
+I think most solutions solve the problem in O(n). Perhaps you mean that you
+visit each character only once?
+
+share
+Save
+p1nk0
+1 point·5 years ago
+
+I didn't mean to imply anything about this implementation relative to the
+others posted, I was merely stating that it was O(n).
+
+In the worst case it will visit each character in the wordList and will invoke
+vowels.contains(...) on each character. Since vowels is a TreeSet, which is an
+implementation of a balanced binary search tree, each call to contains will
+take on average O(log(n)) operations where n is the number of vowels.
+
+share
+Save
+emilvikstrom
+2 points·5 years ago·edited 5 years ago
+
+The number of vowels is constant so it doesn't affect the asymptotic runtime
+complexity. In fact, even if vowels was a linked list the asymptotic runtime
+would be the same. But I guess you already know that.
+
+share
+Save
+ipretendiamacat
+2 points·5 years ago
+
+Hi guys! New here. In general for problems, how do we check if output is
+correct, at least for the sample input, in this case?
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+Sometimes the submitter will give some sample output, so here you can see
+"abstemiously" is an answer you should get. Else, just post it here and someone
+will tell you if it's right or wrong.
+
+share
+Save
+ipretendiamacat
+1 point·5 years ago
+
+Ah thanks. THere was another word in there that wasn't listed, but it
+definitely fits the profile, and some other people got it too.
+
+share
+Save
+usea
+2 points·5 years ago
+
+Rust 0.6 (incoming branch)
+
+fn vowel_alpha(v: &[~str]) -> ~[~str] {
+    let vowels = ~['a', 'e', 'i', 'o', 'u', 'y'];
+    let qualifies = |s: &str| {
+        let char_vec = str::chars(s);
+        let stripped = filter(char_vec, |c| vowels.contains(c));
+        stripped == vowels
+    };
+    filtered(v, |&s| qualifies(s))
+}
+
+Output:
+
+$ time make run
+./vowel < example.txt
+abstemiously
+facetiously
+
+real    0m1.199s
+user    0m1.180s
+sys     0m0.016s
+
+share
+Save
+usea
+1 point·5 years ago
+
+Full code:
+
+fn main() {
+    let input = get_lines();
+    for vowel_alpha(input).each |&s| {
+        io::println(s);
+    }
+}
+
+fn vowel_alpha(v: &[~str]) -> ~[~str] {
+    let vowels = ~['a', 'e', 'i', 'o', 'u', 'y'];
+    let qualifies = |s: &str| {
+        let char_vec = str::chars(s);
+        let stripped = vec::filter(char_vec, |c| vowels.contains(c));
+        stripped == vowels
+    };
+    vec::filtered(v, |&s| qualifies(s))
+}
+
+fn get_lines() -> ~[~str] {
+    let mut result = ~[];
+    let reader = io::stdin();
+    let util = @reader as @io::ReaderUtil;
+    while !reader.eof() {
+        result.push(util.read_line());
+    }
+    result
+}
+
+share
+Save
+eagleeye1
+0 12 points·5 years ago·edited 5 years ago
+
+Python
+
+This one runs through all the vowels, counting the occurrence of them in the
+word. If the vowel count is 1, we grab the index of the vowel in the word. If
+the length of the vowels == length of the vowel list (6), and sorting the vowel
+list is equal to the vowel list, we know we have a winner.
+
+fp = "/home/eagleeye1/Downloads/enable1.txt"
+with open(fp, 'rb') as f:
+        data = f.readlines()
+        data = [l.strip() for l in data]
+
+vowels = "aeiouy"
+for word in data:
+        vowelList = [word.index(v) for v in vowels if word.count(v) == 1]
+        if len(vowelList) == len(vowels) and sorted(vowelList) == vowelList:
+                print word
+
+Output:
+
+abstemiously
+facetiously
+
+share
+Save
+bhisgo
+2 points·5 years ago
+
+Filtered the list of words with this function in Haskell:
+
+allVow [] _ = True
+allVow _ [] = False
+allVow (x:xs) (y:ys)
+    | x == y && y `notElem` ys = allVow xs ys
+    | y `elem` (x:xs) = False
+    | otherwise = allVow (x:xs) ys
+
+share
+Save
+adzeitor
+0 02 points·5 years ago
+
+y `notElem` ys
+
+too slow for big lists
+
+hard to understand in what order pass arguments to allVow
+
+allVow' :: String -> Bool
+allVow' = go vowels
+  where
+    vowels = "aeiouy"
+    isVowel x = elem x vowels
+    go [] _ = True
+    go _ [] = False
+    go (v:vs) (x:xs) | v == x     = go vs xs
+                     | isVowel x = False
+                     | otherwise = go (v:vs) xs
+
+share
+Save
+bhisgo
+1 point·5 years ago
+
+Good improvements, thanks.
+
+share
+Save
+wot-teh-phuck
+2 points·5 years ago·edited 5 years ago
+
+My cute one-liner in Scala:
+
+println(Source.fromFile("words.txt").getLines
+  filter (_.trim.toLowerCase.replaceAll("[^aeiouy]", "") equals "aeiouy") toList)
+
+share
+Save
+tubescientis
+1 point·5 years ago
+
+That is cute.
+
+Would that make it into production code?
+
+share
+Save
+wot-teh-phuck
+2 points·5 years ago
+
+Nothing wrong with it per-se, it does make use of normal Scala constructs
+(getLines returns an iterator like object instead of reading the entire file in
+memory). If I can clean it up and break it down into logical chunks(one-liner
+to 3 lines), sure, why not. :)
+
+share
+Save
+tidyfuton
+2 points·5 years ago
+
+Go:
+
+package main
+
+import (
+        "bufio"
+        "fmt"
+        "os"
+)
+
+var VOWELS = []rune{'a', 'e', 'i', 'o', 'u', 'y'}
+
+func isVowel(r rune) bool {
+        for _, key := range VOWELS {
+                if r == key {
+                        return true
+                }
+        }
+        return false
+}
+
+func isValidWord(s string) bool {
+        v := 0
+        for _, r := range s {
+                if isVowel(r) {
+                        if r != VOWELS[v] {
+                                return false
+                        }
+                        v += 1
+                        if v == len(VOWELS) {
+                                return true
+                        }
+
+                }
+        }
+        return false
+}
+
+func main() {
+        wordScanner := bufio.NewScanner(os.Stdin)
+        for wordScanner.Scan() {
+                word := wordScanner.Text()
+                if isValidWord(word) {
+                        fmt.Println(word)
+                }
+        }
+}
+
+share
+Save
+BananaKick
+2 points·5 years ago
+
+Ruby:
+
+def order
+  f = File.new("enable1.txt")
+  a = f.readlines
+  b = []
+  a.each do |x|
+    if x.downcase.gsub(/[^aeiouy]/, '') == 'aeiouy'
+      b << x
+    end
+  end
+  puts b
+end
+
+share
+Save
+John_Bonforte
+2 points·5 years ago
+
+Python,
+
+def hasAllVowels(word):
+    vowels = ['a','e','i','o','u','y']
+    length = len(vowels)
+    index = 0
+    for x in word:
+        if x in vowels:
+            # all vowels used already OR
+            # vowel is not the next in the list
+            if index >= length or x != vowels[index]:
+                return False
+
+            index += 1
+
+    if(index != length):
+        return False
+    return True
+
+def main():
+    lines = []
+    with open("enable1.txt") as f:
+        lines = f.read().split();
+
+    for word in lines:
+        if hasAllVowels(word):
+            print(word)
+
+main()
+
+Output:
+
+abstemiously
+facetiously
+
+share
+Save
+__rook
+2 points·4 years ago
+
+In C:
+
+    #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+char vowel[6] = {'a','e','i','o','u','y'};
+
+enum v {
+        CORRECT_VOWEL,
+        INCORRECT_VOWEL,
+        NOT_VOWEL,
+};
+
+enum v check_char(char c, char v)
+{
+        int i;
+        for (i = 0; i < 6; i++) {
+                if (c == vowel[i]) {
+                        if (c == v) {
+                                return CORRECT_VOWEL;
+                        }
+
+                        return INCORRECT_VOWEL;
+                }
+        }
+
+        return NOT_VOWEL;
+}
+
+int alpha_vowels(char *word)
+{
+        int i,r;
+        while (*word != '\0') {
+                switch (r = check_char(*word, vowel[i])) {
+                        case CORRECT_VOWEL:
+                        i++;
+                        word++;
+                        break;
+
+                        case INCORRECT_VOWEL:
+                        return 0;
+
+                        case NOT_VOWEL:
+                        word++;
+                        break;
+                }
+        }
+
+        if (i == 6) {
+                return 1;
+        }
+
+        return 0;
+}
+
+int main(int argc, char *argv[])
+{
+        char word[80] = {'\0'};
+
+        while(scanf("%s", word) != EOF) {
+                if (alpha_vowels(word)) {
+                        printf("%s\n", word);
+                }
+
+                memset(word, '\0', 80);
+
+        }
+
+        return 1;
+}
+
+share
+Save
+luke1979
+2 points·4 years ago
+
+Very late but here's my version in C#:
+
+    static void Main(string[] args)
+    {
+
+        List<string> words = File.ReadAllLines("enable1.txt").ToList();
+
+        var wordsMatched = palabras.Where(palabra => Regex.Replace(palabra, @"[^aeiouy]", "") == "aeiouy").ToList();
+
+        wordsMatched.ForEach(w => Console.WriteLine(w));
+    }
+
+share
+Save
+FourWordUserName
+0 14 points·5 years ago·edited 5 years ago
+
+My dead-tired Java solution:
+
+public static void parseFile(String file) throws IOException {
+        BufferedReader in = new BufferedReader(new FileReader(file));
+        String neg   = "[^aAeEiIoOuUyY]*";
+        String regex = neg + "[aA]" + neg + "[eE]" + neg + "[iI]" + neg + "[oO]" + "[uU]" + neg + "[yY]" + neg;
+        while(in.ready()) {
+                String line = in.readLine();
+                if(line.matches(regex)) {
+                        System.out.println(line);
+                }
+        }
+        in.close();
+}
+
+Output:
+
+abstemiously
+facetiously
+
+Edit: added output
+
+share
+Save
+TurkishSquirrel
+2 points·5 years ago
+
+Solution in Lua:
+
+local vowels = {'a', 'e', 'i', 'o', 'u', 'y'}
+function orderedVowels(word)
+        local prev = 0
+        for k, v in ipairs(vowels) do
+                local fnd = word:find(v)
+                if not fnd or fnd < prev or word:find(v, fnd + 1) then
+                        return false
+                else
+                        prev = fnd
+                end
+        end
+        return true
+end
+
+local file = io.open("enable1.txt")
+if file then
+        for line in file:lines() do
+                if orderedVowels(line) then
+                        print(line)
+                end
+        end
+end
+
+Output:
+
+abstemiously
+facetiously
+
+share
+Save
+ikea_riot
+2 points·5 years ago·edited 5 years ago
+
+C#
+
+while ((currentWord = thisReader.ReadLine()) != null)
+{
+  var result = currentWord.Where(c => "aeiouy".Contains(c)).ToArray();
+  var temp = new string(result);
+  if (temp == "aeiouy")
+  {
+    Console.WriteLine(currentWord);
+  }
+ }
+
+The result should be two words..
+
+abstemiously
+facetiously
+
+share
+Save
+sanitizeyourhands
+1 point·5 years ago
+
+Can you post your entire solution?
+
+share
+Save
+ikea_riot
+2 points·5 years ago
+
+ static void Main(string[] args)
+    {
+        int count = 0;
+        string currentWord = "";
+        using (var thisReader = new StreamReader(@"C:\Users\Xxx\Documents\Visual Studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\enable1.txt"))
+        {
+            while ((currentWord = thisReader.ReadLine()) != null)
+            {
+                var result = currentWord.Where(c => "aeiouy".Contains(c)).ToArray();
+                var temp = new string(result);
+                if (temp == "aeiouy")
+                {
+                    Console.WriteLine(currentWord);
+                    count += 1;
+                }
+            }
+        }
+        Console.WriteLine(count.ToString());
+
+        Console.ReadKey();
+    }
+
+share
+Save
+HumbleAlchemy
+2 points·5 years ago
+
+C,
+
+#include<stdio.h>
+#include<string.h>
+
+int is_solution(char *check_string, char*solution);
+int is_vowel(char v);
+
+int main(int argc, const char *argv[])
+{
+        FILE *fp;
+        char check_string[80],solution[80];
+        fp = fopen("enable1.txt","r");
+
+        while(fscanf(fp,"%s",check_string) == 1) {
+                if(is_solution(check_string,solution)) {
+                        printf("\n%s",solution);
+                }
+        }
+
+        return 0;
+}
+
+int is_solution(char *check_string, char*solution){
+
+        char vowel_stack[] = {'a','e','i','o','u','y'};
+        int top_of_stack = 0,cs_length = strlen(check_string),i=0;
+
+        while(top_of_stack != 6) {
+                if(check_string[i] == '\0')
+                        return 0;
+                if(check_string[i++] == vowel_stack[top_of_stack])
+                        top_of_stack++;
+                else if (is_vowel(check_string[i-1]))
+                        return 0;
+        }
+
+        strcpy(solution,check_string);
+
+        return 1;
+}
+
+int is_vowel(char v) {
+        if (v == 'a' || v == 'e' ||  v == 'i' ||  v == 'o' ||  v == 'u' ||  v == 'y')
+                return 1;
+        return 0;
+}
+
+Output: abstemiously facetiously
+
+share
+Save
+HumbleAlchemy
+1 point·5 years ago
+
+how do I hide the output, I did place 4 spaces but it didn't work!
+
+share
+Save
+[deleted]
+2 points·5 years ago
+
+A new line in Reddit requires you to press enter twice.
+
+Like so.
+
+ 
+
+So the source for the above should read:
+
+A new line in Reddit requires you to press enter twice.
+
+ 
+
+Like so.
+
+ 
+
+To put an extra line break in your text, you have to type &nbsp; into the line.
+
+For people to see the &nbsp; you need to type \&nbsp;
+
+So for people to see the \&nbsp; you need to type \\\&nbsp;
+
+And so on. Wow, that was long-winded. Sorry.
+
+share
+Save
+kcoPkcoP
+1 point·5 years ago
+
+It only works if the four spaces are at the beginning of the line. Note that a
+single newline isn't enough to separate lines on reddit, you have to use at
+least two newlines to get a new row in comments.
+
+So writing Output: [4 spaces] [text] won't work and neither will Output:
+[newline] [4 spaces] [text], but Output: [newline][newline] [4 spaces] [text]
+will work as per below.
+
+Output:
+
+abstemiously facetiously
+
+share
+Save
+starfall-invoker
+3 points·5 years ago
+
+Haskell
+
+import Data.List
+
+isCorrectOrder :: [Char] -> Bool
+isCorrectOrder s = let{
+    a=filter (`elem` "aeiouy") s;
+} in a==sort a
+
+findGoodWords = filter isCorrectOrder
+
+share
+Save
+MrBones118
+3 points·5 years ago
+
+This is wrong. Your program checks that the vowels (if they exist) are ordered,
+but does not check that all the vowels are in there.
+
+For example "isCorrectOrder aa == True" because the vowels are in the right
+order, despite "eiouy" being missing.
+
+share
+Save
+starfall-invoker
+1 point·5 years ago
+
+Oh, I see.
+
+Corrected isCorrectOrder function
+
+isCorrectOrder :: [Char] -> Bool
+isCorrectOrder s= let {
+    a=filter (`elem` "aeiouy") s;
+    b=all (`elem` s) "aeiouy";
+} in b&&(a==sort a)
+
+Running it on /usr/share/dict/words gives me the single result "facetiously".
+
+share
+Save
+adzeitor
+0 01 point·5 years ago
+
+isCorrectOrder' :: [Char] -> Bool
+isCorrectOrder' s= let {
+    a=filter (`elem` "aeiouy") s;
+} in a == "aeiouy"
+
+share
+Save
+deds_the_scrub
+1 point·5 years ago·edited 5 years ago
+
+Python:
+
+#!/usr/bin/python
+import re, sys
+
+def main():
+  f = open(sys.argv[1],"r")
+  words = f.readlines()
+  f.close()
+
+  pattern = re.compile("[aeiouy]")
+  for w in words:
+    word = "".join(re.findall(pattern, w))
+    if word == "aeiouy":
+      print w,
+
+if __name__ == "__main__":
+  main()
+
+  • Edit: Didn't realize that it was non-repeating vowels
+
+share
+Save
+neslinesli93
+1 point·5 years ago
+
+Python,
+
+import re
+
+c='bcdfghjklmnpqrstvwxz'
+regex="["+c+"]*a["+c+"]*e["+c+"]*i["+c+"]*o["+c+"]*u["+c+"]*y"
+with open("enable1.txt","r") as f:
+    result=[x.strip() for x in f.readlines() if re.search(regex,x)]
+
+share
+Save
+mfiels
+1 point·5 years ago
+
+Python:
+
+words = [line.strip() for line in open('in.txt')]
+for word in words:
+    if 1 is word.count('a') is word.count('e') is word.count('i') is word.count('o') is word.count('u') is word.count('y'):
+        if word.find('a') < word.find('e') < word.find('i') < word.find('o') < word.find('u') < word.find('y'):
+            print(word)
+
+Output:
+
+abstemiously
+facetiously
+
+share
+Save
+Laremere
+1 01 point·5 years ago
+
+Python:
+
+words = open("enable1.txt","r").read().split("\n")
+words = map(lambda a: (a, a), words)
+for i in "bcdfghjklmnpqrstvwxz":
+    words = map(lambda a: (a[0].replace(i,""), a[1]), words)
+words = filter(lambda a: a[0] == "aeiouy", words)
+for i in words:
+    print i[1]
+
+share
+Save
+SeaCowVengeance
+0 01 point·5 years ago
+
+Kind of a roundabout solution in Python that doesn't use any imports:
+
+file = open('enable1.txt', 'r')
+wordList = file.readlines()
+
+vowelSearch = wordList[:]
+vowels = 'aeiouy'
+
+i = 0
+indexes = []
+
+for word in vowelSearch:
+        for letter in word:
+                if letter not in vowels:
+                        word = word.replace(letter, '')
+        if word == vowels:
+                indexes += [i]
+        i += 1
+
+for i in indexes:
+        print(wordList[i])
+
+Output:
+
+abstemiously
+
+facetiously
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+brutally simple method in python, using just a couple counters and a find. not
+elegant, but very quick to cook up
+
+here's how i did it in python:
+
+wordlist = [line for line in file('enable1.txt', 'r')]
+vowel = 'aeiouy'
+
+for word in wordlist:
+    locator = 0 # used for order tracking
+    counter = 0 # used for counting vowels
+    for letter in vowel:
+        if word.find(letter) >= locator:
+            counter +=1
+            locator = word.find(letter)
+    if counter == 6:
+        print word
+
+results: abstemiously, adventitiously, facetiously
+
+share
+Save
+SeaCowVengeance
+0 01 point·5 years ago
+
+Close, but 'adventitiously' doesn't fit the bill:
+
+    Find words in a word list that contain all the vowels in alphabetical
+    order, non-repeated, where vowels are defined as A E I O U Y.
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+ah..missed the part about non-repeated!
+
+share
+Save
+bheinks
+0 01 point·5 years ago·edited 5 years ago
+
+Python (regex)
+
+import re
+
+with open("wordlist.txt", 'r') as wordlist:
+    pattern = re.compile("[^aeiouy]*" + "[^aeiouy]*".join(list("aeiouy")))
+
+    for word in wordlist.read().splitlines():
+        if re.match(pattern, word):
+            print(word)
+
+Output
+
+abstemiously
+facetiously
+
+Edit: re.compile for efficiency sake
+
+share
+Save
+Aardig
+1 point·5 years ago
+
+Python without regex
+
+vowels = ['a','e','i','o','u','y']
+
+for word in wordlist:
+    test = ""
+    for char in word:
+        if char in vowels:
+            test += char
+    if test == 'aeiouy':
+        print word
+
+output:
+
+abstemiously
+facetiously
+
+share
+Save
+eagleeye1
+0 11 point·5 years ago
+
+If you're using strings, you can say vowels = "aeiouy" and it will work the
+same.
+
+share
+Save
+John_Bonforte
+1 point·5 years ago
+
+doesn't this fail with word that repeat the vowels after the y?
+
+imagine if abstemiously was a word.
+
+share
+Save
+Aardig
+2 points·5 years ago
+
+Why would it fail? If a word repeats vowels after the y, the variable test
+would for instance be 'aeiouyai', and thus test == 'aeiouy' would be false.
+
+share
+Save
+John_Bonforte
+1 point·5 years ago
+
+You're right, my bad. I mixed many ideas with your code instead of properly
+looking at it. Thanks for answering.
+
+share
+Save
+Aardig
+1 point·5 years ago
+
+No problem. Didn't expect people to actually look at my code, especially not a
+month after submitting.
+
+share
+Save
+Jatak
+0 01 point·5 years ago
+
+In Python:
+
+wordFile = open('enable1.txt')
+wordList = wordFile.readlines()
+wordFile.close()
+
+vowels = 'aeiouy'
+word = ''
+wordVowels = ''
+
+for i in range(0,len(wordList)):
+word = wordList[i]
+for j in range(len(word)):
+        if word[j] in vowels:
+                wordVowels += word[j]
+if wordVowels == vowels:
+        print(word)
+wordVowels = ''
+
+share
+Save
+eagleeye1
+0 12 points·5 years ago
+
+Using with open(fp, 'rb') as f: let's you avoid closing the file when you're
+done.
+
+share
+Save
+missblit
+1 point·5 years ago
+
+C++, 17 lines but not very pretty
+
+#include <iostream>
+#include <string>
+#include <vector>
+#include <cctype>
+
+int main() {
+    using namespace std;
+    string word;
+    while(cin >> word) {
+        vector<char> found;
+        for(char c : word)
+            if(string("aeiouy").find( c = tolower(c) ) != string::npos)
+                found.push_back( c );
+        if(string(begin(found), end(found)) == "aeiouy")
+            cout << word << "\n";
+    }
+}
+
+share
+Save
+dtuominen
+0 01 point·5 years ago
+
+python
+
+vowels = 'aeiouy'
+
+def check_word(fname):
+    found_vowels = [c for c in word if c in vowels]
+    return ''.join(found_vowels) == vowels
+
+if __name__ == '__main__':
+    import fileinput
+    for line in fileinput.input():
+        word = line.strip()
+        if check_word(word):
+            print word
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+PHP, from a noob:
+
+$lines = file("enable1.txt");
+foreach ($lines as $line) {
+    if (preg_replace("/[bcdfghjklmnpqrstvwxz]/", "", trim($line)) == "aeiouy") echo $line;
+}
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+I think the implementations allowing the aeiouy set are better, since your
+assumption about never using ',´, ñ or extra characters could bite you later.
+
+share
+Save
+PoppySeedPlehzr
+1 01 point·5 years ago
+
+Python:
+
+def check_words(file_name):
+    vowels  = {'a','e','i','o','u','y'}
+    words   = open(file_name).readlines()
+    for w in words:
+        w = w.rstrip()
+        if(vowels <= set(w)):
+            sorted_set  = []
+            for c in w:
+                if c in sorted_set:
+                    break
+                if c in vowels:
+                    sorted_set.append(c)
+            else:
+                if sorted(sorted_set) == sorted_set:
+                    cnt += 1
+                    print w + " contained all vowels exactly once in alphabetical order.."
+
+if __name__ == '__main__':
+    file = "DC122e_WordsWithOrderedVowels.txt"
+    check_words(file)
+
+Output:
+
+abstemiously contained all vowels exactly once in alphabetical order..
+facetiously contained all vowels exactly once in alphabetical order..
+
+share
+Save
+Fawzors
+1 point·5 years ago·edited 5 years ago
+
+Since my customer internet is sucking(taking 20 minutes to download the txt...)
+here's my non-tested solution in ABAP!:
+
+REPORT z_happy_stuff.
+
+DATA: word_test TYPE string ,
+        original_word type string.
+        num TYPE n LENGTH 30,
+        word_tab LIKE STANDARD TABLE OF word_test.
+
+START-OF-SELECTION.
+
+cl_gui_frontend_services=>gui_upload(
+        EXPORTING
+        filename                  = 'your file =)'
+        CHANGING
+        data_tab                  = word_tab ).
+
+
+LOOP AT word_tab INTO word_test.
+        original_word = word_test.
+        TRANSLATE word_test TO LOWER CASE.
+        TRANSLATE word_test  USING 'a1e2i3o4u5y6'.
+
+        CLEAR num.
+        num = word_test.
+
+        IF num = 123456.
+        WRITE: / original_word.
+        ENDIF.
+ENDLOOP.
+
+edit: yei! managed to download it and one thing was wrong =P
+
+Result:
+
+abstemiously
+facetiously
+
+share
+Save
+ThereminsWake
+1 point·5 years ago
+
+Python one-liner.
+
+p = [word for word in open('enable1.txt').read().split('\r\n') if ''.join([a for a in word if a in 'aeiouy']) == 'aeiouy']
+
+Output:
+
+['abstemiously','facetiously']
+
+share
+Save
+phoric
+1 point·5 years ago
+
+Python
+
+def ordered_vowels(filename):
+    wordlist = open(filename, 'r').read().splitlines()
+    vowels   = ['a', 'e', 'i', 'o', 'u', 'y']
+    result   = []
+
+    for word_pos in range(len(wordlist)):
+        current = []
+        for letter in wordlist[word_pos]:
+            if letter.lower() in vowels:
+                current.append(letter.lower())
+        if current == vowels:
+            result.append(wordlist[word_pos])
+
+    return result
+
+
+for word in ordered_vowels('enable1.txt'):
+    print word
+
+Output:
+
+abstemiously
+facetiously
+
+share
+Save
+jpverkamp
+1 point·5 years ago
+
+I don't think anyone did Racket yet, so here's a version:
+
+(define vowels (string->list "aeiouy"))
+(with-input-from-file "enable1.txt"
+  (lambda ()
+    (for ([word (in-lines)]
+          #:when (equal? vowels
+                         (filter
+                          (? (c) (member c vowels))
+                          (string->list word))))
+      (displayln word))))
+
+Output:
+
+abstemiously
+facetiously
+
+It's pretty much the same as all the rest, but so it goes. :)
+
+share
+Save
+sanitizeyourhands
+1 point·5 years ago
+
+C#
+
+Not getting the correct words, could someone take a look at maybe point out
+what I'm missing?
+
+static void Main(string[] args)
+        {
+            List<string> wordList = new List<string>();
+            string filePath = @"C:\Users\user\Desktop\enable1.txt";
+            StreamReader sr = new StreamReader(filePath);
+
+            while (sr.Peek() != '\n' & sr.EndOfStream == false)
+            {
+                wordList.Add(sr.ReadLine());
+            }
+            findVowels(wordList);
+            Console.Read();
+        }
+
+        static void findVowels(List<string> wordList)
+        {
+            for (int i = 0; i < wordList.Count; i++)
+            {
+                string current = wordList[i];
+                findThem(current);
+            }
+        }
+
+        static void findThem(string current)
+        {
+            StringBuilder sb = new StringBuilder(current.Length);
+            string vowelList = "aeiou";
+
+            for (int i = 0; i < current.Length; i++)
+            {
+                if (current[i] == vowelList[0] | current[i] == vowelList[1] | current[i] == vowelList[2] | current[i] == vowelList[3] | current[i] == vowelList[4])
+                {
+                    sb.Append(current[i]);
+                }
+            }
+
+            if (String.Compare(sb.ToString(), vowelList) == 0)
+            {
+                Console.WriteLine("This was a valid match. {0}", current);
+            }
+        }
+
+Right now it's giving me:
+
+abstemious
+abstemiously
+abstentious
+arsenious
+facetious
+facetiously
+
+share
+Save
+deds_the_scrub
+3 points·5 years ago
+
+you forgot 'y' in your vowelsList.
+
+share
+Save
+sanitizeyourhands
+1 point·5 years ago
+
+All the upvotes to you. Spent like an hour stepping through trying to figure
+out what error I had made.
+
+static void Main(string[] args)
+        {
+            List<string> wordList = new List<string>();
+            string filePath = @"C:\Users\user\Desktop\enable1.txt";
+            StreamReader sr = new StreamReader(filePath);
+
+            while (sr.Peek() != '\n' & sr.EndOfStream == false)
+            {
+                wordList.Add(sr.ReadLine());
+            }
+            findVowels(wordList);
+            Console.Read();
+        }
+
+        static void findVowels(List<string> wordList)
+        {
+            for (int i = 0; i < wordList.Count; i++)
+            {
+                string current = wordList[i];
+                findThem(current);
+            }
+        }
+
+        static void findThem(string current)
+        {
+            StringBuilder sb = new StringBuilder(current.Length);
+            string vowelList = "aeiouy";
+
+            for (int i = 0; i < current.Length; i++)
+            {
+                if (current[i] == vowelList[0] | current[i] == vowelList[1] | current[i] == vowelList[2] | current[i] == vowelList[3] | current[i] == vowelList[4] | current[i] == vowelList[5])
+                {
+                    sb.Append(current[i]);
+                }
+            }
+
+            if (String.Compare(sb.ToString(), vowelList) == 0)
+            {
+                Console.WriteLine("This was a valid match. {0}", current);
+            }
+        }
+
+I now get:
+
+ abstemiously
+ facetiously
+
+share
+Save
+d347hm4n
+1 point·5 years ago
+
+Hello, you can read a file into a string array in one go without pissing about
+with stream readers. Just use:
+
+string[] wordList = File.ReadAllLines(pathToFile);
+
+share
+Save
+dante9999
+1 point·5 years ago
+
+Recursive Python (no RegEx, it's more challenging without RegEx). I think I'm
+finally starting to understand recursion.
+
+def vov():
+    words = open('enable1.txt','r')
+    lines = words.readlines()
+    vowels = 'AEIOUY'
+    result = []
+
+    def check(vowels,word):
+        if vowels == "":
+            return True
+        elif word == "":
+            return False
+        else:
+            if vowels[0] == word[0]:
+                return check(vowels[1:],word[1:])
+            else:
+                return check(vowels,word[1:])
+
+    for a in lines:
+        if check(vowels.lower(),a) == True:
+            result.append(a)
+    return result
+
+Output:
+
+['abstemiously\n', 'adventitiously\n', 'autoeciously\n', 'facetiously\n', 'sacrilegiously\n']
+
+share
+Save
+wot-teh-phuck
+2 points·5 years ago
+
+I think you are missing two pieces of the requirement:
+
+  • The vowels should appear in order (i.e. a followed by i followed by o and
+    so on)
+
+  • Each vowel should appear once
+
+Given those requirements, the answer is ['abstemiously', 'facetiously'].
+
+share
+Save
+Comment deleted5 years ago
+brakx
+1 point·5 years ago
+
+You may have an error in your code.
+
+My output was
+
+abstemiously
+facetiously
+
+adventitiously has two repeating i's.
+
+share
+Save
+ThinMintt
+1 point·5 years ago
+
+First attempt with golang any tips comments or suggestions highly welcome.
+
+package main
+
+import "bufio"
+import "os"
+import "fmt"
+import "io"
+import "regexp"
+
+func main() {
+    fmt.Print("running\n")
+    file, err := os.Open("test.txt")
+    if err != nil {
+        fmt.Printf("error opeing file %v \n", err)
+        os.Exit(1)
+    }
+
+    var line string
+
+    r := bufio.NewReader(file)
+    for err == nil {
+        line, err = readLine(r)
+        if err == nil {
+            isInVoulOrder := checkVouls(line)
+            if isInVoulOrder {
+                fmt.Printf("%v has all the vouls \n", line)
+            }
+        } else if err == io.EOF {
+            fmt.Printf("EOF")
+        }
+    }
+}
+
+func checkVouls(line string) bool {
+    reg :=    regexp.MustCompile("^[^aeiouy]*a[^aeiouy]*e[^aeiouy]*i[^aeiouy]*o[^aeiouy]*u[^aeiouy]*y[^aeiouy]*$")
+    match := reg.FindString(line)
+    return match != ""
+}
+
+func readLine(r *bufio.Reader) (string, error) {
+
+    var (
+        isPrefix bool  = true
+        err      error = nil
+        line, ln []byte
+    )
+    for isPrefix && err == nil {
+        line, isPrefix, err = r.ReadLine()
+        ln = append(ln, line...)
+    }
+    return string(ln), err
+}
+
+output
+
+abstemiously has all the vouls
+facetiously has all the vouls
+EOF
+
+share
+Save
+gregbobthe9th
+1 point·5 years ago
+
+You can use
+
+line, err = r.ReadString('\n')
+
+instead of making your own readLine function based off of bufio ReadLine.
+
+share
+Save
+ThinMintt
+1 point·5 years ago
+
+Sweet thank you
+
+share
+Save
+mitchellhemrich
+1 point·5 years ago·edited 5 years ago
+
+In C# (any criticism is welcomed)
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
+namespace _3._19._2013_Challenge_122
+{
+class Program
+{
+    static void Main(string[] args)
+    {
+        String strFilePath = @"..\..\enable1.txt";
+        String strVowels = "aeiouy";
+
+        try
+        {
+            using (StreamReader r = new StreamReader(strFilePath))
+            {
+                string strCurrentLine;
+                while ((strCurrentLine = r.ReadLine()) != null)
+                {
+                    Char[] charContainsVowels = strCurrentLine.Where(x => strVowels.Contains(x)).ToArray();
+                    String strWord = new String(charContainsVowels);
+
+                    if (strWord == strVowels)
+                    {
+                        Console.WriteLine(strCurrentLine);
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error: " + ex.Message);
+        }
+        Console.ReadLine();
+    }
+}
+}
+
+The output:
+
+ abstemiously
+ facetiously
+
+share
+Save
+d347hm4n
+1 point·5 years ago
+
+You can read all the lines in a file into a string array with one line without
+bothering with a streamreader using:
+
+ string[] words = File.ReadAllLines(pathToFile);
+
+share
+Save
+soonahn
+0 01 point·5 years ago
+
+Stupid simple Python implementation
+
+#!/usr/bin/python
+import re
+
+p =     re.compile('[^a^e^i^o^u]*a[^a^e^i^o^u]*e[^a^e^i^o^u]*i[^a^e^i^o^u]*o[^a^e^i^o^u]*u[^a^e^i^o^u]*y[^a^e^i^o^u]*')
+
+with open('enable1.txt') as f:
+    content = f.readlines()
+for lines in content:
+    if p.search(lines) != None:
+        print lines
+
+Output
+
+abstemiously
+
+facetiously
+
+share
+Save
+cooper6581
+1 point·5 years ago
+
+Clojure (similar to the previous solution)
+
+(def words (clojure.string/split-lines (slurp "enable1.txt")))
+(time (filter #(= (apply str (re-seq #"[aeiouy]" %)) "aeiouy") words))
+
+Output:
+
+"Elapsed time: 0.124224 msecs"
+("abstemiously" "facetiously")
+
+share
+Save
+shaggorama
+1 point·5 years ago·edited 5 years ago
+
+I'm late to the party, but I needed a distraction so here's mine in python. It
+returns a boolean T/F if the input word's vowels are in order:
+
+vowels = ['a','e','i','o','u','y']
+
+def ordered_vowels(in_str):
+    v = [c for c in in_str.lower() if c in vowels]
+    last = [v[0]]
+    for c in v[1:]:
+        if c>last:
+            last=c
+        else:
+            return False
+    return True
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+Written in GW-BASIC, developed in DosBox. Rocking it 1988 style:
+
+1000 REM INITIALIZE
+1010 OPEN "ENABLE1.TXT" FOR INPUT ACCESS READ AS #1
+1020 LET V$ = "aeiouy"
+2000 REM MAIN LOOP
+2010 IF EOF(1) THEN GOTO 9000
+2020 INPUT# 1, A$
+2030 LET I = 1
+2040 LET J = 1
+2050 IF I > LEN(A$) THEN GOTO 3000
+2060 IF MID$(A$, I, 1) = MID$(V$, J, 1) THEN GOTO 2130
+2070 REM CHECK FOR OUT OF ORDER VOWELS
+2080 FOR K = 1 TO 6
+2090 IF MID$(A$, I, 1) = MID$(V$, K, 1) THEN GOTO 2000
+2100 NEXT K
+2110 LET I = I + 1
+2120 GOTO 2050
+2130 LET I = I + 1
+2140 LET J = J + 1
+2150 GOTO 2050
+3000 REM CHECK AND PRINT
+3010 IF J = 7 THEN PRINT A$
+3999 GOTO 2000
+9000 REM CLEANUP
+9010 CLOSE
+9020 END
+
+share
+Save
+NUNTIUMNECAVI
+1 point·5 years ago·edited 5 years ago
+
+A bit late to the party here, but here's an extremely ugly Python one-liner:
+
+import sys, re
+print ', '.join(re.findall(re.compile('\\w*'.join('aeiouy')),open(sys.argv[1],'r').read()))
+
+Output:
+
+abstemiously, adventitiously, autoeciously, facetiously, sacrilegiously
+
+Edit: Removed a redundant part of regex pattern.
+
+Edit 2: Did a simplified version of this in Befunge as well:
+
+<AEIOUYv             <v
+vaeiouy#     >:12g1g-|1>
+     >:12g0g-|        1
+>~:1+|       >       v2p
+^    1#<     p21+1g21<p2
+>0  #2".deredrO"v   >#6
+`g22g<         v ,_@|
+>0".deredronU"  >:^ >#2
+               >: ^   >^
+
+Note that this only takes one word and outputs whether it's ordered or
+unordered. Online Befunge interpreter
+
+share
+Save
+whiteychs
+0 01 point·5 years ago
+
+perl
+
+open(FILE,"<enable1.txt");
+while(<FILE>){
+   my $x = $_;
+   s/[^aeiouy]//g;
+   say $x if(/aeiouy/);
+}
+
+share
+Save
+WerkWerk
+1 point·5 years ago
+
+Python:
+
+my_file = open("wordlist.txt","r")
+word_list = my_file.read()
+my_file.close()
+
+vowels = "aeiouy"
+
+def vowels_in_order1(word_list):
+    output = []
+    for word in word_list:
+    if (filter(lambda x: x is in vowels,word) == vowels):
+                output.append(str(item))
+    return output
+
+def vowels_in_order2(word_list):
+    return word from word_list if "".join([char for char in word if char in 'aeiouy']) == 'aeiouy'
+
+print vowels_in_order1(word_list)
+print vowels_in_order2(word_list)
+
+Two solutions, haven't had a chance to test yet
+
+share
+Save
+mazesc_
+1 point·5 years ago
+
+Scala (am in the process of learning),
+
+val vowels = List('a', 'e', 'i', 'o', 'u', 'y')
+for {
+  word <- scala.io.Source.fromFile("enable1.txt").getLines
+  if word.filter(vowels.contains(_)) == vowels.mkString
+} println(word)
+
+share
+Save
+wot-teh-phuck
+1 point·5 years ago
+
+That's a nice solution using for loops in Scala. BTW, you can replace val
+vowels = List('a', 'e', 'i', 'o', 'u', 'y') with val vowels = "aeiouy".toList
+to avoid additional typing. :)
+
+share
+Save
+nickadin
+1 point·5 years ago
+
+in python:
+
+import re
+
+pattern = re.compile("[^aeiouy]")
+
+with open("enable1.txt","r") as f:
+
+    for lines in f:
+        word = re.sub(pattern,'',lines)
+        if word == "aeiouy":
+            print(lines)
+
+share
+Save
+Taiters91
+1 point·5 years ago
+
+Java:
+
+public void findWords() throws IOException
+{
+    String line;
+    while((line = in.readLine()) != null)
+    {
+        if(line.replaceAll("[^aeiouy]", "").equals("aeiouy"))
+        {
+            System.out.println(line);
+        }
+    }
+}
+
+in is just a buffered reader connected to the file.
+
+share
+Save
+Captain___Obvious
+1 point·5 years ago
+
+I'm a novice, but I'm trying to do a few of these In Python:
+
+def hasOrderedVowels(word):
+        vowels = ['a','e','i','o','u','y']
+        aeiouy = "aeiouy"
+        if aeiouy in  "".join([x for x in word if x in vowels]):
+                return True
+
+with open("enable1.txt","r") as f:
+        for word in f:
+                if hasOrderedVowels(word):
+                        print word
+
+share
+Save
+flightcrank
+1 point·5 years ago
+
+coded in C
+
+its assigns each vowel a integer position in the string and puts it in an
+array. if the array is all full of positve its. you know that all the vowels
+are present. if all those ints are sorted from lowest to heighest you know they
+are in alphabetical order.
+
+output is: abstemiously, facetiously
+
+//Author: flightcrank
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define MAX 100
+
+char vowels[] = "aeiouy";
+
+int check_word(char word[], int len) {
+
+        int i,j,k;
+        int count = 0;
+        int temp = -1;
+
+        int v_len = strlen(vowels);
+        int v_check[v_len];
+
+        //reset v_check
+        for (k = 0; k < v_len; k++) {
+
+                v_check[k] = -1;
+        }
+
+        //Loop through each vowel char
+        for (i = 0; i < v_len; i++ ) {
+
+                //Loop through each char in the word
+                for (j = 0; j < len; j++ ) {
+
+                        //record position where vowels are in the word.
+                        if (word[j] == vowels[i]) {
+
+                                //check for repeated chars
+                                if (v_check[i] != -1) {
+
+                                        return 1;
+                                }
+
+                                v_check[i] = j;
+                        }
+                }
+        }
+
+        for (k = 0; k < v_len; k++) {
+
+                if (v_check[k] > temp) {
+
+                        count++;
+                        temp = v_check[k];
+
+                } else {
+
+                        return 1;
+                }
+        }
+
+        return 0;
+}
+
+int main() {
+
+        char line[MAX];
+
+        //open file to process
+        FILE *fp;
+        fp = fopen("enable1.txt","r");
+
+        if (fp == NULL) {
+
+                printf("error opening file. does enable1.txt exist ?");
+                return 1; // exit program
+        }
+
+        //loop through each line in the file.
+        while (fgets(line, MAX - 1, fp) != NULL) {
+
+                int len = strlen(line);
+                int result = check_word(line, len);
+
+                if (result == 0) {
+
+                        printf("%s",line);
+                }
+        }
+
+        //close file
+        fclose(fp);
+
+        return 0;
+}
+
+yeah verbose is my style
+
+share
+Save
+fenmarel
+1 point·5 years ago
+
+Python: comments are welcome, I am trying to improve wherever I can
+
+import re
+
+f = open('wordlist.txt', 'r')
+for word in f:
+    test = True
+    start = word.find('a')
+    if start != -1 and start < word.find('e') < word.find('i') < \
+    word.find('o') < word.find('u') < word.find('y'):
+        for v in 'aeiouy':
+            if len(re.findall(v, word)) != 1:
+                test = False
+        if test: print word
+        test = True
+
+share
+Save
+JustinBieber313
+1 point·5 years ago·edited 5 years ago
+
+C++
+
+Seems like the most obvious solution. Can anyone comment on my vector
+initialization? Seems like there should be a better way to declare that without
+having to do 6 push_back() calls.
+
+#include <string>
+#include <iostream>
+#include <fstream>
+#include <vector>
+
+bool LettersAreOrdered(std::string word, const std::vector<char>& letters);
+
+void main(int argsc, char* argsv[])
+{
+    if(argsc != 2) //We have exactly one input, the word file, plus binary info
+    {
+        std::cout << "Incorrect command. Use format \"ConsecutiveVowels <FileName>\"";
+        return;
+    }
+
+    std::ifstream file;
+    std::string path = argsv[1];
+    file.open(path);
+
+    if(!file.is_open())
+    {
+        std::cout << "Could Not Find File " << argsv[1] << std::endl;
+        return;
+    }
+
+    std::string word;
+    std::vector<char> letters;
+    letters.push_back('a');
+    letters.push_back('e');
+    letters.push_back('i');
+    letters.push_back('o');
+    letters.push_back('u');
+    letters.push_back('y');
+
+    while(!file.eof())
+    {
+
+        std::getline(file, word);
+
+        if(LettersAreOrdered(word, letters))
+        {
+            std::cout << word << std::endl;
+        }
+
+    }
+
+    return;
+
+}
+
+
+bool LettersAreOrdered(std::string word, const std::vector<char>& letters)
+{
+    std::vector<char> cmpVec;
+    for(std::string::iterator wordI = word.begin(); wordI != word.end(); ++wordI)
+    {
+        for(std::vector<char>::const_iterator letterI = letters.begin(); letterI != letters.end(); ++letterI)
+        {
+            if(*wordI == *letterI)
+            {
+                cmpVec.push_back(*wordI);
+            }
+        }
+
+    }
+
+    if(cmpVec != letters)
+    {
+         return false;
+    }
+
+    else
+    {
+        return true;
+    }
+
+
+}
+
+share
+Save
+Jelop
+1 point·5 years ago
+
+This is my first submission. I know there is an easier way of course but this
+is what I could come up with.
+
+Java
+
+public static String handleLine(String s1){
+
+for(int i = 0; i < s1.length(); i++){
+  if(s1.charAt(i) == 'a'){
+    String s2 = s1.substring(i, s1.length());
+    for(int a = 0; a < s2.length(); a++){
+
+      if(s2.charAt(a) == 'i' || s2.charAt(a) == 'o'||s2.charAt(a) =='u' || s2.charAt(a) =='y'){
+        return "";
+      }
+      if(s2.charAt(a) == 'e'){
+        String s3 = s2.substring(a, s2.length());
+        for(int b = 0; b < s3.length(); b++){
+          if(s3.charAt(b) == 'o' || s3.charAt(b) =='u'||s3.charAt(b) =='y'){
+            return "";
+          }
+          if(s3.charAt(b) == 'i'){
+            String s4 = s3.substring(b, s3.length());
+            for(int c = 0; c < s4.length(); c++){
+              if(s4.charAt(c) == 'u'|| s4.charAt(c) =='y'){
+                return "";
+              }
+              if(s4.charAt(c) == 'o'){
+                String s5 = s4.substring(c, s4.length());
+                for(int d = 0; d < s5.length(); d++){
+                  if (s5.charAt(d) == 'y'){
+                    return "";
+                  }
+                  if(s5.charAt(d) == 'u'){
+                    String s6 = s5.substring(d, s5.length());
+                    for(int e = 0; e < s6.length(); e++){
+                      if(s6.charAt(e) == 'y'){
+                        return s1 + " ";
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+return "";
+
+share
+Save
+[deleted]
+1 point·5 years ago·edited 5 years ago
+
+Java Regex:
+
+import java.io.*;
+import java.util.*;
+import java.util.regex.*;
+
+public class main {
+        public static void main(String[] args) throws FileNotFoundException {
+        Scanner in=new Scanner(new File("enable1.txt"));
+        Pattern p=Pattern.compile(".*a([^a|e|i|o|u|y])*e([^a|e|i|o|u|y])*i([^a|e|i|o|u|y])*o([^a|e|i|o|u|y])*u([^a|e|i|o|u|y])*y.*");
+        Matcher m;
+        while (in.hasNextLine()){
+                String s=in.nextLine();
+                m=p.matcher(s);
+                System.out.print((m.matches())?s+"\n":"");
+        }
+        in.close();
+}
+}
+
+Output: abstemiously facetiously
+
+share
+Save
+gworroll
+1 point·5 years ago
+
+Done in Python. Filename is handled as a string variable so I could use
+different word lists(which was helpful in testing, throwing together a very
+short one I could check by hand to be sure my code got the right answer)
+
+# Words with ordered vowels
+# file dailyprogrammer122.py
+
+
+def unrepeated_ordered_vowels(s):
+    """ (str) -> bool
+
+    Determines if s has all vowels(AEIOUY) in alphabetical
+    order, unrepeated.
+
+    """
+
+    vowel_list = 'AEIOUY'
+    found_vowels = ''
+    for ch in s:
+        if ch.upper() in found_vowels:
+            return False
+        if ch.upper() in vowel_list:
+            found_vowels += ch.upper()
+    return vowel_list == found_vowels
+
+def scan_file(file):
+    """ (filename) -> str list
+
+    Takes a filename and returns the list of words in it
+    that have all vowels in order with no repeats
+    """
+    word_list = []
+    fh = open(file)
+    for word in fh:
+        if unrepeated_ordered_vowels(word):
+            word_list.append(word)
+    return word_list
+
+Answer:
+
+abstemiously facetiously
+
+share
+Save
+mgoszcz2
+1 point·5 years ago
+
+Playing around with pointers in C.
+
+#include <stdio.h>
+
+int main(void){
+    char *v = "aeiouy", *i, *j, *k, w[0xff];
+    FILE *inp = fopen("enable1.txt","r");
+    while(fscanf(inp,"%s",w) != EOF){
+        for(i = v, j = w; *j; ++j)
+            if(*j == *i)
+                ++i;
+            else
+                for(k = v; *k; k += *i != *k + 1)
+                    if(*k == *j)
+                        goto e;
+
+        if(!*i)puts(w);
+        e:;
+    }
+    fclose(inp);
+    return 0;
+}
+
+share
+Save
+Quasimoto3000
+1 01 point·5 years ago
+
+Python regex solution
+
+import re
+
+vowel_regex_obj = re.compile(r'[^aeiouy]*a[^aeiouy]*e[^aeiouy]*i[^aeiouy]*o[^aeiouy]*u[^aeiouy]*y', flags = re.IGNORECASE)
+
+with open("enable.txt") as word_list:
+    for word in word_list:
+        if vowel_regex_obj.search(word):
+            print word
+
+share
+Save
+insaneswagger
+1 point·5 years ago
+
+My java solution:
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+
+public class vowelOrder {
+
+public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader("enable1.txt"));
+        while (br.ready()) {
+                String word = br.readLine();
+                if (word.replaceAll("[^aeiouy]","").equals("aeiouy")){
+                        System.out.println(word);
+                }
+        }
+        br.close();
+}
+}
+
+output:
+
+abstemiously
+facetiously
+
+share
+Save
+groovyman
+1 point·5 years ago
+
+PHP, please provide feedback, thank you
+
+/*
+input: a file
+description: converts a file of words into an array
+output: an array
+*/
+function fileToArray(&$filename)
+{
+ $list=array();
+
+ // get the content of a file into a string
+ $handle=fopen($filename,"r");
+
+ while(!feof($handle))
+ {
+    $word=fgets($handle);
+    array_push($list,$word);
+ }
+
+ fclose($handle);
+ return $list;
+}
+
+/*
+input: (string) A word
+description: checks if the vowels in the word are in order and not repeated.
+output: (boolean) if the above description is true;
+*/
+function checkWord(&$subject)
+{
+ $vowels=array("a","e","i","o","u");
+ $pattern='/[aeiou]/';
+ $matches;
+ preg_match_all($pattern,$subject,$matches);
+
+ if($matches[0]!=$vowels)return false;
+
+ return true;
+}
+
+/*
+input: (string)a filepath
+description: takes a file and prints the words possessing all the vowels, in       alphabetical order, and non-repeating.
+output: prints a list
+*/
+function printOrderedVowels(&$filepath)
+{
+$list=fileToArray($filepath);
+
+ foreach($list as &$element)
+ {
+  if(checkword(&$element))
+  {
+   echo $element;
+  }
+ }
+}
+
+// variables
+$filename="./Resources/enable1.txt";
+printOrderedVowels(&$filename);
+
+share
+Save
+Somebody__
+1 point·5 years ago
+
+One thing I notice is that you forgot 'y' in your vowel list.
+
+Also, instead of dumping the entire 1.8mb input file into an array, then
+iterating over the array - you could read one line directly from the file, test
+it, then read the next.
+
+share
+Save
+groovyman
+1 point·5 years ago
+
+Thank you for the comment. Can you tell me why it would be better to read one
+line at a time?
+
+share
+Save
+Somebody__
+1 point·5 years ago
+
+It just saves a bit of processing, especially on large data sets.
+
+You're already reading the input file one line at a time when you fill the word
+list array, so why not just omit the array altogether and put your word-testing
+logic in the for-line-in-inputfile-loop? It also saves you from having to pull
+the values back out of a wordlist array afterward.
+
+Consider: (In pseudocode)
+
+array = {}
+file.open()
+for line in file {
+    array.append( line )
+}
+file.close()
+for value in array {
+    testVowels( value )
+}
+
+VS:
+
+file.open()
+for line in file {
+    testVowels( line )
+}
+file.close()
+
+share
+Save
+Somebody__
+1 point·5 years ago·edited 5 years ago
+
+Solution quickly cobbled together in Lua using nested ifs. Assumes word list is
+named "enable1.txt" and is in the same directory as the script.
+
+The general process goes like this:
+
+ 1. Get a word
+
+ 2. Pull all vowels out of it in the order they appear
+
+ 3. If there are 6 vowels exactly, go to #4, otherwise go to #1
+
+ 4. Compare list of pulled vowels against desired vowel order.
+
+ 5. If lists match, print word.
+
+ 6. Go to #1
+
+    -- Challenge #122 | Words With Ordered Vowels vowels = { "a", "e", "i",
+    "o", "u", "y" } function getVowels( word ) vList = {} for i = 1, #word do
+    for ii = 1, #vowels do if string.sub( word, i, i ) == vowels[ii] then
+    table.insert( vList, string.sub( word, i, i ) ) end end end return vList
+    end file = io.open( "enable1.txt", "r" ) for word in file:lines() do vList
+    = getVowels( word ) if #vList == 6 then if vList[1] == vowels[1] then if
+    vList[2] == vowels[2] then if vList[3] == vowels[3] then if vList[4] ==
+    vowels[4] then if vList[5] == vowels[5] then if vList[6] == vowels[6] then
+    print( word ) end end end end end end end end file:close()
+
+Edit: Documentation
+
+share
+Save
+jkru11even
+1 point·4 years ago
+
+Python:
+
+# More about string.translate method: http://docs.python.org/2/library/string.html
+for line in open("enable1.txt","r"):
+    word = line.strip("\n")
+    extractedVowels = word.translate(None, "bcdfghjklmnpqrstvwxz")
+    if extractedVowels == "aeiouy":   #Unlike Java, == is for content/value equality
+        print("FOUND YOU: " + word )
+
+share
+Save
+Comment deleted5 years ago
+d347hm4n
+1 point·5 years ago
+
+A solution with regex. Something I need to get better with. Thanks for posting.
+
+share
+Save
+
+21 more replies
+
+Community Details
+r/dailyprogrammer
+
+141k
+
+Subscribers
+
+86
+
+Online
+
+**Welcome to r/DailyProgrammer!** First time visitors of Daily Programmer
+please [Read the Wiki] (http://www.reddit.com/r/dailyprogrammer/wiki/index) to
+learn everything about this subreddit. 3 Programming Challenges a week!
+
+SubscribeCreate Post
+aboutcareerspress
+advertisebloghelp
+the reddit appreddit goldreddit gifts
+content policy| privacy policy
+user agreement| mod policy
+© 2018 Reddit, Inc. All rights reserved
+back to top

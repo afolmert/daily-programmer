@@ -1,0 +1,3952 @@
+close this window
+jump to content
+my subreddits
+edit subscriptions
+
+  • popular
+  • -all
+  • -random
+  • -users
+
+ | 
+
+  • AskReddit
+  • -worldnews
+  • -videos
+  • -funny
+  • -todayilearned
+  • -pics
+  • -gaming
+  • -movies
+  • -news
+  • -gifs
+  • -mildlyinteresting
+  • -aww
+  • -Showerthoughts
+  • -television
+  • -Jokes
+  • -science
+  • -OldSchoolCool
+  • -sports
+  • -IAmA
+  • -Documentaries
+  • -TwoXChromosomes
+  • -explainlikeimfive
+  • -personalfinance
+  • -books
+  • -tifu
+  • -Futurology
+  • -dataisbeautiful
+  • -WritingPrompts
+  • -nottheonion
+  • -food
+  • -Music
+  • -photoshopbattles
+  • -EarthPorn
+  • -philosophy
+  • -Art
+  • -nosleep
+  • -GetMotivated
+  • -askscience
+  • -LifeProTips
+  • -space
+  • -UpliftingNews
+  • -DIY
+  • -history
+  • -gadgets
+  • -creepy
+  • -listentothis
+  • -blog
+  • -announcements
+  • -InternetIsBeautiful
+
+more >>
+dailyprogrammer dailyprogrammer
+
+  • comments
+
+Want to join? Log in or sign up in seconds.|
+
+  • English
+
+[                    ][]
+[ ]limit my search to r/dailyprogrammer
+
+use the following search parameters to narrow your results:
+
+subreddit:subreddit
+    find submissions in "subreddit"
+author:username
+    find submissions by "username"
+site:example.com
+    find submissions from "example.com"
+url:text
+    search for "text" in url
+selftext:text
+    search for "text" in self post contents
+self:yes (or self:no)
+    include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+    include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+
+see the search faq for details.
+
+advanced search: by author, subreddit...
+
+this post was submitted on  20 Nov 2012
+56 points (95% upvoted)
+shortlink:  [https://redd.it/13hm]
+[                    ][                    ]
+[ ]remember mereset password
+login
+Submissions restricted
+Only approved users may post in this community.
+
+dailyprogrammer
+
+subscribeunsubscribe141,927 readers
+
+77 users here now
+
+ 1. Challenge #321: Easy
+ 2. Challenge #321: Intermediate
+ 3. Challenge #321: Hard
+ 4. Weekly #25: Escape the trolls
+
+Welcome to r/DailyProgrammer!
+
+First time visitors of Daily Programmer please Read the Wiki to learn
+everything about this subreddit.
+
+  • Solution Submission Tutorial
+  • Solution Submission Guidelines
+  • Code / Peer-Review Guidelines
+  • Problem Submission Guidelines
+  • Achievements System
+  • Community Projects
+  • Links to other Programming subreddits
+  • Special Thanks
+
+Can't submit solutions?
+
+If you are a new or unverified account, and are unable to post comment replies,
+please click here to verify your account. Otherwise, read the Solution
+Submission Tutorial for a walkthrough of submitting a solution, or click below
+to message the moderators for assistance.
+
+Write your own challenge!
+
+To help the community and write your own challenge to be submitted, head on
+over to /r/DailyProgrammer_Ideas and share your project - read the sidebar in
+that subreddit for more information.
+
+IRC Channel
+
+Message the Moderators
+
+Challenge List in Chronological Order
+
+created by nottoobadguya community for 6 years
+message the moderators
+
+MODERATORS
+
+  • rya111113 1
+  • nint221 2
+  • Cosmologicon2 3
+  • Elite68091 1
+  • XenophonOfAthens2 1
+  • jnazario2 0
+  • Godspiral3 3
+  • Blackshell2 0
+  • fvandepitte0 0
+  • G33kDude1 1
+  • about moderation team >>
+
+discussions in r/dailyprogrammer
+<>
+X
+ 
+59 . 21 comments
+[2018-05-04] Challenge #359 [Hard] Primes in Grids
+ 
+43 . 36 comments
+[2018-05-02] Challenge #359 [Intermediate] Unwrap Some Text
+ 
+61 . 106 comments
+[2018-04-30] Challenge #359 [Easy] Regular Paperfold Sequence Generator
+ 
+70 . 12 comments
+[2018-04-27] Challenge #358 [Hard] Puzzle me this
+ 
+52 . 36 comments
+[2018-04-25] Challenge #358 [Intermediate] Everyone's A Winner!
+ 
+70 . 75 comments
+[2018-04-23] Challenge #358 [Easy] Decipher The Seven Segments
+ 
+58 . 28 comments
+[2018-04-20] Challenge #357 [Hard] Continued Fractions
+ 
+57 . 26 comments
+[2018-04-19] Challenge #357 [Intermediate] Kolakoski Sequences
+ 
+72 . 114 comments
+[2018-04-11] Challenge #356 [Intermediate] Goldbach's Weak Conjecture
+ 
+89 . 78 comments
+[2018-03-28] Challenge #355 [Intermediate] Possible Number of Pies
+
+Welcome to Reddit,
+
+the front page of the internet.
+
+Become a Redditor
+
+and subscribe to one of thousands of communities.
+
+x
+
+55
+56
+57
+
+[11/20/2012] Challenge #113 [Easy] String-type checking (self.dailyprogrammer)
+
+submitted 5 years ago by nint221 2
+
+Description:
+
+You and a few co-workers are implementing a cool new technology called
+"blue-steel" (not to be confused with this awesome feat of technology). Part of
+this technology, specifically the part assigned to you, is to check what "type"
+a given string of information is. Blue-steel currently must distinguish between
+a signed integer, signed float, a date, and a text-string.
+
+Your goal is to write a function which, given a string of text, will echo out
+what "type" the string is. The string could be a signed integer (a series of
+digits with either a + or - at the front, though the + is optional), a signed
+float (a series of digits with either a + or - at the front, though the + is
+optional, and a . to distinguish the left and right hand digits), a date (which
+will be in the format of "day-month-year"), and finally a string of text (any
+other data). The given string will always be just one type at a time.
+
+Formal Inputs & Outputs:
+
+Input Description:
+
+String TypeString - A string to test what type it is.
+
+Output Description:
+
+You must print either "int", "float", "date", or "text" after identifying what
+string type this is.
+
+Sample Inputs & Outputs:
+
+"123" should print "int", so should "+123", "-123", "0", etc. "123.456" should
+print "float", while "20-11-2012" should print "date", and finally "Hello,
+World!" should print "text". Again, you are not expected to handle a multi-type
+string such as "Hello 123".
+
+  • 137 comments
+  • share
+  • save
+  • hide
+  • report
+
+all 137 comments
+sorted by:
+best
+topnewcontroversialoldrandomq&alive (beta)
+ [                    ]
+
+Want to add to the discussion?
+
+Post a comment!
+
+Create an account
+
+[–]offsound0 0 11 points12 points13 points 5 years ago* (0 children)
+
+Python. No regular expressions.
+
+def blue_steel(val):
+    try:
+        return 'int' if float(val) % 1 == 0 else 'float'
+    except:
+        try:
+            assert len([int(n) for n in val.split('-')]) == 3
+            return 'date'
+        except:
+            return 'text'
+
+*edit: changed return value from 'string' to 'text' per initial guidelines.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]skeeto-9 8 8 points9 points10 points 5 years ago (11 children)
+
+JavaScript,
+
+function typecheck(data) {
+    if (/^[+-]?\d+$/.test(data)) {
+        return "int";
+    } else if (/^[+-]?\d+\.\d*$/.test(data)) {
+        return "float";
+    } else if (/^\d{1,2}-\d{1,2}-\d{4}$/.test(data)) {
+        return "date";
+    } else {
+        return "text";
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]youssarian0 0 0 points1 point2 points 5 years ago (0 children)
+
+Yours is much nicer than mine.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]interesworth0 0 -1 points0 points1 point 5 years ago (9 children)
+
+Hi, could you please explain this to me? I'm currently learning JavaScript, but
+I didn't understand what's happening there in the conditions... Thanks in
+advance!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]skeeto-9 8 1 point2 points3 points 5 years ago (8 children)
+
+These are regular expressions, a mini-language for matching patterns in
+sequences. In JavaScript, a regexp literal is denoted by a pair of slashes with
+a pattern matcher in between. For example, this regexp matches 1 or more
+digits,
+
+/\d+/
+
+A \d means "match any digit character" and a + means "match the previous thing
+one or more times." You can test a string with the test() method,
+
+/\d+/.test("123"); // true
+/\d+/.test("abc"); // false
+
+There's a whole lot more to regexps than this so you'll need to go lookup a
+tutorial. (I learned regex over a decade ago so I don't know of any good online
+resources.) In my submission those regular expressions match the syntax of the
+different types.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]interesworth0 0 -1 points0 points1 point 5 years ago (0 children)
+
+Oh, so that's it... Amazing, thanks!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]interesworth0 0 -1 points0 points1 point 5 years ago (6 children)
+
+I started looking into it and it's pretty cool... Just out of curiosity, have
+you came into a point where you know what every character do, or you check a
+reference list sometimes? It's a lot of information, I don't know if I'll ever
+know them all...
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]skeeto-9 8 1 point2 points3 points 5 years ago (5 children)
+
+Each regexp engine -- JavaScript, Perl, Emacs, the various greps, sed, POSIX,
+Java, Matlab, etc. -- is a little bit different so I do often have to check a
+reference when I'm constructing a more complicated regexp. I don't actually
+need regexp very often for real projects; it's mostly for these sorts of tiny
+programming problems, since they so often (too often) focus on string parsing.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]interesworth0 0 -1 points0 points1 point 5 years ago (4 children)
+
+Sorry for bothering you, but you seem like you're one of the most badass guys
+around here. Just one more question:
+
+I'm trying to make a program that takes a string and tests if that's a valid
+English word. But the input is actually a bunch of letters, and I need to test
+them in every possible order.
+
+So if your input is "odg", it would test every permutation and determine that
+"dog" and "god" are valid words (by matching a word list that could be either a
+string or an array).
+
+My question is, is there a way to make the input letters as a regexp, so the
+order they are in doesn't matter? Something that would match a word with
+determined letters, and only with them, and in any possible order? If you can't
+understand what I mean, let me know. Thanks!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]skeeto-9 8 1 point2 points3 points 5 years ago (3 children)
+
+It's not a bother, these questions are fun.
+
+What you're trying to do can't be done with regexp alone. It can't generate
+permutations of its input. You'll need to do that yourself. For the second
+part, you could write and use a regexp that determines if a given string is a
+valid English word, but this still isn't what regexp is suited for. It would be
+better to look up the string in a data structure, like an array or a set, to
+see if it's in the collection. You probably wouldn't write this regexp by hand
+either since it would be a pain.
+
+For example, here's a JavaScript regexp that matches all three-letter English
+words (according to my system's dictionary). I generated this using Emacs
+regexp-opt function.
+
+var match3 = /(?:a(?:as|b[es]|c[est]|d[adosz]|ft|g[eos]|ha|i[dlmrs]|l[abeils]|m[psy]|n[adinty]|ol|p[ert]|r[acekmst]|s[hkps]|t[es]|u[gks]|v[aes]|w[el]|x[es]|y[es]|zs)|b(?:a[adghnrsty]|bs|cs|e[degnst]|i[bcdgnst]|ks|lu|m[sw]|o[abgopwxy]|r[ars]|ss|tu|u[dgmnrsty]|y[es])|c(?:a[bdlmnprstw]|ds|fs|h[ei]|id|ls|ms|o[bdgl-pstwxy]|r[sy]|ts|u[bdeprst])|d(?:a[bdmnsy]|cs|ds|e[bcelmnw]|i[degmnpsx]|o[cegnstw]|ps|ry|u[bdeghno]|ye)|e(?:a[rt]|bb|co|ds|e[lr]|g[go]|ke|l[fiklm]|m[su]|n[dg]|on|r[aegrs]|sq|ta|us|v[ae]|we|xs|ye)|f(?:a[dgnrstxy]|dr|e[bdenrswyz]|i[begnrtx]|l[aouy]|ms|o[begprx]|r[iosy]|u[nr])|g(?:a[bdglpsy]|ds|e[el-orst]|i[gln]|nu|o[abdgost]|ps|te|u[mnsty]|y[mp])|h(?:a[dghlmnstwy]|e[dmnprswxy]|fs|gs|i[dempst]|o[bdegnpstw]|ps|qs|u[beghimnst]|zs)|i(?:an|b[mo]|c[ey]|d[as]|fs|ke|l[akl]|mp|n[acdgkns]|o[ns]|qs|r[aeks]|sm|t[dos]|v[aesy])|j(?:a[bgmnrwy]|e[dtw]|fk|i[bgm]|o[begnsty]|rs|u[glnt])|k(?:ay|e[gny]|fc|hz|i[dmnpt]|rs)|l(?:a[bdgmopswxy]|bj|e[adeginostw]|i[bdenpstz]|o[bgnptuwx]|td|u[gsz]|y[ex])|m(?:a[cdeijnoprstwxy]|bs|ci|ds|e[glnstw]|g[ms]|hz|i[adglnrstx]|ns|o[bdem-psw]|ps|rs|ss|ts|u[dgm]|ys)|n(?:a[bgmnpsty]|bs|ds|e[dstvw]|i[blptx]|o[dehnrstvw]|ps|th|u[bnt]|ws|ée)|o(?:a[fkrt]|bs|ct|d[des]|er|f[ft]|h[mos]|il|ks|l[ad]|n[eo]|pt|r[aber]|u[rt]|va|w[eln]|xs)|p(?:a[dlmnprstwy]|bs|cs|ds|e[aeginprtw]|hd|i[egnpst]|js|ly|ms|o[deilpstx]|r[oy]|ss|ts|u[bgnpst]|y[mx])|q(?:om|ua)|r(?:a[egmnpstwy]|bs|ca|e[dfpsvx]|h[os]|i[bdgmop]|ns|o[bdentwy]|te|u[begmnst]|vs|ye)|s(?:a[cdglmnptwxy]|bs|cs|e[acenstwx]|gt|h[ey]|i[cdnprstx]|k[iy]|ly|ms|ns|o[bdlnpstwxy]|p[ay]|rs|t[uy]|u[beimnp]|ws)|t(?:a[bdgm-prstx]|bs|cs|e[adentx]|h[eosy]|i[acemnpst]|ls|ms|o[degm-prtwy]|ry|u[bgntx]|vs|w[ao]|ys)|u(?:bs|fa|gh|ks|mp|ns|ps|rn|s[es]|t[es]|vs|zi)|v(?:a[lnt]|ds|e[tx]|i[acems]|ow)|w(?:a[cdgnrsxy]|e[bdeint]|h[oy]|i[ginstz]|ms|o[eknotw]|ry|us|yo)|x(?:[el]s)|y(?:a[kmpw]|bs|e[anpstw]|ip|o[nu]|u[kmp])|z(?:ap|e[dn]|i[pt]|ns|o[eo]|rs))/;
+
+You could test three-letter words.
+
+match3.test('dog'); // true
+match3.test('dgo'); // false
+match3.test('god'); // true
+
+Alternatively, you could just keep a word list, which would be easier to
+maintain.
+
+var words = [
+    "aas", "abs", "acs", "ais", "ams", "aol", "azs", "abe", "ada",
+    "ags", "als", "ala", "ali", "amy", "ana", "ann", "apr", "ars",
+    /* ... */
+    "yaw", "yea", "yen", "yep", "yes", "yet", "yew", "yip", "yon",
+    "you", "yuk", "yum", "yup", "zap", "zed", "zip", "zit", "zoo"
+];
+
+words.indexOf('dog') >= 0; // true
+words.indexOf('dgo') >= 0; // false
+words.indexOf('god') >= 0; // true
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]interesworth0 0 -1 points0 points1 point 5 years ago (2 children)
+
+Thanks for clearing it all up! I already have the word list in an array, and
+using indexOf is a great idea for validating the string. Now I just have to
+figure out how to make the permutations. Thanks!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]skeeto-9 8 0 points1 point2 points 5 years ago (1 child)
+
+In case you didn't see it yet:
+
+http://www.reddit.com/r/dailyprogrammer/comments/164zvs/
+010713_challenge_116_easy_permutation_of_a_string/
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]interesworth0 0 -1 points0 points1 point 5 years ago (0 children)
+
+I did, thanks! But I think I have a problem with recursion: I don't quite get
+it. Maybe it's ok because I'm just starting to learn how to program, but
+probably there isn't another way to solve this problem...
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]king_duck0 0 4 points5 points6 points 5 years ago* (0 children)
+
+C++ function and complete code
+
+#include <boost/spirit/include/qi.hpp>
+#include <string>
+#include <iostream
+
+std::string get_type(const std::string& input) {
+    using namespace boost::spirit::qi;
+    auto first=input.begin(), last=input.end();
+    const char *s;
+    parse(first, last,
+        ( omit[repeat(1,2)[digit] >> "-" >> repeat(1,2)[digit] >> "-" >> repeat(4)[digit]] >> attr("date")
+        | omit[int_] >> !(lit(".") | "e" | "E") >> attr("int")
+        | omit[double_]                         >> attr("double")
+        | omit[*char_]                          >> attr("string")
+        )
+        , s
+    );
+    return s;
+}
+int main() {
+    auto a={ "123", "-123", "+123", "0", "123.456", "20-11-2012", "Hello, World!" };
+    std::transform(std::begin(a), std::end(a),
+            std::ostream_iterator<std::string>(std::cout, "\n"),
+            get_type
+    );
+}
+
+Output
+
+int
+int
+int
+int
+double
+date
+string
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]shmup 3 points4 points5 points 5 years ago* (1 child)
+
+CoffeeScript:
+
+blueSteel = (thing) ->
+  if isNaN thing
+      if Date.parse thing then "date" else "text"
+  else
+      if thing % 1 == 0 then "int" else "float"
+
+JavaScript it compiles into:
+
+(function() {
+  var blueSteel;
+
+  blueSteel = function(thing) {
+    if (isNaN(thing)) {
+      if (Date.parse(thing)) {
+        return "date";
+      } else {
+        return "text";
+      }
+    } else {
+      if (thing % 1 === 0) {
+        return "int";
+      } else {
+        return "float";
+      }
+    }
+  };
+
+}).call(this);
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]thebugfinder 1 point2 points3 points 5 years ago (0 children)
+
+hats off at your code in three conditinals. so far the best i have seen around.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]isopsephile 8 points9 points10 points 5 years ago (11 children)
+
+Clojure:
+
+(defn blue-steel [str]
+  (condp re-find str
+    #"[+-]?\d+\.\d+" "float"
+    #"\d+-\d+-\d+" "date"
+    #"[+-]?\d+" "int"
+    "text"))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 2 points3 points4 points 5 years ago (7 children)
+
+This is one of the cleanest solutions to a problem I've seen for one of my
+challenges - nice job! I really need to pick up a functional language and write
+a project around it...
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]rahmu0 0 3 points4 points5 points 5 years ago (5 children)
+
+This is hardly a feature of functional languages. The same could be done using
+Python dictionaries or Lua tables. Here's a (stripped down) example:
+
+function pattern_match(pat, str)
+   return str:find(pat) ~= nil
+end
+
+function blue_steel (s)
+   local d = {
+      [true] = "else", --optional "else" clause
+      [pattern_match("%d", s)] = "int",
+      [pattern_match("%d.%d", s)] = "float",
+   }
+   return d[true]
+end
+
+The first function pattern_match is there to circumvent a minor limitation of
+Lua (namely that tables cannot take nil for an index), and I did not match the
+dates because it's beyond the point.
+
+I agree that the Clojure solution is nicer. I'm merely pointing out that the
+idea of successive pattern matching (sometimes referred to as "guards") is not
+necessarily a feature of functional languages. I just showed how to implement
+it easily with dynamic languages, and other languages like Mathematica
+implement it natively.
+
+EDIT: formatting.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]bob1000bob 6 points7 points8 points 5 years ago (0 children)
+
+Whilst I agree this is not a feature strictly for functional languages, and it
+pains me to say it, solutions like your python and the C++ version just don't
+come close to the elegance of the closure version.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]isopsephile 1 point2 points3 points 5 years ago (2 children)
+
+It should be noted that neither of our solutions is an example of pattern
+matching. Clojure does have core.match, and I imagine Lua's context-sensitive
+function calls could emulate it reasonably well. In this case, though, we're
+both using what essentially amount to glorified switch statements, since we
+only ever act on truth or falsity, which aren't exactly "patterns" in the
+technical sense.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]rahmu0 0 1 point2 points3 points 5 years ago (1 child)
+
+I'm curious, why do you say this?
+
+I understand that both our implementations act on truth or falsity, but if that
+behavior was hidden in the internals of the language, would it become true
+pattern matching?
+
+How hard is it to modify your language to add a single keyword that performs
+the exact same behavior we both implemented?
+
+I guess my (honest) question is: What's the difference between textbook pattern
+matching and a glorified switch statement?
+
+For instance, is a dispatch on the type of an argument, considered pattern
+matching?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]isopsephile 4 points5 points6 points 5 years ago (0 children)
+
+To my mind, pattern matching is to switching as regular expressions are to
+string comparisons. The formers allow you to make more flexible decisions where
+the latters only respond to very rigid values. Being able to branch on the
+result of a function call considerably blurs this distinction, of course, so my
+point may well be moot.
+
+Still, the ability to accommodate "holes" is largely what makes pattern
+matching useful. For instance, handling [1, y, z], [x, 2, z], and [x, y, 3]
+differently in Lua is almost certainly possible, but I imagine it would require
+jumping through all kinds of hoops to get the variables properly localized. My
+very brief exposure to the language tells me that you'd probably need to
+initialize them beforehand and then just dispatch to a massive, manually
+constructed if-else block.
+
+In the end, the results would be more or less identical, but it helps to
+distinguish between what a language can do natively and what it must be coerced
+into doing. Under the hood, sure, pattern matching is just a glorified switch
+statement, but it strikes me as disingenuous to assert that lookup tables are a
+direct equivalent.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]AsciiFace 0 points1 point2 points 5 years ago* (0 children)
+
+This is just regex tho isn't it, why could the regex not be ported to python?
+
+edit: looked more closely, nevermind
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ILickYu0 0 1 point2 points3 points 5 years ago (0 children)
+
+You can also use in c# system.text.regularexpressions, which will enable you to
+easily do the same thing.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]groovy2shoes 1 point2 points3 points 5 years ago (0 children)
+
+A similar Tcl solution:
+
+proc blue-steel {str} {
+  switch -regexp $str {
+    {[+-]?\d+\.\d+} {puts "float"}
+    {\d+-\d+-\d+}   {puts "date"}
+    {[+-]?\d+}      {puts "int"}
+    {.*}            {puts "text"}
+  }
+}
+
+Tcl can sometimes behave like an ugly Lisp... instead of everything being an
+expression, everything is a command.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 0 points1 point2 points 5 years ago (1 child)
+
+I have a quick question about Clojure. I have never heard of it, how different
+is it form standard java?
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]TheOriginalIrish 0 points1 point2 points 5 years ago (0 children)
+
+It is a different language entirely. It is a type of Lisp (an old language,
+originally created for Artificial Intelligence). Clojure is a functional
+language, meaning amongst other things that:
+
+  • functions are first class citizens (so you can pass functions around as
+    parameters)
+  • there is a focus on keeping functions pure. A pure function is one that if
+    you call it twice with the same parameters it will always return the same
+    result (whereas in C for example the function could depend on program state
+    (global variables, user input, loaded files))
+
+The reason you think Clojure and Java are similar is because Clojure runs on
+the JVM, and you can use Java classes/ functions in Clojure.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]s23b0 0 3 points4 points5 points 5 years ago (3 children)
+
+Perl:
+
+sub type {
+    $_ = $_[0];
+    /^[+-]?\d+$/ && 'int' || /^[+-]?\d*\.\d+$/ && 'float' || /^\d\d-\d\d-\d{4}$/ && 'date' || 'string';
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]bigmell 0 points1 point2 points 5 years ago (2 children)
+
+is there a quick way to check dates making sure somebody doesnt enter
+99-99-9999 or something like that? Mine does a little but doesnt bounds check
+i.e. 39-2-2002 is ok...
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]s23b0 0 0 points1 point2 points 5 years ago (0 children)
+
+you could try to parse the date using Date::Manip or write you own date checker
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]thebugfinder 0 points1 point2 points 5 years ago (0 children)
+
+check at my reg exp solution, it does check that.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]skeeto-9 8 4 points5 points6 points 5 years ago* (1 child)
+
+Emacs Lisp,
+
+(defun typecheck (input)
+  (labels ((test (string regex) (string-match regex string)))
+    (let ((types '(("^[+-]?[[:digit:]]+$" int)
+                   ("^[+-]?[[:digit:]]+\\.[[:digit:]]*$" float)
+                   ("^[[:digit:]]+-[[:digit:]]+-[[:digit:]]+$" date))))
+      (or (second (assoc* input types :test #'test)) 'text))))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Quasimoto30001 0 0 points1 point2 points 5 years ago (0 children)
+
+I will always upvote emacs lisp usage.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]kirill_f 3 points4 points5 points 5 years ago (0 children)
+
+First sublission. Python
+
+def analyzeString(s):
+    if len(s.split('-')) == 3:
+        return "date"
+    elif len(s.split('.')) == 2:
+        if (s.split('.')[0] in string.digits) and (s.split('.')[1] in string.digits):
+            return "float"
+    elif s[0] == '-' or s[0] == '+':
+        return "int"
+    elif s in string.digits:
+        return "int"
+    else:
+        return "text"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]more_exercise[🍰] 9 points10 points11 points 5 years ago (0 children)
+
+AWK (because line-by-line work is awesome for this):
+
+{
+    found = 0;
+}
+/^[-+]?\d+$/ {
+    print "int";
+    found = 1;
+}
+/^[-+]?\d+\.\d+$/ {
+    print "float";
+    found = 1;
+}
+/^\d\d-\d\d-\d\d\d\d$/ {
+    print "date";
+    found = 1;
+}
+{
+    if(!found){
+        print "text";
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]more_exercise[🍰] 2 points3 points4 points 5 years ago (1 child)
+
+What type would a nonsensical date be?
+
+Something like 99-99-9999?
+
+How about 31-02-2012?
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 1 point2 points3 points 5 years ago (0 children)
+
+Nonsensical dates are fine, since date-checking rules are a tad complex.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Lux010 0 2 points3 points4 points 5 years ago (3 children)
+
+Using Haskell, the Read typeclass, and Maybe as an instance of MonadSum.
+
+import System.IO (stdout, BufferMode(..), hSetBuffering)
+import Control.Monad (msum, forever)
+import Data.Time.Format (parseTime)
+import Data.Time.Clock (UTCTime)
+import System.Locale (defaultTimeLocale)
+
+readMaybe :: Read a => String -> Maybe a
+readMaybe s = case [x | (x,t) <- reads s, ("","") <- lex t] of
+                [x] -> Just x
+                _   -> Nothing
+
+typeString :: String -> String
+typeString s = maybe "text" id $ msum [testReadInt, testReadFloat, testReadDate]
+  where testReadInt   = maybe Nothing (\_ -> Just "int") (readMaybe s :: Maybe Int)
+        testReadFloat = maybe Nothing (\_ -> Just "float") (readMaybe s :: Maybe Float)
+        testReadDate  = maybe Nothing  (\_ -> Just "date") (parseTime defaultTimeLocale "%d-%m-%Y" s :: Maybe UTCTime)
+
+main = forever $ do
+    hSetBuffering stdout NoBuffering
+    putStr "Input: "
+    s <- getLine
+    putStrLn $ typeString s
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Tekmo 1 point2 points3 points 5 years ago (2 children)
+
+Instead of maybe Nothing (\_ -> Just a) x, you can use fmap (\_ -> a) x, or
+even a <$ x (if you import Control.Applicative).
+
+Similarly, instead of maybe def id, you can just use fromMaybe def.
+
+Also, you can get readMay from the safe package.
+
+An even more idiomatic solution would be to use parsers.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 0 points1 point2 points 5 years ago (1 child)
+
+Also, (\_ -> a) is just const a
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]Tekmo 0 points1 point2 points 5 years ago (0 children)
+
+Yeah. For some reason I find the former prettier. I don't know why.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ReaperUnreal0 0 2 points3 points4 points 5 years ago (0 children)
+
+In D because I can't get over how easy this was. I need to use D more in
+personal projects:
+
+module easy113;
+
+import std.stdio;
+import std.regex;
+
+string stringType(string str)
+{
+   if(match(str, regex(r"^\d{1,2}-\d{1,2}-\d{4}$")))
+      return "date";
+   else if(match(str, regex(r"^[+-]?\d+\.\d+$")))
+      return "float";
+   else if(match(str, regex(r"^[+-]?\d+$")))
+      return "int";
+   else
+      return "text";
+}
+
+int main(string args[])
+{
+   writeln(stringType("123"));
+   writeln(stringType("+123"));
+   writeln(stringType("-123"));
+   writeln(stringType("0"));
+   writeln(stringType("123.456"));
+   writeln(stringType("20-11-2012"));
+   writeln(stringType("Hello World!"));
+   return 0;
+}
+
+Just learned now that D has built-in unit tests, so I'm going to try that next
+time. For now though, here's the output:
+
+int
+int
+int
+int
+float
+date
+text
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jmac321 2 points3 points4 points 5 years ago (2 children)
+
+Java, first submission.
+
+/**
+ * @param args
+ */
+public static void main(String[] args) {
+
+    boolean cont = true;
+    while(cont)
+    {
+        System.out.println("Enter in a string or q to quit.");
+        String usrinput;
+        Scanner scan = new Scanner(System.in);
+        usrinput = scan.next();
+
+        if(usrinput.equals("q"))
+        {
+            System.out.println("Exiting...");
+            cont = false;
+        }
+        else
+        {
+            try
+            {
+                int number = Integer.parseInt(usrinput);
+                System.out.println("int");
+            }
+            catch(NumberFormatException e)
+            {
+                try
+                {
+                    float numfloat = Float.parseFloat(usrinput);
+                    System.out.println("float");
+                }
+                catch(NumberFormatException ef)
+                {
+                    if(usrinput.charAt(2) == '-' && usrinput.charAt(5) == '-')
+                        System.out.println("date");
+                    else
+                        System.out.println("text");
+                }
+            }
+
+        }
+    }
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]WrongSubreddit 1 point2 points3 points 5 years ago (0 children)
+
+Hope you don't mind I was bored and wanted to jazz that up a little:
+
+public class BlueSteel {
+
+    public static void main(String[] args) {
+        BlueSteel main = new BlueSteel();
+        main.exercise();
+    }
+
+    private void exercise() {
+        Scanner scan = new Scanner(System.in);
+        for (String input = scan.nextLine(); !"q".equals(input); input = scan.nextLine()) {
+            try {
+                Integer.parseInt(input);
+                System.out.println("int");
+                continue;
+            } catch (NumberFormatException e) {
+                // Do nothing
+            }
+            try {
+                Float.parseFloat(input);
+                System.out.println("float");
+                continue;
+            } catch (NumberFormatException e) {
+                // Do nothing
+            }
+            if (input.contains("-")) {
+                System.out.println("date");
+                continue;
+            }
+            System.out.println("text");
+        }
+    }
+
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 0 points1 point2 points 5 years ago (0 children)
+
+It makes me feel a little bit better to see I'm not the only beginner java
+programmer who did it this way lol
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]mazedk 2 points3 points4 points 5 years ago* (0 children)
+
+Java:
+
+private boolean text = true;
+public static void main(String[] args) {
+    new C113e().run();
+}
+
+public void run() {
+    Scanner scan = new Scanner(System.in);
+    String input = scan.next();
+    int size = input.length();
+    int countDots = 0;
+    int countDashes = 0;
+
+    for (int i = 0; i < size; i++) {
+        if (!Character.isLetter(input.charAt(i)) && input.charAt(i) != '-'
+                    && input.charAt(i) != '.' && input.charAt(i) != ',')
+            text = false;
+        if (input.charAt(i) == '.')
+            countDots++;
+        else if (input.charAt(i) == '-')
+            countDashes++;
+    }
+    if (text == true)
+        System.out.println("text");
+    else if (countDots == 1)
+        System.out.println("float");
+    else if (countDashes == 2)
+        System.out.println("date");
+    else if (countDots == 0 && countDashes == 0 || countDashes == 1) // is 1 if minus number (i.e. -123)
+        System.out.println("int");
+}
+
+Probably far from most efficient solution, but I like the way I handled dates,
+since it doesnt matter if u type year first or last. (MM-DD-YYYY / YYYY-MM-DD)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]DannyP72 5 points6 points7 points 5 years ago (5 children)
+
+Ruby
+
+def type_check(input)
+  case
+    when input.match(/^[+-]?\d*$/); puts "int"
+    when input.match(/^[+-]?\d*\.\d*$/); puts "float"
+    when input.match(/^[+-]?\d*-\d*-\d*$/); puts "date"
+    else puts "text"
+  end
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]isopsephile 7 points8 points9 points 5 years ago* (1 child)
+
+In Ruby, when clauses use === to test for a match; conveniently, Regexp ===
+String is equivalent to String.match(Regexp). Also, case statements are
+themselves expressions, and since you're using puts in each possible outcome,
+this solution could be written this way:
+
+puts case input
+  when /^[+-]?\d*$/ then "int"
+  ...
+  else "text"
+end
+
+I think it makes the code much cleaner, but it is a little too "Perl" for some.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]DannyP72 1 point2 points3 points 5 years ago (0 children)
+
+I hadn't done case select in ruby before so I had just quickly googled it and
+stuck it in. That's a much nicer way to do it :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]thebugfinder 1 point2 points3 points 5 years ago* (2 children)
+
+Your function will wrongly validate values as:
+
+int: +, -, "" <-- empty string
+float: ., +.
+date: ----, +---, ---, +1--2, 11111-2222-3333
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]DannyP72 1 point2 points3 points 5 years ago (1 child)
+
+Whoops that's pretty sloppy regex on my part. OK here's a much improved
+version.
+
+def type_check(input)
+  puts case input
+    when /^[+-]?\d+$/ then "int"
+    when /^\d+\.+\d+$/ then "float"
+    when /^\d+-{1}\d+-{1}\d+$/ then "date"
+    else "text"
+  end
+end
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]thebugfinder 0 points1 point2 points 5 years ago (0 children)
+
+you don't need the quantifier {1}, since that's implicit when no quantifier is
+being used. I think you need either one or two digits for the day and month
+
+/^\d{1,2}-\d{1,2}-\d+$/
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]pahefu 3 points4 points5 points 5 years ago* (3 children)
+
+Python. Not as fancy or pretty like other posted but ensures one pass only over
+the string, using a weird state machine like process. Doesn't parse dates nor
+validate input as string.
+
+def bluesteel(a):
+    stat = -1
+    num = 0
+    types = ["int","float","int","float","DAY-STATE","MONTH-STATE","date","text"]
+
+    for s in a:
+        os = ord(s)
+        if os>=0x30 and os<=0x39:
+            if stat == -1: stat = 0
+            num = num +1
+        elif s == '+':
+            if stat!=-1 : return types[-1]
+            else: stat = 2
+        elif s == '-':
+            if stat == -1 : stat = 2
+            elif stat == 0 and num==2: stat = 4
+            elif stat == 4 and num==4: stat = 5
+            else: return types[-1]
+        elif s == '.':
+            if stat == 0 or stat == 2: stat = stat+1
+            else: return types[-1]
+        else: return types[-1]
+
+    if stat == 4 : stat = -1
+    elif stat == 5 and num == 8: stat = 6
+    elif stat == 5 and num != 8: stat = -1
+    return types[stat]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]juntang 0 points1 point2 points 5 years ago (1 child)
+
+I hear that term used a lot but what exactly is a state machine?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]finn_thehuman 0 points1 point2 points 5 years ago (0 children)
+
+http://en.wikipedia.org/wiki/Finite-state_machine
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ewiethoff0 0 0 points1 point2 points 5 years ago (0 children)
+
+os = ord(s)
+if os>=0x30 and os<=0x39:
+
+is very C-ish. :-) More Pythonic would be
+
+if '0' <= s <= '9':
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]quinnjn 1 point2 points3 points 5 years ago (1 child)
+
+PHP
+
+<?php
+$input = $argv[1];
+if(preg_match("/[+-]{1}\d+\.\d+/", $input)){echo "float";}
+else if(preg_match("/\d+-\d+-\d+/", $input)){echo "date";}
+else if(preg_match("/[+-]{1}\d+/", $input)){echo "int";}
+else {echo "string";}
+echo "\n";
+?>
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]thoneney 1 point2 points3 points 5 years ago* (2 children)
+
+C
+
+#include<stdio.h>
+#include<string.h>
+
+void str_type(char str[])
+{
+    int hasSign = 0, hasDigit = 0, hasSign2 = 0, hasDot = 0, i;
+    int len = strlen(str);
+    for(i = 0;i < len;i++){
+        if(str[i] >= '0' && str[i] <= '9') hasDigit = 1;
+        if(str[i] == '.') hasDot = 1;
+        if(str[i] == '-' && hasSign == 1) hasSign2 = 1;
+        if(str[i] == '-') hasSign = 1;
+    }
+    if(hasDigit && hasDot) printf("float\n");
+    else if(hasDigit && !hasDot && !hasSign2) printf("int\n");
+    else if(hasSign2) printf("date\n");
+    else printf("text\n");
+
+}
+
+int main(int argc, char **argv)
+{
+    str_type(argv[1]);
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]lukz2 0 0 points1 point2 points 5 years ago (1 child)
+
+Easy to read, but wrong. There is no "int" output.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]thoneney 0 points1 point2 points 5 years ago (0 children)
+
+It appears that i forgot to update my post to the latest version which should
+account for every possibility, i've updated the post.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]lukz2 0 1 point2 points3 points 5 years ago* (0 children)
+
+Common Lisp
+
+(defun normalize (s &aux r)
+  (dolist (i (coerce s 'list) (coerce (reverse r) 'string))
+    (if (char<= #\0 i #\9) (setf i #\0))
+    (if (and r (char= #\0 i (car r))) 0 (push i r))))
+
+(defun match (i &rest r) (find (normalize i) r :test 'equal))
+
+(defun get-type1 (s)
+  (if (match s "0." "+0." "-0." ".0" "+.0" "-.0" "0.0" "+0.0" "-0.0") "float"
+    (if (match s "0" "+0" "-0") "int"
+      (if (match s "0-0-0") "date" "text"))))
+
+(defun get-type (type-string) (princ (get-type1 type-string)))
+
+Info: The function get-type just prints to the standard output the result of
+get-type1. That function in turn normalizes the input string (converting all
+digits to 0 and removing multiple occurrences in sequence) and then tries to
+match a specified pattern. No regular expressions library is used.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]thebugfinder 1 point2 points3 points 5 years ago (0 children)
+
+My regular expression approach in Ruby, doing date validation
+
+def validate(s)
+    if s.scan(/^[+-]?\d+(\.\d*)?$/){ |dec|
+        return :int if dec[0].nil?
+        return :float
+    }
+    end
+
+    return :date if s.match(/^(0?[1-9]|1[0-9]|2[0-9]|3[01])-(0?[1-9]|1[0-2])-(\d\d){1,2}$/)
+    return :text
+end
+
+Unit Test
+
+require "test/unit"
+class TestTypeCheck < Test::Unit::TestCase
+    def test_simple
+        cases = {
+            :int => [
+                "34",
+                "+33",
+                "-33",
+                "0", #zero
+                "+0", #zero
+                "-0", #zero
+                "-999999999999444444444444444434567890", #big num
+                #"  9  ", #trailing spaces
+                ],
+            :float => [
+                "1.22",
+                "+1.22",
+                "-1.22",
+                "0.00000",
+                "+0.00",
+                "-0.00",
+                "1.",
+                "-999999999999444444444444444434567890.99", #big num
+                ],
+            :date => [
+                "20-11-2015",
+                "31-12-99",
+                "01-01-00",
+                "01-01-0000",
+                "01-09-99",
+                ],
+
+            :text => [
+                "X",
+                "", #empty string
+                "          ", #spaces string
+                "  9  ", #trailing spaces
+                "1.2.3",
+                "-9345.99.",
+                "-9345.99.0",
+                "-.0",
+                "-.0",
+                "3.xx",
+
+                #invalid dates
+                "0-0-55",
+                "00-00-55",
+                "-12-2012",
+                "30--2012",
+                "20-11-015",
+                "020-011-015",
+                "20-11-5",
+
+                #out of range dates
+                "20-41-55",
+                "20-13-2012",
+                "32-11-2015",
+            ],
+        }
+        cases.each do |type, e|
+            e.each { |input| assert_equal(validate(input), type, "Input: #{input}") }
+        end
+    end
+end
+
+Output
+
+Finished tests in 0.000000s, Inf tests/s, Inf assertions/s.
+1 tests, 40 assertions, 0 failures, 0 errors, 0 skips
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]bigmell 1 point2 points3 points 5 years ago (0 children)
+
+#!/usr/bin/perl
+
+if($ARGV[0] eq ""){
+  print "Enter some data: ";
+  my $instr = <STDIN>;
+  chomp ($instr);
+}else{
+$instr=$ARGV[0];
+}
+if($instr =~ /^[-+]?[0-9]*$/){
+  print "int\n";
+}
+elsif($instr =~ /^[-+]?[0-9]*\.[0-9]+$/){
+  print "float\n";
+}
+elsif($instr =~ /[0-3][0-9]-[0-1][0-9]-[0-9][0-9][0-9][0-9]/){
+  print "date\n";
+}
+else{
+  print "text\n"
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ahlk0 0 1 point2 points3 points 5 years ago* (2 children)
+
+Perl *edit: fixed +- and -+, added in date checking for every month, and leap
+year. expanded to multiple lines for clarity
+
+chomp(my $_ = <>);
+if(/^[-\+]?\d*?\.\d+$/) { say "float"; }
+elsif(/^[-\+]?\d+$/)    { say "int"; }
+elsif(/^(\d{1,2})-(\d{1,2})-(\d+)$/)
+{
+    my ($d, $m, $y) = ($1, $2, $3);
+    say (($m =~ /^(1|3|5|7|8|10|12)$/ and $d eq "31") || ($y % 4 == 0 and $m eq "2" and $d ge "1" and $d le "29") || ($m eq "2" and $d ge "1" and $d le "28") || ($m ne "2" and $d le "30" and $d ge "1") ? "date" : "text");
+}
+else    { say "text"; }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]s23b0 0 0 points1 point2 points 5 years ago (1 child)
+
++-1 is int
+
+-+.1 is float
+
+999-999-999 is date :P
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]cdelahousse 1 point2 points3 points 5 years ago (0 children)
+
+Javascript:
+
+    function bluesteel(str) {
+        var integer = /^[+-]?\d+$/
+            ,   afloat = /^[+-]?\d*\.+\d+$/
+            , date = /^\d{1,2}-\d{1,2}-\d{4}$/;
+
+        if (integer.test(str)) {
+            console.log("integer");
+        }
+        else if (afloat.test(str)) {
+            console.log("float");
+        }
+        else if (date.test(str)) {
+            console.log("date");
+        }
+        else {
+            console.log("string");
+        }
+
+    }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Smike010 0 1 point2 points3 points 5 years ago (0 children)
+
+My C# Solution:
+
+String typeString = Console.ReadLine();
+            char[] a = typeString.ToCharArray();
+            bool numbers = false;
+            bool dashes = false;
+            bool periods = false;
+
+            if (a[0] == '-' || a[0] == '+')
+            {
+                numbers = true;
+            }
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (a[i] == '1' || a[i] == '2' || a[i] == '3' || a[i] == '4' || a[i] == '5' || a[i] == '6' || a[i] == '7' || a[i] == '8' || a[i] == '9' || a[i] == '0')
+                {
+                    numbers = true;
+                }
+
+                else if (a[i] == '.')
+                {
+                    periods = true;
+                }
+            }
+
+            for (int i = 1; i < a.Length; i++)
+            {
+                if (a[i] == '-')
+                {
+                    dashes = true;
+                }
+            }
+
+            if (numbers)
+            {
+                if (dashes)
+                {
+                    Console.WriteLine("date");
+                }
+                else if (periods)
+                {
+                    Console.WriteLine("float");
+                }
+                else
+                {
+                    Console.WriteLine("int");
+                }
+            }
+            else
+            {
+                Console.WriteLine("text");
+            }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ttr3980 0 1 point2 points3 points 5 years ago (0 children)
+
+VB.net. Doesn't notice if dates are well formed but incorrect. Felt like I
+ought to be able to make select case work but couldn't - any pointers?
+
+    Dim input As String
+    input = Console.ReadLine()
+    Dim output As String = ""
+    If input Like "##[/.-]##[/.-]*" Then
+        output = "Date"
+    ElseIf IsNumeric(input) Then
+        input = CDbl(input)
+        If input Mod 1 = 0 Then
+            output = "integer"
+        Else
+            output = "float"
+        End If
+    Else
+        output = "string"
+    End If
+    Console.WriteLine(output)
+    Console.ReadLine()
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]paulwithap 1 point2 points3 points 5 years ago (0 children)
+
+Here is my Java solution. I'm so glad I found this sub-reddit. I've been
+desperately needing something to get back into coding without just reading
+about it.
+
+The date regex doesn't really check for valid dates right now. Figuring that
+one out.
+
+package easy;
+
+import java.util.Scanner;
+import java.util.regex.*;
+
+public class TypeChecker {
+
+private static final String INTEGER = "\\+?-?[0-9]+";
+private static final String DATE = "[0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]";
+private static final String FLOAT = "\\+?-?[0-9]+\\.[0-9]+";
+
+public static void main(String[] args) {
+    String typeString = "";
+    Scanner scan = new Scanner( System.in );
+
+    while (true) {
+        System.out.println("Please enter a string or q to quit:");
+        typeString = scan.nextLine();
+        if (typeString.equals("q")) {
+            System.out.println("Goodbye.");
+            break;
+        } else if (typeString.matches(INTEGER)) {
+            System.out.println("integer");
+        } else if (typeString.matches(DATE)) {
+            System.out.println("date");
+        } else if (typeString.matches(FLOAT)) {
+            System.out.println("float");
+        } else {
+            System.out.println("text");
+        }
+    }
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]adzeitor0 0 3 points4 points5 points 5 years ago (0 children)
+
+haskell using parsec with check date:
+
+import Data.Time
+import Text.ParserCombinators.Parsec
+
+date = do
+  d <- many1 digit
+  char '-'
+  m <- many1 digit
+  char '-'
+  y <- many1 digit
+  eof
+  case fromGregorianValid (read y) (read m) (read d) of
+    Just x -> return  "date"
+    Nothing -> unexpected "not valid date"
+
+int = do
+  optional (char '+' <|> char '-')
+  many1 digit
+  eof
+  return "int"
+
+float = do
+  optional (char '+' <|> char '-')
+  many1 digit
+  char '.'
+  many1 digit
+  eof
+  return "float"
+
+main = do
+  i <- getLine
+  putStrLn $ either (const "text") id
+    $ (parse (try int <|> try float <|> try date) "" i)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Boolean_Cat 2 points3 points4 points 5 years ago* (0 children)
+
+C++
+
+std::string getType(std::string data)
+{
+    static const boost::regex re_type_int("^(\\+|\\-)?\\d+$");
+    static const boost::regex re_type_float("^(\\+|\\-)?\\d+\\.\\d+$");
+    static const boost::regex re_type_date("^\\d{1,2}\\-\\d{1,2}\\-\\d{4}$");
+
+    if(boost::regex_match(data, re_type_int))
+        return "int";
+    else if (boost::regex_match(data, re_type_float))
+        return "float";
+    else if (boost::regex_match(data, re_type_date))
+        return "date";
+    else
+        return "text";
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pivotallever 1 point2 points3 points 5 years ago (0 children)
+
+python
+
+this matches dates in the form: (01-31)-(01-12)-(0000-9999)
+
+test cases included
+
+#!/usr/bin/env python
+import re
+
+date = r'(0[1-9]{1}|[1-2]{1}[0-9]{1}|3[0-1]{1})-(0[1-9]{1}|1[0-2]{1})-\d{4}'
+sigint = r'^[+-]?\d+$'
+sigfloat = r'^[+-]?\d+\.\d+$'
+
+types = [('date', re.compile(date)),
+         ('int', re.compile(sigint)),
+         ('float', re.compile(sigfloat))]
+
+def get_type(typestring):
+    for name, pattern in types:
+        if re.match(pattern, typestring) is not None:
+            return name
+    return 'text'
+
+if __name__ == '__main__':
+    tests = [('1', 'int'), ('1.1', 'float'), ('01-01-2020', 'date'), ([], None),
+             ('abc123-2020', 'text'), ('.9', 'text'), ('32-10-9999', 'text')]
+    for test, expected in tests:
+        if isinstance(test, str):
+            print expected == get_type(test)
+        else:
+            print "Non String. Skipping."
+
+test output
+
+True
+True
+True
+Non String. Skipping.
+True
+True
+True
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]mlor0 0 1 point2 points3 points 5 years ago* (3 children)
+
+Sure, I could have used regexes, but where's the fun in that? I really just
+wanted to be able to implement a dynamic like in my second example. :)
+
+Edit: Updates/corrections will be made in comments under this as needed.
+
+C# (method using TryParsers):
+
+void Main()
+{
+    GetType("test");
+    GetType("1");
+    GetType("2.3");
+    GetType("11-12-2012");
+}
+
+void GetType(dynamic typeString){
+    //Check to see if int
+    try{
+        int dummy;
+        if(int.TryParse(typeString, out dummy)){
+            Console.WriteLine("int");
+            return;
+        }
+    }
+    catch(Exception e){
+        //Do nothing
+    }
+
+    //Check to see if float
+    try{
+        float dummy;
+        if(float.TryParse(typeString, out dummy)){
+            Console.WriteLine("float");
+            return;
+        }
+    }
+    catch(Exception e){
+        //Do nothing
+    }
+
+    //Check to see if date
+    try{
+        DateTime dummy = new DateTime();
+        //Default date parse
+        if(DateTime.TryParse(typeString, out dummy)){
+            Console.WriteLine("date");
+            return;
+        }
+        //Alt date form
+        if(DateTime.TryParseExact(typeString, "dd-MM-yyyy",
+System.Globalization.CultureInfo.InvariantCulture,
+            System.Globalization.DateTimeStyles.None, out dummy)){
+            Console.WriteLine("date");
+            return;
+        }
+    }
+    catch(Exception e){
+        //Do nothing
+    }
+
+    //Is text
+    Console.WriteLine("text");
+}
+
+Output:
+
+text
+int
+double
+date
+
+C# (method using dynamic and system type checking):
+
+void Main()
+{
+    GetType("test");
+    GetType(1);
+    GetType(2.3);
+    GetType("11-12-2012");
+}
+
+void GetType(dynamic typeString){
+    //Check to see if date before using .GetType()
+    try{
+        DateTime dummy = new DateTime();
+        if(DateTime.TryParse(typeString, out dummy)){
+            Console.WriteLine("date");
+            return;
+        }
+    if(DateTime.TryParseExact(typeString, "dd-MM-yyyy",
+System.Globalization.CultureInfo.InvariantCulture,
+            System.Globalization.DateTimeStyles.None, out dummy)){
+            Console.WriteLine("date");
+            return;
+        }
+    }
+    catch(Exception e){
+        //Do nothing
+    }
+
+    string type = typeString.GetType().ToString();
+
+    //Print out the type that it evaluated to
+    switch (type){
+        case "System.Int16":
+        case "System.Int32":
+        case "System.Int64":
+            Console.WriteLine("int");
+            break;
+        case "System.Double":
+            Console.WriteLine("double");
+            break;
+        case "System.String":
+            Console.WriteLine("text");
+            break;
+        default:
+            Console.WriteLine("none");
+            break;
+    }
+}
+
+Output:
+
+text
+int
+double
+date
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Duncans_pumpkin 1 point2 points3 points 5 years ago (2 children)
+
+Why have you rapped your TryParses around a try block. TryParse shouldn't
+through an exception if it fails. As you have noted correctly if it fails it
+will return false. I don't understand how your dynamic one works but then I
+haven't really looked at the dynamic keyword.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]mlor0 0 -1 points0 points1 point 5 years ago* (1 child)
+
+    Why have you rapped your TryParses around a try block
+
+Ah, yes. Being up far too late strikes again. Leftover from when I had it
+working a different way. Forgot to remove them. Nice catch.
+
+I also noticed, after removing the unnecessary try/catch blocks that my dynamic
+was not functioning properly. There needed to be a .ToString() in the
+DateTime.TryParse and DateTime.TryParseExact methods on the typeString
+argument.
+
+    I don't understand how your dynamic one works but then I haven't really
+    looked at the dynamic keyword.
+
+[DEL:Basically there are three concepts to grasp.:DEL] Given the following
+statements:
+
+int x = 1;
+var y = 2;
+dynamic z = 3;
+
+The C# compiler knows, at compile time, only what types of objects x and y are.
+Even though var is not a specific type, the compiler can infer that y is an int
+.
+
+The dynamic keyword preceding z allows us to defer the binding of that variable
+until runtime. Therefore, the type is not known until that time. The compiler
+doesn't know what type it is, nor does it care. In fact, with dynamic objects,
+you lose Intellisense ability in Visual Studio because it (the dynamic object
+in question) could literally be anything.
+
+TL;DR: All three, x, y, and z; are integers. The difference being that x and y
+are integers at compile time, but z is not until runtime.
+
+Updated:
+
+C# (with TryParsers):
+
+void Main()
+{
+    GetType("test");
+    GetType("1");
+    GetType("2.3");
+    GetType("11-12-2012");
+}
+
+void GetType(dynamic typeString){
+    //Check to see if int
+        int iDummy;
+        if(int.TryParse(typeString, out iDummy)){
+            Console.WriteLine("int");
+            return;
+        }
+
+    //Check to see if float
+        float fDummy;
+        if(float.TryParse(typeString, out fDummy)){
+            Console.WriteLine("float");
+            return;
+        }
+
+    //Check to see if date
+        DateTime dDummy = new DateTime();
+        //Default date parse
+        if(DateTime.TryParse(typeString, out dDummy)){
+            Console.WriteLine("date");
+            return;
+        }
+        //Alt date form
+    if(DateTime.TryParseExact(typeString, "dd-MM-yyyy", System.Globalization.CultureInfo.    InvariantCulture,
+            System.Globalization.DateTimeStyles.None, out dDummy)){
+            Console.WriteLine("date");
+            return;
+        }
+
+    //Is text
+    Console.WriteLine("text");
+}
+
+C# (with dynamic):
+
+void Main()
+{
+    GetType("test");
+    GetType(1);
+    GetType(2.3);
+    GetType("11-12-2012");
+}
+
+void GetType(dynamic typeString){
+    //Check to see if date before using .GetType()
+        DateTime dummy = new DateTime();
+        if(DateTime.TryParse(typeString.ToString(), out dummy)){
+            Console.WriteLine("date");
+            return;
+        }
+    if(DateTime.TryParseExact(typeString.ToString(), "dd-MM-yyyy", System.Globalization.    CultureInfo.InvariantCulture,
+            System.Globalization.DateTimeStyles.None, out dummy)){
+            Console.WriteLine("date");
+            return;
+        }
+
+    string type = typeString.GetType().ToString();
+
+    //Print out the type that it evaluated to
+    switch (type){
+        case "System.Int16":
+        case "System.Int32":
+        case "System.Int64":
+            Console.WriteLine("int");
+            break;
+        case "System.Double":
+            Console.WriteLine("double");
+            break;
+        case "System.String":
+            Console.WriteLine("text");
+            break;
+        default:
+            Console.WriteLine("none");
+            break;
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Duncans_pumpkin 0 points1 point2 points 5 years ago (0 children)
+
+Okay thanks for that. The other reason I never encountered dynamic is because
+I'm still using .Net v3.5 should really get round to updating my visual studio.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]rowenlemming 1 point2 points3 points 5 years ago* (5 children)
+
+Python
+
+def blue_steel(TypeString):
+    try: #proper input check
+        if "-" in TypeString: #this will skip the otherwise expensive string split/compare if TypeString can't be a date
+            dateCheck = TypeString.split("-") #shamelessly stolen from paralepsis
+            if len(dateCheck) == 3 and dateCheck[0].isdigit() and dateCheck[1].isdigit() and dateCheck[2].isdigit():
+                return "date" #this should catch ALL dates, so any further code won't be running on a date
+        is_int = True
+        for char in TypeString:
+            if char not in "0123456789+-":
+                is_int = False #if any char is not 1234567890+-, type must be float,string
+                if char != ".": #if any char is neither 1234567890+- NOR . type must be string
+                    return "string"
+        if is_int:
+            return "int" #all characters are 1234567890+-, it's an int
+        else:
+            return "float" #all characters are 1234567890+- AND at least one decimal point, it's a float
+    except TypeError:
+        return "Please only use Strings as input" #Strings only
+
+Heavily commented for educational purposes. I feel like the code is pretty
+time-efficient, but to be honest I don't know how to time code snippets in
+Python. How'd I do?
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 5 years ago (2 children)
+
+[deleted]
+
+[–]rowenlemming 0 points1 point2 points 5 years ago (1 child)
+
+List comprehensions are still magic to me. Spent months learning Javascript
+then about a week learning Python and, well, it shouldn't be that easy is all.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]gammadistribution0 0 0 points1 point2 points 5 years ago (0 children)
+
+Oh man, coming from a mathematics background, list comprehension makes total
+sense to me and should be in every language.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]dtuominen0 0 0 points1 point2 points 5 years ago* (1 child)
+
+I timed it against the list I used to test my own.
+
+    testdata = ['123', ['123', 123],
+                '123.0', '31-12-2012',
+                'fart butt butt', {},
+                '25-25-2525']
+
+Your results
+
+(py)anime@bonestorm:~/projects/code/py/reddit/easy113$ time python   blue_steel.py     int
+Please only use Strings as input
+float
+date
+string
+int
+date
+
+real    0m0.028s
+user    0m0.015s
+sys     0m0.011s
+
+compared to regex solution:
+
+(py)dylan@bonestorm:~/projects/code/py/reddit/easy113$ time python type_check.py
+PASSED! ints
+Failed, Not a string, type: <type 'list'>
+PASSED! float
+PASSED! dates
+PASSED! string
+Failed, Not a string, type: <type 'dict'>
+PASSED! string
+
+real    0m0.028s
+user    0m0.017s
+sys     0m0.009s
+
+I was too lazy to make a huge test set, so here you go!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]pitkali 0 points1 point2 points 5 years ago (0 children)
+
+You can always run tested code several times and time that for more reliable
+results.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]dtuominen0 0 1 point2 points3 points 5 years ago (0 children)
+
+python
+
+import re
+
+regex_list = ['^(\+|\-)?(\d+)(\.\d+)$',
+              '^\+|\-?(\d+)$',
+              '^(0[0-9]{1}|[1-2]{1}[0-9]{1}|3[0-1]{1})-(0[1-9]{1}|1[0-2]{1})-(\d{4})']
+types = ['float', 'ints', 'dates']
+type_list = zip(types, [re.compile(regex) for regex in regex_list])
+
+def run_check(test):
+    for t, regex in type_list:
+        if re.match(re.compile(regex), test):
+            return 'PASSED! {}'.format(t)
+
+
+if __name__ == '__main__':
+    testdata = ['123', ['123', 123],
+                '123.0', '31-12-2012',
+                'fart butt butt', {},
+                '25-25-2525']
+    for test in testdata:
+        if not isinstance(test, str):
+            print 'Failed, Not a string, type: {}'.format(type(test))
+            continue
+        print run_check(test) if run_check(test) is not None else 'PASSED! string'
+
+output
+
+PASSED! ints
+Failed, Not a string, type: <type 'list'>
+PASSED! float
+PASSED! dates
+PASSED! string
+Failed, Not a string, type: <type 'dict'>
+PASSED! string
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]huck_cussler0 0 1 point2 points3 points 5 years ago* (2 children)
+
+[Python]
+
+This feels very inelegant. Gonna look over other solutions and probably
+facepalm a couple times.
+
+edit: doesn't handle ints and floats with a '+' appended to the front, maybe
+later.
+
+import re
+
+def whatItIs(mys):
+    if '.' in mys:
+        try:
+            float(mys)
+            print('float')
+            return
+        except:
+            pass
+    try:
+        int(mys)
+        print('int')
+        return
+    except:
+        pass
+    if re.match('\d+\-\d+\-\d+', mys):
+        print('date')
+    else:
+        print('string')
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pitkali 0 points1 point2 points 5 years ago (1 child)
+
+Why do you think it does not handle +? +xxx is a valid syntax for numbers in
+python. I would be more worried that 99999999-99999999-999999 is a date
+according to your code. I know the problem description does not include
+validation of whether a date exists, but that seems like a stretch ;)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]huck_cussler0 0 0 points1 point2 points 5 years ago (0 children)
+
+Good question. I'm new to python. I assumed '+nnnnn.nnn' would not cast
+correctly to a float.
+
+And I was aware of the second concern. My only excuse is laziness. Well, that
+and I had to do some homework. The date thing should be an easy fix though.
+I'll take a crack at it this afternoon.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Bigelownage 1 point2 points3 points 5 years ago* (3 children)
+
+Java, using regular expressions:
+
+    public static String typeCheck(String s){
+       if(s.matches("\\d{1,2}[/-]\\d{1,2}[/-]\\d{1,4}"))
+           return "date";
+       if(s.matches("^[+-]?\\d+$"))
+           return "int";
+       if(s.matches("^[+-]?\\d+\\.\\d+$"))
+           return "float";
+       return "text";
+    }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Ferwerda 0 points1 point2 points 5 years ago (2 children)
+
+A question: does Java not continue to execute all statements in a method even
+after a return statement? I ask this because I ran into an error caused by
+somewhat similar behavior today (with sendRedirect in JSP).
+
+Now, if that would be so (and I honestly don't know) it would seem like a waste
+to go over the other if evaluations after you've found your date.
+
+I'm guessing maybe processing does stop after return though. Would you happen
+to know this?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Bigelownage 2 points3 points4 points 5 years ago (1 child)
+
+Java won't run anything after a return statement, but only if that statement is
+executed. For example, if the string matches the date regex, it will return
+"date" and skip over the rest of the code in the method.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Ferwerda 2 points3 points4 points 5 years ago (0 children)
+
+Thanks for your reply. I learned something today! Something that I'm sure I'll
+be using plenty before long.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ahoy1 1 point2 points3 points 5 years ago (1 child)
+
+my try in Python
+
+def blue_steel(input):
+    try:
+        if float(input) % 1 = 0:
+            value_type = 'int'
+        else:
+            value_type = 'float'
+    except ValueError:
+        pass
+    if '-' or '/' in input:
+        value_type = 'date'
+    else:
+        value_type = 'text"
+    return value_type
+
+print blue_steel(raw_input(">>> "))
+
+I haven't actually tested this, but I can see that it will spit back 'date' for
+anything with a '-' or '/' in it. I can fix this later when I've got more time.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Quasimoto30001 0 0 points1 point2 points 5 years ago (0 children)
+
+interesting solution
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 1 point2 points3 points 5 years ago (0 children)
+
+Python:
+
+import re
+from string import strip
+
+def blueS(string):
+    if re.search("^\d+\.\d+$",strip(string)):
+        return 'float'
+    elif re.search("^\d\d-\d\d-\d{4}$",strip(string)):
+        return 'date'
+    elif re.search("^[-+]?\d+$",strip(string)):
+        return 'int'
+    else:
+        return 'text'
+
+feels like I'm missing something here?
+
+  • permalink
+  • embed
+  • save
+
+[–]ben174 1 point2 points3 points 5 years ago (0 children)
+
+Python:
+
+def identify_datatype(input):
+    try:
+        if "." in input:
+            float(input)
+            return "float"
+        else:
+            int(input)
+            return "int"
+    except:
+        pass
+
+    dt_split = input.split("-")
+
+    if len(dt_split) == 3:
+        if (len(dt_split[0]) == 2 and
+            len(dt_split[1]) == 2 and
+            len(dt_split[2]) == 4):
+            try:
+                int(dt_split[0])
+                int(dt_split[1])
+                int(dt_split[2])
+                return "date"
+            except:
+                pass
+
+    ret = "text"
+    return ret
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]prestige87 1 point2 points3 points 5 years ago (0 children)
+
+in Java guys
+
+private static float floatCheck;
+private static int intCheck;
+private static SimpleDateFormat dateCheck;
+
+public static String check(String data) {
+    if (checkFloat(data)) {
+        return "Float";
+    }
+    if (checkInt(data)) {
+        return "Integer";
+    }
+    if (checkDate(data)) {
+        return "Date";
+    }
+    return "String";
+}
+
+private static boolean checkFloat(String data) {
+    try {
+        floatCheck = (Float) Float.parseFloat(data);
+        if (data.contains(".")) {
+            return true;
+        } else {
+            return false;
+        }
+    } catch (Exception e) {
+        return false;
+    }
+}
+
+private static boolean checkInt(String data) {
+    try {
+        intCheck = (Integer) Integer.parseInt(data);
+        return true;
+    } catch (Exception e) {
+        return false;
+    }
+}
+
+private static boolean checkDate(String data) {
+    try {
+        dateCheck = new SimpleDateFormat("dd/MM/yyyy");
+        dateCheck.parse(data);
+        return true;
+    } catch (Exception e) {
+        return false;
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]stooner 0 points1 point2 points 5 years ago (3 children)
+
+C#...This took me longer than I wanted:
+
+    static void Main(string[] args)
+    {
+        Console.Write("Input:");
+
+        DateTime dte;
+        string inpt = Console.ReadLine();
+        var Floatregex = new Regex(@"^\d*(?:\.\d*)?$");
+        var intregex = new Regex(@"^[+-]{0,1}[0-9]+$");
+
+        if (Floatregex.IsMatch(inpt) && inpt.Contains("."))
+            Console.Write("float");
+        else if (intregex.IsMatch(inpt))
+            Console.Write("int");
+        else if (DateTime.TryParse(inpt,out dte))
+            Console.Write("date");
+        else
+            Console.Write("text");
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]bob1000bob 1 point2 points3 points 5 years ago (2 children)
+
+could you not have used the Int32 TryParse functions as you have done with
+DateTime?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]stooner 0 points1 point2 points 5 years ago (1 child)
+
+I tried, but it kept telling me that 12/23/2012 was a valid int, so I needed to
+get around that. plus, with how mlor coded his, I found those blocks, but my
+code would not compile for whatever reason.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]bob1000bob 2 points3 points4 points 5 years ago (0 children)
+
+could you not just have tried to parse them in a different order. Such as
+
+psudeo code
+
+try_date(...)
+try_int(...)
+try_double(...)
+-> text
+
+This way if it is a date, it will be picked up before int had chance to do so.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]thebugfinder 1 point2 points3 points 5 years ago* (2 children)
+
+Ruby,
+
+def validate(s)
+    begin
+        Float(s) != nil
+    rescue
+        require 'date'
+        Date.parse(s) rescue return :text
+        return :date
+    else
+        Integer(s) != nil rescue return :float
+        return :int
+    end
+end
+
+Unit Test
+
+require "test/unit"
+class TestTypeCheck < Test::Unit::TestCase
+    def test_simple
+        cases = {
+            :int => [
+                "34",
+                "+33",
+                "-33",
+                "0", #zero
+                "+0", #zero
+                "-0", #zero
+                "-99999999999999999999999544444444444444444434567890", #big num
+                "  9  ", #trailing spaces
+                ],
+            :float => [
+                "1.22",
+                "+1.22",
+                "-1.22",
+                "0.00000",
+                "+0.00000",
+                "-0.00000",
+                "-99999999999999999999999544444444444444444434567890.99", #big num
+                "10e5", #scientific notation
+                ],
+            :date => [
+                "20-11-2012",
+                "1.2.3",
+                "20-11-2012 23:33",
+                ],
+
+            :text => [
+                "Hello World",
+                "", #empty string
+                "20-13-2012 25:33", #invalid date
+            ],
+        }
+        cases.each do |type, e|
+            e.each { |input| assert_equal(validate(input), type, "Input: #{input}") }
+        end
+    end
+end
+
+Output
+
+Finished tests in 0.031250s, 32.0000 tests/s, 704.0000 assertions/s.
+1 tests, 22 assertions, 0 failures, 0 errors, 0 skips
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pitkali 0 points1 point2 points 5 years ago (1 child)
+
+Nice. I was wondering about using builtin Lisp types in a similar way at the
+beginning. However, scientific notation is not actually included in problem
+description.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]thebugfinder 0 points1 point2 points 5 years ago (0 children)
+
+I know about the scientific notation, I was just showing off what you get for
+free in ruby ;-)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]pitkali 0 points1 point2 points 5 years ago* (2 children)
+
+Back from business trip and still learning Common Lisp :)
+
+I though for a while whether or not implement my own state machine, and even
+draw a graph for it, but in the end decided to just learn interface for
+cl-ppcre.
+
+(for testing it would be advisable to (ql:quickload '(#:cl-ppcre #:fiveam)) so
+that you can later (5am:run!))
+
+EDIT: remove redundant do and extend float format to be fully symmetrical.
+
+(defpackage #:com.pitkali.r/dailyprogrammer.113-string-type
+  (:use #:cl #:cl-ppcre)
+  (:export #:check-string-type))
+
+(in-package #:com.pitkali.r/dailyprogrammer.113-string-type)
+
+(defparameter *string-type-decision-system*
+  `(("int" . ,(create-scanner "^[-+]?\\d+$"))
+    ("float" . ,(create-scanner "^[-+]?(\\d+\\.\\d*|\\.\\d+)$"))
+    ("date" . ,(create-scanner "^\\d\\d-\\d\\d-\\d\\d\\d\\d$"))))
+(defparameter *default-string-type* "text")
+
+(defun check-string-type (input-string)
+  (loop for (type . scanner) in *string-type-decision-system*
+     when (scan scanner input-string) return type
+     finally (return *default-string-type*)))
+
+#+5am
+(5am:test string-type
+  (loop for (expected-type . inputs)
+     in '(("int" . ("123" "+123" "-123" "0"))
+          ("float" . ("123.3" "+1.23" "-1.23" "-1." ".3" "-.3" "+.3"))
+          ("date" . ("99-99-9999"))
+          ("text" . ("999-99-9999" "Hello world!" "++12" "--12" "." "+." "-.")))
+     do (loop for i in inputs
+           do (5am:is (string= expected-type (check-string-type i)) i))))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]skeeto-9 8 0 points1 point2 points 5 years ago (1 child)
+
+Nice, this is very idiomatic lisp, especially for some who's just learning.
+
+The loop macro has when and return keywords built-in already, so you don't need
+to use a do.
+
+(defun check-string-type (input-string)
+  (loop for (type . scanner) in *string-type-decision-system*
+     when (scan scanner input-string) return type
+     finally (return *default-string-type*)))
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]pitkali 0 points1 point2 points 5 years ago (0 children)
+
+Ah, I knew the when, but I must have missed the return thing. Thanks, that'll
+make it even better.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]youssarian0 0 0 points1 point2 points 5 years ago* (0 children)
+
+JavaScript, rather inelegant and amateur but I'm proud of it.
+
+function checkType(){
+// Store a local copy of what's been entered.
+var data=document.getElementById("query").value;
+
+  testString=/[A-z]/;
+  if(testString.test(data)){
+    document.getElementById("result").innerHTML="The input is a string.";
+  }else{
+    testFloat=/[.]/;
+    if(testFloat.test(data)){
+      document.getElementById("result").innerHTML="The input is a floating point number.";
+    }else{
+      testDate=/[-{2,}]/;
+      if(testDate.test(data)){
+        document.getElementById("result").innerHTML="The input is a date.";
+      }else{
+        testInt=/^\s*(\+|-)?\d+\s*$/;
+        if(testInt.test(data)){
+          document.getElementById("result").innerHTML="The input is an integer.";
+        }else{
+          document.getElementById("result").innerHTML="The input is a string.";
+        }
+      }
+    }
+  }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]live-and-learn 0 points1 point2 points 5 years ago* (0 children)
+
+Perhaps could be shortened, but I'm not sure how at the moment. Please critique
+the crap out of my first post on /r/dailyprogrammer - I love a daily dose of
+healthy criticism.
+
+from re import match
+def TypeCheck(StringType):
+    if match(r'^[+|-]?\d+$', StringType): return "int"
+    elif match(r'^\d+\.\d+$', StringType): return "float"
+    elif match(r'^\d{2}-\d{2}-\d{4}$', StringType): return "date"
+    return "text"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Jesus_Chris0 0 0 points1 point2 points 5 years ago* (0 children)
+
+My solution is a C# windows form apps one:
+
+http://i.imgur.com/Cp4O4.png
+
+While making this I noticed that .NET uses 'cultures', so floats with a period
+as the decimal mark didn't work, and I had to replace periods with commas for
+this to work for my settings. Someone in America will probably find that this
+application identifies floats as plain text because of this.µ
+
+Also, my date checking is very limited and unreliable, I'm aware of this but
+I'm too lazy to make something better.
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace DailyProgrammer_11_20_2012_easy
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void btnCheckType_Click(object sender, EventArgs e)
+        {
+            String input = txtInputString.Text;
+            if (input.Equals(""))
+                txtOutput.Text = "No input string was given.";
+            else
+            {
+                string type="text";
+                txtOutput.Text = "";
+                int outputInt;
+                float outputFloat;
+                if(Int32.TryParse(input,out outputInt))
+                {
+                    type = "int";
+                }
+                else if (float.TryParse(input.Replace(".",",") , out outputFloat))
+                {
+                    type = "float";
+                }
+                else if (input.Length == 8 | input.Length == 10)
+                {
+                    uint mdy;
+                    string[] dividers = { "/", "-", "." };
+                    foreach (string divider in dividers)
+                    {
+                        if ((input.Substring(2, 1) + input.Substring(5, 1)).Equals(divider + divider))
+                        {
+                            string tryparse = input.Substring(0,2);
+                            tryparse+=input.Substring(3,2);
+                            tryparse+=(input+"00").Substring(6,4);
+                            if (uint.TryParse(tryparse, out mdy))
+                            {
+                                type = "date";
+                            }
+                            break;
+                        }
+                    }
+                }
+
+                txtOutput.Text = "This input string's type is \""+type+"\".";
+
+            }
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Sir_Speshkitty0 0 0 points1 point2 points 5 years ago (0 children)
+
+C#
+
+using System;
+using System.Text.RegularExpressions;
+
+namespace daily113
+{
+    class Program
+    {
+        static String[] inputs = { "123", "+123", "-123", "0", "123.456", "20-11-2012", "Hello, world" };
+        static Regex intreg = new Regex(@"[+-]?[0-9]+");
+        static Regex floatReg = new Regex(@"[+-]?[0-9]+[.][0-9]+");
+        static Regex dateReg = new Regex(@"[0-9]{1,2}-[0-9]{1,2}-[0-9]{4}");
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Inputs -> desired output:");
+            Console.WriteLine("   123 -> int");
+            Console.WriteLine("   +123 -> int");
+            Console.WriteLine("   -123 -> int");
+            Console.WriteLine("   0 -> int");
+            Console.WriteLine("   123.456 -> float");
+            Console.WriteLine("   20-11-2012 -> date");
+            Console.WriteLine("   Hello, world -> string");
+            Console.WriteLine();
+            Console.WriteLine("Outputs:");
+
+            foreach (String s in inputs)
+            {
+                if (floatReg.IsMatch(s)) Console.WriteLine("   " + s + " -> float");
+                else if (dateReg.IsMatch(s)) Console.WriteLine("   " + s + " -> date");
+                else if (intreg.IsMatch(s)) Console.WriteLine("   " + s + " -> int");
+                else Console.WriteLine("   " + s + " -> string");
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
+
+There's probably a better way of doing it...
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ripter 0 points1 point2 points 5 years ago (0 children)
+
+JavaScript:
+
+function printType(str) {
+  var int = /^[+-]?\d+$/
+    , float = /^\d+\.\d+$/
+    , date = /^\d+-\d+-\d+$/
+    ;
+
+  if (int.test(str)) { return 'int'; }
+  if (float.test(str)) { return 'float'; }
+  if (date.test(str)) { return 'date'; }
+  return 'string';
+}
+
+I was pretty lax on the regex, but it passes all of the tests provided.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Kealper 0 points1 point2 points 5 years ago (0 children)
+
+I'm so painfully late on this it hurts but I haven't been here in a while and I
+had some time to kill, so I figured I'd go for it...
+
+Done in Go:
+
+package main
+
+import (
+    "fmt"
+    "regexp"
+)
+
+func checkType(s string) string {
+    isFloat, _ := regexp.Compile(`^(\-|\+)?([0-9]+?)\.([0-9]+?)$`)
+    if isFloat.MatchString(s) {
+        return "float"
+    }
+    isInt, _ := regexp.Compile(`^(\-|\+)?([0-9]+?)$`)
+    if isInt.MatchString(s) {
+        return "int"
+    }
+    isDate, _ := regexp.Compile(`^[0-9]{2}\-[0-9]{2}\-[0-9]{4}$`)
+    if isDate.MatchString(s) {
+        return "date"
+    }
+    return "string"
+}
+
+func main() {
+    fmt.Println(checkType("-123"))
+    fmt.Println(checkType("+456"))
+    fmt.Println(checkType("123456"))
+    fmt.Println(checkType("0"))
+    fmt.Println(checkType("-123.456"))
+    fmt.Println(checkType("+123.456"))
+    fmt.Println(checkType("123.456"))
+    fmt.Println(checkType("12-15-2012"))
+    fmt.Println(checkType("/r/dailyprogrammer"))
+}
+
+Output:
+
+int
+int
+int
+int
+float
+float
+float
+date
+string
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]KinkMcGink 0 points1 point2 points 5 years ago* (0 children)
+
+Ruby ruby ruby ruby!
+
+puts "Please enter your string:"
+input = gets.chomp
+
+puts case input
+  when /\d+-\d+-\d+/ then "date"
+  when /\d+\.\d+/    then "float"
+  when /\d+/         then "int"
+  when /[a-z]+/i     then "string"
+  else               raise "Invalid String"
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]phoric 0 points1 point2 points 5 years ago (0 children)
+
+Python. Not foolproof regex patterns, but it works. Might try another method.
+
+#!/usr/bin/env python2
+
+# Challenge #113: String-type checking
+# variant/solution #2
+
+import re
+
+# sample input data
+strings = ['99.9', '9-16-1983', '11', '42.0', '06-23-1999', 'bluesteel techology', '9115']
+
+# regular expression patterns
+float_pattern = "\d\.\d"
+date_pattern  = "\d*\-\d*\-\d\d*"
+int_pattern   = "\d+$"
+text_pattern  = ".*"
+
+def bluesteel(num):
+    """ Search data and return resulting 'type' of string """
+    if re.search(float_pattern, strings[num]):
+        result = "float"
+    elif re.search(date_pattern, strings[num]):
+        result = "date"
+    elif re.search(int_pattern, strings[num]):
+        result = "int"
+    elif re.search(text_pattern, strings[num]):
+        result = "text"
+    else:
+        result = "Unknown type or data empty."
+
+    return result
+
+if __name__ == '__main__':
+    for x in range(len(strings)):
+        print bluesteel(x)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]radiataGhost 0 points1 point2 points 5 years ago (0 children)
+
+My crappy Python solution, any criticism is welcome and appreciated:
+
+from datetime import datetime
+
+def blue_steel(string):
+    try:
+        result = int(string)
+        return "int"
+    except ValueError:
+        try:
+            result = float(string)
+            return "float"
+        except ValueError:
+            try:
+                result = datetime.strptime(string, "%d-%m-%Y")
+                return "date"
+            except ValueError:
+                return "text"
+
+print blue_steel("123")
+print blue_steel("+123")
+print blue_steel("-123")
+print blue_steel("0")
+print blue_steel("123.456")
+print blue_steel("20-11-2012")
+print blue_steel("Hello, World!")
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 5 years ago (0 children)
+
+Java, second submission:
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class TypeString {
+
+static SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+
+public static String typeTest(String test) {
+    String type = "String";
+    try {
+        int intTest = Integer.parseInt(test);
+        type = "Integer";
+    } catch (NumberFormatException e) {
+        try {
+            float floatTest = Float.parseFloat(test);
+            type = "Float";
+        } catch (NumberFormatException f) {
+            try {
+                Date testDate = dateFormat.parse(test);
+                type = "Date";
+            } catch (Exception g) {
+
+            }
+        }
+    }
+    return type;
+}
+
+public static void main(String[] args) {
+    // TODO Auto-generated method stub
+    String userString = args[0];
+    System.out.println(typeTest(userString));
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+
+[–][deleted] 0 points1 point2 points 5 years ago (0 children)
+
+Ruby, no regexps. Took the liberty of returning class names instead of strings:
+
+require "date"
+
+def blue_steel(s)
+  Integer(s).class    rescue
+  Float(s).class      rescue
+  Date.parse(s).class rescue
+  String(s).class
+end
+
+Output:
+
+puts blue_steel("123") #=> Fixnum
+puts blue_steel("+123") #=> Fixnum
+puts blue_steel("123.456") #=> Float
+puts blue_steel("-123.456") #=> Float
+puts blue_steel("20-11-2012") #=> Date
+puts blue_steel("Hello, World!") #=> String
+
+  • permalink
+  • embed
+  • save
+
+[–]t-j-b 0 points1 point2 points 5 years ago (0 children)
+
+JavaScript Implementation:
+
+var types = {
+'int': /^\d+$/g,
+'float': /\d+\.\d+/g,
+'date': /([0-3][0-9]){1}-([1-12][1-12]){1}-([1900-2050]{4})/g,
+'text': /[a-zA-z]+/g
+};
+
+var checker = function (str){
+
+for(var i in types){
+    if(str.match(types[i]) != null){
+        var msg = i+"<br />";
+        document.write(msg);
+        break
+    };
+}
+
+}
+
+checker("1.34533");
+checker("457767");
+checker("20-11-2011");
+checker("The quick brown fox");
+
+http://jsfiddle.net/8dfD6/1/
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]eagleeye10 1 0 points1 point2 points 5 years ago* (4 children)
+
+Python
+
+Function:
+
+def typecheck(string):
+    if '.' in string:
+        try:
+            float(string)
+            print "float"
+        except:
+            print "string"
+    try:
+        int(string)
+        print "int"
+    except:
+        dateString = '0123456789-'
+        #elif "-" in string[1:]:
+        if string.count("-") == 2:
+            if set(string).issubset(datestring):
+                print "date"
+            else:
+                print "string"
+        else:
+            print "string"
+
+Output:
+
+>>> typecheck("+123123")
+int
+>>> typecheck("-000123123")
+int
+>>> typecheck("-000.123123")
+float
+>>> typecheck("11-12-2012")
+date
+>>> typecheck("asdfiaojef")
+string
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]robin-gvx0 2 2 points3 points4 points 5 years ago (3 children)
+
+Simple solution, shame it doesn't do everything right:
+
+>>> typecheck("blue-steel")
+date
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]eagleeye10 1 0 points1 point2 points 5 years ago (2 children)
+
+Whoops! I commented and modified to fix that. Thanks!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]robin-gvx0 2 0 points1 point2 points 5 years ago (1 child)
+
+Much better. Your revision has another minor thing:
+
+sum(1 for char in string if char == "-" )
+
+is the same as
+
+string.count("-")
+
+I have a feeling there is also a simpler way to say
+
+all(1 for char in string if char in dateString)
+
+but I wouldn't know what that would be.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]eagleeye10 1 0 points1 point2 points 5 years ago (0 children)
+
+Cool, didn't know about count.
+
+I also forgot one thing in that second part. The way it's written would always
+return true. It should be:
+
+sum(1 if c in datestring else 0 for c in string)
+
+A simpler way may be
+
+set(string).issubset(datestring)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Idra_rage_lulz 0 points1 point2 points 5 years ago* (1 child)
+
+c++, idk what I'm doing really, true novice at programming -.-
+
+edit: how do I get my code to be nicely formatted on reddit???
+
+include <string>
+
+include <iostream>
+
+using namespace std;
+
+int blueSteel(void) { cout << "Enter a string of text and I'll tell you the
+type: " << endl; string str; cin >> str; if (48 <= static_cast<int>(str[0]) &&
+57 >= static_cast<int>(str[0]) || str[0] == '+' || str[0] == '-') { if (str[2]
+== '-' && str[5] == '-' && str.length() == 10) { cout << "Date" << endl; return
+0; } for(int i = 1; i < str.length(); i++) { if (str[i] == '.') { cout <<
+"Float" << endl; return 0; } } cout << "Number" << endl; return 0; } cout <<
+"Text" << endl; return 0; }
+
+int main(void) { blueSteel(); return 0; }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]newpong 1 point2 points3 points 5 years ago (0 children)
+
+Check the side bar -------------->
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]candidcold 0 points1 point2 points 5 years ago (2 children)
+
+Python - When I check it, it works, but seems as if it's too simple compared to
+some of the other answers here.
+
+def stringChecker(toCheck):
+    toString = str(toCheck)
+    first = toString[0]
+
+    if "." in toString:
+        return "float"
+    if "-" in toString and "-" not in first: # - can't be the first character, or else it'd be a string
+        return "date"
+    if first in "0123456789" or first == "+" or first == "-": # Only runs if it's not a date/float
+        return "int"
+    return "text" # If none of the above, just returns text
+
+
+word = raw_input("Enter a word to be checked: ")
+print stringChecker(word)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dzhoe 0 points1 point2 points 5 years ago* (1 child)
+
+You've over simplified it and it doesn't work.
+
+For a float it just simply checks if '.' is in the word, which doesn't
+necessarily make it a float, e.g. an input of 123.4.5 would return 'float',
+whereas it should return 'text'.
+
+Date checks if a hyphen is anywhere in the string apart from first character,
+meaning a string with any number of '-' would give the output 'date', e.g.
+12---234-2---4-4-1 would return 'date' when it should return 'text'.
+
+Your int checker just sees if the first character is a number and doesn't check
+the others, so an input of 123hello would give an output of 'int' but it should
+give 'text'.
+
+I'm still a beginner, but heres my python solution:
+
+def type_check(string):
+    try:
+        float(string)
+        if float(string) % 1 == 0: # number which % 1 = 0 is interger
+            return 'int'
+        else:                      # any other value that could be
+            return 'float'         # converted to float must be a float
+    except ValueError:
+        pass
+
+    if string[0:2].isdigit() and string[2] == '-' and string[3:5].isdigit()\
+                and string[5] == '-':  # checks 2 digits hyphen 2 digits etc.
+        return 'date'
+    else:                              # anything left must be a text
+        return 'text'
+
+print type_check(raw_input("Enter data: "))
+
+It seems to work for all tests I could think of.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]candidcold 0 points1 point2 points 5 years ago (0 children)
+
+Thanks for the response, although you wouldn't have to check for multi-typed
+strings (in the OP), but I understand. Thanks again.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]jappacappa 0 points1 point2 points 5 years ago (0 children)
+
+My C# solution
+
+    public int checkType(string s)
+    {
+        // return 0 for error.
+        // return 1 for "int"
+        // return 2 for "float"
+        // return 3 for "date"
+        // return 4 for "text"
+
+        // int
+        Regex regexInt = new Regex(@"^[+-]{0,1}[0-9]+$"); //new Regex("^[+-]?\\d+$/");
+        Regex regexFloat = new Regex("\\d+\\.\\d+");
+        //Regex regexDate = new Regex("\\d{2}\\-\\d{2}-\\d{4}");
+        Regex regexText = new Regex("\\D+");
+
+        DateTime dt;
+        if (s == string.Empty)
+        {
+            return 4;
+        }
+        else if (regexInt.IsMatch(s))
+        {
+            return 1;
+        }
+        else if (regexFloat.IsMatch(s))
+        {
+            return 2;
+        }
+        else if (DateTime.TryParse(s, out dt))
+        {
+            return 3;
+        }
+        else if (regexText.IsMatch(s))
+        {
+            return 4;
+        }
+
+        return 0;
+    }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pbl24 0 points1 point2 points 5 years ago (0 children)
+
+Naive Python solution using regular expressions.
+
+def blue_steel(input):
+    if re.match(r'^(\+|\-)?\d+$', input):
+        return 'Signed integer'
+    elif re.match(r'^(\+|\-)?\d+\.\d+$', input):
+        return 'Signed float'
+    elif re.match(r'^\d{1,2}\-\d{1,2}\-\d{4}$', input):
+        return 'Date'
+
+    return 'Text'
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]heyyouitsmewhoitsme 0 points1 point2 points 5 years ago (0 children)
+
+Python,
+
+import re
+
+def get_type(i):
+    t = ""
+    if re.match("^\-?[0-9]+$",i):
+        t = "int"
+    elif re.match("^\-?[0-9]+\.[0-9]+$",i):
+        t = "float"
+    elif re.match("^((1|2)[0-9])|(30|31)\-(0[0-9]|11|12)-[0-9][0-9][0-9][0-9]",i):
+        t = "date"
+    else:
+        t = "text"
+    return t
+
+test_data = ["123","-123","12-09-1992","32-22-9992"]
+
+for data in test_data:
+    print data, get_type(data)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]bheinks0 0 0 points1 point2 points 5 years ago (0 children)
+
+Python
+
+from re import match
+
+def blue_steel(string):
+    if match(r"[+-]?\d+$", string):
+        print("int")
+    elif match(r"\d+\.\d+$", string):
+        print("float")
+    elif match(r"\d{2}-\d{2}-\d{4}$", string):
+        print("date")
+    else:
+        print("text")
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]swarage0 0 -1 points0 points1 point 5 years ago (2 children)
+
+ruby solution :
+
+def string_type(str)
+if !(str =~ /\D|\./) or (str =~ /^-/)
+    return "int"
+elsif !(str =~ /\.|\-/) and (str =~ /\D/)
+    return "string"
+elsif (str =~ /\D|\.|/) and !(str =~ /\-/)
+    return "float"
+elsif (str =~ /..\-/) and !(str =~ /\.\D/)
+    return "date"
+else
+    return "unrecognizable string"
+end
+end
+
+
+puts string_type("1234") #returns int
+puts string_type("asdf, ghjk") # returns string
+puts string_type("12.3") #returns float
+puts string_type("12-23-2012") #returns date
+puts string_type("-254") #returns int
+
+(anxiously awaits TheMightySkeetadon's answer :D)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]thebugfinder 0 points1 point2 points 5 years ago (1 child)
+
+anything that is "unrecognizable string" should be text, as there is not such a
+thing as unrecognizable
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]swarage0 0 0 points1 point2 points 5 years ago (0 children)
+
+correction:
+
+ruby solution :
+
+def string_type(str)
+    if !(str =~ /\D|\./) or (str =~ /^-/)
+        return "int"
+    elsif !(str =~ /\.|\-/) and (str =~ /\D/)
+        return "string"
+    elsif (str =~ /\D|\.|/) and !(str =~ /\-/)
+        return "float"
+    elsif (str =~ /..\-/) and !(str =~ /\.\D/)
+        return "date"
+    else
+        return "text"
+    end
+end
+
+
+puts string_type("1234") #returns int
+puts string_type("asdf, ghjk") # returns string
+puts string_type("12.3") #returns float
+puts string_type("12-23-2012") #returns date
+puts string_type("-254") #returns int
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]beefheart_0 0 -1 points0 points1 point 5 years ago (0 children)
+
+import java.util.Scanner;
+
+public class StringType {
+
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        String s=in.nextLine();
+        String s2=tc(s);
+        System.out.println(s2);
+    }
+
+    private static String tc(String s) {
+    String r;
+    if(s.charAt(0)=='-' || s.charAt(0)=='+' || Character.isDigit(s.charAt(0)) && !s.contains(".")) {
+        r=new String("int");
+        if((s.length()>5) && (s.charAt(2)=='-') && (s.charAt(5)=='-')) {
+            r="date";
+        }
+    }else if(s.contains(".") && Character.isDigit(s.charAt(s.indexOf('.')-1)) && Character.isDigit(s.charAt(s.indexOf('.')+1))) {
+        r=new String("float");
+    } else {
+        r=new String("text");
+    }
+    return r;
+    }
+}
+
+java approach. the float check is a little lengthy, but i couldn't think of a
+simpler check
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]htcorgasm0 0 -1 points0 points1 point 5 years ago* (0 children)
+
+In C#. There's probably a cleaner way of doing this, but I'm still pretty poor
+at programming. Also, I've no idea how to parse a DateTime that uses dashes
+instead of slashes. Could someone offer some pointers?
+
+    static void Main(string[] args)
+    {
+        bool exit = false;
+        while (!exit)
+        {
+            string input;
+            input = Console.ReadLine();
+            Parse(input);
+            Console.WriteLine("Enter another or quit");
+        }
+    }
+
+    static void Parse(string value)
+    {
+        int number;
+        float number1;
+        DateTime number2;
+
+        if (value.Length > 0)
+        {
+            if (int.TryParse(value, out number))
+            {
+                Console.WriteLine("Integer");
+            }
+            else if (float.TryParse(value, out number1))
+            {
+                Console.WriteLine("Float");
+            }
+            else if (DateTime.TryParse(value, out number2))
+            {
+                Console.WriteLine("Date");
+            }
+            else
+            {
+                Console.WriteLine("String");
+            }
+        }
+    }
+}
+
+}
+
+Edit: To the person who downvoted this, could you at least give me a reason why
+and offer some advice as to how I can improve it?
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] -1 points0 points1 point 5 years ago (0 children)
+
+I did mine in C# and I should I know that tryParse is easier, faster and more
+effective but I needed to learn to use RegEx and this seemed like the perfect
+opportunity.
+
+private string detectType(string sInput)
+    {
+        bool isNumber = Regex.IsMatch(sInput, @"^[+|-]\d+$");
+        bool isString = Regex.IsMatch(sInput, @"\w");
+        bool isDate = Regex.IsMatch(sInput, @"^[0-9]{2}[-|\.][0-9]{2}[-|\.][0-9]{4}$");
+        bool isFloat = Regex.IsMatch(sInput, @"^(\d+)?\.\d+$");
+
+        if (isNumber) { return "number"; }
+        else if (isDate) { return "date"; }
+        else if (isFloat) { return "float"; }
+        else if (!isNumber) { return "string"; }
+        else return null;
+    }
+
+  • permalink
+  • embed
+  • save
+
+  • about
+  • blog
+  • about
+  • advertising
+  • careers
+
+  • help
+  • site rules
+  • Reddit help center
+  • wiki
+  • reddiquette
+  • mod guidelines
+  • contact us
+
+  • apps & tools
+  • Reddit for iPhone
+  • Reddit for Android
+  • mobile website
+  • buttons
+
+  • <3
+  • reddit gold
+  • redditgifts
+
+Use of this site constitutes acceptance of our User Agreement and Privacy
+Policy. (C) 2018 reddit inc. All rights reserved.
+
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+Advertise - technology
+
+[pixel]
+
+π Rendered by PID 66981 on app-231  at 2018-05-07 20:18:07.365202+00:00 running
+37be41a country code: CH.
+

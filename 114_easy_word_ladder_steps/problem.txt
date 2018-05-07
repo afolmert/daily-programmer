@@ -1,0 +1,4998 @@
+ 
+r/dailyprogrammer
+log insign upsign in
+Reddit Feeds
+
+  • popular
+  • all
+  • 
+
+Sign up and stay connected to your favorite communities.
+
+sign uplog in
+ 
+r/
+
+dailyprogrammer
+
+Posts
+53
+Posted by
+u/Cosmologicon
+2 35 years ago
+
+[12/4/2012] Challenge #114 [Easy] Word ladder steps
+
+A word ladder is a sequence of words made by changing one letter at a time. For
+example:
+
+cold → cord → card → ward → warm
+
+Given a word, list all the words that can appear next to it in a word ladder,
+using this list of 3,807 four-letter words. Sample input:
+
+puma
+
+Sample output:
+
+duma
+pima
+puja
+pula
+pump
+puna
+pupa
+
+How many words from the list can appear next to the word best in a word ladder?
+
+Bonus 1: One word in the list has 33 other words that can appear next to it.
+What is this word?
+
+Bonus 2: How many different words can be reached, starting from best, in 3 or
+fewer steps?
+
+Thanks to Thomas1122 for suggesting this challenge on r/dailyprogrammer_ideas!
+
+154 comments
+share
+95% Upvoted
+Sort by
+best
+ 
+best
+ 
+top
+ 
+new
+ 
+controversial
+ 
+old
+ 
+q&a
+[deleted]
+17 points·5 years ago
+
+J:
+
+   NB. D is a list of boxes containing all words.
+
+   w =. 'puma'
+   (#~ (3 : '1 = +/ w ~: >y')"0) D
++----+----+----+----+----+----+----+
+|duma|pima|puja|pula|pump|puna|pupa|
++----+----+----+----+----+----+----+
+
+Explanation:
+
+First, let's look at this function:
+
+    3 : '1 = +/ w ~: >y'
+
+It's a monadic function that takes one argument, y, which is a boxed string from our list, D.
+
+* First, it 'unwraps' the value using >.
+
+* Then, it compares w and y by character (~: is "Not Equal")
+
+  This results in a list of booleans like this:
+
+     'abcde' ~: 'abxde'
+  0 0 1 0 0
+
+* It counts the number of 1's using +/ ("Add"), and compares it to 1.
+
+We can read this function as: "Is there only one character different between w and the
+argument?"
+
+Let's call this function "distcheck."
+
+------------
+
+The full code looks like this:
+
+   (#~ distcheck"0) D
+
+distcheck"0 means "distcheck, applied to each element in D separately": we want to map it
+over words.
+
+(#~ f) x is an idiom meaning "filter x by f".
+
+We can read this code as: "Find all results from D that pass distcheck."
+
+share
+Save
+Comment deleted5 years ago
+jappacappa
+11 points·5 years ago
+
+That is the most depressing comment I have seen.. Get some confidence for god
+sake
+
+share
+Save
+DisIshMyCodinAcct
+5 points·5 years ago
+
+Sorry if this is a stupid question... But is j just short for java?
+
+share
+Save
+dzhoe
+-89 points·5 years ago(8 children)
+DisIshMyCodinAcct
+30 points·5 years ago
+
+Whoa. No need to be an asshole about it i figured why not just ask the person
+posting it ._. I thought the people posting on here were trying to help
+beginners.
+
+share
+Save
+palenous
+22 points·5 years ago
+
+Some people are just naturally assholes...don't take it personally. It is
+unfortunately the way of the internet sometimes.
+
+share
+Save
+dzhoe
+-54 points·5 years ago(0 children)
+ZestyOne
+0 010 points·5 years ago
+
+Nope, you're in fact just acting like a major douche.
+
+share
+Save
+Reflexic
+5 points·5 years ago
+
+So brave. Over the internet too -_- Big man with those great words of wisdom
+for us lowly peasants.
+
+share
+Save
+dzhoe
+-21 points·5 years ago(0 children)
+Reflexic
+3 points·5 years ago·edited 5 years ago
+
+Or everyone just agrees you're a douche. As you can tell by my profile, I'm a
+huge karma whore. Especially compared to you... I've been on reddit for two
+years before I finally made an account. Don't lecture me on how reddit should
+be Mr. 7 months with 3500 karma...
+
+I pity you. :(
+
+share
+Save
+DisIshMyCodinAcct
+-14 points·5 years ago(0 children)
+adzeitor
+0 01 point·5 years ago
+
+Perfect. Thanks for explanation.
+
+share
+Save
+vrl
+1 point·5 years ago
+
+What does the "3 :" bit do?
+
+share
+Save
+[deleted]
+3 points·5 years ago
+
+Explicit functions are defined in J using the : (Explicit) function. 3 :
+'expression' defines a monadic function (i.e. one argument) of the variable y.
+So this code:
+
+square =. 3 : 'y * y'
+
+Is equivalent to something like this:
+
+function square(y) { return y * y; }
+
+These are called 'explicit' because J is actually a tacit programming language.
+That means functions are often defined without ever talking about their
+arguments, just telling J how to piece together the other functions you're
+using in your definition.
+
+'Tacit' functions are often shorter to write, but they can get hard to read.
+Here's an example:
+
+mean =. +/ % #
+
+You can read this as "the mean is equal to the sum (+/) divided (%) by the
+length (#)".
+
+share
+Save
+vrl
+2 points·5 years ago
+
+Thanks very much!
+
+share
+Save
+s23b
+0 01 point·5 years ago
+
+I fell in love with this language on first sight. I've gotta start learning it
+right now!
+
+share
+Save
+Comment deleted5 years ago
+[deleted]
+27 points·5 years ago
+
+the fuck is this?
+
+share
+Save
+Senor_Wilson
+13 points·5 years ago
+
+Regex magic
+
+share
+Save
+whiteychs
+0 06 points·5 years ago
+
+Could you explain this please?
+
+share
+Save
+Comment deleted5 years ago
+ibtokin
+16 points·5 years ago
+
+Am I supposed to be crying and rocking back and forth nervously now? If so, I
+think I'm starting to get it now.
+
+share
+Save
+whiteychs
+0 08 points·5 years ago
+
+
+    I just use bitwise XOR on the strings and count the zeros. If they're 3 it
+    means that only one character differs, so the word is printed
+
+I see. Makes sense now, I didn't know the caret was the bitwise XOR. Thank you
+for taking the time to explain it.
+
+share
+Save
+Thirty7Dollars
+2 points·5 years ago
+
+Thanks for the explanation, this is a pretty clever solution.
+
+share
+Save
+pururin
+1 point·5 years ago
+
+Why not just use tr instead of y?
+
+share
+Save
+fr1ction
+4 points·5 years ago·edited 5 years ago
+
+Awesome, learn something new every day.
+
+share
+Save
+bigmell
+2 points·5 years ago
+
+good work man, i completely forgot how xor works. I remember thinking in
+discrete mathematics xor couldnt possibly be useful for anything in the world
+and promptly forgot after the test.
+
+share
+Save
+HerpNeverDerps
+2 points·5 years ago
+
+I swear to god every Perl solution I read on this sub breaks my brain.
+
+share
+Save
+Rauxbaught
+4 points·5 years ago
+
+Python. I'm learning, I bet there's much more elegant ways to do this.
+
+# challenge #114 easy.
+
+f = open('selected_four-letter_words.txt')
+word_list = f.read()
+
+letter_order = 'abcdefghijklmnopqrstuvwxyz'
+
+def wordLadder(word):
+        for letter in word:
+                new_word = ''
+                for changedletter in letter_order:
+                        new_word = word.replace(letter, changedletter)
+                        if new_word in word_list:
+                                if new_word != word:
+                                        print new_word
+        return
+
+
+
+ print wordLadder('puma')
+
+Outputs:
+
+duma
+pima
+puja
+pula
+puna
+pupa
+pump
+None
+
+share
+Save
+oro1011
+6 points·5 years ago
+
++1 because your solution looks like a word ladder.
+
+share
+Save
+adzeitor
+0 03 points·5 years ago
+
+haskell one-liners (just for fun +_+ )
+
+in ghci:
+
+> let word = "puma" in (readFile "words.txt") >>= (return . filter ((==1).  length . filter not . zipWith (==) word) . lines) >>= mapM_ putStrLn
+
+bonus1:
+
+> let ham1 x y = 1 == (length $ filter not $ zipWith (==) x y) in ((\w -> fst $ head $  filter (id . snd) $ map (\x -> (x, 33 == (length $ filter id $ map (ham1 x) w ))) w) . lines) `fmap` (readFile  "words.txt") >>= putStrLn
+
+bonus2:
+
+> import Data.List
+> let word = "best"; steps = 3 ; allHam1 x = filter ((==1).  length . filter not . zipWith (==) x) in (readFile "words.txt") >>= (return . (\words ->  length $ nub $ foldr (\x acc ->  acc ++ concatMap (flip allHam1 words) acc) [word] [1..steps] ) . lines) >>= print
+
+share
+Save
+GenomeXP
+0 04 points·5 years ago
+
+C# w/ Linq:
+
+static void number114WordLadder()
+{
+    var list = File.ReadAllLines("selected_four-letter_words.txt");
+
+    var needle = "puma";
+    Func<string, string[], string[]> matcher = (s, l) => (from li in l where li.Where((c, i) => c != s[i]).Count() == 1 select li).ToArray();
+
+    var bonus1 = (from li in list where matcher(li, list).Length == 33 select li).First();
+
+    matcher(needle, list).ToList().ForEach(Console.WriteLine);
+    Console.WriteLine("Bonus 1: " + bonus1);
+}
+
+ideone
+
+share
+Save
+[deleted]
+0 points·5 years ago
+
+hey, I was wondering if you could lose the lambdas, i'm new and trying to
+learn, and it's hard to read lambdas atm.
+
+share
+Save
+spaceexperiment
+0 06 points·5 years ago
+
+Python -
+
+namelist = names.split('\n')
+count = 0
+sumwords = []
+word = 'best'
+
+for name in namelist:
+    for s in range(4):
+        if name[s] == word[s]:
+            count += 1
+    if count == 3:
+        sumwords.append(name)
+    count = 0
+
+print sumwords
+
+share
+Save
+skeeto
+-9 83 points·5 years ago
+
+In Common Lisp,
+
+(defvar *words*
+  (with-open-file (*standard-input* "selected_four-letter_words.txt")
+    (loop while (listen) collect (read-line))))
+
+(defvar *alphabet* "abcdefghijklmnopqrstuvwxyz")
+
+(defun word-neighbors (word)
+  (loop for i from 0 below (length word)
+     append (loop for character across *alphabet*
+               for test = (copy-seq word)
+               do (setf (aref test i) character)
+               when (and (member test *words* :test #'string=)
+                         (not (string= word test)))
+               collect test)))
+
+Output,
+
+(word-neighbors "best")
+=> ("gest" "hest" "jest" "lest" "nest" "pest" "rest" "test" "vest" "west"
+    "zest" "bast" "bust" "beat" "beet" "belt" "bent")
+
+;; Bonus 1
+(loop for word in *words*
+   when (= 33 (length (word-neighbors word))) do (return word))
+=> "care"
+
+;; Bonus 2
+(defun word-neighbors-n (words n)
+  (if (zerop n)
+      (remove-duplicates words :test #'string=)
+      (word-neighbors-n (loop for word in words nconc (word-neighbors word))
+                        (1- n))))
+
+(length (word-neighbors-n '("best") 3))
+=> 575
+
+share
+Save
+skeeto
+-9 81 point·5 years ago·edited 5 years ago
+
+Why did I write it that way? Redo!
+
+(defvar *words*
+  (with-open-file (*standard-input* "selected_four-letter_words.txt")
+    (loop while (listen) collect (read))))
+
+(defun distance (a b)
+  (count nil (map 'list #'eql (symbol-name a) (symbol-name b))))
+
+(defun neighbors (target &optional (max 1))
+  (remove-if-not (lambda (word) (<= 1 (distance target word) max)) *words*))
+
+Uses symbols instead,
+
+(neighbors 'best)
+; => (BAST BEAT BEET BELT BENT BUST GEST HEST JEST LEST NEST PEST REST
+;     TEST VEST WEST ZEST)
+
+(find-if (lambda (word) (= 33 (length (neighbors word)))) *words*)
+;; => CARE
+
+(defun neighbors-n (words n)
+  (if (zerop n)
+      (remove-duplicates words)
+      (neighbors-n (loop for word in words nconc (neighbors word)) (1- n))))
+
+(length (neighbors-n '(best) 3))
+;; => 575
+
+share
+Save
+bacon1989
+0 02 points·5 years ago
+
+Man, I need to learn lisp... What's the learning curve if you're experienced
+with C and Python?
+
+share
+Save
+skeeto
+-9 84 points·5 years ago·edited 5 years ago
+
+I'd say that C is a harder language to use and learn than Common Lisp. Knowing
+C will truly allow you to understand what's going on underneath Lisp once
+you've learned it. The syntax is dead simple so there's little to learn for
+that aspect. Once you know it, you could hand-roll your own parser from scratch
+inside of about a day without having to reference a spec.
+
+The hardest parts to understand would probably be,
+
+  • Macros -- incredibly powerful because they're about modifying the AST
+    directly rather than text-munging, like the C preprocessor.
+
+  • Place-modifying macros, like setf. These are a special case of macros.
+
+  • The two mini-languages, format and loop. I would bet most Lispers don't
+    know fully know them (including me in the case of format).
+
+  • The do iteration facility -- a convoluted version of other languages' for
+    statement. Don't use it, but if you're reading old code you might have to
+    understand it.
+
+  • Reader macros -- completely different from regular macros. This is what
+    allows for custom syntax. Used sparingly.
+
+  • Symbols -- interning, plists, and so on. Mostly unique to Lisp, but a
+    couple of languages, like Ruby, have a very simple versions of them.
+
+  • Closures -- you mostly have these in Python, but due to Python's limited
+    lambda they're not used very much.
+
+  • The combination of both dynamic and lexical scope. The only other language
+    I'm aware of that does this is Perl.
+
+  • Lambda lists -- a powerful parameter definition format. This is perhaps
+    what I miss most when using other langages (that and destructuring
+    bindings).
+
+  • CLOS -- the object system. Mix-ins, multiple inheritance, multiple
+    dispatch, and the meta-object protocol (which I don't really understand yet
+    myself).
+
+Once you understand the above fairly well, cons cells, and the core API, you
+"know" Lisp pretty well.
+
+share
+Save
+bacon1989
+0 02 points·5 years ago
+
+thanks for the breakdown, it's really appreciated. Think i'm going to save this
+for when I finally get my hands dirty after exams :)
+
+share
+Save
+DisIshMyCodinAcct
+0 points·5 years ago
+
+So when you say "Knowing C will truly allow you to understand what's going on",
+does C++ do that as well?
+
+share
+Save
+skeeto
+-9 81 point·5 years ago
+
+Hmmm, I think it can be but not necessarily. Unlike C, C++ has enough
+abstractions that someone could be proficient at it without really
+understanding what's going on at a low level.
+
+I mentioned C specifically because bacon1989 brought it up.
+
+share
+Save
+DisIshMyCodinAcct
+4 points·5 years ago
+
+Oh okay thank you for the nice response... Im sort of a beginner and asked a
+simple question on here the other day and got a vicious response and was about
+to unsubscribe because i thought that was all of you... Thanks.
+
+share
+Save
+skeeto
+-9 82 points·5 years ago
+
+Don't linger on it, some people are just assholes. I believe even more so with
+programmers in general. Fortunately, most people around here aren't, so stick
+around.
+
+share
+Save
+bacon1989
+0 02 points·5 years ago
+
+I use a lot of functional programming in python, and I found out later that a
+lot of what I was using was derived from functional programming languages in
+general.
+
+share
+Save
+s23b
+0 03 points·5 years ago
+
+Perl:
+
+sub ladder {
+        my $word = shift;
+        grep {my @a = split //, $word; my @b = split //, $_; 1 == scalar grep {$a[$_] ne $b[$_]} 0..3} @_;
+}
+
+call like this: ladder($word, @dictionary);
+
+input:
+
+open FILE, "<four.txt";
+chomp(my @words = <FILE>);
+close(FILE);
+print join "\n", ladder('best', @words);
+
+output:
+
+bast
+beat
+beet
+belt
+bent
+bust
+gest
+hest
+jest
+lest
+nest
+pest
+rest
+test
+vest
+west
+zest
+
+share
+Save
+skeeto
+-9 83 points·5 years ago·edited 5 years ago
+
+JavaScript, lacking file I/O, assumes the list is loaded in words,
+
+function distance(a, b) {
+    var count = 0;
+    for (var i = 0; i < Math.min(a.length, b.length); i++) {
+        if (a[i] !== b[i]) count++;
+    }
+    return count;
+}
+
+function neighbors(word) {
+    return words.filter(function(target) {
+        return distance(target, word) === 1;
+    });
+}
+
+Output, with Bonus 2 edited after rebuf's correction,
+
+neighbors("best");
+// => ["bast", "beat", "beet", "belt", "bent", "best", "bust",
+//     "gest", "hest", "jest", "lest", "nest", "pest", "rest",
+//     "test", "vest", "west", "zest"]
+
+/* Bonus 1 */
+words.filter(function(word) {
+    return neighbors(word).length === 33;
+})[0];
+// => "care"
+
+/* Bonus 2 */
+function grow(set, n) {
+    var total = set, gen = [set];
+    for (var i = 1; i <= n; i++) {
+        gen[i] = [];
+        for (var j = 0; j < gen[i - 1].length; j++) {
+            gen[i] = gen[i].concat(neighbors(gen[i - 1][j]));
+        }
+        total = total.concat(gen[i]);
+    }
+    var unique = {};
+    for (i = 0; i < total.length; i++) {
+        unique[total[i]] = true;
+    }
+    return Object.keys(unique);
+}
+
+grow(["best"], 3).length;
+// => 575
+
+share
+Save
+rabuf
+2 points·5 years ago
+
+I think you have an error in your bonus 2. It's not the words with a distance
+<= 3, but the words reachable in 3 steps. So given a word W and 'best', with
+distance(best,W) == 3 there must be a path best -> W1 -> W2 -> W.
+
+share
+Save
+skeeto
+-9 81 point·5 years ago·edited 5 years ago
+
+You are right. I knew there was something wrong but I couldn't pinpoint it last
+night.
+
+share
+Save
+clojure-newbie
+3 points·5 years ago·edited 5 years ago
+
+Clojure:
+
+(def words (line-seq (reader "resources/selected_four-letter_words.txt")))
+
+(defn hamming-distance [s1 s2]
+  "stolen from http://en.wikipedia.org/wiki/Hamming_distance"
+  (assert (= (count s1) (count s2)))
+  (reduce + (map #(cond (= (first %) (second %)) 0 :else 1) (map vector s1 s2))))
+
+(defn neighbors [word]
+  (for [w words :when (= (hamming-distance word w) 1)] w))
+
+Output:
+
+word-ladder.core> (neighbors "puma")
+("duma" "pima" "puja" "pula" "pump" "puna" "pupa")
+word-ladder.core> (count (neighbors "best"))
+17
+
+Bonus:
+
+;; Bonus 1: One word in the list has 33 other words that can appear next to it. What is this word?
+(defn bonus-one []
+  (flatten (pmap #(cond (= (count (neighbors %)) 33) % :else '()) words)))
+
+;; Bonus 2: How many different words can be reached, starting from best, in 3 or fewer steps?
+(defn bonus-two [word steps]
+  (loop [words (cond (coll? word) word :else (list word))
+         step steps]
+    (cond (= step 0) (set words)
+          :else (recur (flatten (map neighbors words)) (- step 1)))))
+
+Output:
+
+word-ladder.core> (bonus-one)
+("care")
+word-ladder.core> (count (bonus-two "best" 3))
+575
+
+share
+Save
+pete205
+3 points·5 years ago
+
+Terse Ruby:
+
+#!/usr/bin/env ruby
+input = (ARGV[0] && ARGV[0].length == 4) ? ARGV[0].split(//) : throw("bad input")
+open("selected_four-letter_words.txt").read.split.map do |w|
+  puts(w) if 3 == w.split(//).zip(input).count { |a| a[0] == a[1] }
+end
+
+share
+Save
+sathka
+0 04 points·5 years ago
+
+Java, still learning so help is much appreciated. Leaving out some imports and
+things.
+
+public class WordLadderFinder {
+
+  final static ArrayList<String> wordList = new ArrayList<String>();
+  // final static String FILE_PATH = "";
+  final static String FILE_NAME = "wordlist.txt";
+  final static int WORD_LENGTH = 4;
+
+  private void prepareWordList() {
+    // Move the wordlist into the ArrayList. . .
+  }
+
+  public static boolean checkLink(String word1, String word2) {
+    int mismatchCount = 0;
+    for (int i = 0; i < WORD_LENGTH; i++) {
+      if (word1.charAt(i) != word2.charAt(i)) {
+        mismatchCount++;
+      }
+
+      if (mismatchCount > 1) return false;
+    }
+
+    if (mismatchCount == 4) return false;
+    else return true;
+  }
+
+  public static int countMatches(String toCheck) {
+    prepareWordList();
+
+    int matchCount = 0;
+    for (String word : wordList) {
+      if (checkLink(toCheck, word)) {
+        matchCount++;
+      }
+    }
+
+    return matchCount;
+  }
+
+  public static String findMostMatches() {
+    int numMostMatches = 0;
+    String mostMatches = "";
+
+    for (String word : wordList) {
+      int matchCount = countMatches(word);
+      if (matchCount > numMostMatches) {
+        numMostMatches = matchCount;
+        mostMatches = word;
+      }
+    }
+  }
+
+  public static void main(String[] args) {
+    // Num. matches for 'best'
+    System.out.println("Links to \"best\": " + countMatches("best"));
+
+    // Word with most matches
+    String mostMatches = findMostMatches();
+    int numMatches = countMatches(mostMatches);
+    System.out.println("Word with most matches: \"" + mostMatches
+               + "\" with " + numMatches + " matches");
+  }
+}
+
+I hope this works, I typed it up away from my IDE where I wrote it the first
+time.
+
+share
+Save
+[deleted]
+2 points·5 years ago
+
+Wouldn't this make more sense?
+
+public static boolean checkLink(String word1, String word2) {
+
+    int matchCount = 0;
+
+    for (int i = 0; i < WORD_LENGTH; i++) {
+        if (word1.charAt(i) != word2.charAt(i)) {
+            mismatchCount++;
+    }
+
+    if(matchCount==3) return true;
+    else return false;
+}
+
+share
+Save
+sathka
+0 01 point·5 years ago
+
+I'm checking mismatches, not matches; doing it the other way works, but make
+sure you change all variable names and the conditional to increment it. I have
+it return false at mismatchCount>1 so it stops processing the current word and
+moves onto the next if more than one letter is off. Not sure how much
+processing time it saves, but it saves a bit.
+
+share
+Save
+EvanHahn
+2 points·5 years ago
+
+Brushing up on my C for this one:
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+
+#define WORD_FILE "wordlist.txt"
+#define WORD_SIZE 4
+#define WORD_COUNT 3807
+
+int main(int argc, char** argv) {
+
+    // declare variables we'll need
+    int i, j;
+
+    // open file (no error checking, screw it)
+    FILE* list;
+    list = fopen(WORD_FILE, "r");
+
+    // read in the word list into a 1D array
+    int wordListSize = WORD_SIZE * WORD_COUNT;
+    char* wordList = malloc(sizeof(char) * wordListSize);
+    char temp;
+    for (i = 0; i < wordListSize; i ++) {
+            temp = fgetc(list);
+            if (temp != '\n')
+                    wordList[i] = temp;
+            else
+                    i --;
+    }
+
+    // is it nearby?
+    int distance;
+    for (i = 0; i < wordListSize; i += WORD_SIZE) {
+
+            // how "far" is it?
+            distance = 0;
+            for (j = 0; j < WORD_SIZE; j ++)
+                    distance += !(wordList[i + j] == argv[1][j]);
+
+            // if it's only 1 away, print it
+            if (distance == 1) {
+                    for (j = 0; j < WORD_SIZE; j ++)
+                            printf("%c", wordList[i + j]);
+                    printf("\n");
+            }
+
+    }
+
+    // all done!
+    return 0;
+
+}
+
+share
+Save
+Wedamm
+2 points·5 years ago
+
+Learning Idris:
+
+module Main
+
+uncurry : (a -> b -> c) -> (a,b) -> c
+uncurry f (x,y) = f x y
+
+zipCut : List a -> List b -> List (a,b)
+zipCut as Nil = Nil
+zipCut Nil bs = Nil
+zipCut (a::as) (b::bs) = (a,b) :: zipCut as bs
+
+differences : (a:String) -> (b:String) -> Nat
+differences a b = length . filter not . map (uncurry (==)) $ zipCut (unpack a) (unpack b)
+
+main : IO ()
+main = do contents <- readFile "4words.txt"
+          nearWords <- return $ filter (\x => (differences "best" x) == 1) (words contents)
+          putStrLn $ "The following " ++ show (cast (length nearWords)) ++ " words may appear next to \"best\":"
+          mapM_ putStrLn nearWords
+
+share
+Save
+zck
+2 points·5 years ago
+
+Written in Arc, which is Paul Graham's lisp dialect. If you want to try it out,
+check out try Arc. The language is, to my eye, really beautiful.
+
+Also, I deliberately didn't golf this. I could make it shorter, but I don't
+want to.
+
+This code assumes you've loaded the words into words
+
+(def neighbors (base-word (o chars-differ 1))
+     (let collection nil
+          (each word *words*
+                (when (and (isnt word base-word)
+                           (<= (dist word base-word)
+                              chars-differ))
+                  (push word collection)))
+          collection))
+
+
+(def dist (word-1 word-2)
+     (when (is (len word-1)
+               (len word-2))
+       (- (len word-1)
+          (count idfn
+                 (map (fn (c1 c2)
+                          (is c1 c2))
+                      (coerce word-1 'cons)
+                      (coerce word-2 'cons))))))
+
+;;for bonus 1
+(def find-central-word ((o min-neighbors 33) (o word-list *words*))
+     (when word-list
+       (if (>= (len (neighbors (car word-list)))
+               min-neighbors)
+           (car word-list)
+         (find-central-word min-neighbors
+                            (cdr word-list)))))
+
+And how they're run:
+
+;;regular challenge
+arc> (time (let results (neighbors "best") (prn results) (len results)))
+(zest west vest test rest pest nest lest jest hest gest bust bent belt beet beat bast)
+time: 106 msec.
+17
+
+;;bonus 1
+arc> (time (find-central-word))
+time: 34184 msec.
+"care"
+
+;;bonus 2
+arc> (time (len (neighbors "best" 3)))
+time: 112 msec.
+1076
+
+share
+Save
+Unh0ly_Tigg
+0 02 points·5 years ago
+
+My Java 7 solution: http://pastebin.com/jCNuMRuz, has both bonuses. my bonus 2
+is similar (but in java) to eaglyeeye1's implementation of bonus 2
+
+share
+Save
+SFuglsang
+2 points·5 years ago
+
+Matlab, the words must be imported as a 3807x1 cell array called 'aahs' first:
+
+WordsAsWords=aahs;
+StartWord=input('Please write the start word ', 's');
+StartWord=char(StartWord);
+WordsAsChars=char(WordsAsWords);
+NumberOfWords=size(WordsAsChars);
+NumberOfWords=NumberOfWords(1);
+i=1;
+j=1;
+while i<NumberOfWords
+    WordsAsChars(i,5)=0;
+    if WordsAsChars(i,1)==StartWord(1);
+        WordsAsChars(i,5)=WordsAsChars(i,5)+1;
+    end
+    if WordsAsChars(i,2)==StartWord(2);
+        WordsAsChars(i,5)=WordsAsChars(i,5)+1;
+    end
+    if WordsAsChars(i,3)==StartWord(3);
+        WordsAsChars(i,5)=WordsAsChars(i,5)+1;
+    end
+    if WordsAsChars(i,4)==StartWord(4);
+        WordsAsChars(i,5)=WordsAsChars(i,5)+1;
+    end
+    if WordsAsChars(i,5)==3;
+        ListOfWords(j,1:4)=WordsAsChars(i,1:4);
+        j=j+1;
+    end
+    i=i+1;
+end
+disp(ListOfWords)
+
+Returns:
+
+duma
+pima
+puja
+pula
+pump
+puna
+pupa
+
+share
+Save
+koloron
+2 points·5 years ago·edited 4 years ago
+
+Python:
+
+words = [w.strip() for w in open("selected_four-letter_words.txt").readlines()]
+
+def edit_distance(w1, w2):
+    return sum([w2[i] != let for i, let in enumerate(w1)])
+
+def neighbours_of(word):
+    return {w for w in words if edit_distance(w, word) == 1}
+
+def has_neighbours(n):
+    for w in words:
+        if len(neighbours_of(w)) == n:
+            return w
+
+def nth_neighbours_of(word, n):
+    if n == 1:
+        return neighbours_of(word)
+    if n > 1:
+        first_degree_neighbours = nth_neighbours_of(word, 1)
+        second_degree_neighbours = set()
+        for w in first_degree_neighbours:
+            second_degree_neighbours.update(nth_neighbours_of(w, n-1))
+        return second_degree_neighbours
+
+print(neighbours_of('puma'))
+print(len(neighbours_of('best')))
+
+# Bonus 1
+print(has_neighbours(33))
+
+# Bonus 2
+print(len(nth_neighbours_of('best', 3)))
+
+Edit, about one year later:
+
+Looking back at my old solution, I saw some room for improvement, mostly in
+style and readability. The lru_cache decorator and using zip inside
+edit_distance roughly halved the runtime.
+
+from functools import lru_cache
+
+WORDS = [line.strip() for line in open('selected_four-letter_words.txt')]
+
+def edit_distance(w1, w2):
+    return sum(L1 != L2 for (L1, L2) in zip(w1, w2))
+
+@lru_cache(4000)   # enough for 3807 words
+def neighbours_of(word):
+    return {w for w in WORDS if edit_distance(w, word) is 1}
+
+def nth_neighbours_of(word, n):
+    if n is 1:
+        return neighbours_of(word)
+    elif n > 1:
+        return {neighbour
+                for direct_neighbour in neighbours_of(word)
+                for neighbour in nth_neighbours_of(direct_neighbour, n-1)}
+
+# Output
+print('\nThese are the neighbours of "puma":')
+print('\t', ', '.join(neighbours_of('puma')))
+
+print('\n"best" has {} neighbours'.format(len(neighbours_of('best'))))
+
+# Bonus 1
+def has_neighbours(n):
+    return next(w for w in WORDS if len(neighbours_of(w)) == n)
+
+print('\nBonus 1:')
+print('"{}" has 33 neighbours'.format(has_neighbours(33)))
+
+# Bonus 2
+print('\nBonus 2:')
+print('"best" has {} 3rd degree neighbours'.format(
+        len(nth_neighbours_of('best', 3))))
+
+share
+Save
+oro1011
+2 points·5 years ago
+
+C++, first submission, no bonus...yet
+
+#include <iostream>
+#include <fstream>
+#include <iterator>
+#include <string>
+#include <algorithm>
+#include <sstream>
+
+int WORD_LEN = 4;
+
+std::vector<std::string> dictionary;
+
+void loadDictionary() {
+   std::ifstream wordsFile("four_letters.in");
+   std::istream_iterator<std::string> wordReader(wordsFile);
+   std::istream_iterator<std::string> eof;
+   std::copy(wordReader, eof, std::back_inserter(dictionary));
+}
+
+bool difference(std::string w1, std::string w2) {
+   int count = 4;
+   for(int i=0; i<WORD_LEN; ++i) {
+          if(w1[i] == w2[i])
+                 count--;
+   }
+   return count == 1;
+}
+
+void findCloseWords(std::string word) {
+   for(std::vector<std::string>::iterator it = dictionary.begin();
+                 it!=dictionary.end(); ++it) {
+          if(difference(word, *it))
+                 std:: cout << *it << std::endl;
+   }
+}
+
+int main(int argc, char *argv[]) {
+   loadDictionary();
+   findCloseWords("puma");
+}
+
+share
+Save
+ttr398
+0 02 points·5 years ago·edited 5 years ago
+
+vb.net, first submission, no bonus:
+
+    Dim objreader As New System.IO.StreamReader("C:\Users\Fujitsu\Programming\vb\reddit\wordladder\words.txt")
+    Dim i, input As String
+    Dim chararray(), comparison() As Char
+    Dim acc As Integer
+
+    input = Console.ReadLine()
+    comparison = input.ToCharArray
+
+    While Not objreader.EndOfStream
+        i = objreader.ReadLine
+        chararray = i.ToCharArray
+
+        For value As Integer = 0 To 3
+            If chararray(value) = comparison(value) Then
+                acc = acc + 1
+            End If
+        Next
+
+        If acc = 3 Then
+            Console.WriteLine(i)
+        Else
+            acc = 0
+        End If
+
+    End While
+
+    objreader.Close()
+    Console.ReadLine()
+
+for an input of "best", output:
+
+bast
+beat
+beet
+belt
+bent
+bust
+gest
+hest
+jest
+lest
+nest
+pest
+rest
+test
+vest
+west
+zest
+
+share
+Save
+kalimoxto
+4 points·5 years ago
+
+An important way of rephrasing the question is return all the strings where the
+http://en.wikipedia.org/wiki/Levenshtein_distance from the input is 1
+
+share
+Save
+Cosmologicon
+2 3Original Poster10 points·5 years ago
+
+It depends on the rules you're playing by. The original (and most common) rules
+of word ladders do not let you add or remove letters (though some variants do),
+which means that you want all words at a Hamming distance of 1 from the input.
+
+Anyway I decided to remove this ambiguity by restricting the word list to
+4-letter words only, so for the purposes of this challenge they're equivalent.
+
+share
+Save
+kalimoxto
+3 points·5 years ago
+
+thanks for the correction
+
+share
+Save
+[deleted]
+3 points·5 years ago
+
+Oh, God. Using Levenshtein distance would be a nightmare for this. :)
+
+share
+Save
+dgamma3
+4 points·5 years ago·edited 5 years ago
+
+C#, first post. include file IO
+
+          StreamReader reader = new StreamReader("C:\\Users\\Daniel\\Documents\\visual studio 2012\\Projects\\ConsoleApplication3\\ConsoleApplication3\\data.txt");
+          ArrayList newList = new ArrayList();
+       string text = "puma";
+
+        do {
+
+            string read = reader.ReadLine();
+            if (read == "") { continue; }
+            bool result1 = (read.Substring(0, 1) == text.Substring(0, 1) ? true : false);
+            bool result2 = (read.Substring(1, 1) == text.Substring(1, 1) ? true : false);
+            bool result3 = (read.Substring(2, 1) == text.Substring(2, 1) ? true : false);
+            bool result4 = (read.Substring(3, 1) == text.Substring(3, 1) ? true : false);
+
+
+            if (!result1 && result2 && result3 && result4) {
+                newList.Add(read);
+            } else if (result1 && !result2 && result3 && result4) {
+                newList.Add(read);
+            } else if (result1 && result2 && !result3 && result4) {
+                newList.Add(read);
+            } else if (result1 && result2 && result3 && !result4) {
+                newList.Add(read);
+            }
+
+        } while (reader.Peek() != -1);
+
+Bonus 1
+
+        StreamReader reader = new StreamReader("C:\\Users\\Daniel\\Documents\\visual studio 2012\\Projects\\ConsoleApplication3\\ConsoleApplication3\\data.txt");
+        string[] list = new string[3807];
+        ArrayList newList = new ArrayList();
+        int i = 0;
+        do {
+            list[i] = reader.ReadLine();
+            i++;
+        } while (reader.Peek() != -1);
+        int j = 0;
+
+        int k = 0;
+        foreach (string y in list) {
+            string text = y;
+            foreach (string s in list) {
+
+                bool result1 = (s.Substring(0, 1) == y.Substring(0, 1) ? true : false);
+                bool result2 = (s.Substring(1, 1) == y.Substring(1, 1) ? true : false);
+                bool result3 = (s.Substring(2, 1) == y.Substring(2, 1) ? true : false);
+                bool result4 = (s.Substring(3, 1) == y.Substring(3, 1) ? true : false);
+
+
+                if (!result1 && result2 && result3 && result4) {
+                    newList.Add(s);
+                } else if (result1 && !result2 && result3 && result4) {
+                    newList.Add(s);
+                } else if (result1 && result2 && !result3 && result4) {
+                    newList.Add(s);
+                } else if (result1 && result2 && result3 && !result4) {
+                    newList.Add(s);
+                }
+
+
+                k++;
+            }
+
+            if (newList.Count == 33) {
+                Console.WriteLine(y);
+            } else {
+                newList.Clear();
+            }
+        }
+
+share
+Save
+oinko
+0 03 points·5 years ago
+
+Ruby no bonus
+
+First time here :)
+
+def dict
+  file = File.open('words.txt')
+  words = file.collect do |f|
+    f.chomp
+  end
+  file.close
+  words
+end
+
+def ladder(input)
+  output =[]
+  dict.each do |word|
+    distance = 0
+    input.split('').each_index do |i|
+      distance += 1 unless word[i] == input[i]
+    end
+    output << word if distance == 1
+  end
+  output
+end
+
+puts ladder('puma')
+
+share
+Save
+eagleeye1
+0 12 points·5 years ago·edited 5 years ago
+
+Python
+
+I think Bonus 1 should be 30 other words, as we don't care about the word
+itself (we should be finding unique words next to the word of interest, or the
+set of words close minus word itself).
+
+I have no idea if my answer for Bonus 2 is correct.
+
+import re
+
+with open("words.txt", "rb") as f:
+        words = f.readlines()
+words = [word.strip() for word in words]
+wordString = ' '.join(words)
+
+def findallwords(word):
+        closeWords = []
+        for i in range(len(word)):
+                l = list(word)
+                l[i] = "."
+                w = re.findall(r"\b(%s)\b" %''.join(l), wordString)
+                closeWords.extend(w)
+        closeWords = list(set(closeWords) - set([word]))
+        return closeWords, len(closeWords)
+
+def findlongest():
+        maxLength = (0, 0)
+        for word in words:
+                _, length = findallwords(word)
+                if length >= maxLength[1]:
+                        maxLength = (word, length)
+        print "Word with maximum closeness: %s (%s close words)" %maxLength
+
+def wordPrinter(word):
+        words, length = findallwords(word)
+        print "%s close words for %s: %s" %(length, word, words)
+
+def depthSearch(baseword):
+        depth = 3
+        localWords = [baseword]
+        seenWords = []
+
+        def extendWords(word):
+                newWords, length = findallwords(word)
+                newWords = list(set(newWords) - set(seenWords))
+                seenWords.extend(newWords)
+                return newWords
+
+        for i in range(depth):
+                newLocalWords = []
+                for word in localWords:
+                        newLocalWords.extend(extendWords(word))
+                localWords = newLocalWords
+
+        print "Words within depth %s of word %s: %s" %(depth, baseword, len(set(seenWords)))
+
+depthSearch("best")
+findlongest()
+wordPrinter("mate")
+
+Output:
+
+Words within depth 3 of word best: 575
+Word with maximum closeness: care (33 close words)
+7 close words for puma: ['puna', 'puja', 'duma', 'pula', 'pump', 'pima', 'pupa']
+
+share
+Save
+Cosmologicon
+2 3Original Poster2 points·5 years ago
+
+Not sure where your error is, but you're missing some results. (It failed to
+find pump when I gave it puma.) There actually is a word that has 33 close
+words, not counting the word itself.
+
+share
+Save
+eagleeye1
+0 11 point·5 years ago
+
+Got it, I had spaces instead of word boundaries for my delimiter in the regex.
+Thanks!
+
+share
+Save
+Thomas1122
+1 point·5 years ago
+
+I can confirm your answer for Bonus 2.
+
+share
+Save
+dimday
+2 points·5 years ago
+
+First submission. Haskell. No bonus.
+
+import System.Environment
+import Data.Char (isSpace)
+
+main = do
+    (word:_) <- getArgs
+    mapM_ putStrLn =<<  stepsFor word
+
+stepsFor :: String -> IO [String]
+stepsFor word = setOfWords >>= return . filter (\w -> difference word w == 1)
+
+difference :: String -> String -> Int
+difference _ [] = 0; difference [] _ = 0
+difference (x:xs) (y:ys) = if x == y then difference xs ys
+                                     else 1 + difference xs ys
+
+setOfWords :: IO [String]
+setOfWords = return . map trim . lines =<< readFile "selected_four-letter_words.txt"
+
+
+trim :: String -> String
+trim = f . f
+   where f = reverse . dropWhile isSpace
+
+share
+Save
+mifrai
+9 points·5 years ago·edited 5 years ago
+
+A few tips:
+
+-- Imports we're going to use
+import System.Environment (getArgs)
+import Control.Monad (liftM2)
+
+-- You don't have to manually roll your own recursive function in this case
+-- You can use built in functions to achieve the same thing
+difference xs ys = length . filter not $ zipWith (==) xs ys
+
+-- You should avoid being in IO when possible. This allows for
+-- more composition and makes it obvious there are no significant
+-- side effects
+stepsFor word = filter ((== 1) . difference word)
+
+-- Use (fmap f) instead of (return . f)
+-- setOfWords = fmap (map trim . lines) (readFile "...")
+
+-- Or, if you're sure there are no spaces within each word
+setOfWords = fmap words (readFile "selected_four-letter_words.txt")
+
+-- Now putting it all together
+main = mapM_ putStrLn =<< liftM2 stepsFor (fmap head getArgs) setOfWords
+
+Without the comments for clarity:
+
+import System.Environment (getArgs)
+import Control.Monad (liftM2)
+
+difference :: Eq a => [a] -> [a] -> Int
+difference xs ys = length . filter not $ zipWith (==) xs ys
+
+stepsFor :: Eq a => [a] -> [[a]] -> [[a]]
+stepsFor word = filter ((== 1) . difference word)
+
+setOfWords :: IO [String]
+setOfWords = fmap words (readFile "selected_four-letter_words.txt")
+
+main :: IO ()
+main = mapM_ putStrLn =<< liftM2 stepsFor (fmap head getArgs) setOfWords
+
+share
+Save
+dimday
+4 points·5 years ago
+
+Thanks for these! I'm amazed everyday at how expressive this language can be.
+
+share
+Save
+mudkip1123
+0 02 points·5 years ago
+
+Python:
+
+wordlist = []
+for i in open("fourletter.txt").readlines():
+        wordlist.append(i.strip())
+
+starting_word = "puma"
+
+def diff_by_one(word):
+        for i in wordlist:
+                if sum([y+1 for x in range(4) if i[x] == word[x] for y in [0]]) == 3:
+                        print i
+
+diff_by_one(starting_word)
+
+share
+Save
+juntang
+5 points·5 years ago
+
+    if sum([y+1 for x in range(4) if i[x] == word[x] for y in [0]]) == 3:
+
+Could you explain that? I'm horrid with long combined expressions in python and
+want to learn how to create elegant expressions like this. Furthermore, is
+there any way to learn how to construct expressions like this? Is there a
+starting point for learning how to combine multiple expressions in python
+
+share
+Save
+mudkip1123
+0 05 points·5 years ago
+
+Sure. My strategy for this challenge was to run through the big word list and
+compare the letters that were the same. If that number was exactly 3, it was
+valid.
+
+DISCLAIMER: I'm bad at explaining things
+
+so the line if sum([y+1 for x in range(4) if i[x] == word[x] for y in [0]]) ==
+3:
+
+could be replaced by:
+
+y = 0
+for j in range(4):
+    if i[j] == word[j]:
+        y += 1
+if y == 3:
+    print i
+
+The expression takes the sum of the result of the list comprehension. So what
+it does is that for x in range 4, if i[x] and word[x] are the same, it
+increases y by one. the for y in [0] part is a cheaty way of setting y to 0 in
+the expression.
+
+If I didn't explain it well, let me know and I'll try to improve it.
+
+share
+Save
+juntang
+3 points·5 years ago
+
+Okay I understand the strategy I just don't understand the expression. Could
+you explain
+
+sum([y+1 for x in range(4) if i[x] == word[x] for y in [0]]) == 3:
+
+part by part if it's not too much trouble? Say what does y+1 for x in range(4)
+mean?
+
+share
+Save
+mudkip1123
+0 03 points·5 years ago
+
+Okay. In testing, I realized I had made it needlessly complicated.
+
+The new line is
+
+sum([1 for x in range(4) if i[x] == word[x]]) == 3:
+
+What it does is it appends a 1 onto the array each time i[x] == word[x] is
+true. The 1 for x in range(4) really isn't read that way. The way you read the
+expression is [add a 1 to the list each time i[x] == word[x] while iterating
+through the 0th through 4th elements of the two lists]. What this is doing is
+comparing, letter by letter, the two words and adding a 1 to the list when the
+letters at position x are the same. At the end, I take the sum of the list,
+which results in the number of letters that are the same between the two.
+
+In a successful match,
+
+ [1 for x in range(4) if i[x] == word[x]]
+
+evaluates to [1,1,1]. A 1 for each letter that was the same.
+
+share
+Save
+DisIshMyCodinAcct
+0 points·5 years ago
+
+Wow... Im currently learning python and this is incredibly useful... Im
+commenting so i can come back to this when i get home
+
+share
+Save
+ben174
+2 points·5 years ago
+
+Python
+
+def get_list():
+    words = urllib2.urlopen("http://pastebin.com/raw.php?i=zY4Xt7iB").readlines()
+    words = [w.replace("\r\n", "") for w in words]
+    return words
+
+
+def ladder(word):
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    word_list = get_list()
+    ret = []
+    for i, l in enumerate(word):
+        palette = alphabet.replace(l, "")
+        test_word_list = list(word)
+
+        for letter in palette:
+            test_word_list[i] = letter
+            test_word = "".join(test_word_list)
+
+            if test_word in word_list:
+                ret.append(test_word)
+
+    print ret
+
+share
+Save
+Medicalizawhat
+2 points·5 years ago
+
+Pretty crappy Ruby:
+
+dict = []
+File.open('/home/fragmachine/tmp/selected_four-letter_words.txt').readlines.each do |line|
+        dict << line.chomp
+end
+
+def is_valid?(str1, str2)
+        cnt = 0
+        0.upto(3) do |i|
+                if str1[i] != str2[i]
+                        cnt+=1
+                end
+        end
+        cnt == 1
+end
+
+def print_ladder(word, dict, *max)
+        cnt = 0
+        dict.each do |w|
+                if is_valid?(word, w)
+                        cnt+=1
+                        puts w if max.first == nil
+                        next if max.first != nil && max.first <= cnt
+                end
+        end
+        cnt
+end
+
+cnt = 0
+word = 'puma'
+matches = print_ladder(word, dict)
+puts "#{matches} matches for #{word}"
+
+dict.each do |word|
+        matches = print_ladder(word, dict, 33)
+        if matches == 33
+                puts "Bonus1: #{word}"
+                break
+        end
+end
+
+Output:
+
+duma
+pima
+puja
+pula
+pump
+puna
+pupa
+7 matches for puma
+Bonus1: care
+
+share
+Save
+favadi
+0 02 points·5 years ago
+
+My first time with python, take a time to return. Any advice to improve it?
+
+#!/usr/bin/python
+
+# Contants
+WORD_FILE_PATH = './selected_four-letter_words.txt'
+
+
+def buid_word_set(path):
+    """Build a set of four-letter words with given path
+
+    Arguments:
+    - `path`: path to txt file contains four-letter words
+    """
+    words = set()                         # set of four-letter words
+    with open(path) as f:
+        for line in f:
+            words.add(line.strip())
+
+    return words
+
+
+def ladder(word, word_set):
+    """Return set of words from word_set can appear next to word
+
+    Arguments:
+    - `word`: given word to start the ladder
+    - `word_set`: set of four-letter words
+    """
+    next_set = set()
+    len_word = len(word)
+    for oword in word_set:
+        flag = 0
+        # if flag == 1, oword can appear next to word
+        for i in range(len_word):
+            if word[i] != oword[i]:
+                flag += 1
+        if flag == 1:
+            next_set.add(oword)
+    return next_set
+
+
+def count_steps(word, word_set, step):
+    """Return number of words can reach between `step`
+
+    Arguments:
+    - `word`:
+    - `word_set`:
+    - `step`: maximum step
+    """
+    bset = set()
+    bset.add(word)                        # set of beginning words
+    for _ in range(step):
+        expand_bw = set()
+        for bw in bset:
+            expand_bw.update(ladder(bw, word_set))
+        bset.update(expand_bw)
+
+    return bset
+
+if __name__ == '__main__':
+    my_word_set = buid_word_set(WORD_FILE_PATH)
+
+    # main question
+    print len(ladder('best', my_word_set))
+
+    # bonus 1
+    for my_word in my_word_set:
+        if len(ladder(my_word, my_word_set)) == 33:
+            print my_word
+
+    # bonus 2
+    print len(count_steps('best', my_word_set, 3))
+
+share
+Save
+MrBinkster
+2 points·5 years ago
+
+C#:
+
+public class Program {
+    private static IEnumerable<string> _words = File.ReadAllLines("selected_four-letter_words.txt");
+
+    static void Main(string[] args) {
+        var start = args[0];
+        foreach (var n in NeighboursTo(start)) {
+            Console.WriteLine(n);
+        }
+
+        // Bonus 1
+        var word = _words.First(x => NeighboursTo(x).Count() == 33);
+        Console.WriteLine("Word with 33 neighbours: {0}", word);
+
+        // Bonus 2
+        var set = NeighboursTo("best", 3, new HashSet<string>());
+        Console.WriteLine("Words within 3 steps of 'best': {0}", set.Count);
+    }
+
+    private static int Distance(string a, string b) {
+        return a.Zip(b, (x, y) => x == y)
+            .Count(x => !x);
+    }
+
+    private static IEnumerable<string> NeighboursTo(string word) {
+        return _words.Where(x => x != word && Distance(x, word) == 1);
+    }
+
+    private static ISet<string> NeighboursTo(string word, int depth, ISet<string> acc) {
+        if (depth > 0) {
+            foreach (var n in NeighboursTo(word)) {
+                acc.Add(n);
+                NeighboursTo(n, depth - 1, acc);
+            }
+        }
+
+        return acc;
+    }
+}
+
+Output:
+
+bast
+beat
+beet
+belt
+bent
+bust
+gest
+hest
+jest
+lest
+nest
+pest
+rest
+test
+vest
+west
+zest
+Word with 33 neighbours: care
+Words within 3 steps of 'best': 575
+
+share
+Save
+bigmell
+1 point·5 years ago
+
+#!/usr/bin/perl -w
+
+my %dictionary;
+#first arg should be the word, second the dictionary file.
+my $word = shift or die "No command line args\n";
+while(<>){#had to chop this twice pastebin must do something weird with the datafile
+  chop;
+  chop;
+  $dictionary{$_}++;
+}
+
+print "Permutate: $word\n";
+&findPerm($word);
+
+sub findPerm{
+  (my $word, $i, $j) = (shift , 0 , 'a');
+  for($i=0;$i<4;$i++){
+    my @word = split(//,$word);
+    for($j='a';$j lt 'z';$j++){#check all letters for current position
+      $word[$i] = $j;
+      my $testWord = join("",@word);
+      if($dictionary{$testWord}){#this is a dictionary word
+            print "$testWord\n" unless $testWord eq $word;
+      }
+    }
+  }
+}
+
+share
+Save
+DannyP72
+1 point·5 years ago·edited 5 years ago
+
+Ruby
+
+def ladder(input,dic)
+  return false if input.length != 4
+  word = input.dup
+
+  input.split("").each_index do |i|
+    ('a'..'z').each do |x|
+      word[i]=x
+      puts word if dic.include? word and word != input
+    end
+    word = input.dup
+  end
+end
+
+dic = File.open("dic.txt").map {|x| x.strip!}
+ladder("puma",dic)
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+Python 2:
+
+with open('selected_four-letter_words.txt') as f:
+for word in f.readlines():
+    if sum([(x[0] != x[1]) for x in zip('puma', word[:-1])]) == 1:
+        print word,
+
+share
+Save
+JonasW87
+0 01 point·5 years ago
+
+Php here, only bonus one.
+
+class wordy {
+
+        //variables
+        public $wordlist = array(),
+                $results = array();
+
+        function __construct () {
+                $this->wordlist = file("w.txt" , FILE_IGNORE_NEW_LINES);
+        }
+
+        function traceWord($word) {
+                $this->results = array();
+                $alphabet = range('a', 'z');
+                $count = 0 ;
+                for($i=0; $i <= 3; $i++) {
+                        foreach($alphabet as $alphabetLetter) {
+                                if($alphabetLetter !== substr($word, $i,1)) {
+                                        $temporaryWord = substr_replace($word, $alphabetLetter, $i, 1);
+                                        if(in_array($temporaryWord, $this->wordlist)) {
+                                                $this->results[] = $temporaryWord;
+                                                $count++;
+                                        }
+                                }
+                        }
+                }
+                return $count;
+        }
+}
+
+$wordy = new wordy();
+
+foreach($wordy->wordlist as $k) {
+        if ($wordy->traceWord($k) == 33) {
+                echo "$k : ";
+                print_r($wordy->results);
+                exit;
+        }
+}
+
+Output:
+
+care : Array (
+[0] => bare
+[1] => dare
+[2] => fare
+[3] => hare
+[4] => mare
+[5] => pare
+[6] => rare
+[7] => tare
+[8] => ware
+[9] => yare
+[10] => cere
+[11] => cire
+[12] => core
+[13] => cure
+[14] => cade
+[15] => cafe
+[16] => cage
+[17] => cake
+[18] => came
+[19] => cane
+[20] => cape
+[21] => case
+[22] => cate
+[23] => cave
+[24] => carb
+[25] => card
+[26] => cark
+[27] => carl
+[28] => carn
+[29] => carp
+[30] => carr
+[31] => cars
+[32] => cart
+)
+
+share
+Save
+cdelahousse
+1 point·5 years ago
+
+With bonus (in C)
+
+        #include <stdio.h>
+        #include <stdlib.h>
+        #include <string.h>
+
+        int compare(char*, char**,int);
+        int distance(char*,char*);
+
+        int main() {
+                FILE *fp;
+
+                char *line = NULL;
+                size_t len = 0;
+                ssize_t read;
+                fp = fopen("./114.txt", "r");
+
+
+                char *words[4000];
+
+                if (fp == NULL)
+                        exit(EXIT_FAILURE);
+
+                int i = 0;
+                while ((read = getline(&line, &len, fp)) != -1) {
+                        words[i] = (char*) malloc(len);
+                        strcpy(words[i], line);
+                        words[i][4] = 0; //Remove newline
+                        i++;
+                }
+
+                words[i] = 0; //Terminate
+                if (line) free(line);
+                fclose(fp);
+
+                //Question
+                char *target = "puma";
+                printf("Compare puma\n:");
+                compare(target, words,1);
+
+
+                int j = 0;
+                int numWords;
+                int best= 0;
+                char* w;
+                char* bestword;
+
+
+                while ( (w = words[j]) ) {
+                        numWords = compare(w, words, 0);
+                        if (numWords > best) {
+                                best = numWords;
+                                bestword = w;
+                        }
+                        j++;
+                }
+                printf("Best word is '%s' with %d comparable words\n", bestword, best);
+
+
+                int l = 0;
+                while ( words[l]) {
+                        free(words[l]);
+                        l++;
+                }
+
+                return 0;
+        }
+
+        int compare(char *target, char **words, int print) {
+                int j = 0;
+                int count = 0;
+                char* w;
+
+                while ( (w = words[j]) ) {
+                        if (distance(target, w) == 1) {
+                                if (print) printf("%s\n", w);
+                                count++;
+                        }
+                        j++;
+                }
+
+                return count;
+        }
+
+        int distance(char *to,char *from) {
+                int count = 0;
+                int i = 0;
+
+                while (to[i] && from[i]) {
+                        if (to[i] != from[i]) count++;
+                        i++;
+                }
+                return count;
+        }
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+My first Ruby solution ever. With Bonuses
+
+dict = File.open('selected_four-letter_words.txt').map {|word| word.chomp}
+
+#grab the two words so that you know what you're comparing with!
+
+def one_letter(input,dict)
+        output = []
+        dict.each do |word|
+                letterDiff = 0
+                word.split('').to_enum.with_index {|letter,i| letterDiff = letterDiff+1 if letter == input[i]}
+                output << word if letterDiff == 3
+        end
+        output
+end
+
+puts one_letter("best",dict).length
+
+#bonus one
+dict.each {|word| puts "#{word}" if one_letter(word,dict).length == 33}
+
+#bonus two
+oneStep = one_letter("best",dict)
+
+twoStep = []
+oneStep.each {|word| twoStep.concat(one_letter(word,dict))}
+
+threeStep = []
+twoStep.each {|word| threeStep.concat(one_letter(word,dict))}
+
+bestSteps = oneStep.concat(twoStep).concat(threeStep).uniq
+
+puts "#{bestSteps.length} difference words can bee reached from best in three steps or less (including best)"
+
+share
+Save
+tashiwwww
+0 01 point·5 years ago
+
+Had a bit of trouble with Bonus 2, my answers were hugely inflated from the
+correct one. I realized it was including the word I was searching for multiple
+times.. and then finally realized it was including lots of words several times.
+Here's my answer with both bonuses.
+
+Code:
+
+def neighbors(words,test):
+    tonari = []
+    for word in words:
+        match = 0
+        for i in range(0,4):
+            if word[i] == test[i]:
+                match += 1
+
+        if match == 3:
+            tonari.append(word)
+    return tonari
+
+with open('4letterwords.txt') as f:
+    words = f.read().splitlines()
+
+    print(len(neighbors(words,"best"))) #17
+
+    for bonus2 in words:
+        if len(neighbors(words,bonus2)) == 33:
+            print(bonus2) #care
+            break
+    b3 = neighbors(words,"best")
+    for b3a in neighbors(words,"best"):
+        b3 += neighbors(words,b3a)
+        for b3b in neighbors(words,b3a):
+            b3 += neighbors(words,b3b)
+    b3 = list(set(b3))
+    print(len(b3)) #575
+
+Output:
+
+    17
+    care
+    575
+
+share
+Save
+dCrumpets
+1 point·5 years ago
+
+I'm new to coding in general but especially Python. I did a bit of C and Java
+before starting Python and I think the solution shows it a bit. I feel like
+there must be something more elegant in Python than breaking a string up into
+an array of characters.
+
+import sys
+#returns a list of the words from a file
+def getwordlist(filename):
+  f = open(filename, 'r')
+  words = []
+  txt = f.read()
+  f.close()
+  words = txt.split()
+  return words
+
+#returns the number of common letters or -1 if the words are different lengths
+def compare(wordA,wordB):
+  if len(wordA) != len(wordB):
+    return -1
+  numberInCommon = 0
+  wordALetters = list(wordA)
+  wordBLetters = list(wordB)
+  for i in range(len(wordA)):
+    if wordALetters[i] == wordBLetters[i]:
+      numberInCommon += 1
+  return numberInCommon
+
+#returns 4 letter words from wordslist that are one different from keyword
+def findmatches(wordslist, keyword):
+  returnlist = []
+  wordLength = len(keyword)
+  incrementer = 0
+  for word in wordslist:
+    if compare(word,keyword) == (len(keyword)-1):
+      returnlist.append(word)
+  return returnlist
+
+def main():
+  if not sys.argv[1]:
+    print "Enter a filename followed by a four letter word (don't be cheeky)"
+    sys.exit(1)
+  keyword = sys.argv[2]
+  wordslist = getwordlist(sys.argv[1])
+  matches = findmatches(wordslist, keyword)
+  print matches
+
+share
+Save
+wcarss
+2 points·5 years ago·edited 5 years ago
+
+There certainly is! It's right under your nose; strings are very similar to
+lists of characters, except that they are immutable:
+
+word = "hello"
+word[1]
+=> 'e'
+len(word)
+=> 5
+
+You can then cut most of your compare function out, to just the loop (and the
+length check, I suppose). A final note -- if you count the number of
+differences instead of the number of similarities, you don't have to compare
+against len(word)-1, you can compare against 1, which simplifies things a
+little further.
+
+share
+Save
+dCrumpets
+1 point·5 years ago
+
+Thanks for your help. I went back and changed it a bit.
+
+import sys
+
+#returns a list of the words from a file
+def getwordlist(filename):
+  f = open(filename, 'r')
+  words = []
+  txt = f.read()
+  f.close()
+  words = txt.split()
+  return words
+
+#returns True if the words are a letter apart and the same length, False otherwise
+def isOneLetterApart(wordA,wordB):
+  if len(wordA) != len(wordB):
+    return False
+  numberDifferent = 0
+  for i in range(len(wordA)):
+    if not (wordA[i] == wordB[i]):
+      numberDifferent += 1
+  if numberDifferent == 1:
+    return True
+  return False
+
+#returns 4 letter words from wordslist that are one different from keyword
+def findmatches(wordslist, keyword):
+  returnlist = []
+  wordLength = len(keyword)
+  incrementer = 0
+  for word in wordslist:
+    if isOneLetterApart(word,keyword):
+      returnlist.append(word)
+  return returnlist
+
+def main():
+  if not sys.argv[1]:
+    print "Enter a filename followed by a four letter word (don't be cheeky)"
+    sys.exit(1)
+  keyword = sys.argv[2]
+  wordslist = getwordlist(sys.argv[1])
+  matches = findmatches(wordslist, keyword)
+  print matches
+
+share
+Save
+is_left
+1 point·5 years ago
+
+import sys
+
+print 'Number of arguments:', len(sys.argv)
+print 'Argument List:', str(sys.argv)
+
+if len(sys.argv) != 2:
+        print 'Expected two arguments. Try again.'
+        sys.exit(1)
+if len(sys.argv[1]) != 4:
+        print 'Expected second arg to be a four-letter word. Try again.'
+        sys.exit(1)
+
+myfile = open(r"selected_four-letter_words.txt")
+longstring = myfile.read()
+myfile.close()
+
+words = longstring.split('\n')
+my_word = sys.argv[1]
+
+def is_word_step(str1, str2):
+
+        # lazy checks first
+        if len(str1) != len(str2):
+                return False
+        if str1 == str2:
+                return True
+
+        matches = 0
+        for c in range(4):
+                if str1[c] == str2[c]:
+                        matches += 1
+
+        if matches == (len(str1) - 1):
+                return True
+        return False
+
+for x in words:
+        if is_word_step(my_word, x):
+                print x
+
+share
+Save
+mg70
+0 01 point·5 years ago·edited 5 years ago
+
+Attempt in python
+
+commandLine> python pySol.py ./selected_four-letter_words.txt best
+
+import sys,re
+
+
+################# Build Word Lists ######################
+def buildWordList():
+    wordList = list()
+    for word in infile:
+        wordList.append(word.strip())
+    return wordList
+################# Support Function ##########################
+def countPositionalMatches(staticStr, testStr):
+    matchCnt  = 0
+    strTwoLen = len(testStr)
+    for cnt in range(0, strTwoLen):
+        if staticStr[cnt] == testStr[cnt]:
+            matchCnt += 1
+    return matchCnt
+
+##################### Question 1 ###############################
+def question1(staticWord, wordList):
+    for testWord in wordList:
+       if countPositionalMatches(staticWord, testWord) == 3:
+           print(testWord)
+####################### Bonus 1 ################################
+def bonus1(wordsToTest,numOfMatches):
+    for outerLoopWord in wordsToTest:
+        cnt = 0
+        for innerLoopWord in wordsToTest:
+           if countPositionalMatches(outerLoopWord,innerLoopWord) == 3:
+               cnt +=1
+        if cnt == numOfMatches:
+            print("Bonus 1: " + outerLoopWord)
+
+
+###################### Driver ################################
+
+
+if len(sys.argv) != 3: sys.exit(1)
+infile     = open(sys.argv[1],"r")
+staticWord = sys.argv[2]
+
+wordList = buildWordList()
+infile.close()
+
+question1(staticWord, wordList)
+bonus1(wordList,33)
+
+share
+Save
+jappacappa
+1 point·5 years ago
+
+My C# attempt
+
+class WordLadder
+{
+
+    // Read the file lines into a string array.
+    //string[] lines = System.IO.File.ReadAllLines( @"C:\Users\user\Dropbox\programming\C sharp\dailyprogrammer114Easy\fourLetterWords.txt" );
+    List<string> realWords = System.IO.File.ReadAllLines( @"C:\Users\user\Dropbox\programming\C sharp\dailyprogrammer114Easy\fourLetterWords.txt" ).ToList();
+
+    /// <summary>
+    /// A word ladder is a sequence of words made by changing one letter at a time. For example:
+    /// cold → cord → card → ward → warm
+    /// Given a word, list all the words that can appear next to it in a word ladder, using this list of 3,807 four-letter words[1] . Sample input:
+    /// </summary>
+    /// <param name="input">four-letter word</param>
+    /// <returns>A word ladder is a sequence of words made by changing one letter at a time</returns>
+    public string[] findWordLadderSteps( string input ){
+
+        Console.WriteLine( "\ninput: " + input + "\n" );
+
+        // remove input string from realWord list
+        realWords.Remove( input );
+
+        // string to charArray
+        char[] wCharArray = input.ToCharArray();
+
+        // find possible word combinations to check against word list
+        List<string> letterCombosToCheck = possibleWords( wCharArray );
+
+        List<string> result = findExistingWords( letterCombosToCheck );
+
+        return result.ToArray();
+
+    }
+
+    public List<string> findExistingWords ( List<string> input )
+    {
+        //The List<T> must already be sorted according to the comparer implementation; otherwise, the result is incorrect.
+        realWords.Sort();
+
+        List<string> result = new List<string>();
+        foreach ( string s in input )
+        {
+            int index = realWords.BinarySearch( s );
+            // index is less than 0 if s exsit in list
+            if ( index > 0 )
+            {
+                result.Add( s );
+            }
+
+        }
+
+        return result;
+    }
+
+    /// <summary>
+    /// take the char at location index and make all possible
+    /// latin word combinations of the rest of the charArray
+    /// + any char value 97 - 122 of char at index
+    /// assume that word input is of length 4
+    /// </summary>
+    /// <param name="wCharArray">array of char values, length 4 with chars from a - z or 97 to 122</param>
+    /// <param name="index">the index of the char int the charArray</param>
+    /// <returns>list of possible letter combinations to check against real word list</returns>
+    private List<string> possibleWords ( char[] wCharArray )
+    {
+        List<string> resultList = new List<string>();
+
+        // word length need to be 4
+        if ( wCharArray.Length == 4 )
+        {
+            StringBuilder sb = new StringBuilder();
+
+            // start with element index 0
+            for ( int x = 97; x <= 122; x++ )
+            {
+                resultList.Add( ((char) x).ToString() + wCharArray[1].ToString() + wCharArray[2].ToString() + wCharArray[3].ToString() );
+            }
+
+            // element index 1
+            for ( int x = 97; x <= 122; x++ )
+            {
+                resultList.Add( wCharArray[0].ToString() + ((char) x ).ToString() + wCharArray[2].ToString() + wCharArray[3].ToString() );
+            }
+
+            // element index 2
+            for ( int x = 97; x <= 122; x++ )
+            {
+                resultList.Add( wCharArray[0].ToString() + wCharArray[1].ToString() + ((char) x).ToString() + wCharArray[3].ToString() );
+            }
+
+            // element index 3
+            for ( int x = 97; x <= 122; x++ )
+            {
+                resultList.Add( wCharArray[0].ToString() + wCharArray[1].ToString() + wCharArray[2].ToString() + ((char) x).ToString() );
+            }
+
+        }
+
+        return resultList;
+    }
+
+    public string[] print ( )
+    {
+        return realWords.ToArray();
+    }
+
+
+}
+
+
+class mainClass
+{
+    static void Main ( string[] args )
+    {
+
+        WordLadder wl = new WordLadder();
+        string[] result = wl.findWordLadderSteps( "puma" );
+        foreach ( string s in result )
+        {
+            Console.WriteLine( s );
+        }
+
+        result = wl.findWordLadderSteps( "best" );
+        foreach ( string s in result )
+        {
+            Console.WriteLine( s );
+        }
+
+        Console.WriteLine( "\nPress any key to exit." );
+        System.Console.ReadKey();
+
+    }
+}
+
+share
+Save
+itsSmall
+1 point·5 years ago
+
+Java with the first bonus.
+
+share
+Save
+gcr
+1 point·5 years ago
+
+In Racket, with both bonuses:
+
+#lang racket (provide (all-defined-out))
+
+;; Load words into a list
+(define words (file->lines "selected_four-letter_words.txt"))
+
+;; How many letters different do they have?
+(define (nchanges a b)
+  (for/sum ([a1 a] [b1 b] #:unless (char=? a1 b1)) 1))
+
+;; Finds all neighbors of the input. Includes the input itself.
+(define (one-step-away input)
+  (for/list ([w (in-list words)]
+             #:when (>= 1 (nchanges input w))) w))
+
+;; Finding all 33 neighbors of puma
+(for/list ([word (in-list words)]
+           #:when (>= (length (one-step-away word)) 33))
+  word)
+
+;; Finding all neighbors of the word that are 3 steps away
+(for*/list ([n1 (one-step-away "best")]
+            [n2 (one-step-away n1)]
+            [n3 (one-step-away n2)])
+  n3)
+
+share
+Save
+WrongSubreddit
+1 point·5 years ago·edited 5 years ago
+
+Java:
+
+No Bonus. She ain't pretty, but she works. I used no libraries outside of the
+JRE. Also, NIO to parse the file which was fun.
+
+Code:
+
+public class Main {
+
+        private static final String WORD_LIST_FILE = "selected_four-letter_words.txt";
+        private static final CharsetDecoder UTF_8_DECODER = Charset.forName("UTF-8").newDecoder();
+        private static final CharsetEncoder UTF_8_ENCODER = Charset.forName("UTF-8").newEncoder();
+        private static final String ALPHABET = "abcdefghijklmnopqrstuvwxyz";
+
+        private final Set<String> wordList = new HashSet<String>();
+
+        public static void main(String[] args) throws IOException {
+                Main main = new Main();
+                String startWord = args[0];
+
+                main.initWordList();
+                Set<String> wordLadders = main.exercise(startWord);
+
+                System.out.println("Input:");
+                System.out.println(startWord);
+                System.out.println("Word Ladders:");
+                System.out.println(wordLadders);
+        }
+
+        private void initWordList() throws IOException {
+                InputStream fileStream = Main.class.getClassLoader().getResourceAsStream(WORD_LIST_FILE);
+                ByteBuffer buffer = UTF_8_ENCODER.encode(CharBuffer.allocate(6));
+                ReadableByteChannel fileChannel = Channels.newChannel(fileStream);
+
+                for (int bytesRead = fileChannel.read(buffer); bytesRead != -1; bytesRead = fileChannel.read(buffer)) {
+                        buffer.flip();
+                        String word = UTF_8_DECODER.decode(buffer).subSequence(0, 4).toString();
+                        wordList.add(word);
+                        buffer.clear();
+                }
+                fileChannel.close();
+        }
+
+        private Set<String> exercise(String startWord) {
+                Set<String> wordLadders = new HashSet<String>();
+
+                for (int letterPos = 0; letterPos < startWord.length(); letterPos++) {
+                        for (char letter : ALPHABET.toCharArray()) {
+                                if (startWord.charAt(letterPos) == letter)
+                                        continue;
+                                char[] chars = startWord.toCharArray();
+                                chars[letterPos] = letter;
+                                String testWord = String.copyValueOf(chars);
+                                if (wordList.contains(testWord)) {
+                                        wordLadders.add(testWord);
+                                }
+                        }
+                }
+
+                return wordLadders;
+        }
+
+}
+
+share
+Save
+kaslomuzik
+1 point·5 years ago·edited 5 years ago
+
+Java:
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+// Given a 4-letter word as an argument, prints words that can appear next to it in a word ladder
+public class WordLadder {
+    public static void main(String[] args) throws FileNotFoundException {
+        String s1 = args[0];
+        if (s1.length() != 4) { System.out.println("Error: Input must be 4 characters long"); }
+        else {
+            File f = new File("words.txt");
+            Scanner s = new Scanner(f);
+            while(s.hasNext()) {
+                int dist = 0;
+                String s2 = s.next();
+                for(int i = 0; i < s1.length(); i++) {
+                    if (s1.charAt(i) != s2.charAt(i)) { dist++; }
+                }
+                if (dist == 1) { System.out.println(s2); }
+            }
+        }
+    }
+}
+
+Output:
+
+java WordLadder puma
+
+duma
+pima
+puja
+pula
+pump
+puna
+pupa
+
+share
+Save
+Quasimoto3000
+1 01 point·5 years ago
+
+In C ... Hard coded the input ("best").
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(int argc, char *argv[])
+{
+    char * str = "best";
+    char * rnr;
+    int i;
+    int j;
+    int k;
+
+    printf ("%s\n", str);
+    printf ("=================\n");
+
+    for (i = 0; i<strlen(str); ++i)
+    {
+        for (j = 65; j <= 122 ; ++j)
+        {
+            if ((j<97 && j>90) || (j == *(str + i)))
+                continue;
+            rnr = str;
+            k = 0;
+            while (*rnr != 0)
+            {
+                if (k != i)
+                {
+                    printf ("%c", *rnr);
+                }
+                else
+                {
+                    printf ("%c", j);
+                }
+                k++;
+                rnr = str + k;
+            }
+            printf ("\n");
+        }
+    }
+
+    return 0;
+}
+
+share
+Save
+latam_gringo
+1 point·5 years ago
+
+For bonus 2 do we include the initial word in the final list of possible
+reachable words?
+
+share
+Save
+Cosmologicon
+2 3Original Poster2 points·5 years ago
+
+I say yes (because you can reach it in 2 steps best -> zest -> best), and I
+think most solutions posted here assumed yes.
+
+share
+Save
+jmichalicek
+1 point·5 years ago
+
+Standard and bonus 2 in python. I didn't feel like doing bonus 1, you'd just do
+the basic repeatedly, but make a list of results and see which one has 33.
+
+Basic:
+
+"""
+The basic solution to http://www.reddit.com/r/dailyprogrammer/comments/149kec/1242012_challenge_114_easy_word_ladder_steps/
+in Python. Neither of the bonuses at the moment
+"""
+
+from sys import argv
+
+testword = argv[1]
+
+# wordlist from http://pastebin.com/zY4Xt7iB
+
+for word in open('114_wordlist.txt', 'r'):
+    difference = [i for i in zip(testword, word.strip()) if i[0] != i[1]]
+    if len(difference) == 1:
+        print word.strip()
+
+Bonus 2:
+
+"""
+Solution to bonus 2 of http://www.reddit.com/r/dailyprogrammer/comments/149kec/1242012_challenge_114_easy_word_ladder_steps/ in Python.
+
+Loops through the wordlist comparing each word in the list to the specified word.  For each match, recursively calls
+the function to do the same for the match, up to a specified depth, and appends the results.  A depth of 3 is used per the exercise parameters.
+"""
+from sys import argv
+
+def find_neighbors(testword, wordlist, depth):
+    """Find the neighbors of a word in a list"""
+    if depth == 0:
+        return []
+
+    neighbors = []
+        for word in wordlist:
+        difference = [i for i in zip(testword, word.strip()) if i[0] != i[1]]
+        if len(difference) == 1:
+            neighbors.append(word.strip())
+            neighbors += find_neighbors(word, wordlist, depth-1)
+
+    return neighbors
+
+testword = argv[1]
+
+with open('114_wordlist.txt', 'r') as f:
+    words = f.readlines()
+    neighbors = find_neighbors(testword, words, 3)
+    neighbors = set(neighbors)
+    print len(neighbors)
+
+share
+Save
+aesulapiuuss
+1 point·5 years ago·edited 5 years ago
+
+Python (w/o bonus)
+
+wordlist = []
+
+def initList(wordfile):
+   with open(wordfile,"r") as f:
+      for next in f:
+         wordlist.append(next.strip())
+
+def edit_distance(w1,w2):
+   upto = min(len(w1),len(w2))
+   d = 0
+   for i in range(upto):
+      if w1[i] != w2[i]:
+         d = d + 1
+   d =  d + max(len(w1),len(w2)) - upto
+   return d
+
+
+if __name__ == '__main__':
+   initList("selected_four-letter_words.txt")
+   input_word = "puma"
+   print "Input word is ",input_word
+   for word in wordlist:
+      d = edit_distance(word,input_word)
+      if d == 1:
+         print word
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+Beginner java programmer here:
+
+public class WordLadder {
+
+/**
+ * @param args
+ */
+
+public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        String word = args[0];
+        System.out.println(word);
+        System.out.println();
+        In reader = new In("words.txt");
+        String testWord;
+        while (!reader.isEmpty()) {
+                testWord = reader.readString();
+                if (word.equals(testWord)) continue;
+                if (word.substring(1).equals(testWord.substring(1))) {
+                        System.out.println(testWord);
+
+                } else if ((word.charAt(0) == testWord.charAt(0) && word.substring(
+                                2).equals(testWord.substring(2)))) {
+                        System.out.println(testWord);
+                } else if (word.substring(0, 2).equals(testWord.substring(0, 2))
+                                && word.charAt(3) == testWord.charAt(3)) {
+                        System.out.println(testWord);
+                } else if (word.substring(0, 3).equals(testWord.substring(0, 3))) {
+                        System.out.println(testWord);
+                }
+        }
+}
+}
+
+http://introcs.cs.princeton.edu/java/stdlib/In.java.html <--- The input library we've
+been using in class. I used it here. I don't like my solution. I'm going to see if I can come
+up with someone that isn't so procedural.
+
+Edit: Added link to used library.
+
+share
+Save
+snakode
+1 point·5 years ago
+
+python:
+
+#!/usr/bin/env python
+
+import sys
+
+FILENAME="selected_four-letter_words.txt"
+
+if len(sys.argv)!=2:
+        exit("Please give me a word")
+
+def lettersDifferent(word,target):
+        i=0
+        j=len(target)
+        while i<len(target):
+                if word[i]==target[i]:
+                        j-=1
+                i+=1
+        return j
+
+fourLetterWords = open(FILENAME).readlines()
+for word in fourLetterWords:
+        word=word.strip("\n")
+        if lettersDifferent(word,sys.argv[1])==1:
+                print word
+
+share
+Save
+EarthstarFungus
+1 point·5 years ago
+
+Python:
+
+def read(filename):
+    f = open(filename, 'r')
+    word_list = []
+    for line in f:
+            to_append = line
+            to_append = to_append[:-2]
+            word_list.append(to_append)
+    return word_list
+
+def dict_insert(d, key, value):
+    if key in d:
+            d[key].append(value)
+            return
+    else:
+            d[key] = [value]
+            return
+
+def take_out_letter(i, word):
+        word_split = list(word)
+        word_split.pop(i)
+        ans = ''.join(word_split)
+        return ans
+
+def make_word_dict(word_list):
+        word_dict = {}
+        # makes a dictionary of three letters:all words
+        for word in word_list:
+                for i in range(len(word)):
+                        dict_insert(word_dict, take_out_letter(i, word), word)
+        return word_dict
+
+# Strategy: Hash all the words minus a letter, return conflicts
+def find_chain(word_dict, word):
+        ans = []
+        for i in range(len(word)):
+                potential = word_dict[take_out_letter(i, word)]
+                for p in potential:
+                        if p not in ans and p!= word:
+                                ans.append(p)
+        return ans
+
+if __name__ == "__main__":
+    word_list = read("selected_four-letter_words.txt")
+    word_dict = make_word_dict(word_list)
+        print find_chain(word_dict, "puma")
+
+Notes:
+
+I hash the word-list by three-letter-keys because it would make it faster to retrieve the answer than constantly iterating over the list.
+
+Welp, there goes my first submission. Also, this is kind of silly, but is there
+a better way of formatting this code rather than typing the four spaces
+manually?
+
+share
+Save
+illforgetthistoo
+1 point·5 years ago·edited 5 years ago
+
+[Python3] Code:
+
+from string import ascii_lowercase
+def word_ladder(word,word_list):
+    ret = set()
+    for i in range(len(word)):
+        for c in ascii_lowercase:
+            temp =word[:i]+c+word[i+1:]
+            if temp in word_list:
+                ret.add(temp)
+    ret.remove(word)
+    return ret
+
+def main():
+    with open("selected_four-letter_words.txt") as fin:
+        word_list = set(fin.read().split())
+    word = input("Give a word")
+    print('\n'.join(sorted(word_ladder(word,word_list))))
+
+if __name__ == '__main__':
+    main()
+
+Explanation:
+
+I took a different approach,which I think is more efficient for this case.
+Instead of comparing the given word with every word in the list,
+I consecutively replace each of the four letters with every letter of the alphabet and see
+if it the new word is in the word set.
+Instead of doing 3,807 comparisons I do 4*26 letter replacements and set searches which are O(1).
+
+share
+Save
+nickknw
+1 point·5 years ago·edited 5 years ago
+
+Well I started a bit late (26 days, pfff) but this is still the newest one
+AFAIK so I'll comment here.
+
+My solution is in Haskell with both bonuses and what I think is a nice small
+command line wrapper. Haven't written much Haskell and then not for a while,
+I'm doing this to practice. I am fairly happy with the size and style, in
+particular I like how natural it was to separate the input and output from the
+core logic.
+
+To avoid taking up too much space I cut out the command line stuff - if you
+want to see it it's here.
+
+-- Word Ladder
+
+wordLadder :: String -> [String] -> [String]
+wordLadder word dict = filter (oneLetterOff word) dict
+
+oneLetterOff :: String -> String -> Bool
+oneLetterOff word1 word2 = 1 == (length $ filter not $ (zipWith (==) word1 word2))
+
+-- Most Ladderable
+
+mostLadderable :: Int -> [String] -> [(String, Int)]
+mostLadderable num dict = take num $ reverse $ sortBy (comparing snd) wordNumberPairs
+    where wordNumberPairs = [(w, length (wordLadder w dict)) | w <- dict]
+
+-- Word Chain
+
+wordChain :: Int -> [String] -> [String] -> [String]
+wordChain 0 current _ = current
+wordChain steps current dict = nub $ current ++ wordChain (steps-1) nextLevelOfWords dict
+    where nextLevelOfWords = nub $ concat [wordLadder x dict | x <- current]
+
+Command-line calls to answer the questions:
+
+./wordladder list best
+./wordladder top 10
+./wordladder chain 3 best
+
+share
+Save
+TheOriginalIrish
+1 point·5 years ago
+
+Another Python:
+
+import sys
+
+def CountSimilarLetters(str1, str2):
+        count = 0
+        for i in range(0, min(len(str1), len(str2))):
+                if(str1[i] == str2[i]):
+                        count += 1
+        return count
+
+if __name__ == "__main__":
+        word = sys.argv[1]
+        for line in open("selected_four-letter_words.txt"):
+                line = line.strip()
+                if(CountSimilarLetters(word, line) == 3):
+                        print(line)
+
+share
+Save
+jkg5150
+0 01 point·5 years ago
+
+I only just discovered this subreddit -- there's not been a new post for a
+little while, so I'm starting here, but I like the idea and hope it's back to
+regularity soon!
+
+Anyway, first stab at a Perl 5 solution below - I actually included the word
+list in the source file for convenience, but I've truncated that below because
+nobody wants to see a 4000 line comment ;-)
+
+I'm quite fond of the trick with the hash keys as my "found words" list in part
+3 (i.e. bonus 2), but feedback is always welcome
+
+#!/usr/bin/perl
+
+use Modern::Perl;
+
+my @wordlist;
+while (<DATA>) {
+        chomp;
+        push @wordlist, $_;
+} # it's kludgey but this ain't production code.
+
+say "Activity 1: give me a word to find the neighbours of";
+my $input = <STDIN>;
+chomp $input;
+
+my $result_ref = search($input);
+
+my $result_count = scalar @$result_ref;
+say "I found $result_count words similar to $input";
+#say join "\n", @$result_ref;
+# uncomment to show the list of words
+
+say "Activity 2: finding word with longest neighbour list...";
+
+my $bestscore = [ 0, '' ];
+foreach ( @wordlist ) {
+        my $ref = search( $_ );
+        if ( scalar @$ref > $bestscore->[0] ) {
+                $bestscore = [ scalar(@$ref), $_ ];
+#               say "$_ is the new high scorer with ". scalar @$ref;
+#               uncomment to believe that stuff is actually happening when you're waiting for it to return
+        }
+}
+
+say "The most neighbourly word was " . $bestscore->[1] . " with " . $bestscore->[0] . " neighbours";
+
+say "Activity 3, give me another word:";
+$input = <STDIN>;
+chomp $input;
+
+search3( $input );
+
+### utility subs below this line ###
+
+sub hamming {
+        my $one = shift;
+        my $two = shift;
+        my $diff = $one ^ $two;
+        my $distance = $diff =~ tr/\0//c;
+        return $distance;
+}
+
+sub search {
+        my $input = shift;
+        my @found;
+
+        foreach (@wordlist) {
+                if ( hamming( $input, $_ ) == 1 ) {
+                        push @found, $_;
+                }
+        }
+
+        return \@found;
+}
+
+sub searchFromHash {
+        my $hr = shift;
+        foreach my $key ( keys %$hr ) {
+                foreach (@wordlist) {
+                        if ( hamming( $key, $_ ) == 1 ) {
+                                $hr->{$_} = 1;
+                        }
+                }
+        }
+        return $hr;
+}
+
+sub search3 {
+        my $input = shift;
+
+        my $found_hr = { $input => 1 };
+        $found_hr = searchFromHash( $found_hr ); # words reachable in 1 move
+        say "I found " . scalar (keys %$found_hr) . " words within 1 move";
+        $found_hr = searchFromHash( $found_hr ); # words reachable in 2 moves
+        say "I found " . scalar (keys %$found_hr) . " words within 2 moves";
+        $found_hr = searchFromHash( $found_hr ); # words reachable in 3 moves
+        say "In total I found ". scalar (keys %$found_hr) . " words within 3 moves.";
+#       say join ', ', sort keys %$found_hr;
+#       uncomment if you want useless, overly verbose output
+
+}
+
+__END__
+aahs
+aals
+abas
+abba
+abbe
+abed
+abet
+able
+
+Output looks like:
+
+$ perl 114.pl
+Activity 1: give me a word to find the neighbours of
+best
+I found 17 words similar to best:
+Activity 2: finding word with longest neighbour list...
+The most neighbourly word was care with 33 neighbours
+Activity 3, give me another word:
+best
+I found 18 words within 1 move
+I found 131 words within 2 moves
+In total I found 575 words within 3 moves.
+
+share
+Save
+Afeel
+1 point·5 years ago
+
+C++ with Bonus 1:
+
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+int main(){
+        fstream myFile;
+        myFile.open("selected_four-letter_words.txt");
+        string arr[3807];
+        if (myFile.is_open()){
+                for (int i = 0; i < 3807; i++){
+                        getline(myFile, arr[i]);
+                }
+                myFile.close();
+        }
+
+        string input_string;
+        string current_string;
+        int same = 0;
+        int matched_words = 0;
+
+        //cout << "Enter four-letter source string: "; cin >> input_string;
+
+        for (int k = 0; k < 3807; k++){
+                input_string = arr[k];
+
+                for (int i = 1; i < 3807; i++){
+                        current_string = arr[i];
+                        for (int j = 0; j < 4; j++){
+
+
+                                if (input_string[j] == current_string[j]){
+                                        same++;
+                                }
+                        }
+
+                        if (same == 3){
+                                cout << current_string << endl;
+                                matched_words++;
+                        }
+
+                        if (matched_words == 33){
+                                cout << input_string << " has 33 matched words" << endl;
+                        }
+
+                        same = 0;
+                }
+        }
+
+
+        system("pause");
+        return 0;
+}
+
+I'm a sophomore CS student, so my solution isn't exactly perfect. Please give
+feedback if you can. :)
+
+share
+Save
+Lurker378
+0 01 point·5 years ago·edited 5 years ago
+
+In scala:
+
+val word = readLine
+scala.io.Source.fromFile("words.txt").getLines foreach { (x: String) =>
+    if (word.zip(x) filterNot { z => z._1 == z._2 }.length == 1) println(x)
+}
+
+Bonus 1
+
+def wordLadder(word: String): List[String] =  {
+    scala.io.Source.fromFile("words.txt").getLines filter{ (x: String) =>
+         (word.zip(x) filterNot { z => z._1 == z._2 }.length) == 1
+    } to List
+}
+
+scala.io.Source.fromFile("words.txt").getLines.toList.par foreach { (x: String) =>
+    if (wordLadder(x).length == 33) println x
+}
+
+Note that code does the second part in parallel but loads the whole list into
+memory so it won't work on huge lists.
+
+Bonus 2 (Notes uses wordLadder from bonus 1)
+
+val best3steps = for {
+    a <- wordLadder("best")
+    b <- wordLadder(a)
+    c <- wordLadder(b)
+    d <- wordLadder(c)
+} yield d
+println(best3steps.length)
+
+share
+Save
+marekkpie
+1 point·5 years ago
+
+I just found this subreddit, so I'm backing my way through the challenges.
+
+Lua with first bonus. I cheese it a bit by converting my table to a string so I
+can take advantage of the pattern matching functionality in Lua.
+
+function loadwords(file)
+  local words = {}
+  for word in io.lines(file) do table.insert(words, word) end
+  return words
+end
+
+function wordladder(word, words)
+  local patterns = {
+    '%a' .. word:sub(2), -- first letter can be anything
+    word:sub(1,1) .. '%a' .. word:sub(3), -- second letter
+    word:sub(1,2) .. '%a' .. word:sub(4), -- third letter
+    word:sub(1,3) .. '%a'
+  }
+
+  local tbl = {}
+
+  for _,v in pairs(patterns) do -- loop through the patterns
+    for w in words:gmatch(v) do -- iterate through the matches
+      -- ignore itself
+      if word ~= w then table.insert(tbl, w) end
+    end
+  end
+
+  return tbl
+end
+
+function main()
+  local words = loadwords('selected_four-letter_words.txt')
+  local wordsstring = table.concat(words, ' ') -- to allow gmatch use
+
+  print(table.concat(wordladder('puma', wordsstring), '\n'))
+
+  for _,word in pairs(words) do
+    local ladder = wordladder(word, wordsstring)
+    if #ladder > 33 then print(word, #ladder) end
+  end
+end
+
+main()
+
+share
+Save
+Troll_Random
+0 01 point·5 years ago
+
+My code doesn't produce the exact same output as others. Not sure why.
+
+Anyone wanna help me out?
+
+Java
+
+import java.io.*;
+import java.util.*;
+
+public class WordLadder {
+        public static void main(String[] args) throws FileNotFoundException {
+                Scanner input = new Scanner (System.in);
+
+                System.out.println("Enter filename: ");
+                Scanner file = new Scanner(new File(input.next()));
+
+                System.out.println("Enter word to make ladder from: ");
+                String seedWord = input.next();
+
+                System.out.print(seedWord);
+
+                while(file.hasNextLine()) {
+                        int match = 0;
+                        String word = file.nextLine();
+                        for (int i = 0; i < 4; i++) {
+                                if(word.charAt(i) == seedWord.charAt(i)) {
+                                        match++;
+                                }
+                        }
+
+                        if(match == 3) {
+                                System.out.print(" -> " + word);
+                                seedWord = word;
+                        }
+                }
+        }
+
+}
+
+Output
+
+puma -> duma -> dumb -> dump -> hump -> hums -> huns -> hunt -> hurt -> yurt
+
+share
+Save
+Cosmologicon
+2 3Original Poster1 point·5 years ago
+
+You shouldn't be updating seedWord as you go along. It should remain puma for
+the entire loop.
+
+share
+Save
+Troll_Random
+0 01 point·5 years ago
+
+Oh.. I thought, we had to produce a chain.. Thanks for clarifying.
+
+share
+Save
+mattryan
+1 point·5 years ago·edited 5 years ago
+
+Python with bonuses. [DEL:Takes awhile to load because I'm building the entire
+graph in memory.:DEL] Lazy loading the edges reduces execution time to about 4
+seconds from 30 seconds.
+
+import time
+
+class Node:
+    def __init__(self, graph, word):
+        self.graph = graph
+        self.word = word
+        self.nodes = None
+
+    def getNodes(self):
+        if self.nodes == None:
+            self.buildNodes()
+        return self.nodes
+
+    def buildNodes(self):
+        self.nodes = set()
+        for n in self.graph.allNodes:
+            if self == n:
+                continue
+            if self.isWordLadder(n):
+                self.nodes.add(n)
+
+    def isWordLadder(self, node):
+        cntDifference = 0
+        for i in range(len(self.word)):
+            if (self.word[i] != node.word[i]):
+                cntDifference += 1
+        return cntDifference == 1
+
+    def printNodes(self):
+        for node in self.getNodes():
+            print(node.word)
+
+class WordLadderGraph:
+    def __init__(self, file):
+        self.allNodes = [Node(self, line.strip()) for line in open(file)]
+
+    def findNodeByWord(self, word):
+        for node in self.allNodes:
+            if node.word == word:
+                return node
+
+    def printWordLadder(self, word):
+        node = self.findNodeByWord(word)
+        node.printNodes()
+
+    def findNodeByNodesCount(self, count):
+        for node in self.allNodes:
+            if len(node.getNodes()) == count:
+                return node
+
+    def countWordsByDepth(self, word, steps):
+        node = self.findNodeByWord(word)
+        depthWords = set([node])
+        self.recurseLadderWords(node, steps, depthWords)
+        depthWords.remove(node)
+        return len(depthWords)
+
+    def recurseLadderWords(self, node, step, depthWords):
+        if step != 0:
+            newStep = step - 1
+            for childNode in node.getNodes():
+                depthWords.add(childNode)
+                self.recurseLadderWords(childNode, newStep, depthWords)
+
+start = time.time()
+wordLadderGraph = WordLadderGraph("../data/selected_four-letter_words.txt")
+
+print("Sample Output")
+wordLadderGraph.printWordLadder("puma")
+
+word = "best"
+bestNode = wordLadderGraph.findNodeByWord(word)
+print("\n%d words next to '%s'" % (len(bestNode.getNodes()), word))
+
+print("\nBonus 1")
+count = 33
+node = wordLadderGraph.findNodeByNodesCount(count)
+print("Word next to %d words is '%s'." % (count, node.word))
+
+print("\nBonus 2")
+steps = 3
+wordCount = wordLadderGraph.countWordsByDepth(word, steps)
+print("Count of all words that can be reached by '%s' in %d or fewer steps: %d" % (word, steps, wordCount))
+
+print ("\n%.2f seconds" % (time.time() - start))
+
+Output
+
+Sample Output
+duma
+puja
+pump
+puna
+pula
+pima
+pupa
+
+17 words next to 'best'
+
+Bonus 1
+Word next to 33 words is 'care'.
+
+Bonus 2
+Count of all words that can be reached by 'best' in 3 or fewer steps: 574
+
+4.16 seconds
+
+share
+Save
+[deleted]
+1 point·5 years ago
+
+But it's not a graph theory problem… It's an approximate string matching
+problem, thus dynamic programming. But honestly, this problem is an example of
+Hamming distance, so there's no need for recursion or dynamic programming. A
+simple for loop will do the trick. Don't make it complicated with graphs. :)
+
+share
+Save
+rabuf
+4 points·5 years ago
+
+Constructing the graph permits solving bonus 2, and also helps for reuse with
+the intermediate and difficult version.
+
+That said, if you postpone generating the edges until they're needed the
+program can be substantially sped up as the vast majority won't be used in the
+queries.
+
+share
+Save
+mattryan
+3 points·5 years ago
+
+You're exactly right. I read all 3 difficulties of #114 first before coding and
+knew starting with a graph in the beginning would pay off.
+
+Yeah, as soon as I posted this, I thought lazy loading the edges would have
+been a better approach. I'll probably update the above code later on today to
+do so.
+
+Thanks for the reply!
+
+share
+Save
+rabuf
+1 point·5 years ago
+
+Np. I started with the same approach after reading the dificult version. Once I
+looked at the others I realized I had them solved (mostly) with my first draft.
+
+How long does your code take? My non-lazy erlang code was pushing 30 seconds on
+my rMBP.
+
+share
+Save
+mattryan
+1 point·5 years ago
+
+The entire graph takes 29 seconds to load on my PC with a 3.5 GHz processor.
+
+share
+Save
+fr1ction
+1 point·5 years ago
+
+Perl
+
+use strict;
+
+my $keyword = shift;
+die "keyword must be 4 chars\n" unless ($keyword =~ /\w{4}/);
+
+my @dictionary = readFile('ladder.dictionary');
+for my $word (@dictionary) {
+        chomp($word);
+        print "$word\n" if (difference($keyword, $word) == 1);
+}
+
+sub difference {
+        (my $a, $b) = @_;
+        my @a = split(//, $a);
+        my @b = split(//, $b);
+        my $count;
+
+        for (my $i = 0; $i < 4; $i++) {
+                $count += ($a[$i] ne $b[$i]);
+        }
+        return $count;
+}
+
+sub readFile {
+        my $file = shift;
+        open my $FH, '<', $file;
+        my @contents = <$FH>;
+        close $FH;
+        return @contents;
+}
+
+output:
+
+>perl ladder.pl puma
+duma
+pima
+puja
+pula
+pump
+puna
+pupa
+
+>perl ladder.pl best
+bast
+beat
+beet
+belt
+bent
+bust
+gest
+hest
+jest
+lest
+nest
+pest
+rest
+test
+vest
+west
+zest
+
+share
+Save
+juntang
+-1 points·5 years ago
+
+Aren't we looking for word ladders? Not words with only 1 different letter from
+the key word? Say puma -> duma -> duja as an example?
+
+share
+Save
+fr1ction
+1 point·5 years ago·edited 5 years ago
+
+
+    Given a word, list all the words that can appear next to it in a word
+    ladder
+
+Did you completely miss the op or what? He even gave sample output to test
+against, so I built my code based on that.
+
+share
+Save
+robin-gvx
+0 21 point·5 years ago
+
+In Python for a change:
+
+from collections import defaultdict
+
+def gen_generalisations(word):
+    for i in range(len(word)):
+        yield word[:i] + '?' + word[i+1:]
+
+def add_word(word, data, wlist):
+    for g in gen_generalisations(word):
+        data[g].append(word)
+    wlist.append(word)
+
+def get_connections(word, data):
+    l = set()
+    for g in gen_generalisations(word):
+        l |= set(data[g])
+    return list(l - set([word])) # exclude the word itself
+
+data = defaultdict(list)
+wlist = []
+
+with open('selected_four-letter_words.txt') as f:
+    for line in f:
+        add_word(line.strip(), data, wlist)
+
+# prints ['lest', 'vest', 'bent', 'zest', 'beat', 'west', 'nest', 'bast',
+#         'rest', 'beet', 'bust', 'jest', 'gest', 'test', 'pest', 'hest',
+#         'belt']
+print get_connections('best', data)
+
+# bonus 1, prints 'care'
+for w in wlist:
+    if len(get_connections(w, data)) == 33:
+        print w
+
+# bonus 2, prints 134
+def take_steps(word, n, had=None):
+    if had is None:
+        had = set()
+    if n < 0 or word in had:
+        return len(had) - 1
+    had.add(word)
+    for g in gen_generalisations(word):
+        for w in data[g]:
+            take_steps(w, n - 1, had)
+    return len(had) - 1
+
+print take_steps('best', 3)
+
+share
+Save
+CannonBallComing
+1 point·5 years ago
+
+PowerShell (using the logic from the Perl example):
+
+foreach ($word in (Get-Content word-ladder.txt)) {
+$count = 0
+for ($i = 0; $i -lt 4; $i++) {
+        if ($args[0][$i] -ne $word[$i]) {
+                $count++
+        }
+}
+if ($count -eq 1) {
+        Write-Host $word
+}
+
+}
+
+share
+Save
+bheinks
+0 01 point·5 years ago
+
+Python
+
+from re import match
+
+WORD_LIST = [word.rstrip() for word in open("wordlist.txt", 'r')]
+
+def word_ladder(word):
+    ladder = []
+
+    for i in range(len(word)):
+        ladder += get_steps(word[:i] + "[a-z]" + word[i + 1:], word)
+
+    return ladder
+
+def get_steps(re_word, base_word):
+    steps = []
+
+    for word in WORD_LIST:
+        word_match = match(re_word, word)
+
+        if word_match and word_match.group() != base_word:
+            steps.append(word_match.group())
+
+    return steps
+
+def get_by_freq(freq):
+    for word in WORD_LIST:
+        if len(word_ladder(word)) == freq:
+            return word
+
+Output
+
+for word in word_ladder("puma"):
+    print(word)
+
+duma
+pima
+puja
+pula
+puna
+pupa
+pump
+
+Bonus 1
+
+print(get_by_freq(33))
+
+care
+
+share
+Save
+patroniton
+1 point·5 years ago
+
+First post here. This is my Java solution. No bonuses as of yet.
+
+import java.io.BufferedReader;
+import java.io.DataInputStream;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+
+public class WordLadder {
+
+    public static void main(String[] args) {
+        System.out.print(match("puma"));
+    }
+
+    public static String match(String stringToMatch) {
+        String result = "";
+        int i = 0;
+        int offBy = 0;
+        String strLine;
+
+        try {
+            FileInputStream fstream = new FileInputStream("data.txt");
+            DataInputStream in = new DataInputStream(fstream);
+            BufferedReader br = new BufferedReader(new InputStreamReader(in));
+
+            //Read File Line By Line
+            while ((strLine = br.readLine()) != null) {
+                while (i < 4 && offBy < 2) {
+                    if (!(strLine.substring(i, i + 1).equals(stringToMatch.substring(i, i + 1)))) { // if the character at i doesn't match
+                        offBy++;                            // increase number of letters word is off by
+                    }
+                    i++;
+                }
+                if (offBy < 2) {                            // word is good
+                    result += strLine + "\n";               // add word to result
+                }
+                offBy = 0;
+                i = 0;
+            }
+
+            in.close();
+        } catch (java.io.IOException e) {
+            System.err.println("Error: " + e.getMessage());
+        }
+
+        return result;
+    }
+}
+
+OUTPUT:
+
+run:
+duma
+pima
+puja
+pula
+puma
+pump
+puna
+pupa
+BUILD SUCCESSFUL (total time: 0 seconds)
+
+share
+Save
+Thomas1122
+3 points·5 years ago
+
+Next time just use
+
+BufferedReader scan = new BufferedReader(new FileReader(new File()))
+
+I'm pretty sure, DataInputStream is deprecated.
+
+share
+Save
+patroniton
+3 points·5 years ago
+
+Ooh okay. I'll try that next time.
+
+Thanks!
+
+share
+Save
+schnitzella
+1 point·5 years ago
+
+First submission. Python:
+
+from re import findall
+f = open("selected_four-letter_words.txt",'r').read()
+
+def findAllNeighbors(word):
+    s = set()
+    for i in range(4):
+        pattern = word[:i]+'[a-z]'+word[i+1:]
+        s.update(findall(pattern, f))
+    s.remove(word)
+    return s
+
+def printAllNeighbors(word):
+    print('\n'.join(findAllNeighbors(word)))
+
+def numAllNeighbors(word):
+    return len(findAllNeighbors(word))
+
+#Bonus 1
+print(list(filter(lambda x: numAllNeighbors(x) == 33, f.split('\n'))))
+
+#Bonus 2
+def findAllDistNeighbors(word, dist):
+        neighbors = findAllNeighbors(word)
+        i = 1
+        while i < dist:
+                holdset = set()
+                [holdset.update(findAllNeighbors(n)) for n in neighbors]
+                neighbors.update(holdset)
+        i+=1
+    return neighbors
+
+Output:
+
+>>> printAllNeighbors('puma')
+puna
+puja
+duma
+pula
+pump
+pima
+pupa
+>>> print(list(filter(lambda x: numAllNeighbors(x) == 33,f.split('\n'))))
+['care']
+>>> findAllDistNeighbors('best',3)
+575
+
+share
+Save
+angusiguess
+1 point·5 years ago
+
+A lil' python.
+
+import sys
+f = open("selected_four-letter_words.txt")
+wordlist = f.readlines()
+wordlist = [i.strip() for i in wordlist]
+candidate_word = sys.stdin.readline().strip()
+matches = []
+for i in range(4):
+  matches.append([word for word in wordlist if word[i] == candidate_word[i]])
+matches = [set(match) for match in matches]
+solution = ((matches[0] & matches[1] & matches[2]) |
+    (matches[1] & matches[2] & matches[3]) | (matches[0] & matches[1] & matches[3]))
+for word in solution:
+  if word != candidate_word:
+    print(word)
+
+share
+Save
+Thomas1122
+1 point·5 years ago
+
+Python (using networkx)
+
+import networkx as nx,itertools as it
+from collections import defaultdict
+
+g = nx.Graph()
+words = open("words4.txt").read().split()
+g.add_nodes_from(words)
+
+
+def diff(w1,w2):
+    return sum(1 for a,b in zip(w1,w2) if a != b)
+
+for (w1,w2) in it.combinations(words,2):
+    if diff(w1,w2) == 1:
+        g.add_edge(w1,w2)
+        g.add_edge(w2,w1)
+
+def dls(g,src,depth):
+    s = set()
+    if depth > 0:
+        for node in g[src]:
+            s.add(node)
+            s.update(dls(g,node,depth-1))
+    return s
+
+
+print('\n'.join(sorted(g["puma"])))
+print()
+print("Highest Outdegree : ",max(words,key=lambda w: (g.degree(w))))
+print()
+print(len(dls(g,"best",3)))
+
+share
+Save
+lawlrng
+0 11 point·5 years ago
+
+Python
+
+import re
+
+def make_word_set(cw, wl):
+    template = r"{}[^{}\n]{}"
+    word_set = set()
+
+    for i in range(len(cw)):
+        b, m, e = cw[:i], cw[i], cw[i + 1:]
+        pattern = re.compile(template.format(b, m, e))
+        word_set = word_set.union((re.findall(pattern, wl)))
+
+    return word_set
+
+def make_word_list():
+    with open('114.txt', 'r') as data:
+        return [a.strip() for a in data]
+
+def find_longest(wl, ss):
+    count = 0
+    word = ""
+
+    for i in wl:
+        tmp = len(make_word_set(i, ss))
+        if tmp > count:
+            count = tmp
+            word = i
+
+    return count, word
+
+def find_all(word, word_list, count, all_words):
+    hits = make_word_set(word, word_list)
+    all_words.update([word])
+
+    if count > 0:
+        for w in hits:
+            find_all(w, word_list, count - 1, all_words)
+
+if __name__ == '__main__':
+    word_list = make_word_list()
+    search_string = '\n'.join(word_list)
+
+    print "Solution"
+    print make_word_set('puma', search_string)
+
+    print "\nBonus 1"
+    print "Length {} for word {}".format(*find_longest(word_list, search_string))
+
+    print "\nBonus 2"
+    words = set()
+    find_all('best', search_string, 3, words)
+    print "Number found within 3 steps of 'best' is {}".format(len(words))
+
+Output
+
+Solution
+set(['pump', 'puna', 'pima', 'pupa', 'puja', 'duma', 'pula'])
+
+Bonus 1
+Length 33 for word care
+
+Bonus 2
+Number found within 3 steps of 'best' is 575
+
+share
+Save
+swarage
+0 01 point·5 years ago
+
+excuse my obscene python code TT.TT
+
+def find_words(my_word):
+
+#read the file for possible words
+
+f = open('selected_four-letter_words.txt', 'r')
+words = [elem[:4] for elem in f.readlines()]
+#work with the word / do the main functions
+
+letters = map(chr, range(97, 123))
+for i in xrange(len(my_word)):
+        tmp_word = list(my_word)
+        for p in letters:
+                tmp_word[i] = p
+                if ''.join(tmp_word) in words and "".join(tmp_word) != my_word:
+                        print ''.join(tmp_word)
+
+find_words('puma')
+
+this takes way too much time in comparison to other programs.
+
+share
+Save
+live-and-learn
+1 point·5 years ago·edited 5 years ago
+
+7-line solution in python (albeit difficult to read).
+
+import re, itertools
+words = ' '.join([x.strip() for x in open('words.txt', 'r')])
+def one_off(w):
+    p = [''.join([w[:i], '.', w[i+1:]]) for i in range(4)]
+    return set([x for s in [re.findall(r'\b(%s)\b' %(p[i]), words) for i in range(4)] for x in s])-set([w])
+print one_off('puma')
+
+share
+Save
+Thomas1122
+1 point·5 years ago
+
+Java.
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Easy114 {
+
+        private List<String> words;
+        private boolean[][] adjMtxs;
+        private int sz;
+
+        public Easy114(String dictFilename) throws Exception {
+                init(dictFilename);
+        }
+
+        private void init(String dictFilename) throws Exception {
+                BufferedReader scan = new BufferedReader(new FileReader(new File(
+                                dictFilename)));
+                words = new ArrayList<String>();
+                String word;
+                while ((word = scan.readLine()) != null) {
+                        words.add(word);
+                }
+                sz = words.size();
+                String[] dict = words.toArray(new String[words.size()]);
+                adjMtxs = new boolean[sz][sz];
+                for (int i = 0; i < sz; i++) {
+                        char[] chars = dict[i].toCharArray();
+                        for (int j = 0, l = chars.length; j < l; j++) {
+                                char hold = chars[j];
+                                for (char ch = 'a'; ch <= 'z'; ch++) {
+                                        if (ch != hold) {
+                                                chars[j] = ch;
+                                                int pos = Arrays.binarySearch(dict, new String(chars));
+                                                if (pos >= 0)
+                                                        adjMtxs[i][pos] = adjMtxs[pos][i] = true;
+                                        }
+                                }
+                                chars[j] = hold;
+                        }
+                }
+        }
+
+        public void test() {
+                System.out.println("Neighbours of 'puma' : " + getNeighbours("puma"));
+                System.out.println("Ladders of 'best' of depth <= 3 : "
+                                + dfs("best", 3).size());
+                int mx = indegree(0);
+                for (int i = 1; i < sz; i++) {
+                        int j = indegree(i);
+                        if (mx < j) {
+                                mx = j;
+                        }
+                }
+                System.out.println(String.format(
+                                "Word(s) with most (ie %d)  neighbours : ", mx));
+                for (int i = 0; i < sz; i++)
+                        if (indegree(i) == mx)
+                                System.out.println(words.get(i));
+        }
+
+        public Set<String> dfs(String word, int maxDepth) {
+                if (maxDepth == 0)
+                        return Collections.emptySet();
+                List<String> q = getNeighbours(word);
+                Set<String> ret = new TreeSet<String>(q);
+                for (String n : q)
+                        ret.addAll(dfs(n, maxDepth - 1));
+                return ret;
+        }
+
+        public int indegree(int src) {
+                int c = 0;
+                for (boolean b : adjMtxs[src])
+                        if (b)
+                                c++;
+                return c;
+        }
+
+        public List<String> getNeighbours(String word) {
+                int pos = Collections.binarySearch(words, word);
+                if (pos >= 0) {
+                        List<String> neighbours = new ArrayList<String>();
+                        for (int i = 0; i < sz; i++) {
+                                if (adjMtxs[pos][i])
+                                        neighbours.add(words.get(i));
+                        }
+                        return neighbours;
+                }
+                return Collections.emptyList();
+        }
+
+        public static void main(String[] args) throws Exception {
+                new Easy114("C:\\Users\\332609\\Desktop\\words4.txt").test();
+        }
+
+}
+
+share
+Save
+la_krizz
+1 point·5 years ago
+
+C# Oneliner (without class definitions etc.) / No Bonus yet.
+
+Console.WriteLine("Count: " + File.ReadAllLines("words.txt").Count(line => { if (line.Where((t, i) => "best"[i] != line[i]).Count() == 1) { Console.WriteLine(line); return true; } return false; }));Console.WriteLine(line); });
+
+share
+Save
+A-N-Other
+0 01 point·5 years ago·edited 5 years ago
+
+Two simple Python (3) functions cover this:
+
+def ham(s1, s2):
+    return sum(c1 != c2 for c1, c2 in zip(s1, s2))
+
+def ham_iter(s, word_list, iters):
+    tmp_list = [i for i in word_list if ham(s, i) == 1]
+    word_set = set(tmp_list)
+    for _ in range(iters - 1):
+        word_set2 = set()
+        for i in word_list:
+            for j in tmp_list:
+                if ham(i, j) == 1:
+                    word_set2.add(i)
+                    break
+        word_set2.discard(s)
+        tmp_list = list(word_set2)
+        word_set |= word_set2
+    return word_set
+
+Run with:
+
+with open('.../selected_four-letter_words.txt', 'r', encoding='utf-8') as f_obj:
+    word_list = [i.strip() for i in f_obj]
+
+for i in word_list:
+    if ham('puma', i) == 1: print(i)
+
+i = 0
+while len([j for j in word_list if ham(word_list[i], j) == 1]) != 33: i += 1
+print(word_list[i])
+
+print(len(ham_iter('best', word_list, 3)))
+
+Outputs the standard answers and bonuses as per other peoples' results, though
+this solution also takes into account that for the 2nd bonus, the starting word
+shouldn't be included in the result.
+
+share
+Save
+PolygonPusher
+1 point·5 years ago·edited 5 years ago
+
+python
+
+def ladder(input):
+        with open('wordList.txt') as txt:
+                wordList = txt.read().splitlines()
+                output = []
+                for word in wordList:
+                        letterCount = 0
+                        for index in range(len(input)):
+                                if input[index] == word[index]:
+                                        letterCount += 1
+                        if letterCount == 3:
+                                output.append(word)
+                print output
+
+output
+
+ladder('puma')
+['duma', 'pima', 'puja', 'pula', 'pump', 'puna', 'pupa']
+
+share
+Save
+Fredifrum
+0 01 point·5 years ago
+
+First submission here, this code definitely could be simpler, but it works!
+Done in python. Suggestions welcome.
+
+f = open('four_letter_words.txt')
+words = f.read().splitlines()
+
+testwords = ['jest','zest','nope']
+def ladder(word):
+  success = []
+  ins = list(word)
+
+  for w in words:
+      test = list(w)
+      correct_letters = 0
+
+      for i in range(0,4):
+          if ins[i] == test[i]:
+              correct_letters += 1
+              if correct_letters == 3:
+                  success.append(w)
+
+  print success
+  print len(success)
+
+ladder('best')
+
+share
+Save
+mlor
+0 00 points·5 years ago·edited 5 years ago
+
+C#:
+
+void Main()
+{
+    string inputWord = "puma";
+    string[] words = File.ReadAllLines(@"C:\Users\Matthew\Documents\selected_four-letter_words.txt");
+
+    var ladderList = GenerateLadderList(words, inputWord);
+    PrintLadderWordList(ladderList);
+
+    //Bonus 1
+    System.Threading.Tasks.Parallel.ForEach(words, word =>{
+            var tempCheckLadderList = GenerateLadderList(words, word);
+            if(tempCheckLadderList.Count == 33){
+                    Console.WriteLine("");
+                    Console.WriteLine(string.Format("Bonus 1: \"{0}\" has 33 ladder words", word));
+                    PrintLadderWordList(tempCheckLadderList);
+            }
+    });
+}
+
+public List<string> GenerateLadderList(string[] words, string inputWord){
+    List<string> ladderList = new List<string>();
+    foreach(var word in words){
+            if(IsOneLetterOff(inputWord, word)){
+                    ladderList.Add(word);
+            }
+    }
+    return ladderList;
+}
+
+public bool IsOneLetterOff(string inputWord, string potentialLadderWord){
+    StringBuilder inputWordBuilder;
+    StringBuilder potentialLadderWordBuilder;
+
+    for(int i = 0; i < inputWord.Length; i++){
+            inputWordBuilder = new StringBuilder(inputWord).Remove(i, 1);
+            potentialLadderWordBuilder = new StringBuilder(potentialLadderWord).Remove(i, 1);
+
+            if(inputWordBuilder.ToString() == potentialLadderWordBuilder.ToString()){
+                    return true;
+            }
+    }
+    return false;
+}
+
+public void PrintLadderWordList(List<string> ladderList){
+    foreach(var ladderWord in ladderList){
+            Console.WriteLine(ladderWord);
+    }
+}
+
+Output:
+
+duma
+pima
+puja
+pula
+puma
+pump
+puna
+pupa
+
+Bonus 1 | "pats" has 33 ladder words:
+bats
+cats
+eats
+fats
+gats
+hats
+kats
+lats
+mats
+oats
+pacs
+pads
+pals
+pams
+pans
+paps
+pars
+pass
+pate
+path
+pats
+paty
+paws
+pays
+pets
+pits
+pots
+puts
+qats
+rats
+tats
+vats
+wats
+
+Bonus 1 | "bats" has 33 ladder words:
+baas
+bads
+bags
+bals
+bams
+bans
+baps
+bars
+bass
+bate
+bath
+bats
+batt
+bays
+bets
+bits
+bots
+buts
+cats
+eats
+fats
+gats
+hats
+kats
+lats
+mats
+oats
+pats
+qats
+rats
+tats
+vats
+wats
+
+Bonus 1 | "lats" has 33 ladder words:
+bats
+cats
+eats
+fats
+gats
+hats
+kats
+labs
+lacs
+lads
+lags
+lams
+laps
+lars
+lass
+late
+lath
+lati
+lats
+lavs
+laws
+lays
+lets
+lits
+lots
+mats
+oats
+pats
+qats
+rats
+tats
+vats
+wats
+
+Bonus 1 | "pins" has 33 ladder words:
+ains
+bins
+dins
+fins
+gins
+hins
+jins
+kins
+lins
+pans
+pens
+pias
+pics
+pies
+pigs
+pina
+pine
+ping
+pink
+pins
+pint
+piny
+pips
+piss
+pits
+pons
+puns
+rins
+sins
+tins
+wins
+yins
+zins
+
+Bonus 1 | "tats" has 33 ladder words:
+bats
+cats
+eats
+fats
+gats
+hats
+kats
+lats
+mats
+oats
+pats
+qats
+rats
+tabs
+tads
+tags
+tams
+tans
+taos
+taps
+tars
+tass
+tate
+tats
+taus
+tavs
+taws
+tets
+tits
+tots
+tuts
+vats
+wats
+
+share
+Save
+mlor
+0 01 point·5 years ago
+
+Forgot to omit the word itself. Updated.
+
+C#:
+
+void Main()
+{
+    string inputWord = "puma";
+    string[] words = File.ReadAllLines(@"C:\Users\Matthew\Documents\selected_four-letter_words.txt");
+
+    var ladderList = GenerateLadderList(words, inputWord);
+    PrintLadderWordList(ladderList);
+
+    //Bonus 1
+    System.Threading.Tasks.Parallel.ForEach(words, word =>{
+            var tempCheckLadderList = GenerateLadderList(words, word);
+            if(tempCheckLadderList.Count == 33){
+                    Console.WriteLine("");
+                    Console.WriteLine(string.Format("Bonus 1: \"{0}\" has 33 ladder words", word));
+                    PrintLadderWordList(tempCheckLadderList);
+            }
+    });
+}
+
+public List<string> GenerateLadderList(string[] words, string inputWord){
+    List<string> ladderList = new List<string>();
+    foreach(var word in words){
+            if(IsOneLetterOff(inputWord, word)){
+                    ladderList.Add(word);
+            }
+    }
+    return ladderList;
+}
+
+public bool IsOneLetterOff(string inputWord, string potentialLadderWord){
+    if(inputWord == potentialLadderWord){
+            return false;
+    }
+
+    StringBuilder inputWordBuilder;
+    StringBuilder potentialLadderWordBuilder;
+
+    for(int i = 0; i < inputWord.Length; i++){
+            inputWordBuilder = new StringBuilder(inputWord).Remove(i, 1);
+            potentialLadderWordBuilder = new StringBuilder(potentialLadderWord).Remove(i, 1);
+
+            if(inputWordBuilder.ToString() == potentialLadderWordBuilder.ToString()){
+                    return true;
+            }
+    }
+    return false;
+}
+
+public void PrintLadderWordList(List<string> ladderList){
+    foreach(var ladderWord in ladderList){
+            Console.WriteLine(ladderWord);
+    }
+}
+
+Output:
+
+duma
+pima
+puja
+pula
+pump
+puna
+pupa
+
+Bonus 1: "care" has 33 ladder words
+bare
+cade
+cafe
+cage
+cake
+came
+cane
+cape
+carb
+card
+cark
+carl
+carn
+carp
+carr
+cars
+cart
+case
+cate
+cave
+cere
+cire
+core
+cure
+dare
+fare
+hare
+mare
+pare
+rare
+tare
+ware
+yare
+
+share
+Save
+[deleted]
+0 points·5 years ago·edited 5 years ago
+
+def hamming_distance(word1, word2):
+        return sum(word1[i] != word2[i] for i in range(max(len(word1), len(word2))))
+
+def words_different_by_one_character(word, dictionary):
+        return [match for match in dictionary if hamming_distance(word, match) == 1]
+
+def words_with_n_neighbors(n, dictionary):
+        return [word for word in dictionary if len(words_different_by_one_character(word, dictionary)) == n]
+
+def number_of_words_within_n_edits_of_word(word, n, dictionary):
+        return sum(1 for match in dictionary if 0 < hamming_distance(word, match) <= n)
+
+if __name__ == '__main__':
+        with open('input.txt') as file:
+                dictionary = file.read().splitlines()
+
+        print('\n'.join(words_different_by_one_character('puma', dictionary)))
+        print()
+        print('\n'.join(words_with_n_neighbors(33, dictionary)))
+        print()
+        print(number_of_words_within_n_edits_of_word('best', 3, dictionary))
+
+Output:
+
+duma
+pima
+puja
+pula
+pump
+puna
+pupa
+
+care
+
+1076
+
+Would somebody care to check my answer for bonus 2? I'm pretty sure that it's
+correct, but it doesn't match anybody's answer.
+
+share
+Save
+rabuf
+1 point·5 years ago
+
+For bonus 2 you've found the upperbound. However, you need to confirm that
+there is in fact a path between each of those words and best that doesn't take
+more than 3 steps. It's possible that the path is nonexistent. Consider the
+dictionary: best, bees, beat, bale. bale is within 3 of best but there is no
+path within that dictionary. In the case of this challenge, there is a
+guaranteed path between all words, but it may require a more circuitous route
+than the hamming distance suggests (see look -> leap in the intermediate
+challenge).
+
+share
+Save
+[deleted]
+1 point·5 years ago·edited 5 years ago
+
+Gotcha. Misunderstood the problem.
+
+EDIT: Something, something binary search tree, or something, something set.
+
+share
+Save
+gregthegeek1
+0 00 points·5 years ago
+
+I'm new to Python and was wondering if anyone had any constructive criticism
+for me (Python 2.7):
+
+def hammerDistOfOne(word1, word2):
+    assert len(word1) == len(word2)
+    charArray1 = list(word1)
+    charArray2 = list(word2)
+    diff = 0 #I could use a boolean
+    for i in range(0, len(word1)):
+        if charArray1[i] != charArray2[i]:
+            diff += 1
+            if diff > 1:
+                return False
+
+
+    return True
+
+testWord = raw_input("What word should I test? ")
+testFilePath = raw_input("What file should I test? ")
+try:
+    testFile = open(testFilePath)
+    for line in testFile:
+        newLine = line[:4]
+        if hammerDistOfOne(newLine, testWord):
+            print newLine
+
+    print "[Search Complete]"
+except IOError as e:
+    print "Error reading file!"
+
+share
+Save
+kezabelle
+1 point·5 years ago
+
+You shouldn't need to cast the strings to lists; slicing and lookup syntax
+works for strings.
+
+You could probably avoid writing your own loop by casting the strings to sets
+and testing the overlap is 3. It may not be more efficient, but it might be
+more clear and expressive.
+
+share
+Save
+gregthegeek1
+0 01 point·5 years ago
+
+Sorry, I come from a Java background and have no idea how you would go about
+doing this. Could you write a couple lines of code for me so I could see how
+it's done?
+
+share
+Save
+kezabelle
+1 point·5 years ago
+
+The first part? Sure:
+
+>>> 'bean'[:1]
+'b'
+>>> 'bean'[2:4]
+'an'
+>>> 'bean'[0:4:2]
+'ba'
+
+The second part? No, because I was forgetting that sets are unordered, and to
+do away with the loop, you'd need them to be ordered in some fashion. The idea
+was something like:
+
+>>> a = set('bean')
+>>> b = set('beat')
+>>> assert a.intersection(b) == 3
+
+But that'll get you false positives, as long as the data structure being
+intersected is unordered :/
+
+share
+Save
+LiquidHelium
+0 points·5 years ago
+
+python:
+
+possibleWords = ('amp', 'ome', 'omd', 'pne')
+currentWord = 'one'
+
+print [word for word in possibleWords if len(filter(lambda x: word[x]!=currentWord[x], range(len(currentWord)))) == 1]
+
+share
+Save
+Community Details
+r/dailyprogrammer
+
+141k
+
+Subscribers
+
+86
+
+Online
+
+**Welcome to r/DailyProgrammer!** First time visitors of Daily Programmer
+please [Read the Wiki] (http://www.reddit.com/r/dailyprogrammer/wiki/index) to
+learn everything about this subreddit. 3 Programming Challenges a week!
+
+SubscribeCreate Post
+aboutcareerspress
+advertisebloghelp
+the reddit appreddit goldreddit gifts
+content policy| privacy policy
+user agreement| mod policy
+© 2018 Reddit, Inc. All rights reserved
+back to top
