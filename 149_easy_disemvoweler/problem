@@ -1,0 +1,4897 @@
+close this window
+jump to content
+my subreddits
+edit subscriptions
+
+  • popular
+  • -all
+  • -random
+  • -users
+
+ | 
+
+  • AskReddit
+  • -worldnews
+  • -videos
+  • -funny
+  • -todayilearned
+  • -pics
+  • -gaming
+  • -movies
+  • -news
+  • -gifs
+  • -mildlyinteresting
+  • -aww
+  • -Showerthoughts
+  • -television
+  • -Jokes
+  • -science
+  • -OldSchoolCool
+  • -sports
+  • -IAmA
+  • -Documentaries
+  • -TwoXChromosomes
+  • -explainlikeimfive
+  • -personalfinance
+  • -books
+  • -tifu
+  • -Futurology
+  • -dataisbeautiful
+  • -WritingPrompts
+  • -nottheonion
+  • -food
+  • -Music
+  • -photoshopbattles
+  • -EarthPorn
+  • -philosophy
+  • -Art
+  • -nosleep
+  • -GetMotivated
+  • -askscience
+  • -LifeProTips
+  • -space
+  • -UpliftingNews
+  • -DIY
+  • -history
+  • -gadgets
+  • -creepy
+  • -listentothis
+  • -blog
+  • -announcements
+  • -InternetIsBeautiful
+
+more >>
+dailyprogrammer dailyprogrammer
+
+  • comments
+
+Want to join? Log in or sign up in seconds.|
+
+  • English
+
+[                    ][]
+[ ]limit my search to r/dailyprogrammer
+
+use the following search parameters to narrow your results:
+
+subreddit:subreddit
+    find submissions in "subreddit"
+author:username
+    find submissions by "username"
+site:example.com
+    find submissions from "example.com"
+url:text
+    search for "text" in url
+selftext:text
+    search for "text" in self post contents
+self:yes (or self:no)
+    include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+    include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+
+see the search faq for details.
+
+advanced search: by author, subreddit...
+
+this post was submitted on  24 Feb 2014
+148 points (98% upvoted)
+shortlink:  [https://redd.it/1yst]
+[                    ][                    ]
+[ ]remember mereset password
+login
+Submissions restricted
+Only approved users may post in this community.
+
+dailyprogrammer
+
+subscribeunsubscribe142,051 readers
+
+141 users here now
+
+ 1. Challenge #321: Easy
+ 2. Challenge #321: Intermediate
+ 3. Challenge #321: Hard
+ 4. Weekly #25: Escape the trolls
+
+Welcome to r/DailyProgrammer!
+
+First time visitors of Daily Programmer please Read the Wiki to learn
+everything about this subreddit.
+
+  • Solution Submission Tutorial
+  • Solution Submission Guidelines
+  • Code / Peer-Review Guidelines
+  • Problem Submission Guidelines
+  • Achievements System
+  • Community Projects
+  • Links to other Programming subreddits
+  • Special Thanks
+
+Can't submit solutions?
+
+If you are a new or unverified account, and are unable to post comment replies,
+please click here to verify your account. Otherwise, read the Solution
+Submission Tutorial for a walkthrough of submitting a solution, or click below
+to message the moderators for assistance.
+
+Write your own challenge!
+
+To help the community and write your own challenge to be submitted, head on
+over to /r/DailyProgrammer_Ideas and share your project - read the sidebar in
+that subreddit for more information.
+
+IRC Channel
+
+Message the Moderators
+
+Challenge List in Chronological Order
+
+created by nottoobadguya community for 6 years
+message the moderators
+
+MODERATORS
+
+  • rya111113 1
+  • nint221 2
+  • Cosmologicon2 3
+  • Elite68091 1
+  • XenophonOfAthens2 1
+  • jnazario2 0
+  • Godspiral3 3
+  • Blackshell2 0
+  • fvandepitte0 0
+  • G33kDude1 1
+  • about moderation team >>
+
+discussions in r/dailyprogrammer
+<>
+X
+ 
+42 . 10 comments
+[2018-05-09] Challenge #360 [Intermediate] Find the Nearest Aeroplane
+ 
+64 . 26 comments
+[2018-05-04] Challenge #359 [Hard] Primes in Grids
+ 
+43 . 37 comments
+[2018-05-02] Challenge #359 [Intermediate] Unwrap Some Text
+ 
+63 . 111 comments
+[2018-04-30] Challenge #359 [Easy] Regular Paperfold Sequence Generator
+ 
+64 . 12 comments
+[2018-04-27] Challenge #358 [Hard] Puzzle me this
+ 
+48 . 36 comments
+[2018-04-25] Challenge #358 [Intermediate] Everyone's A Winner!
+ 
+69 . 75 comments
+[2018-04-23] Challenge #358 [Easy] Decipher The Seven Segments
+ 
+57 . 28 comments
+[2018-04-20] Challenge #357 [Hard] Continued Fractions
+ 
+57 . 26 comments
+[2018-04-19] Challenge #357 [Intermediate] Kolakoski Sequences
+ 
+68 . 114 comments
+[2018-04-11] Challenge #356 [Intermediate] Goldbach's Weak Conjecture
+
+Welcome to Reddit,
+
+the front page of the internet.
+
+Become a Redditor
+
+and subscribe to one of thousands of communities.
+
+x
+
+147
+148
+149
+
+[02/24/14] Challenge #149 [Easy] Disemvoweler (self.dailyprogrammer)
+
+submitted 4 years ago * by Cosmologicon2 3
+
+(Easy): Disemvoweler
+
+Disemvoweling means removing the vowels from text. (For this challenge, the
+letters a, e, i, o, and u are considered vowels, and the letter y is not.) The
+idea is to make text difficult but not impossible to read, for when somebody
+posts something so idiotic you want people who are reading it to get extra
+frustrated.
+
+To make things even harder to read, we'll remove spaces too. For example, this
+string:
+
+two drums and a cymbal fall off a cliff
+
+can be disemvoweled to get:
+
+twdrmsndcymblfllffclff
+
+We also want to keep the vowels we removed around (in their original order),
+which in this case is:
+
+ouaaaaoai
+
+Formal Inputs & Outputs
+
+Input description
+
+A string consisting of a series of words to disemvowel. It will be all
+lowercase (letters a-z) and without punctuation. The only special character you
+need to handle is spaces.
+
+Output description
+
+Two strings, one of the disemvoweled text (spaces removed), and one of all the
+removed vowels.
+
+Sample Inputs & Outputs
+
+Sample Input 1
+
+all those who believe in psychokinesis raise my hand
+
+Sample Output 1
+
+llthswhblvnpsychknssrsmyhnd
+aoeoeieeioieiaiea
+
+Sample Input 2
+
+did you hear about the excellent farmer who was outstanding in his field
+
+Sample Output 2
+
+ddyhrbtthxcllntfrmrwhwststndngnhsfld
+ioueaaoueeeeaeoaouaiiiie
+
+Notes
+
+Thanks to /u/abecedarius for inspiring this challenge on /r/
+dailyprogrammer_ideas!
+
+In principle it may be possible to reconstruct the original text from the
+disemvoweled text. If you want to try it, check out this week's Intermediate
+challenge!
+
+  • 362 comments
+  • share
+  • save
+  • hide
+  • report
+
+top 200 commentsshow all 362
+sorted by:
+best
+topnewcontroversialoldrandomq&alive (beta)
+ [                    ]
+
+Want to add to the discussion?
+
+Post a comment!
+
+Create an account
+
+[–]dooglehead 26 points27 points28 points 4 years ago* (1 child)
+
+x86 assembly for Windows (assembled with MASM32)
+
+.386
+.model flat, stdcall
+option casemap :none
+
+include \masm32\include\windows.inc
+include \masm32\include\kernel32.inc
+include \masm32\include\masm32.inc
+includelib \masm32\lib\kernel32.lib
+includelib \masm32\lib\masm32.lib
+
+.data?
+    input           db      256 dup(?)      ;"dup" duplicates what is in parenthesis.
+    nonVowels       db      256 dup(?)      ;In these cases, it creates 3 uninitialized arrays of 256 bytes.
+    vowels          db      256 dup(?)
+
+.code
+main:
+    invoke StdIn, addr input, 256           ;get input
+
+    xor esi, esi                            ;xoring a register with itself is a fast way of setting it to 0.
+    xor edi, edi
+    xor eax, eax                            ;eax will store the destination address for vowels
+    mov bl, input[esi]
+
+_disemvowelerLoop:
+        cmp bl, 0
+        jz _disemvowelerEnd                 ;exit loop at end of string (null terminator character)
+
+        cmp bl, ' '                         ;ignore spaces
+        jz _disemvowelerContinue
+
+        cmp bl, 'a'                         ;check if current character is a vowel
+        jz _vowel
+        cmp bl, 'e'
+        jz _vowel
+        cmp bl, 'i'
+        jz _vowel
+        cmp bl, 'o'
+        jz _vowel
+        cmp bl, 'u'
+        jz _vowel
+
+        mov nonVowels[edi], bl              ;if it isn not a vowel, add it to nonVowels
+        inc edi
+        jmp _disemvowelerContinue
+
+    _vowel:
+        xchg eax, edi                       ;temporarily swap eax and edi so edi stores the vowel destination
+        mov vowels[edi], bl                 ;if it is a vowel, add it to vowels
+        inc edi
+        xchg eax, edi
+
+    _disemvowelerContinue:
+        inc esi                             ;increment character index
+        mov bl, input[esi]
+        jmp _disemvowelerLoop
+
+_disemvowelerEnd:
+
+    mov nonVowels[edi], 10                  ;add newline and null terminator characters to strings
+    mov nonVowels[edi+1], 0
+    xchg eax, edi
+    mov vowels[edi], 10
+    mov vowels[edi+1], 10
+    mov vowels[edi+2], 0
+
+    invoke StdOut, addr nonVowels           ;print results
+    invoke StdOut, addr vowels
+    invoke ExitProcess, 0
+end main
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]colonpal 4 points5 points6 points 4 years ago (0 children)
+
+Wow. As a newbie, I was just talking to someone last night about x86. Crazy
+stuff.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]prondose0 0 24 points25 points26 points 4 years ago (8 children)
+
+Perl:
+
+sub dp149 {
+    $_ = $_[0]; s/[aeiou ]//g; say;
+    $_ = $_[0]; s/[^aeiou]//g; say;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nanermaner1 0 39 points40 points41 points 4 years ago (3 children)
+
+what
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]hearingaid_bot 99 points100 points101 points 4 years ago (2 children)
+
+PERL:
+
+SUB DP149 {
+    $_ = $_[0]; S/[AEIOU ]//G; SAY;
+    $_ = $_[0]; S/[^AEIOU]//G; SAY;
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]boaf 48 points49 points50 points 4 years ago (1 child)
+
+omg i can't breathe
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]copiga 1 point2 points3 points 4 years ago (0 children)
+
+$_ = $_[0];s/[aeiou]//g;say;
+
+this bit puts the input through a regex to remove spaces and vowels, then
+prints it. $_ is a default but could easily be substituted for any other
+variable name(with the expense of file size)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]prondose0 0 2 points3 points4 points 4 years ago (3 children)
+
+shorter weirder:
+
+sub dp149 {
+    $_ = shift;
+    say y/aeiou //dr;
+    say s/[^aeiou]//gr;
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Zidanet 1 point2 points3 points 4 years ago (2 children)
+
+even shorter...
+
+sub dp149 {
+    shift;
+    say y/aeiou //dr;
+    say s/[^aeiou]//gr;
+}
+
+($_ is implicit)
+
+--edit-- formatting is
+
+  • hard
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]prondose0 0 2 points3 points4 points 4 years ago (1 child)
+
+you actually need to declare it here
+
+only some functions set $_, and shift is not one of them
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Zidanet 0 points1 point2 points 4 years ago (0 children)
+
+bah, you're right, My mistake. I always thought it did.
+
+I should probably check that I'm not actually using this in production code...
+but hey, everything is working, so I'm sure it will be fine.
+
+although... perl can expand variables within a regex, why not just drop the
+shift altogether and just s/xyz/@_[0]/g
+
+(on my tablet atm, so can't test right now).
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]DMzda 44 points45 points46 points 4 years ago (25 children)
+
+Python 2.7:
+
+text = raw_input("Enter string: ").replace(" ","")
+vowels = ["a", "e", "i", "o", "u"]
+print "".join(letter for letter in text if letter not in vowels)
+print "".join(letter for letter in text if letter in vowels)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]stringsandwinds 11 points12 points13 points 4 years ago (0 children)
+
+I am still learning Python and these easy problems are still hard for me to
+solve on my own, but I learned about .replace, .join, and an alternate way to
+make a list just from reading your code and the comments. I even changed it to
+work with Python 3. Thank you!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]MrDerk 19 points20 points21 points 4 years ago (1 child)
+
+I like how incredibly readable this is. For the record, you can define vowels
+as:
+
+vowels = 'aeiou'
+
+and it'll work the same way without the need for so many quotes and commas.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]DMzda 4 points5 points6 points 4 years ago (0 children)
+
+Yeah, I realised this after posting, but I left it as is. Thanks!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ooesili 1 point2 points3 points 4 years ago (17 children)
+
+Just a tip to save some keystrokes:
+
+vowels = list("aeiou")
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Shadow14l0 0 2 points3 points4 points 4 years ago (16 children)
+
+Even more:
+
+vowels = "aeiou"
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]learningtig 10 points11 points12 points 4 years ago* (11 children)
+
+If we're minimising keystrokes, why not:
+
+t = raw_input("Enter string: ").replace(" ","")
+print "".join(l for l in t if l not in 'aeiou')
+print "".join(l for l in t if l in 'aeiou')
+
+Edit: Shorter again:
+
+import re,sys
+t=sys.argv[1]
+print re.sub('[aeiou ]','',t)
+print re.sub('[^aeiou]| ','',t)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]BallsonoldWirestraws 1 point2 points3 points 4 years ago (0 children)
+
+Wow. Ever since I discovered it, I just love the re module.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (10 replies)
+
+[–]Sakuya_Lv9 11 points12 points13 points 4 years ago (3 children)
+
+even faster:
+
+vowels='oiuea' # just slap 5 fingers on the 5 keys
+
+(jk)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]snuxoll 12 points13 points14 points 4 years ago (2 children)
+
+'aoeui'
+
+Dvorak master race.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]MrSnowflake 2 points3 points4 points 4 years ago (1 child)
+
+'aueio'
+
+Colemak baby (although it's u is not on the homerow :( )
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (1 reply)
+
+[–]5outh1 0 3 points4 points5 points 4 years ago (0 children)
+
+This is a very pretty piece of Python code!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (3 replies)
+
+[–]the_mighty_skeetadon 19 points20 points21 points 4 years ago (13 children)
+
+Ruby!
+
+str = 'did you hear about the excellent farmer who was outstanding in his field'
+puts "#{str.delete('aeiou ')}\n#{str.delete('^aeiou')}"
+
+Output:
+
+ddyhrbtthxcllntfrmrwhwststndngnhsfld
+ioueaaoueeeeaeoaouaiiiie
+[Finished in 0.1s]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ThatCrankyGuy 13 points14 points15 points 4 years ago (4 children)
+
+Ruby scares me with it's flexibility and shortcuts.
+
+This is fantastic -- probably the smallest code here.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]MrPopinjay 2 points3 points4 points 4 years ago (3 children)
+
+Ruby is so much fun to write in. Try it :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (3 replies)
+
+[–]allcentury 1 point2 points3 points 4 years ago (1 child)
+
+awesome!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (1 reply)
+
+[–]hurtlerusa 1 point2 points3 points 4 years ago (1 child)
+
+Wow!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (1 reply)
+
+load more comments (4 replies)
+
+[–]duetosymmetry 14 points15 points16 points 4 years ago (0 children)
+
+This is exactly what the shell utility tr is for. Here I assume the first
+argument is a file containing the text. See /u/galaktos's comment for stdin
+instead.
+
+tr -d aeiou[:blank:] < $1
+tr -C -d aeiou < $1
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nullmove1 0 41 points42 points43 points 4 years ago (0 children)
+
+Please keep this sub alive, I can't overstate how helpful these challenges and
+most importantly the discussions are.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dongas420 13 points14 points15 points 4 years ago* (3 children)
+
+Perl:
+
+chomp($_ = <STDIN>);
+($a = $_) =~ s/[^aeiou]//g;
+y/aeiou //d;
+print "$_\n$a";
+
+Bonus Brainfuck devoweler (doing consonants takes way too long):
+
+>,
+[>>++++++
+[>++++
+[>+>+>++++>++++>++++>++++>++++>++++>+++++>+++++>+++++>+++++<<<<<<<<<<<<-]
+<-]
+>>++++++++>++++++++>+>+>+++++>
++++++>+++++++++>+++++++++
+>--------->--------->--->---
+[<]<<<
+[>+>+>+<<<-]>[->>>>-<<<<]>>>>
+[
+<<<[<<+>>-]<<[->+>+<<]>[->>>>>>-<<<<<<]>>>>>>
+[
+<<<<<[<<+>>-]<<[->+>+<<]>[->>>>>>>>-<<<<<<<<]>>>>>>>>
+[
+<<<<<<<[<<+>>-]<<[->+>+<<]>[->>>>>>>>>>-<<<<<<<<<<]>>>>>>>>>>
+[
+<<<<<<<<<[<<+>>-]<<[->+>+<<]>[->>>>>>>>>>>>-<<<<<<<<<<<<]>>>>>>>>>>>>
+[
+<<<<<<<<<<<[<<+>>-]<<[->+>+<<]>[->>>>>>>>>>>>>>-<<<<<<<<<<<<<<]>>>>>>>>>>>>>>
+[[<]>.[<]]
+[<]
+]
+[<]
+]
+[<]
+]
+[<]
+]
+[<]
+]
+>>>>>>>>>>>>>
+>,
+]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]catfishdeity 2 points3 points4 points 4 years ago (0 children)
+
+i'm glad someone tried to accomplish this...I was actually wondering if anyone
+would.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 1 point2 points3 points 4 years ago (1 child)
+
+Did you use any 'convert-to-brainfuck' tool? Are are you a fucking genius?
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+load more comments (1 reply)
+
+[–]thestoicattack0 0 7 points8 points9 points 4 years ago (1 child)
+
+sed:
+
+sed 's/ //g;h;s/[aeiou]//g;p;x;s/[^aeiou]//g;'
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]galaktos 2 points3 points4 points 4 years ago* (0 children)
+
+Nice use of h and x! (Also, TIL about ; in sed – I thought you needed multiple
+-es...)
+
+You might still be able to minimize it a bit further by removing the first
+substitution, and using [aeiou ] (note the space) in the second.
+
+Edit: like this:
+
+sed 'h;s/[aeiou ]//g;p;x;s/[^aeiou]//g'
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 4 points5 points6 points 4 years ago (2 children)
+
+C code with comments.
+
+Use like this: ./a.out "your string"
+
+Feedback welcome.
+
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+
+void vowel_split (char *in, char *consonant, char *vowel,int size)
+{
+    while(*in)                                  /* While not \0 */
+    {
+        if (*in == ' ')                         /* Do nothing for spaces */
+        {
+        }
+        else if (*in == 'a' ||                  /* Vowel check */
+                 *in == 'e' ||
+                 *in == 'i' ||
+                 *in == 'o' ||
+                 *in == 'u' )
+        {
+            *vowel++ = *in;                     /* Append to vowels */
+        }
+        else
+        {
+            *consonant++ = *in;                 /* Append to consonants */
+        }
+        in++;                                   /* Point to next char */
+    }
+}
+
+int main (int argc, char *argv[])
+{
+    int string_length;
+    char *consonants;
+    char *vowels;
+
+    string_length = strlen(argv[1]);            /* Ensure char arrays are big enough */
+    consonants = calloc(string_length,1);       /* calloc sets values to \0 to terminate strings */
+    vowels = calloc(string_length,1);
+
+    vowel_split(argv[1],consonants,vowels,string_length); /* Do the stuff */
+
+    printf("Consonants: %s\n",consonants);
+    printf("Vowels: %s\n",vowels);
+
+    free(vowels);                               /* Always free your mallocs */
+    free(consonants);
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+
+[–]thoth79070 1 1 point2 points3 points 4 years ago* (1 child)
+
+Looks good... except I think you need to add 1 to the consonants and vowels
+string length to account for the max length plus null termination.
+
+In the degenerate case, where the input string is all consonants or all vowels,
+and no spaces, one of the allocations will be the same size as the input
+string. Therefore the calloc won't allocate enough space for the resulting
+string plus null terminator.
+
+Minor issue, but string handling in C is a pain in the butt. Otherwise I think
+it's fine!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 0 points1 point2 points 4 years ago (0 children)
+
+Ah that's right! I forgot that strlen doesn't count the terminator.
+
+Thanks for the feedback.
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]abathologist 4 points5 points6 points 4 years ago* (0 children)
+
+Prolog (SWI-Prolog 7.1).
+
+The code:
+
+space(' ').
+vowel(V) :-
+    member(V, [a,e,i,o,u]).
+
+string_disemvoweled_vowels(Str, Unvoweled, OnlyVowels) :-
+    string_chars(Str, Chrs),
+    exclude(space, Chrs, Spaceless),
+    partition(vowel, Spaceless, Vowels, Voweless),
+    maplist(string_chars, [Unvoweled, OnlyVowels], [Voweless, Vowels]).
+
+disemvowel :-
+    read(S),
+    string_disemvoweled_vowels(S, D, V),
+    format('disemvoweled: ~w.~nvowels: ~w', [D, V]).
+
+The tests:
+
+?- disemvowel.
+|: "all those who believe in psychokinesis raise my hand".
+disemvoweled: llthswhblvnpsychknssrsmyhnd.
+vowels: aoeoeieeioieiaiea
+true.
+
+?- disemvowel.
+|: "did you hear about the excellent farmer who was outstanding in his field".
+disemvoweled: ddyhrbtthxcllntfrmrwhwststndngnhsfld.
+vowels: ioueaaoueeeeaeoaouaiiiie
+true.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]HandOfTheCEO 4 points5 points6 points 4 years ago (0 children)
+
+Concise Ruby:
+
+puts gets.chomp.delete(' ').each_char.partition{|c| !"aeiou".include?(c) }.map(&:join)
+
+String#partition is different. We use partition from Enumerable module, so the
+call to each_char which returns an Enumerator
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]5outh1 0 3 points4 points5 points 4 years ago* (1 child)
+
+Perfectly suited to a simple partition in Haskell:
+
+import Data.List(partition)
+import Control.Monad(liftM)
+
+disemvowel = partition (`elem` "aeiou") . filter (/=' ')
+
+main = do (cs, vs) <- liftM disemvowel getLine
+          putStrLn cs >> putStrLn vs
+
+Edit: Add IO
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Deinumite 1 point2 points3 points 4 years ago (0 children)
+
+I'm just learning Haskell, your use of function composition makes yours look
+much nicer!
+
+import Data.List
+
+disemvowel :: String -> (String, String)
+disemvowel sentence =
+    let vowels = "aeiou"
+        isVowel n = n `notElem` vowels
+in partition isVowel $ filter (/= ' ') sentence
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]thinksInCode 7 points8 points9 points 4 years ago* (8 children)
+
+JavaScript:
+
+function disemvowel(inputStr) {
+  console.log(inputStr.match(/[^aeiou ]/g).join(""));
+  console.log(inputStr.match(/[aeiou]/g).join(""));
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]test84 2 points3 points4 points 4 years ago (1 child)
+
+This is great. This was my solution (a slight variation):
+
+function disemvowel(s) {
+  console.log(s.replace(/[aeiou ]/g, ''));
+  console.log(s.replace(/[^aeiou]/g, ''));
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]thinksInCode 1 point2 points3 points 4 years ago (0 children)
+
+Nice!
+
+Have you attempted the re-envoweler challenges yet?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Samwi5e 1 point2 points3 points 4 years ago (3 children)
+
+new to this--why the backslash in the parameters for the match method?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]the_mighty_skeetadon 1 point2 points3 points 4 years ago (0 children)
+
+By the way, that's a forward slash, not a backslash! Backslashes look like
+they're leaning backwards against the flow of the text -- so the top is on the
+left.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (2 replies)
+
+load more comments (2 replies)
+
+[–][deleted] 4 years ago (1 child)
+
+[deleted]
+
+[–]MotherOfTheShizznit 0 points1 point2 points 4 years ago (0 children)
+
+Here's the "advanced" version. :) Also, it modifies the input string in place.
+
+// Lifted from http://stackoverflow.com/questions/11928115/why-doesnt-stdremove-copy-if-actually-remove
+// after realising the std::remove_copy_if doesn't remove.
+template <typename FIterator, typename OIterator, typename Pred>
+FIterator splice_if(FIterator first, FIterator last, OIterator out, Pred p)
+{
+    FIterator result = first;
+    for(; first != last; ++first) {
+        if(p(*first)) {
+            *out++ = *first;
+        }
+        else {
+            *result++ = *first;
+        }
+    }
+    return result;
+}
+
+string disemvowel(string& s)
+{
+    static const string vowels{"aeiou"};
+    string v;
+    s.erase(splice_if(s.begin(), s.end(), back_inserter(v), [](char c){ return vowels.find(tolower(c)) != string::npos; }), s.end());
+    s.erase(remove_if(s.begin(), s.end(), isspace), s.end());
+    return v;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]skeeto-9 8 3 points4 points5 points 4 years ago (0 children)
+
+Common Lisp, using the disjoin higher-order function from Alexandria.
+
+(defun vowel-p (character)
+  (find character "aeiou"))
+
+(defun consonant-p (character)
+  (not (vowel-p character)))
+
+(defun whitespace-p (character)
+  (find character "     "))
+
+(defun disemvowel (string)
+  (values (remove-if (disjoin #'whitespace-p #'vowel-p)     string)
+          (remove-if (disjoin #'whitespace-p #'consonant-p) string)))
+
+Usage:
+
+(disemvowel "all those who believe in psychokinesis raise my hand")
+;; => "llthswhblvnpsychknssrsmyhnd", "aoeoeieeioieiaiea"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]OffPiste18 3 points4 points5 points 4 years ago (0 children)
+
+Here's Scala. Decided to try to golf this one:
+
+val x,y=readLine.filter(_!=' ')partition("aeiou"contains _)
+print(y+"\n"+x)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]galaktos 3 points4 points5 points 4 years ago* (1 child)
+
+bash:
+
+#!/bin/bash
+t=`sed s/\ //g`
+sed "s/[aeiou]//g"<<<$t
+sed "s/[^aeiou]//g"<<<$t
+
+I went for minimal over readable (excuse my use of `foo` and \).
+
+Edit: add i to sed’s flags for case insensitive version
+
+Edit: Even smaller version, after looking at other people’s regexes. +/u/
+CompileBot bash
+
+#!/bin/bash
+read t
+sed "s/[aeiou ]//g"<<<$t
+sed "s/[^aeiou]//g"<<<$t
+
+Input:
+
+did you hear about the excellent farmer who was outstanding in his field
+
+Edit: /u/thestoicattac made a pure sed version, and I minified that even
+further.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]CompileBot 1 point2 points3 points 4 years ago (0 children)
+
+Output:
+
+ddyhrbtthxcllntfrmrwhwststndngnhsfld
+ioueaaoueeeeaeoaouaiiiie
+
+^source ^| ^info ^| ^git ^| ^report
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]CapitanWaffles 3 points4 points5 points 4 years ago* (2 children)
+
+Python:
+
+user = raw_input( ">> ")
+
+takeVowels = user.lower()
+takeElse = user.lower()
+
+for letter in takeVowels:
+    if letter in ['a', 'e', 'i', 'o', 'u']:
+        takeVowels = takeVowels.replace(letter, '')
+for letter in takeElse:
+    if letter not in ['a', 'e', 'i', 'o', 'u']:
+        takeElse = takeElse.replace(letter, '')
+
+print takeVowels
+print takeElse
+
+Tested on my username:
+
+CapitanWaffles
+cptnwffls
+aiaae
+
+New to this so critique welcome!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+load more comments (2 replies)
+
+[–][deleted] 2 points3 points4 points 4 years ago (0 children)
+
+Awww yeeeaaa, dailyprogrammer is back! :)
+
+Python 3:
+
+inp = input()
+print("".join([c for c in inp if c not in " aeiou"]))
+print("".join([c for c in inp if c in "aeiou"]))
+
+  • permalink
+  • embed
+  • save
+
+[–]AndrewBenavides 2 points3 points4 points 4 years ago (7 children)
+
+Here's a slightly verbose solution for F# -- with a link to github, with commit
+history for anyone who is interested.
+
+I first tried to use Seq.filter with two functions (IsVowel and IsConsonant) to
+find vowels and consonants, but found that String.concat didn't work with seq
+<char>... so instead of making some function to convert a sequence of chars to
+a sequence of single character strings, I just refactored for String.collect
+instead.
+
++/u/CompileBot F#
+
+let GetVowels c =
+    match c with
+    | 'a' | 'e' | 'i' | 'o' | 'u' -> c.ToString()
+    | _ -> ""
+
+let GetConsonants c =
+    match c with
+    | ' ' -> ""
+    | _ when GetVowels c = "" -> c.ToString()
+    | _ -> ""
+
+let Disemvowel str =
+    let FindConsonants = String.collect GetConsonants
+    let FindVowels = String.collect GetVowels
+
+    (FindConsonants str, FindVowels str)
+
+let PrintDisemvoweledCollections (input: string) =
+    let input = input.ToLower()
+    let PrintCollection title collection =
+        printfn "%-10s: %s" title collection
+
+    let consonants, vowels = Disemvowel input
+
+    PrintCollection "Input" input
+    PrintCollection "Consonants" consonants
+    PrintCollection "Vowels" vowels
+    printfn ""
+
+[<EntryPoint>]
+let main argv =
+    PrintDisemvoweledCollections "two drums and a cymbal fall off a cliff"
+    PrintDisemvoweledCollections "all those who believe in psychokinesis raise my hand"
+    PrintDisemvoweledCollections "did you hear about the excellent farmer who was outstanding in his field"
+    //System.Console.ReadLine() |> ignore
+    0 // return an integer exit code
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]CompileBot 1 point2 points3 points 4 years ago (0 children)
+
+Output:
+
+Input     : two drums and a cymbal fall off a cliff
+Consonants: twdrmsndcymblfllffclff
+Vowels    : ouaaaaoai
+
+Input     : all those who believe in psychokinesis raise my hand
+Consonants: llthswhblvnpsychknssrsmyhnd
+Vowels    : aoeoeieeioieiaiea
+
+Input     : did you hear about the excellent farmer who was outstanding in his field
+Consonants: ddyhrbtthxcllntfrmrwhwststndngnhsfld
+Vowels    : ioueaaoueeeeaeoaouaiiiie
+
+^source ^| ^info ^| ^git ^| ^report
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]AndrewBenavides 1 point2 points3 points 4 years ago (1 child)
+
+Alternatively, here's a much more concise solution inspired by DMzda's solution
+.
+
++/u/CompileBot F#
+
+let vowels = "aeiou".ToCharArray()
+let IsVowel letter = Array.exists (fun vowel -> letter = vowel) vowels
+let IsConsonant letter = not (IsVowel letter)
+let WhereLetter func letter = if func letter then letter.ToString() else ""
+
+let Disemvowel (input: string) =
+    let fromInput = input.Replace(" ","").ToLower()
+    printfn "%s" input
+    printfn "%s" (String.collect (WhereLetter IsConsonant) fromInput)
+    printfn "%s" (String.collect (WhereLetter IsVowel) fromInput)
+    printfn ""
+
+[<EntryPoint>]
+let main argv =
+    Disemvowel "two drums and a cymbal fall off a cliff"
+    Disemvowel "all those who believe in psychokinesis raise my hand"
+    Disemvowel "did you hear about the excellent farmer who was outstanding in his field"
+    //System.Console.ReadLine() |> ignore
+    0 // return an integer exit code
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]CompileBot 1 point2 points3 points 4 years ago (0 children)
+
+Output:
+
+two drums and a cymbal fall off a cliff
+twdrmsndcymblfllffclff
+ouaaaaoai
+
+all those who believe in psychokinesis raise my hand
+llthswhblvnpsychknssrsmyhnd
+aoeoeieeioieiaiea
+
+did you hear about the excellent farmer who was outstanding in his field
+ddyhrbtthxcllntfrmrwhwststndngnhsfld
+ioueaaoueeeeaeoaouaiiiie
+
+^source ^| ^info ^| ^git ^| ^report
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]AndrewBenavides 0 points1 point2 points 4 years ago* (1 child)
+
+I'm actually having fun discovering the different ways I can do this with
+various F# syntax. Here's another solution inspired by Wiezy_Krwi's solution
+that makes use of F# recursive function abilities to do everything in one pass
+instead of having to parse the input more than once.
+
++/u/CompileBot F#
+
+let vowels = "aeiou".ToCharArray()
+let IsVowel letter = Array.exists (fun vowel -> letter = vowel) vowels
+let ListToString lst =
+    let sb = new System.Text.StringBuilder()
+    sb.Append((Array.ofList lst)).ToString()
+
+let Disemvoweler (input: string) =
+    let rec disemvoweler characters consonants vowels =
+        match characters with
+        | [] -> List.rev consonants, List.rev vowels
+        | head::tail when IsVowel head -> disemvoweler tail consonants (head::vowels)
+        | head::tail when head <> ' ' -> disemvoweler tail (head::consonants) vowels
+        | _::tail -> disemvoweler tail consonants vowels
+
+    let characters = List.ofArray (input.ToLower().ToCharArray())
+    disemvoweler characters [] []
+
+let Disemvowel (input: string) =
+    let consonants, vowels = Disemvoweler input
+    printfn "%s" input
+    printfn "%s" (ListToString consonants)
+    printfn "%s" (ListToString vowels)
+    printfn ""
+
+[<EntryPoint>]
+let main argv =
+    Disemvowel "two drums and a cymbal fall off a cliff"
+    Disemvowel "all those who believe in psychokinesis raise my hand"
+    Disemvowel "did you hear about the excellent farmer who was outstanding in his field"
+    //System.Console.ReadLine() |> ignore
+    0 // return an integer exit code
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]CompileBot 1 point2 points3 points 4 years ago (0 children)
+
+Output:
+
+two drums and a cymbal fall off a cliff
+twdrmsndcymblfllffclff
+ouaaaaoai
+
+all those who believe in psychokinesis raise my hand
+llthswhblvnpsychknssrsmyhnd
+aoeoeieeioieiaiea
+
+did you hear about the excellent farmer who was outstanding in his field
+ddyhrbtthxcllntfrmrwhwststndngnhsfld
+ioueaaoueeeeaeoaouaiiiie
+
+^source ^| ^info ^| ^git ^| ^report
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]AndrewBenavides 0 points1 point2 points 4 years ago* (1 child)
+
+...and one more that makes use of an Array.fold function instead.
+
++/u/CompileBot F#
+
+let vowels = "aeiou".ToCharArray()
+let IsVowel letter = Array.exists (fun vowel -> letter = vowel) vowels
+let ListToString lst =
+    let sb = new System.Text.StringBuilder()
+    sb.Append((Array.ofList lst)).ToString()
+
+let Disemvoweler (input: string) =
+    let chars = input.ToLower().ToCharArray()
+    let consonants, vowels =
+        Array.fold (fun (consonants, vowels) c ->
+            if IsVowel c then consonants, c::vowels
+            elif c <> ' ' then c::consonants, vowels
+            else consonants, vowels
+        ) ([], []) chars
+    List.rev consonants, List.rev vowels
+
+let Disemvowel (input: string) =
+    let consonants, vowels = Disemvoweler input
+    printfn "%s" input
+    printfn "%s" (ListToString consonants)
+    printfn "%s" (ListToString vowels)
+    printfn ""
+
+[<EntryPoint>]
+let main argv =
+    Disemvowel "two drums and a cymbal fall off a cliff"
+    Disemvowel "all those who believe in psychokinesis raise my hand"
+    Disemvowel "did you hear about the excellent farmer who was outstanding in his field"
+    //System.Console.ReadLine() |> ignore
+    0 // return an integer exit code
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]CompileBot 2 points3 points4 points 4 years ago (0 children)
+
+Output:
+
+two drums and a cymbal fall off a cliff
+twdrmsndcymblfllffclff
+ouaaaaoai
+
+all those who believe in psychokinesis raise my hand
+llthswhblvnpsychknssrsmyhnd
+aoeoeieeioieiaiea
+
+did you hear about the excellent farmer who was outstanding in his field
+ddyhrbtthxcllntfrmrwhwststndngnhsfld
+ioueaaoueeeeaeoaouaiiiie
+
+^source ^| ^info ^| ^git ^| ^report
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ponkanpinoy 2 points3 points4 points 4 years ago (0 children)
+
+Common Lisp. Not as elegant as /u/skeeto's solution (I should really take a
+look at Alexandria)
+
+(defparameter *vowels* (coerce "aeiou" 'list))
+(defparameter *spaces* '(#\space #\tab))
+
+(defun disemvowel(str)
+  (let ((consonants (remove-if (lambda (c) (find c (append *vowels* *spaces*)))
+                   str))
+        (vowels (coerce (intersection (coerce str 'list) *vowels*) 'string)))
+    (values consonants vowels)))
+
+CL-USER> (disemvowel "the quick brown fox jumps over the lazy dog")
+"thqckbrwnfxjmpsvrthlzydg"
+"oaeeouooiue"
+CL-USER>
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]stuque 2 points3 points4 points 4 years ago (0 children)
+
+Go:
+
+package main
+
+import "fmt"
+import "bufio"
+import "os"
+
+func main() {
+    fmt.Print("Enter string: ")
+    reader := bufio.NewReader(os.Stdin)
+    s, _, _ := reader.ReadLine()
+
+    var cons, vowels string
+    for _, c := range s {
+        switch c {
+        case ' ': // skip spaces
+        case 'a', 'e', 'i', 'o', 'u':
+            vowels += string(c)
+        default:
+            cons += string(c)
+        }
+    }
+
+    fmt.Printf("%s\n%s\n", cons, vowels)
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Lurker3780 0 2 points3 points4 points 4 years ago* (1 child)
+
+In go 1.2:
+
+package main
+
+import (
+     "fmt"
+     "os"
+)
+
+func disemvowel(input string) (string, string) {
+    var consonants []rune
+    var vowels []rune
+    for _, char := range input {
+        switch char {
+        case 'a', 'i', 'e', 'o', 'u':
+            vowels = append(vowels, char)
+        case ' ':
+            continue
+        default:
+            consonants = append(consonants, char)
+         }
+    }
+
+    return string(consonants), string(vowels)
+}
+
+func main() {
+    fmt.Println(disemvowel(os.Args[1]))
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]JanWithBeard 1 point2 points3 points 4 years ago (0 children)
+
+I like the UTF-8 runes!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]vgbm1 0 2 points3 points4 points 4 years ago* (0 children)
+
+C++:
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+char vowels[5] = {'a','e','i','o','u'};
+
+bool isVowel(char letter){
+
+    for(int i=0;i<5;i++){
+        if(letter==vowels[i]){
+            return true;
+         }
+     }
+return false;
+}
+
+int main(void){
+
+    string str,consStr,vowelStr;
+    getline(cin,str);
+
+    for(int i=0;i<str.length();i++){
+
+            if(!isVowel(str[i]) && str[i]!=' '){
+                 consStr+=str[i];
+            }
+
+            if(isVowel(str[i])){
+                 vowelStr+=str[i];
+            }
+    }
+
+    cout << consStr<<"\n"<<vowelStr<<endl;
+
+return 0;
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]relarmane 5 points6 points7 points 4 years ago (0 children)
+
+Quick Java.
+
+import java.util.Scanner;//import for scanner
+import static java.lang.System.*;//import for System.in and System.out
+
+public class dp149E
+{
+    public static void main(String[] args)
+    {
+        Scanner scan = new Scanner(in);//scanner for input
+
+        String a = scan.nextLine().trim().replaceAll(" ", "");//get input, trim all trailing spaces, remove all spaces
+
+        out.printf("%s\n%s\n",a.replaceAll("[aeoiu]", ""), a.replaceAll("[^aeiou]", ""));//replace all vowels, then replace all non-vowels
+
+        scan.close();//manage resources
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ooesili 3 points4 points5 points 4 years ago (8 children)
+
+Haskell, code golf.
+
+main = do
+    line <- fmap (filter (/= ' ')) getLine
+    putStr . unlines $ map (\f -> filter (f . (`elem` "aeiou")) line) [not, id]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 2 points3 points4 points 4 years ago (4 children)
+
+I've always wanted to learn Haskell as a hobby language.
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]ooesili 2 points3 points4 points 4 years ago (1 child)
+
+Even if you never you never use it in an actual job, it will probably make you
+a better programmer. The mathematical purity that Haskell encourages is a
+useful concept to use in any language. Functions without side-effects are much
+easier to debug. If you want to give it a shot, which I highly recommend, check
+out Learn You a Haskell for Great Good! The author is hilarious, and nothing
+will tickle your brain quite like functional programming.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 0 points1 point2 points 4 years ago (0 children)
+
+I honestly have the PDF of that book and just never got into but now it seems
+I'll have to!
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]CandyCorns_ 4 points5 points6 points 4 years ago (1 child)
+
+Join us! The Haskell community is small, friendly, and helpful! Plus, there are
+lots of areas to shine, unlike the bigger languages like C++ or Java
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 0 points1 point2 points 4 years ago (0 children)
+
+I definitely will!
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]Lurker3780 0 1 point2 points3 points 4 years ago (1 child)
+
+In Data.List, there's a function 'partition' that makes the second part of your
+code easier to understand. Example usage
+
+partition (`elem` "aeoiu") "hello"
+
+Will return ("eo", "hll").
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ooesili 1 point2 points3 points 4 years ago (0 children)
+
+It's more clear, but not as golf-y. The last line is that same amount of
+characters, but I have to add the extra import line, so it takes more strokes.
+However, if I wasn't code-golfing, I would definitely use you partition idea.
+
+import Data.List
+
+main = do
+    line <- fmap (filter (/= ' ')) getLine
+    let (vs, cs) = partition (`elem` "aeiou") line in putStr $ unlines [vs, cs]
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (1 reply)
+
+[–]ceruleancity 3 points4 points5 points 4 years ago (8 children)
+
+Learning python...
+
+import sys
+vowels, letters, disemvoweled = 'aeiou', '', ''
+for param in sys.argv:
+    if param == sys.argv[0]:
+        continue
+    param = param.replace(' ','')
+    for char in list(param):
+        if char in vowels:
+            disemvoweled += char
+        else:
+            letters += char
+print letters
+print disemvoweled
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jnazario2 0 2 points3 points4 points 4 years ago (3 children)
+
+you can skip the sys.argv[0] check if you iterate over sys.argv[1:] instead.
+also you donl't need the list(param), you can iterate over a string a character
+at a time.
+
+nice work.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ceruleancity 0 points1 point2 points 4 years ago (0 children)
+
+great, thanks!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (2 replies)
+
+[–]pbl24 2 points3 points4 points 4 years ago (0 children)
+
+Good work, and keep cranking away at learning. I'm a Python novice as well, and
+writing Pythonic code is the hardest part of it all.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 1 point2 points3 points 4 years ago (1 child)
+
+I've been learning for a while and haven't seen import sys yet, what does
+sys.argv[0] do?
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]ceruleancity 4 points5 points6 points 4 years ago (0 children)
+
+Short answer: sys.argv is a tuple of the command line parameters that were
+passed to python. sys.argv[0] is ALWAYS the script name "something.py" that was
+passed to python.
+
+here, check this out and/or google around for descriptions of argc/argv http://
+stackoverflow.com/questions/3024197/what-does-int-argc-char-argv-mean
+
+I can't really say off the top of my head what import sys does as a whole,
+since I only use it to get command line arguments. That's exactly what argv is
+though, it's what was entered on the command line. My guess is that the sys
+module probably provides operating system-y stuff such as architecture and
+maybe like process ID, date/time, idk... look it up!
+
+So if you invoke python on the cmd line like this:
+
+python myscript.py param1 param2 param3
+
+Then sys.argv would be a tuple that consists of ('myscript.py', 'param1',
+'param2', 'param3')
+
+In C/C++ land argv is a pointer and you are provided with another parameter
+called argc which is the number of parameters pointed to by argv. It seems the
+python sys module doesn't provide argc, but that's probably just because you
+can just calculate it using len(argv).
+
+Let me know if that was confusing or you have any other questions, I just typed
+it up real quick off the top of my head.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]myepicdemise 1 point2 points3 points 4 years ago (0 children)
+
+I'm learning Python as well. This is 3.3.
+
+words = str(input().replace(" ",""))
+a = list(words)
+vowels = ['a','e','i','o','u']
+
+extracted_vowels = ''
+joined = ''
+
+for letter in a:
+    if letter in vowels:
+        extracted_vowels += letter
+        a.remove(letter)
+    joined += letter
+
+print(joined)
+print(extracted_vowels)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]cdombroski 3 points4 points5 points 4 years ago* (6 children)
+
++/u/CompileBot clojure
+
+(defn disemvowler [input]
+      (loop [letter (first input)
+             cnsnnts []
+             vowels []
+             remaining (rest input)]
+        (if letter
+          (case letter
+            (\a \A \e \E \i \I \o \O \u \U) (recur (first remaining) cnsnnts (conj vowels letter) (rest remaining))
+            \space (recur (first remaining) cnsnnts vowels (rest remaining))
+            (recur (first remaining) (conj cnsnnts letter) vowels (rest remaining)))
+          {:consonants cnsnnts :vowels vowels})))
+
+(defn disemvowler2 [input]
+      {:consonants (clojure.string/join (re-seq #"[^aeiouAEIOU ]" input)) :vowels (clojure.string/join (re-seq #"[aeiouAEIOU]" input))})
+
+(println (disemvowler "all those who believe in psychokinesis raise my hand"))
+(println (disemvowler2 "all those who believe in psychokinesis raise my hand"))
+
+Edit: Add "one-liner" version; compilebot
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]CompileBot 2 points3 points4 points 4 years ago* (0 children)
+
+Output:
+
+{:consonants [l l t h s w h b l v n p s y c h k n s s r s m y h n d], :vowels [a o e o e i e e i o i e i a i e a]}
+{:consonants llthswhblvnpsychknssrsmyhnd, :vowels aoeoeieeioieiaiea}
+
+^source ^| ^info ^| ^git ^| ^report
+
+EDIT: Recompile request by cdombroski
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 2 points3 points4 points 4 years ago (0 children)
+
+Oh my god, a compile bot, this is the coolest thing I have ever seen!
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]the_mighty_skeetadon 0 points1 point2 points 4 years ago (1 child)
+
+The bot call is awesome. Love it!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]cdombroski 1 point2 points3 points 4 years ago (0 children)
+
+I initially saw it on Sakuya_Lv9's post. It definitely fits in perfectly here.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (2 replies)
+
+[–]nanermaner1 0 4 points5 points6 points 4 years ago (4 children)
+
+Java solution:
+
+public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+    String s = input.nextLine();
+
+    String [] letters = s.split("");
+    String newString = "";
+    String vowels = "";
+    String vow = "aeiouAEIOU";
+
+    for (String letter: letters)
+    {
+        if(vow.contains(letter)) vowels += letter;
+        else if(!letter.contains(" ")) newString += letter;
+    }
+    System.out.println(newString);
+    System.out.println(vowels);
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]kaesijeff 1 point2 points3 points 4 years ago (0 children)
+
+nice and easy.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]CaptainShanks 1 point2 points3 points 4 years ago (1 child)
+
+:O
+
+I had no idea about enhanced for loops before this!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (1 reply)
+
+load more comments (1 reply)
+
+[–]pteek 1 point2 points3 points 4 years ago (6 children)
+
+Quick and dirty C.
+
+I will try to rewrite this in C++ with some forced object-oriented concept to
+help me learn.
+
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+    char input[1000], outstr[1000], outvov[1000];
+    int i, cntstr = 0, cntvov = 0;
+
+    gets(input);
+
+    for(i = 0; i < strlen(input); i++){
+        if(input[i] == 'a' || input[i] == 'e'|| input[i] == 'i'|| input[i] == 'o'|| input[i] == 'u'){
+            outvov[cntvov] = input[i];
+            cntvov++;
+        }
+
+        else{
+            if(input[i] != ' '){
+                outstr[cntstr] = input[i];
+                cntstr++;
+            }
+        }
+    }
+    outstr[cntstr] = '\0';
+    outvov[cntvov] =  '\0';
+
+    printf("%s\n",outstr);
+    printf("%s",outvov);
+
+    getchar();
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]yohamoha 2 points3 points4 points 4 years ago* (3 children)
+
+I was thinking of a hash table since I kind of hate long ifs. But since you're
+at it, you should have started with 'e', since it is statistically more likely
+to appear(and C considers an expression valid once it encounters something that
+make it "stuck" on valid). (actually you could have started with a space, which
+is more likely to appear)
+
+On the same note, see this : http://en.wikipedia.org/wiki/Letter_frequency to
+order everything properly. It's not a huge optimisation, but both things on
+which it's based are interesting things to know, and it skims a few CPU cycles.
+
+Edit: Also, you can save strlen(input) in a variable, so you don't always
+compute it (actually, I'm 60something% sure that the compiler does that for
+you)
+
+Edit2: This is the version I've come up with (it would actually make for an
+interesting challenge, trying to figure out the fastest possible way of doing
+this strictly in C): apparently [spoiler] tags don't work as I though, and I'm
+way too sleep deprived to read it out, so I'll post a pastebin link http://
+pastebin.com/2KYHL20f with some modifications (I used a 6Mb text file, all
+English text, and apparently I can't allocate a char array larger than 1000000
+elements, so I've used an unsigned short instead for the counter, using the
+overflow as modulo operator, and I also commented out the output statements) I
+get around 2.06-2.08s on my netbook. In comparison, your code (with the same
+tweaks) runs in 2.15something seconds. It's nothing, and I traded off lots in
+readability, though.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]pteek 0 points1 point2 points 4 years ago (0 children)
+
+Woha!
+
+Thanks for the insight!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Frichjaskla 0 points1 point2 points 4 years ago (0 children)
+
+I think that the limiting factor in this case is not the conditionals inside
+the loop. It is the IO operations. Reading and writing is inherently slow.
+
+I made a version which reads everything into a large buffer, which does speed
+things up compared to this version. It may be even faster if the output was
+also buffered, ie writing to a large buffer and writing the output in huge
+chunks, or perhaps open two files.
+
+A simple test for how much IO costs is to run your test case where you comment
+out all the logic, basically just doing the IO.
+
+If you modify you tests such that each line is considered a case it get easier
+to handle large cases as you can output along the way.
+
+wrt strlen, I would think was better just to check for EOF or '\0'
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (1 reply)
+
+[–]brainiac1530 1 point2 points3 points 4 years ago (1 child)
+
+How about this? Write a couple of functors to define "this is a vowel" and
+"this is a vowel or special character" and let standard library algorithms take
+it from there.
+
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <algorithm>
+#include <cctype>
+#include <ctime>
+
+const std::string sVowels("aeiouAEIOU");
+
+struct IsAVowel
+{
+    bool operator()(const char cIn)
+    {
+        for (const auto& Vowel : sVowels)
+            if (Vowel == cIn)
+                return true;
+        return false;
+    }
+};
+
+struct IsVowelOrSpecial
+{
+    IsAVowel VComp;
+    bool operator()(const char cL)
+    {
+        if ( ! isalpha(cL) )
+            return true;
+        return VComp(cL);
+    }
+    bool operator()(const char cL,const char cR)
+    {
+        return operator()(cR);
+    }
+};
+
+int main(int argc, char** argv)
+{
+    std::string sIn, sVows;
+    std::ifstream IFile("input.txt");
+    std::ofstream OFile("out.txt");
+    IsAVowel VComp;
+    IsVowelOrSpecial VSComp;
+
+    std::getline(IFile,sIn);
+    IFile.close();
+    for (const auto& Letter : sIn)
+        if ( VComp(Letter) )
+            sVows += Letter;
+    if ( VComp( sIn[0] ) )
+        sIn[0] = *( std::find_if_not(sIn.begin(),sIn.end(),VSComp) );
+    sIn.erase( std::unique(sIn.begin(),sIn.end(),VSComp), sIn.end() );
+    OFile << sIn << '\n' << sVows;
+    OFile.close();
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (1 reply)
+
+[–]Wedamm 1 point2 points3 points 4 years ago* (0 children)
+
+Pure:
+
+partition p = foldr step ([],[])
+  with
+    step x (as,bs) = (x:as,bs) if p x;
+                   = (as,x:bs);
+  end;
+
+disemvowel = map string . partition ((~).vowel) . filter (~= " ")
+  with
+    vowel = flip any "aeiou" . (==);
+    map f (x,y) = f x , f y;
+  end;
+
+usage:
+
+> disemvowel "the quick brown dog jumps over the lazy fox";
+"thqckbrwndgjmpsvrthlzyfx","euioouoeeao"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dreamyeyed 1 point2 points3 points 4 years ago (1 child)
+
+Lua:
+
+input = io.read()
+io.write (string.gsub (input, "[aeiou ]", ""), "\n")
+io.write (string.gsub (input, "[^aeiou]", ""), "\n")
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Franciscouzo0 0 0 points1 point2 points 4 years ago (0 children)
+
+You could rewrite it like this:
+
+input = io.read()
+print((input:gsub("[aeiou ]", "")))
+print((input:gsub("[^aeiou]", "")))
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]jjiceman 1 point2 points3 points 4 years ago* (0 children)
+
+Ruby one liner:
+
+s = STDIN.gets; puts "#{s.gsub(/[aeiou ]/,'')}#{s.scan(/[aeiou]/).join}"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]imfl 1 point2 points3 points 4 years ago (0 children)
+
+Ruby 2.0.0p247
+
+v = ""
+o = ""
+input = gets.chomp.gsub(' ', '').chars.each do |letter|
+    if letter.match(/[aeiou]/)
+        v += letter
+    else
+        o += letter
+    end
+end
+
+puts v
+puts o
+
+I'm really bad at golf XD, any pointers? <3
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Coder_d00d1 3 1 point2 points3 points 4 years ago* (0 children)
+
+Objective C (Using Apple's Foundation Framework)
+
+Did a category for NSMutableString to add a new method to remove the vowels.
+Shows results via a log message.
+
+//  NSMutableString+disemvoweler.h
+
+#import <Foundation/Foundation.h>
+
+@interface NSMutableString (disemvoweler)
+
+- (void) removeVowels;
+
+@end
+//  NSMutableString+disemvoweler.m
+
+#import "NSMutableString+disemvoweler.h"
+
+@implementation NSMutableString (disemvoweler)
+
+- (void) removeVowels {
+    NSMutableString *vowels = [[NSMutableString alloc] init];
+    int index = 0;
+
+    while (index != [self length]) {
+        switch( [self characterAtIndex: index] ) {
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                    [vowels appendFormat: @"%c", [self characterAtIndex: index]];
+                case ' ':
+                    [self deleteCharactersInRange: NSMakeRange(index, 1)];
+                    break;
+                default:
+                    index++;
+        }
+    }
+    NSLog(@"%@", self);
+    NSLog(@"%@", vowels);
+}
+
+@end
+//  main.m
+
+#import <Foundation/Foundation.h>
+#import "NSMutableString+Disemvoweler.h"
+
+int main(int argc, const char * argv[])
+{
+    @autoreleasepool {
+        NSMutableString *sentence = [[NSMutableString alloc] init];
+        [sentence setString: @"did you hear about the excellent farmer who was outstanding in his field"];
+        [sentence removeVowels];
+    }
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 4 years ago* (1 child)
+
+[deleted]
+
+[–][deleted] 1 point2 points3 points 4 years ago (0 children)
+
+Nice. I like your use of the switch/case fall through.
+
+  • permalink
+  • embed
+  • save
+
+[–]JanWithBeard 1 point2 points3 points 4 years ago (0 children)
+
+My first post is a solution in C99. I wanted to avoid two loops and came up
+with this. I'd like to hear some comments about that. :)
+
+EDIT: Fixed copy-paste error.
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+void
+dis(char *text) {
+        char *vowels = malloc(strlen(text) + 1);
+        for(unsigned int i = 0; i < strlen(text); i++){
+                if(text[i] == 'a' ||
+                   text[i] == 'e' ||
+                   text[i] == 'i' ||
+                   text[i] == 'o' ||
+                   text[i] == 'u') {
+                        strncat(vowels, &text[i], 1);
+                } else if (text[i] != ' ') {
+                        printf("%c", text[i]);
+                }
+        }
+        printf("\n");
+        printf("%s\n", vowels);
+        free(vowels);
+}
+
+int
+main(void) {
+        char *text = "two drums and a cymbal fall off a cliff";
+        dis(text);
+        return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jnazario2 0 1 point2 points3 points 4 years ago* (1 child)
+
+F#, edited for actually being a function with the complete return types
+
+let sentence = "did you hear about the excellent farmer who was outstanding in his field";;
+
+let disemvowel (sentence:string) =
+    let vowels = "aeiuo"
+    let replacement = sentence.ToCharArray() |> Array.toList |> List.filter ( fun x -> vowels.Contains(string(x)) <> true ) |> List.filter ( fun x -> string(x).Contains(" ") <> true ) |> System.String.Concat
+    let dropped = sentence.ToCharArray() |> Array.toList |> List.filter ( fun x -> vowels.Contains(string(x)) ) |> List.filter ( fun x -> string(x).Contains(" ") <> true ) |> System.String.Concat
+    (replacement, dropped)
+;;
+
+disemvowel sentence
+
+yields
+
+val it : string * string =
+  ("ddyhrbtthxcllntfrmrwhwststndngnhsfld", "ioueaaoueeeeaeoaouaiiiie")
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jnazario2 0 0 points1 point2 points 4 years ago* (0 children)
+
+saw /u/BeardGorilla and that OCaml solution, learned about
+{List,Array}.partition. saved a line or so. whee. F# again, a language i really
+enjoy.
+
+let disemvowel (sentence:string) =
+    let vowels = "aeiuo"
+    let replacement, dropped = sentence.ToCharArray() |> Array.filter ( fun x -> " ".Contains(string(x)) <> true ) |> Array.partition ( fun x -> vowels.Contains(string(x)) <> true )
+
+    ( replacement |> System.String.Concat, dropped |> System.String.Concat )
+    ;;
+
+works like a champ
+
+> let consanents, vowels = disemvowel "did you hear about the excellent farmer who was outstanding in his field";;
+val vowels : string = "ioueaaoueeeeaeoaouaiiiie"
+val consanents : string = "ddyhrbtthxcllntfrmrwhwststndngnhsfld"
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]thisguyknowsc 1 point2 points3 points 4 years ago (1 child)
+
+Even simpler C solution, relying on stdlib to manage I/O buffering.
+
+#include <stdio.h>
+
+#define N 1024
+
+int main(int argc, char *argv[])
+{
+    char nvowel_buf[N], vowel_buf[N];
+    char *nvowels = nvowel_buf;
+    char *vowels = vowel_buf;
+    int c;
+
+    do {
+        c = getchar();
+        switch (c) {
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+            *vowels++ = c;
+            break;
+        case ' ':
+        case '\n':
+            break;
+        default:
+            *nvowels++ = c;
+            break;
+        }
+    } while (c != '\n');
+
+    *vowels = *nvowels = 0;
+
+    printf("%s\n%s\n", nvowel_buf, vowel_buf);
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]thisguyknowsc 1 point2 points3 points 4 years ago (0 children)
+
+A marginally more interesting response. This one trades off memory for runtime
+gain, using a lookup table to figure out which buffer to write to. Note, I'm
+using some GNU C extensions here.
+
+#include <stdio.h>
+
+#define N 1024
+
+int main(int argc, char *argv[])
+{
+    static char nvowel_buf[N], vowel_buf[N];
+    static char *nvowels = nvowel_buf;
+    static char *vowels = vowel_buf;
+
+    static char **const to_ptr[256] = {
+        [0 ... 255] = &nvowels,
+        [' ']       = NULL,
+        ['a']       = &vowels,
+        ['e']       = &vowels,
+        ['i']       = &vowels,
+        ['o']       = &vowels,
+        ['u']       = &vowels,
+    };
+
+    int c;
+
+    for (;;) {
+        char **p;
+
+        c = getchar();
+        if (c == '\n')
+            break;
+
+        p = to_ptr[c];
+        if (!p)
+            continue;
+
+        *(*p)++ = c;
+    }
+
+    *vowels = *nvowels = 0;
+
+    printf("%s\n%s\n", nvowel_buf, vowel_buf);
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]thirdegree 1 point2 points3 points 4 years ago (0 children)
+
+Haskell:
+
+main = do
+    let input1 = "all those who believe in psychokinesis raise my hand"
+    let vowels = filter (\f -> f `elem` "aeiou") input1
+    let other = filter (\f -> not (f `elem` "aeiou ")) input1
+    putStrLn other
+    putStrLn vowels
+
+My first attempt I completely forgot filter was a thing, so I was trying to do
+something like
+
+devowel (x:xs)
+    | x== 'a' = x:(devowel xs)
+    | x ==  'e' = x:(devowel xs)
+
+etc.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Edward_H 1 point2 points3 points 4 years ago (0 children)
+
+COBOL:
+
+      >>SOURCE FREE
+IDENTIFICATION DIVISION.
+PROGRAM-ID. disemvowel.
+
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+01  str                                 PIC A(100).
+01  str-idx                             PIC 9(3) COMP.
+
+01  vowels                              PIC A(100).
+01  vowel-idx                           PIC 9(3) COMP VALUE 1.
+
+01  consonants                          PIC A(100).
+01  consonant-idx                       PIC 9(3) COMP VALUE 1.
+
+PROCEDURE DIVISION.
+    ACCEPT str
+    PERFORM VARYING str-idx FROM 1 BY 1 UNTIL str-idx > 100
+        EVALUATE TRUE
+            WHEN FUNCTION UPPER-CASE(str (str-idx:1)) = "A" OR "E" OR "I" OR "O"
+                    OR "U"
+                MOVE str (str-idx:1) TO vowels (vowel-idx:1)
+                ADD 1 TO vowel-idx
+            WHEN str (str-idx:1) <> SPACE
+                MOVE str (str-idx:1) TO consonants (consonant-idx:1)
+                ADD 1 TO consonant-idx
+        END-EVALUATE
+    END-PERFORM
+
+    DISPLAY FUNCTION TRIM(consonants)
+    DISPLAY FUNCTION TRIM(vowels)
+    .
+END PROGRAM disemvowel.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]winged_scapula 1 point2 points3 points 4 years ago (2 children)
+
+Python 2.7
+
+text = (raw_input(""))
+
+vowels = ''.join([ch for ch in text if ch in 'aeiou'])
+unvoweled = text.translate(None, 'aeiou ')
+
+print (unvoweled)
+print (vowels)
+
+Glad you're back /r/dailyprogrammer.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+load more comments (2 replies)
+
+[–]spfiredrake 1 point2 points3 points 4 years ago* (0 children)
+
+C# (.NET 4.0 at least) LINQ one liner with [input] parameter:
+
+return string.Join("\r\n", input.Replace(" ", "").GroupBy(e => "aeiou".IndexOf(e.ToString(), StringComparison.OrdinalIgnoreCase) > -1).Select(e => new string(e.ToArray())));
+
+Formatted so its easier to read:
+
+return
+    string.Join("\r\n",
+        input.Replace(" ", "")
+            .GroupBy(e => "aeiou".IndexOf(e.ToString(), StringComparison.OrdinalIgnoreCase) > -1)
+            .Select(e => new string(e.ToArray())));
+
+  • Clear all the spaces in the input.
+  • Use GroupBy LINQ operator to group the input (char) by vowels. Strings are
+    technically enumerables already (char[]), so we can use the LINQ extensions
+    without needing to call AsEnumerable or ToCharArray first.
+  • Select to transform the resulting IGrouping<bool, IEnumerable<char>> back
+    to a string.
+  • Pass result as param to string.Join, and return.
+
+If we don't need to worry about input cAsInG (assume input always comes in
+lowercase), then we can consolidate the IndexOf (which is only used so we can
+utilize the IComparer) to just a simple Contains. If output casing isn't
+important, then we can call ToLower after the Replace call combined with
+replacing IndexOf with Contains.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]imnotcam 1 point2 points3 points 4 years ago* (1 child)
+
+C (Obfuscated):
+
+#include <stdio.h>
+#include <string.h>
+main(int O0O, char** O00){char OO0[strlen(O00[--O0O])];memset(OO0,
+'\0',strlen(O00[O0O--]));while(O0O<strlen(O00[10/10])
+&&(O00[O0O-O0O+1][O0O]!=97&&O00[O0O-O0O+1][O0O]!=101&&
+O00[O0O-O0O+1][O0O]!=105&&O00[O0O-O0O+1][O0O]!=
+111&&O00[O0O-O0O+1][O0O]!=117&&O00[O0O-O0O+1][O0O]!=32)?(
+printf("%c",O00[O0O-O0O+1][O0O++])):(int)(O00[1][O0O]==32?O0O+=1:
+(int)(OO0[strlen(OO0)]=O00[1][O0O++])));printf("\n%s\n",OO0);return 0;}
+
+Usage:
+
+./disemvoweler "then the string you want to disemvowel as a single argument"
+
+Output:
+
+thnthstrngywnttdsmvwlssnglrgmnt
+
+eeiouaoieoeaaieaue
+
+Edit: I forgot that it also removed spaces, so I fixed that.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]mujjingun 0 points1 point2 points 4 years ago (0 children)
+
+woah
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]mujjingun 1 point2 points3 points 4 years ago (0 children)
+
+Short C(Not as short as Python or Perl, but tried my best):
+
+#include <stdio.h>
+#include <string.h>
+void f(char *i, char *k, int a) {
+    if(!i) return;
+    if(!a || a && strchr(k, *i)) putchar(*i);
+    f(strpbrk(i+1, k), k, 0);
+}
+int main() {
+    char s[100];
+    gets(s);
+    f(s, "bcdfghjklmnpqrstvwxyz", 1);
+    puts("");
+    f(s, "aeiou", 1);
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]supahpenguin007 1 point2 points3 points 4 years ago (1 child)
+
+First submission, so I'm not sure if I'm formatting this correctly or not.
+Also, started programming about five weeks ago and python is my first (and
+currently only) language.
+
+Python 2.7
+
+def disemvoweler(s):
+    out = ''
+    for char in s:
+        if char in 'aeiou':
+            n = s.index(char)
+            out += char
+            s = s[:n] + s[n+1:]
+    s = s.replace(' ','')
+    print(s)
+    print(out)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]supahpenguin007 1 point2 points3 points 4 years ago (0 children)
+
+sweet. it formatted correctly
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]frangio1 1 point2 points3 points 4 years ago (2 children)
+
+Ruby
+
+puts gets.scan(/([^aeiou ]*)([aeiou]*)/).transpose.map(&:join)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+load more comments (2 replies)
+
+[–]janb360 1 point2 points3 points 4 years ago* (1 child)
+
+This is my first submission, I used Java 8 as this problem seemed ideal for the
+new Stream and Collector APIs introduced in Java 8. I used codePoints() instead
+of chars() to avoid some casting issues and used a partioning collector to
+divide the code points into vowels and non-vowels. This collector uses a
+downstream collector that assembles a string from the collected code points.
+
+import static java.util.stream.Collectors.partitioningBy;
+import static java.util.stream.Collectors.toList;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.stream.Collector;
+
+public class Disemvoweler {
+
+    public static void main(String[] args) {
+        List<Integer> vowels = "aeiou".codePoints().boxed().collect(toList());
+        Collector<Integer, StringBuilder, String> codePointsToString = Collector.of(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append, Object::toString);
+
+        Map<Boolean, String> partitionedCharacters = new Scanner(System.in)
+                    .nextLine()
+                    .codePoints()
+                    .filter(i -> !Character.isWhitespace(i))
+                    .boxed()
+                    .collect(partitioningBy(vowels::contains, codePointsToString));
+
+        System.out.println(partitionedCharacters.get(false));
+        System.out.println(partitionedCharacters.get(true));
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+load more comments (1 reply)
+
+[–]grendus 1 point2 points3 points 4 years ago (0 children)
+
+Think I can get this as a lambda function in Python:
+
+disemvowel = lambda sentence: (''.join([x for x in sentence if x not in "aeiou "]),''.join([x for x in sentence if x in "aeuio"]))
+
+Returns it as a tuple, which is useful for testing the intermediate challenges.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]csharperperson 1 point2 points3 points 4 years ago (0 children)
+
+C#
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace disemvoweler
+{
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            string disemvoweled = "";
+            string removedVowels = "";
+            string inputSentence;
+            char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
+
+            Console.WriteLine("Please input a phrase for me to disemVOWEL");
+
+            inputSentence = Console.ReadLine();
+            string[] vowelHolder = inputSentence.Split(' ');
+
+            foreach (char s in inputSentence)
+            {
+                for (int i = 0; i < vowels.Length; i++)
+                {
+                    if (s == vowels[i])
+                    {
+                        removedVowels += s;
+                    }
+                }
+            }
+
+            disemvoweled = string.Concat(inputSentence.Split(vowels));
+            Console.WriteLine(disemvoweled);
+            Console.WriteLine(removedVowels);
+            Console.Read();
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jeaton 1 point2 points3 points 3 years ago (0 children)
+
+Shell:
+
+#!/bin/sh
+
+for i in `echo $1 | sed 's/./& /g'`; do
+  [[ $i =~ [aeiou] ]] && v+=$i || c+=$i
+done && echo -e "$c\n$v"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]santaclaus73 1 point2 points3 points 3 years ago (0 children)
+
+Simple Python 2.7, one line.
+
+print raw_input("Enter String: ").translate(None,"aeiou ")
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]lacheman 3 points4 points5 points 4 years ago (1 child)
+
+C:
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int isVowel(char c) {
+  if(c == 'a')
+    return 1;
+  if(c == 'e')
+    return 1;
+  if(c == 'i')
+    return 1;
+  if(c == 'o')
+    return 1;
+  if (c == 'u')
+    return 1;
+  return 0;
+}
+
+int main(int iArgCount, char * apcArgs[]) {
+  char * acVowels, * pcVowelStart;
+  int i, j, iCharCount = 0;
+
+  //for each word add the number of characters to iCharCount
+  for(i = 1; i < iArgCount; i++)
+  {
+    iCharCount += strlen(apcArgs[i]);
+  }
+  //allocate space for the output strings
+  acVowels = (char *) malloc(iCharCount + 1);
+  pcVowelStart = acVowels;
+
+  for(i = 1; i < iArgCount; i++)
+  {
+    for(j = 0; j < strlen(apcArgs[i]); j++)
+    {
+      if( isVowel(apcArgs[i][j]) )
+      {
+        *acVowels++ = apcArgs[i][j];
+      } else
+      {
+        printf("%c", apcArgs[i][j]);
+      }
+    }
+  }
+  printf("\n%s\n", pcVowelStart);
+  free(pcVowelStart);
+  return 0;
+}
+
+/**************
+Output:
+./disemvoweler two drums and a cymbal fall off a cliff
+twdrmsndcymblfllffclff
+ouaaaaoai
+/***************/
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Coder_d00d1 3 1 point2 points3 points 4 years ago (0 children)
+
+Clever use of passing in the sentence via the command line to remove spaces.
+Nice work.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]BeardGorilla 3 points4 points5 points 4 years ago (1 child)
+
+OCaml:
+
+let explode s =
+  let rec exp i l =
+    if i < 0 then l else exp (i - 1) (s.[i] :: l) in
+  exp (String.length s - 1) []
+
+let rec implode letters =
+  match letters with
+    | [] -> ""
+    | hd::tl -> Char.escaped hd ^ implode tl
+
+let disemvowel input =
+  let vowels = "aeiou " in
+  let letters = explode input in
+  let (vowels, consonants) = List.partition (fun x -> String.contains vowels x) letters in
+  (implode consonants, implode (List.filter (fun x -> Char.escaped x <> " ") vowels))
+
+let () =
+  let input = Sys.argv.(1) in
+  let (consonants, vowels_rem) = disemvowel input in
+
+  print_endline consonants;
+  print_endline vowels_rem;
+
+It took me a while to realize how I should think about this, but it finally hit
+me - Just treat it like a list of characters, and then partition it based on
+whether the character is a vowel or not.
+
+Note that explode/implode are not in the standard lib. I borrowed the explode
+implementation from here: http://caml.inria.fr/pub/old_caml_site/FAQ/
+FAQ_EXPERT-eng.html#strings. I hand-rolled the implode function just to keep
+practicing though it's definitely not great.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+load more comments (1 reply)
+
+[–]Wiezy_Krwi 1 point2 points3 points 4 years ago (0 children)
+
+C# (written in LINQPad 4, hence the Dump());
+
+var inputString = "did you hear about the excellent farmer who was outstanding in his field";
+var disemvoweledString = new List<char>();
+var vowelString = new List<char>();
+
+var vowels = new[] { 'a', 'e', 'i', 'o', 'u' };
+
+for (int i = 0; i < inputString.Length; i++)
+{
+    if (vowels.Contains(inputString[i]))
+    {
+        vowelString.Add(inputString[i]);
+    }
+    else if (inputString[i] != ' ')
+    {
+        disemvoweledString.Add(inputString[i]);
+    }
+}
+
+new String(disemvoweledString.ToArray()).Dump();
+new String(vowelString.ToArray()).Dump();
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Garth5689 1 point2 points3 points 4 years ago (0 children)
+
+Python 3.3:
+
+def disemvoweler(input_string):
+    vowels=''
+    others=''
+    for letter in input_string.replace(' ',''):
+        if letter in 'aeiou':
+            vowels += letter
+        else:
+            others += letter
+    print(others)
+    print(vowels)
+
+
+disemvoweler('did you hear about the excellent farmer who was outstanding in his field')
+
+ddyhrbtthxcllntfrmrwhwststndngnhsfld
+ioueaaoueeeeaeoaouaiiiie
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]MrDerk 1 point2 points3 points 4 years ago (0 children)
+
+Lazy attempt using Python 2.7:
+
+def disemvowel(input):
+    c, v = '', ''
+    for i in input:
+        if i in 'aeiou':
+            v += i
+        elif i != ' ':
+            c += i
+    print c
+    print v
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pbl24 1 point2 points3 points 4 years ago (2 children)
+
+Simple Python solution:
+
+def disemvoweler(s):
+    return ''.join([ c for c in s if c not in 'aeiou ' ]), ''.join([ v for v in s if v in 'aeiou ' ])
+
+if __name__ == '__main__':
+    print '\n'.join(str(i) for i in disemvoweler(raw_input()))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ThirdWaveSTEMinism 1 point2 points3 points 4 years ago (1 child)
+
+This is pretty much the exact way I did it. God I love list comprehensions.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]pbl24 0 points1 point2 points 4 years ago (0 children)
+
+Yes, indeed. Almost feels like cheating, doesn't it?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]zck 1 point2 points3 points 4 years ago (0 children)
+
+Code in Arc. Try it online! It requires my unit test library. Note that it
+strips spaces, as required. It also deals with uppercase letters, even though
+it doesn't have to.
+
+(def p149 (text)
+     (list (keep consonent? text)
+           (keep vowel? text)))
+
+(def vowel? (char)
+     (pos (downcase char)
+          "aeiou"))
+
+(def consonent? (char)
+     (pos (downcase char)
+          "bcdfghjklmnpqrstvwxyz"))
+
+(suite p149-reddit
+       sample (assert-same (list "twdrmsndcymblfllffclff"
+                                 "ouaaaaoai")
+                           (p149 "two drums and a cymbal fall off a cliff")))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pbl24 1 point2 points3 points 4 years ago (0 children)
+
+Simple Java:
+
+class Challenge149 {
+  public static void main(String[] args) {
+    StringBuffer consts = new StringBuffer();
+    StringBuffer vowels = new StringBuffer();
+
+    for (char c : new Scanner(System.in).nextLine().toCharArray()) {
+      if (isVowel(c)) {
+        vowels.append(c);
+      } else {
+        consts.append(c);
+      }
+    }
+
+    System.out.printf("%s\n%s\n", consts.toString(), vowels.toString());
+  }
+
+  private static boolean isVowel(char c) {
+    return "aeiou ".contains(String.valueOf(c));
+  }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 4 years ago (1 child)
+
+[deleted]
+
+[–]the_mighty_skeetadon 2 points3 points4 points 4 years ago (0 children)
+
+Hm, that doesn't seem to complete the second part of the challenge...
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]catfishdeity 0 points1 point2 points 4 years ago (1 child)
+
+perl...reading the line from a single line input file.
+
+#!/usr/bin/perl
+open input, $ARGV[0];
+my $str = <input>;
+my (@oe, @vwls);
+my @chars = split //,$str;
+for (0..$#chars) {
+  my $c = $chars[$_];
+  if ($c eq "a" || $c eq "e" || $c eq "i" || $c eq "o" || $c eq "u") {
+    push @oe, $c;
+  } elsif ($c ne " ") { push @vwls, $c;}
+}
+print @vwls;
+print @oe;
+
+On a time crunch. I know I could have used a regex and made this look way
+better.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Sakuya_Lv9 1 point2 points3 points 4 years ago (0 children)
+
+Gotta love how you name your variables.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]chunes1 2 0 points1 point2 points 4 years ago* (0 children)
+
+Java:
+
+import java.lang.StringBuffer;
+
+public class Easy149 {
+
+    public static void main(String[] args) {
+        if (args.length != 1) {
+            usage();
+            System.exit(-1);
+        }
+
+        StringBuffer consonants = new StringBuffer();
+        StringBuffer vowels = new StringBuffer();
+        char c;
+
+        for (int i = 0; i < args[0].length(); ++i) {
+            c = args[0].charAt(i);
+            if (isVowel(c)) {
+                vowels.append(c);
+            }
+            else if (Character.isWhitespace(c)) {
+                continue;
+            }
+            else {
+                consonants.append(c);
+            }
+        }
+
+        System.out.print(consonants + "\n" + vowels);
+    }
+
+    //Returns true if c is a lowercase vowel and false if not.
+    private static boolean isVowel(char c) {
+        return c == 101 || c == 97 || c == 111
+            || c == 105 || c == 117;
+    }
+
+    //Prints a message explaining how to use this program.
+    private static void usage() {
+        System.out.println("This program must be "
+            + "supplied with one lowercase String argument. "
+            + "Spaces are okay but digits, uppercase letters, and "
+            + "other punctuation is not. Example: "
+            + "\n   java Easy149 \"hello world\"");
+    }
+}
+
+I'd like to thank Cosmologicon for taking the reigns. Glad to have the sub
+active again!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ttr3980 0 0 points1 point2 points 4 years ago (0 children)
+
+Python 2.7
+
+def disemvoweler(string):
+
+    def disemconsonant(letter):
+        return letter in 'aeiou'
+
+    def disemvowel(letter):
+        return not letter in 'aeiou '
+
+    print filter(disemvowel, string)
+    print filter(disemconsonant, string)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]da1564 0 points1 point2 points 4 years ago (0 children)
+
+Python 2.7 --
+
+def disemvowel(word):
+    no_vowels = ''.join([letter for letter in word if letter not in 'aeiou '])
+    vowels = ''.join([letter for letter in word if letter in 'aeiou'])
+    return no_vowels, vowels
+
+print disemvowel('two drums and a cymbal fall off a cliff')
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]toodim 0 points1 point2 points 4 years ago (0 children)
+
+Python using regular expressions:
+
+import re
+
+def disemvoweler(s):
+    print( re.sub("[aeiou ]", "", s) )
+    print( re.sub("[^aeiou]", "", s) )
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Latteeee 0 points1 point2 points 4 years ago* (0 children)
+
+[C++]
+
+Sorry for including y in the vowels, it's like that in Finnish. :L Also, I am
+still a rookie and would love to know if I could optimize this in any way;
+replies are more than welcome.
+
+#include <iostream>
+#include <string>
+
+char letters [6] = {'a', 'e', 'i', 'o', 'u', 'y'};
+int checkvowel(char c);
+
+int main()
+{
+    std::string input, output_c, output_v;
+    std::cout << "Please input a string to disemvowel: ";
+    std::getline(std::cin, input);
+
+    for (int i = 0; i < input.size(); i++ )
+    {
+        switch ( checkvowel(input[i]) )
+        {
+        case 0:
+            output_v.push_back(input[i]);
+            break;
+        case 1:
+            output_c.push_back(input[i]);
+            break;
+        }
+    }
+
+    std::cout << output_c + " " + output_v << std::endl;
+    std::cin.get();
+    return EXIT_SUCCESS;
+}
+
+int checkvowel(char c)
+{
+    if ( c == ' ' )
+        return -1;
+    for (int i = 0; i < (sizeof(letters) / sizeof(letters[0])); i++ )
+    {
+        if ( c == letters[i] )
+            return 0;
+    }
+    return 1;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Xynect 0 points1 point2 points 4 years ago (0 children)
+
+java:
+
+/** * Created by Xelnect on 2/24/14. */
+
+import java.util.Scanner;
+
+public class Disemvoweler { public static void main(String[] args) {
+
+    String input1 = "two drums and a cymbal fall off a cliff";
+    String input2 = "all those who believe in psychokinesis raise my hand";
+    String input3 = "did you hear about the excellent farmer who was outstanding in his field";
+
+    disemvolerMethod(input1);
+    disemvolerMethod(input2);
+    disemvolerMethod(input3);
+}
+
+public static void disemvolerMethod(String input) {
+    String endString1 = "";
+    String endString2 = "";
+    for (int i = 0; i < input.length(); i++) {
+        switch (input.charAt(i)) {
+            case 'a':
+                endString2 += input.charAt(i);
+                break;
+            case 'u':
+                endString2 += input.charAt(i);
+                break;
+            case 'o':
+                endString2 += input.charAt(i);
+                break;
+            case 'i':
+                endString2 += input.charAt(i);
+                break;
+            case 'e':
+                endString2 += input.charAt(i);
+                break;
+            case ' ':
+                break;
+            default:
+                endString1 += input.charAt(i);
+        }
+    }
+    System.out.println(endString1);
+    System.out.println(endString2);
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]catfishdeity 0 points1 point2 points 4 years ago (0 children)
+
+A second perl completion, much shorter this time...still loading from a file
+containing a single line.
+
+#!/usr/bin/perl
+open input, $ARGV[0];
+my $a = <input>;
+my @oe = ( $a =~ /[aoeui]/g ); my @vwls = ($a =~ /[^aoeui\s]/g);
+chomp @vwls,@oe;print @vwls,"\n",@oe;
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Deleis 0 points1 point2 points 4 years ago (0 children)
+
+First challenge I've done, Java:
+
+package reddit;
+public class C149 {
+    public static void main(String[] args) {
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        String input = scanner.nextLine().replaceAll("\\s", "");
+        System.out.print(input.replaceAll("[aeiou]", "") + "\n" + input.replaceAll("[^aeiou]", ""));
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]grammaticus 0 points1 point2 points 4 years ago (0 children)
+
+Python 2.7:
+
+def disemvoweller(input):
+    output = {'string': '', 'vowels': ''}
+    for letter in input:
+        if letter not in 'aeiou ':
+            output['string'] += letter
+        if letter in 'aeiou':
+            output['vowels'] += letter
+    return output
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 4 years ago (0 children)
+
+python 3
+
+vowelchrs = 'aeiou '
+
+while True:
+    output = ''
+    string = input("Say something (-1 to exit): ")
+
+    if string == -1:
+        break
+
+    for character in string:
+        if character in vowelchrs:
+            continue
+        output += character
+    print(output)
+
+  • permalink
+  • embed
+  • save
+
+[–]Frichjaskla 0 points1 point2 points 4 years ago (1 child)
+
+C, with what could be fast io, but limited by "LINESIZE" at 1024 chars for each
+output buffer.
+
+/* gcc -std=c99 dis.c -o dis && ./dis < test.txt  */
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+
+#define LINESIZE 1024
+
+char buf[LINESIZE];
+char dis[LINESIZE];
+char vow[LINESIZE];
+
+char *cptr, *vptr, *dptr;
+
+void reset() {
+    memset(dis, 0, LINESIZE);
+    memset(vow, 0, LINESIZE);
+    dptr = dis;
+    vptr = vow;
+}
+
+void end_case() {
+    printf("%s\n", dis);
+    printf("%s\n", vow);
+    reset();
+}
+
+int main(int argc, char **argv) {
+    reset();
+    while(1) {
+        size_t n = read(0, buf, LINESIZE);
+        if (n <= 0) { break;}
+        cptr = buf;
+        while(n--) {
+            char c = *cptr;
+            cptr++;
+            switch (c) {
+            case ' ':
+                break;
+            case '\n':
+                end_case();
+                break;
+            case 'a': case 'e': case 'i': case 'o': case 'u':
+                *vptr++=c;
+                break;
+            default:
+                *dptr++=c;
+            }
+        }
+    }
+    return EXIT_SUCCESS;
+}
+
+output:
+
+$ cat test.txt
+all those who believe in psychokinesis raise my hand
+did you hear about the excellent farmer who was outstanding in his field
+$ ./dis < test.txt
+llthswhblvnpsychknssrsmyhnd
+aoeoeieeioieiaiea
+ddyhrbtthxcllntfrmrwhwststndngnhsfld
+ioueaaoueeeeaeoaouaiiiie
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Frichjaskla 0 points1 point2 points 4 years ago (0 children)
+
+aargh could not resist to test and change bit but /usr/share/words is 2.4M of
+words
+
+time ./dis < /usr/share/dict/web2 > output.txt
+
+real    0m0.070s
+user    0m0.064s
+sys 0m0.004s
+
+I think that thats quite ok. I wonder how fast it really is compared to other
+languages?
+
+I removed memset as it was really expensive and did a bit of cosmetic
+reordering.
+
+/* gcc -std=c99 dis.c -O3 -o dis && ./dis < test.txt  */
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+
+#define LINESIZE 1024*1024
+
+char buf[LINESIZE];
+char dis[LINESIZE];
+char vow[LINESIZE];
+
+char *cptr, *vptr, *dptr;
+
+void end_case() {
+    *vptr = *dptr = '\0';
+    printf("%s\n%s\n", dis, vow);
+    dptr = dis;
+    vptr = vow;
+}
+
+int main(int argc, char **argv) {
+    dptr = dis;
+    vptr = vow;
+    while(1) {
+        size_t n = read(0, buf, LINESIZE);
+        if (n <= 0) { break;}
+        cptr = buf;
+        while(n--) {
+            char c = *cptr++;
+            switch (c) {
+            case ' ':
+                break;
+            case '\n':
+                end_case();
+                break;
+            case 'e': case 'a':  case 'i': case 'o': case 'u':
+                *vptr++=c;
+                break;
+            default:
+                *dptr++=c;
+            }
+        }
+    }
+    return EXIT_SUCCESS;
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 4 years ago (1 child)
+
+[deleted]
+
+[–]lukz2 0 0 points1 point2 points 4 years ago (0 children)
+
+Except that it does not work
+
+it returns:
+llthswhblevinpsychknssrismyhnd
+         ^
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]GregsGoatee 0 points1 point2 points 4 years ago* (0 children)
+
+C#
+
+        string disemvoweled = "";
+        string removedVowels = "";
+
+        char[] vowels = { 'a', 'e', 'i', 'o', 'u', ' ' };
+
+        string sentence;
+
+        Console.WriteLine("Write Sentence.");
+         sentence = Console.ReadLine();
+
+        foreach(char v in sentence)
+        {
+            for (int i = 0; i < vowels.Length - 1; i++)
+            {
+                if (v == vowels[i])
+                {
+                    removedVowels += v;
+                }
+            }
+        }
+
+        disemvoweled = string.Concat(sentence.Split(vowels));
+
+        Console.WriteLine(disemvoweled);
+        Console.WriteLine(removedVowels);
+        Console.ReadLine();
+
+edit* made it better.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 4 years ago (0 children)
+
+In no way is this beautiful or elegant, but here it is.
+
+Written in Py3k
+
+def main():
+
+    string = str(input("Enter sentence > "))
+
+    strip_chars = 'aeiou",./<>?0123456789!@#$%^&*()-_=+`~ '
+    vowel_solution = ""
+    string_solution = ""
+
+    for c in string:
+        if c == ' ':
+            continue
+        else:
+            if c not in strip_chars:
+                string_solution += c
+            else:
+                vowel_solution += c
+
+    print("\nDisemvoweled string: ", string_solution)
+    print("The vowels removed: ", vowel_solution, "\n")
+
+
+if __name__ == '__main__':
+    main()
+
+  • permalink
+  • embed
+  • save
+
+[–]Frigguggi0 1 0 points1 point2 points 4 years ago (0 children)
+
+Java:
+
+import java.util.Scanner;
+
+public class Disemvoweler {
+   public static void main(String[] args) {
+      Scanner in = new Scanner(System.in);
+      String input;
+      String vowels = "";
+      String consonants = "";
+      System.out.print("Enter a phrase: ");
+      input = in.nextLine();
+      for(int i = 0; i < input.length(); i++) {
+         char letter = input.charAt(i);
+         if(letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' ||
+               letter == 'u') {
+            vowels += letter;
+         }
+         else if(letter >= 'a' && letter <= 'z') {
+            consonants += letter;
+         }
+      }
+      System.out.println("\nConsonants: " + consonants);
+      System.out.println("Vowels:     " + vowels);
+   }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 4 years ago (0 children)
+
+C++:
+
+#include <iostream>
+
+using namespace std;
+
+bool is_vowel(char);
+
+int main()
+{
+    string input;
+    string vowels;
+    getline(cin, input);
+
+    for(int i = 0; i < input.size(); i++)
+    {
+        if(is_vowel(input[i]))
+        {
+            vowels += input[i];
+            input.erase(i, 1);
+            i = 0;
+        }
+        else if(input[i] == ' ')
+        {
+            input.erase(i, 1);
+            i = 0;
+        }
+    }
+
+    cout << input << "\n" << vowels;
+    cin.get();
+    cin.ignore(255, '\n');
+    cin.clear();
+    return 0;
+}
+
+bool is_vowel(char x)
+{
+    x = tolower(x);
+
+    if(x == 'a' || x == 'e' || x == 'i'
+    || x == 'o' || x == 'u')
+    {
+        return true;
+    }
+
+    return false;
+}
+
+  • permalink
+  • embed
+  • save
+
+[–]odinsgrudge 0 points1 point2 points 4 years ago (2 children)
+
+Python 2.7:
+
+vowels = "aeiou"
+vowelList = ""
+sentenceList = ""
+
+sentence = raw_input("Enter a sentence: ").replace(" ", "")
+
+for word in sentence:
+    for letter in word:
+        if letter.lower() in vowels:
+            vowelList = vowelList + letter
+        else:
+            sentenceList = sentenceList + letter
+
+print sentenceList
+print vowelList
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]supahpenguin007 0 points1 point2 points 4 years ago (1 child)
+
+hey man, I'm new to python myself, but it looks like you can remove the line
+"for word in sentence:" and simply use "for letter in sentence:"
+
+because youve already removed all the whitespace and in your program "letter in
+word" inside of "word in sentence" is just "letter in sentence"
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]odinsgrudge 0 points1 point2 points 4 years ago (0 children)
+
+Yea, originally I didn't remove the white space.
+
+I edited it later to remove the white space, but left everything else...noticed
+it later on.
+
+I played around with it a bit later turning it into a class, changed it there.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Ratheronfire 0 points1 point2 points 4 years ago (0 children)
+
+Using a Shell script:
+
+#!/bin/bash
+echo "$1" | sed 's/[aeiou ]//g'; echo "$1" | sed 's/[^aeiou]//g'
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]hkoh59 0 points1 point2 points 4 years ago* (0 children)
+
+Practicing array methods.
+
+In Javascript:
+
+function disEmvoweler(text) {
+    allVowels = "aeiou";
+    allConsonants = "bcdfghjklmnpqrstvwxyz";
+    var vowels = text.split(" ").join("");
+    var consonants = text.split(" ").join("");
+    for (var i = 0; i < allVowels.length; i++) {
+        consonants = consonants.split(allVowels[i]).join("");
+    }
+    for (i = 0; i < allConsonants.length; i++) {
+        vowels = vowels.split(allConsonants[i]).join("");
+    }
+    console.log(consonants);
+    console.log(vowels);
+}
+disEmvoweler("all those who believe in psychokinesis raise my hand");
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]kirsybuu0 1 0 points1 point2 points 4 years ago (0 children)
+
+Prolog
+
+vowel(Char)  :- member(Char, "aeiou").
+space(Char)  :- [Char] = " ".
+keeper(Char) :- \+ (vowel(Char) ; space(Char)).
+
+disemvowelS([],[],[]).
+
+disemvowelS([H|T], R, [H|V]) :-
+    vowel(H),
+    disemvowelS(T, R, V).
+
+disemvowelS([H|T], R, V) :-
+    space(H),
+    disemvowelS(T, R, V).
+
+disemvowelS([H|T], [H|R], V) :-
+    keeper(H),
+    disemvowelS(T, R, V).
+
+% Easier user interface version
+disemvowel(Text, Remaining, Vowels) :-
+    atom_codes(Text, TextS),
+    disemvowelS(TextS, RemainingS, VowelsS),
+    atom_codes(Remaining, RemainingS),
+    atom_codes(Vowels, VowelsS).
+
+Example:
+
+?- disemvowel('all those who believe in psychokinesis raise my hand', R, V).
+
+R = llthswhblvnpsychknssrsmyhnd
+V = aoeoeieeioieiaiea
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]swingtheory 0 points1 point2 points 4 years ago* (0 children)
+
+C++, 2 month into my OOP course. This took me way longer than it should've, but
+I tried to do it via switch statement first and thought I could shorten it a
+few lines with a for loop instead.
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    string vowels = "";
+    bool vowel;
+    char toBeDisemvoweled[100] = { 0 };
+    string disEmvoweled = "";
+    cin.getline(toBeDisemvoweled, sizeof(toBeDisemvoweled));
+
+    char vowelsA[5] = { 'a', 'e', 'i', 'o', 'u' };
+
+    for (size_t i = 0; i < 100; i++)
+    {
+        vowel = false;
+        for (size_t j = 0; j < 6; j++)
+        {
+            if (toBeDisemvoweled[i] == vowelsA[j])
+            {
+                vowels = vowels + toBeDisemvoweled[i];
+                vowel = true;
+            }
+        }
+
+        if (!vowel && toBeDisemvoweled[i] != ' ')
+            disEmvoweled = disEmvoweled + toBeDisemvoweled[i];
+    }
+
+    cout << disEmvoweled << endl;
+    cout << vowels << endl;
+
+    system("pause");
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Rollondger 0 points1 point2 points 4 years ago (3 children)
+
+C#. Playing with horrible linq statements and terrible getters.
+
+People like me write your banking software.
+
+public class Disemvoweler
+{
+    const string vowels = "aeiou ";
+    private string _inputString { get { return string.IsNullOrEmpty(_inputString) ? Console.ReadLine() : _inputString; } }
+
+    public Disemvoweler()
+    {
+        Console.WriteLine("Results:");
+        Console.WriteLine(new string(_inputString.ToCharArray().Where(x => !vowels.Contains(x)).ToArray()));
+        Console.WriteLine(new string(_inputString.ToCharArray().Where(x => vowels.Contains(x) && x != ' ').ToArray()));
+        Console.ReadLine();
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]spfiredrake 1 point2 points3 points 4 years ago (2 children)
+
+Small bug... _inputString never gets assigned to. Replace Console.ReadLine()
+with (_inputString = Console.ReadLine())
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Rollondger 1 point2 points3 points 4 years ago* (1 child)
+
+[DEL:Doesn't need to be assigned to :):DEL]
+
+[DEL:That being said,:DEL] I would lose my shit if I ever saw this in a code
+base.
+
+Edit: Looks like I passed the Ballmer peak after I wrote the first output line!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]spfiredrake 1 point2 points3 points 4 years ago* (0 children)
+
+[DEL:Good thing you edited that ;):DEL]
+
+[DEL:I've seen worse in production code. Side-effecting getters have wasted so
+much of my time during debugging, but in this situation it's a form of lazy
+initialization. In essence, you could use Lazy<string> to do the same thing:
+:DEL]
+
+Lazy<string> _inputString = new Lazy<string>(Console.ReadLine);
+
+[DEL:At least this way, you are guaranteed to have the same value for
+_inputString (even if it's an empty string). With your example (after fixing),
+you can pass in an empty string the first time and then whatever input you want
+afterwards.:DEL]
+
+EDIT: Scratch that... Realized how broken this actually is without a backing
+variable... Stack overflow on the getter itself o.O
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ButterCupKhaos 0 points1 point2 points 4 years ago* (0 children)
+
+In PowerShell - could be a lot shorter but I wanted to make it readable.
+
+#Get a sentence from the user
+$Sentence = Read-Host -Prompt "Please type a sentence"
+
+#Make an array of the Vowels
+$Vowels = @("a","e","i","o","u")
+
+#Turn the Sentence into a array of characters, look at each letter and if it matches the list of vowels record it in leftovers.
+#Else if the character isnt contained in the list of vowels record it in Result
+$Sentence.ToCharArray() | Foreach {
+    if ($vowels -contains $_)
+    {
+        $leftover += $_
+    }
+    Else {
+        $result += $_
+    }
+}
+
+#replace all the spaces from the result
+$result.replace(" ","")
+$leftover
+
+EDIT: Down to 3 lines with some cheap tricks
+
+$vowels = @("a","e","i","o","u")
+((Read-Host -Prompt "Please type a sentence").replace(" ","").ToCharArray() | foreach {if ($vowels -contains $_) {$leftover += $_} else {$_}}) -join ""
+$leftover
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]rebolek 0 points1 point2 points 4 years ago (0 children)
+
+Rebol:
+
+text: "all those who believe in psychokinesis raise my hand"
+vowel: charset "aeiou"
+disemvoweled: ""
+vowels: ""
+parse input [
+    some [
+        p: vowel (append vowels p/1)
+    |   space
+    |   end
+    |   (append disemvoweled p/1) skip
+    ]
+]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]spfy 0 points1 point2 points 4 years ago* (0 children)
+
+It's boring, but I did a C++ solution. Mostly to celebrate a new challenge.
+
+#include <iostream>
+#include <string>
+
+int main() {
+    using namespace std;
+
+    string text;
+    string vowels;
+    char c;
+
+    cin.get(c);
+    while (!cin.fail() && c != '\n') {
+            switch (c) {
+                    case 'a': case 'e': case 'i': case 'o': case 'u':
+                            vowels.push_back(c);
+                            break;
+                    case ' ':
+                            break;
+                    default:
+                            text.push_back(c);
+                            break;
+            }
+            cin.get(c);
+    }
+
+    cout << (text.length() ? text : "no consonants") << endl
+         << (vowels.length() ? vowels : "no vowels") << endl;
+    return 0;
+}
+
+Thanks a bunch for reviving the subreddit, Cosmologicon!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]blisse 0 points1 point2 points 4 years ago* (0 children)
+
+Actual C++?
+
+#include <iostream>
+#include <sstream>
+#include <iterator>
+#include <algorithm>
+#include <vector>
+
+using namespace std;
+
+const string vowels = "aeiou";
+
+bool IsSpace(char s) {
+    return s == ' ';
+}
+
+bool IsVowel(char s) {
+    return find(vowels.begin(), vowels.end(), s) != vowels.end();
+}
+
+bool IsNotVowel(char s) {
+    return !IsVowel(s);
+}
+
+void RemoveAndPrintString(string s, bool (*comparator)(char)) {
+    string::iterator s_end = remove_if(s.begin(), s.end(), IsSpace);
+    s_end = remove_if(s.begin(), s_end, comparator);
+    copy(s.begin(), s_end, ostream_iterator<char>(cout, ""));
+    cout << endl;
+}
+
+int main(int argc, char const *argv[])
+{
+    stringstream ss;
+    copy(istream_iterator<string>(cin), istream_iterator<string>(), ostream_iterator<string>(ss, ""));
+    string s = ss.str();
+
+    cout << endl;
+    RemoveAndPrintString(string(s), IsVowel);
+    RemoveAndPrintString(string(s), IsNotVowel);
+
+    return 0;
+}
+
+Only problem is you have to send two EOF characters to the input stream. I'm
+not sure why. I think the second EOF kills the stringstream.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]smeagol13 0 points1 point2 points 4 years ago (0 children)
+
+Python 3
+
+def disemvowel(string):
+    consonants=''.join(i for i in string if not (i in 'a eiou'))
+    vowels=''.join(i for i in string if i in 'aeiou')
+    return consonants,vowels
+
+Notice that the space character is also excluded in consonants.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]totallyfuckedlife 0 points1 point2 points 4 years ago (0 children)
+
+in java and my first submission here
+
+import java.util.Scanner;
+
+public class Disemvowler
+{
+public static void main(String[] args) {
+
+    Scanner scann = new Scanner(System.in);
+
+    String s = scann.nextLine();
+
+    s = s.toLowerCase();
+
+    String vowles = "";
+    String output = "";
+
+    for(int ch = 0; ch < s.length(); ch++)
+    {
+        if(s.charAt(ch) == ' ' )
+        {
+
+        }else if (s.charAt(ch) == 'a' || s.charAt(ch) == 'e' || s.charAt(ch) == 'i' || s.charAt(ch) == 'o' || s.charAt(ch) == 'u')
+            {
+                vowles += s.charAt(ch);
+            } else
+                {
+                    output +=  s.charAt(ch);
+                }
+    }
+    System.out.println(output);
+    System.out.print(vowles);
+}
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]MrSnowflake 0 points1 point2 points 4 years ago (0 children)
+
+Java 8 using Stream (I just wanted to use a stream): public class Disemvowler {
+static final String VOWELS = "aeiou";
+
+    private String vowels;
+
+    public Disemvowler(String vowels) {
+        this.vowels = vowels;
+    }
+
+    static class Pair {
+        public String result;
+        public String removedVowels;
+
+        public Pair(String result, String removedVowels) {
+            this.result = result;
+            this.removedVowels = removedVowels;
+        }
+    }
+
+    static class StringConsumer implements IntConsumer {
+        private StringBuilder output = new StringBuilder();
+
+        public void accept(int value) {
+            output.append((char)value);
+        }
+
+        public String getString() {
+            return output.toString();
+        }
+    }
+
+    String filter(String input, IntPredicate predicate) {
+        StringConsumer consumer = new StringConsumer();
+        input.chars()
+                .filter(predicate)
+                .forEach(consumer);
+        return consumer.getString();
+    }
+
+    public Pair disemvowel(String input) {
+        String result = filter(input, ch -> !(vowels + " ").contains("" + (char) ch));
+        String removedVowels = filter(input, ch -> vowels.contains("" + (char) ch));
+
+        return new Pair(result, removedVowels);
+    }
+
+    public static void main(String args[]) {
+        Pair resultPair = new Disemvowler(VOWELS).disemvowel(args[0]);
+        System.out.println(resultPair.result);
+        System.out.println(resultPair.removedVowels);
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 4 years ago (0 children)
+
+A simple c++ solution https://gist.github.com/GiedriusS/9210487
+
+  • permalink
+  • embed
+  • save
+
+[–]jabez007 0 points1 point2 points 4 years ago (0 children)
+
+Cache ObjectScript
+
+Disemvoweler
+read "Enter your string: ",input
+set input = $Zconvert(input, "U") ;make everything uppercase so we dont have to worry about it later
+
+set outputConstants = ""
+set outputVowels = ""
+
+for i=1:1:$length(input) {
+    set char = $Extract(input,i,i) ;pull out the ith character
+    if (char="A")||(char="E")||(char="I")||(char="O")||(char="U") {
+        set outputVowels = outputVowels_char
+    }
+    elseif (char'=" ") {
+        set outputConstants = outputConstants_char
+    }
+}
+
+write !,outputConstants,!,outputVowels
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dejamed 0 points1 point2 points 4 years ago (0 children)
+
+Javascript:
+
+function disemvowl(str){
+    var notvowels = vowels = '';
+    Array.prototype.map.call(str,function(s){
+        if('aeiou'.indexOf(s) >= 0){vowels += s;}
+        else if(s != ' '){notvowels += s;}
+        });
+    console.log(notvowels);
+   console.log(vowels);
+}
+disemvowl("all those who believe in psychokinesis raise my hand");
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Shadowninja100 0 points1 point2 points 4 years ago (0 children)
+
+Java:
+
+import java.util.Scanner;
+
+
+public class disemvoweler {
+
+public static void main(String args[]){
+
+    Scanner sc = new Scanner(System.in);
+
+    String input = sc.nextLine();
+    String output = "";
+    String vowels = "";
+
+    input = input.toLowerCase();
+
+    for(int i = 0; i < input.length(); i++)
+    {
+        if(input.charAt(i) != 'a' && input.charAt(i) != 'e' && input.charAt(i) != 'i' && input.charAt(i) != 'o' && input.charAt(i) != 'u' && input.charAt(i) != ' ')
+        {
+            output += input.charAt(i);
+        }
+        else{
+            if(input.charAt(i) != ' ')
+                vowels += input.charAt(i);
+        }
+    }
+
+    System.out.println(output);
+    System.out.println(vowels);
+    sc.close();
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]oasisguy 0 points1 point2 points 4 years ago (0 children)
+
+Yet another C++ solution:
+
+#include <iostream>
+
+struct disemvowel {
+    disemvowel(std::string&);
+    std::string     consonants;
+    std::string     vowels;
+};
+
+disemvowel::disemvowel(std::string& s):
+consonants { "" },
+vowels { "" }
+{
+    for (auto& it : s)
+        if ( it == 'a' || it == 'e' ||
+             it == 'i' || it == 'o' ||
+             it == 'u' )
+        {
+            vowels += it;
+        }
+        else if (it != ' ') consonants += it;
+}
+
+int main()
+{
+    std::string s;
+    std::cout << "Mkay so would you be so kind as to enter a text please?\n";
+    getline(std::cin, s);
+    disemvowel ds(s);
+    std::cout << "\nDisemvoweled: " << ds.consonants << "\n";
+    std::cout << "Vowels removed: " << ds.vowels << "\n";
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]zfinisher 0 points1 point2 points 4 years ago (0 children)
+
+python script https://gist.github.com/inderdhir/9216033
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]djcraze 0 points1 point2 points 4 years ago (0 children)
+
+GorillaScript / Javascript
+
+let input = 'did you hear about the excellent farmer who was outstanding in his field'
+// Version A
+let vowels = (for filter letter in input.replace r"\s"g, '' .split('')
+    if letter in [\a,\e,\i,\o,\u,\i]; letter
+    else; not process.stdout.write letter).join ''
+process.stdout.write "\n$(vowels)"
+
+// Version B
+console.log(input.match r"[aeiou]"ig .join(''))
+console.log(input.match r"[^aeiou\s]"ig .join(''))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]tmcarlee 0 points1 point2 points 4 years ago (0 children)
+
+Here's my first post (of hopefully many more) on this subreddit. I just started
+teaching myself Java over the past few weeks.
+
+IN JAVA:
+
+import java.util.*;
+
+public class Disemvowel {
+public static void main(String[] args) {
+    Scanner userInput = new Scanner(System.in);
+    String userString;
+    String newString = "";
+    String remVowels = "";
+    Boolean bool = true;
+
+    System.out.println("Please enter a sentence to be disemvoweled:");
+    userString = userInput.nextLine();
+
+    // Check each letter of user's sentence
+    for (int i = 0; i < userString.length(); i++){
+        char temp = userString.toLowerCase().charAt(i);
+            for (char c : "aeiou".toCharArray()){
+                if (temp == c){
+                    bool = true;
+                    break;
+                }else bool = false;
+            }
+                            // Add current character to one of two new strings
+            if (bool == false)
+                newString += temp;
+            else remVowels += temp;
+    }
+
+    // Print final output REMOVING ALL punctuation and spaces
+    System.out.printf("\nHere's your disemvoweled sentence:\n%s", newString.replaceAll("\\W", ""));
+    System.out.printf("\nHere are the disguarded vowels:\n%s", remVowels);
+}
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]crackez 0 points1 point2 points 4 years ago (0 children)
+
+I would like to propose a better solution than the requirements describe, in
+C++:
+
+#include<iostream>
+#include<string>
+#include<algorithm>
+#include<cctype>
+
+using namespace std;
+
+bool letter(char c) { return isalpha(c); }
+bool nonletter(char c) { return !isalpha(c); }
+
+int main()
+{
+ string s;
+ while(getline(cin, s))
+ {
+  for(string::iterator b(s.begin()), e; b < s.end(); b = e)
+  {
+   b=find_if(b, s.end(), letter);
+   e=find_if(b, s.end(), nonletter);
+   switch(e - b)
+   {
+    case 0:
+    case 1:
+    case 2:
+    case 3:
+     break;
+    case 4:
+     {
+      char t(*(b+1));
+      *(b+1)=*(b+2);
+      *(b+2)=t;
+     }
+     break;
+    default:
+     string tmp(b + 1, e - 1);
+     while(tmp == string(b + 1, e - 1))
+      random_shuffle(b + 1, e - 1);
+
+   }
+  }
+  cout << s << endl;
+ }
+ return 0;
+}
+
+Input:
+
+//...textfromOPformattedtofitthisscreen...
+
+Output:
+
+Dvnelioeswimg manes rnievomg the vleows form txet.
+(For tihs chanlegle, the lrteets a, e, i, o, and u are cserdoeind vwelos, and the lteetr y is not.)
+The ieda is to mkae txet diilcffut but not ipliomssbe to raed, for wehn sboedomy potss sotnihemg so iodiitc
+you wnat ppeloe who are rdnaieg it to get etrxa fttersraud.
+
+To mkae tnhigs eevn haderr to raed, we'll rmvoee specas too. For eplxame, tihs srnitg:
+
+two durms and a cbymal flal off a cfilf
+
+can be deoiewlvesmd to get:
+
+tcwmlclndsblyfmlfffdrf
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nowne 0 points1 point2 points 4 years ago (0 children)
+
+C++ 11
+
+#include <iostream>
+#include <string>
+
+int main(int argc, char* argv[]) {
+    std::string input = argv[1], consonants, vowels;
+    for (auto&& c : input) {
+        if (c == 'e' || c == 'a' || c == 'i' || c == 'o' || c == 'u') {
+            vowels += c;
+        } else if (c != ' ') {
+            consonants += c;
+        }
+    }
+    std::cout << consonants << "\n" << vowels << std::endl;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ogrenciyimbenya 0 points1 point2 points 4 years ago (0 children)
+
+Java
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+public class load {
+    public  static void main(String[] args){
+        List<String> wovels=Arrays.asList("a","e","ı","i","o","u","ö","ü");
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Input");
+        String word=keyboard.nextLine();
+        String output="";
+        String vowels="";
+
+        for(int i=0;i<word.length();i++){
+            System.out.println(word.length());
+            if(wovels.contains(""+word.charAt(i))){
+               vowels += word.charAt(i);
+            }else{
+               if(!Character.toString(word.charAt(i)).equals(" "))
+                  output += word.charAt(i);
+           }
+       }
+       System.out.println(output);
+       System.out.println(vowels);
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+load more comments (168 replies)
+
+  • about
+  • blog
+  • about
+  • advertising
+  • careers
+
+  • help
+  • site rules
+  • Reddit help center
+  • wiki
+  • reddiquette
+  • mod guidelines
+  • contact us
+
+  • apps & tools
+  • Reddit for iPhone
+  • Reddit for Android
+  • mobile website
+  • buttons
+
+  • <3
+  • reddit gold
+  • redditgifts
+
+Use of this site constitutes acceptance of our User Agreement and Privacy
+Policy. (C) 2018 reddit inc. All rights reserved.
+
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+Advertise - technology
+
+[pixel]
+
+π Rendered by PID 121893 on app-240  at 2018-05-09 20:31:48.430068+00:00
+running d5b3b1f country code: CH.
+

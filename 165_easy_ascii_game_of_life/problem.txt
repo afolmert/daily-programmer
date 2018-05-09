@@ -1,0 +1,5456 @@
+close this window
+jump to content
+my subreddits
+edit subscriptions
+
+  • popular
+  • -all
+  • -random
+  • -users
+
+ | 
+
+  • AskReddit
+  • -worldnews
+  • -videos
+  • -funny
+  • -todayilearned
+  • -pics
+  • -gaming
+  • -movies
+  • -news
+  • -gifs
+  • -mildlyinteresting
+  • -aww
+  • -Showerthoughts
+  • -television
+  • -Jokes
+  • -science
+  • -OldSchoolCool
+  • -sports
+  • -IAmA
+  • -Documentaries
+  • -TwoXChromosomes
+  • -explainlikeimfive
+  • -personalfinance
+  • -books
+  • -tifu
+  • -Futurology
+  • -dataisbeautiful
+  • -WritingPrompts
+  • -nottheonion
+  • -food
+  • -Music
+  • -photoshopbattles
+  • -EarthPorn
+  • -philosophy
+  • -Art
+  • -nosleep
+  • -GetMotivated
+  • -askscience
+  • -LifeProTips
+  • -space
+  • -UpliftingNews
+  • -DIY
+  • -history
+  • -gadgets
+  • -creepy
+  • -listentothis
+  • -blog
+  • -announcements
+  • -InternetIsBeautiful
+
+more >>
+dailyprogrammer dailyprogrammer
+
+  • comments
+
+Want to join? Log in or sign up in seconds.|
+
+  • English
+
+[                    ][]
+[ ]limit my search to r/dailyprogrammer
+
+use the following search parameters to narrow your results:
+
+subreddit:subreddit
+    find submissions in "subreddit"
+author:username
+    find submissions by "username"
+site:example.com
+    find submissions from "example.com"
+url:text
+    search for "text" in url
+selftext:text
+    search for "text" in self post contents
+self:yes (or self:no)
+    include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+    include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+
+see the search faq for details.
+
+advanced search: by author, subreddit...
+
+this post was submitted on  01 Jun 2014
+64 points (90% upvoted)
+shortlink:  [https://redd.it/271x]
+[                    ][                    ]
+[ ]remember mereset password
+login
+Submissions restricted
+Only approved users may post in this community.
+
+dailyprogrammer
+
+subscribeunsubscribe142,051 readers
+
+148 users here now
+
+ 1. Challenge #321: Easy
+ 2. Challenge #321: Intermediate
+ 3. Challenge #321: Hard
+ 4. Weekly #25: Escape the trolls
+
+Welcome to r/DailyProgrammer!
+
+First time visitors of Daily Programmer please Read the Wiki to learn
+everything about this subreddit.
+
+  • Solution Submission Tutorial
+  • Solution Submission Guidelines
+  • Code / Peer-Review Guidelines
+  • Problem Submission Guidelines
+  • Achievements System
+  • Community Projects
+  • Links to other Programming subreddits
+  • Special Thanks
+
+Can't submit solutions?
+
+If you are a new or unverified account, and are unable to post comment replies,
+please click here to verify your account. Otherwise, read the Solution
+Submission Tutorial for a walkthrough of submitting a solution, or click below
+to message the moderators for assistance.
+
+Write your own challenge!
+
+To help the community and write your own challenge to be submitted, head on
+over to /r/DailyProgrammer_Ideas and share your project - read the sidebar in
+that subreddit for more information.
+
+IRC Channel
+
+Message the Moderators
+
+Challenge List in Chronological Order
+
+created by nottoobadguya community for 6 years
+message the moderators
+
+MODERATORS
+
+  • rya111113 1
+  • nint221 2
+  • Cosmologicon2 3
+  • Elite68091 1
+  • XenophonOfAthens2 1
+  • jnazario2 0
+  • Godspiral3 3
+  • Blackshell2 0
+  • fvandepitte0 0
+  • G33kDude1 1
+  • about moderation team >>
+
+discussions in r/dailyprogrammer
+<>
+X
+ 
+41 . 10 comments
+[2018-05-09] Challenge #360 [Intermediate] Find the Nearest Aeroplane
+ 
+65 . 26 comments
+[2018-05-04] Challenge #359 [Hard] Primes in Grids
+ 
+42 . 37 comments
+[2018-05-02] Challenge #359 [Intermediate] Unwrap Some Text
+ 
+64 . 111 comments
+[2018-04-30] Challenge #359 [Easy] Regular Paperfold Sequence Generator
+ 
+65 . 12 comments
+[2018-04-27] Challenge #358 [Hard] Puzzle me this
+ 
+48 . 36 comments
+[2018-04-25] Challenge #358 [Intermediate] Everyone's A Winner!
+ 
+72 . 75 comments
+[2018-04-23] Challenge #358 [Easy] Decipher The Seven Segments
+ 
+55 . 28 comments
+[2018-04-20] Challenge #357 [Hard] Continued Fractions
+ 
+59 . 26 comments
+[2018-04-19] Challenge #357 [Intermediate] Kolakoski Sequences
+ 
+67 . 114 comments
+[2018-04-11] Challenge #356 [Intermediate] Goldbach's Weak Conjecture
+
+Welcome to Reddit,
+
+the front page of the internet.
+
+Become a Redditor
+
+and subscribe to one of thousands of communities.
+
+x
+
+63
+64
+65
+
+[6/2/2014] Challenge #165 [Easy] ASCII Game of Life (self.dailyprogrammer)
+
+submitted 3 years ago * by Elite68091 1
+
+ (Easy): ASCII Game of Life
+
+Hello people. Sorry for submitting this early, but I have exams this week and
+the next so I'll have to submit these challenges a little bit early - I'm sure
+that's not an issue though! Welcome to June, and it's time for a run of
+similarly themed challenges - all of them will be based on ASCII data. Not too
+dissimilar to this challenge from a while ago.
+
+This first challenge is based on a game (the mathematical variety - not quite
+as fun!) called Conway's Game of Life. This is called a cellular automaton.
+This means it is based on a 'playing field' of sorts, made up of lots of little
+cells or spaces. For Conway's game of life, the grid is square - but other
+shapes like hexagonal ones could potentially exist too. Each cell can have a
+value - in this case, on or off - and for each 'iteration' or loop of the game,
+the value of each cell will change depending on the other cells around it. This
+might sound confusing at first, but looks easier when you break it down a bit.
+
+  • A cell's "neighbours" are the 8 cells around it.
+
+  • If a cell is 'off' but exactly 3 of its neighbours are on, that cell will
+    also turn on - like reproduction.
+
+  • If a cell is 'on' but less than two of its neighbours are on, it will die
+    out - like underpopulation.
+
+  • If a cell is 'on' but more than three of its neighbours are on, it will die
+    out - like overcrowding.
+
+Fairly simple, right? This might sound boring, but it can generate fairly
+complex patterns - this one, for example, is called the Gosper Glider Gun and
+is designed in such a way that it generates little patterns that fly away from
+it. There are other examples of such patterns, like ones which grow
+indefinitely.
+
+Your challenge is, given an initial 'state' of 'on' and 'off' cells, and a
+number, simulate that many steps of the Game of Life.
+
+Formal Inputs and Outputs
+
+Input Description
+
+You will be given a number N, and then two more numbers X and Y. After that you
+will be given a textual ASCII grid of 'on' and 'off' states that is X cells
+wide and Y cells tall. On the grid, a period or full-stop . will represent
+'off', and a hash sign # will represent 'on'.
+
+The grid that you are using must 'wrap around'. That means, if something goes
+off the bottom of the playing field, then it will wrap around to the top, like
+this: http://upload.wikimedia.org/wikipedia/en/d/d1/Long_gun.gif See how those
+cells act like the top and bottom, and the left and right of the field are
+joined up? In other words, the neighbours of a cell can look like this - where
+the lines coming out are the neighbours:
+
+#-...-  ......  ../|\.
+|\.../  ......  ......
+......  |/...\  ......
+......  #-...-  ......
+......  |\.../  ..\|/.
+|/...\  ......  ..-#-.
+
+Output Description
+
+Using that starting state, simulate N iterations of Conway's Game of Life.
+Print the final state in the same format as above - . is off and # is on.
+
+Sample Inputs & Output
+
+Sample Input
+
+7 10 10
+..........
+..........
+..#.......
+...#......
+.###......
+..........
+..........
+..........
+..........
+..........
+
+Sample Output
+
+..........
+..........
+..........
+..........
+...#......
+....##....
+...##.....
+..........
+..........
+..........
+
+Challenge
+
+Challenge Input
+
+32 17 17
+.................
+.................
+....###...###....
+.................
+..#....#.#....#..
+..#....#.#....#..
+..#....#.#....#..
+....###...###....
+.................
+....###...###....
+..#....#.#....#..
+..#....#.#....#..
+..#....#.#....#..
+.................
+....###...###....
+.................
+.................
+
+(just for laughs, see how the output changes when you change N. Cool, eh?)
+
+Notes
+
+To test your program, use one of the many online simulation programs. There are
+plenty written in JavaScript you can get at with a Google search (or Bing, if
+you'd prefer. I wouldn't.)
+
+  • 73 comments
+  • share
+  • save
+  • hide
+  • report
+
+all 73 comments
+sorted by:
+best
+topnewcontroversialoldrandomq&alive (beta)
+ [                    ]
+
+Want to add to the discussion?
+
+Post a comment!
+
+Create an account
+
+[–]ehcubed 10 points11 points12 points 3 years ago (4 children)
+
+Python 3.3.2. Cool challenge! I ran into a bit of trouble for the case where
+none of the if conditions in the given 3 bullets would apply (I figured they
+exhausted all cases). Turns out that the character should just stay the same.
+Thanks to /u/jeaton's simulator; it really helped with debugging!
+
+Code:
+
+######################################
+# Challenge 165E: ASCII Game of Life #
+#           Date: June 1, 2014       #
+######################################
+
+# Read the input.
+grid = []
+with open("165E_input.txt", "r") as f:
+    [N, X, Y] = [int(k) for k in f.readline().split()]
+    grid = f.read().split()
+
+# Simulate N iterations of Conway's Game of Life.
+for n in range(N):
+    newGrid = ""
+    for x in range(X):
+        for y in range(Y):
+            # Compute the number of on neighbours.
+            onCount = 0
+            for i in [(x-1) % X, x, (x+1) % X]:
+                for j in [(y-1) % Y, y, (y+1) % Y]:
+                    if (i,j) != (x,y) and grid[i][j] == '#':
+                        onCount += 1
+            # Determine what the new cell should be.
+            if grid[x][y] == '.' and onCount == 3:
+                newGrid += "#"
+            elif grid[x][y] == '#' and onCount not in [2, 3]:
+                newGrid += '.'
+            else:
+                newGrid += grid[x][y]
+        newGrid += "\n"
+    grid = newGrid.split() # Update the grid.
+
+# Print the result.
+print("\n".join(grid))
+
+Challenge Output:
+
+.................
+.................
+....##.....##....
+.....##...##.....
+..#..#.#.#.#..#..
+..###.##.##.###..
+...#.#.#.#.#.#...
+....###...###....
+.................
+....###...###....
+...#.#.#.#.#.#...
+..###.##.##.###..
+..#..#.#.#.#..#..
+.....##...##.....
+....##.....##....
+.................
+.................
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ddsnowboard 0 points1 point2 points 3 years ago (3 children)
+
+for i in [(x-1) % X, x, (x+1) % X]:
+            for j in [(y-1) % Y, y, (y+1) % Y]:
+
+I've never seen this notation, with the brackets, can someone explain it to me?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ehcubed 2 points3 points4 points 3 years ago (2 children)
+
+In Python, you can initialize a list using square brackets. For example:
+
+myList = [1, 1, 2, 3, 5, 8]
+
+In fact, Python implements for loops by iterating through lists:
+
+total = 0
+for num in myList:
+    total += num
+print(total) # This outputs 20.
+
+Now the % operator is used to denote the remainder you get after dividing two
+numbers. Note that if b > 0, then the expression (a % b) is guaranteed to be a
+nonnegative integer from 0 to (b-1). For example:
+
+print( 26 % 4) # Outputs 2, since  6(4) + 2 =  26.
+print(-17 % 5) # Outputs 3, since -4(5) + 3 = -17.
+
+Hence, the purpose of those two lines of code is to get a 3 by 3 grid of
+ordered pairs centered at (x,y), wrapping around the edges of the grid if
+necessary. For example, suppose that x = 5, y = 0, X = 6, and Y = 4. Then the
+two lines of code become:
+
+for i in [(5-1) % 6, 5, (5+1) % 6]:
+    for j in [(0-1) % 4, 0, (0+1) % 4]:
+
+which simplifies to be:
+
+for i in [4, 5, 0]:
+    for j in [3, 0, 1]:
+
+which yields 9 possible ordered pairs, namely:
+
+(4,3), (4,0), (4,1),
+(5,3), (5,0), (5,1),
+(0,3), (0,0), (0,1)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ddsnowboard 1 point2 points3 points 3 years ago (1 child)
+
+I didn't quite get that the first time I read through it, but I understand now,
+thank you for the explanation. I feel bad that I wouldn't think of that if you
+gave me a thousand years...
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ehcubed 2 points3 points4 points 3 years ago (0 children)
+
+No problem! Don't feel too bad; it takes a bit of experience to see the modular
+arithmetic trick. It's a common technique used when implementing simple hash
+functions, if you've heard of those before.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]skeeto-9 8 7 points8 points9 points 3 years ago* (1 child)
+
+C++11. The title is called ASCII Game of Life, but what about Unicode Game of
+Life? My program uses Unicode block elements instead of plain ASCII characters.
+Each character on the screen represents two Game of Life cells so that the
+rectangular terminal display appears square.
+
+  • Demo GIF (80x80): http://i.imgur.com/paIflnZ.gif
+
+You'll need the ncursesw (widechar) library and a unicode-supporting terminal
+in order to run this.
+
+#define _XOPEN_SOURCE_EXTENDED
+#include <algorithm>
+#include <thread>
+#include <ncursesw/ncurses.h>
+#include <cstdlib>
+#include <locale.h>
+#include <unistd.h>
+
+/* ' ', '▄', '▀', '█' */
+const cchar_t blocks[] = {
+    {0, {0x0020}}, {0, {0x2584}}, {0, {0x2580}}, {0, {0x2588}},
+};
+
+struct GOL {
+  int width, height;
+  char *front, *back;
+
+  GOL() {
+    setlocale(LC_ALL, "");
+    initscr();
+    curs_set(0);
+    timeout(0);
+    erase();
+    getmaxyx(stdscr, height, width);  // fill the terminal
+    height *= 2;
+    front = new char[width * height];
+    back = new char[width * height];
+    for (int i = 0; i < width * height; i++) front[i] = std::rand() % 2;
+  }
+
+  ~GOL() {
+    delete[] front;
+    delete[] back;
+    endwin();
+  }
+
+  int i(int x, int y) {
+    return ((y + height) % height) * width + ((x + width) % width);
+  }
+
+  void draw() {
+    for (int y = 0; y < height; y += 2) {
+      move(y / 2, 0);
+      for (int x = 0; x < width; x++) {
+        char top = front[i(x, y + 0)], bot = front[i(x, y + 1)];
+        add_wch(blocks + (top * 2 + bot));
+      }
+    }
+    refresh();
+  }
+
+  void step() {
+    for (int y = 0; y < height; y++) {
+      for (int x = 0; x < width; x++) {
+        char self = front[i(x, y)];
+        int sum = -self;
+        for (int yy = -1; yy <= 1; yy++) {
+          for (int xx = -1; xx <= 1; xx++) {
+            sum += front[i(x + xx, y + yy)];
+          }
+        }
+        if (self == 0 && sum == 3) {
+          self = 1;
+        } else if (self == 1 && (sum < 2 || sum > 3)) {
+          self = 0;
+        }
+        back[i(x, y)] = self;
+      }
+    }
+    std::swap(front, back);
+  }
+};
+
+int main(int argc, char **argv) {
+  srand(0);
+  GOL gol;
+  while (getch() != 'q') {
+    gol.draw();
+    std::this_thread::sleep_for(std::chrono::milliseconds{150});
+    gol.step();
+  }
+  return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Elite68091 1[S] 0 points1 point2 points 3 years ago (0 children)
+
+That's quite a clever usage of special characters, nice!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]chunes1 2 6 points7 points8 points 3 years ago (7 children)
+
+Are the changes to cells simultaneous or sequential?
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]yoho139 7 points8 points9 points 3 years ago (6 children)
+
+Simultaneous.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 1 point2 points3 points 3 years ago (5 children)
+
+I'd like to stress that this is a very important detail.
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]yoho139 3 points4 points5 points 3 years ago (4 children)
+
+Yeah, I have a feeling things would die off much quicker if this wasn't the
+case.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 2 points3 points4 points 3 years ago (3 children)
+
+Was that pun intentional?
+
+I almost died laughing.
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]yoho139 1 point2 points3 points 3 years ago (2 children)
+
+It's not a pun, the cells would literally die off quicker. That's what it's
+called.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (1 child)
+
+Yeah, your sentence had a sort of "double-meaning" to it. Things die off
+quicker is a phrase also used as an expression to say that things are ending
+quicker (example: "the party died off much quicker than I expected").
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]yoho139 1 point2 points3 points 3 years ago (0 children)
+
+Oh, you're taking that angle. Yeah, sort of an unintended pun that doesn't
+really work at the same time :P
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]badgers_uk 5 points6 points7 points 3 years ago (0 children)
+
+I was messing around with this some more and made Gosper's glider gun. It stops
+after 180 frames when the gliders are about to start destroying the gun.
+
+180 60 25
+............................................................
+.........................#..................................
+.......................#.#..................................
+.............##......##............##.......................
+............#...#....##............##.......................
+.##........#.....#...##.....................................
+.##........#...#.##....#.#..................................
+...........#.....#.......#..................................
+............#...#...........................................
+.............##.............................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+............................................................
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]slackermanz 1 point2 points3 points 3 years ago (0 children)
+
+Check out /r/cellular_automata if you find these programs interesting :)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]alteraego 3 points4 points5 points 3 years ago* (5 children)
+
+In Matlab, constucting one wide edges around the start array to achieve the
+looping so that the creating the small neighbor array would work, and then
+removing them before spitting out the end array. Takes start map as one line,
+no delimiters.
+
+edit: Realized I could have initially set numeric values to the numerical
+ascii, change the appropriate rules to be multiples thereof and totally remove
+the last element by element change and just grabbed the core matrix and changed
+it to char. Dumb mistake.
+
+function [ endState ] = conwayLife( iterations,column,row )
+%conwayLife Conway's Game of Life /r/dailyprogrammmer challenge
+%   Function input takes how many iterations to run through, and the field
+%   dimensions. Then query's user for start map, and applies rules
+startState=zeros(row+2,column+2);
+startStateC=input('Input start map as single string.\n','s');
+startStateC=reshape(startStateC',column,row)';
+
+for i=1:row
+    for j=1:column
+        if startStateC(i,j)=='#'
+            startState(i+1,j+1)=1;
+        else
+            continue
+        end
+    end
+end
+
+counter=0;
+while counter&lt;iterations
+    startState(1,:)=[startState(row+1,column+1),startState(row+1,2:column+1),startState(row+1,2)];
+    startState(row+2,:)=[startState(2,column+1),startState(2,2:column+1),startState(2,2)];
+    startState(:,1)=[startState(row+1,column+1);startState(2:row+1,column+1);startState(2,column+1)];
+    startState(:,column+2)=[startState(row+1,2);startState(2:row+1,2);startState(2,2)];
+    startState2=startState;
+    for i=2:row+1
+        for j=2:column+1
+            neighbors=startState(i-1:i+1,j-1:j+1);
+            if startState(i,j)==0&amp;&amp;sum(neighbors(:))==3
+                startState2(i,j)=1;
+            elseif startState(i,j)==1&amp;&amp;(sum(neighbors(:))&lt;3||sum(neighbors(:))>4)
+                startState2(i,j)=0;
+            else
+                continue
+            end
+        end
+    end
+    startState=startState2;
+    counter=counter+1;
+end
+
+for i=1:row+2
+    for j=1:column+2
+        if startState(i,j)==1
+            startState(i,j)=35;
+        elseif startState(i,j)==0
+            startState(i,j)=46;
+        end
+    end
+end
+
+endState=char(startState(2:row+1,2:column+1));
+
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]FSMer 3 points4 points5 points 3 years ago* (4 children)
+
+You probably aren't from the image processing field.
+
+To improve your code I did 2 things:
+
+  • change it from loops based code to operation on matrices, which is (as the
+    name suggest) the real power of Matlab
+
+  • I used image filtering to find the number of live neighbors
+
+Code
+
+function [ endState ] = conwayLife( iterations,column,row )
+%conwayLife Conway's Game of Life /r/dailyprogrammmer challenge
+%   Function input takes how many iterations to run through, and the field
+%   dimensions. Then query's user for start map, and applies rules
+
+startStateC=input('Input start map as single string.\n','s');
+startStateC=reshape(startStateC',column,row)';
+
+stateBool = startStateC=='#';
+kernel = ones(3); kernel(2,2) = 0;
+for i = 1:iterations
+    numOfLiveNeighbours = imfilter(double(stateBool),kernel,'circular');
+    stateBool = (numOfLiveNeighbours == 3) | (stateBool & (numOfLiveNeighbours == 2));
+end
+
+endState = char(46*ones(size(stateBool))); % set all to "."
+endState(stateBool) = '#';
+
+end
+
+Challenge
+
+[ endState ] = conwayLife( 32,17,17 )
+Input start map as single string.
+......................................###...###.......................#....#.#....#....#....#.#....#....#....#.#....#......###...###.........................###...###......#....#.#....#....#....#.#....#....#....#.#....#.......................###...###......................................
+
+endState =
+
+.................
+.................
+....##.....##....
+.....##...##.....
+..#..#.#.#.#..#..
+..###.##.##.###..
+...#.#.#.#.#.#...
+....###...###....
+.................
+....###...###....
+...#.#.#.#.#.#...
+..###.##.##.###..
+..#..#.#.#.#..#..
+.....##...##.....
+....##.....##....
+.................
+.................
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]qwertyuiop98741 1 point2 points3 points 3 years ago (3 children)
+
+So I've tried googling and using MATLAB help, but I'm not very clear on how
+imfilter is doing the calculations. I ran through it in MATLAB too, but I'm not
+very familiar with image processing. Could you possibly ELI5 what the imfilter
+is doing with the kernal you created?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]FSMer 1 point2 points3 points 3 years ago* (2 children)
+
+If you weren't 5 I would say that this is convolution (but treating the kernel
+a bit differently), but since you're 5 I'll try my best with more elaborated
+explanation.
+
+So lets start with 1 dimension filter. Assuming you have an array (e.g. [0 1 2
+3 4 5 6]) and you want to get for each element a value which is a linear
+combination of its neighbors values (and its own). The kernel (e.g. [1 1 1]) is
+the linear combination coefficients. So in our example the central element will
+be:
+
+1*2+1*3+1*4 = 9,
+
+and the full array:
+
+filter([0 1 2 3 4 5 6], [1 1 1]) = [1 3 6 9 12 15 11]
+
+Notice that for the boundaries I assumed we have neighbors with the value 0
+
+(1*0+1*0+1*1=1 and 1*5+1*6+1*0=11)
+
+this's called "zero padding". Another way of dealing with the boundaries is
+treating the array as cyclic
+
+(1*6+1*0+1*1=7 and 1*5+1*6+1*0=11)
+
+which is what required in the challenge.
+
+Moving to 2D, the concept is the same but the kernel and thus the neighborhood
+can be 2D too. so for example let the array be:
+
+1 2 3 4 5
+6 7 8 9 1
+2 3 4 5 6
+
+and the kernel:
+
+1 1 1
+1 1 1
+1 1 1
+
+Using zero padding the result will be:
+
+16    27    33    30    19
+21    36    45    45    30
+18    30    36    33    21
+
+The calculation for the central element is:
+
+1*2+1*3+1*4+1*7+1*8+1*9+1*3+1*4+1*5 = 45
+
+Matlab has the function filter2 for 2D filtering but unfortunately it doesn't
+support cyclic filtering. So I used imfilter which does exactly the same but
+supports cyclic filtering.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]qwertyuiop98741 1 point2 points3 points 3 years ago (1 child)
+
+That helps a lot - Thanks!
+
+So the zero at 2,2 in the kernal is essentially adding all of the nearest
+neighbors together but not itself, and since you've converted the boolean array
+to doubles it multiplies by 1 if it was there and 0 if it wasn't.
+
+I know convolution from differential equations, specifically with laplace
+transforms, so I didn't really know how it was applied here.
+
+Thanks again for the help!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]FSMer 1 point2 points3 points 3 years ago (0 children)
+
+    So the zero at 2,2 in the kernal is essentially adding all of the nearest
+    neighbors together but not itself, and since you've converted the boolean
+    array to doubles it multiplies by 1 if it was there and 0 if it wasn't.
+
+Yes, it's the sum of neighbors, without casting to double MATLAB treats it as
+logical or instead of sum.
+
+    I know convolution from differential equations, specifically with laplace
+    transforms, so I didn't really know how it was applied here.
+
+Since you're familiar with convolution, filtering is the same but without
+flipping the kernel.
+
+    Thanks again for the help!
+
+No problem :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]flightcrank 6 points7 points8 points 3 years ago* (1 child)
+
+This should not be put under EASY. im not saying its hard but the author has
+put the sample output after 7 iterations. This makes it hard to debug because
+you dont know at what iteration 1 - 7 where your output may be wrong. how is
+that considered EASY ? Just take a look at problem #1 [EASY] and compare it to
+the more recent ones.
+
+There seems to be almost no difference between [EASY] and [INTERMEDIATE].
+Challenge #162 [EASY] and [INTERMEDIATE] are basically of the same difficulty
+level. mods really need to pull there heads in and establish some guide lines
+on difficulty levels.
+
+anyway my solution in C.
+
+code: https://github.com/flightcrank/daily-programmer/blob/master/
+challange_165_e.c
+
+output:
+
+.................
+.................
+....##.....##....
+.....##...##.....
+..#..#.#.#.#..#..
+..###.##.##.###..
+...#.#.#.#.#.#...
+....###...###....
+.................
+....###...###....
+...#.#.#.#.#.#...
+..###.##.##.###..
+..#..#.#.#.#..#..
+.....##...##.....
+....##.....##....
+.................
+.................
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]DJGreenHill 1 point2 points3 points 3 years ago (0 children)
+
+I'm with you here. Just finished my first year in Comp Sci and the other
+students were struggling with a "Find the angle between the hands of a clock at
+a given hour" problem (Which I think is WAY easier than a Game of Life, because
+it can be done in so many ways).
+
+Anyway, cool challenge!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]jeaton 2 points3 points4 points 3 years ago (2 children)
+
+I actually just recently wrote a Game of Life simulator in JavaScript if anyone
+wants to use it to test theirs. http://1995eaton.github.io/game-of-life/
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nakilon 1 point2 points3 points 3 years ago (1 child)
+
+It isn't toroidal.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Elite68091 1[S] 0 points1 point2 points 3 years ago (0 children)
+
+Could still be useful!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]dohaqatar71 1 2 points3 points4 points 3 years ago (0 children)
+
+I made this almost a year ago, so the quality of the code is low, but I put
+some rather nice graphics to it. The code is kind of long so i'll just link to
+a gist
+
+Game Of Life (Graphics)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]badgers_uk 2 points3 points4 points 3 years ago (1 child)
+
+Python 3. It also prints out every iteration. Looks pretty cool! Had a lot of
+fun making this, thanks for taking the time to set this challenge and good luck
+with your exams.
+
+import time
+
+def find_neighbours(x_coord, y_coord):
+    neighbours = 0
+    for i in range(-1, 2):
+        x = (x_coord + i) % width
+        for j in range(-1, 2):
+            if i == 0 and j == 0:
+                continue
+            y = (y_coord + j) % height
+            if grid[y][x] == "#":
+                neighbours += 1
+    return neighbours
+
+raw_data = """32 17 17
+.................
+.................
+....###...###....
+.................
+..#....#.#....#..
+..#....#.#....#..
+..#....#.#....#..
+....###...###....
+.................
+....###...###....
+..#....#.#....#..
+..#....#.#....#..
+..#....#.#....#..
+.................
+....###...###....
+.................
+................."""
+
+top_line, grid = raw_data.split("\n")[0], raw_data.split("\n")[1:]
+iterations, width, height = [int(x) for x in top_line.split()]
+
+for i in range(iterations):
+    new_grid = []
+    for y in range(height):
+        new_line = []
+        for x in range(width):
+            num_neighbours = find_neighbours(x, y)
+            if grid[y][x] == "." and num_neighbours == 3:
+                new_line.append("#")
+            elif grid[y][x] == "#" and num_neighbours < 2:
+                new_line.append(".")
+            elif grid[y][x] == "#" and num_neighbours > 3:
+                new_line.append(".")
+            else:
+                new_line.append(grid[y][x])
+        new_grid.append("".join(new_line))
+    grid = new_grid
+    print("\n"*15)
+    print("\n".join(grid))
+    time.sleep(0.5)
+
+print("\n".join(grid))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Elite68091 1[S] 0 points1 point2 points 3 years ago (0 children)
+
+Thanks! :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]tet5uo 2 points3 points4 points 3 years ago* (2 children)
+
+C# :
+
+Was having much fun with this one I didn't want to stop coding.
+
+This version will render each generation of the simulation. I wanted to keep
+adding features but I guess that's beyond what's needed for this.
+
+I'll have to keep playing with it later for fun.
+
+https://gist.github.com/anonymous/7cb7a3d8f282d05d1ea5
+
+Challenge output: http://i.imgur.com/bmFNZni.png
+
+Random Output : http://i.imgur.com/atchLwC.gif
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ElGuaco 1 point2 points3 points 3 years ago (1 child)
+
+I enjoyed reading your code, I think yours was the first to take an OOP
+approach to the problem. It probably seems like overkill compared to other
+solutions, but I think it's better than finding a "clever" solution.
+
+One note - the section where you compute the neighbors had some unnecessary
+code that confused me.
+
+}.Where(e => e).Select(e => e).ToList().Count();
+
+could be reduced to
+
+}.Where(e => e).Count();
+
+or to be really tricky
+
+}.Count(e => e);
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]tet5uo 0 points1 point2 points 3 years ago* (0 children)
+
+Yeah I noticed that later too in the neighbors method, not sure what I was
+thinking with all that. I was going to change the gist but didn't think anyone
+would read it :D
+
+Thanks for the compliments. I've just started learning programming on my own
+5-6 months ago so it's nice to hear.
+
+I'm actually using this project now to learn MVVM and windows 8.1 apps by
+making a UI for the sim with some controls to change parameters and the ability
+for the user to set an initial state if they like.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Godspiral3 3 2 points3 points4 points 3 years ago* (1 child)
+
+J wins this :P
+
+life =: (_3 _3 (+/ e. 3 + 0 , 4&{)@,;._3 ])@(0 , 0 ,~ 0 ,. 0 ,.~ ])
+
+ '.#'{~ life^:7 ] 1 (2 2;3 3;4 1;4 2;4 3) }   10 10 $ 0
+
+challenge
+
+   redditfmt"1 '.#' {~ life^:32   '#'= &> a=. cutLF wd 'clippaste '
+
+ .................
+ .................
+ ....##.....##....
+ .....##...##.....
+ ..#..#.#.#.#..#..
+ ..###.##.##.###..
+ ...#.#.#.#.#.#...
+ ....###...###....
+ .................
+ ....###...###....
+ ...#.#.#.#.#.#...
+ ..###.##.##.###..
+ ..#..#.#.#.#..#..
+ .....##...##.....
+ ....##.....##....
+ .................
+ .................
+  redditfmt"1 '.#' {~ life^:31   '#'= &> a
+ .................
+ .....#.....#.....
+ .....#.....#.....
+ .....##...##.....
+ .................
+ .###..##.##..###.
+ ...#.#.#.#.#.#...
+ .....##...##.....
+ .................
+ .....##...##.....
+ ...#.#.#.#.#.#...
+ .###..##.##..###.
+ .................
+ .....##...##.....
+ .....#.....#.....
+ .....#.....#.....
+ .................
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Godspiral3 3 1 point2 points3 points 3 years ago* (0 children)
+
+I've seen this copied more than explained, so here is:
+
+the input
+
+redditfmt"1 ] 1 (2 2;3 3;4 1;4 2;4 3) } 10 10 $ 0
+
+ 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0
+ 0 0 1 0 0 0 0 0 0 0
+ 0 0 0 1 0 0 0 0 0 0
+ 0 1 1 1 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0
+
+first step just pads 0s around the edges
+
+redditfmt"1 '.#'{~ (0,0,~0,.0,.~])] 1 (2 2;3 3;4 1;4 2;4 3) } 10 10 $ 0
+
+ ............
+ ............
+ ............
+ ...#........
+ ....#.......
+ ..###.......
+ ............
+ ............
+ ............
+ ............
+ ............
+ ............
+
+The complicated part is the next one. key is understanding ;.
+
+redditfmt"1 ": <"0 i. 5 5
+
+ ┌──┬──┬──┬──┬──┐
+ │0 │1 │2 │3 │4 │
+ ├──┼──┼──┼──┼──┤
+ │5 │6 │7 │8 │9 │
+ ├──┼──┼──┼──┼──┤
+ │10│11│12│13│14│
+ ├──┼──┼──┼──┼──┤
+ │15│16│17│18│19│
+ ├──┼──┼──┼──┼──┤
+ │20│21│22│23│24│
+ └──┴──┴──┴──┴──┘
+
+that's just a list of the first 25 numbers in a 5x5 matrix.
+
+redditfmt"1 ": (_3 _3 < ;._3 ])@(0,0,~0,.0,.~]) i.4 4
+
+ ┌───────┬────────┬────────┬───────┐
+ │5 4 0  │6 5 4   │7 6 5   │0 7 6  │
+ │1 0 0  │2 1 0   │3 2 1   │0 3 2  │
+ │0 0 0  │0 0 0   │0 0 0   │0 0 0  │
+ ├───────┼────────┼────────┼───────┤
+ │9 8 0  │10 9 8  │11 10 9 │0 11 10│
+ │5 4 0  │ 6 5 4  │ 7  6 5 │0  7  6│
+ │1 0 0  │ 2 1 0  │ 3  2 1 │0  3  2│
+ ├───────┼────────┼────────┼───────┤
+ │13 12 0│14 13 12│15 14 13│0 15 14│
+ │ 9  8 0│10  9  8│11 10  9│0 11 10│
+ │ 5  4 0│ 6  5  4│ 7  6  5│0  7  6│
+ ├───────┼────────┼────────┼───────┤
+ │ 0  0 0│ 0  0  0│ 0  0  0│0  0  0│
+ │13 12 0│14 13 12│15 14 13│0 15 14│
+ │ 9  8 0│10  9  8│11 10  9│0 11 10│
+ └───────┴────────┴────────┴───────┘
+
+by padding 0s around all the edges first, (_3 _3 < ;._3 ]) boxes cells in 3x3,
+such that the center cell corresponds in order to the numbers 0..15 in order of
+the 4x4 argument matrix. The 3x3 boxes include the neighbours for the center
+cell. They're not in order, but that doesn't matter for the life algorithm, and
+its easy to reverse the order.
+
+The life function instead of < as the argument to (_3 _3 < ;._3 ) has (+/ e.
+3+0,4&{)@, . To understand this:
+
+, is a bit similar to < except rather than boxing around the 3x3 cells, it
+flattens them into a list. Its not as visiually neat, but the important part is
+that for every argument cell a list is produced that contains that cell and its
+8 neighbours.
+@ composes
+lets change (+/ e. 3+0,4&{) to (+/ , 3+0,4&{) which is composed to the list.
+0,4&{ takes the middle item of the list (center cell) and appends it with 0
+3+ adds 3 to both 0 and the center cell, resulting in pair of 3 3 or 3 4
++/ , adds to that list the sum of all 1s in the 9 cell group
+
+redditfmt"1 (_3 _3 (+/ , 3+0,4&{)@, ;._3 ])@(0,0,~0,.0,.~]) ] 1 (2 2;3 3;4 1;4
+2;4 3) } 10 10 $ 0
+
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+
+ 0 3 3
+ 1 3 3
+ 1 3 3
+ 1 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+
+ 0 3 3
+ 1 3 3
+ 2 3 4
+ 2 3 3
+ 1 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+
+ 1 3 3
+ 3 3 3
+ 5 3 3
+ 4 3 4
+ 2 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+
+ 1 3 3
+ 2 3 4
+ 4 3 4
+ 3 3 4
+ 2 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+
+ 1 3 3
+ 2 3 3
+ 3 3 3
+ 2 3 3
+ 1 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+ 0 3 3
+
+that produced a 3 item list for each cell. This is because we replaced e. with
+,. What e. does is instead of appending the sum (left column) to the list, it
+returns 0 or 1 depending on whether the sum is an element of the other 2 column
+list. This is a single number per input cell, and so the result it the same
+shape as the input, and the new value for each cell.
+
+life^: 7 applies the life function 7 times.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Nodocify 1 point2 points3 points 3 years ago* (0 children)
+
+Here are my results with Python 3.4 Code:
+
+# [6/2/2014] Challenge #165 [Easy] ASCII Game of Life
+
+import numpy as np
+
+def count_neighbors(x, y):
+    n = np.array([(x-1, y), (x-1, y-1), (x, y-1), (x+1, y-1), (x+1, y), (x+1, y+1),  (x, y+1), (x-1, y+1)])
+    count = 0
+    for coord in n:
+        if board[coord[1] if coord[1] < Y else 0][coord[0] if coord[0] < X else 0] == '#':
+            count += 1
+    return count
+
+with open('input.txt', 'r') as f:
+    data = f.read().split('\n')
+data.pop()
+
+N, X, Y = [int(x) for x in data.pop(0).split()]
+board = np.array(data)
+
+for i in range(N):
+    next_gen = [['.' for i in range(X)] for j in range(Y)]
+    for row in range(len(board)):
+        for col in range(len(board[0])):
+            count = count_neighbors(col, row)
+            if board[row][col] == '.':
+                if count == 3:
+                    next_gen[row][col] = '#'
+                else:
+                    next_gen[row][col] = '.'
+            else:
+                if count < 2 or count > 3:
+                    next_gen[row][col] = '.'
+                else:
+                    next_gen[row][col] = '#'
+    board = np.array(next_gen)
+
+for line in board:
+    print(''.join(line))
+
+Output:
+
+.................
+.................
+....##.....##....
+.....##...##.....
+..#..#.#.#.#..#..
+..###.##.##.###..
+...#.#.#.#.#.#...
+....###...###....
+.................
+....###...###....
+...#.#.#.#.#.#...
+..###.##.##.###..
+..#..#.#.#.#..#..
+.....##...##.....
+....##.....##....
+.................
+.................
+
+This was fun, but I decided to take it a step further and actually create the
+gif for the entire life cycle. This is on ubuntu 14.04 with ImageMagick
+installed. Code:
+
+import numpy as np
+from PIL import Image
+import os
+
+def count_neighbors(x, y):
+    n = np.array([(x-1, y), (x-1, y-1), (x, y-1), (x+1, y-1), (x+1, y), (x+1, y+1),  (x, y+1), (x-1, y+1)])
+    count = 0
+    for coord in n:
+        if board[coord[1] if coord[1] < Y else 0][coord[0] if coord[0] < X else 0] == '#':
+            count += 1
+    return count
+
+def image_from_board(board):
+    x = len(board[0])
+    y = len(board)
+    im = Image.new("RGB", (x, y), "white")
+    pix = im.load()
+    for row in range(y):
+        for col in range(x):
+            if board[row][col] == '#':
+                pix[col, row] = (0, 0, 0)
+    return im.resize((x*2, y*2))
+
+with open('input.txt', 'r') as f:
+    data = f.read().split('\n')
+data.pop()
+
+N, X, Y = [int(x) for x in data.pop(0).split()]
+board = np.array(data)
+
+image_from_board(board).save('0000.bmp')
+
+for i in range(N):
+    next_gen = [['.' for i in range(X)] for j in range(Y)]
+    for row in range(len(board)):
+        for col in range(len(board[0])):
+            count = count_neighbors(col, row)
+            if board[row][col] == '.':
+                if count == 3:
+                    next_gen[row][col] = '#'
+                else:
+                    next_gen[row][col] = '.'
+            else:
+                if count < 2 or count > 3:
+                    next_gen[row][col] = '.'
+                else:
+                    next_gen[row][col] = '#'
+
+    image_from_board(next_gen).save('%04d.bmp' % (i+1))
+
+    board = np.array(next_gen)
+
+os.system('convert -delay 3 -loop 0 *.bmp animated.gif')
+os.system('rm *.bmp')
+
+And thanks to /u/badgers_uk for his glider gun input i was able to use the
+above code to create http://i.imgur.com/vVcgeOK.gif (with the life span changed
+to 250 so you can see the gliders impact ;p)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]oasisguy 1 point2 points3 points 3 years ago* (0 children)
+
+My try in Lua. I'm just getting to know the language, so I'd imagine this is
+not very elegant and/or efficient; your critique is welcome. [EDIT - minor
+changes.]
+
+function wrap(a, size)
+    if ( a < 1 ) then return size end
+    if ( a > size ) then return 1 end
+    return a
+end
+
+function deadOrAlive(table, x, y)
+    neighbourCount = 0
+    for i = -1, 1 do
+        iksz = wrap(x + i, table.sizex)
+        ipsz = wrap(y - 1, table.sizey)
+
+        if table[iksz][ipsz] ~= nil then
+            neighbourCount = neighbourCount + 1
+        end
+
+        ipsz = wrap(y + 1, table.sizey)
+
+        if table[iksz][ipsz] ~= nil then
+            neighbourCount = neighbourCount + 1
+        end
+
+        if table[iksz][y] ~= nil and i~= 0 then
+            neighbourCount = neighbourCount + 1
+        end
+    end
+
+    if ( neighbourCount == 3 ) then return 1 end
+
+    if ( table[x][y] ~= nil ) then
+        if ( neighbourCount < 2 ) then return nil end
+        if ( neighbourCount == 2 ) then return 1 end
+        if ( neighbourCount > 3 ) then return nil end
+    end
+end
+
+function prt(table)
+    for i = 1, table.sizey do
+        row = ""
+        for j = 1, table.sizex do
+            if ( table[j][i] ~= nil ) then char = "#"
+            else char = "." end
+            row = row .. char
+        end
+        print(row)
+    end
+end
+
+print("Mkay, so enter N, then X and Y.")
+steps, sizex, sizey = io.read("*number", "*number", "*number")
+
+io.read()
+
+map = {}
+buffer = {}
+
+for i = 1,sizex do
+    map[i] = {}
+    buffer[i] = {}
+end
+
+map.sizex = sizex
+map.sizey = sizey
+buffer.sizex = sizex
+buffer.sizey = sizey
+
+for i = 1,sizey do
+    row = io.read()
+    for j = 1,sizex do
+        if string.sub(row,j,j) == "#" then map[j][i]=1 end
+    end
+end
+
+for i = 1, steps do
+    print("Step ", i)
+    for a = 1,sizex do
+        for b = 1,sizey do
+            buffer[a][b]=deadOrAlive(map, a, b)
+        end
+    end
+
+    for a = 1, sizex do
+        for b = 1, sizey do
+            map[a][b]=buffer[a][b]
+            buffer[a][b]=nil
+        end
+    end
+    prt(map)
+
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 3 years ago (1 child)
+
+[deleted]
+
+[–]Elite68091 1[S] 1 point2 points3 points 3 years ago (0 children)
+
+Oops! Yes it is, sorry I missed that part of the challenge. Let me fix that!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]h3ckf1r3 0 points1 point2 points 3 years ago* (0 children)
+
+I ran into the silliest bug that took me a while to understand. I was updating
+the map as I went which gave different results, I just had to add a buffer and
+all was better. Wrote this in C.
+
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    FILE* fp = fopen("conway.in","r");
+    int x;
+    int y;
+    int n;
+    fscanf(fp,"%i",&n);
+    fscanf(fp,"%i",&x);
+    fscanf(fp,"%i",&y);
+    int map[y][x+1];
+    for(int row =0;row<y;row++)
+    {
+        char buff [x+1];
+        fgets(buff, x+2,fp);
+        for(char* c =buff;c<buff+x;c++)
+        {
+            map[row][c-buff] = (*c=='#');
+        }
+    }
+
+    int next[y][x+1];
+    for(int i =0;i<n;i++)
+    {
+        for(int row =0;row < y;row++)
+        {
+            for(int col=0;col<x;col++)
+            {
+                int neighbors = map[row][col]*-1;
+                for(int dr=(row==0?0:-1);dr<=(row==y?0:1);dr++)
+                    for(int dc=(col==0?0:-1);dc<=(col==x?0:1);dc++)
+                        neighbors+=map[row+dr][col+dc];
+                next[row][col] = ((map[row][col]==1&&neighbors==2)||neighbors==3);
+            }
+        }
+        for(int j = 0; j<10; j++)
+        {
+                memcpy(&map[j], &next[j], sizeof(next[0]));
+        }
+
+    }
+
+    for(int row = 0;row<y;row++)
+    {
+        for(int col=0;col<x;col++)
+            printf("%c",map[row][col]?'#':'.');
+        puts("");
+    }
+
+    return 0;
+}
+
+EDIT: I actually forgot to mention this, but I had recently written a game of
+life program using curses. I feel rather silly because writing this made me
+discover some bugs in that supposedly finished product. Feel free to check it
+out :). https://github.com/h3ckboy/GameOfLife
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]chrisnails 0 points1 point2 points 3 years ago (0 children)
+
+powershell; second time ever
+
+since powershell is a bit tricky in regards to multi-dimensional-arrays i
+thought i'll be clever and use an array of strings...
+
+well, turns out, i was not very clever, but stuck to it as punishment :)
+
+function Print-Matrix($matrix)
+{
+    foreach($line in $matrix)
+    {
+        write-host $line
+    }
+}
+
+
+
+function Game-of-Life()
+{
+
+    #READ THE INPUT
+    $input = get-Content ./Documents/input.txt
+    $input = $input -split(" ")
+    $iterations = $input[0]
+    $width = $input[1]
+    $height = $input[2]
+
+    $matrix = @()
+
+    for($i=0;$i -lt $height;$i++)
+    {
+        $matrix +=$input[($i+3)]
+     }
+
+    #MAIN LOOP
+
+
+    for($iter=0;$iter -lt $iterations;$iter++)
+    {
+
+        $new_matrix = @($matrix)
+
+        for($x=0;$x -le $width-1;$x++)
+        {
+            for($y = 0;$y -le $height-1;$y++)
+            {
+                $count = 0;
+                $neighbors = (($x-1),($y-1)),(($x),($y-1)),(($x+1),($y-1)),(($x-1),($y)),(($x+1),($y)),(($x-1),($y+1)),(($x),($y+1)),(($x+1),($y+1))
+                foreach($neighbor in $neighbors)
+                {
+
+                    if($neighbor[0] -eq -1)
+                    {
+
+                        $check_x = ($width-1)
+
+                    }
+                    else
+                    {
+                        if($neighbor[0] -eq ($width))
+                        {
+                            $check_x = 0
+                        }
+                        else
+                        {
+                            $check_x = $neighbor[0];
+                        }
+                    }
+                    if($neighbor[1] -eq -1)
+                    {
+                        $check_y = ($height-1)
+                    }
+                    else
+                    {
+                        if($neighbor[1] -eq ($height))
+                        {
+
+                            $check_y = 0
+                        }
+                        else
+                        {
+                            $check_y = $neighbor[1];
+                        }
+                    }
+
+
+                    if($matrix[$check_x][$check_y] -eq "#")
+                    {
+                        $count++
+                    }
+
+                }
+
+                if($matrix[$x][$y] -eq "." -and $count -eq 3)
+                {
+                    $new_string = $new_matrix[$x].Substring(0,$y)
+                    $new_string +="#"
+                    $new_string += $new_matrix[$x].Substring(($y+1),($width-$y-1))
+                    $new_matrix[$x] = $new_string
+                }
+                if($matrix[$x][$y] -eq "#" -and $count -lt 2)
+                {
+                    $new_string = $new_matrix[$x].Substring(0,$y)
+                    $new_string +="."
+                    $new_string += $new_matrix[$x].Substring(($y+1),($width-$y-1))
+                    $new_matrix[$x] = $new_string
+                }
+                if($matrix[$x][$y] -eq "#" -and $count -gt 3)
+                {
+                    $new_string = $new_matrix[$x].Substring(0,$y)
+                    $new_string +="."
+                    $new_string += $new_matrix[$x].Substring(($y+1),($width-$y-1))
+                    $new_matrix[$x] = $new_string
+                }
+             }
+        }
+        $matrix = @($new_matrix)
+        cls
+        write-host "iteration" ($iter+1)
+        Print-Matrix $matrix
+        Start-Sleep -s 1
+    }
+
+}
+
+Game-Of-Life
+
+Output
+
+..........
+..........
+..........
+..........
+...#......
+....##....
+...##.....
+..........
+..........
+..........
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ooesili 0 points1 point2 points 3 years ago (0 children)
+
+Here is my ncurses-based C solution. It plays the game at 10 moves per second.
+
+#include <stdio.h>
+#include <curses.h>
+#include <locale.h>
+#include <unistd.h>
+#include <err.h>
+#include <stdlib.h>
+
+typedef struct {
+    int n;
+    int x;
+    int y;
+    char **grid;
+} grid_t;
+
+void draw(grid_t *grid) {
+    int i;
+    for (i = 0; i < grid->y; i++) {
+        mvaddstr(i, 0, grid->grid[i]);
+    }
+    refresh();
+    return;
+}
+
+void step(grid_t *grid) {
+    char **next_grid;
+    int i, j;
+    /* allocate and new grid */
+    next_grid = calloc(grid->y, sizeof(char*));
+    /* iterate through all cells*/
+    for (i = 0; i < grid->y; i++) {
+        next_grid[i] = calloc(grid->x + 1, sizeof(char));
+        for (j = 0; j < grid->x; j++) {
+            int sum = 0, nx, ny;
+            /* find living neighbors */
+            for (ny = -1; ny <= 1; ny++) {
+                for (nx = -1; nx <= 1; nx++) {
+                    if (grid->grid[(i + ny + grid->y) % grid->y]
+                                  [(j + nx + grid->x) % grid->x]
+                                  == '#' && !(nx == 0 && ny == 0))
+                        sum += 1;
+                }
+            }
+            /* apply rules */
+            if ((grid->grid[i][j] == '.' && sum == 3) ||
+                    (grid->grid[i][j] == '#' && (sum == 2 || sum == 3)))
+                next_grid[i][j] = '#';
+            else
+                next_grid[i][j] = '.';
+        }
+    }
+    /* copy next grid to exiting one, and free next grid */
+    for (i = 0; i < grid->y; i++) {
+        for (j = 0; j < grid->x; j++) {
+            grid->grid[i][j] = next_grid[i][j];
+        }
+        free(next_grid[i]);
+    }
+    free(next_grid);
+}
+
+int main(int argc, const char *argv[])
+{
+    int i;
+    grid_t grid;
+    FILE *fh;
+    /* check for file argument */
+    if (argc != 2) { errx(1, "requires one argument"); }
+    fh = fopen(argv[1], "r");
+    if (fh == NULL) { err(3, "error opening file"); }
+    /* initialize curses */
+    setlocale(LC_ALL, "");
+    initscr(); cbreak(); noecho(); curs_set(0);
+    /* parse input */
+    fscanf(fh, "%d %d %d\n", &grid.n, &grid.x, &grid.y);
+    if (grid.x > COLS || grid.y > LINES) {
+        endwin();
+        errx(2, "terminal window too small");
+    }
+    /* allocate grid and fill from file */
+    grid.grid = calloc(grid.y, sizeof(char*));
+    for (i = 0; i < grid.y; i++) {
+        grid.grid[i] = calloc(grid.x + 1, sizeof(char));
+        fgets(grid.grid[i], grid.x + 1, fh);
+        fgetc(fh); /* read newline */
+    }
+    /* run simulation */
+    draw(&grid);
+    for (i = 0; i < grid.n; i++) {
+        usleep(100000);
+        step(&grid);
+        draw(&grid);
+    }
+    /* free grid */
+    for (i = 0; i < grid.y; i++) { free(grid.grid[i]); }
+    free(grid.grid);
+    /* clean up */
+    endwin();
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]0x746d616e 0 points1 point2 points 3 years ago (0 children)
+
+Go :)
+
+package main
+
+import (
+    "bytes"
+    "fmt"
+)
+
+type Grid [][]bool
+
+func NewGrid(x, y int) Grid {
+    grid := make(Grid, y)
+    for i := range grid {
+        grid[i] = make([]bool, x)
+    }
+    return grid
+}
+
+func (grid Grid) Next() {
+    // Copy current state
+    buf := make(Grid, len(grid))
+    for i, row := range grid {
+        buf[i] = make([]bool, len(row))
+        copy(buf[i], row)
+    }
+    for i := range grid {
+        for j := range grid[i] {
+            // Get neighbor count from buffered state
+            n := buf.Neighbors(i, j)
+            if grid[i][j] {
+                grid[i][j] = (n == 2 || n == 3)
+            } else {
+                grid[i][j] = (n == 3)
+            }
+        }
+    }
+}
+
+func (grid Grid) Neighbors(i, j int) (n int) {
+    dirs := [8][2]int{
+        {0, -1},  // N
+        {1, -1},  // NE
+        {1, 0},   // E
+        {1, 1},   // SE
+        {0, 1},   // S
+        {-1, 1},  // SW
+        {-1, 0},  // W
+        {-1, -1}, // NW
+    }
+    y, x := len(grid), len(grid[i])
+    for _, dir := range dirs {
+        ii, jj := i+dir[1], j+dir[0]
+        if ii < 0 {
+            ii = y - 1
+        }
+        if jj < 0 {
+            jj = x - 1
+        }
+        if grid[ii%y][jj%x] {
+            n++
+        }
+    }
+    return
+}
+
+func (g Grid) String() string {
+    b := new(bytes.Buffer)
+    for i := range g {
+        for j := range g[i] {
+            if g[i][j] {
+                b.WriteByte('#')
+            } else {
+                b.WriteByte('.')
+            }
+        }
+        b.WriteByte('\n')
+    }
+    return b.String()
+}
+
+func main() {
+    var n, x, y int
+    fmt.Scanln(&n, &x, &y)
+    grid := NewGrid(x, y)
+
+    for i := 0; i < y; i++ {
+        for j := 0; j < x; j++ {
+            var c byte
+            fmt.Scanf("%c", &c)
+            grid[i][j] = (c == '#')
+        }
+        fmt.Scanln()
+    }
+
+    for i := 0; i < n; i++ {
+        grid.Next()
+    }
+
+    fmt.Print(grid)
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]YouAreNotASlave 0 points1 point2 points 3 years ago (0 children)
+
+In python 3.4...
+
+CODE
+
+import io
+import sys
+
+def iterate_map(_input_map):
+    _return_map = []
+    for y, row in enumerate(_input_map):
+        _return_map.append([])
+        for x, element in enumerate(row):
+            xp1 = x + 1 if (x + 1) != len(row) else 0
+            yp1 = y + 1 if (y + 1) != len(_input_map) else 0
+            new_element = iterate_element(_input_map[y-1][x-1],_input_map[y-1][x],_input_map[y-1][xp1],
+                                          _input_map[y][x-1],element,_input_map[y][xp1],
+                                          _input_map[yp1][x-1],_input_map[yp1][x],_input_map[yp1][xp1])
+            _return_map[y].append(new_element)
+    return _return_map
+
+def iterate_element(nw, n, ne,
+                    w, element, e,
+                    sw, s, se):
+    off_count = [nw,n,ne,w,e,sw,s,se].count('.')
+    on_count = 8 - off_count
+    if element == '.' and on_count == 3:
+        return '#'
+    if element == '#' and (on_count < 2 or on_count > 3):
+        return '.'
+    return element
+
+if __name__ == "__main__":
+    sys.stdin = io.StringIO("""32 17 17
+.................
+.................
+....###...###....
+.................
+..#....#.#....#..
+..#....#.#....#..
+..#....#.#....#..
+....###...###....
+.................
+....###...###....
+..#....#.#....#..
+..#....#.#....#..
+..#....#.#....#..
+.................
+....###...###....
+.................
+.................""")
+
+    N, X, Y = [int(i) for i in sys.stdin.readline().strip().split(" ")]
+    input_map = []
+    for y in range(0,Y):
+        input_map.append([])
+        line = sys.stdin.readline().strip()
+        for element in line:
+            input_map[y].append(element)
+
+    for i in range(0,N):
+        input_map = iterate_map(input_map)
+
+    for row in input_map:
+        print(''.join(row))
+
+INPUT
+
+32 17 17
+.................
+.................
+....###...###....
+.................
+..#....#.#....#..
+..#....#.#....#..
+..#....#.#....#..
+....###...###....
+.................
+....###...###....
+..#....#.#....#..
+..#....#.#....#..
+..#....#.#....#..
+.................
+....###...###....
+.................
+.................
+
+OUTPUT
+
+.................
+.................
+....##.....##....
+.....##...##.....
+..#..#.#.#.#..#..
+..###.##.##.###..
+...#.#.#.#.#.#...
+....###...###....
+.................
+....###...###....
+...#.#.#.#.#.#...
+..###.##.##.###..
+..#..#.#.#.#..#..
+.....##...##.....
+....##.....##....
+.................
+.................
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ddsnowboard 0 points1 point2 points 3 years ago (0 children)
+
+Here's my hack at Ruby. It could be greatly improved, and if anyone could give
+me some advise as to how to make it less repetitious, that would be greatly
+appreciated. It's quite lengthy, as you can see.
+
+#Make it so it prints output to file instead of to console.
+def gameOfLife(arr, width, height)
+    out = []
+    height.times { out.push([]) }
+    arr.each_index do |y|
+        arr[y].each_index do |x|
+            neighbors = 0
+            if x==(width-1)
+                if y==(height-1)
+                    neighbors += 1 if arr[0][x]=="#"
+                    neighbors += 1 if arr[y-1][x]=="#"
+                    neighbors += 1 if arr[y][0]=="#"
+                    neighbors += 1 if arr[y][x-1]=="#"
+                    neighbors += 1 if arr[0][0]=="#"
+                    neighbors += 1 if arr[0][x-1]=="#"
+                    neighbors += 1 if arr[y-1][0]=="#"
+                    neighbors += 1 if arr[y-1][x-1]=="#"
+                elsif y==0
+                    neighbors += 1 if arr[y+1][x]=="#"
+                    neighbors += 1 if arr[-1][x]=="#"
+                    neighbors += 1 if arr[y][0]=="#"
+                    neighbors += 1 if arr[y][x-1]=="#"
+                    neighbors += 1 if arr[y+1][0]=="#"
+                    neighbors += 1 if arr[y+1][x-1]=="#"
+                    neighbors += 1 if arr[-1][0]=="#"
+                    neighbors += 1 if arr[-1][x-1]=="#"
+                else
+                    neighbors += 1 if arr[y+1][x]=="#"
+                    neighbors += 1 if arr[y-1][x]=="#"
+                    neighbors += 1 if arr[y][0]=="#"
+                    neighbors += 1 if arr[y][x-1]=="#"
+                    neighbors += 1 if arr[y+1][0]=="#"
+                    neighbors += 1 if arr[y+1][x-1]=="#"
+                    neighbors += 1 if arr[y-1][0]=="#"
+                    neighbors += 1 if arr[y-1][x-1]=="#"
+                end
+            elsif x==0
+                if y==(height-1)
+                    neighbors += 1 if arr[0][x]=="#"
+                    neighbors += 1 if arr[y-1][x]=="#"
+                    neighbors += 1 if arr[y][x+1]=="#"
+                    neighbors += 1 if arr[y][-1]=="#"
+                    neighbors += 1 if arr[0][x+1]=="#"
+                    neighbors += 1 if arr[0][-1]=="#"
+                    neighbors += 1 if arr[y-1][x+1]=="#"
+                    neighbors += 1 if arr[y-1][-1]=="#"
+                elsif y==0
+                    neighbors += 1 if arr[y+1][x]=="#"
+                    neighbors += 1 if arr[-1][x]=="#"
+                    neighbors += 1 if arr[y][x+1]=="#"
+                    neighbors += 1 if arr[y][-1]=="#"
+                    neighbors += 1 if arr[y+1][x+1]=="#"
+                    neighbors += 1 if arr[y+1][-1]=="#"
+                    neighbors += 1 if arr[-1][x+1]=="#"
+                    neighbors += 1 if arr[-1][-1]=="#"
+                else
+                    neighbors += 1 if arr[y+1][x]=="#"
+                    neighbors += 1 if arr[y-1][x]=="#"
+                    neighbors += 1 if arr[y][x+1]=="#"
+                    neighbors += 1 if arr[y][-1]=="#"
+                    neighbors += 1 if arr[y+1][x+1]=="#"
+                    neighbors += 1 if arr[y+1][-1]=="#"
+                    neighbors += 1 if arr[y-1][x+1]=="#"
+                    neighbors += 1 if arr[y-1][-1]=="#"
+                end
+            else
+                if y==(height-1)
+                    neighbors += 1 if arr[0][x]=="#"
+                    neighbors += 1 if arr[y-1][x]=="#"
+                    neighbors += 1 if arr[y][x+1]=="#"
+                    neighbors += 1 if arr[y][x-1]=="#"
+                    neighbors += 1 if arr[0][x+1]=="#"
+                    neighbors += 1 if arr[0][x-1]=="#"
+                    neighbors += 1 if arr[y-1][x+1]=="#"
+                    neighbors += 1 if arr[y-1][x-1]=="#"
+                elsif y==0
+                    neighbors += 1 if arr[y+1][x]=="#"
+                    neighbors += 1 if arr[-1][x]=="#"
+                    neighbors += 1 if arr[y][x+1]=="#"
+                    neighbors += 1 if arr[y][x-1]=="#"
+                    neighbors += 1 if arr[y+1][x+1]=="#"
+                    neighbors += 1 if arr[y+1][x-1]=="#"
+                    neighbors += 1 if arr[-1][x+1]=="#"
+                    neighbors += 1 if arr[-1][x-1]=="#"
+                else
+                    neighbors += 1 if arr[y+1][x]=="#"
+                    neighbors += 1 if arr[y-1][x]=="#"
+                    neighbors += 1 if arr[y][x+1]=="#"
+                    neighbors += 1 if arr[y][x-1]=="#"
+                    neighbors += 1 if arr[y+1][x+1]=="#"
+                    neighbors += 1 if arr[y+1][x-1]=="#"
+                    neighbors += 1 if arr[y-1][x+1]=="#"
+                    neighbors += 1 if arr[y-1][x-1]=="#"
+                end
+            end
+            if neighbors<2
+                out[y][x]="."
+            elsif neighbors==3
+                out[y][x]="#"
+            elsif neighbors>3
+                out[y][x]="."
+            else
+                out[y][x] = arr[y][x]
+            end
+        end
+    end
+    return out
+end
+def printOutput(arr)
+    file = File.new("output.txt", "w")
+    arr.each do |y|
+        y.each do |x|
+            file.syswrite(x)
+        end
+        file.syswrite("\n")
+    end
+end
+input = IO.readlines("input.txt")
+one = input[0].split(" ")
+n = one[0].to_i
+x = one[1].to_i
+y = one[2].to_i
+input.each_index do |i|
+    input[i]=input[i].split("")
+end
+input.each {|x| x.delete("\n") }
+input.delete_at(0)
+(n).to_i.times do
+        input = gameOfLife(input, x, y)
+end
+printOutput(input)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]RednBIack 0 points1 point2 points 3 years ago (0 children)
+
+Written in C. I just started learning C. After a million seg faults and gawking
+at strange, unexpected behaviour I finally managed to get it to work. I'm
+already starting to hate pointers. Any feedback is appreciated.
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+int is_alive(char *grid[], int line, int column, int num_cols, int num_lines, int alive)
+{
+    int num_alive = 0;
+    int tmp_line, tmp_column;
+
+    //8 surrounding      ul  uc  ur  lc  rc  bl  bc  br (eg, bottom center)
+    int line_pos[]   = {-1, -1, -1,  0,  0,  1,  1,  1};
+    int column_pos[] = {-1,  0,  1, -1,  1, -1,  0,  1};
+
+    for (int i = 0; i < 8; i++) {
+        tmp_line = line + line_pos[i];
+        tmp_column = column + column_pos[i];
+
+        tmp_line = (tmp_line < 0 ? num_lines - 1 : tmp_line);
+        tmp_line = (tmp_line >= num_lines ? 0 : tmp_line);
+        tmp_column = (tmp_column < 0 ? num_cols - 1 : tmp_column);
+        tmp_column = (tmp_column >= num_cols ? 0 : tmp_column);
+
+        if (grid[tmp_line][tmp_column] == '#') {
+            num_alive++;
+        }
+    }
+    if (num_alive == 3) {
+        alive = 1;
+    } else if (num_alive > 3) {
+        alive = 0;
+    } else if (num_alive < 2) {
+        alive = 0;
+    }
+    return alive;
+}
+
+void iterate(char *grid[], int num_cols, int num_lines)
+{
+    char new_grid[num_lines][num_cols + 1];
+    int alive;
+
+    for (int line = 0; line < num_lines; line++) {
+        for (int column = 0; column < num_cols; column++) {
+            if (grid[line][column] == '#') {
+                alive = 1;
+            } else {
+                alive = 0;
+            }
+            if (is_alive(grid, line, column,
+                            num_cols, num_lines, alive)) {
+                new_grid[line][column] = '#';
+            } else {
+                new_grid[line][column] = '.';
+            }
+        }
+    }
+    for (int i = 0; i < num_lines; i++) {
+        for (int n = 0; n < num_cols; n++) {
+            grid[i][n] = new_grid[i][n];
+        }
+    }
+}
+
+void print_grid(char *grid[], int num_lines)
+{
+    for (int i = 0; i < num_lines; i++) {
+        printf("%s\n", grid[i]);
+    }
+}
+
+void play(int iterations, int num_cols, int num_lines)
+{
+    char *grid[num_lines];
+
+    for (int i = 0; i < num_lines; i++) {
+        grid[i] = malloc(num_cols + 1);
+        printf("Index %d: ", i);
+        if (getchar() != '\n') {
+            fgets(grid[i], num_cols + 1, stdin);
+        } else {
+            fgets(grid[i], num_cols + 1, stdin);
+        }
+        //strcpy(grid[i], input);
+        grid[i][num_cols] = '\0';
+    }
+    for (int i = 0; i < iterations; i++) {
+        iterate(grid, num_cols, num_lines);
+    }
+    print_grid(grid, num_lines);
+    for (int i = 0; i < num_lines; i++) {
+        free(grid[i]);
+    }
+}
+
+int main()
+{
+    int iterations, num_cols, num_lines;
+    printf("Type in N, X and Y\n");
+    scanf("%d %d %d", &iterations, &num_cols, &num_lines);
+    printf("Type in the grid\n");
+    play(iterations, num_cols, num_lines);
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]TheSageMage 0 points1 point2 points 3 years ago* (0 children)
+
+Ruby! I hear people talk all day about Ruby, meanwhile I'm just over here doing
+Java. Thought I'd give it a spin. I was able to override the array indices
+function so I could do the wrap around of the array without a bunch of mod
+code.
+
+Reads from the first argument provided.
+
+class ArrayWrap < Array
+        def []( index )
+                super(index % length)
+        end
+end
+
+def inspectNeighbors(h,w,map)
+        count = 0
+        count += map[h-1][w] == '#' ? 1 : 0
+        count += map[h-1][w+1] == '#' ? 1 : 0
+        count += map[h-1][w-1] == '#' ? 1 : 0
+        count += map[h+1][w] == '#' ? 1 : 0
+        count += map[h+1][w+1] == '#' ? 1 : 0
+        count += map[h+1][w-1] == '#' ? 1 : 0
+        count += map[h][w+1] == '#' ? 1 : 0
+        count += map[h][w-1] == '#' ? 1 : 0
+        if (map[h][w] == '#')
+                if (count == 2 or count == 3)
+                        return '#'
+                end
+        elsif (count == 3)
+                return '#'
+        end
+
+        return '.'
+end
+
+def printMap(map)
+        map.length.times do |h|
+                map[h].length.times do |w|
+                        print map[h][w]
+                end
+                puts
+        end
+end
+
+inputFile = File.open(ARGV[0], "r")
+parametersLine = inputFile.readline
+parameters = parametersLine.split
+
+iterations, width, height = parameters[0].to_i, parameters[1].to_i, parameters[2].to_i
+
+initialMap = ArrayWrap.new(height)
+
+height.times do |level|
+        mapRow = inputFile.readline.strip
+        initialMap[level] = ArrayWrap.new(mapRow.split('', width))
+end
+
+iterations.times do |iteration|
+        bufferMap = ArrayWrap.new(height)
+        height.times do |h|
+                bufferMap[h] = ArrayWrap.new(width)
+                width.times do |w|
+                        bufferMap[h][w] = inspectNeighbors(h,w,initialMap)
+                end
+        end
+        initialMap = bufferMap
+end
+
+printMap(initialMap)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]chaitan94 0 points1 point2 points 3 years ago* (0 children)
+
+Python 2.7. I've also recently implemented Conway's game of life recently in
+python, C++, java and in HTML5 just for fun! https://github.com/chaitan94/
+conways-game-of-life/ Though in my version map doesn't wrap around.
+
+i = raw_input().split()
+n = int(i[0])
+x = int(i[1])
+y = int(i[2])
+
+grid = []
+for i in xrange(y):
+    grid.append(map(lambda x: x=='#', list(raw_input())))
+
+def getCell(grid, x, y):
+    if x == -1: x = len(grid) - 1
+    elif x >= len(grid): x = 0
+    if y == -1: y = len(grid[0]) - 1
+    elif y >= len(grid[0]): y = 0
+    return grid[x][y]
+
+def gameOfLife(grid):
+    result = []
+    for i in xrange(len(grid)):
+        row = []
+        for j in xrange(len(grid[i])):
+            neighCount = 0
+            neighs = [(-1, -1), (0, -1), (1, -1), (-1, 1), (0, 1), (1, 1), (-1, 0), (1, 0)]
+            for neigh in neighs:
+                if getCell(grid, i+neigh[0], j+neigh[1]):
+                    neighCount += 1
+            currentCell = getCell(grid, i, j)
+            updatedCell = currentCell
+            if neighCount > 3:
+                updatedCell = False # Overcrowding
+            elif not currentCell and neighCount == 3:
+                updatedCell = True # Reproduction
+            elif currentCell and neighCount < 2:
+                updatedCell = False # Lonliness
+            row.append(updatedCell)
+        result.append(row)
+    return result
+
+def printGrid(grid):
+    s = ''
+    for i in grid:
+        for j in i:
+            if j: s += '#'
+            else: s += '.'
+        s += '\n'
+    print s
+
+for i in xrange(n):
+    grid = gameOfLife(grid)
+printGrid(grid)
+
+Challenge Output:
+
+.................
+.................
+....##.....##....
+.....##...##.....
+..#..#.#.#.#..#..
+..###.##.##.###..
+...#.#.#.#.#.#...
+....###...###....
+.................
+....###...###....
+...#.#.#.#.#.#...
+..###.##.##.###..
+..#..#.#.#.#..#..
+.....##...##.....
+....##.....##....
+.................
+.................
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]TheSageMage 0 points1 point2 points 3 years ago* (0 children)
+
+When I first read this problem, if you got to a large enough scale this sounds
+ideal for a BSP system, something like Pregel.
+
+Any one else see this or am I crazy?
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]fvandepitte0 0 0 points1 point2 points 3 years ago* (0 children)
+
+In C# Input works with textfile
+
+    32 17 17 input.txt
+
+Propably not the best way, if there are sugestions, let me know.
+
+Code:
+
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Threading;
+
+namespace ConsoleApplication4
+{
+    internal class Program
+    {
+        private static void Main(string[] args)
+        {
+            //Init
+            int n = int.Parse(args[0]);
+            int x = int.Parse(args[1]);
+            int y = int.Parse(args[2]);
+            string content = File.ReadAllText(args[3]).Replace(Environment.NewLine, string.Empty);
+
+            bool[,] field = new bool[y, x];
+            int i = 0;
+
+            for (int dy = 0; dy < y; dy++)
+            {
+                for (int dx = 0; dx < x; dx++)
+                {
+                    field[dy, dx] = content[i] == '#';
+                    i++;
+                }
+            }
+
+            PrintField(field);
+
+            //Program
+            for (int j = 0; j < n; j++)
+            {
+                bool[,] backupfield = field.Clone() as bool[,];
+                for (int dy = 0; dy < y; dy++)
+                {
+                    for (int dx = 0; dx < x; dx++)
+                    {
+                        List<bool> neighbours = new List<bool>();
+
+                        int left = dx > 0 ? dx - 1 : x - 1;
+                        int right = dx < x - 1 ? dx + 1 : 0;
+                        int up = dy > 0 ? dy - 1 : y - 1;
+                        int down = dy < y - 1 ? dy + 1 : 0;
+
+                        neighbours.Add(backupfield[up, left]);
+                        neighbours.Add(backupfield[up, dx]);
+                        neighbours.Add(backupfield[up, right]);
+                        neighbours.Add(backupfield[dy, left]);
+                        neighbours.Add(backupfield[dy, right]);
+                        neighbours.Add(backupfield[down, left]);
+                        neighbours.Add(backupfield[down, dx]);
+                        neighbours.Add(backupfield[down, right]);
+
+                        int count = neighbours.Count(b => b);
+                        if (backupfield[dy, dx])
+                        {
+                            field[dy, dx] = 2 <= count && count <= 3;
+                        }
+                        else
+                        {
+                            field[dy, dx] = count == 3;
+                        }
+                    }
+                }
+
+                PrintField(field);
+            }
+
+            Console.ReadKey();
+        }
+
+        private static void PrintField(bool[,] field)
+        {
+            Console.SetCursorPosition(0, 0);
+            for (int i = 0; i < field.GetLength(0); i++)
+            {
+                for (int j = 0; j < field.GetLength(1); j++)
+                {
+                    Console.Write(field[i, j] ? '#' : '.');
+                    Thread.Sleep(5);
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]spfy 0 points1 point2 points 3 years ago* (2 children)
+
+I'm trying this in Python 3.4.1. I won't post my whole code because it doesn't
+work. I'm wondering if anyone can see what's wrong with my thinking here. The
+reference list is a copy of the original grid. For some reason, when I try the
+sample inputs, my creatures all end up dead every time. Surely the problem lies
+in how I decide whether they should die or not?
+
+***snipped away to save space after /u/Frigguggi helped me***
+            if state == '.' and count == 3:
+                    grid[i][k] = '#'
+            elif state == '#' and count <= 2 or count > 3:
+                    grid[i][k] = '.'
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Frigguggi0 1 0 points1 point2 points 3 years ago* (1 child)
+
+    elif state == '#' and count <= 2 or count > 3:
+        grid[i][k] = '.'
+
+I think this is wrong. If a cell is initially alive and has two neighbors it
+should remain alive. Try changing <= to just <.
+
+Also, I'm not really familiar with Python syntax, but it may be that the "and"
+and "or" in the elif line are causing problems... does Python allow you to
+group them, something like:
+
+    elif state == '#' and (count < 2 or count > 3):
+
+Although in this case I don't think it would make a difference, since any cell
+with three or more neighbors should end up dead, regardless of its initial
+state, which is the result of:
+
+    elif (state == '#' and count < 2) or count > 3:
+        grid[i][k] = '.'
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]spfy 0 points1 point2 points 3 years ago (0 children)
+
+Ah! You saved me. Turns out it should be count < 2, not <= 2. I misread the
+challenge. Now I can finally finish it; thanks a bunch!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]xynta 0 points1 point2 points 3 years ago* (0 children)
+
+My first solution. Feel free to comment. Java
+
+import java.util.Scanner;
+
+class GameOfLife2 {
+    static int X;
+    static int Y;
+    static int N;
+    public static char[][] current;
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        N = scan.nextInt();
+        X = scan.nextInt();
+        Y = scan.nextInt();
+
+        current = new char[X * 2][Y * 2];
+
+        char[][] newArray = new char[X][Y];
+
+        for (int i = 0; i < X * 2; i++) {
+            if (i < X) {
+                String line = scan.next();
+                line = line + line;
+                current[i] = line.toCharArray();
+            } else {
+                current[i] = current[i - X];
+            }
+        }
+        scan.close();
+        for (int k = 0; k < N; k++) {
+            for (int i = 0; i < X; i++) {
+                for (int j = 0; j < Y; j++) {
+                    newArray[i][j] = GameOfLife2.calc(i, j);
+                }
+            }
+
+            for (int i = 0; i < X * 2; i++) {
+                if (i < X) {
+                    current[i] = (new String(newArray[i]) + new String(
+                            newArray[i])).toCharArray();
+                } else {
+                    current[i] = (new String(newArray[i - X]) + new String(
+                            newArray[i - X])).toCharArray();
+                }
+
+            }
+        }
+
+        for (int i = 0; i < X; i++) {
+            for (int j = 0; j < Y; j++) {
+                System.out.print(current[i][j]);
+            }
+            System.out.println();
+        }
+
+    }
+
+    public static char calc(int x, int y) {
+        int value = 0;
+        if (x == 0 && y == 0) {
+            value = scanArea(X, Y);
+        } else {
+            if (x == 0) {
+                value = scanArea(X, y);
+            } else {
+                if (y == 0) {
+                    value = scanArea(x, Y);
+                } else {
+                    value = scanArea(x, y);
+                }
+            }
+        }
+        if (current[x][y] == '.' && value == 3) {
+            return '#';
+        }
+        if (current[x][y] == '#' && (value < 2 || value > 3)) {
+            return '.';
+        }
+        return current[x][y];
+    }
+
+    public static int scanArea(int x, int y) {
+        char oct = '#';
+        int value = 0;
+        if (current[x - 1][y - 1] == oct) {
+            value++;
+        }
+        if (current[x - 1][y] == oct) {
+            value++;
+        }
+        if (current[x - 1][y + 1] == oct) {
+            value++;
+        }
+        if (current[x][y - 1] == oct) {
+            value++;
+        }
+        if (current[x][y + 1] == oct) {
+            value++;
+        }
+        if (current[x + 1][y - 1] == oct) {
+            value++;
+        }
+        if (current[x + 1][y] == oct) {
+            value++;
+        }
+        if (current[x + 1][y + 1] == oct) {
+            value++;
+        }
+        return value;
+    }
+}
+
+Output:
+
+.................
+.................
+....##.....##....
+.....##...##.....
+..#..#.#.#.#..#..
+..###.##.##.###..
+...#.#.#.#.#.#...
+....###...###....
+.................
+....###...###....
+...#.#.#.#.#.#...
+..###.##.##.###..
+..#..#.#.#.#..#..
+.....##...##.....
+....##.....##....
+.................
+.................
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Dongface 0 points1 point2 points 3 years ago (0 children)
+
+A solution in Java. Comments and criticisms welcome.
+
+Code:
+
+class GameOfLife {
+
+    /**
+     * Input model object
+     */
+    static class GameInput {
+        int n;
+        int x;
+        int y;
+        char[][] grid;
+    }
+
+    public static void main(String[] args) {
+
+        GameInput input = readInputFromFile();
+
+        char[][] output = runGameOfLife(input);
+
+        printOutput(output);
+
+    }
+
+    /**
+     * Reads the Game of Life input from a file and returns the input parameters as a GameInput object
+     *
+     * @return the input parameters as an object
+     */
+    private static GameInput readInputFromFile() {
+
+        GameInput input = new GameInput();
+
+        try (FileReader fr = new FileReader("src/gol/challengeInput.txt")) {
+            BufferedReader br = new BufferedReader(fr);
+            String line = br.readLine();
+            String[] nxy = line.split(" ");
+            input.n = Integer.parseInt(nxy[0]);
+            input.x = Integer.parseInt(nxy[1]);
+            input.y = Integer.parseInt(nxy[2]);
+            input.grid = new char[input.x][input.y];
+
+            for (int i = 0; i < input.x; i++) {
+                line = br.readLine();
+                for (int j = 0; j < input.y; j++) {
+                    input.grid[i][j] = line.charAt(j);
+                }
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return input;
+    }
+
+    /**
+     * Run Game of Life simulation on the input
+     *
+     * @param input - the grid and parameters on which to run the simulation
+     * @return the grid that results from running the simulation on the input grid
+     */
+    private static char[][] runGameOfLife(GameInput input) {
+
+        char[][] output = Arrays.copyOf(input.grid, input.grid.length);
+
+        for (int i = 0; i < input.n; i++) {
+            output = doIteration(output);
+        }
+        return output;
+    }
+
+    /**
+     * Performs a single step in the Game of Life simulation
+     *
+     * @param currentState - the array represented the current state of the grid
+     * @return the updated grid after performing a single interation of the simulation
+     */
+    private static char[][] doIteration(char[][] currentState) {
+        char[][] workspace = new char[currentState.length][currentState[0].length];
+        for (int i = 0; i < currentState.length; i++) {
+            for (int j = 0; j < currentState[i].length; j++) {
+                workspace[i][j] = testCell(currentState, i, j);
+            }
+        }
+        return workspace;
+    }
+
+    /**
+     * Tests a single cell of the grid to determine any changes, according to the rules of the simulation
+     *
+     * @param currentState - the current grid
+     * @param x - the x coordinate of the cell to test
+     * @param y - the y coordinate of the cell to test
+     * @return the new contents of the cell
+     */
+    private static char testCell(char[][] currentState, int x, int y) {
+        int livingNeighbours = testNeighbours(currentState, x, y);
+
+        if (currentState[x][y] == '.' && livingNeighbours == 3) {
+            return '#';
+        }
+        if (currentState[x][y] == '#' && livingNeighbours < 2) {
+            return '.';
+        }
+        if (currentState[x][y] == '#' && livingNeighbours > 3) {
+            return '.';
+        }
+        return currentState[x][y];
+    }
+
+    /**
+     * Counts the number of living neighbours of the cell at the specified coordinates
+     *
+     * @param currentState - the current grid
+     * @param x - the x coordinate of the cell to test
+     * @param y - the y coordinate of the cell to test
+     * @return the number of living neighbours of the specified cell
+     */
+    private static int testNeighbours(char[][] currentState, int x, int y) {
+        int livingNeighbours = 0;
+        int xMod = currentState.length;
+        int yMod = currentState[x].length;
+        if (currentState[nonNegativeMod(x - 1, xMod)][nonNegativeMod(y - 1, yMod)] == '#') {
+            livingNeighbours++;
+        }
+        if (currentState[nonNegativeMod(x - 1, xMod)][y] == '#') {
+            livingNeighbours++;
+        }
+        if (currentState[nonNegativeMod(x - 1, xMod)][nonNegativeMod(y + 1, yMod)] == '#') {
+            livingNeighbours++;
+        }
+        if (currentState[x][nonNegativeMod(y - 1, yMod)] == '#') {
+            livingNeighbours++;
+        }
+        if (currentState[x][nonNegativeMod(y + 1, yMod)] == '#') {
+            livingNeighbours++;
+        }
+        if (currentState[nonNegativeMod(x + 1, xMod)][nonNegativeMod(y - 1, yMod)] == '#') {
+            livingNeighbours++;
+        }
+        if (currentState[nonNegativeMod(x + 1, xMod)][y] == '#') {
+            livingNeighbours++;
+        }
+        if (currentState[nonNegativeMod(x + 1, xMod)][nonNegativeMod(y + 1, yMod)] == '#') {
+            livingNeighbours++;
+        }
+        return livingNeighbours;
+    }
+
+    /**
+     * Returns the non-negative modulus of the numerator n modulo m
+     *
+     * @param n - the numerator to be modded
+     * @param m - the modulo to use
+     * @return the non-negative modulus of n mod m
+     */
+    private static int nonNegativeMod(int n, int m) {
+        return (((n % m) + m) % m);
+    }
+
+    /**
+     * Prints the contents of the specified two-dimensional array as a grid
+     *
+     * @param arrayToPrint - the array to be printed
+     */
+    private static void printOutput(char[][] arrayToPrint) {
+        for (char[] line : arrayToPrint) {
+            for (char cell : line) {
+                System.out.print(cell);
+            }
+            System.out.println();
+        }
+    }
+
+}
+
+Challenge Output:
+
+.................
+.................
+....##.....##....
+.....##...##.....
+..#..#.#.#.#..#..
+..###.##.##.###..
+...#.#.#.#.#.#...
+....###...###....
+.................
+....###...###....
+...#.#.#.#.#.#...
+..###.##.##.###..
+..#..#.#.#.#..#..
+.....##...##.....
+....##.....##....
+.................
+.................
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Frigguggi0 1 0 points1 point2 points 3 years ago* (0 children)
+
+Java. Initial configuration should be in a file named life.txt. As an added
+bonus, if you enter n as 0, it will keep going indefinitely. The stepThrough
+flag causes the simulation to pause after each step and wait for the user to
+hit enter, allowing you to see the progression. The filename and stepThrough
+values can be changed from command line using -file and -step options.
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class Life {
+
+   /**
+    * Scanner for user input
+    */
+   Scanner in;
+
+   /**
+    * The file from which the initial state is taken
+    */
+   String filename = "life.txt";
+
+   /**
+    * The width of the grid
+    */
+   int width;
+
+   /**
+    * The height of the grid
+    */
+   int height;
+
+   /**
+    * The number of steps to be calculated
+    */
+   int steps;
+
+   /**
+    * The Cells in the grid
+    */
+   Cell[] grid;
+
+   /**
+    * true if each step should be displayed. If this is the case, the grid will
+    * be printed after each step, and the program will wait for the user to hit
+    * enter to continue.
+    */
+   boolean stepThrough = true;
+
+   public static void main(String[] args) {
+      new Life(args);
+   }
+
+   public Life(String[] args) {
+      for(int i = 0; i < args.length; i++) {
+         if(args[i].equalsIgnoreCase("-file")) {
+            filename = args[++i];
+         }
+         else if(args[i].equalsIgnoreCase("-step")) {
+            stepThrough = Boolean.parseBoolean(args[++i]);
+         }
+      }
+      in = new Scanner(System.in);
+      Scanner fileReader = null;
+      try {
+         fileReader = new Scanner(new File(filename));
+      }
+      catch(FileNotFoundException fnfe) {
+         System.out.println(fnfe.getMessage());
+         System.exit(1);
+      }
+      Scanner firstLineParser = new Scanner(fileReader.nextLine());
+      steps = firstLineParser.nextInt();
+      width = firstLineParser.nextInt();
+      height = firstLineParser.nextInt();
+      grid = new Cell[width * height];
+      for(int y = 0; y < height; y++) {
+         String line = fileReader.nextLine();
+         for(int x = 0; x < width; x++) {
+            grid[width * y + x] = new Cell(line.charAt(x) == '#', x, y, this);
+         }
+      }
+      for(Cell cell: grid) {
+         cell.setUpNeighbors();
+      }
+      System.out.println("Initial state:");
+      printGrid();
+      run();
+   }
+
+   /**
+    * Runs the simulation.
+    */
+   void run() {
+      for(int i = 0; i < steps || steps == 0; i++) {
+         for(Cell cell: grid) {
+            cell.setNext();
+         }
+         for(Cell cell: grid) {
+            cell.update();
+         }
+         if(stepThrough || steps == 0) {
+            in.nextLine();
+            System.out.println("Step " + (i + 1) + ":");
+            printGrid();
+         }
+      }
+      if(stepThrough || steps == 0) {
+         in.nextLine();
+      }
+      System.out.println("Final state:");
+      printGrid();
+   }
+
+   /**
+    * Prints the grid.
+    */
+   void printGrid() {
+      int g = 0;
+      for(int y = 0; y < height; y++) {
+         for(int x = 0; x < width; x++) {
+            System.out.print((grid[g++].getChar()));
+         }
+         System.out.println();
+      }
+      System.out.println();
+   }
+
+   void printGridArray() {
+      for(Cell cell: grid) {
+         System.out.print(cell.getChar());
+      }
+      System.out.println("\n");
+   }
+
+   /**
+    * Returns a Cell from the grid based on its x and y coordinates.
+    * @param x The Cell's x coordinate
+    * @param y The Cell's y coordinate
+    * @return The specified Cell
+    */
+   Cell getCell(int x, int y) {
+      x = (x + width) % width;
+      y = (y + height) % height;
+      for(Cell cell: grid) {
+         if(cell.x == x && cell.y == y) {
+            return cell;
+         }
+      }
+      return null;
+   }
+
+}
+
+class Cell {
+
+   /**
+    * true when the Cell is on
+    */
+   boolean on;
+
+   /**
+    * The Cell's x coordinate
+    */
+   int x;
+
+   /**
+    * The Cell's y coordinate
+    */
+   int y;
+
+   /**
+    * Reference back to the parent Life
+    */
+   Life life;
+
+   /**
+    * true if the Cell will be on in the next step
+    */
+   private boolean onNext;
+
+   /**
+    * Neighboring Cells, as an array
+    */
+   private Cell[] neighbors;
+
+   /**
+    * The Cell's x and y coordinates in the grid
+    */
+   private int[] location;
+
+   /**
+    * Constructor.
+    * @param on The Cell's initial state
+    * @param x The Cell's x coordinate
+    * @param y The Cell's y coordinate
+    * @param life Reference back to the parent Life
+    */
+   Cell(boolean on, int x, int y, Life life) {
+      this.on = on;
+      this.x = x;
+      this.y = y;
+      this.life = life;
+      this.onNext = false;
+   }
+
+   /**
+    * Determines what the Cell's next state will be, based on neighbors' states.
+    */
+   void setNext() {
+      int neighborsOn = 0;
+      for(Cell neighbor: neighbors) {
+         if(neighbor.on) {
+            neighborsOn++;
+         }
+      }
+      if(neighborsOn == 3 || (on && neighborsOn == 2)) {
+         onNext = true;
+      }
+      else {
+         onNext = false;
+      }
+   }
+
+   /**
+    * Updates the current state.
+    */
+   void update() {
+      on = onNext;
+   }
+
+   /**
+    * Returns the current state of the Cell.
+    * @return true iff the Cell is on
+    */
+   boolean getState() {
+      return on;
+   }
+
+   /**
+    * Sets up connections to neighboring Cells.
+    */
+   void setUpNeighbors() {
+      int width = life.width;
+      int height = life.height;
+      neighbors = new Cell[8];
+      int[][] offsets = { { -1, -1 }, { -1, 0 }, { -1, 1 }, { 0, -1 }, { 0, 1 },
+            { 1, -1 } , { 1, 0 }, { 1, 1 } };
+      int c = 0;
+      for(int[] offset: offsets) {
+         neighbors[c++] = life.getCell(x + offset[0], y + offset[1]);
+      }
+   }
+
+   /**
+    * Returns a char representing the Cell's current state.
+    * @return '#' if the Cell is on, '.' if the Cell is off
+    */
+   char getChar() {
+      return on ? '#' : '.';
+   }
+}
+
+Output:
+
+..........
+..........
+..........
+..........
+...#......
+....##....
+...##.....
+..........
+..........
+..........
+
+Challenge output:
+
+.................
+.................
+....##.....##....
+.....##...##.....
+..#..#.#.#.#..#..
+..###.##.##.###..
+...#.#.#.#.#.#...
+....###...###....
+.................
+....###...###....
+...#.#.#.#.#.#...
+..###.##.##.###..
+..#..#.#.#.#..#..
+.....##...##.....
+....##.....##....
+.................
+.................
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]spfy 0 points1 point2 points 3 years ago (0 children)
+
+Here's my completed python3.4 version! I hard-coded the grid into the program
+because I am lazy. I didn't include that part, of course!
+
+n, x, y = *snip* # hard-coded input arguments
+grid = *snip* # hard-coded 2D list
+
+def show(array):
+    for i in range(len(array)):
+            for k in range(len(array[i])):
+                    print(array[i][k], end="")
+            print()
+
+def copy(original):
+    new = []
+    for i in range(y):
+            new.append([])
+            for k in range(x):
+                    new[i].append(original[i][k])
+    return new
+
+def count(row, col, orig):
+    count, top, left, down, right = 0, row - 1, col - 1, row + 1, col + 1
+
+    if top < 0:
+            top = y - 1
+    if left < 0:
+            left = x - 1
+    if down > y - 1:
+            down = 0
+    if right > x - 1:
+            right = 0
+
+    if orig[top][left] == '#':
+            count += 1
+    if orig[top][right] == '#':
+            count += 1
+    if orig[top][col] == '#':
+            count += 1
+    if orig[row][left] == '#':
+            count += 1
+    if orig[row][right] == '#':
+            count += 1
+    if orig[down][left] == '#':
+            count += 1
+    if orig[down][right] == '#':
+            count += 1
+    if orig[down][col] == '#':
+            count += 1
+    return count
+
+reference = copy(grid)
+show(reference)
+
+for iterate in range(n):
+    for i in range(y):
+            for k in range(x):
+                    on, state = count(i, k, reference), reference[i][k]
+
+                    if state == '.' and on == 3:
+                            grid[i][k] = '#'
+                    elif state == '#' and on < 2 or on > 3:
+                            grid[i][k] = '.'
+
+    reference = copy(grid)
+
+print()
+show(grid)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ArseAssassin 0 points1 point2 points 3 years ago (0 children)
+
+Haskell
+
+import Control.Monad
+import Data.List.Split
+
+type Point = (Int, Int)
+
+evolve :: [Point] -> [Point] -> [Point]
+evolve pointsOnBoard points = filter isAlive pointsOnBoard
+  where
+    searchPattern           = [(-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1)]
+    nudge (x0, y0) (x1, y1) = (x0+x1, y0+y1)
+    countNeighbors a        = length $ filter (\b -> (nudge a b) `elem` points) searchPattern
+    isAlive a               = n == 3 || (n == 2 && a `elem` points)
+      where n               = countNeighbors a
+
+coords :: Int -> Int -> [Point]
+coords width height = [(x, y) | x <- [0..width-1], y <- [0..height-1]]
+
+parse :: [Point] -> [String] -> [Point]
+parse pointsOnBoard board = filter (\(x, y) -> (board !! y) !! x == '#') pointsOnBoard
+
+parseHeader :: String -> (Int, Int, Int)
+parseHeader s = (head fields, fields !! 1, fields !! 2)
+  where fields :: [Int]
+        fields = map read $ words s
+
+showBoard :: [Point] -> [Point] -> String
+showBoard coords points =
+  map (\x -> if x `elem` points then '#' else '.') coords
+
+main :: IO ()
+main = do
+  s <- liftM lines $ getContents
+
+  let (evolutions, width, height) = parseHeader $ head s
+
+  let board         = coords width height
+  let initialBoard  = parse board $ tail s
+
+  let evolver       = evolve board
+  let result        = iterate evolver initialBoard !! evolutions
+  let stringResult  = unlines $ chunksOf width $ showBoard board result
+
+  putStrLn stringResult
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]wcastello 0 points1 point2 points 3 years ago* (0 children)
+
+Python 3.4, using UTF-8 block elements to output '.' and '#'
+
+#!/usr/bin/env python3
+###
+# Reddit's r/dailyprogrammer, Challenge #165, Conway's game of life
+#
+
+import os
+from copy import deepcopy
+from itertools import product
+
+on_char = chr(9608) # full block
+off_char = chr(9617) # light shade
+
+def build_grid(x,y):
+  grid = []
+  for i in range(x):
+    line = [off_char] + [on_char if c == '#' else off_char for c in list(input())] + [off_char] # two empty columns in each line and we have a border
+    grid.append(line)
+  # map wrap around
+  grid.append(grid[1])
+  grid.insert(0,grid[x])
+  return grid
+
+def is_on(cell):
+  return cell == on_char
+
+def count_neighboors(grid, i, j):
+  count = 0
+  region = set(product([i-1,i,i+1], [j-1,j,j+1])) - {(i,j)}
+  for (k,l) in region:
+    if is_on(grid[k][l]):
+      count+=1
+  return count
+
+def switch(grid,i,j):
+  grid[i][j] = off_char if is_on(grid[i][j]) else on_char
+
+def print_board(grid,k):
+  os.system('cls' if os.name == 'nt' else 'clear')
+  print("Game after K={0} iterations:".format(k))
+  for l in grid[1:-1]:
+    print("".join(l[1:-1]))
+
+def game(grid,nextgrid,x,y):
+  # map wrap around
+  grid[x+1] = grid[1]
+  grid[0] = grid[x]
+
+  for (i,j) in product(range(1,x+1),range(1,y+1)):
+    c = count_neighboors(grid,i,j)
+    if not is_on(grid[i][j]) and c == 3:
+      switch(nextgrid,i,j)
+    elif is_on(grid[i][j]) and (c < 2 or c > 3):
+      switch(nextgrid,i,j)
+
+def main():
+  print("Conway's game of life.")
+  while True:
+    try:
+      n,x,y = map(int,input().split())
+      break
+    except ValueError:
+      print("You should enter N X Y values")
+
+  grid = build_grid(x,y)
+  nextgrid = deepcopy(grid)
+  print_board(grid,0)
+
+  for k in range(n):
+    game(grid,nextgrid,x,y)
+    # uncomment if you want to see every interaction
+    #print_board(nextgrid,k+1)
+    #input()
+    grid = deepcopy(nextgrid)
+
+  print_board(grid,n)
+
+if __name__ == '__main__':
+  main()
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]CaptainCa 0 points1 point2 points 3 years ago* (0 children)
+
+Here's my implementation in C. Not my favourite code as I tried to do it will
+calloc() in a function but got caught up trying to return a multidimensional
+array (char **). Feedback would be lovely.
+
+#include <stdio.h>
+int main() {
+    int w = 0, h = 0, i, j, ch = 0, N = 0, left, right, top, bottom, ne;
+    FILE * f;
+    f = fopen("gol.txt", "r");
+    if(!f){
+        printf("No file");
+        return 0;
+    }
+    fscanf(f, "%d %d %d\r\n", &N, &w, &h);
+    if(N && w && h) {
+        printf("%d %d %d\r\n", N, h, w);
+        char grid[h][w];
+        char tgrid[h][w];
+        if(grid && tgrid){
+            i = j = 0;
+            while((ch = getc(f)) != EOF){
+                if(ch == '.' || ch == '#'){
+                    grid[i][j] = ch;
+                }
+                j++;
+            if(j > w){
+                i++;
+                    j = 0;
+                }
+            }
+            for(; N; --N){
+                for(i = 0; i < h; i++){
+                    for(j = 0; j < w; j++){
+                        left = (j - 1 + w) % w;
+                    right = (j + 1) % w;
+                    top = (i - 1 + h) % h;
+                    bottom = (i + 1) % h;
+                    ne = 0;
+                    if(grid[i][left] == '#') ne++;
+                    if(grid[i][right] == '#') ne++;
+                    if(grid[top][j] == '#') ne++;
+                    if(grid[bottom][j] == '#') ne++;
+                    if(grid[top][left] == '#') ne++;
+                    if(grid[top][right] == '#') ne++;
+                    if(grid[bottom][left] == '#') ne++;
+                    if(grid[bottom][right] == '#') ne++;
+
+                    if(grid[i][j] == '#' && (ne < 2 || ne > 3)){
+                        tgrid[i][j] = '.';
+                    }
+                    else if(grid[i][j] == '.' && ne == 3){
+                        tgrid[i][j] = '#';
+                    }
+                    else {
+                        tgrid[i][j] = grid[i][j];
+                    }
+                }
+            }
+            for(i = 0; i < h; i++){
+                for(j = 0; j < w; j++){
+                    grid[i][j] = tgrid[i][j];
+                }
+            }
+        }
+        for(i = 0; i < h; i++){
+            for(j = 0; j < w; j++){
+                printf("%c", grid[i][j]);
+            }
+            printf("\r\n");
+        }
+
+}
+fclose(f);
+}
+return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]toodim 0 points1 point2 points 3 years ago (0 children)
+
+A little late to the party, but here goes. Python 3.4 solution, prints all
+steps toward the final solution. Seems a little on the tough side for an easy
+problem.
+
+data = [line.strip() for line in open("challenge165.txt").readlines()]
+num_steps, num_col, num_row = [int(v) for v in data[0].split()]
+
+grid = []
+for v in data[1:]:
+    line = []
+    for letter in v:
+        line.append(letter)
+    grid.append(line)
+
+def print_grid(grid):
+    for line in grid:
+        print("".join(line))
+    print(" ")
+
+def check_neighbors(x,y,g):
+    num_live_neighbors = 0
+    neighbors = [[(x+1)%(num_row),y],[(x-1)%(num_row),y],[x,(y+1)%(num_col)],[x,(y-1)%(num_col)],\
+                 [(x-1)%(num_row),(y+1)%(num_col)],[(x-1)%(num_row),(y-1)%(num_col)],\
+                 [(x+1)%(num_row),(y+1)%(num_col)],[(x+1)%(num_row),(y-1)%(num_col)]]
+    for i,j in neighbors:
+        if g[i][j] == "#":
+            num_live_neighbors+=1
+    if g[x][y]==".":
+        if num_live_neighbors==3:
+            return True
+        else:
+            return False
+    if num_live_neighbors < 2 or num_live_neighbors > 3:
+        return False
+    return True
+
+def advance(g):
+    new_grid = []
+    for x in range(num_row):
+        new_row = []
+        for y in range(num_col):
+            if check_neighbors(x,y,g):
+                new_row.append("#")
+            else:
+                new_row.append(".")
+        new_grid.append(new_row)
+    return new_grid
+
+def game_of_life(n, g):
+    for steps in range(n):
+        g = advance(g)
+        print_grid(g)
+
+game_of_life(num_steps, grid)
+
+Challenge output:
+
+.................
+.................
+....###...###....
+.................
+..#....#.#....#..
+..#....#.#....#..
+..#....#.#....#..
+....###...###....
+.................
+....###...###....
+..#....#.#....#..
+..#....#.#....#..
+..#....#.#....#..
+.................
+....###...###....
+.................
+.................
+
+.................
+.....#.....#.....
+.....#.....#.....
+.....##...##.....
+.................
+.###..##.##..###.
+...#.#.#.#.#.#...
+.....##...##.....
+.................
+.....##...##.....
+...#.#.#.#.#.#...
+.###..##.##..###.
+.................
+.....##...##.....
+.....#.....#.....
+.....#.....#.....
+.................
+
+.................
+.................
+....##.....##....
+.....##...##.....
+..#..#.#.#.#..#..
+..###.##.##.###..
+...#.#.#.#.#.#...
+....###...###....
+.................
+....###...###....
+...#.#.#.#.#.#...
+..###.##.##.###..
+..#..#.#.#.#..#..
+.....##...##.....
+....##.....##....
+.................
+.................
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+Running behind already this week, but here it is in C (gcc --std=c89). The
+output is correct but I can't get it to post as a spoiler. I did enjoy C's easy
+conversion between string and character types to simplify logic.
+
+#include <stdio.h>
+
+#define XMAX 20
+#define YMAX 20
+
+#define ON '#'
+#define OFF '.'
+
+char cell[XMAX][YMAX];
+int neigh[XMAX][YMAX];
+
+int N, M;
+
+int count(int x, int y)
+{
+    int i, j;
+    int n, m;
+    int total = 0;
+
+    for (i = -1; i <= 1; i++)
+        for (j = -1; j <= 1; j++) {
+            if (i != 0 || j != 0) {
+                n = (x + i) % N;
+                m = (y + j) % M;
+
+                if (n < 0)
+                    n += N;
+
+                if (m < 0)
+                    m += M;
+
+                if (cell[n][m] == ON)
+                    total += 1;
+            }
+        }
+
+    return total;
+}
+
+char refill(int x, int y)
+{
+    switch(cell[x][y]) {
+        case OFF:
+            return (neigh[x][y] == 3) ? ON : OFF;
+
+        case ON:
+            return (neigh[x][y] < 2
+                || neigh[x][y] > 3) ? OFF : ON;
+    }
+}
+
+int main(void)
+{
+    int i, j, g, ngens;
+
+    /* read */
+    scanf("%d %d %d", &ngens, &N, &M);
+
+    for (i = 0; i < N; i++)
+        scanf("%s", cell[i]);
+
+    /* repeat for ngens generations */
+    for (g = 0; g < ngens; g++) {
+        /* calculate neighbors */
+        for (i = 0; i < N; i++)
+            for (j = 0; j < M; j++)
+                neigh[i][j] = count(i, j);
+
+        /* update cells */
+        for (i = 0; i < N; i++)
+            for (j = 0; j < M; j++)
+                cell[i][j] = refill(i, j);
+    }
+
+    /* print */
+    for (i = 0; i < N; i++)
+        printf("%s\n", cell[i]);
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+
+[–]Instinct212 0 points1 point2 points 3 years ago (0 children)
+
+C++ First time trying a challenge, always wanted to make a Game of Life
+program, was very fun! (Not very modern C++ here using raw arrays/pointers
+since it doesn't take much memory management) Prints each iteration, but can be
+changed to only printing the last by separating out updateAndPrint()
+
+main:
+
+#include "gameBoard.h"
+#include <time.h>
+
+using std::cout;            using std::endl;
+using std::cin;             using std::string;
+
+void wait(int seconds) {
+    int endwait = clock() + seconds * CLOCKS_PER_SEC * .5;
+    while (clock() < endwait) {}
+}
+
+int main(int argc, char** argv) {
+
+    int numIterations, width, height;
+    cin >> numIterations >> width >> height;
+    cin.ignore();
+
+    gameBoard Game = gameBoard(width, height);
+    Game.getNewGameBoard();
+
+    for (int iteration = 0; iteration < numIterations; ++iteration) {
+
+        wait(1); cout << "\n\n";
+        //count each cell's neighbors and determine their new status
+        Game.evaluateNeighbors();
+
+        //update each cell and print new gameBoard
+        Game.updateAndPrint();
+    }
+
+    return 0;
+}
+
+gameBoard.h:
+
+#ifndef GAMEBOARD_H
+#define GAMEBOARD_H
+
+#include <iostream>
+
+struct cell {
+    cell() { activeNeighbors = 0; currentStatus = nextStatus = '.'; }
+    void setNextStatus();
+    void updateStatus() { currentStatus = nextStatus; }
+
+    bool isActive() const { return currentStatus == '#'; }
+
+    int activeNeighbors;
+    char currentStatus, nextStatus;
+};
+
+class gameBoard {
+public:
+    gameBoard() {}
+    gameBoard(int, int);
+    ~gameBoard();
+
+    void getNewGameBoard();
+    void evaluateNeighbors();
+    void updateAndPrint();
+private:
+    cell** board;
+    int boardWidth, boardHeight;
+};
+
+#endif  /* GAMEBOARD_H */
+
+gameBoard.cpp:
+
+#include "gameBoard.h"
+
+using std::cin;     using std::cout;
+using std::endl;    using std::string;
+using std::getline;
+
+void cell::setNextStatus() {
+    if (currentStatus == '#' && (activeNeighbors < 2 || activeNeighbors > 3))
+        nextStatus = '.';
+    else if (currentStatus == '.' && activeNeighbors == 3)
+        nextStatus = '#';
+    else
+        nextStatus = currentStatus;
+}
+
+gameBoard::gameBoard(int width, int height) {
+    boardWidth = width;
+    boardHeight = height;
+
+    board = new cell*[height];
+    for (int y = 0; y < height; ++y)
+        board[y] = new cell[width];
+}
+
+gameBoard::~gameBoard() {
+    for (int y = 0; y < boardHeight; ++y) {
+        delete[] board[y];
+    }
+    delete[] board;
+}
+
+void gameBoard::getNewGameBoard() {
+    string line;
+    int y = 0;
+
+    while (getline(cin, line)) {
+
+        for (int x = 0; x < boardWidth; ++x)
+            board[y][x].currentStatus = line[x];
+        ++y;
+    }
+}
+
+void gameBoard::evaluateNeighbors() {
+    int activeNeighbors = 0;
+    for (int y = 0; y < boardHeight; ++y) {
+
+        for (int x = 0; x < boardWidth; ++x) {
+
+            activeNeighbors = 0;
+            //left and right neighbors
+            if (board[y][(x + boardWidth - 1) % boardWidth].isActive())
+                ++activeNeighbors;
+            if (board[y][(x + boardWidth + 1) % boardWidth].isActive())
+                ++activeNeighbors;
+
+            //top and bottom neighbors
+            if (board[(y + boardHeight - 1) % boardHeight][x].isActive())
+                ++activeNeighbors;
+            if (board[(y + boardHeight + 1) % boardHeight][x].isActive())
+                ++activeNeighbors;
+
+            //top left and top right neighbors
+            if (board[(y + boardHeight - 1) % boardHeight][(x + boardWidth - 1) % boardWidth].isActive())
+                ++activeNeighbors;
+            if (board[(y + boardHeight - 1) % boardHeight][(x + boardWidth + 1) % boardWidth].isActive())
+                ++activeNeighbors;
+
+            //bottom left and bottom right neighbors
+            if (board[(y + boardHeight + 1) % boardHeight][(x + boardWidth - 1) % boardWidth].isActive())
+                ++activeNeighbors;
+            if (board[(y + boardHeight + 1) % boardHeight][(x + boardWidth + 1) % boardWidth].isActive())
+                ++activeNeighbors;
+
+            board[y][x].activeNeighbors = activeNeighbors;
+            board[y][x].setNextStatus();
+        }
+    }
+}
+
+void gameBoard::updateAndPrint() {
+    for (int y = 0; y < boardHeight; ++y) {
+
+        for (int x = 0; x < boardWidth; ++x) {
+
+            board[y][x].updateStatus();
+            cout << board[y][x].currentStatus;
+        }
+        cout << endl;
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]arkiel 0 points1 point2 points 3 years ago (0 children)
+
+Python 3.4. It could be shortened, obviously, but I really like functions.
+
+import sys
+
+def toggle(x, y, board):
+    """
+    Turn the cell on or off or do nothing depending on neighbors status
+    """
+    # counts the numbers of cells in neighborhood 'on'
+    # INCLUDING THE CELL ITSELF
+    # this matters in the if/elif in the end
+    neighbors_on = 0
+
+    for i in range(-1, 2):
+        for j in range(-1, 2):
+         if board[(y+i)%Y][(x+j)%X] == '#':
+             neighbors_on += 1
+
+    if board[y][x] == '.' and neighbors_on == 3:
+        return '#'
+    elif board[y][x] == '#' and neighbors_on < 3:
+        return '.'
+    elif board[y][x] == '#' and neighbors_on > 4:
+        return '.'
+    return board[y][x]
+
+def one_round(game_board):
+    """
+    Play one round of the game
+    """
+    new_board = ['' for i in range(Y)]
+    for y in range(Y):
+        for x in range(X):
+            new_board[y] += toggle(x, y, game_board)
+
+    return new_board
+
+
+def play(n, board):
+    """
+    plays the game n times on board, prints result
+    """
+    for i in range(n):
+        board = one_round(board)
+
+    print('\n'.join(board))
+
+
+if __name__ == "__main__":
+    with open(sys.argv[1]) as f:
+        N, X, Y = (int(i) for i in f.readline().split())
+        game_board = [line.rstrip() for line in f]
+
+        play(N, game_board)
+
+Challenge output :
+
+.................
+.................
+....##.....##....
+.....##...##.....
+..#..#.#.#.#..#..
+..###.##.##.###..
+...#.#.#.#.#.#...
+....###...###....
+.................
+....###...###....
+...#.#.#.#.#.#...
+..###.##.##.###..
+..#..#.#.#.#..#..
+.....##...##.....
+....##.....##....
+.................
+.................
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]WerkWerk 0 points1 point2 points 3 years ago* (0 children)
+
+Here is my implementation in Python 3.3.
+
+class Board:
+    def __init__(self,startingState,rows,cols):
+        self.rows = rows
+        self.cols = cols
+        self.data = [([False] * cols) for row in range(rows)]
+        rows = startingState.split('\n')
+        for i, row in enumerate(rows):
+            for j, col in enumerate(row):
+                if col == '#':
+                    self.data[i][j] = True
+                else:
+                    self.data[i][j] = False
+
+    def display(self):
+        #display cells that are on as # and off cells as .
+        for row in self.data:
+            for col in row:
+                if col:
+                    print('#'),
+                else:
+                    print('.'),
+            print('')
+        return True
+
+    def countNeighbours(self,row,col):
+        #The board wraps around, mod is used for the other part of the wrap around
+        if row == 0:
+            startRow = self.rows - 1
+        else:
+            startRow = row - 1
+        if col == 0:
+            startCol = self.cols - 1
+        else:
+            startCol = col - 1
+
+        count = 0
+        for i in range(3):
+            for j in range(3):
+                tmpRow = (startRow + i) % self.rows
+                tmpCol = (startCol + j) % self.cols
+                if (tmpRow, tmpCol) != (row, col):
+                    if self.data[tmpRow][tmpCol]:
+                        count +=1
+        return count
+
+    def evolve(self):
+        currentGen = self.data
+        newGen = [([False] * self.cols) for row in range(self.rows) ]
+        for i, row in enumerate(currentGen):
+            for j, col in enumerate(row):
+                count = self.countNeighbours(i,j)
+                if col:
+                    if count == 2 or count == 3:
+                        newGen[i][j] = True
+                else:
+                    if count == 3:
+                        newGen[i][j] = True
+        self.data = newGen
+
+def main():
+    filename = 'board.txt'
+    with open(filename,'r') as file:
+        data = file.readline().strip()
+        generations, rows, cols = (int(value) for value in data.split(' '))
+        startingState = file.read()
+
+    board = Board(startingState,rows,cols)
+    print(' Initial State ')
+    board.display()
+
+    for gen in range(generations):
+        board.evolve()
+
+    print(' After %d generations'%(generations))
+    board.display()
+
+if __name__ == '__main__':
+    main()
+
+Challenge Output:
+
+             Initial State
+            . . . . . . . . . . . . . . . . .
+            . . . . . . . . . . . . . . . . .
+            . . . . # # # . . . # # # . . . .
+            . . . . . . . . . . . . . . . . .
+            . . # . . . . # . # . . . . # . .
+            . . # . . . . # . # . . . . # . .
+            . . # . . . . # . # . . . . # . .
+            . . . . # # # . . . # # # . . . .
+            . . . . . . . . . . . . . . . . .
+            . . . . # # # . . . # # # . . . .
+            . . # . . . . # . # . . . . # . .
+            . . # . . . . # . # . . . . # . .
+            . . # . . . . # . # . . . . # . .
+            . . . . . . . . . . . . . . . . .
+            . . . . # # # . . . # # # . . . .
+            . . . . . . . . . . . . . . . . .
+            . . . . . . . . . . . . . . . . .
+             After 32 generations
+            . . . . . . . . . . . . . . . . .
+            . . . . . . . . . . . . . . . . .
+            . . . . # # . . . . . # # . . . .
+            . . . . . # # . . . # # . . . . .
+            . . # . . # . # . # . # . . # . .
+            . . # # # . # # . # # . # # # . .
+            . . . # . # . # . # . # . # . . .
+            . . . . # # # . . . # # # . . . .
+            . . . . . . . . . . . . . . . . .
+            . . . . # # # . . . # # # . . . .
+            . . . # . # . # . # . # . # . . .
+            . . # # # . # # . # # . # # # . .
+            . . # . . # . # . # . # . . # . .
+            . . . . . # # . . . # # . . . . .
+            . . . . # # . . . . . # # . . . .
+            . . . . . . . . . . . . . . . . .
+            . . . . . . . . . . . . . . . . .
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]altanic 0 points1 point2 points 3 years ago (0 children)
+
+C#, prints the grid after each step & sleeps for 400 ms before continuing...
+now I want to keep feeding it different patterns & rules to see more pretty
+shapes... Fun challenge! :)
+
+static class Program {
+    static int N, X, Y;
+    static char[,] grid;
+
+    static void Main(string[] args) {
+        string input = Console.ReadLine();
+        int.TryParse(input.Split(' ')[0], out N);
+        int.TryParse(input.Split(' ')[1], out X);
+        int.TryParse(input.Split(' ')[2], out Y);
+
+        grid = new char[X, Y];
+
+        for (int iy = 0; iy < Y; iy++) {
+            input = Console.ReadLine();
+            for (int ix = 0; ix < X; ix++)
+                grid[ix, iy] = input.ToCharArray()[ix];
+        }
+
+        List<change> changes;
+        for (int count = 0; count < N; count++) {
+            changes = new List<change>();
+            for (int iy = 0; iy < Y; iy++)
+                for (int ix = 0; ix < X; ix++)
+                    simCell(ix, iy, changes);
+
+            foreach (change c in changes)
+                grid[c.x, c.y] = c.value;
+
+            printGrid();
+            Thread.Sleep(400);
+        }
+
+        printGrid();
+    }
+
+    static void simCell(int x, int y, List<change> changes) {
+        bool isAlive = grid[x, y] == '#';
+        int neighborCount = countLivingNeighbors(x,y);
+
+        if (isAlive && (neighborCount < 2 || neighborCount > 3))
+            changes.Add(new change { x = x, y = y, value = '.' });
+        else if (!isAlive && neighborCount == 3)
+            changes.Add(new change { x = x, y = y, value = '#' });
+    }
+
+    static int countLivingNeighbors(int x, int y) {
+        int liveNeighbors = 0;
+
+        for (int dy = -1; dy < 2; dy++) {
+            for (int dx = -1; dx < 2; dx++) {
+                if (dy == 0 && dx == 0) continue;
+                if (grid[((x + X) + dx) % X, ((y + Y) + dy) % Y] == '#')
+                    liveNeighbors++;
+            }
+        }
+
+        return liveNeighbors;
+    }
+
+    static void printGrid() {
+        Console.Clear();
+        for (int iy = 0; iy < Y; iy++) {
+            for (int ix = 0; ix < X; ix++)
+                Console.Write("{0}", grid[ix, iy]);
+            Console.WriteLine();
+        }
+    }
+}
+
+struct change {
+    public int x, y;
+    public char value;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]haquaman_reddit 0 points1 point2 points 3 years ago (0 children)
+
+Could optimize this more, did a similar project in uni in distributed
+programming
+
+$ node --version v0.10.26
+
+$ npm list /home/me ├─┬ sleep@1.1.6 │ └── mkdirp@0.3.5 └─┬ split@0.3.0 └──
+through@2.3.4
+
+$ cat gameoflife.js | sed 's/^/ /'
+var sleep = require('sleep');
+
+var N, X, Y;
+var x, y;
+var grid;
+process.stdin.pipe(require('split')()).on('data', function (text) {
+  if (text !== null) {
+    if (N == undefined) {
+      text = chomp(text).replace(/^ +/, '')
+                        .replace(/ +/g, ' ')
+                        .replace(/ +$/, '');
+      var numbers = text.split(' ').map(Number);
+      //assert(numbers.length == 3);
+      N = numbers[0];
+      X = numbers[1];
+      Y = numbers[2];
+      grid = new Array(Y);
+      y = 0;
+      return;
+    }
+    grid[y++] = chomp(text).split('').map(function (x) { return (x === '#'); });
+    //assert(grid[y-1].length) == X
+    if (y == Y) {
+      while (N-- !== 0) {
+        if (false) {
+          printGrid(process.stderr);
+          process.stderr.write('\n');
+          sleep.usleep(50000);
+          // clear console
+          process.stderr.write('\u001B[2J\u001B[0;0f');
+        }
+        processGrid();
+      }
+      printGrid(process.stdout);
+    }
+  }
+});
+
+function chomp(str) {
+  return str.replace(/(\n|\r)+$/, '');
+}
+
+function printGrid(output) {
+  grid.forEach(function (row) {
+    output.write(row.map(function (x) { return (x ? '#' : '.'); }).join('') + '\n');
+  });
+}
+
+function processGrid() {
+  var gridtmp = new Array(Y);
+  for (y = 0; y < Y; ++ y) {
+    gridtmp[y] = new Array(X);
+    for (x = 0; x < X; ++ x) {
+      gridtmp[y][x] = grid[y][x];
+    }
+  }
+
+  for (y = 0; y < Y; ++ y) {
+    for (x = 0; x < X; ++ x) {
+      if (needsToggle(x, y)) {
+        gridtmp[y][x] = !grid[y][x];
+      }
+    }
+  }
+
+  for (y = 0; y < Y; ++ y) {
+    delete grid[y];
+  }
+  delete grid;
+  grid = gridtmp;
+}
+
+function needsToggle(x, y) {
+  var i, j, stop, n;
+  if (grid[y][x]) {
+    // need to find < 2 or > 3
+    n = getNeighbours(x, y, 4);
+    return (n < 2 || n == 4); // we stopped at 4, so >3 => ==4
+  }
+  else {
+    // need to find == 3
+    n = getNeighbours(x, y, 4);
+    return n == 3;
+  }
+}
+
+function getNeighbours(x, y, stop) {
+  if (stop === undefined) {
+    stop = 8;
+  }
+  var n = 0;
+  for (i = -1; i < 2; ++ i) {
+    for (j = -1; j < 2; ++ j) {
+      if (i == 0 && j == 0) {
+        continue;
+      }
+      if (grid[(y + i + Y) % Y][(x + j + X) % X]) {
+        n ++;
+        if (n == stop) {
+          return n;
+        }
+      }
+    }
+  }
+  return n;
+}
+
+$ echo "32 17 17
+................. ................. ....###...###.... ................. ..#....
+#.#....#.. ..#....#.#....#.. ..#....#.#....#.. ....###...###....
+................. ....###...###.... ..#....#.#....#.. ..#....#.#....#.. ..#....
+#.#....#.. ................. ....###...###.... .................
+................." | node gameoflife.js | sed 's/^/ /'
+
+ .................
+ .................
+ ....##.....##....
+ .....##...##.....
+ ..#..#.#.#.#..#..
+ ..###.##.##.###..
+ ...#.#.#.#.#.#...
+ ....###...###....
+ .................
+ ....###...###....
+ ...#.#.#.#.#.#...
+ ..###.##.##.###..
+ ..#..#.#.#.#..#..
+ .....##...##.....
+ ....##.....##....
+ .................
+ .................
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]easher1 0 points1 point2 points 3 years ago (0 children)
+
+Credit to /u/ehcubed newGrid Algorithm
+
+def addr(x,y,m,n):
+    """
+        Given an MxN matrix stored in a 1-d sequence,
+        return the index of (possibly wrapped) X,Y
+        """
+    return (y%n)*m+(x%m)
+
+def GameOfLife(X,Y,Ntimes,cellBlock):
+
+    for N in range(Ntimes):
+        newGrid = ""
+        for y in range(Y):
+
+            for x in range(X):
+
+            ##Get the locations of cells to check
+                checkList = ((x,y-1),(x-1,y),(x+1,y),(x,y+1),(x+1,y+1),(x-1,y-1),(x+1,y-1),(x-1,y+1))
+        ##Now get the cells
+                surroundingCells = [cellBlock[addr(i[0],i[1],X,Y)] for i in checkList]
+
+
+    #Now count how much life is around the cell
+                lifeCounter = 0
+
+                for cell in surroundingCells:
+                    if cell == "#":
+                        lifeCounter = lifeCounter + 1
+
+                if cellBlock[addr(x,y,X,Y)] =="#":
+
+                    if lifeCounter == 2 or lifeCounter == 3:
+                    #The Cell Lives
+                        newGrid = newGrid + "#"
+                    else:
+                        newGrid = newGrid + "."
+                else:
+                    if lifeCounter == 3:
+                        newGrid = newGrid +"#"
+                    else:
+                        newGrid = newGrid + "."
+        cellBlock = newGrid
+    return cellBlock
+
+evolvedCells= GameOfLife(17,17,32,cellBlock)
+
+#Format output for printing
+def cellPrint(cellBlock, x):
+    printOut = ""
+    for cell in range(len(cellBlock)):
+        if cell % x == 0:
+
+            printOut = printOut +"\n"+ cellBlock[cell]
+        else:
+            printOut = printOut + cellBlock[cell]
+    print printOut
+cellPrint(evolvedCells,17)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]codemac 0 points1 point2 points 3 years ago (1 child)
+
+Here it is in Go. i'm suprised about a few things with go:
+
+  • This whole scanf not knowing how long a codepoint is etc makes dealing in
+    ascii with go actually a bit more difficult than I imagined. I'm curious if
+    anyone else solved this with go and found superior ways of doing this.
+  • I think I could code this more succinctly with something like C++14, but I
+    think mostly that's just because getchar wouldn't suck.
+  • My Node abstraction is completely unneccessary, I can't decide if that's a
+    design fault or a go fault just yet.
+
+So here is the code!: package main
+
+import (
+    "flag"
+    "fmt"
+    "time"
+    "unicode/utf8"
+)
+
+var dot, hash rune
+
+func init() {
+    dot, _ = utf8.DecodeRuneInString(".")
+    hash, _ = utf8.DecodeRuneInString("#")
+}
+
+type Node struct {
+    NW, N, NE  *Node
+    W, E       *Node
+    SW, S, SE  *Node
+    cur_alive  bool
+    next_alive bool
+}
+
+type Board struct {
+    X int
+    Y int
+
+    Map [][]*Node
+}
+
+func (n *Node) neighbors() int {
+    var ns []*Node
+    ns = append(ns, n.NW, n.N, n.NE, n.W, n.E, n.SW, n.S, n.SE)
+
+    count := 0
+    for _, v := range ns {
+        if v.cur_alive {
+            count = count + 1
+        }
+    }
+
+    return count
+}
+
+// A cell's "neighbours" are the 8 cells around it.
+//
+// If a cell is 'off' but exactly 3 of its neighbours are on, that
+// cell will also turn on - like reproduction.
+//
+// If a cell is 'on' but less than two of its neighbours are on, it
+// will die out - like underpopulation.
+//
+// If a cell is 'on' but more than three of its neighbours are on, it
+// will die out - like overcrowding.
+func (n *Node) nextalive() (alivep bool) {
+    neighbors := n.neighbors()
+    switch {
+    case neighbors > 3:
+        alivep = false
+    case neighbors < 2:
+        alivep = false
+    case neighbors == 3:
+        alivep = true
+    default:
+        alivep = n.cur_alive
+    }
+
+    return alivep
+}
+
+func readInput() (b *Board, iterations int) {
+    b = &Board{}
+    // ours will be done with . and # for now
+    // read in the first line
+    // N X Y (all integers
+    n, err := fmt.Scanf("%d %d %d\n", &iterations, &b.X, &b.Y)
+    if err != nil {
+        fmt.Printf("%#v", err)
+        panic("wtf")
+    }
+
+    if n != 3 {
+        panic("invalid input")
+    }
+
+    b.Map = make([][]*Node, b.Y)
+    for i := range b.Map {
+        b.Map[i] = make([]*Node, b.X)
+        for j := range b.Map[i] {
+            b.Map[i][j] = &Node{}
+        }
+    }
+
+    for i := 0; i < b.Y; i++ {
+        for j := 0; j < b.X; j++ {
+            // set up neighbors
+            b.Map[i][j].NW = b.Map[(i+b.Y-1)%b.Y][(j+b.X-1)%b.X]
+            b.Map[i][j].N = b.Map[(i+b.Y-1)%b.Y][j]
+            b.Map[i][j].NE = b.Map[(i+b.Y-1)%b.Y][(j+1)%b.X]
+            b.Map[i][j].W = b.Map[i][(j+b.X-1)%b.X]
+            b.Map[i][j].E = b.Map[i][(j+1)%b.X]
+            b.Map[i][j].SW = b.Map[(i+1)%b.Y][(j+b.X-1)%b.X]
+            b.Map[i][j].S = b.Map[(i+1)%b.Y][j]
+            b.Map[i][j].SE = b.Map[(i+1)%b.Y][(j+1)%b.X]
+
+            dot, _ := utf8.DecodeRuneInString(".")
+            var thes rune
+            n, err = fmt.Scanf("%c", &thes)
+
+            if n != 1 {
+                fmt.Printf("%#v", n)
+                panic("1Invalid input")
+            }
+            if err != nil {
+                fmt.Printf("%#v", err)
+                panic("2Invalid input")
+            }
+            b.Map[i][j].cur_alive = (dot != thes)
+        }
+        var s string
+        fmt.Scanf("\n", &s)
+    }
+    return
+}
+
+func (b *Board) Print() {
+    // clear!
+    fmt.Println("\033[2J")
+    fmt.Println("\033[1;1H")
+    for i := 0; i < b.Y; i++ {
+        for j := 0; j < b.X; j++ {
+            if b.Map[i][j].cur_alive {
+                fmt.Printf("#")
+            } else {
+                fmt.Printf(".")
+            }
+        }
+        fmt.Printf("\n")
+    }
+}
+
+func (b *Board) Step() {
+    for i := 0; i < b.Y; i++ {
+        for j := 0; j < b.X; j++ {
+            alivep := b.Map[i][j].nextalive()
+            b.Map[i][j].next_alive = alivep
+        }
+    }
+
+    // swap'em
+    for i := 0; i < b.Y; i++ {
+        for j := 0; j < b.X; j++ {
+            b.Map[i][j].cur_alive = b.Map[i][j].next_alive
+        }
+    }
+
+}
+
+func main() {
+    var timeout int
+    flag.IntVar(&timeout, "t", 100, "Milliseconds to wait between draws")
+    flag.Parse()
+
+    startmap, iters := readInput()
+    // simulate conway
+    fmt.Println("\033[?25l")
+    startmap.Print()
+    for i := 0; i < iters; i++ {
+        time.Sleep(time.Duration(timeout) * time.Millisecond)
+        startmap.Step()
+        startmap.Print()
+    }
+    fmt.Println("\033[?25h")
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]codemac -1 points0 points1 point 3 years ago (0 children)
+
+Got it a bit smaller:
+
+package main
+
+import (
+    "flag"
+    "fmt"
+    "time"
+    "unicode/utf8"
+)
+
+const (
+    TICK = iota
+    TOCK
+)
+
+type Board struct {
+    X, Y, tick int
+    Map        [2][][]bool
+}
+
+func (b *Board) Step() {
+    count := 0
+    for i := 0; i < b.Y; i++ {
+        for j := 0; j < b.X; j++ {
+            count = 0
+            for _, y := range []int{(i + b.Y - 1) % b.Y, i, (i + 1) % b.Y} {
+                for _, x := range []int{(j + b.X - 1) % b.X, j, (j + 1) % b.X} {
+                    if b.Map[TICK][y][x] {
+                        count++
+                    }
+                }
+            }
+
+            b.Map[TOCK][i][j] = b.Map[TICK][i][j]
+            switch {
+            case b.Map[TICK][i][j] && (count > 4 || count < 3):
+                b.Map[TOCK][i][j] = false
+            case !b.Map[TICK][i][j] && count == 3:
+                b.Map[TOCK][i][j] = true
+            }
+        }
+    }
+    // swap tick and tock
+    for i := 0; i < b.Y; i++ {
+        for j := 0; j < b.X; j++ {
+            b.Map[TICK][i][j] = b.Map[TOCK][i][j]
+        }
+    }
+}
+
+func readInput() (b *Board, iterations int) {
+    dot, _ := utf8.DecodeRuneInString(".")
+
+    b = &Board{}
+    _, _ = fmt.Scanf("%d %d %d\n", &iterations, &b.X, &b.Y)
+
+    b.Map[TICK] = make([][]bool, b.Y)
+    b.Map[TOCK] = make([][]bool, b.Y)
+    for i := range b.Map[TICK] {
+        b.Map[TICK][i] = make([]bool, b.X)
+        b.Map[TOCK][i] = make([]bool, b.X)
+    }
+
+    for i := 0; i < b.Y; i++ {
+        for j := 0; j < b.X; j++ {
+            var thes rune
+            _, _ = fmt.Scanf("%c", &thes)
+            b.Map[TICK][i][j] = (dot != thes)
+        }
+        var s string
+        fmt.Scanf("\n", &s)
+    }
+    return
+}
+
+func (b *Board) Print() {
+    fmt.Println("\033[2J")
+    fmt.Println("\033[1;1H")
+    for i := 0; i < b.Y; i++ {
+        for j := 0; j < b.X; j++ {
+            if b.Map[TICK][i][j] {
+                fmt.Printf("#")
+            } else {
+                fmt.Printf(".")
+            }
+        }
+        fmt.Printf("\n")
+    }
+}
+
+func main() {
+    var timeout int
+    flag.IntVar(&timeout, "t", 100, "Milliseconds to wait between draws")
+    flag.Parse()
+
+    startmap, iters := readInput()
+    // simulate conway
+    fmt.Println("\033[?25l")
+    startmap.Print()
+    for i := 0; i < iters; i++ {
+        time.Sleep(time.Duration(timeout) * time.Millisecond)
+        startmap.Step()
+        startmap.Print()
+    }
+    fmt.Println("\033[?25h")
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]TSLRed 0 points1 point2 points 3 years ago* (0 children)
+
+Java
+
+I had a lot of fun with this challenge. There were a lot of small issues along
+the way, but nothing major. My solution's a little buggy still; you can make it
+freeze by entering nothing on a line when inputting the initial configuration,
+but other than that, it works well enough.
+
+If anybody has suggestions to improve the code, please tell me. I could use the
+help. Anything about the freezing issue in particular would be much
+appreciated. For some reason, entering nothing in a line causes the program to
+get stuck on the scanner's "next" method call. I'm not entirely sure why it
+does, but I don't completely understand how scanners work, so that's making it
+tough to figure out.
+
+Code:
+
+import java.util.Scanner;
+
+public class Life {
+    private static int n;
+    private static int x;
+    private static int y;
+    private static char[][] board;
+    private static char[][] newBoard;
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter the number of iterations:");
+        n = input.nextInt();
+        System.out.println("Enter the width:");
+        x = input.nextInt();
+        System.out.println("Enter the height:");
+        y = input.nextInt();
+
+        board = new char[y][x];
+        newBoard = new char[y][x];
+
+        System.out.println("Enter initial setup:");
+
+        System.out.println();
+        for(int r = 0; r < board.length; r++) {
+            System.out.print((r + 1) + "\t");
+            String entry = input.next();
+            for(int c = 0; c < board[r].length; c++) {
+                if(c < entry.length())
+                    board[r][c] = entry.charAt(c);
+                else
+                    board[r][c] = '.';
+            }
+        }
+        input.close();
+
+        System.out.println();
+
+        for(int i = 0; i < n; i++)
+            updateBoard();
+
+        displayBoard();
+    }
+
+    public static void updateBoard() {
+        for(int r = 0; r < board.length; r++) {
+            for(int c = 0; c < board[r].length; c++) {
+                int onCount = 0;
+                int left;
+                int up;
+                int right;
+                int down;
+
+                // Check for wrapping around
+                if((c - 1) < 0) {
+                    left = x - 1;
+                } else {
+                    left = c - 1;
+                }
+
+                if((r - 1) < 0) {
+                    up = y - 1;
+                } else {
+                    up = r - 1;
+                }
+
+                if((c + 1) > (x - 1)) {
+                    right = 0;
+                } else {
+                    right = c + 1;
+                }
+
+                if((r + 1) > (y - 1)) {
+                    down = 0;
+                } else {
+                    down = r + 1;
+                }
+
+                // Check neighbors
+                if(board[r][left] == '#')
+                    onCount++;
+
+                if(board[up][left] == '#')
+                    onCount++;
+
+                if(board[up][c] == '#')
+                    onCount++;
+
+                if(board[up][right] == '#')
+                    onCount++;
+
+                if(board[r][right] == '#')
+                    onCount++;
+
+                if(board[down][right] == '#')
+                    onCount++;
+
+                if(board[down][c] == '#')
+                    onCount++;
+
+                if(board[down][left] == '#')
+                    onCount++;
+
+                // Determine new status
+                if(onCount == 3)
+                    newBoard[r][c] = '#';
+                else if(onCount > 3 || onCount < 2)
+                    newBoard[r][c] = '.';
+                else if(onCount == 2)
+                    newBoard[r][c] = board[r][c];
+            }
+        }
+
+        for(int r = 0; r < board.length; r++) {
+            for(int c = 0; c < board[r].length; c++) {
+                board[r][c] = newBoard[r][c];
+            }
+        }
+    }
+
+    public static void displayBoard() {
+        for(int r = 0; r < board.length; r++) {
+            for(int c = 0; c < board[r].length; c++) {
+                System.out.print(board[r][c]);
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+}
+
+Challenge output:
+
+.................
+.................
+....##.....##....
+.....##...##.....
+..#..#.#.#.#..#..
+..###.##.##.###..
+...#.#.#.#.#.#...
+....###...###....
+.................
+....###...###....
+...#.#.#.#.#.#...
+..###.##.##.###..
+..#..#.#.#.#..#..
+.....##...##.....
+....##.....##....
+.................
+.................
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]felix1429 0 points1 point2 points 3 years ago* (0 children)
+
+PHP
+
+Edited, now works with challenge input
+
+Edited again, now works with non-square grids and prints each generation
+
+Edit 3, because I know you're all waiting with bated breath for these.
+Optimized a bit.
+
+<?php
+$file = fopen("D:/PhpstormProjects/Game of Life/input.txt","r");
+$firstLine = explode(" ",fgets($file));
+$iterations = $firstLine[0];
+$x = $firstLine[1];
+$limit = $firstLine[2];
+$array = array();
+for($i = 0;$i < $limit;$i ++) {
+    $array[$i] = fgets($file);
+}
+$copy = $array;
+for($i = 1;$i <= $iterations;$i ++) {
+    for($j = 0;$j < $limit;$j ++) {
+        for($k = 0;$k < $x;$k ++) {
+            testCell($j,$k);
+        }
+    }
+    usleep(100000);
+    printArray($copy);
+    $array = $copy;
+}
+
+function testCell($height,$width) {
+    global $array,$copy;
+    $temp = 0;
+    if($array[checkIndex($height - 1,'h')][$width] == '#') { $temp ++; }
+    if($array[checkIndex($height - 1,'h')][checkIndex($width + 1,'w')] == '#') { $temp ++; }
+    if($array[checkIndex($height - 1,'h')][checkIndex($width - 1,'w')] == '#') { $temp ++; }
+    if($array[checkIndex($height + 1,'h')][checkIndex($width - 1,'w')] == '#') { $temp ++; }
+    if($array[checkIndex($height + 1,'h')][$width] == '#') { $temp ++; }
+    if($array[checkIndex($height + 1,'h')][checkIndex($width + 1,'w')] == '#') { $temp ++; }
+    if($array[$height][checkIndex($width + 1,'w')] == '#') { $temp ++; }
+    if($array[$height][checkIndex($width - 1,'w')] == '#') { $temp ++; }
+    if($array[$height][$width] == '.') {
+        if($temp == 3) {
+            $copy[$height][$width] = '#';
+        }
+    }elseif($array[$height][$width] == '#') {
+        if(($temp < 2) || ($temp > 3)) {
+            $copy[$height][$width] = '.';
+        }
+    }
+}
+
+function checkIndex($var,$let) {
+    global $x,$limit;
+    $tempIndex = '';
+    if($let == 'h') {
+        $tempIndex = $limit;
+    }elseif($let == 'w') {
+        $tempIndex = $x;
+    }
+
+    if($var == $tempIndex) {
+        return 0;
+    }elseif($var == -1) {
+        return $tempIndex - 1;
+    }else {
+        return $var;
+    }
+}
+
+function printArray($arrayVar) {
+    global $x,$limit;
+    $tempString = "";
+    for($i = 0;$i < $limit;$i ++) {
+        for($j = 0;$j < $x;$j ++) {
+            $tempString .= $arrayVar[$i][$j];
+        }
+        $tempString .= "\r\n";
+    }
+    echo $tempString . "\n\n";
+}
+?>
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]FedeMP 0 points1 point2 points 3 years ago (0 children)
+
+Coffeescript in NodeJS. Use new Game './board'
+
+# Conway's Game of Life
+
+fs = require 'fs'
+readline = require 'readline'
+rl = readline.createInterface {input: process.stdin, output: process.stdout}
+
+console.log 'Welcome to the Game of Life.'
+
+module.exports = class Game
+    constructor: (board)->
+        board = fs.readFileSync board
+        if not board then return false
+
+        rl.setPrompt ''
+        do rl.prompt
+
+        # Parse board
+        board = board
+            .toString()
+            .trim()
+            .split '\n'
+
+        # Parse options
+        options = board[0]
+            .split ' '
+        iterations = options[0]
+
+        # Finish parsing board
+        board = board.slice 1,board.length
+        board[index] = row.split '' for row, index in board
+
+        for i in [0...iterations]
+            @printBoard board
+            board = @iterate board
+            @doSetTimeout board, i
+
+        # Free the prompt when finished
+        setTimeout ->
+            do rl.close
+        , 100 * 700 + 5
+
+    # Make sure board is not rewritten by the loop
+    doSetTimeout: (arg, iteration) ->
+        setTimeout =>
+            rl.write null, {ctrl: true, name: 'l'}
+            @printBoard arg
+        , 100 * iteration
+
+    deepClone: (origin)->
+        JSON.parse JSON.stringify origin
+
+    printBoard: (board) ->
+        console.log row.join '' for row in board
+
+    iterate: (board) ->
+        tmpBoard = @deepClone board
+        for row, rowIndex in board
+            for col, colIndex in row
+
+                left = if board[rowIndex][colIndex - 1] isnt undefined then colIndex - 1 else row.length - 1
+                right = if board[rowIndex][colIndex + 1] isnt undefined then colIndex + 1 else 0
+                top = if board[rowIndex - 1] isnt undefined then rowIndex - 1 else board.length - 1
+                bottom = if  board[rowIndex + 1] isnt undefined then rowIndex + 1 else 0
+
+
+                # Counting the neighbours
+                neighbours = 0
+                neighbours++ if board[top][left] is '#'
+                neighbours++ if board[top][colIndex] is '#'
+                neighbours++ if board[top][right] is '#'
+                neighbours++ if board[rowIndex][left] is '#'
+                neighbours++ if board[rowIndex][right] is '#'
+                neighbours++ if board[bottom][left] is '#'
+                neighbours++ if board[bottom][colIndex] is '#'
+                neighbours++ if board[bottom][right] is '#'
+
+                if col is '#' # If alive
+                    tmpBoard[rowIndex][colIndex] = if 4 > neighbours > 1 then '#' else '.'
+                else # If dead
+                    tmpBoard[rowIndex][colIndex] = if neighbours is 3 then '#' else '.'
+        tmpBoard
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+  • about
+  • blog
+  • about
+  • advertising
+  • careers
+
+  • help
+  • site rules
+  • Reddit help center
+  • wiki
+  • reddiquette
+  • mod guidelines
+  • contact us
+
+  • apps & tools
+  • Reddit for iPhone
+  • Reddit for Android
+  • mobile website
+  • buttons
+
+  • <3
+  • reddit gold
+  • redditgifts
+
+Use of this site constitutes acceptance of our User Agreement and Privacy
+Policy. (C) 2018 reddit inc. All rights reserved.
+
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+Advertise - technology
+
+[pixel]
+
+π Rendered by PID 130149 on app-134  at 2018-05-09 20:29:36.678930+00:00
+running 4c4e6ea country code: CH.
+

@@ -1,0 +1,3677 @@
+close this window
+jump to content
+my subreddits
+edit subscriptions
+
+  • popular
+  • -all
+  • -random
+  • -users
+
+ | 
+
+  • AskReddit
+  • -worldnews
+  • -videos
+  • -funny
+  • -todayilearned
+  • -pics
+  • -gaming
+  • -movies
+  • -news
+  • -gifs
+  • -mildlyinteresting
+  • -aww
+  • -Showerthoughts
+  • -television
+  • -Jokes
+  • -science
+  • -OldSchoolCool
+  • -sports
+  • -IAmA
+  • -Documentaries
+  • -TwoXChromosomes
+  • -explainlikeimfive
+  • -personalfinance
+  • -books
+  • -tifu
+  • -Futurology
+  • -dataisbeautiful
+  • -WritingPrompts
+  • -nottheonion
+  • -food
+  • -Music
+  • -photoshopbattles
+  • -EarthPorn
+  • -philosophy
+  • -Art
+  • -nosleep
+  • -GetMotivated
+  • -askscience
+  • -LifeProTips
+  • -space
+  • -UpliftingNews
+  • -DIY
+  • -history
+  • -gadgets
+  • -creepy
+  • -listentothis
+  • -blog
+  • -announcements
+  • -InternetIsBeautiful
+
+more >>
+dailyprogrammer dailyprogrammer
+
+  • comments
+
+Want to join? Log in or sign up in seconds.|
+
+  • English
+
+[                    ][]
+[ ]limit my search to r/dailyprogrammer
+
+use the following search parameters to narrow your results:
+
+subreddit:subreddit
+    find submissions in "subreddit"
+author:username
+    find submissions by "username"
+site:example.com
+    find submissions from "example.com"
+url:text
+    search for "text" in url
+selftext:text
+    search for "text" in self post contents
+self:yes (or self:no)
+    include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+    include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+
+see the search faq for details.
+
+advanced search: by author, subreddit...
+
+this post was submitted on  27 Jun 2014
+49 points (88% upvoted)
+shortlink:  [https://redd.it/299h]
+[                    ][                    ]
+[ ]remember mereset password
+login
+Submissions restricted
+Only approved users may post in this community.
+
+dailyprogrammer
+
+subscribeunsubscribe142,051 readers
+
+150 users here now
+
+ 1. Challenge #321: Easy
+ 2. Challenge #321: Intermediate
+ 3. Challenge #321: Hard
+ 4. Weekly #25: Escape the trolls
+
+Welcome to r/DailyProgrammer!
+
+First time visitors of Daily Programmer please Read the Wiki to learn
+everything about this subreddit.
+
+  • Solution Submission Tutorial
+  • Solution Submission Guidelines
+  • Code / Peer-Review Guidelines
+  • Problem Submission Guidelines
+  • Achievements System
+  • Community Projects
+  • Links to other Programming subreddits
+  • Special Thanks
+
+Can't submit solutions?
+
+If you are a new or unverified account, and are unable to post comment replies,
+please click here to verify your account. Otherwise, read the Solution
+Submission Tutorial for a walkthrough of submitting a solution, or click below
+to message the moderators for assistance.
+
+Write your own challenge!
+
+To help the community and write your own challenge to be submitted, head on
+over to /r/DailyProgrammer_Ideas and share your project - read the sidebar in
+that subreddit for more information.
+
+IRC Channel
+
+Message the Moderators
+
+Challenge List in Chronological Order
+
+created by nottoobadguya community for 6 years
+message the moderators
+
+MODERATORS
+
+  • rya111113 1
+  • nint221 2
+  • Cosmologicon2 3
+  • Elite68091 1
+  • XenophonOfAthens2 1
+  • jnazario2 0
+  • Godspiral3 3
+  • Blackshell2 0
+  • fvandepitte0 0
+  • G33kDude1 1
+  • about moderation team >>
+
+discussions in r/dailyprogrammer
+<>
+X
+ 
+40 . 10 comments
+[2018-05-09] Challenge #360 [Intermediate] Find the Nearest Aeroplane
+ 
+63 . 26 comments
+[2018-05-04] Challenge #359 [Hard] Primes in Grids
+ 
+38 . 37 comments
+[2018-05-02] Challenge #359 [Intermediate] Unwrap Some Text
+ 
+66 . 111 comments
+[2018-04-30] Challenge #359 [Easy] Regular Paperfold Sequence Generator
+ 
+68 . 12 comments
+[2018-04-27] Challenge #358 [Hard] Puzzle me this
+ 
+48 . 36 comments
+[2018-04-25] Challenge #358 [Intermediate] Everyone's A Winner!
+ 
+74 . 75 comments
+[2018-04-23] Challenge #358 [Easy] Decipher The Seven Segments
+ 
+54 . 28 comments
+[2018-04-20] Challenge #357 [Hard] Continued Fractions
+ 
+58 . 26 comments
+[2018-04-19] Challenge #357 [Intermediate] Kolakoski Sequences
+ 
+70 . 114 comments
+[2018-04-11] Challenge #356 [Intermediate] Goldbach's Weak Conjecture
+
+Welcome to Reddit,
+
+the front page of the internet.
+
+Become a Redditor
+
+and subscribe to one of thousands of communities.
+
+x
+
+48
+49
+50
+
+[6/27/2014] Challenge #168 [Easy] String Index (self.dailyprogrammer)
+
+submitted 3 years ago * by Coder_d00d1 3
+
+What no hard?:
+
+So my originally planned [Hard] has issues. So it is not ready for posting. I
+don't have another [Hard] so we are gonna do a nice [Easy] one for Friday for
+all of us to enjoy.
+
+Description:
+
+We know arrays. We index into them to get a value. What if we could apply this
+to a string? But the index finds a "word". Imagine being able to parse the
+words in a string by giving an index. This can be useful for many reasons.
+
+Example:
+
+Say you have the String "The lazy cat slept in the sunlight."
+
+If you asked for the Word at index 3 you would get "cat" back. If you asked for
+the Word at index 0 you get back an empty string "". Why an empty string at 0?
+Because we will not use a 0 index but our index begins at 1. If you ask for
+word at index 8 you will get back an empty string as the string only has 7
+words. Any negative index makes no sense and return an empty string "".
+
+Rules to parse:
+
+  • Words is defined as [a-zA-Z0-9]+ so at least one of these and many more in
+    a row defines a word.
+  • Any other character is just a buffer between words."
+  • Index can be any integer (this oddly enough includes negative value).
+  • If the index into the string does not make sense because the word does not
+    exist then return an empty string.
+
+Challenge Input:
+
+Your string: "...You...!!!@!3124131212 Hello have this is a --- string Solved
+!!...? to test @\n\n\n#!#@#@%$^**#$@ Congratz this!!!!!!!!!!!!!!!!one
+---Problem\n\n"
+
+Find the words at these indexes and display them with a " " between them: 12 -1
+1 -100 4 1000 9 -1000 16 13 17 15
+
+  • 116 comments
+  • share
+  • save
+  • hide
+  • report
+
+all 116 comments
+sorted by:
+best
+topnewcontroversialoldrandomq&alive (beta)
+ [                    ]
+
+Want to add to the discussion?
+
+Post a comment!
+
+Create an account
+
+[–]skeeto-9 8 10 points11 points12 points 3 years ago (1 child)
+
+JavaScript.
+
+String.prototype.word = function(i) {
+    return this.split(/[^a-zA-Z0-9]+/).filter(function (x) {
+        return x;
+    })[i - 1] || '';
+};
+
+Usage:
+
+"The lazy cat slept in the sunlight.".word(2);
+// => "lazy"
+
+[12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15].map(function(i) {
+    return challengeInput.word(i);
+}).join(' ');
+// => "Congratz  You  have  Solved   this  Problem"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]skitch920 2 points3 points4 points 3 years ago (0 children)
+
+Nice implementation. Here is the Coffeescript version:
+
+String::word = (i) -> @split(/[^a-zA-Z0-9]+/).filter((x) -> x)[i - 1] or ''
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 3 years ago* (6 children)
+
+[deleted]
+
+[–]sosonofriends 2 points3 points4 points 3 years ago (4 children)
+
+    [^a-zA-Z0-9]+
+
+I noticed all the java solutions use that instead of the given [a-zA-Z0-9]+,
+why is that?
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]PLament 1 point2 points3 points 3 years ago* (2 children)
+
+They're dividing the string where the words aren't, rather than where they are.
+The caret* represents not
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]thezapzupnz 2 points3 points4 points 3 years ago (1 child)
+
+Caret*
+
+I was busy looking for a carrot until I realised ... :P
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]PLament 0 points1 point2 points 3 years ago (0 children)
+
+Oh haha. I never knew it was spelled that way. Thanks for that :D
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Reverse_Skydiver1 0 0 points1 point2 points 3 years ago (0 children)
+
+Hey, nice solution! We both did very similar things :) Here's mine
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Edward_H 7 points8 points9 points 3 years ago (0 children)
+
+COBOL:
+
+       >>SOURCE FREE
+IDENTIFICATION DIVISION.
+PROGRAM-ID. string-index.
+
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+01  Newline                             CONSTANT X"0A".
+
+01  i                                   PIC 9(3) VALUE 1.
+
+01  str                                 PIC X(200).
+
+01  str-words-area.
+    03  num-words                       PIC 9(3) VALUE 0.
+    03  str-words                       PIC X(30) OCCURS 1 TO 100 TIMES
+                                        DEPENDING ON num-words
+                                        INDEXED BY word-idx.
+
+01  indexes-area.
+    03  indexes-vals.
+        05  PIC S9(4) VALUE 12.
+        05  PIC S9(4) VALUE -1.
+        05  PIC S9(4) VALUE 1.
+        05  PIC S9(4) VALUE -100.
+        05  PIC S9(4) VALUE 4.
+        05  PIC S9(4) VALUE 1000.
+        05  PIC S9(4) VALUE 9.
+        05  PIC S9(4) VALUE -1000.
+        05  PIC S9(4) VALUE 16.
+        05  PIC S9(4) VALUE 13.
+        05  PIC S9(4) VALUE 17.
+        05  PIC S9(4) VALUE 15.
+    03  indexes                         REDEFINES indexes-vals
+                                        PIC S9(4) OCCURS 12 TIMES
+                                        INDEXED BY index-idx.
+
+PROCEDURE DIVISION.
+    MOVE "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...?"-
+        " to test @" & Newline & Newline & Newline & "#!#@#@%$**#$@ Congratz thi"-
+        "s!!!!!!!!!!!!!!!!one ---Problem" & Newline & Newline
+        TO str
+
+    *> Convert non-word characters to spaces.
+    PERFORM VARYING i FROM 1 BY 1 UNTIL i > 200
+        IF str (i:1) IS NOT ALPHABETIC AND str (i:1) IS NOT NUMERIC
+            MOVE SPACE TO str (i:1)
+        END-IF
+    END-PERFORM
+
+    MOVE FUNCTION TRIM(str) TO str
+
+    *> Split words into words table.
+    INITIALIZE i, num-words ALL TO VALUE
+    PERFORM UNTIL i > 200
+        ADD 1 TO num-words
+        UNSTRING str DELIMITED BY ALL SPACES INTO str-words (num-words)
+            WITH POINTER i
+    END-PERFORM
+
+    *> Display words at provided indexes.
+    PERFORM VARYING index-idx FROM 1 BY 1 UNTIL index-idx > 12
+        *> Only valid indexes will display a word.
+        IF indexes (index-idx) >= 1 AND <= num-words
+            DISPLAY FUNCTION TRIM(str-words (indexes (index-idx))),
+                SPACE NO ADVANCING
+        ELSE
+            DISPLAY SPACE NO ADVANCING
+        END-IF
+    END-PERFORM
+
+    DISPLAY SPACES
+    .
+END PROGRAM string-index.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Befriendswbob 3 points4 points5 points 3 years ago* (0 children)
+
+First post, solution in C#!
+Pretty simple. Made an object to handle the concept and rules of a string array
+using words, then called it in a loop with the given indices. Probably could
+condense it with some LINQ trickery, but I prefer being able to read my code :)
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        var sentence = new SentenceArray("...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n");
+        var indicies = new int[] { 12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15 };
+        StringBuilder sb = new StringBuilder();
+        foreach (var i in indicies)
+        {
+            sb.Append(sentence[i] + " ");
+        }
+        Console.WriteLine(sb.ToString().Trim());
+
+        Console.WriteLine("Done");
+        Console.ReadKey();
+    }
+
+    class SentenceArray
+    {
+        MatchCollection _sentence;
+        Regex _wordParser = new Regex("[a-zA-Z0-9]+");
+
+        public SentenceArray(string sentence)
+        {
+            _sentence = _wordParser.Matches(sentence);
+        }
+
+        public string this[int i]
+        {
+            get
+            {
+                if (i <= 0 || i > _sentence.Count)
+                {
+                    return string.Empty;
+                }
+                else
+                {
+                    return _sentence[i - 1].Value.Trim();
+                }
+            }
+        }
+    }
+}
+
+Output:
+
+Congratz  You  have  Solved   this  Problem
+Done
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Godd2 3 points4 points5 points 3 years ago (0 children)
+
+This one was pretty straightforward with a regex in Ruby:
+
+def str_index(str, indices)
+  s = str.split(/[\W]+/).delete_if {|t| t.eql? "" }
+  o = ""
+  indices.each {|w| unless w < 1 || w > s.length; o += s[w-1]; o += " "; end }
+  o
+end
+s = "The lazy cat slept in the sunlight."
+i = [3, 0 ,8]
+puts str_index(s, i)
+s = "...You...!!!@!3124131212 Hello have this is a --- string   Solved !!...?  to test @\n\n\n#!#@#@%$^**#$@  Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+i = [12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15]
+puts str_index(s, i)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dohaqatar71 1 2 points3 points4 points 3 years ago* (0 children)
+
+I'm a little sad to no see a hard challenge today, but I'll get over it. Here's
+my solution in Haskell
+
+Haskell
+
+import Data.List
+import Data.Char
+
+elemIndex' :: String -> Int -> String
+elemIndex' [] _ = ""
+elemIndex' str 1 = takeWhile isAlphaNum.dropWhile (not.isAlphaNum)$str
+elemIndex' str index = elemIndex' (dropWhile isAlphaNum.dropWhile (not.isAlphaNum)$str) (index-1)
+
+chalangeInput = map (elemIndex'  "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n") [12,-1,1,-100,4,1000,9,-1000,16,13,17,15]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Reverse_Skydiver1 0 2 points3 points4 points 3 years ago (1 child)
+
+Here's my solution in Java. I could make it even shorter but that would just be
+messy!
+
+public class C0168_Easy2 {
+
+    private static String input = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n";
+
+    public static void main(String[] args) {
+        String[] words = input.split("[^a-zA-Z0-9]+");
+        int[] pos = new int[] { 12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15 };
+        for(int i : pos)    if(i > 0 && i < words.length)   System.out.print(words[i] + " ");
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]KillerCodeMonky 0 points1 point2 points 3 years ago (0 children)
+
+This solution actually has two bugs. However, on this input, the two bugs are
+canceling each other. Run it again with this input:
+
+"testing one two three", indexes {1, 2, 3, 4}
+
+You should get the same string back, according to the problem description.
+However, yours will give a different answer.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 3 years ago (1 child)
+
+[deleted]
+
+[–]KillerCodeMonky 0 points1 point2 points 3 years ago (0 children)
+
+This solution actually has two bugs. However, on this input, the two bugs are
+canceling each other. Run it again with this input:
+
+"testing one two three", indexes {1, 2, 3, 4}
+
+You should get the same string back, according to the problem description.
+However, this will give a different answer.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jnazario2 0 2 points3 points4 points 3 years ago (0 children)
+
+F#, a fairly direct solution (e.g. nothing special about the language or FP in
+general being used here).
+
+open System.Text.RegularExpressions
+
+let positions = [ 12; -1; 1; -100; 4; 1000; 9; -1000; 16; 13; 17; 15 ]
+let sentence = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+let pat = Regex("[a-zA-Z0-9]+")
+let matches = pat.Matches(sentence)
+
+let output = positions
+  |> List.filter ( fun x -> x >= 0 && x <= matches.Count )
+  |> List.map ( fun x -> matches.Item(x-1).Value + " " )
+  |> System.String.Concat
+
+printfn "%s" output
+
+output:
+
+% fsharpi /tmp/easy.fsx
+Congratz You have Solved this Problem
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]joeyGibson 2 points3 points4 points 3 years ago (1 child)
+
+Here's my simple solution in Clojure. As always, a pretty-printed version is
+available at https://github.com/joeygibson/dailyprogrammer
+
+(ns dailyprogrammer.ch168-string-index
+  (:require [clojure.string :as string]))
+
+(def input "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n")
+
+(defn- scrub-input
+  "Remove invalid characters from the input string"
+  [input]
+  (map #(if (re-matches #"[a-zA-Z0-9]" (str %1))
+         %1
+         " ") input))
+
+(defn- split-input
+  "Divide the input into space-delimited chunks"
+  [input]
+  (let [chunks (string/split (str input) #"\s+")]
+    (rest chunks)))
+
+(defn- find-word
+  "Returns the word found at the given index, where 0 < index <= (count input)"
+  [input index]
+  (let [adjusted-index (dec index)]
+    (cond
+      (or (< adjusted-index 0)
+          (>= adjusted-index (count input))) ""
+      :else (nth input adjusted-index))))
+
+(defn string-index
+  "Returns all the words found at the given indexes"
+  [input indexes]
+  (string/join " " (map (partial find-word input) indexes)))
+
+(defn -main
+  [& args]
+  (let [clean-input (apply str (scrub-input input))
+        chunks (split-input clean-input)]
+    (println (string-index chunks [12 -1 1 -100 4 1000 9 -1000 16 13 17 15]))))
+
+and the output is this:
+
+Congratz  You  have  Solved   this  Problem
+
+This one was pretty easy (of course, that was in the title...).
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Dongface 2 points3 points4 points 3 years ago (0 children)
+
+Thanks for that! As someone who started looking into Clojure two days ago,
+that's very readable.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 3 years ago (2 children)
+
+[deleted]
+
+[–]BryghtShadow 2 points3 points4 points 3 years ago (1 child)
+
+Something that could translate all these to pseudocode and back? What if one of
+the future challenges were to write a program that can do just that which you
+wish for!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]7f0b 1 point2 points3 points 3 years ago (0 children)
+
+Solution in PHP.
+
+Here is the input string and indexes to find:
+
+$str = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n";
+$indexes = array(12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15);
+
+And this outputs the solution:
+
+$words = array_values(array_filter(preg_split('/[^a-z0-9]/i', $str)));
+foreach ($indexes as $index) {
+    if (isset($words[$index - 1])) {
+        echo $words[$index - 1] . ' ';
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]FerdErik 1 point2 points3 points 3 years ago (0 children)
+
+Another solution in Java 8. Again with Streams, Lambdas and RegExes.
+
+package easy2614;
+
+import java.util.Arrays;
+import java.util.stream.Collectors;
+
+public class Easy2614 {
+  public static void main(String[] args) {
+    String in = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n";
+    int[] pos = new int[] {12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15};
+    String[] words = Arrays.stream(in.split("[^a-zA-Z0-9]+")).filter(s -> s.length() > 0).toArray(String[]::new);
+    Arrays.stream(pos).filter(i -> i > 0 && i <= words.length).forEach(i -> System.out.print(words[i - 1] + " "));
+  }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]guitar8880 1 point2 points3 points 3 years ago* (12 children)
+
+Python 3.4
+
+My first solution for /r/dailyprogrammer/. I'm very new to Python, so I am open
+to all comments and criticism on my style, efficiency, or anything else that I
+should know.
+
+def Indexer(InputString, isListOfIndexes):
+    words = []
+    currentStr = ''
+
+    for char in InputString:
+        if (ord(char) >= 48 and ord(char) <= 57) or (ord(char) >= 65 and ord(char) <= 90) or (ord(char) >= 97 and ord(char) <= 122):    #If the character is a number, uppercase letter, or lowercase letter.
+            currentStr += char
+        elif (isListOfIndexes) and (ord(char) == 45):   #If indexer is a parsing a list of indexes, it will recognize '-'.
+            currentStr += char
+        elif currentStr != '':  #If no other if-checks have been activated at this point, then char is an unrecognized character. Add currentStr to words and clear currentStr.
+            words.append(currentStr)
+            currentStr = ''
+    if currentStr != '':    #If there are still characters in currentStr after the the for loop has gone through all of InputString, Add the rest of currentWord to words.
+        words.append(currentStr)
+    if (isListOfIndexes):   #If indexer is parsing a list of indexes, it will take every entry in the list and cast it as an int.
+        for x in range(len(words)):
+            words[x] = int(words[x])
+    return words
+
+def main(InputString, inputIndexes):
+    wordList = Indexer(InputString, False)
+    indexList = Indexer(inputIndexes, True)
+    returnMe = ''
+
+    for index in indexList:
+        index -= 1
+        if (index < 0) or (index >= len(wordList)):
+            continue
+        returnMe += wordList[index]
+        returnMe += ' '
+    return returnMe
+
+if __name__ == '__main__':
+    print(main(('...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n'), '12 -1 1 -100 4 1000 9 -1000 16 13 17 15'))
+
+Result:
+
+Congratz You have Solved this Problem
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]uilt 2 points3 points4 points 3 years ago (1 child)
+
+In terms of style, the official Python Style Guide recommends that you use
+lowercase and underscores for functions, and the same style for variables. It
+doesn't really recommend mixed case for anything except backward compatibility.
+Otherwise this looks pretty good. Good luck with Python!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]guitar8880 0 points1 point2 points 3 years ago (0 children)
+
+Thank you, I'll definitely check that out! I really appreciate you letting me
+know.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]BryghtShadow 1 point2 points3 points 3 years ago (9 children)
+
+For char bounds check, you can do:
+
+48 <= ord(char) <= 57
+char in '0123456789' # alternatively
+
+# Probably not suited in case we ever get 8bit strings.
+# char.isdigit() # locale dependent for 8bit strings.
+# char.isalnum() # locale dependent for 8bit strings.
+
+For out of bounds checks:
+
+not 0 <= index < len(wordList)
+
+Converting a list of integer str to integer int:
+
+for x in range(len(words)):
+    words[x] = int(words[x])
+
+can be replaced with one of the following:
+
+words = [int(w) for w in words] # list comprehension
+words = list(map(int, words)) # alternatively, converting map to list
+
+However, rather than doing the above inside def Indexer, I would recommend the
+following, which will allow you to simplify def Indexer:
+
+wordList = Indexer(InputString) # note lack of Boolean.
+indexList = list(map(int, inputIndexes.split()))
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]guitar8880 0 points1 point2 points 3 years ago (0 children)
+
+Thanks so much!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]dreugeworst 0 points1 point2 points 3 years ago (7 children)
+
+why would you call the isalnum function unsuitable?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]BryghtShadow 0 points1 point2 points 3 years ago (6 children)
+
+Unsuitable unless you're sure that the alnum in current locale is restricted to
+[A-Za-z0-9] and/or the string is not 8bit. For example,
+
+u"héĺĺóẃóŕĺd".isalnum()
+
+can be True. For this challenge, I suppose it's okay to use.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]dreugeworst 0 points1 point2 points 3 years ago (5 children)
+
+what if the string is 8bit? surely it would just isalnum() can deal with that?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]BryghtShadow 0 points1 point2 points 3 years ago (4 children)
+
+If the string is 8bit and is "alphanumeric" in the current locale, isalnum()
+will include them (for example, 'é').
+
+The requirement did not explicitly specify that input is restricted to
+[A-Za-z0-9], but it did explicitly state that a word is restricted to
+[A-Za-z0-9]. Hence why I noted that alnum may not suit.
+Of course, if the input will always be within [A-Za-z0-9], then by all means
+give it a go. Just be aware of future code where you may be given [^A-Za-z0-9]
+alnums.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]dreugeworst 0 points1 point2 points 3 years ago (3 children)
+
+so python automatically uses the system locale? and you can't pass a locale to
+isalnum either like in c++. Bit annoying, but well =)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]BryghtShadow 0 points1 point2 points 3 years ago (2 children)
+
+"Initially, when a program is started, the locale is the C locale, no matter
+what the user’s preferred locale is."
+
+https://docs.python.org/2/library/locale.html#
+background-details-hints-tips-and-caveats
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]dreugeworst 0 points1 point2 points 3 years ago (1 child)
+
+Well then there's no problem using isalnum() is there? Unless you're working on
+a large codebase where somebody may have changed the locale, you're using the C
+locale and only [A-Za-z0-9] are considered alphanumeric. In order for this to
+fail otherwise, you'd have to have set the locale yourself.
+
+I thought there was something wrong with the python program where the result
+might have change due to something beyond the programmer's control.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]BryghtShadow 0 points1 point2 points 3 years ago (0 children)
+
+There shouldn't be a problem using it for this.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]sradloff23 1 point2 points3 points 3 years ago (0 children)
+
+This is my first submission to this sub, but I have been following it for a
+while. I couldn't get the full solution for the challenge input using Ruby, but
+I was able to get the example solution relatively easily.
+
+def string_index(sentence, word_index)
+  sentence_array = sentence.split(" ")
+  return sentence_array[(word_index - 1)]
+end
+
+#driver code
+sample = "The lazy cat slept in the sunlight."
+p string_index(sample, 3) == "cat"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]bricocard 1 point2 points3 points 3 years ago (2 children)
+
+First submission in daily programmer. My solution in C
+
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <stdlib.h>
+
+#define IN 1
+#define OUT 0
+#define WORDLENGTH 25
+#define MAXWORDS 50
+
+int main (int argc, char const* argv[])
+{
+  int i, state, wordcount, wordindex;
+  char * string = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n";
+  char * word;
+  char * string_array[WORDLENGTH];
+  int indices[12] = { 12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15 };
+
+  state = OUT;
+  wordcount = 0;
+  wordindex = 0;
+  word = malloc(WORDLENGTH);
+
+  for (i = 0; i < strlen(string); i++) {
+    if(isalnum(string[i]) != 0) {
+      state = IN;
+      word[wordindex] = string[i];
+      wordindex++;
+    } else {
+      if (state == IN) {
+        word[wordindex++] = '\0';
+        string_array[wordcount] = malloc(strlen(word));
+        strcpy(string_array[wordcount], word);
+        wordcount++;
+      }
+      state = OUT;
+      wordindex = 0;
+    }
+  }
+  for (i = 0; i < sizeof(indices); i++) {
+    if ( ( indices[i] > 0 ) && (indices[i] < wordcount + 1)) {
+      fprintf(stdout, "%s ", string_array[indices[i] - 1]);
+    }
+  }
+  fprintf(stdout, "\n");
+
+  return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]its_that_time_again 0 points1 point2 points 3 years ago (1 child)
+
+     for (i = 0; i < strlen(string); i++) {
+
+It's probably better to move the strlen(string) outside of the for loop's
+condition section, so that it's not called once per step in the loop.
+
+    if(isalnum(string[i]) != 0) {
+
+Doesn't match the problem statement of [a-zA-Z0-9]+ ... isalnum() is
+locale-dependent.
+
+    string_array[wordcount] = malloc(strlen(word));
+    strcpy(string_array[wordcount], word);
+
+malloc needs +1 for the '\0'
+
+    for (i = 0; i < sizeof(indices); i++) {
+
+Loops too often; should be sizeof(indices) / sizeof(indices[0])
+
+    return 0;
+
+There are wordcount+1 calls to free() missing here ;-)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]bricocard 0 points1 point2 points 3 years ago (0 children)
+
+thanks for all the comments! i will study each one carefully.
+
+what do you mean isalnum() is locale-dependent? what would be the alternative,
+to create a char array with [a-zA-Z0-9] and go through it to check whather
+there is a match to the char being checked?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]killedbythegrue 1 point2 points3 points 3 years ago (0 children)
+
+Erlang
+
+  run() ->
+      String = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n",
+      Indexes = [12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15],
+      {match,Words} = re:run(String, "[0-9A-Za-z]+", [{capture, all, list}, global]),
+      lists:map(printfun(Words),Indexes),
+      io:fwrite("~n"),
+      ok.
+
+  printfun(List) ->
+      fun(Idx) ->
+          try io:fwrite("~s ", [lists:nth(Idx,List)])
+          catch _:_ -> ok
+          end
+      end.
+
+outuput:
+
+39> stringidx:run().
+Congratz You have Solved this Problem
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]cooper6581 1 point2 points3 points 3 years ago (2 children)
+
+Erlang:
+
+-module(easy).
+-export([test/0]).
+
+get_message(Words, Indices) ->
+    get_message(Words, Indices, []).
+get_message(_Words, [], Acc) ->
+    [binary_to_list(X) || X <- lists:reverse(Acc)];
+get_message(Words, [H|T], Acc) ->
+    case (H < 1) or (H >= length(Words)) of
+        true  -> get_message(Words, T, Acc);
+        false -> get_message(Words, T, [lists:nth(H,Words) | Acc])
+    end.
+
+test() ->
+    [_ | Words] = re:split("...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n", "[^a-zA-Z0-9]+"),
+    Out = get_message(Words, [12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15]),
+    io:format("~p~n", [string:join(Out, " ")]),
+    ok.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]killedbythegrue 1 point2 points3 points 3 years ago (1 child)
+
+I don't think that I have ever scrolled through the regular expression doc far
+enough to notice the split function. That makes things easier. That is what I
+wanted for my solution but I couldn't get around the tuple that run returns.
+
+Split does take an option {return,list} then you could get rid of the list
+comprehension and just reverse the accumulator.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]cooper6581 0 points1 point2 points 3 years ago (0 children)
+
+Ah, I missed that! Thanks!!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]logicalish 1 point2 points3 points 3 years ago (3 children)
+
+Python 2.7:
+
+import string
+
+def cleanup(s):
+    for c in string.punctuation:
+        s = s.replace(c, ' ')
+    for c in string.digits:
+        s = s.replace(c, ' ')
+    s = ' '.join(s.split())
+    return s
+
+def find(s, i):
+    ls_str = s.split()
+    if i <= 0 or i > len(ls_str):
+        return ''
+    else:
+        return ls_str[i-1]
+
+if __name__ == '__main__':
+    in_str = raw_input('Enter String: ')
+    clean_str = cleanup(in_str)
+    in_ids = raw_input('Enter Indexes: ')
+    clean_ids = [int(n) for n in in_ids.split()]
+    for i in clean_ids:
+        print find(clean_str, i),
+
+Challenge Output:
+
+Enter String: ...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congra
+tz this!!!!!!!!!!!!!!!!one ---Problem\n\n
+
+Enter Indexes: 12 -1 1 -100 4 1000 9 -1000 16 13 17 15
+
+n  You  this  to  one n Problem this
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (2 children)
+
+Your code must have something wrong with it too because that's not the correct
+output.. :(
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]logicalish 1 point2 points3 points 3 years ago (1 child)
+
+Actually, the problem is that the question expects us to use reg-ex only, which
+ignores the '\n', whereas solutions similar to mine don't do that...
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+ah well that makes sense. alternatively you could just make a zillion if
+statements for each letter and number...but that would be ridiculous. your code
+is still good, just not within the boundaries of this specific question! :3
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]wtf_are_my_initials 1 point2 points3 points 3 years ago (1 child)
+
+Node.js solution
+
+var wordRegex = /[a-zA-Z0-9]+/g;
+var inputString = require('fs').readFileSync('input.txt')+'';
+var indexes = (require('fs').readFileSync('indexes.txt')+'').split(' ').map(function(num) { return parseInt(num); });
+var words = inputString.match(wordRegex);
+indexes.forEach(function(index) {
+    console.log('"' + (words[index] || '') + '"');
+});
+
+input.txt:
+
+...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\
+n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n
+
+indexes.txt:
+
+12 -1 1 -100 4 1000 9 -1000 16 13 17 15
+
+Challenge output:
+
+"n"
+""
+"3124131212"
+""
+"this"
+""
+"to"
+""
+"one"
+"n"
+"Problem"
+"this"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+Your code must have something wrong with it because the output is wrong :(
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]mr_wonderful 3 points4 points5 points 3 years ago* (2 children)
+
+Edit: New Swift solution using regular expressions:
+
+import Foundation
+
+let str = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+let indices = [12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15]
+
+let regex = "[^\\w]+"
+let delimiter = " "
+var trimmedString = str.stringByReplacingOccurrencesOfString(regex, withString:delimiter, options:NSStringCompareOptions.RegularExpressionSearch, range:nil)
+trimmedString = trimmedString.stringByTrimmingCharactersInSet(NSCharacterSet(charactersInString: delimiter))
+let substrings = trimmedString.componentsSeparatedByString(delimiter)
+
+let message = indices.reduce("") {
+    var ret = $0
+    switch $1 {
+    case 1...substrings.count:
+        if !$0.isEmpty {
+            ret += " "
+        }
+        ret += substrings[$1-1]
+    default:
+        break // Do nothing
+    }
+    return ret
+}
+println(message)
+
+Old solution:
+
+    My first solution for dailyprogrammer in Swift using XCode 6's playground.
+
+    import Foundation
+
+    let str = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+    let indices = [12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15]
+
+    let nonAlphanumericCharacterSet = NSCharacterSet.alphanumericCharacterSet().invertedSet
+    let substrings = str.componentsSeparatedByCharactersInSet(nonAlphanumericCharacterSet).filter { !$0.isEmpty }
+
+    var message: String = ""
+    for index in indices {
+        switch index {
+        case 1...substrings.count:
+            if !message.isEmpty {
+                message += " "
+            }
+            message += substrings[index-1]
+        default:
+            break // Do nothing
+        }
+    }
+    println(message)
+
+And the result of both:
+
+Congratz You have Solved this Problem
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]sulami 2 points3 points4 points 3 years ago (1 child)
+
+    [...] str.componentsSeparatedByCharactersInSet(nonAlphanumericCharacterSet).filter [...]
+
+Who thought this was a good idea?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Reverse_Skydiver1 0 0 points1 point2 points 3 years ago (0 children)
+
+I guess he was going for fewer lines of code.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Godspiral3 3 1 point2 points3 points 3 years ago* (0 children)
+
+J has its own parser verb with rules different than this. It is good at parsing
+both the language and regular written language.
+
+reddit ": ;: 'The lazy cat slept in the sunlight.'
+
+ ┌───┬────┬───┬─────┬──┬───┬─────────┐
+ │The│lazy│cat│slept│in│the│sunlight.│
+ └───┴────┴───┴─────┴──┴───┴─────────┘
+
+(<'cat') i.~ ;: 'The lazy cat slept in the sunlight.'
+
+2 NB. 0 based
+
+ reddit ":  ;: '...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n'
+ ┌───┬──────┬─┬─┬─┬─┬─┬──────────┬─────┬────┬────┬──┬─┬─┬─┬─┬──────┬──────┬─┬────┬─┬──┬────┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬────────┬────┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬───┬─┬─┬─┬───────┬─┬─┬─┬─┐
+ │...│You...│!│!│!│@│!│3124131212│Hello│have│this│is│a│-│-│-│string│Solved│!│!...│?│to│test│@│\│n│\│n│\│n│#│!│#│@│#│@│%│$│*│*│#│$│@│Congratz│this│!│!│!│!│!│!│!│!│!│!│!│!│!│!│!│!│one│-│-│-│Problem│\│n│\│n│
+ └───┴──────┴─┴─┴─┴─┴─┴──────────┴─────┴────┴────┴──┴─┴─┴─┴─┴──────┴──────┴─┴────┴─┴──┴────┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴────────┴────┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴─┴───┴─┴─┴─┴───────┴─┴─┴─┴─┘
+
+:: uses the left verb as an alternate if the right verb produces an error {
+selects from left using indexes on right.
+
+Using J's parser rules (not problem's regex which I may do later):
+
+   12 _1 1 _100 4 1000 9 _1000 16 13 17 15 { :: (a:"_)"0 1  ;: '...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n'
+
+ ┌─┬─┬──────┬┬─┬┬────┬┬──────┬─┬──────┬─┐
+ │a│n│You...││!││have││string│-│Solved│-│
+ └─┴─┴──────┴┴─┴┴────┴┴──────┴─┴──────┴─┘
+
+the rx version: (_1 is valid index, and J does not read embedded /n in strings
+as C)
+
+] s=. ( 12 _1 1 _100 4 1000 9 _1000 16 13 17 15) { :: (a:"_)"0 1  (<,'n') -.~ '[^a-zA-Z0-9]+' (rxall -.~  rxmatches rxcut ] ) '...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n'
+ ┌────────┬───────┬───┬┬────┬┬──────┬┬┬────┬┬───────┐
+ │Congratz│Problem│You││have││Solved│││this││Problem│
+ └────────┴───────┴───┴┴────┴┴──────┴┴┴────┴┴───────┘
+;: inv s
+ Congratz Problem You  have  Solved   this  Problem
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]toodim 1 point2 points3 points 3 years ago (0 children)
+
+Python 3.4
+
+import re
+
+str_to_index = "...You...!!!@!3124131212 Hello have this is a --- string \
+                 Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!\
+                 # !!!!!!!!!!!!!!one ---Problem\n\n"
+
+strings = re.findall("[a-zA-Z0-9]+",str_to_index)
+index_list = [12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15]
+new_str = ""
+
+for i in index_list:
+    if i in range(len(strings)+1):
+        new_str+=strings[i-1]
+    new_str+=" "
+print(new_str)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]poeir 0 points1 point2 points 3 years ago (0 children)
+
+Approach in Python 2.7, extend the str class. The argparse module is overkill
+here, but it adds handy flexibility for testing. The 1-based indexing threw me
+off, I'm so used to starting counting at 0.
+
+#! /usr/bin/python
+
+import argparse
+import re
+import sys
+
+class IndexableString(str):
+    # What to consider as part of a word.
+    REGEX = r'[a-zA-Z0-9]+'
+
+    def get_word_at(self, n):
+        found = re.findall(IndexableString.REGEX, self)
+        zero_based_index = n - 1
+        if ((zero_based_index < 0) or (zero_based_index >= len(found))):
+            return ''
+        else:
+            return found[zero_based_index]
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Get words found at '
+                                                 'specified indices.')
+
+    parser.add_argument('-i', '--input', action='store', default=None,
+                        dest='input', help='Input file to use.  If not '
+                                            'provided, uses stdin.')
+    parser.add_argument('-o', '--output', action='store', default=None,
+                        dest='output', help='Output file to use.  If not '
+                                            'provided, uses stdout.')
+    parser.add_argument('indices', metavar='INDICES', type=int, nargs='+',
+                        help='Indices to look up in string')
+
+    args = parser.parse_args()
+
+    with (open(args.input) if args.input is not None else sys.stdin) \
+         as infile:
+        with (open(args.output, 'w')
+              if args.output is not None
+              else sys.stdout)\
+             as outfile:
+            s = IndexableString(' '.join(infile.readlines()))
+            print ' '.join([s.get_word_at(x) for x in args.indices])
+
+Usage:
+
+$ echo -e '...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n' | python string_index.py 12 -1 1 -100 4 1000 9 -1000 16 13 17 15
+
+Congratz  You  have  Solved   this  Problem
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dontbeanegatron 0 points1 point2 points 3 years ago (0 children)
+
+Here's my version in Javascript, pretty quick 'n dirty: http://jsbin.com/
+zehixili/2/edit
+
+Edit: I added a wordAt() function to String's prototype that splits the string
+into bits and returns the word at the given index.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]thinksInCode 0 points1 point2 points 3 years ago (0 children)
+
+Trying another one in Groovy:
+
+def str = '...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n'
+def wordPattern = ~/[a-zA-Z0-9]+/
+def words = []
+def matcher = wordPattern.matcher(str)
+def result = ''
+
+while (matcher.find()) {
+    words.add(matcher.group())
+}
+
+for (index in [12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15]) {
+    def word = index >= 1 && index <= words.size ? words[index - 1] : ''
+    println index + '-> ' + word
+    result += ' ' + word + ' '
+}
+
+println result
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]zenodotus 0 points1 point2 points 3 years ago (0 children)
+
+First post, feedback welcome! Javascript solution intended to be executed by
+node.js:
+
+var input = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+
+var output = stringIndex(12, input) + " " +
+            stringIndex(-1, input) + " " +
+            stringIndex(1, input) + " " +
+            stringIndex(-100, input) + " " +
+            stringIndex(4, input) + " " +
+            stringIndex(1000, input) + " " +
+            stringIndex(9, input) + " " +
+            stringIndex(-1000, input) + " " +
+            stringIndex(16, input) + " " +
+            stringIndex(13, input) + " " +
+            stringIndex(17, input) + " " +
+            stringIndex(15, input);
+
+console.log(output);
+
+function stringIndex(idx, string) {
+    var result = "";
+
+    if(idx < 1)
+        return result;
+
+    var array = string.split(/[^a-zA-Z0-9]+/);
+
+    if(idx >= array.length)
+        return result;
+
+    result = array[idx];
+
+    return result;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dreamyeyed 0 points1 point2 points 3 years ago (0 children)
+
+Lua:
+
+local function parse_words (str)
+    local words = {}
+    for word in str:gmatch("(%w+)") do
+        words[#words+1] = word
+    end
+    return words
+end
+
+local words = parse_words('"...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"')
+for _, index in ipairs{12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15} do
+    io.write(words[index] and words[index] or "", " ")
+end
+print() -- newline
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]mortenaa 0 points1 point2 points 3 years ago (0 children)
+
+Solved with Dart. Only slight problem was the $ characters, which are used for
+string interpolation in Dart. I used a raw string to avoid the problem, but
+this created another problem, the quoted newlines (\n) got interpreted as two
+characters instead of newlines. Solved this by replacing them with literal
+newlines in the raw string.
+
+void main() {
+  String input = r'...You...!!!@!3124131212 Hello have this is a --- string '
+               + r'Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!'
+               + r'!!!!!!!!!!!!!!!one ---Problem\n\n';
+  List<int> indices = [12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15];
+  var word = new RegExp(r"[a-zA-Z0-9]+");
+  var matches = word.allMatches(input.replaceAll(r'\n', '\n'));
+  var strings = [];
+  for (int i in indices) {
+    if (i > 0 && i <= matches.length)
+      strings.add(matches.elementAt(i - 1).group(0));
+  }
+  print(strings.join(' '));
+}
+
+Challenge Output
+
+Congratz You have Solved this Problem
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]r_s 0 points1 point2 points 3 years ago* (0 children)
+
+C++ (C11)
+
+#include <iostream>
+#include <string>
+#include <vector>
+#include <stdexcept>
+
+void print_words(const std::vector<int> &check,
+         const std::vector<std::string> &words){
+    for (const auto &i : check){
+       try { std::cout<< words.at(i-1)<<" "; }
+       catch (const std::out_of_range& oor) {}
+    }
+  std::cout<<std::endl;
+}
+
+int main(){
+    const std::string example = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n";
+    const std::string allow = "abcdefghijklmnopqrstuvwxiyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    const std::vector<int> check = {12,-1,1,-100,4,1000,9,-1000,16,13,17,15};
+    std::vector<std::string> words;
+
+    size_t apos = 0;
+    for (auto pos = example.find_first_not_of(allow);
+     pos < example.size();
+     pos = example.find_first_not_of(allow, ++pos)){
+
+    auto tmp = example.substr(apos, pos-apos);
+    if (tmp != "") words.push_back(tmp);
+    apos = pos + 1;
+    }
+    print_words(check, words);
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]mdlcm 0 points1 point2 points 3 years ago (0 children)
+
+Used R. Steps: (1) data input (2) extract word from string (3) find indices to
+keep (4) construct the sentence
+
+library(stringr)
+
+## data input
+a <- "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+
+## extract word
+a.word <- str_extract_all(a,"[a-zA-Z0-9]+")[[1]]
+
+## find the index number to keep
+num <- c(12,-1,1,-100,4,1000,9,-1000,16,13,17,15)
+num.keep <- num[which(num >= 1 & num <= length(a.word))]
+
+## construct sentence
+sentence <- ""
+i <- 1
+for(i in 1:length(num.keep)){
+   sentence <- paste(sentence, a.word[num.keep[i]], sep=" ")
+   i <- i+1
+}
+
+## print result
+print(sentence)
+
+Output
+
+" Congratz You have Solved this Problem"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]eslag90 0 points1 point2 points 3 years ago (0 children)
+
+Seems like cheating to use regular expressions, but here is python 2.7
+
+import re
+
+inp = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+
+words = re.findall(r'\w+', inp)
+
+num_lst = "12 -1 1 -100 4 1000 9 -1000 16 13 17 15"
+
+def find_word(num):
+    if 0 < num <= len(words):
+        return words[num-1]
+    else:
+        return ''
+
+print ' '.join([find_word(int(num)) for num in num_lst.split()])
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Komorebi 0 points1 point2 points 3 years ago (3 children)
+
+My solution in Python 2.7. Still getting the hang of this language. Decided to
+try some doctests for this one, as well as the challenge input. Comments
+welcome. Thanks.
+
+"""wordindex.py
+/r/dailyprogrammer #168 (Easy 2): String Index
+
+Module to index strings at words rather than characters.
+"""
+import re
+
+def word_index(string, index):
+    """Given a string, index each the string at word boundaries, with
+    a word defined by the regex [a-zA-Z0-9]+ indexed starting at 1.
+    Any index outside of the string should return an empty string.
+
+    >>> word_index('The lazy cat slept in the sunlight', 3)
+    'cat'
+    >>> word_index('The lazy cat slept in the sunlight', 0)
+    ''
+    >>> word_index('The lazy cat slept in the sunlight', 8)
+    ''
+    """
+    split_string = re.sub('[^a-zA-Z0-9]', ' ', string).split()
+    if index < 1 or index > len(split_string):
+        return ''
+    return split_string[index-1]
+
+if __name__ == '__main__':
+    #    import doctest
+    #    doctest.testmod()
+    challenge_str =  "...You...!!!@!3124131212 Hello have this is a --- \
+string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!\
+!!!!!!!one ---Problem\n\n"
+    print word_index(challenge_str, 12)   + " " \
+        + word_index(challenge_str, -1)   + " " \
+        + word_index(challenge_str, 1)    + " " \
+        + word_index(challenge_str, -100) + " " \
+        + word_index(challenge_str, 4)    + " " \
+        + word_index(challenge_str, 1000) + " " \
+        + word_index(challenge_str, 9)    + " " \
+        + word_index(challenge_str,-1000) + " " \
+        + word_index(challenge_str, 16)   + " " \
+        + word_index(challenge_str, 13)   + " " \
+        + word_index(challenge_str, 17)   + " " \
+        + word_index(challenge_str, 15)   + " " \
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]BryghtShadow 0 points1 point2 points 3 years ago (2 children)
+
+Range checks:
+
+# index < 1 or index > len(split_string)
+not 1 <= index <= len(split_string) # same as above.
+
+Crafting output string with list comprehensions:
+
+# if the indices were a string
+index = map(int, '12 -1 1 -100 4 1000 9 -1000 16 13 17 15'.split())
+# otherwise, we can just use a list of ints
+index = [12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15]
+# list comprehension to create a list of "words"
+words = [word_index(challenge_str, i) for i in index]
+# join words with spaces, and print it.
+print ' '.join(words)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]doldrim 0 points1 point2 points 3 years ago (1 child)
+
+Is the range check in the mathematical style (eg. 0 < n < 1) more pythonic/
+always preferred? Still looks weird to me (C/Java guy), but I can see the draw
+to it.
+
+Also, very cool tricks with the list comprehensions. Thanks.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]BryghtShadow 0 points1 point2 points 3 years ago (0 children)
+
+I believe 0 < y < z is preferred to 0 < y and y < 1, because each expression is
+evaluated at most once. You can even chain arbitrary number of operations (a !=
+b == c ... x <= y < z).
+
+https://docs.python.org/2/reference/expressions.html#not-in
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]flugamababoo 0 points1 point2 points 3 years ago* (0 children)
+
+Python 3.4:
+
+#!/usr/bin/python3
+class WordIndexableString(str):
+    def word_at(self, index):
+        words = self.split_words()
+        if index > len(words) or index < 1:
+            return ""
+
+        return words[index-1]
+
+    def split_words(self):
+        remove = [c for c in self if not c.isalnum()]
+        string = self
+        for c in remove:
+            string = string.replace(c, " ")
+
+        string = string.split()
+        return string
+
+def main():
+    data = WordIndexableString("...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n")
+    indices = map(int, "12 -1 1 -100 4 1000 9 -1000 16 13 17 15".split())
+
+    output = filter(lambda w: w != "", [data.word_at(i) for i in indices])
+    print(" ".join(output))
+
+if __name__ == '__main__':
+    main()
+
+Output:
+
+Congratz You have Solved this Problem
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]uilt 0 points1 point2 points 3 years ago (4 children)
+
+Here's a solution in Julia. Haven't thoroughly tested the parsing yet, though.
+Julia's [] can be overloaded by adding a getindex function.
+
+type IndexedString
+    string_array::Array{String, 1}
+end
+
+IndexedString(s::String) = IndexedString(parse_string_to_array(s))
+
+function parse_string_to_array(s::String)
+    current = 1
+    words = String[]
+    while current <= length(s)
+        regex = r"[A-Za-z0-9]+"
+        word = match(regex, s, current)
+        if word == nothing
+            break
+        else
+            push!(words, word.match)
+            current = word.offset + length(word.match)
+        end
+    end
+    return words
+end
+
+
+function getindex(s::IndexedString, index::Integer)
+    if index <= 0
+        return ""
+    end
+    return s.string_array[index]
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 1 point2 points3 points 3 years ago* (3 children)
+
+I was hinking about learning Julia, is it a good second language or am I better
+of learning c++/c/objective-c/haskell/network stuff?
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]uilt 0 points1 point2 points 3 years ago (2 children)
+
+It's a lot of fun and pretty easy to use (and fast). I guess it depends on what
+you want to do with the language. Julia can do general programming but it was
+aimed at math heavy stuff. I like it because it has the readability of python
+but not the slowness. C++ is sort of a more "practical" language since it's so
+universal and well supported. But C++ is a completely different type of
+language, so it really depends on your goals as a programmer :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (1 child)
+
+I think I'll try some euler problems with Julia then :p
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]uilt 0 points1 point2 points 3 years ago (0 children)
+
+woo! Good luck and have fun!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]tally_in_da_houise 0 points1 point2 points 3 years ago (2 children)
+
+Python 2.7 solution:
+
+import string
+
+stringz = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+indexes = "12 -1 1 -100 4 1000 9 -1000 16 13 17 15"
+
+
+def parse_string(stringz, index):
+    index -= 1
+    punc = string.letters + ' '
+    x = ''.join([c if c in punc else ' ' for c in stringz]).split(' ')
+    x = [c for c in x if len(c) > 0]
+    if 0 < index < len(x):
+        return x[index]
+    else:
+        return str()
+
+indexes = indexes.split(' ')
+for i in indexes:
+    print parse_string(stringz, int(i)) + ' ',
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]BryghtShadow 0 points1 point2 points 3 years ago (1 child)
+
+Current output:
+
+this        this    to      one
+
+First word will be blank:
+
+index -= 1
+...
+if 0 < index < len(x):
+    return x[index]
+
+Only accepts alphabets and spaces (instead of alphanumeric):
+
+punc = string.letters + ' '
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]tally_in_da_houise 1 point2 points3 points 3 years ago (0 children)
+
+Fixed:
+
+import string
+
+stringz = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+indexes = "12 -1 1 -100 4 1000 9 -1000 16 13 17 15"
+
+
+def parse_string(stringz, index):
+    index -= 1
+    punc = string.letters + ' ' + string.digits
+    x = ''.join([c if c in punc else ' ' for c in stringz]).split(' ')
+    x = [c for c in x if len(c) > 0]
+    #print list(enumerate(x))
+    if 0 <= index < len(x):
+        return x[index]
+    else:
+        return str()
+
+indexes = indexes.split(' ')
+for i in indexes:
+    if len(parse_string(stringz, int(i))) > 0:
+        print parse_string(stringz, int(i)) + ' ',
+    else:
+        print parse_string(stringz, int(i)),
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]jeaton 0 points1 point2 points 3 years ago (0 children)
+
+JavaScript Harmony:
+
+var input = '...You...!!!@!3124131212 Hello have this \
+             is a --- string Solved !!...? to test @\n\
+             \n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!\
+             !!!!!!one ---Problem\n\n'
+      .split(/[^a-zA-Z0-9]+/),
+    indices = '12 -1 1 -100 4 1000 9 -1000 16 13 17 15'
+      .split(/ +/);
+
+indices.map(e => input[e]).join(' ').replace(/ +/g, ' ');
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]marchelzo 0 points1 point2 points 3 years ago (0 children)
+
+Haskell:
+
+import Text.Regex
+import Control.Monad
+
+getWord :: String -> Int -> String
+getWord s i
+    | i < 1          = ""
+    | length ws >= i = ws !! (i-1)
+    | otherwise      = ""
+    where   ws  = filter (not . null) $ splitRegex r str
+            r   = mkRegex "[^A-Za-z0-9]"
+            str = msum $ lines s
+
+testInput = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+testIndexes = [12,-1,1,-100,4,1000,9,-1000,16,13,17,15]
+
+main :: IO ()
+main = do
+    let gw = getWord testInput
+    let ws = filter (not . null) $ map gw testIndexes
+    mapM_ (\x -> putStr x >> putStr " ") ws
+    putChar '\n'
+
+It started out really clean and then deteriorated to what it is now :/
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]BryghtShadow 0 points1 point2 points 3 years ago (0 children)
+
+SWI-Prolog 6.6.6
+
+/*
+ * SWI-Prolog 6.6.6 solution for http://redd.it/299hvt
+ * "[6/27/2014] Challenge #168 [Easy] String Index"
+ */
+
+data([A|As]) -->
+    spaces(_),
+    chars([X|Xs]), {atom_codes(A, [X|Xs])},
+    spaces(_),
+    data(As).
+data([]) --> [].
+chars([X|Xs]) --> char(X), !, chars(Xs).
+chars([]) --> [].
+spaces([X|Xs]) --> space(X), !, spaces(Xs).
+spaces([]) --> [].
+space(X) --> [X], {\+ code_type(X, alnum)}.
+char(X) --> [X], {code_type(X, alnum)}.
+
+print_words(Indices, In) :-
+    (   atomic(In)
+    ->  atom_codes(In, Codes)
+    ;   Codes = In
+    ),
+    nth1_atoms(Indices, Codes, AtomList),
+
+    atomic_list_concat(AtomList, ' ', Atoms),
+    format('~s~n', [Atoms]).
+
+nth1_atoms([], _, []) :- [].
+nth1_atoms([I|Is], Codes, Atoms) :-
+    (   phrase(data(AtomList), Codes)
+    ->  nth1_atoms_([I|Is], AtomList, Atoms)
+    ;   Atoms = ['']
+    ).
+nth1_atoms_([], _, []) :- [].
+nth1_atoms_([I|Is], AtomList, [Atom|Atoms]) :-
+    (   proper_length(AtomList, Len),
+        between(1, Len, I)
+    ->  nth1(I, AtomList, Atom)
+    ;   Atom = ''
+    ),
+    nth1_atoms_(Is, AtomList, Atoms).
+
+main :-
+    % atomic
+    String1 = 'The lazy cat slept in the sunlight.',
+    Index1 = [3],
+    print_words(Index1, String1),
+    % list of codes
+    String2 = "...You...!!!@!3124131212 Hello have this is a --- string   Solved !!...?  to test @\n\n\n#!#@#@%$^**#$@  Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n",
+    Index2 = [12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15],
+    print_words(Index2, String2).
+
+Output:
+
+?- main.
+cat
+Congratz  You  have  Solved   this  Problem
+true.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Regimardyl 0 points1 point2 points 3 years ago (0 children)
+
+Haskell, pretty sure I could make it shorther but this should be very readable
+at least.
+
+import Data.Char(isAlphaNum)
+import System.Environment(getArgs)
+
+words' :: String -> [String]
+words' "" = []
+words' s = if w=="" then words' s' else w : words' s'
+    where
+        (w,_:s') = span isAlphaNum s
+
+idx :: [[a]] -> Int -> [a]
+idx l n
+    | n <= 0        = []
+    | n > length l  = []
+    | otherwise     = l !! (n-1)
+
+main = do
+    (s:i) <- getArgs
+    let l = words' s
+    putStrLn $ unwords $ filter (/=[]) $ map (idx l . read) i
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]bearcherian 0 points1 point2 points 3 years ago (0 children)
+
+Solution in D. New to the language, coming from Java.
+
+Going by the parsing rules alone, just as they are, then 'n' is a valid word
+and '\' is part of the buffer between words.
+
+This is my initial solution.
+
+And the initial output:
+
+n You have Solved this n one Congratz
+
+But taking in the assumption that '\n' is to be treated as a single newline
+character, this is my second solution.
+
+And the output is
+
+Congratz You have Solved  this Problem
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]wildlyinaccurate 0 points1 point2 points 3 years ago (0 children)
+
+4 lines of Clojure:
+
+(def input "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n")
+
+(def input-split (re-seq #"[a-zA-Z0-9]+" input))
+
+(defn input-index [index] (nth input-split (- index 1) nil))
+
+(println (clojure.string/join " " (remove nil? (map input-index [12 -1 1 -100 4 1000 9 -1000 16 13 17 15]))))
+
+Output:
+
+Congratz You have Solved this Problem
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]unptitdej 0 points1 point2 points 3 years ago* (0 children)
+
+Here's a C solution with a char lookup table. It's the next fastest way after
+the compile time regex. Fastest if the string is not known at compile time.
+
+https://github.com/mitchi/dailyprogrammer-challenges
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]MrP_123 0 points1 point2 points 3 years ago (0 children)
+
+Java once again:
+
+Didn't know you could use a for each like this.
+
+package Challenge_168_Easy2;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class StringIndex{
+    public static final String input = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n";
+    public static List<String> words = Arrays.asList(input.split("[^a-zA-Z0-9]+"));
+    public static int[] indices = {12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15};
+
+    public static String wordAtIndex(int index){
+        if(index < 0 || index >= words.size()) return "";
+        return words.get(index);
+    }
+
+    public static void main(String[] args){
+        for(int index : indices){
+            String word = wordAtIndex(index);
+            System.out.print(word + " ");
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dreugeworst 0 points1 point2 points 3 years ago* (8 children)
+
+Haven't seen a c++ answer yet:
+
+[edit] apparently r_s had a c++ solution that I missed. Like his use of
+standard algorithms, so changed mine to use them.
+
+#include <locale>
+#include <string>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+class Words {
+    vector<string> _data;
+    string fallback = "";
+
+public:
+    Words(string &str) {
+        auto it = str.begin(), end = str.end();
+        while (it != end) {
+            auto b = find_if(it, end, [](char c){ return isalnum(c);});
+            auto e = find_if_not(b, end, [](char c){ return isalnum(c);});
+            if (b != e)
+                _data.emplace_back(b, e);
+            it = e;
+        }
+    }
+
+    string &operator[](int const index) {
+        if (index < 1 || index > _data.size())
+            return fallback;
+        return _data[index - 1];
+    }
+};
+
+int main() {
+    string teststr =  "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n"
+                      "#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n";
+
+    Words words(teststr);
+    for (int i: {12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15}) {
+        if (words[i] != "")
+            cout << words[i] << " ";
+    }
+    cout << endl;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]r_s 0 points1 point2 points 3 years ago (2 children)
+
+I posted a C++ answer earlier, but as is often the case in C++, our approaches
+are very different.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]dreugeworst 0 points1 point2 points 3 years ago (1 child)
+
+Yeah turns out I missed yours. I like that you use the find* functions, have
+changed my solution to use the find_if standard algorithms. Not such a big fan
+of using exceptions as control flow though, an if-statement is no longer, and
+signals the intent better I think.. Is using excepions in this way common
+practice in c++?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]arabwes 0 points1 point2 points 3 years ago (1 child)
+
+Hi, could you by chance explain the "auto b = ..." line. I couldn't figure out
+what was going on with a portion of that last parameter "[] (char c)" Please
+and thank you
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 3 years ago (2 children)
+
+[deleted]
+
+[–]dreugeworst 1 point2 points3 points 3 years ago (1 child)
+
+ahh yes, you're right =)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]BryghtShadow 0 points1 point2 points 3 years ago (0 children)
+
+Python 3.4
+
+Indexes can be int, str, or list.
+
+import re
+
+
+alnum = r"[a-zA-Z0-9]+"
+
+
+def find_words(s, idx):
+    words = re.findall(alnum, s)
+    if type(idx) == str:
+        idx = idx.split()
+    if type(idx) == list:
+        idx = map(int, idx)
+    if type(idx) == int:
+        idx = [idx]
+    return ' '.join(words[n - 1] if 1 <= n <= len(words) else '' for n in idx)
+
+
+if __name__ == '__main__':
+    s1 = "The lazy cat slept in the sunlight."
+    i1 = 3
+    print(find_words(s1, i1))
+    s2 = "...You...!!!@!3124131212 Hello have this is a --- string   Solved !!...?  to test @\n\n\n#!#@#@%$^**#$@  Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+    i2 = "12 -1 1 -100 4 1000 9 -1000 16 13 17 15"
+    print(find_words(s2, i2))
+
+Out:
+
+cat
+Congratz  You  have  Solved   this  Problem
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jonnywoh 0 points1 point2 points 3 years ago (1 child)
+
+Powershell
+
+$string = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @`n`n`n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem`n`n"
+$indices = (12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15)
+
+# Convert non-word characters to whitespace
+$processedstring = $string -replace '[^A-Za-z0-9]', ' '
+
+# Convert consecutive whitespace to single whitespace
+$processedstring = $processedstring -replace '(?<= ) +', ''
+
+# Get rid of beginning and ending whitespace
+$processedstring = $processedstring.trim()
+
+# Split into individual words
+$words = $processedstring.split(' ')
+
+# get words by index
+$results = ($indices | %{
+    if($_ -in 1..$words.length) {
+        $words[$_ - 1]
+    } else {
+        ''
+    }
+} | Where { # filter out empty strings
+    $_.length -gt 0
+})
+
+$output = [string]::join(' ', $results)
+echo $output
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]KillerCodeMonky 1 point2 points3 points 3 years ago* (0 children)
+
+I think you could have done a lot of this with a simpler split operation.
+
+$words = $string.Trim() -split '[^A-Za-z0-9]+' |? { $_.Length -gt 0 };
+
+Then, bad indexes into an array return null, which automatically gets removed
+from pipelines. However, negative indices will go from the back of the array,
+so we need to filter those:
+
+$indices |? { $_ -ge 1 } |% { $words[$_ - 1] };
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]mm865 0 points1 point2 points 3 years ago (0 children)
+
+Python 2.7 OOP type implicit solution :)
+
+class IndexString:
+    def __init__(self, user):
+        import re
+        self.words = re.compile('[a-zA-Z0-9]+').findall(user)
+
+    def find(self, userIn):
+        if type(userIn) is int:
+            if userIn == 0 or userIn > len(self.words):
+                return ''
+            elif userIn < 0:
+                if userIn / -1 > len(self.words) + 1:
+                    return ''
+                else:
+                    return self.words[userIn]
+            else:
+                return self.words[userIn - 1]
+        elif type(userIn) is str:
+            return self.words.index(userIn) + 1
+
+    def sentence(self, userIn = None):
+        if type(userIn) is None:
+            return ' '.join(self.words)
+        elif type(userIn) is list:
+            self.output = []
+            for i in userIn:
+                self.output.append(self.find(i))
+            return ' '.join(self.output)
+
+To test:
+
+test = IndexString( "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n")
+print test.sentence([12,-1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15])
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]sadwhaleissad 0 points1 point2 points 3 years ago* (0 children)
+
+Just using Lua :) Edit: Formatting
+
+local leString = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+local values = {12,-1,1,-100,4,1000,9,-1000,16,13,17,15}
+
+local function getWordAtIndex(string,index)
+    --Separate the string into 'words'/dump into a table
+    local words = {}
+    for word in string:gmatch("[a-zA-Z0-9]+") do
+        words[#words+1] = word
+    end
+    return words[index] or ""
+end
+
+for i=1,#values do
+    print(getWordAtIndex(leString,values[i]))
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Olidan[🍰] 0 points1 point2 points 3 years ago (0 children)
+
+First Dailyprogrammer, with a C# soloution Feedback is welcome.
+
+class Program
+    {
+        static void Main(string[] args)
+        {
+            Regex r = new Regex("[a-zA-Z0-9]+");
+            MatchCollection mC;
+            StringBuilder sentence = new StringBuilder();
+
+            string input = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n";
+
+            int[] indexes = new int[] { 12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15     };
+
+            mC = r.Matches(input, 0);
+            foreach (var item in indexes)
+            {
+                if (item > 0 && item <= mC.Count)
+                {
+                    sentence.Append(mC[item-1].ToString() + " ");
+                }
+
+            }
+            Console.WriteLine(sentence);
+            Console.ReadLine();
+        }
+    }
+
+Output:
+
+Congratz You have Solved this Problem
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]kuzux0 0 0 points1 point2 points 3 years ago (0 children)
+
+My haskell solution:
+
+import Data.List.Split
+import Data.Char
+
+splitWords :: String -> [String]
+splitWords = (filter $ not . null) . (splitWhen $ not . isAlphaNum)
+
+nthWord :: [String] -> Int -> String
+nthWord xs n | n <= length xs && n > 0 = xs !! (n-1)
+             | otherwise               = ""
+
+str = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+
+indices = [12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15]
+
+main = putStrLn . unwords $ map (nthWord . splitWords $ str) indices
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]its_that_time_again 0 points1 point2 points 3 years ago (0 children)
+
+C implementation, a little verbose but fairly readable:
+
+#include <stddef.h> /* size_t */
+#include <stdio.h> /* fprintf() */
+#include <stdlib.h> /* calloc(), free() */
+#include <string.h> /* strspn(), strcspn(), strlen() */
+
+typedef struct
+{
+  const char* str;
+  size_t len;
+}
+Word;
+
+static Word*
+get_words(const char* in, size_t* setme_len)
+{
+    const char* const word_chars = "abcdefghijklmnopqrstuvwxyz"
+                                   "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                                   "0123456789";
+    size_t max_words;
+    Word * words;
+    size_t n_words;
+
+    max_words = strlen(in)/2 + 1;
+    words = (Word*) calloc (max_words, sizeof(Word));
+    n_words = 0;
+
+    while (*in)
+    {
+        size_t len;
+
+        /* walk past nonword chars */
+        len = strcspn(in, word_chars);
+        if (len > 0)
+        {
+            in += len;
+            continue;
+        }
+
+        /* build the next word */
+        len = strspn(in, word_chars);
+        words[n_words].str = in;
+        words[n_words].len = len;
+        ++n_words;
+
+        in += len;
+    }
+
+    *setme_len = n_words;
+    return words;
+}
+
+static void
+print_words (FILE* out,
+             const Word* words, size_t n_words,
+             const int* indices, size_t n_indices)
+{
+    Word * printme;
+    size_t n_printme;
+    size_t i;
+
+    printme = (Word*) malloc (sizeof(Word)*n_indices);
+    n_printme = 0;
+
+    for (i=0; i<n_indices; i++)
+    {
+        const int index = indices[i] - 1; /* -1 b/c indices are 1-based */
+
+        if (0<=index && (size_t)index<n_words)
+            printme[n_printme++] = words[index];
+    }
+
+    for (i=0; i<n_printme-1; i++)
+        fprintf (out, "%.*s ", (int)printme[i].len, printme[i].str);
+    fprintf (out, "%.*s\n", (int)printme[i].len, printme[i].str);
+
+    free (printme);
+}
+
+int
+main (void)
+{
+    const char* str = "...You...!!!@!3124131212 Hello have this is a --- "
+                      "string Solved !!...? to test @\n\n\n#!#@#@%$**#$@"
+                      "Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n";
+    int indices[] = { 12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15 };
+
+    Word* words;
+    size_t n_words;
+
+    words = get_words (str, &n_words);
+    print_words (stdout,
+                 words, n_words,
+                 indices, sizeof(indices)/sizeof(indices[0]));
+
+    free(words);
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dp_account 0 points1 point2 points 3 years ago (0 children)
+
+Python 3:
+
+import re
+
+class WordList(list):
+    def __init__(self, text):
+        self.words = re.findall("[a-zA-Z0-9]+", text)
+    def __getitem__(self, index):
+        index -= 1
+        if index > -1 and index < len(self.words):
+            return self.words[index]
+        return ""
+
+wl = WordList("...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n")
+indices = map(int, "12 -1 1 -100 4 1000 9 -1000 16 13 17 15".split())
+print(" ".join([wl[i] for i in indices if wl[i] != ""]))
+
+Output:
+
+Congratz You have Solved this Problem
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]undergroundmonorail 0 points1 point2 points 3 years ago (1 child)
+
+Python 2.7 - 117 bytes
+
+s=''.join([' ',c][c.isalnum()]for c in raw_input()).split()
+print' '.join(s[i-1]if 0<i<=len(s)else""for i in input())
+
+Usage examples:
+
+$ python2 168.py
+The lazy cat slept in the sunlight.
+3, 1, 7, 0, 4, -1, 9, 6
+cat The sunlight  slept   the
+
+ 
+
+$ cat input
+"...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+12,-1,1,-100,4,1000,9,-1000,16,13,17,15
+$ python2 168.py < input
+n  You  have  Solved  this n one Congratz
+
+^^^I feel like I was supposed to interpret your \
+ns as literal newlines, rather than a backslash and an 'n', but you didn't specify and this saves me characters.
+
+I love code golf. If you've never heard of code golf, it's similar to regular
+golf: Golfers try to put a ball in a hole with the least strokes, and code
+golfers try to solve some kind of problem with the least keystrokes; that is,
+the smallest source code. Generally speaking, 1 character == 1 byte, so this is
+a 120 character solution.
+
+Code golfers don't care about things like "code style" or "efficiency", so you
+definitely shouldn't look at golfed code and think "I'll try that in my real
+projects!", but it's a fun exercise nonetheless.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+How it works
+
+The first line gets a line of input and turns it into a list split at
+non-alphanumeric characters. I could have done this with regular expressions,
+but I didn't for a couple reasons:
+
+  • I'm not super comfortable with regex, so I don't know if just splitting at
+    /\W+/ would match the spec.
+
+  • I don't know that it would save bytes. Probably, but maybe not.
+
+  • I like this solution. It's creative. :)
+
+To do this, we define a generator expression like so:
+
+[' ',c][c.isalnum()]for c in raw_input()
+
+All this means is "For every character in the first line of input, call that
+character c. Then, return the result of [' ',c][c.isalnum()] for every c.
+
+c.isalnum() is a function that returns True if c is a letter or number and
+False otherwise. However, python is a very weakly typed language, and has no
+problem converting those bools to ints silently if it needs to. For our
+purposes, we'll say it returns 1 if c is alphanumeric and 0 otherwise.
+
+[' ',c] is just a list. It has a string with a single space character, and it
+has the original c from the input.
+
+We use the result of c.isalnum() to index into this list. Remember, we're
+dealing with the return value as an int. Lists are 0 indexed, so we get out the
+space string if c isn't alphanumeric, and the original c if it is.
+
+join is a useful function. You stick it onto some string, feed it an iterable,
+and it creates a string with every element from the iterable separated by the
+string you stuck it on. Here, we do ''.join (meaning "no delimiter") and feed
+it the generator we just made. This gives us the same string we had at the very
+beginning, except every non-alphanumeric character has been replaced with a
+space.
+
+Calling split() on a string gives us a list of that string, split at every
+instance of split's argument, or all whitespace by default. We just replaced
+our non-alnum characters with whitespace, so we just got a list of the words we
+need! Stick in in a variable called s and we're done our first line. Only one
+more to go!
+
+There's another generator expression in the second line:
+
+s[i-1]if 0<i<=len(s)else""for i in input()
+
+In python2, input() basically means eval(raw_input()). It turns whatever the
+input is into a python data structure. You'll notice that in my examples, I put
+commas between the indexes I wanted the program to look at. That way, it gets
+turned into a tuple of ints. (One quirk of this is that if you only want one
+word, you have to type it as, for example, "5,".)
+
+This expression spits out the result of s[i-1]if 0<i<=len(s)else"" for each i
+in the input. (We can't use the bool indexing trick we used earlier since we
+need it to "short-circuit" this time. That's not too important so I won't
+explain it unless someone asks.) This checks to make sure that i is greater
+than 0 and not longer than the number of words in our first input. If that is
+true, we give up and output an empty string directly. Otherwise, though, we
+subtract 1 from i (to account for 1-indexing) and get the word at that index
+from the list we saved before.
+
+We use join again, this time with a space as the delimiter. Then, we simply
+print the result and we are done! Hooray! \o/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Sorry about how long this got! One of the great ironies in life is that shorter
+code needs a longer explanation. :P
+
+I can move the explanation off-site and link to it if it's a problem.
+Otherwise, enjoy!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]BryghtShadow 0 points1 point2 points 3 years ago (0 children)
+
+Python 2.7, 104 bytes
+
+import re
+s=re.findall(r'[^\W_]+',raw_input())
+print' '.join(s[i-1]if 0<i<=len(s)else""for i in input())
+
+Python 3.4, 109 bytes
+
+import re
+s=re.findall(r'[^\W_]+',input())
+print(' '.join(s[i-1]if 0<i<=len(s)else""for i in eval(input())))
+
+map(int,) reduces 1 byte compared to int()int().
+
+If we're allowing for space delimited index input, then the following aren't
+too bad at 121 bytes (Py2) and 119 bytes (Py3):
+
+python 2.7, 121 bytes
+
+import re
+s=re.findall(r'[^\W_]+',raw_input())
+print' '.join(s[i-1]if 0<i<=len(s)else""for i in map(int,input().split()))
+
+python 3.4, 119 bytes
+
+import re
+s=re.findall(r'[^\W_]+',input())
+print(' '.join(s[i-1]if 0<i<=len(s)else""for i in map(int,input().split())))
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]poltergeistt 0 points1 point2 points 3 years ago (0 children)
+
+First time submitting a solution. I used Haxe to solve this challenge. Comments
+make up more than half of the code, though. I always overdo it with the
+comments.
+
+class Main
+{
+    static function main () : Void
+    {
+        /*  Words are defined with the regular expression [a-zA-Z0-9]+.
+         *  Searching for arrays of characters that do not comply with
+         *  the aforementioned regex makes it possible to use the split()
+         *  method to remove them from the input string. This splits
+         *  the input string into substrings that comply with the
+         *  regex that defines a word. These substrings are then stored
+         *  in an array.
+         */
+        var r = ~/[^a-zA-Z0-9]+/g;
+        var s : String = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n";
+        var sRaw : Array<String> = r.split(s);
+        /*  If a match is found at the start of the string passed to the
+         *  split() method, the result contains a leading empty String ""
+         *  entry. If a match is found at the end of the string passed to
+         *  the split() method, the result contains a trailing empty String
+         *  "" entry. If two matching substrings appear next to each other,
+         *  the result contains the empty string "" between them. Because
+         *  of this behaviour, the 'raw' array of substrings needs to be
+         *  adequately parsed.
+         *  Because the words (substrings) in the array are supposed to
+         *  be stored from index 1 onwards, an empty String "" is stored
+         *  at index 0 of the parsed array of strings. Other words are
+         *  pushed on top of the array, storing them beginning with index 1.
+         */
+        var sParsed : Array<String> = [""];
+        for (w in sRaw)
+        {
+            if (w != "") sParsed.push(w);
+        }
+        /*  Words stored in the parsed array of strings need to be printed
+         *  in a specific order. That order is stored in an array, from
+         *  which it is recalled by the for loop.
+         *  OUTPUT: Congratz You have Solved this Problem
+         */
+        var i : Array<Int> = [12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15];
+        for (n in i)
+        {
+             if (sParsed[n] != null) Sys.print(sParsed[n] + " ");
+        }
+    }
+}
+
+I'm guessing there's probably a better way of doing this because I really
+haven't put too much thought in it. Either way, I'm happy with the outcome.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dailyRubyProgrammer 0 points1 point2 points 3 years ago (0 children)
+
+Here's my solution in - you guessed it - Ruby:
+
+emptyWord = ""
+firstWord =  "The lazy cat slept in the sunlight."
+sampleWord = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+
+def indexWord(wordToIndex, index)
+    result = wordToIndex.split(%r{[^a-zA-Z0-9]+}).delete_if{|i| i == ""}
+    return (index - 1) <= result.length && (index - 1) >= 0 ? result[index - 1] : ""
+end
+
+puts indexWord(emptyWord, 3)
+puts indexWord(firstWord, 3)
+puts indexWord(sampleWord, 2)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]allcentury 0 points1 point2 points 3 years ago (0 children)
+
+I decided to write my own [] method in ruby...
+
+class Sentence
+
+  def initialize(text)
+    @text = text
+  end
+
+  def [] (index)
+    words = get_words
+    words.has_key?(index.to_s) ? words[index.to_s] : ""
+  end
+
+  private
+
+  def get_words
+    words = {}
+    array = @text.split
+    ctr = 1
+    array.each do |word|
+      words[ctr.to_s] = word
+      ctr += 1
+    end
+    words
+  end
+
+end
+
+The test suit looks like this:
+
+require 'rspec'
+require_relative '../lib/sentence'
+
+describe Sentence do
+  let(:sentence) { Sentence.new("The lazy cat slept in the sunlight.") }
+  it 'takes a sentence and allows an word look up' do
+    expect(sentence[3]).to eq('cat')
+  end
+  it 'starts at one index' do
+    expect(sentence[1]).to eq("The")
+  end
+  it 'gives a blank string at 0' do
+    expect(sentence[0]).to eq("")
+  end
+  it 'gives a blank string with a zero call' do
+    expect(sentence[-1]).to eq("")
+  end
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]compmstr 0 points1 point2 points 3 years ago (0 children)
+
+My Haskell Solution:
+
+import Data.Char (isAlphaNum)
+import Data.List (groupBy)
+import Data.Maybe (catMaybes)
+
+myWords :: String -> [String]
+myWords ws = filter (any isAlphaNum) $ groupBy (\c c' -> and [isAlphaNum c, isAlphaNum c']) ws
+
+probIdx :: [a] -> Int -> Maybe a
+probIdx xs idx = if and [idx > 0, idx <= length xs]
+                    then Just $ xs !! (idx - 1)
+                    else Nothing
+testString = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+indices = [12, (-1), 1, (-100), 4, 1000, 9, (-1000), 16, 13, 17, 15]
+results = unwords $ catMaybes $ map (probIdx testWords) indices
+  where testWords = myWords testString
+        testLen = length testWords
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]hellectric 0 points1 point2 points 3 years ago (0 children)
+
+A bit late, but a solution in Groovy:
+
+def string =  '...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n'
+def indexes = [12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15]
+
+def words = string =~ /[a-zA-Z0-9]+/
+
+println indexes
+            .collect { it - 1 } // convert from 1-based to 0-based indexing
+            .findAll { it in 0..words.size() - 1 } // only keep valid indexes
+            .collect { words[it] }
+            .join(" ")
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]this_shall_pass 0 points1 point2 points 3 years ago* (0 children)
+
+C++ Solution:
+
+#include "stdafx.h"
+#include <iostream>
+#include <map>
+#include <string>
+
+using namespace std;
+
+void parseString(const string input, map<int, string> &words)
+{
+int index = 0;
+string tmpString = "";
+for (auto c : input){
+    if (isalnum(c)){
+        tmpString += c;
+    }
+    else{
+        if (tmpString != ""){
+            words[++index] = tmpString;
+            tmpString = "";
+        }
+    }
+}
+}
+
+int main()
+{
+map<int, string> words;
+string input = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n";
+const int indexes[] = { 12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15, };
+
+parseString(input, words);
+
+for (auto i : indexes){
+    if (words[i] != ""){
+        cout << words[i] + " ";
+    }
+}
+getchar();
+return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dnerd 0 points1 point2 points 3 years ago (0 children)
+
+c#
+
+string input = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n";
+input = input.Replace("\n", " ");
+string indicesString = "12 -1 1 -100 4 1000 9 -1000 16 13 17 15";
+List<int> indices = indicesString.Split(' ').Select ( s => int.Parse(s) -1 ).ToList();
+List<string> matches = Regex.Matches( input, @"\b\w+\b" ).OfType<Match>().Select (m => m.Value).ToList();
+List<int> validIndices =  indices.Where (i => i >= 0 && i< matches.Count ).ToList();
+string answer = string.Join( " ", validIndices.Select (i => matches[i] ).ToList() );
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+First time poster here. This is my humble solution in Golang. :)
+
+package main
+import (
+    "fmt"
+    "log"
+    "regexp"
+)
+var TestString = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+var OutputArray = make(map[int]string)
+
+func main() {
+
+    word := ""
+    i := 1
+    for _, letter := range TestString {
+        matched, err := regexp.MatchString("[a-zA-Z0-9]+", string(letter))
+        if err != nil {
+            log.Panic(err)
+        }
+        if matched {
+            word += string(letter)
+        } else if word != "" {
+            OutputArray[i] = word
+            word = ""
+            i++
+        }
+    }
+    fmt.Println(OutputArray[12], OutputArray[-1], OutputArray[1], OutputArray[-100], OutputArray[4], OutputArray[1000], OutputArray[9], OutputArray[-1000], OutputArray[16], OutputArray[13], OutputArray[17], OutputArray[15])
+}
+
+  • permalink
+  • embed
+  • save
+
+[–]DeliveryNinja 0 points1 point2 points 3 years ago (0 children)
+
+I did a solution in Scala, just learning! Made it immutable, also bit late to
+the party
+
+class Challenge168(val text: String) {
+
+  val regexPattern = "[a-zA-Z0-9]+".r
+  val words : List[String] = (regexPattern findAllIn text).toList
+
+  def getWordAtIndex(index : Int) : String = {
+    if(words == null || index < 1 || index > words.length) ""
+    else words(index - 1)
+  }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]-AMD- 0 points1 point2 points 3 years ago (0 children)
+
+Python 2.7
+
+import re
+
+def string_index(sentence, index_number):
+    pattern = re.compile(r'[^a-zA-Z0-9]+')
+    word_list = re.split(pattern, sentence)
+    if 0 < index_number < len(word_list)+1:
+        return word_list[index_number - 1]
+    else:
+        return ""
+
+if __name__ == '__main__':
+    print string_index(raw_input('Enter a sentence: '), int(raw_input('Enter an index: ')))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]VerifiedMyEmail 0 points1 point2 points 3 years ago (0 children)
+
+python 3.3 not pretty
+
+def string_index(string, indices):
+    indices = setup(indices)
+    words = get_words(string)
+    message = select_words(indices, words)
+    print(' '.join(message))
+
+def setup(data):
+    datas = [number for number in data.split()]
+    indices = []
+    for data in datas:
+        indices.append(int(data))
+    return indices
+
+def get_words(string):
+    alphabet = 'acbdefghijklmnopqrstuvwxyz'
+    number = '1234567890'
+    word = ''
+    EMPTY = ''
+    message = []
+    for character in string:
+        if character.lower() in alphabet or character in number:
+            word += character
+        elif word != EMPTY:
+            message.append(word)
+            word = ''
+    return message
+
+def select_words(indices, words):
+    message = []
+    for index in indices:
+        if index > 0:
+            try:
+                message.append(words[index - 1])
+            except:
+                pass
+    return message
+
+string_index('...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n',
+             '12 -1 1 -100 4 1000 9 -1000 16 13 17 15')
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]stropheum 0 points1 point2 points 3 years ago* (0 children)
+
+I made a quick attempt in c++. Here's what I got:
+
+#include <cstdlib>
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+string getWord(string sentence, int n);
+bool isValid(char c);
+
+int main(int argc, char** argv) {
+
+    cout << getWord(sentence, 12) << " "
+<< getWord(sentence, -1)     << " "
+<< getWord(sentence, 1) << " "
+<< getWord(sentence, -100) << " "
+<< getWord(sentence, 4) << " "
+<< getWord(sentence, 1000) << " "
+<< getWord(sentence, 9) << " "
+<< getWord(sentence, -1000) << " "
+<< getWord(sentence, 16) << " "
+<< getWord(sentence, 13) << " "
+<< getWord(sentence, 17) << " "
+<< getWord(sentence, 15) << endl;
+
+}
+
+string getWord(string sentence, int n) {
+    int count = 0;
+    int start = 0;
+    int end = 0;
+    string output;
+
+    for (int i = 0; i < sentence.length(); i++) {
+        if (!isValid(sentence.at(i))) {
+            count++;
+        }
+        if (count == (n - 1)) {
+            start = i + 1;
+        }
+        if (count == n) {
+            end = i;
+        }
+    }
+}
+    output = sentence.substr(start,(end-start));
+    return output;
+}
+
+bool isValid(char c) {
+    if (isalpha(c) || isdigit(c) && c != '\n') {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+And the test output:
+
+3124131212    You    is Hello a this
+
+RUN SUCCESSFUL (total time: 125ms)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Carnitin 0 points1 point2 points 3 years ago (0 children)
+
+PHP
+
+<?php
+
+$string = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n";
+$indexes = array(12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15);
+
+$words = preg_split('([^a-zA-Z0-9]+)', $string);
+
+foreach($indexes as $position) {
+    if(isset($words[$position]) && !empty($words[$position])) {
+        echo $words[$position] . ' ';
+    }
+}
+
+echo PHP_EOL;
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Flapling 0 points1 point2 points 3 years ago (0 children)
+
+Rust (0.12.0-pre-nightly (5d200dd60dabf94323d13b98b6c3d0b88f100b85 2014-07-13
+01:16:34 +0000))
+
+extern crate regex;
+
+fn core() -> std::io::IoResult<()> {
+    let text = try!(std::io::stdin().read_to_string());
+    let indices = std::os::args().slice_from(1).iter()
+        .map(|x| from_str::<int>(x.as_slice()))
+        .filter(|x| x.is_some())
+        .map(|x| x.unwrap())
+        .collect::<Vec<int>>();
+    let words = regex::Regex::new("[^a-zA-Z0-9]+").unwrap()
+        .split(text.as_slice())
+        .filter(|x| x.as_bytes().len() > 0)
+        .map(|x| x.to_string())
+        .collect::<Vec<String>>();
+    let mut first = true;
+    for i in indices.iter().map(|&i| i) {
+        if !first {
+            print!(" ");
+        }
+        first = false;
+        print!("{}",
+               if i > 0 && i as uint <= words.len() {
+                   words.get(i as uint - 1).as_slice()
+               } else {
+                   ""
+               });
+    }
+    print!("\n");
+    Ok(())
+}
+
+fn main() {
+    core().unwrap()
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]chunes1 2 0 points1 point2 points 3 years ago (0 children)
+
+Learning Haskell:
+
+import Data.List.Split
+import Data.List
+import Data.Char
+
+input :: [Char]
+input =  "...You...!!!@!3124131212 Hello have this is a --- string "
+    ++ "Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!"
+    ++ "!!!!!!!!!!!!!one ---Problem\n\n"
+
+rawIndices :: [Int]
+rawIndices = [12,(-1),1,(-100),4,1000,9,(-1000),16,13,17,15]
+
+getIndices :: [Int] -> [Int]
+getIndices xs = filter (\x -> x > 0 && x <= (length $ getWords input)) xs
+
+getWords :: [Char] -> [[Char]]
+getWords xs = wordsBy (\x -> not $ isAlphaNum x) xs
+
+getMessage :: [[Char]] -> [Int] -> [Char]
+getMessage a b = intercalate " " $ map (\x -> a !! (x - 1)) b
+
+main :: IO ()
+main = putStrLn $ getMessage (getWords input) (getIndices rawIndices)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Coplate 0 points1 point2 points 3 years ago (0 children)
+
+COBOL
+
+gist here
+
+It Doesn't return in the requested format becasue I don't know how to do that
+yet.
+
+Its also hard coded to add 1 to the index, becasue of the same data starting
+with a seperator, so it wont work on a normal string.
+
+OUTPUT
+
++013>Congratz
++002>You
++005>have
++010>Solved
++014>this
++016>Problem
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]downloadingYourRAMs 0 points1 point2 points 3 years ago (0 children)
+
+My C# solution. I created an extension method so that you can call
+myString.Word(index).
+
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Text.RegularExpressions;
+
+namespace StringIndex
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string test = "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n";
+            int[] positions = new int[] {12, -1, 1, -100, 4, 1000, 9, -1000, 16, 13, 17, 15};
+
+            foreach(int position in positions)
+            {
+                string word = test.Word(position);
+                if(word != "")
+                {
+                    Console.Write(word + " ");
+                }
+            }
+
+            Console.Read();
+        }
+    }
+
+    public static class StringExtension
+    {
+        public static string Word(this String str, int index)
+        {
+            string[] words = GetArrayOfWords(str);
+            if (words.Length >= index && index > 0)
+            {
+                return words[index - 1];
+            }
+            else
+            {
+                return "";
+            }
+        }
+
+        private static string[] GetArrayOfWords(string str)
+        {
+
+            List<string> words = new List<string>();
+
+            Match match = Regex.Match(str, "[a-zA-Z0-9]+");
+
+            while(match.Success)
+            {
+                words.Add(match.ToString());
+                match = match.NextMatch();
+            }
+
+            return words.ToArray();
+
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]verydapeng 0 points1 point2 points 3 years ago (0 children)
+
+clojure
+
+(defn p168 [text indexes]
+  (->> indexes
+       (map dec)
+       (map (partial get (vec (re-seq #"[a-zA-Z0-9]+" text))))
+       (filter (complement nil?))
+       (interleave (repeat " "))
+       (drop 1)
+       (apply str)))
+
+run the codes
+
+(p168 "...You...!!!@!3124131212 Hello have this is a --- string Solved !!...? to test @\n\n\n#!#@#@%$**#$@ Congratz this!!!!!!!!!!!!!!!!one ---Problem\n\n"
+      [12 -1 1 -100 4 1000 9 -1000 16 13 17 15]); "Congratz You have Solved this Problem"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+  • about
+  • blog
+  • about
+  • advertising
+  • careers
+
+  • help
+  • site rules
+  • Reddit help center
+  • wiki
+  • reddiquette
+  • mod guidelines
+  • contact us
+
+  • apps & tools
+  • Reddit for iPhone
+  • Reddit for Android
+  • mobile website
+  • buttons
+
+  • <3
+  • reddit gold
+  • redditgifts
+
+Use of this site constitutes acceptance of our User Agreement and Privacy
+Policy. (C) 2018 reddit inc. All rights reserved.
+
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+Advertise - technology
+
+[pixel]
+
+π Rendered by PID 44816 on app-508  at 2018-05-09 20:27:59.169459+00:00 running
+4c4e6ea country code: CH.
+

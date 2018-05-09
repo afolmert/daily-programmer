@@ -1,0 +1,3640 @@
+close this window
+jump to content
+my subreddits
+edit subscriptions
+
+  • popular
+  • -all
+  • -random
+  • -users
+
+ | 
+
+  • AskReddit
+  • -worldnews
+  • -videos
+  • -funny
+  • -todayilearned
+  • -pics
+  • -gaming
+  • -movies
+  • -news
+  • -gifs
+  • -mildlyinteresting
+  • -aww
+  • -Showerthoughts
+  • -television
+  • -Jokes
+  • -science
+  • -OldSchoolCool
+  • -sports
+  • -IAmA
+  • -Documentaries
+  • -TwoXChromosomes
+  • -explainlikeimfive
+  • -personalfinance
+  • -books
+  • -tifu
+  • -Futurology
+  • -dataisbeautiful
+  • -WritingPrompts
+  • -nottheonion
+  • -food
+  • -Music
+  • -photoshopbattles
+  • -EarthPorn
+  • -philosophy
+  • -Art
+  • -nosleep
+  • -GetMotivated
+  • -askscience
+  • -LifeProTips
+  • -space
+  • -UpliftingNews
+  • -DIY
+  • -history
+  • -gadgets
+  • -creepy
+  • -listentothis
+  • -blog
+  • -announcements
+  • -InternetIsBeautiful
+
+more >>
+dailyprogrammer dailyprogrammer
+
+  • comments
+
+Want to join? Log in or sign up in seconds.|
+
+  • English
+
+[                    ][]
+[ ]limit my search to r/dailyprogrammer
+
+use the following search parameters to narrow your results:
+
+subreddit:subreddit
+    find submissions in "subreddit"
+author:username
+    find submissions by "username"
+site:example.com
+    find submissions from "example.com"
+url:text
+    search for "text" in url
+selftext:text
+    search for "text" in self post contents
+self:yes (or self:no)
+    include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+    include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+
+see the search faq for details.
+
+advanced search: by author, subreddit...
+
+this post was submitted on  16 Apr 2014
+63 points (94% upvoted)
+shortlink:  [https://redd.it/236v]
+[                    ][                    ]
+[ ]remember mereset password
+login
+Submissions restricted
+Only approved users may post in this community.
+
+dailyprogrammer
+
+subscribeunsubscribe142,051 readers
+
+148 users here now
+
+ 1. Challenge #321: Easy
+ 2. Challenge #321: Intermediate
+ 3. Challenge #321: Hard
+ 4. Weekly #25: Escape the trolls
+
+Welcome to r/DailyProgrammer!
+
+First time visitors of Daily Programmer please Read the Wiki to learn
+everything about this subreddit.
+
+  • Solution Submission Tutorial
+  • Solution Submission Guidelines
+  • Code / Peer-Review Guidelines
+  • Problem Submission Guidelines
+  • Achievements System
+  • Community Projects
+  • Links to other Programming subreddits
+  • Special Thanks
+
+Can't submit solutions?
+
+If you are a new or unverified account, and are unable to post comment replies,
+please click here to verify your account. Otherwise, read the Solution
+Submission Tutorial for a walkthrough of submitting a solution, or click below
+to message the moderators for assistance.
+
+Write your own challenge!
+
+To help the community and write your own challenge to be submitted, head on
+over to /r/DailyProgrammer_Ideas and share your project - read the sidebar in
+that subreddit for more information.
+
+IRC Channel
+
+Message the Moderators
+
+Challenge List in Chronological Order
+
+created by nottoobadguya community for 6 years
+message the moderators
+
+MODERATORS
+
+  • rya111113 1
+  • nint221 2
+  • Cosmologicon2 3
+  • Elite68091 1
+  • XenophonOfAthens2 1
+  • jnazario2 0
+  • Godspiral3 3
+  • Blackshell2 0
+  • fvandepitte0 0
+  • G33kDude1 1
+  • about moderation team >>
+
+discussions in r/dailyprogrammer
+<>
+X
+ 
+43 . 10 comments
+[2018-05-09] Challenge #360 [Intermediate] Find the Nearest Aeroplane
+ 
+62 . 26 comments
+[2018-05-04] Challenge #359 [Hard] Primes in Grids
+ 
+41 . 37 comments
+[2018-05-02] Challenge #359 [Intermediate] Unwrap Some Text
+ 
+64 . 111 comments
+[2018-04-30] Challenge #359 [Easy] Regular Paperfold Sequence Generator
+ 
+65 . 12 comments
+[2018-04-27] Challenge #358 [Hard] Puzzle me this
+ 
+52 . 36 comments
+[2018-04-25] Challenge #358 [Intermediate] Everyone's A Winner!
+ 
+68 . 75 comments
+[2018-04-23] Challenge #358 [Easy] Decipher The Seven Segments
+ 
+57 . 28 comments
+[2018-04-20] Challenge #357 [Hard] Continued Fractions
+ 
+57 . 26 comments
+[2018-04-19] Challenge #357 [Intermediate] Kolakoski Sequences
+ 
+72 . 114 comments
+[2018-04-11] Challenge #356 [Intermediate] Goldbach's Weak Conjecture
+
+Welcome to Reddit,
+
+the front page of the internet.
+
+Become a Redditor
+
+and subscribe to one of thousands of communities.
+
+x
+
+62
+63
+64
+
+[4/16/2014] Challenge #158 [Intermediate] Part 1 - The ASCII Architect (
+self.dailyprogrammer)
+
+submitted 4 years ago * by professorlamp1 0
+
+Description
+
+In the far future, demand for pre-manufactured housing, particularly in planets
+such as Mars, has risen very high. In fact, the demand is so much that
+traditional building planning techniques are taking too long, when faced with
+the "I want it now!" mentality of the denizens of the future. You see an
+opportunity here - if you can cheaply generate building designs, you are sure
+to turn a huge profit.
+
+You decide to use ASCII to design your buildings. However, as you are lazy and
+wish to churn out many designs quickly, you decide to simply give the computer
+a string, and have the computer make the building for you.
+
+Formal input & output
+
+Input
+
+Input will be to STDIN, or read from a file input.txt located in the working
+directory of the operating system. Input consists of one line between 1 to
+231-1 length. The line can be assumed to only contain the lowercase letters
+from a to j, and numbers from 1 to 9. It can also be assumed that a number will
+not immediately follow another number in the string (i.e. if the 4th character
+is a number, the 5th character is guaranteed to be a letter, not a number.)
+
+Output
+
+Output will be to STDOUT, or written to a file output.txt in the working
+directory. For each non-number character of input, the output will contain a
+vertical line composed as shown here:
+
+A letter can also be prefixed by a number n, where n is an integer between 1
+and 9. In this case, n whitespaces must be at the bottom of the vertical line.
+For example, 3b would output
+
++
+
++
+
+S
+
+S
+
+S
+
+Where spaces are identified with a capital S (In your actual output, it should
+be actual spaces). Sample Inputs and Outputs
+
+Sample input 1 (Bridge)
+
+j3f3e3e3d3d3c3cee3c3c3d3d3e3e3f3fjij3f3f3e3e3d3d3c3cee3c3c3d3d3e3e3fj
+
+Sample output
+
+.                 . .                 .
+.*              **...**              *.
+.***          ****...****          ***.
+*-----      ------***------      -----*
+*-------  --------***--------  -------*
+*+++++++**++++++++***++++++++**+++++++*
+-+++++++--++++++++---++++++++--+++++++-
+-       --        ---        --       -
++       ++        +++        ++       +
++       ++        +++        ++       +
+
+Notes
+
+Try making your own buildings as well instead of just testing the samples.
+Don't forget to include your favourite ASCII construction with your solution!
+
+  • 68 comments
+  • share
+  • save
+  • hide
+  • report
+
+all 68 comments
+sorted by:
+best
+topnewcontroversialoldrandomq&alive (beta)
+ [                    ]
+
+Want to add to the discussion?
+
+Post a comment!
+
+Create an account
+
+[–]notTheSnake 9 points10 points11 points 4 years ago (0 children)
+
+Befunge solution! Took me about 5-6 hours in total. It will exit whenever it
+encounters anything not in a-j or 1-9. It could do with some more compacting/
+clearer pathing, but I don't think I could do anymore debugging tonight.
+
+v
+1
+0
+0
+p
+2
+5
+*
+0
+1
+
+p  > v > v > v > v > v > v > v > v > v > v
+   " - " - " - " - " - " - " - " - " - " -
+   a ! b ! c ! d ! e ! f ! g ! h ! i ! j !
+   "   "   "   "   "   "   "   "   "   "          >v
+>~:^v_:^v_:^v_:^v_:^v_:^v_:^v_:^v_:^v_:^v_:77*1+`!|
+    $   $   $   $   $   $   $   $   $   $  v+2*78:<
+    0   0   0   0   0   0   0   0   0   0  `
+    "   "   "   "   "   "   "   "   "   " v_v
+    +   +   -   -   *   *   *   .   .   . >        v
+^  <"   +   +   -   -   *   *   *   .   .   >77*-v
+p       "   +   +   -   -   *   *   *   .   v25+1<
+1           "   +   +   -   -   *   *   *   *
+0               "   +   +   -   -   *   *   \
+*                   "   +   +   -   -   *   -
+5                       "   +   +   -   -
+2                           "   +   +   -   0
+^p0  0+<                        "   +   +   1
+>00  g1^                            "   +   p
+^$<^                                    "#  <
+ v :<   <   <   <   <   <   <   <   <   <
+v_^
+ ^:             <
+>00g01gp01g1-01p^
+vp100$                                             <
+>1>:01gg,  v
+,      v:+1<
+*      0
+5      0
+2      g
+       -
+  ^    _v
+p       $
+1       0
+0       1
++       g
+1       :
+|   -*25<
+@
+
+Disclaimer: to run this I used my own Befunge interpreter, which I haven't
+compared to other (real) compilers/interpreters, so you might encounter errors
+(my interpreter is written from the specifications on Wikipedia). The program
+has not been thoroughly tested, but works for the test input.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]BondDotCom 4 points5 points6 points 4 years ago* (1 child)
+
+VBScript (under WSH):
+
+s = WScript.StdIn.ReadLine()
+c = "++--***..."
+
+With New RegExp
+    .Pattern = "\d?[a-j]"
+    .Global = True
+    Set Matches = .Execute(s)
+End With
+
+For r = 9 To 0 Step -1
+    For Each Match In Matches
+
+        y2 = Asc(Right(Match, 1)) - Asc("a")
+        If Len(Match) = 2 Then y1 = CInt(Left(Match, 1)) : y2 = y2 + y1 Else y1 = 0
+
+        If y1 <= r And r <= y2 Then WScript.StdOut.Write Mid(c, r + 1 - y1, 1) Else WScript.StdOut.Write " "
+
+    Next
+    WScript.StdOut.WriteBlankLines 1
+Next
+
+Edit: Adding my own creation. I'm a programmer, not an artist, dammit!
+
+Airplane?
+3a3a3b3b3b3c3c3ciji3c3c3c3b3b3b3a3a
+
+         .
+        ...
+        ...
+        ***
+     ---***---
+  ++++++***++++++
+++++++++---++++++++
+        ---
+        +++
+        +++
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]phao 2 points3 points4 points 4 years ago (0 children)
+
+The ariplane was quite good, actually.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 3 points4 points5 points 4 years ago (3 children)
+
+Python 3:
+
+inp = input()
+vl, out = "...***--++", [""]*10
+
+for i in range(len(inp)):
+    if inp[i].isalpha():
+        cut = ord("j") - ord(inp[i])
+        ws = int(inp[i-1]) if inp[i-1].isdigit() else 0
+        l = " "*(cut - ws) + vl[cut:] + " "*ws
+        for j in range(10):
+            out[j] += l[j]
+
+print("\n".join(out))
+
+  • permalink
+  • embed
+  • save
+
+[–][deleted] 3 points4 points5 points 4 years ago* (2 children)
+
+Bit shorter, and transposes the matrix in the print statement instead:
+
+inp, out = input(), []
+for i, c in enumerate(inp):
+    if c.isalpha():
+        cut = 106 - ord(c)
+        ws = (int(inp[i-1]) if inp[i-1].isdigit() else 0)
+        l = ("...***--++"[cut:] + " "*ws).rjust(10)
+        out.append(l)
+print("\n".join(["".join(x) for x in list(zip(*out))]))
+
+Two-liner...
+
+inp = input()
+print("\n".join(["".join(x) for x in list(zip(*[("...***--++"[106-ord(c):]+" "*(int(inp[i-1]) if inp[i-1].isdigit() else 0)).rjust(10) for i, c in enumerate(inp) if c.isalpha()]))]))
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]leonardo_m 1 point2 points3 points 4 years ago (1 child)
+
+I am lazy again. Modified from your solution, in D:
+
+void main() {
+  import std.stdio, std.ascii, std.string, std.range;
+
+  immutable S = readln.strip;
+  string[] res;
+  foreach (const p, const c; zip(' ' ~ S, S))
+    if (c.isAlpha) {
+      const ws = " ".replicate(p.isDigit ? (p - '0') : 0);
+      res ~= ("...***--++"['j' - c .. $] ~ ws).rightJustify(10);
+    }
+  writefln("%-(%s\n%)", res.transposed);
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 0 points1 point2 points 4 years ago (0 children)
+
+Woah, neat!
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]eltonhnjr 3 points4 points5 points 4 years ago (0 children)
+
+I made it in Java just to get it. It takes the input by argument
+
+import java.util.Arrays;
+
+public class Test {
+
+public static void main(String[] args) {
+    final String TEMPLATE = "++--***...";
+    final String SPACES = "          ";
+    final String INPUT = args[0];
+    final String[] LETTERS = new String[]{null, "a", "b", "c", "d", "e", "f", "g", "h", "i", "j"};
+
+    String output = "";
+
+    String[] chars = INPUT.split("");
+    for (String c : chars) {
+        if(!c.isEmpty())
+            if(c.matches("^[0-9]$")){
+                output += SPACES.substring(0, Integer.parseInt(c));
+            } else {
+                output += TEMPLATE.substring(0, Arrays.asList(LETTERS).indexOf(c)) + "\n";
+            }
+    }
+
+    System.out.println(Test.transpose(output));
+}
+
+public static String transpose(String input){
+    String[] lines = input.split("\n");
+    String result = "";
+    for(int i = 20; i >= 0; i--){
+        for(String line : lines){
+            if(line.length() >= i + 1){
+                result += line.charAt(i);
+            } else {
+                result += " ";
+            }
+        }
+        result += "\n";
+    }
+    return result;
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jalude 4 points5 points6 points 4 years ago (1 child)
+
+C#
+
+Run it online
+
+Regex.Matches((args.Length >= 1 ? args[0] : (File.Exists("input.txt") ?
+                  File.ReadAllText("input.txt") : string.Empty)), @"\d{0,1}[a-z]{1}")
+             .Cast<Match>()
+             .Select(x => "...***--++".Substring(10-(x.ToString().Last() - 96)) +
+                 (x.Length==2 ? string.Empty.PadLeft(x.Value.First()-48) : string.Empty))
+             .Select(x => x.PadLeft(10))
+             .Aggregate(string.Empty, ((c, x) => c+x))
+             .Select((x,i)=> new {Column = Math.Ceiling(i/10.0), Row=i % 10, Value = x})
+             .GroupBy(x=>x.Row)
+             .Select(x=>x.OrderBy(y=>y.Column))
+             .ToList()
+             .ForEach((x) =>
+                 {
+                     x.Select(y=>y.Value).ToList().ForEach(Console.Write);
+                     Console.Write("\r\n");
+                 });
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]DeliveryNinja 0 points1 point2 points 4 years ago (0 children)
+
+I don't do c # but that looks very nice. I should try this in java 8 or scala.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]OverlordAlex 4 points5 points6 points 4 years ago* (3 children)
+
+Python 2.7 solution. Also, the sidebar needs to be updated
+
+import numpy as np
+
+j = "++--***..."
+
+let = {
+'a' : j[:1]
+,'b' : j[:2]
+,'c' : j[:3]
+,'d' : j[:4]
+,'e' : j[:5]
+,'f' : j[:6]
+,'g' : j[:7]
+,'h' : j[:8]
+,'i' : j[:9]
+,'j' : j}
+
+s = ""
+
+marr = []
+
+for c in raw_input():
+    if c not in let:
+        s = " " * int(c)
+    else:
+        s += let[c]
+        marr.append( list(s) + " " * (10-len(s)) )
+        s = ""
+
+marr = np.rot90(np.array(marr))
+
+for line in marr:
+    print ''.join(line)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]wodahSShadow[🍰] 2 points3 points4 points 4 years ago (1 child)
+
+This assumes that the maximum height is 10 characters but isn't the input "9j"
+valid and over 10 characters tall?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]OverlordAlex 0 points1 point2 points 4 years ago (0 children)
+
+Ah you're right. Im on holiday so I can't fix it now, but what you'd need to do
+is keep track of the longest seen and modify the array at the end, or pass over
+the input twice: first to get height and again for the values
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Elite68091 1 1 point2 points3 points 4 years ago (0 children)
+
+Fixed the sidebar link. Thanks. Nice use of numpy!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]the_mighty_skeetadon 2 points3 points4 points 4 years ago (0 children)
+
+I did this one when it was on dailyprogrammer_ideas -- stupidly. but now I have
+a quick solution with some examples (Ruby):
+
+def print_architect(input)
+    disp_hash = {}
+    ('a'..'j').to_a.each_with_index {|x,ix| disp_hash[x] = '++--***...'[0..ix].reverse } #make a hash of the strings for each letter
+    string_ary = []
+    max_len = 0 #stores the maximum length string, so we can add leading whitespace -- makes it simpler
+    trailing_whitespaces = 0 #stores the number of spaces to add at the end, if we get a digit
+    input.each_char do |x|
+        str = disp_hash[x] #if it's a letter, get the string
+        if str
+            str += (' ' * trailing_whitespaces)
+            string_ary.push str
+            max_len = str.length if str.length > max_len
+            trailing_whitespaces = 0
+        else #it's a number
+            trailing_whitespaces = x.to_i
+        end
+    end
+    string_ary.map! {|str| (' ' * (max_len - str.length)) + str } #make all nodes uniform length, with leading whitespaces
+    max_len.times do |ix|
+        string_ary.each {|str| print str[ix]}
+        puts
+    end
+end
+
+bridge = 'j3f3e3e3d3d3c3cee3c3c3d3d3e3e3f3fjij3f3f3e3e3d3d3c3cee3c3c3d3d3e3e3fj' #bridge
+mountains = 'abcdefghijihgfghihgfedcdefg' #mountains
+arrow = 'f1f2f3f4f5f6f5f4f3f2f1ff' #arrow
+frozen = 'f2cccdehj5jjhedcc2cf' #frozen castle
+[bridge, mountains, arrow, frozen].each do |input|
+    print_architect input
+    puts
+    puts '--------------------'
+    puts
+end
+
+Output:
+
+.                 . .                 .
+.*              **...**              *.
+.***          ****...****          ***.
+*-----      ------***------      -----*
+*-------  --------***--------  -------*
+*+++++++**++++++++***++++++++**+++++++*
+-+++++++--++++++++---++++++++--+++++++-
+-       --        ---        --       -
++       ++        +++        ++       +
++       ++        +++        ++       +
+
+--------------------
+
+         .
+        ...     .
+       .....   ...
+      ******* *****       *
+     ***************     **
+    *****************   ***
+   ------------------- ----
+  -------------------------
+ ++++++++++++++++++++++++++
++++++++++++++++++++++++++++
+
+--------------------
+
+      *
+     ***
+    **-**
+   **---**
+  **--+--**
+ **--+++--**
+**--++ ++--**
+*--++   ++--*
+--++     ++--
+-++       ++-
+++         ++
++           +
+
+--------------------
+
+        .
+        .
+        .
+        *
+        *
+       .*.
+       .-.
+      ..-..
+      **+**
+*     **+**     *
+*-   *** ***   -*
+-+  ---- ----  +-
+-+------ ------+-
++ ++++++ ++++++ +
++ ++++++ ++++++ +
+
+--------------------
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]kalcytriol 2 points3 points4 points 4 years ago* (0 children)
+
+Clojure, exe
+
+; \a \b... -> 1, 2...
+(defn letter-to-num [l]
+   (- (int l) (int \a) -1))
+
+; \0 \1... -> 0, 1...
+(defn digit-to-num [d]
+   (- (int d) (int \0)))
+
+; [X Y] - X 0:9
+;       - Y 1:10
+
+; "a", "b" ... to [0 0], [0 1] ...
+(defn digitize-single [s]
+  [0 (letter-to-num (first s))])
+
+; "1a", "1b" ... to [1 1], [1 2] ...
+(defn digitize-double [s]
+  [(digit-to-num (first s))
+   (letter-to-num (second s))])
+
+; "a", "1b" ... to [0 1], [1 2] ...
+(defn digitize [s]
+   (if (> (count s) 1)
+       (digitize-double s)
+       (digitize-single s)))
+
+; [3 7] to (\space \space \space \+ \+ \- \- \* \* \*)
+(defn pair-to-column [t aj-column]
+  (let [c (count aj-column)
+        s1 (t 0)     ; bottom space gap
+        i (t 1)
+        s2 (- c i s1); top space gap (fill up to 10 characters)]
+    (concat  (repeat s1 \space)
+             (take (- c s1) (take i aj-column)) ; take mid part
+             (repeat s2 \space))))
+
+(defn build [sample]
+  (let [tokens (re-seq #"\d*\w" sample) ; "j3f..." -> ["j" "3f" ...]
+        aj-column [\+ \+ \- \- \* \* \* \. \. \.]
+        pairs (map #(digitize %) tokens) ; -> ("j" "3f" ...) -> ([0 10] [3 6] ...)
+        res (map #(pair-to-column % aj-column) pairs) ; ([0 10] ...) -> ([\+ \+ \- \- \* \* \* \. \. \.] ...)
+        _ (mapv println (reverse (apply map str res)))])) ; convert columns to lines (rotate) and print result
+
+
+(def sample "j3f3e3e3d3d3c3cee3c3c3d3d3e3e3f3fjij3f3f3e3e3d3d3c3cee3c3c3d3d3e3e3fj")
+(def aj-column [\+ \+ \- \- \* \* \* \. \. \.])
+
+(build sample)
+
+(assert (= (letter-to-num \a) 1))
+(assert (= (letter-to-num \j) 10))
+
+(assert (= (digit-to-num \0) 0))
+(assert (= (digit-to-num \9) 9))
+
+(assert (= (digitize-single "a") [0 1]))
+(assert (= (digitize-single "j") [0 10]))
+
+(assert (= (digitize-double "0a") [0 1]))
+(assert (= (digitize-double "1a") [1 1]))
+(assert (= (digitize-double "9j") [9 10]))
+
+(assert (= (pair-to-column [0 10] aj-column) aj-column))
+(assert (= (pair-to-column [3 2] aj-column) [\space \space \space \+ \+ \space \space \space \space \space]))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 2 points3 points4 points 4 years ago* (0 children)
+
+C
+
+#include <stdio.h>
+#include <string.h>
+
+int main(int argc, char *argv[])
+{
+     char bricks[] = " ++--***...";
+     char spaces[230] = { 0 }; char *space = spaces;
+     char layers[230];         char *layer = layers;
+     int i, max = 0;
+     char c;
+
+     for (i = 0; i < 230 && (c = getchar()) != '\n'; i++) {
+          if (c & 0x40) {       /* letter */
+               *layer = (c & 0xF)%0xB;
+               if ((*layer + *space) > max) {
+                    max = (*layer + *space);
+               }
+               space++; layer++;
+          }
+          else {
+               *space = c & 0xF;
+          }
+     }
+
+     for (; max > 0; max--) {
+          for (i = 0; i < (layer - layers); i++) {
+               if (spaces[i] + layers[i] == max &&
+                   layers[i] > 0) {
+                    putchar(bricks[layers[i]--]);
+               }
+               else {
+                    putchar(' ');
+               }
+          }
+          putchar('\n');
+     }
+
+     return 0;
+}
+
+My house:
+
+$ echo "gg1d1d1djj3e4d5c4d3ejj1d1d1dgg" | ./house
+     ..     ..
+     ..     ..
+     ..*---*..
+**   **--+--**   **
+**   **-+++-**   **
+**---**++ ++**---**
+-------+   +-------
+--+++--     --+++--
++++++++     +++++++
+++   ++     ++   ++
+
+  • permalink
+  • embed
+  • save
+
+[–]pbeard_t0 1 1 point2 points3 points 4 years ago* (0 children)
+
+C
+
+#include <ctype.h>
+#include <stdio.h>
+
+char const *lines[] = {
+    "         +                  ",
+    "         ++                 ",
+    "         ++-                ",
+    "         ++--               ",
+    "         ++--*              ",
+    "         ++--**             ",
+    "         ++--***            ",
+    "         ++--***.           ",
+    "         ++--***..          ",
+};
+
+
+int
+main( int argc, char **argv )
+{
+    char         input[232];
+    const char  *output[232];
+    char        *r;
+    const char **w;
+    int          max_pad;
+    int          pad;
+
+    scanf( "%231[a-j1-9]", input );
+
+    r = input;
+    w = output;
+    pad = max_pad = 0;
+    while ( *r ) {
+        if ( isdigit( *r ) ) {
+            pad = *r - '0';
+            if ( pad > max_pad )
+                max_pad = pad;
+        } else {
+            *w++ = lines[*r - 'a'] + 9 - pad;
+            pad = 0;
+        }
+        ++r;
+    }
+    *w = NULL;
+
+    for ( int i = 9 + max_pad ; i >= 0 ; --i ) {
+        w = output;
+        while ( *w ) {
+            putchar( (*w)[i] );
+            ++w;
+        }
+        putchar( '\n' );
+    }
+
+    return 0;
+}
+
+Edit: output:
+
+.                 . .                 .
+.*              **...**              *.
+.***          ****...****          ***.
+*-----      ------***------      -----*
+*-------  --------***--------  -------*
+*+++++++**++++++++***++++++++**+++++++*
+-+++++++--++++++++---++++++++--+++++++-
+-       --        ---        --       -
++       ++        +++        ++       +
++       ++        +++        ++       +
+
+Edit: fixed the output lines.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]skeeto-9 8 1 point2 points3 points 4 years ago* (0 children)
+
+C++11. Input goes into a string and the program interprets it repeatedly like a
+bytecode program once per line.
+
+#include <iostream>
+#include <string>
+#include <cctype>
+#include <cstring>
+
+const char pattern[] = "++--***...";
+const int kHeight = sizeof(pattern) - 1;
+
+int main() {
+  std::string input;
+  std::cin >> input;
+  for (int y = kHeight; y > 0; --y) {
+    int prefix = 0;
+    for (auto &c : input) {
+      if (std::isalpha(c)) {
+        int height = c - 'a' + 1;
+        bool is_outside = y > height + prefix || y <= prefix;
+        std::cout << (is_outside ? ' ' : pattern[y - prefix - 1]);
+        prefix = 0;  // reset prefix
+      } else {
+        prefix = c - '0';
+      }
+    }
+    std::cout << std::endl;
+  }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]OddOneOut 1 point2 points3 points 4 years ago* (3 children)
+
+C
+
+#include <stdio.h>
+
+int main(int argc, char** argv) {
+    char line[231], *c; int ln;
+    FILE *file = fopen("input.txt", "r");
+    fgets(line, sizeof(line), file ? file : stdin);
+    if (file) fclose(file);
+
+    char endchar = '\r';
+    for (ln = 20; ln >= 0; ln--) {
+        for (c = line; *c && *c != '\n'; c++) {
+            int pad = *c >= '0' && *c <= '9' ? *c++ - '0' : 0;
+            int height = *c - 'a' - ln + pad;
+            putchar(height >= 0 && ln > pad ? "++--***..."[ln - pad] : ' ');
+            if (height >= 0) endchar = '\n';
+        }
+        putchar(endchar);
+    }
+}
+
+EDIT: Fixed fgets trailing newline
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]skeeto-9 8 1 point2 points3 points 4 years ago* (2 children)
+
+Since the array line is stack-allocated it isn't guaranteed to be filled with
+zeros, or anything in particular. [DEL:You're just lucky that it happens to be
+that way for your compiler and platform.:DEL] Suggested change:
+
+char line[231] = {0};
+
+In C, {0} is a special initializer that will initially zero the entire data
+structure.
+
+Alternatively you could use fread() instead of fgets() so that it returns the
+input length.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]OddOneOut 1 point2 points3 points 4 years ago* (1 child)
+
+I know using uninitialized memory is just asking for bugs, but i'm writing over
+line with fgets, which appends the null terminator, so there is really no need
+to zero out the array beforehand.
+
+EDIT: Using fgets is still stupid because it includes the newline character,
+forgot about that.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]skeeto-9 8 1 point2 points3 points 4 years ago (0 children)
+
+Oh, whoops! You're right. I forgot that it appends a terminator. I was thinking
+in terms of fread().
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]badgers_uk 1 point2 points3 points 4 years ago* (0 children)
+
+Python 3
+
+Nowhere near as elegant as the other python solution but here is my effort
+anyway.
+
+# Constants
+
+COLUMNS_DICT = {
+    "a": "+",
+    "b": "++",
+    "c": "++-",
+    "d": "++--",
+    "e": "++--*",
+    "f": "++--**",
+    "g": "++--***",
+    "h": "++--***-",
+    "i": "++--***--",
+    "j": "++--***---"
+    }
+
+# Functions
+
+def create_list(data):
+    """Creates a list of strings using COLUMNS_DICT. If item is not in dict,
+    it assumes the item is an int and adds that many spaces to the next item"""
+    return_list = []
+    spaces = 0
+    for letter in data:
+        if letter in COLUMNS_DICT:
+            return_list.append(" "*spaces + COLUMNS_DICT[letter])
+            spaces = 0
+        else:
+            spaces = int(letter)
+    return return_list
+
+def find_max(str_list):
+    """Finds the longest item in a list of strings"""
+    biggest = 0
+    for item in str_list:
+        if len(item) > biggest:
+            biggest = len(item)
+    return biggest
+
+def equal_length(str_list):
+    """Turns a list of strings into a list of lists of equal length, by
+    adding spaces"""
+    for i in range(len(str_list)):
+        item_length = len(str_list[i])
+        if item_length < size:
+            str_list[i] = str_list[i] + " " * (size - item_length)
+        str_list[i] = list(str_list[i])
+    return str_list
+
+def columns_to_rows(nested_list):
+    """Zips a nested list of any size as long as each item is of equal length"""
+    rows_size = len(nested_list)
+    rows = []
+    for i in range(size):
+        row = []
+        for j in range(rows_size):
+            row.append(nested_list[j][i])
+        rows.insert(0, row)
+    return rows
+
+# main
+
+raw_data = input()
+
+columns_list = create_list(raw_data)
+size = find_max(columns_list)
+columns_list = equal_length(columns_list)
+rows = columns_to_rows(columns_list)
+
+for row in rows:
+    print("".join(row))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 1 point2 points3 points 4 years ago* (1 child)
+
+*
+
+  • permalink
+  • embed
+  • save
+
+[–]eltonhnjr 0 points1 point2 points 4 years ago (0 children)
+
+In the first For, when you iterates your input inserting 0s before every empty
+letter, for every number that you insert you're making the input bigger (i.e.
+your For gains one more iteration). One way to avoid this is to do the For in
+reverse, like:
+
+for(int index = input.length()-1; index>0; index--){
+    if(!isInt(input.charAt(index))&&(index==0 || !isInt(input.charAt(index-1))))
+        input=input.substring(0,index)+'0'+input.substring(index);
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ooesili 1 point2 points3 points 4 years ago (0 children)
+
+Haskell solution.
+
+import Data.List
+
+main :: IO ()
+main = do
+    specStr <- getLine
+    mapM_ putStrLn (build specStr)
+
+build :: String -> [String]
+build = transpose . go 0
+    where go _ []     = []
+          go n (c:cs) = if c `elem` ['1'..'9'] then go (read [c]) cs
+                                               else column n c : go 0 cs
+
+column :: Int -> Char -> String
+column n c = reverse . take 10 . reverse $ col ++ replicate n ' '
+    where col = case lookup c cols of (Just ln) -> ln
+                                      Nothing   -> error "invalid column name"
+          cols = [ ('a', "         +")
+                 , ('b', "        ++")
+                 , ('c', "       -++")
+                 , ('d', "      --++")
+                 , ('e', "     *--++")
+                 , ('f', "    **--++")
+                 , ('g', "   ***--++")
+                 , ('h', "  .***--++")
+                 , ('i', " ..***--++")
+                 , ('j', "...***--++")
+                 ]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]minikomi 1 point2 points3 points 4 years ago (0 children)
+
+Trying Clojurescript & Reagent. Live here: http://poyo.co/dp/158/
+
+(ns asciibridge.core
+  (:require [reagent.core :as reagent :refer [atom]]))
+
+; Parsing ----------------------------------------------------------------------------------
+
+(def dictionary
+  (into {}
+        (map vector "abcdefghij" (map inc (range)))))
+
+(def full-wall "++--***...")
+
+(defn build-column
+  ([[spaces letter]]
+   (apply str
+          (let [wall (reverse (take (dictionary letter) full-wall))
+                bottom-spaces (repeat spaces " ")
+                top-spaces (repeat (- (count full-wall) (+ spaces (dictionary letter))) " ")]
+            (concat top-spaces wall bottom-spaces))
+          )))
+
+(defn interpret-blueprint [blueprint]
+  (->> blueprint
+       (re-seq #"\d{0,1}[a-j]")
+       (map seq)
+       (map #(if (= (count %) 2)
+               [(- (int (first %)) (int \0)) (second %)]
+               [0 (first %)]
+               ))))
+
+(defn build-ascii [blueprint]
+  (->> blueprint
+       (interpret-blueprint)
+       (map build-column)
+       (apply map str)
+       (interpose "\n")
+       (apply str)))
+
+; Reagent ----------------------------------------------------------------------------------
+
+(def blueprint (atom (if (not (= js/document.location.hash ""))
+                       (.substring js/document.location.hash 1)
+                       "j3f3e3e3d3d3c3cee3c3c3d3d3e3e3f3fjij3f3f3e3e3d3d3c3cee3c3c3d3d3e3e3fj")))
+
+(def target (.getElementById js/document "main"))
+
+(def allowed-chars (set "0123456789abcdefghij"))
+
+(defn blueprint-edit []
+  [:div
+   [:h3 "Edit text to change wall."]
+   [:textarea
+    {:on-change #((let [new-blueprint (apply str (filter allowed-chars (-> % .-target .-value)))]
+                    (do
+                      (set! js/window.location.hash new-blueprint)
+                      (reset! blueprint new-blueprint))))}
+    @blueprint]])
+
+(defn render-ascii []
+  (let [ascii (build-ascii @blueprint)]
+    [:div
+     [:pre ascii]]))
+
+
+(defn ascii-app [props]
+  [:div
+   [blueprint-edit]
+   [render-ascii]])
+
+(reagent/render-component  [ascii-app]  (.getElementById js/document "main"))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dohaqatar71 1 1 point2 points3 points 4 years ago (0 children)
+
+I've finished this challenge for the most part, but there's one thing that I'm
+stuck on. I get a nice enough output that looks more or less like the sample,
+but characters are all messed up. It's not a clean one-to-one switch either, so
+it's not an easy fix like that. Thanks to anyone who takes the time help me
+out!
+
+public class ASCIIArchitect {
+    private final char[][] building;
+    private final String myBluePrints;
+    //this is here to deal with the numbers
+    private int offSet;
+    //since this draw  one column at a time from left to right, I keep track of that.
+    private int column;
+
+    public ASCIIArchitect(String bluePrints){
+        building = new char[19][lettersInString(bluePrints)];
+        myBluePrints = bluePrints;
+    }
+
+    private int lettersInString(String s){
+        int count=0;
+        for(int i = 0; i< s.length();i++){
+            if(Character.isAlphabetic(s.charAt(i)))
+                count++;
+        }
+        return count;
+    }
+
+    public void build(){
+        for(int index = 0; index < myBluePrints.length(); index++,offSet=0){
+            char atIndex = myBluePrints.charAt(index);
+            //check if the char is a number
+            if(atIndex>17 && atIndex<58){
+                offSet+=atIndex-48;
+                atIndex=myBluePrints.charAt(++index);
+            }
+            addColumn(atIndex);
+        }
+
+    }
+    private void addColumn(char h){
+        //the char for each height
+        char[] heights = {'+','+','-','-','*','*','*','.','.','.'};
+        //use ASCII char values to convert h into it's positon in the heights scale
+        int height = h-97;
+        int row = 18-offSet;
+        for(int i =height; i>=0;i--,row--){
+            building[row][column] = heights[i];
+        }
+        column++;
+    }
+
+    public void display(){
+        //fills in every 0 char in the array with a space
+        //zero messes up the alignment
+        for(int i = 0; i<building.length;i++){
+            for(int i2 = 0; i2 < building[0].length;i2++){
+                if(building[i][i2]==0)
+                    building[i][i2]=' ';
+            }
+        }
+        for(char[] cs:building){
+            for(char c:cs)
+                System.out.print(c);
+            System.out.println();
+        }
+
+    }
+
+    public static void main(String[] args) {
+        ASCIIArchitect builder = new ASCIIArchitect("j3f3e3e3d3d3c3cee3c3c3d3d3e3e3f3fjij3f3f3e3e3d3d3c3cee3c3c3d3d3e3e3fj");
+        builder.build();
+        System.out.println();
+        builder.display();
+
+    }
+
+}
+
+Output:
+
++                 + +                 +
+++              +++++++              ++
+-+++          ++++-+-++++          +++-
+--++++      ++++-------++++      ++++--
+*---++++  ++++----*-*----++++  ++++---*
+**----++++++----*******----++++++----**
+****----++----***********----++----****
+.       --        .*.        --       .
+.       --        ...        --       .
+.       **        ...        **       .
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 4 years ago* (8 children)
+
+[deleted]
+
+[–]VerifiedMyEmail 1 point2 points3 points 4 years ago* (7 children)
+
+this is hot.
+
+Since you asked, I'd change
+
+if 1 <= (ord(c) - 48) <= 9:
+
+to
+
+numbers = '123456789' #put this next to the other variables.
+if c in numbers:
+
+Also, print doesn't need parentheses.
+
+print "\n".join([building[x::12] for x in xrange(11,-1,-1)])
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 4 years ago (6 children)
+
+[deleted]
+
+[–]VerifiedMyEmail 1 point2 points3 points 4 years ago* (5 children)
+
+the python style guide suggests that you don't add extra spaces.
+
+Read the "Whitespace in Expressions and Statements" section.
+
+patterns = ["++--***..."[:x] for x in xrange(1, 11)]
+blueprint = list(raw_input())
+pads = 0
+building = ""
+numbers = '123456789'
+
+After reviewing your code more. I simplified it some more.
+
+patterns = '++--***...'
+blueprint = 'j3f3e3e3d3d3c3cee3c3c3d3d3e3e3f3fjij3f3f3e3e3d3d3c3cee3c3c3d3d3e3e3fj'
+pads = 0
+building = ""
+numbers = '123456789'
+letters = 'abcdefghij'
+
+for element in blueprint:
+    if element in numbers:
+        pads = int(element)
+    else:
+        i = letters.find(element) #changed this because in my opinion it is easiser to understand.
+        building += ' ' * pads + patterns[:i + 1] + ' ' * (22 - pads - i)
+        pads = 0
+
+print "\n".join([building[x::23] for x in xrange(22,-1,-1)])
+
+I still don't understand what this does.
+
+Can you explain it.
+
+print "\n".join([building[x::23] for x in xrange(22,-1,-1)])
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 4 years ago (4 children)
+
+[deleted]
+
+[–]VerifiedMyEmail 1 point2 points3 points 4 years ago (3 children)
+
+There are spaces between columns for some reason.
+
+pattern = '++--***...'
+blueprint = 'j3f3e3e3d3d3c3cee3c3c3d3d3e3e3f3fjij3f3f3e3e3d3d3c3cee3c3c3d3d3e3e3fj'
+building = []
+numbers = '123456789'
+letters = 'abcdefghij'
+
+def print_output(building):
+    length = len(max(building, key = len))
+    for i in reversed(range(length)):
+        temp = ''
+        for column in building:
+            temp += column[i]
+        print temp
+
+for index, element in enumerate(blueprint):
+    pads = 0
+    if blueprint[index - 1] in numbers:
+        pads = int(blueprint[index - 1])
+    i = letters.find(element)
+    column = ' ' * pads + pattern[:i + 1] + ' ' * (22 - pads - i)
+    building.append(column)
+
+print_output(building)
+
+Also notice,
+
+ patterns = '++--***...'
+ column = ' ' * pads + pattern[:i + 1] + ' ' * (22 - pads - i)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 4 years ago (2 children)
+
+[deleted]
+
+[–]VerifiedMyEmail 0 points1 point2 points 4 years ago* (1 child)
+
+I think we've got ourselves a hot building maker
+
+What do you think?
+
+def main(blueprint):
+    def print_output(building):
+        length = len(building[0])
+        for i in reversed(range(length)):
+            row = ''
+            for column in building:
+                row += column[i]
+            print row
+
+    def structure(blueprint):
+        ROW_LENGTH = 22
+        pattern = '++--***...'
+        building = []
+        letters = 'abcdefghij'
+        pads = 0
+        for element in blueprint:
+            if element.isdigit():
+                pads = int(element)
+            else:
+                i = letters.find(element)
+                column = ' ' * pads + pattern[:i + 1]
+                column += ' ' * (ROW_LENGTH - pads - i)
+                building.append(column)
+                pads = 0
+        return building
+
+    print_output(structure(blueprint))
+
+main('j3f3e3e3d3d3c3cee3c3c3d3d3e3e3f3fjij3f3f3e3e3d3d3c3cee3c3c3d3d3e3e3fj')
+
+There must be a better way to print the building.
+
+Good catach on the appending thing.
+
+EDIT: here is a nice looking way to print
+
+    def print_output(building):
+        i = len(building[0])
+        while i > 0:
+            row = ''
+            i -= 1
+            for column in building:
+                row += column[i]
+            print row
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]n0rs 1 point2 points3 points 4 years ago* (0 children)
+
+Haskell*
+
+import Data.List
+import Data.Maybe
+
+getColumn :: Char -> [Char]
+getColumn c = part
+    where
+        part = take (1 + index) column
+        index = fromJust $ elemIndex c ['a'..'j']
+        column = "++--***..."
+
+padColumn :: Int -> [Char] -> [Char]
+padColumn n col = before ++ col ++ after
+    where
+        before = spaces n
+        after = spaces (18 - (length col + n))
+        spaces = flip take (repeat ' ')
+
+fullColumn :: Int -> Char -> [Char]
+fullColumn n c = padColumn n $ getColumn c
+
+parseSchem :: [Char] -> [[Char]]
+parseSchem [] = []
+parseSchem (x0:[]) = parseSchem ['0',x0]
+parseSchem (x0:x1:xs)
+    | elem x0 ['0'..'9'] = fullColumn n x1 : parseSchem xs
+    | elem x0 ['a'..'j'] = fullColumn 0 x0 : parseSchem (x1:xs)
+    where
+        n = read [x0] :: Int
+
+draw = putStrLn.unlines.trim.reverse.transpose.parseSchem
+    where trim = filter (or.(map(/=' ')))
+
+main :: IO()
+main = do
+    line <- getLine
+    draw line
+
+Notes: easter egg: 4d3f3g2i2i2i3g3f4d
+
+   ...
+  *...*
+ *******
+-*******-
+---***---
++-------+
++++---+++
+ +++++++
+   +++
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]fortruce 1 point2 points3 points 4 years ago* (0 children)
+
+Clojure!
+
+Still learning, would love feedback
+
+New (Better!) Code:
+
+(def wall "++--***...")
+
+(defn wallify
+  "Convert ASCII column key pair '1a' into horizontal wall column"
+  [[cnt key]]
+  (let [cnt       (Integer/parseInt (str cnt))
+        ckey      (+ 1 (- (int key) (int \a)))
+        partwall  (concat (repeat cnt \ ) (take ckey wall))
+        fullwall  (concat partwall (repeat (- 20 (count partwall)) \ ))]
+    (apply str fullwall)))
+
+(defn convert-input
+  "Convert input ASCII build string into normalized list [0a 1b...]"
+  [istr]
+  (->> istr
+       (re-seq #"\d?\w")
+       (map #(if (= 2 (count %)) % (str \0 %)))))
+
+(defn build
+  "Convert input ASCII build string into ASCII art building output"
+  [patt]
+  (let [patt (convert-input patt)]
+    (->> patt
+         (map wallify)
+         (apply mapv vector)
+         (filter #(not-every? #{\ } %))
+         reverse
+         (map #(apply str %))
+         (reduce #(str % "\n" %2)))))
+
+(println (build "j3f3e3e3d3d3c3cee3c3c3d3d3e3e3f3fjij3f3f3e3e3d3d3c3cee3c3c3d3d3e3e3fj"))
+
+Old Code:
+
+(def tab {\a (seq "+")
+          \b (seq "++")
+          \c (seq "++-")
+          \d (seq "++--")
+          \e (seq "++--*")
+          \f (seq "++--**")
+          \g (seq "++--***")
+          \h (seq "++--***.")
+          \i (seq "++--***..")
+          \j (seq "++--***...")})
+
+(defn build [template]
+  (loop [template template
+         building []]
+  (let [f (first template)
+        c (if (char? f) 0 (int f))
+        k (if (char? f) f (second template))
+        r (if (char? f) (rest template) (rest (rest template)))
+        s (concat (repeat c \ ) (tab k))
+        cc (- 20 (count s))
+        s (concat s (repeat cc \ ))
+        b (conj building s)]
+    (if (seq r)
+      (recur r b)
+      (reduce #(str % \newline %2)
+              (map (partial apply str)
+                   (filter #(not-every? #{\ } %)
+                           (reverse
+                            (apply mapv vector b)))))))))
+
+(defn convert-to-vec [s]
+  (let [l (int \0)
+        h (int \9)
+        vs (map int s)]
+    (map #(if (and (<= % h)
+                   (>= % l))
+            (- % l)
+            (char %))
+         vs)))
+
+(println (build (convert-to-vec "j3f3e3e3d3d3c3cee3c3c3d3d3e3e3f3fjij3f3f3e3e3d3d3c3cee3c3c3d3d3e3e3fj")))
+
+~~Immediate improvements:
+
+  • Use threading macros for readability
+  • Intelligently create tab
+  • Use split to parse input instead of nasty loop and if (char? f)
+    everywhere~~
+
+APPLIED IN IMPROVED CODE ABOVE
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]samuelstan 1 point2 points3 points 4 years ago (0 children)
+
+C (Extremely convoluted and hackish ;)
+
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[])
+{
+    char *chars = "++--***...";
+    char layout[19][230];
+
+    int x,y;
+    for(y = 0; y < 19; y++)
+    for(x = 0; x < 230; x++)
+        layout[y][x] = 0;
+
+    char *frmt = argv[1];
+    int len = strlen(frmt);
+
+    int i, idx;
+    for(i = 0, idx = 0; i < len; i++, idx++)
+    {
+        char a = frmt[i];
+        int b = 0;
+        if(a <= '9' && a >= '1')
+        {
+            b = a - '0';
+            a = frmt[++i];
+        }
+
+        int j;
+        for(j = 0; j < b; j++)
+            layout[18 - j][idx] = ' ';
+        char t = 'a';
+        for(; t <= a; t++, j++)
+        {
+            layout[18 - j][idx] = chars[t - 'a'];
+        }
+    }
+
+    for(y = 0; y < 19; y++)
+    {
+        for(x = 0; x < 230 && x < idx; x++)
+        {
+            char c = layout[y][x];
+            if(c)
+                printf("%c", c);
+            else
+                printf(" ");
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]iplacea 1 point2 points3 points 4 years ago (0 children)
+
+I wanted to play around with Node.js and promises, so here it goes. It's also
+available on github.
+
+'use strict';
+
+var Promise = require('bluebird');
+var fs = Promise.promisifyAll(require("fs"));
+
+var line = '++--***···';
+
+function _lshift (str, padding) {
+    return new Array(padding + 1).join(' ') + str.substr(0, str.length - padding);
+}
+
+return fs.readFileAsync('input.txt', 'utf8')
+    .then(function parseBlocks(map) {
+        return map.match(/[1-9]*[a-j]/gi);
+    })
+    .then(function buildAndTranslateBlocks(blocks) {
+        return Promise
+            .reduce('abcdefghij'.split(''), function buildDictionary(result, char, index) {
+                result[char] = line.substr(0, index + 1) + new Array(line.length - index).join(' ');
+                return result;
+            }, {})
+            .then(function (dictionary) {
+                return Promise.map(blocks, function translateBlocks(block) {
+                    return block.length === 2 ? _lshift(dictionary[block[1]], parseInt(block[0], 10)) : dictionary[block[0]];
+                })
+            });
+    })
+    .then(function rotateLines(lines) {
+        var rotatedLines = '';
+        for (var i = 0, h = line.length - 1; h >= 0; i++) {
+            rotatedLines += lines[i % lines.length][h];
+            if ((i + 1) % lines.length === 0) {
+                rotatedLines += '\n';
+                h--;
+            }
+        }
+        return rotatedLines;
+    })
+    .then(console.log);
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Elite68091 1 0 points1 point2 points 4 years ago* (0 children)
+
+It's amazing how Ruby can look beautiful one minute, and then look like the
+bastard child of Befunge the next.
+
+input, output, longest = gets.chomp.split(''), [], 0
+while input.any?
+  output.unshift input[0] =~ /\d/ ?
+    (' ' * input.shift.to_i + '++__***---'[0, input.shift.ord - 'a'.ord + 1]) :
+    '++__***---   '[0, input.shift.ord - 'a'.ord + 1]
+  longest = output[0].length if output[0].length > longest
+end
+output.map{|s| s.reverse.rjust(longest, ' ').split('')}.reverse.transpose.map{|s| s.join}.each {|s| puts s}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]brandnew87 0 points1 point2 points 4 years ago* (1 child)
+
+C++ (my first challenge, criticism welcome)
+
+#include <iostream>
+#include <string>
+#include <string.h>
+#include <vector>
+#include <stdio.h>
+
+using namespace std;
+
+int main()
+{
+string nums;
+string builder[19];
+string temp;
+int startline;
+char current;
+
+cin >> nums;
+
+for(int i = 0; i < nums.size(); i++){
+   startline = 0;
+   current = nums[i];
+   if(isdigit(nums[i])){
+       startline = nums[i] - '0';;
+       i++;
+   }
+
+   int k = 0;
+   builder[startline].append("+");
+   if(nums[i] == 'a'){
+       k = startline;
+       for(int j = 0; j < 18; j++){
+           k++;
+           if(k > 18){
+               k = 0;
+           }
+           builder[k].append(" ");
+       }
+   }
+   else if(nums[i] == 'b'){
+       builder[startline + 1].append("+");
+       k = startline + 1;
+       for(int j = 0; j < 17; j++){
+           k++;
+           if(k > 18){
+               k = 0;
+           }
+           builder[k].append(" ");
+       }
+   }
+   else if(nums[i] == 'c'){
+       builder[startline + 1].append("+");
+       builder[startline + 2].append("-");
+       k = startline + 2;
+       for(int j = 0; j < 16; j++){
+           k++;
+           if(k > 18){
+               k = 0;
+           }
+           builder[k].append(" ");
+       }
+   }
+   else if(nums[i] == 'd'){
+       builder[startline + 1].append("+");
+       builder[startline + 2].append("-");
+       builder[startline + 3].append("-");
+       k = startline + 3;
+       for(int j = 0; j < 15; j++){
+           k++;
+           if(k > 18){
+               k = 0;
+           }
+           builder[k].append(" ");
+       }
+   }
+   else if(nums[i] == 'e'){
+       builder[startline + 1].append("+");
+       builder[startline + 2].append("-");
+       builder[startline + 3].append("-");
+       builder[startline + 4].append("*");
+       k = startline + 4;
+       for(int j = 0; j < 14; j++){
+           k++;
+           if(k > 18){
+               k = 0;
+           }
+           builder[k].append(" ");
+       }
+   }
+   else if(nums[i] == 'f'){
+       builder[startline + 1].append("+");
+       builder[startline + 2].append("-");
+       builder[startline + 3].append("-");
+       builder[startline + 4].append("*");
+       builder[startline + 5].append("*");
+       k = startline + 5;
+       for(int j = 0; j < 13; j++){
+           k++;
+           if(k > 18){
+               k = 0;
+           }
+           builder[k].append(" ");
+       }
+   }
+   else if(nums[i] == 'g'){
+       builder[startline + 1].append("+");
+       builder[startline + 2].append("-");
+       builder[startline + 3].append("-");
+       builder[startline + 4].append("*");
+       builder[startline + 5].append("*");
+       builder[startline + 6].append("*");
+       k = startline + 6;
+       for(int j = 0; j < 12; j++){
+           k++;
+           if(k > 18){
+               k = 0;
+           }
+           builder[k].append(" ");
+       }
+   }
+   else if(nums[i] == 'h'){
+       builder[startline + 1].append("+");
+       builder[startline + 2].append("-");
+       builder[startline + 3].append("-");
+       builder[startline + 4].append("*");
+       builder[startline + 5].append("*");
+       builder[startline + 6].append("*");
+       builder[startline + 7].append(".");
+       k = startline + 7;
+       for(int j = 0; j < 11; j++){
+           k++;
+           if(k > 18){
+               k = 0;
+           }
+           builder[k].append(" ");
+       }
+   }
+   else if(nums[i] == 'i'){
+       builder[startline + 1].append("+");
+       builder[startline + 2].append("-");
+       builder[startline + 3].append("-");
+       builder[startline + 4].append("*");
+       builder[startline + 5].append("*");
+       builder[startline + 6].append("*");
+       builder[startline + 7].append(".");
+       builder[startline + 8].append(".");
+       k = startline + 8;
+       for(int j = 0; j < 10; j++){
+           k++;
+           if(k > 18){
+               k = 0;
+           }
+           builder[k].append(" ");
+       }
+   }
+   else if(nums[i] == 'j'){
+       builder[startline + 1].append("+");
+       builder[startline + 2].append("-");
+       builder[startline + 3].append("-");
+       builder[startline + 4].append("*");
+       builder[startline + 5].append("*");
+       builder[startline + 6].append("*");
+       builder[startline + 7].append(".");
+       builder[startline + 8].append(".");
+       builder[startline + 9].append(".");
+       k = startline + 9;
+       for(int j = 0; j < 9; j++){
+           k++;
+           if(k > 18){
+               k = 0;
+           }
+           builder[k].append(" ");
+       }
+   }
+}
+
+for(int i = 18; i >=0; i--){
+   cout << builder[i] << endl;
+}
+}
+
+input: j3f3e3e3d3d3c3cee3c3c3d3d3e3e3f3fjij3f3f3e3e3d3d3c3cee3c3c3d3d3e3e3fj
+
+output: output
+
+edit:
+
+fun input:
+j1j2j3j3i2i1iih1h2h3h3g2g1ggf1f2f3f3e2e1eed1d2d3d3c2c1ccb1b2b3b3a2a1aa
+
+fun output: sydney opera house
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]n0rs 1 point2 points3 points 4 years ago (0 children)
+
+The body of your ifs are very similar, you should be able to extract the common
+work into a function.
+
+Explore some of the other submissions in C++ or similar to see how they did
+things differently.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]curlymeatball38 0 points1 point2 points 4 years ago (0 children)
+
+Python:
+
+import sys
+
+constructs = {'a': '         +',
+              'b': '        ++',
+              'c': '       -++',
+              'd': '      --++',
+              'e': '     *--++',
+              'f': '    **--++',
+              'g': '   ***--++',
+              'h': '  .***--++',
+              'i': ' ..***--++',
+              'j': '...***--++'
+              }
+
+string = raw_input()
+
+k=0
+skip = False
+
+for j in range(0, 10):
+    for i in range(0, len(string)):
+        if skip == False:
+            if string[i].isdigit():
+                l = int(string[i])
+                if l >= 1 and l <= 9:
+                    if j+l < 10:
+                        try:
+                            sys.stdout.write(constructs[string[i+1]][j+l])
+                        except Exception:
+                            print '\nPoorly formatted string\nExiting...'
+                            exit(1)
+                    else:
+                        sys.stdout.write(' ')
+                    skip = True
+                else:
+                    print '\nPoorly formatted string\nExiting...'
+                    exit(1)
+            else:
+                try:
+                    sys.stdout.write(constructs[string[i]][j])
+                except Exception:
+                    print '\nPoorly formatted string\nExiting...'
+                    exit(1)
+        else:
+            skip = False
+    sys.stdout.write('\n')
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]kraazyraver 0 points1 point2 points 4 years ago* (0 children)
+
+Python 2.7 - 4 methods, 4 samples. Automatically detects width and height and
+allows for the letters (or even symbols) to be out of sequence. My first post
+on reddit, hope this is fine, hehe. There is no error checking though, just
+assuming the line is valid as in the OP.
+
+BUILD_MATERIALS = "---***--++"
+BUILD_NAMES = ('a','b','c','d','e','f','g','h','i','j')
+
+def list_maxlen(l):
+    d = []
+    for x in l:
+        d.append(len(x))
+    return max(d)
+
+def get_stack(b,l=0):
+    return BUILD_MATERIALS[-(BUILD_NAMES.index(b)+1):] + ('S'*l)
+
+def board_to_str(board):
+    w,h = len(board),list_maxlen(board)
+    s = [list(' '*w) for x in xrange(h+1)]
+    i = 0
+    for stack in board:
+        j = 0
+        for brick in stack[::-1]:
+            if not brick == 'S':  s[h-1-j][i] = brick
+            j += 1
+        i+=1
+
+    return '\n'.join((''.join(k) for k in s))
+
+def generate_ascii(seed):
+    board = []
+    i = 0
+    while i < len(seed):
+        if seed[i] in BUILD_NAMES:
+            board.append(get_stack(seed[i]))
+            i+=1
+        elif seed[i].isdigit() and int(seed[i]) in range(1,10):
+            board.append(get_stack(seed[i+1],int(seed[i])))
+            i+=2
+
+    return board_to_str(board)
+
+bridge = "j3f3e3e3d3d3c3cee3c3c3d3d3e3e3f3fjij3f3f3e3e3d3d3c3cee3c3c3d3d3e3e3fj"
+foo    = "j1i2h3g3g2h2h2h1iijjj1i2h3g3g2h2h2h1iijjj1i2h3g3g2h2h2h1iijjj1i2h3g3g2h2h2h1iijj"
+lol    = "abcd2chij2j7ddd8dfjfjfjjfjjfjjfjjfj7h7h7h7h6h5h4h3hgfedcbaaaaabbbbbbbb2b2j3j" # Some exotic spider? xD
+bar    = "abajbahabjhabjahbjha2d2d2d2d2d2d2d2d2d2d2d2djhbjahbjajbjjabh"
+
+i = 1
+inp = (bridge,foo,bar,lol)
+for a in inp:
+    print("=*=*=*=*=*=*=*=*= SAMPLE %i *=*=*=*=*=*=*=*=*=*\n" % i)
+    print(generate_ascii(a)+"\n")
+    i+=1
+
+print('---------------------------')
+
+Output: http://pastebin.com/UQHqN8La
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Meshiest 0 points1 point2 points 4 years ago (3 children)
+
+I wanted to golf. here's my 188 byte version in ruby
+
+s,c,a='++--***... ','abcdefghij','';gets.chop.each_char{|k|n=k.to_i;a+=n.to_s!=k&&s[0..(c.index k)]+'
+'||' '*n};puts a.split("\n").map{|c|c.ljust(12).split''}.transpose.map(&:join).reverse
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]the_mighty_skeetadon 1 point2 points3 points 4 years ago (2 children)
+
+I'll never understand why golfers use semicolons instead of linebreaks.
+Otherwise, cool!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Meshiest 0 points1 point2 points 4 years ago (0 children)
+
+#nowhitespace
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]jahmez 0 points1 point2 points 4 years ago (0 children)
+
+Maybe because the linebreak is interpreted as \n\r on some OSs, meaning two
+bytes instead of one.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]kirsybuu0 1 0 points1 point2 points 4 years ago* (0 children)
+
+D language here with some ASCII fun!
+
+void main() {
+    import std.stdio, std.algorithm, std.range, std.regex;
+    string[] output;
+    foreach(cmd ; readln().matchAll(ctRegex!"[1-9]?[a-j]").map!"a.hit") {
+        output ~=  "         "[min($, '9' - cmd.front) .. $]
+                ~ "++--***..."[0 .. cmd.back - 'a' + 1];
+    }
+    const maxLength = reduce!"max(a, b.length)"(cast(size_t) 0, output);
+    foreach_reverse(len ; 0 .. maxLength) {
+        foreach(col ; output) {
+            write((col.length > len) ? col[len] : ' ');
+        }
+        writeln();
+    }
+}
+
+Example:
+
+$ rdmd asciiarchitect.d
+ab1c2d3e3f2g1hii1h2g3f3e2d1cba
+     **....**
+    ****..****
+    --******--
+   ----****----
+   -++--**--++-
+  -++++----++++-
+  ++  ++--++  ++
+ ++    ++++    ++
+++      ++      ++
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jahmez 0 points1 point2 points 4 years ago (0 children)
+
+Python 2.7. Less elegant than other solutions, but it works!
+
+marsbuild.py
+
+TALLEST = '++--***...'
+
+#Translate letters into tower heights
+def let_to_ht( letter ):
+    return ord(letter) - ord('a') + 1
+
+#Make a column based on starting spaces and tower definintion
+def get_column( spaces, ht ):
+    return ( ' ' * spaces ) + TALLEST[:ht]
+
+#Take an input string, and return the parsed column and remaining string
+def chunker( inpt_chunk ):
+
+    #Initialize variables
+    space     = None
+    ret_chunk = None
+
+    #Check if spacing has been specified
+    if( ( ord('1') <= ord( inpt_chunk[ 0 ] ) <= ord( '9' ) ) ):
+        space = int( inpt_chunk[ 0 ] )
+        ret_chunk = inpt_chunk[ 2: ]
+        inpt_chunk = inpt_chunk[1:]
+
+    #No preceding spaces
+    else:
+        space = 0
+        ret_chunk = inpt_chunk[ 1: ]
+
+    #Verify well formed input
+    if( ord('a') <= ord(inpt_chunk[0]) <= ord('j') ):
+        column = get_column( space, let_to_ht( inpt_chunk[0] ) )
+        return ( ret_chunk, column )
+
+    #wat
+    else:
+        raise Exception()
+
+#Take in a whole string, and return
+def parser( in_str ):
+    columns = []
+
+    #Grab all of the columns
+    while in_str:
+        ( in_str, column ) = chunker( in_str )
+        columns.append(column)
+
+    return columns
+
+#Driver
+if __name__ == '__main__':
+    with open( 'input.txt', 'r' ) as ifile:
+        columns = parser( ifile.readline() )
+
+    maxht = max( [ len(_) for _ in columns ] )
+
+    with open( 'output.txt', 'w' ) as ofile:
+        for i in xrange( maxht ):
+            for j in columns:
+                if ( maxht - i ) > len( j ):
+                    ofile.write( ' ' )
+                else:
+                    ofile.write( j[ maxht - i - 1 ] )
+            ofile.write('\n')
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]usr_bin 0 points1 point2 points 4 years ago (0 children)
+
+My first submission, in ruby. Not quite as elegant as the other ruby solutions
+posted (wish I'd known about the transpose method!), but I'm happy with it.
+Comments are welcome.
+
+def line(letter)
+  if (letter.size != 1) || (!letter.is_a? String) ||
+     (!'abcdefghij'.include? letter)
+     raise ArgumentError, "not a letter a-j", caller
+  end
+
+  letter_value = letter.ord - 96
+  '++--***...'.split('').slice(0, letter_value).join
+end
+
+# splits input string into number, letter hashes
+def parse(input_str)
+  split = input_str.scan(/[1-9]*[a-j]/)
+  parsed = []
+
+  split.map { |token|
+     if token.size > 1
+        { num: token[0].to_i, letter: token[1] }
+     else
+        { letter: token[0], num: nil }
+     end
+  }
+end
+
+def process_line(token)
+  if !token[:num].nil?
+     " " * token[:num] + line(token[:letter])
+  else
+     line(token[:letter])
+  end
+end
+
+def translate(lines)
+  translated = []
+  longest_line = lines.map { |l| l.size }.max
+
+  # essentially rotates the shape 90 degrees clockwise,
+  # and then mirrors it on the y axis
+  for i in 0..longest_line
+     new_line = ""
+     lines.map { |line|
+        padded_line = line.ljust(lines.size)
+        new_line << padded_line[i]
+     }
+
+     translated << new_line unless new_line.size == 0
+  end
+
+  # reverse mirrors the shape on the x axis
+  return translated.reverse
+end
+
+parsed = parse(STDIN.readline)
+puts translate(parsed.map { |token|
+  process_line(token)
+})
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Kaius 0 points1 point2 points 4 years ago (0 children)
+
+C# with some Linq and expression method treats.
+
+Full code: https://github.com/SecretDeveloper/gk.Puzzles.DailyProgrammer/blob/
+master/gk.Puzzles.DailyProgrammer/Puzzle158.cs
+
+Meat of it all:
+
+public class Puzzle158 : IPuzzle
+    {
+        private const string _numeric = "123456789";
+        private const string _alpha = "abcdefghij";
+        private Dictionary<string,string> _symbolMap = new Dictionary<string, string>()
+            {
+                {"a","+"},
+                {"b","++"},
+                {"c","++-"},
+                {"d","++--"},
+                {"e","++--*"},
+                {"f","++--**"},
+                {"g","++--***"},
+                {"h","++--***."},
+                {"i","++--***.."},
+                {"j","++--***..."}
+            };
+
+        public object Run(params object[] parameters)
+        {
+            if(parameters == null
+                || parameters.Length == 0
+                || string.IsNullOrEmpty(parameters[0].ToString()))
+                throw new ArgumentNullException("parameters");
+
+            var seed = parameters[0].ToString();
+
+            var strings = generateStrings(seed).ToList();
+
+            return transposeStrings(strings);
+        }
+
+        private IEnumerable<string> generateStrings(string seed)
+        {
+            var spaceNumber = 0;
+            var strings = new List<string>();
+
+            foreach (char c in seed)
+            {
+                if (_alpha.Contains(c.ToString()) == false
+                    && _numeric.Contains(c.ToString()) == false)
+                    throw new ApplicationException(
+                                     string.Format("encountered invalid character '" + c + "'."));
+
+                string s = "";
+                if (_numeric.Contains(c.ToString()))
+                {
+                    if (spaceNumber != 0)
+                         throw new ApplicationException(
+                                  string.Format("encountered two sequential numeric values when only one is allowed."));
+
+                    spaceNumber = int.Parse(c.ToString());
+                    continue;
+                }
+
+                if (spaceNumber > 0)
+                {
+                    spaceNumber.Times(() => s += " ");
+                    spaceNumber = 0;
+                }
+
+                s += _symbolMap[c.ToString()];
+                strings.Add(s);
+            }
+            return strings;
+        }
+
+        private string transposeStrings(List<string> strings)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            int highest = strings.ToList().Max(x => x.Length);
+            int row = highest;
+
+            for (int i = 0; i <= highest; i++)
+            {
+                foreach (var s in strings)
+                {
+                    if (s.Length-1 < row)
+                        sb.Append(" ");
+                    else
+                        sb.Append(s[row]);
+                }
+                row--;
+                sb.Append(Environment.NewLine);
+            }
+            return sb.ToString();
+        }
+    }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Edward_H 0 points1 point2 points 4 years ago (1 child)
+
+COBOL:
+
+       >>SOURCE FREE
+IDENTIFICATION DIVISION.
+PROGRAM-ID. ascii-architect.
+
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+01  in-str                              PIC X(231).
+01  i                                   PIC 999 COMP.
+
+01  Building-Bricks                     PIC X(10) VALUE "++--***...".
+
+01  building-area.
+    03  building-row                    OCCURS 19 TIMES
+                                        INDEXED BY row-idx.
+        05  building-block              PIC X OCCURS 80 TIMES
+                                        INDEXED BY col-idx.
+
+01  offset                              PIC 9.
+
+01  num-bricks                          PIC 99 COMP.
+01  brick-num                           PIC 99 COMP.
+
+PROCEDURE DIVISION.
+    SET row-idx, col-idx TO 1
+
+    *> Create the building the specified.
+    ACCEPT in-str
+    PERFORM VARYING i FROM 1 BY 1 UNTIL i > 231 OR in-str (i:1) = SPACE
+        IF in-str (i:1) IS NUMERIC
+            MOVE in-str (i:1) TO offset
+            EXIT PERFORM CYCLE
+        END-IF
+
+        SET row-idx TO offset
+        SET row-idx UP BY 1
+
+        *> Add bricks
+        COMPUTE num-bricks = FUNCTION ORD(in-str (i:1)) - FUNCTION ORD("a") + 1
+        PERFORM VARYING brick-num FROM 1 BY 1 UNTIL brick-num > num-bricks
+            MOVE Building-Bricks (brick-num:1)
+                TO building-block (row-idx, col-idx)
+            SET row-idx UP BY 1
+        END-PERFORM
+
+        SET col-idx UP BY 1
+        MOVE 0 TO offset
+    END-PERFORM
+
+    *> Display building.
+    PERFORM VARYING row-idx FROM 19 BY -1 UNTIL row-idx = 0
+        IF building-row (row-idx) <> SPACES
+            DISPLAY building-row (row-idx)
+        END-IF
+    END-PERFORM
+    .
+END PROGRAM ascii-architect.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Edward_H 0 points1 point2 points 4 years ago (0 children)
+
+And here's a program that converts an ASCII building to its original string.
+
+       >>SOURCE FREE
+IDENTIFICATION DIVISION.
+PROGRAM-ID. decompose-ascii-building.
+
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+01  building-area.
+    03  building-row                    OCCURS 19 TIMES
+                                        INDEXED BY row-idx.
+        05  building-block              PIC X OCCURS 80 TIMES
+                                        INDEXED BY col-idx.
+
+01  first-row                           USAGE INDEX.
+
+01  col-status.
+    03  block-flag                      PIC X VALUE SPACE.
+        88  block-found                 VALUE "Y".
+    03  offset                          PIC 9 VALUE ZERO.
+    03  num-blocks                      PIC 99 COMP VALUE ZERO.
+
+01  building-str                        PIC X(231).
+01  str-pos                             PIC 999 COMP VALUE 1.
+
+PROCEDURE DIVISION.
+    PERFORM VARYING row-idx FROM 19 BY -1 UNTIL row-idx = 0
+        ACCEPT building-row (row-idx)
+
+        IF building-row (row-idx) = SPACES
+            EXIT PERFORM
+        END-IF
+    END-PERFORM
+    SET first-row TO row-idx
+    SET first-row UP BY 1
+
+    PERFORM VARYING col-idx FROM 1 BY 1
+            UNTIL col-idx > 80
+        INITIALIZE col-status ALL TO VALUE
+        PERFORM VARYING row-idx FROM first-row BY 1 UNTIL row-idx > 19
+            IF NOT block-found
+                IF building-block (row-idx, col-idx) = SPACE
+                    ADD 1 TO offset
+                    EXIT PERFORM CYCLE
+                ELSE
+                    SET block-found TO TRUE
+                END-IF
+            END-IF
+
+            IF building-block (row-idx, col-idx) <> SPACE
+                ADD 1 TO num-blocks
+            ELSE
+                EXIT PERFORM
+            END-IF
+        END-PERFORM
+
+        IF NOT block-found
+            EXIT PERFORM
+        END-IF
+
+        IF offset <> 0
+            MOVE offset TO building-str (str-pos:1)
+            ADD 1 TO str-pos
+        END-IF
+
+        MOVE FUNCTION CHAR(FUNCTION ORD("a") + num-blocks - 1)
+            TO building-str (str-pos:1)
+        ADD 1 TO str-pos
+    END-PERFORM
+
+    DISPLAY FUNCTION TRIM(building-str)
+    .
+END PROGRAM decompose-ascii-building.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]crezant 0 points1 point2 points 4 years ago (0 children)
+
+Python 3 solution. Not the best, but I feel proud of it.
+
+import sys
+
+count_letter = 0
+column_char_array = []
+column_char_array.append([])
+
+count_line = 0
+structure = []
+structure.append('')
+
+strings = {"a": "+",
+           "b": "++",
+           "c": "++-",
+           "d": "++--",
+           "e": "++--*",
+           "f": "++--**",
+           "g": "++--***",
+           "h": "++--***.",
+           "i": "++--***..",
+           "j": "++--***..."}
+
+input_string = str(sys.argv[1])
+
+for char in input_string:
+    column_char_array[count_letter].append(char)
+    if 'a' <= char and char <= 'j':
+        column_char_array.append([])
+        count_letter+=1
+
+column_char_array = column_char_array[0:-1]
+max_y = 0
+
+for array in column_char_array:
+    structure[count_line] = strings[array[-1]]
+    if len(array) > 1:
+        structure[count_line] = structure[count_line].rjust(int(array[0])+
+        len(structure[count_line]))
+    structure.append('')
+    if len(structure[count_line]) > max_y:
+        max_y = len(structure[count_line])
+    count_line+=1
+
+structure = structure[0:-1]
+count_line = 0
+
+for column in structure:
+    structure[count_line] = column.ljust(max_y)
+    count_line+=1
+
+structure = list(zip(*structure))
+
+for y in range(len(structure)-1,0,-1):
+    print("".join(structure[y]))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]matt_9k 0 points1 point2 points 4 years ago* (0 children)
+
+PHP. (v5.5.3). Feedback / advice appreciated.
+
+<?php
+$input = trim(readline('Input string: '));
+$wall = '++--***...';
+$house = Array();
+
+for($i=0; $i<strLen($input); $i++) {    //iterate over input...
+   $thisChar = $input{$i};
+   $prevChar = ($i>0) ? $input{$i-1} : '';
+   $column = '';
+
+   if (intval($prevChar)) {             //if the prev char is an int (1-9),
+      for ($j=0; $j<$prevChar; $j++) {  //add a corresponding no. of underscores
+         $column = '_'.$column;         //(later converted to spaces)
+      }
+   }
+
+   if (preg_match('/[a-j]/', $thisChar)) {          //if this char is a letter,
+      for ($j=0; $j < ord($thisChar) - 96; $j++) {  //add some chars from the
+         $column .= $wall{$j};                      //"wall" string
+      }
+   }
+
+   if (trim($column)) { array_push($house, $column); }  //add 'column' to house
+
+}
+
+for($i=18; $i>=0; $i--) {    //use nested loops to print the house vertically
+   $row = '';
+   foreach ($house as $column) {
+      if (isset($column{$i})) {
+         $row .= $column{$i};
+      } else { $row.= ' '; }
+   }
+   if (trim($row)) { echo "\n".str_replace('_',' ',$row); }
+}
+
+echo "\n";
+?>
+
+Great Pyramid & Eiffel Tower:
+
+Input string: abcdefghijihgfedcba9a9a9a9a9a9a9aabde3e4j4j3eedba
+
+                               ..
+                               ..
+                               ..
+                               **
+         .         +++++++     **
+        ...                    **
+       .....                  *--*
+      *******                 ----
+     *********                -++-
+    ***********              *++++*
+   -------------            --+  +--
+  ---------------           --    --
+ +++++++++++++++++         +++    +++
++++++++++++++++++++       ++++    ++++
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Urist_Mc_George 0 points1 point2 points 4 years ago (0 children)
+
+And here is my Python3 version:
+
+j = "++--***..."
+
+parts = {
+'a' : j[:1]
+,'b' : j[:2]
+,'c' : j[:3]
+,'d' : j[:4]
+,'e' : j[:5]
+,'f' : j[:6]
+,'g' : j[:7]
+,'h' : j[:8]
+,'i' : j[:9]
+,'j' : j}
+
+building = []
+
+inp = input('enter building plan: ')
+
+s = ""
+
+for x in inp:
+    if x in parts:
+        # max 9 white space + len(j) = 10 => max 19elements
+        # so pad here, that all string have the same length
+        # makes "rotating" easy
+        building .append((s+ parts[x]) + (" " * (19 -len(s+ parts[x]))))
+        s = ""
+    else:
+        s = " " * int(x)
+
+# "rotates" the building
+building = list(zip (*building))
+
+for i in building[::-1]:
+    line = ("".join(i))
+    # omitt all lines which only have whitespaces
+    if not (len(set(line)) == 1 and line[:1] == " "):
+        print(line)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]tullyvey 0 points1 point2 points 4 years ago (0 children)
+
+Python 3.3 version:
+
+#!/usr/bin/env python3
+import os
+from string import digits
+
+IN_FILE, OUT_FILE = 'input.txt', 'output.txt'
+
+is_file = os.path.exists(IN_FILE)
+if is_file:
+    with open(IN_FILE) as f:
+        data = f.read().strip()
+else:
+    data = input()
+
+lookup = {c: '++--***...'[0:ord(c) - ord('a') + 1] for c in 'abcdefghij'}
+
+lines, spaces = [], 0
+for c in data:
+    if c in digits:
+        spaces = int(c)
+        continue
+    lines.append(' ' * spaces + lookup[c])
+    spaces = 0
+
+max_len = max(len(line) for line in lines)
+lines = [line + ' ' * (max_len - len(line)) for line in lines]
+
+output = '\n'.join(
+    ''.join(t) for t in zip(*(reversed(line) for line in lines)))
+
+if is_file:
+    with open(OUT_FILE, 'w') as f:
+        f.write(output)
+else:
+    print(output)
+
+Here's my little habitation dome architectural code :P
+
+e5a6a6a7a7a7a8a8a8a8a8a7a7a7a6a6a5ae
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Berm123 0 points1 point2 points 4 years ago (0 children)
+
+Java (First time solving a challenge, please criticize :D)
+
+public class Challenge {
+
+    public static void main(String[] args) {
+        System.out.println("Input masterpiece:");
+        Scanner inputReader = new Scanner(System.in);
+        String input = inputReader.nextLine();
+        inputReader.close();
+
+        char[][] construction = new char[countLetters(input)][10];
+        int cols = 0;
+        for(int i = 0; i < input.length();i++) {
+            char c = input.charAt(i);
+            cols++;
+            if(isDigit(c)) {
+                FillLine(construction,input.charAt(i+1),(int)c-48,cols-1);
+                i++;
+            }
+            else {
+                FillLine(construction,input.charAt(i),0,cols-1);
+            }
+        }
+
+        for(int i = 0;i<construction[0].length;i++) {
+            for(int j = 0;j<construction.length;j++) {
+                System.out.print(construction[j][i]);
+            }
+            System.out.println("");
+        }
+
+    }
+    private static int countLetters(String str) {
+        int count = 0;
+        for(int i = 0; i < str.length();i++) {
+            char c = str.charAt(i);
+            if(!isDigit(c)) {
+                count++;
+            }
+        }
+        return count;
+    }
+    private static boolean isDigit(char c) {
+        boolean isDigit = (c >= '0' && c <= '9');
+        return isDigit;
+    }
+    private static void FillLine(char[][] construction,char letter,int num,int col) {
+        FillSpaces(construction,col);
+        switch(letter) {
+        case 'a':
+            construction[col][9-num] = '+';
+        break;
+        case 'b':
+            construction[col][9-num] = '+';
+            construction[col][8-num] = '+';
+        break;
+        case 'c':
+            construction[col][9-num] = '+';
+            construction[col][8-num] = '+';
+            construction[col][7-num] = '-';
+        break;
+        case 'd':
+            construction[col][9-num] = '+';
+            construction[col][8-num] = '+';
+            construction[col][7-num] = '-';
+            construction[col][6-num] = '-';
+        break;
+        case 'e':
+            construction[col][9-num] = '+';
+            construction[col][8-num] = '+';
+            construction[col][7-num] = '-';
+            construction[col][6-num] = '-';
+            construction[col][5-num] = '*';
+        break;
+        case 'f':
+            construction[col][9-num] = '+';
+            construction[col][8-num] = '+';
+            construction[col][7-num] = '-';
+            construction[col][6-num] = '-';
+            construction[col][5-num] = '*';
+            construction[col][4-num] = '*';
+        break;
+        case 'g':
+            construction[col][9-num] = '+';
+            construction[col][8-num] = '+';
+            construction[col][7-num] = '-';
+            construction[col][6-num] = '-';
+            construction[col][5-num] = '*';
+            construction[col][4-num] = '*';
+            construction[col][3-num] = '*';
+        break;
+        case 'h':
+            construction[col][9-num] = '+';
+            construction[col][8-num] = '+';
+            construction[col][7-num] = '-';
+            construction[col][6-num] = '-';
+            construction[col][5-num] = '*';
+            construction[col][4-num] = '*';
+            construction[col][3-num] = '*';
+            construction[col][2-num] = '.';
+        break;
+        case 'i':
+            construction[col][9-num] = '+';
+            construction[col][8-num] = '+';
+            construction[col][7-num] = '-';
+            construction[col][6-num] = '-';
+            construction[col][5-num] = '*';
+            construction[col][4-num] = '*';
+            construction[col][3-num] = '*';
+            construction[col][2-num] = '.';
+            construction[col][1-num] = '.';
+        break;
+        case 'j':
+            construction[col][9-num] = '+';
+            construction[col][8-num] = '+';
+            construction[col][7-num] = '-';
+            construction[col][6-num] = '-';
+            construction[col][5-num] = '*';
+            construction[col][4-num] = '*';
+            construction[col][3-num] = '*';
+            construction[col][2-num] = '.';
+            construction[col][1-num] = '.';
+            construction[col][0-num] = '.';
+        break;
+        }
+    }
+    private static void FillSpaces(char[][] construction,int col) {
+        for(int i = 0; i < 10;i++) {
+            construction[col][i] = ' ';
+        }
+    }
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]kastang 0 points1 point2 points 4 years ago (0 children)
+
+Bash
+
+#!/usr/bin/env bash
+
+input="$1"
+max_len=0
+lines=()
+
+function char_to_str() {
+    out="++--***..."
+    num=$(echo "$1" | tr abcdefghij 1234567890)
+    if [[ $num == 0 ]]; then num=10; fi
+    echo ${out:0:$num}
+}
+
+while test $input; do
+    case "${input:0:1}" in
+        [a-j])
+            padding=""
+            char=${input:0:1}
+            input=${input:1}
+            ;;
+        *)
+            padding=${input:0:1};
+            char=${input:1:1}
+            input=${input:2}
+            ;;
+    esac
+
+    output=$(char_to_str $char)
+    len=$(( $padding + ${#output} ))
+    if [[ $len -gt $max_len ]]; then max_len=$len; fi
+    lines[${#lines[@]}]="$(printf "%${len}s\n" "$output")"
+done
+
+IFS=
+counter=$max_len
+while [[ $counter -ge 0 ]]; do
+    for line in ${lines[@]}; do
+        if [[ ${#line} -gt $counter ]]; then
+            echo -n "${line:$counter:1}"
+        else
+            echo -n " "
+        fi
+    done
+    echo
+    counter=$[counter - 1]
+done
+
+Output -> sh solution.sh
+j3f3e3e3d3d3c3cee3c3c3d3d3e3e3f3fjij3f3f3e3e3d3d3c3cee3c3c3d3d3e3e3fj
+
+.                 . .                 .
+.*              **...**              *.
+.***          ****...****          ***.
+*-----      ------***------      -----*
+*-------  --------***--------  -------*
+*+++++++**++++++++***++++++++**+++++++*
+-+++++++--++++++++---++++++++--+++++++-
+-       --        ---        --       -
++       ++        +++        ++       +
++       ++        +++        ++       +
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]h3ckf1r3 0 points1 point2 points 4 years ago (4 children)
+
+Wrote it in C (I feel like I am finally getting the hang of it), feel free to
+critique :).
+
+#include <stdio.h>
+#include <string.h>
+
+char* line = "...***--++";
+
+int main()
+{
+    FILE* fp = fopen("architect.in","r");
+    char c;
+    char map[230][10];
+    int col =0 ;
+    while((c=fgetc(fp)) != '\n')
+    {
+        char output[10] = "";
+        char tail[10] = "";
+        char head[10] = "";
+        if(c < 96)
+        {
+            while(strlen(tail)<c-48)
+            {
+                strcat(tail," ");
+            }
+            c= fgetc(fp);
+        }
+        strcat(output,line+9-(int)(c-97));
+        while(strlen(head) + strlen(output) + strlen(tail)<10)
+            strcat(head," ");
+        sprintf(map[col],"%s%s%s",head, output,tail);
+        col++;
+    }
+    for(int i = 0; i < 10;i++)
+    {
+        int buff = -1;
+        while(buff++ < col)
+            printf("%c",map[buff][i]);
+        printf("\n");
+    }
+    return 0;
+}
+
+And here is my extremely creepy smile.... :)
+
+4a3a3a2a2a5b1a1a1a1a5b2a2a3a3a4a
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]n0rs 1 point2 points3 points 4 years ago (3 children)
+
+Instead of using the numerical values of characters, you can use the character
+constant values. E.g.,
+
+while(strlen(tail)<c-48)
+could be
+while(strlen(tail) < c-'0')
+
+This is useful because it '0' is a lot more meaningful in this case than 48. It
+can also be used like this:
+if (c >= 'a' && c <= 'z')
+
+This is a little unrelated but, the difference between uppercase and lower case
+is 32 or 0x20 where lower case letters have 0x20 set and upper case do not.
+Example
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]h3ckf1r3 1 point2 points3 points 4 years ago (2 children)
+
+    Instead of using the numerical values of characters, you can use the
+    character constant values
+
+Thank you for pointing that out, I guess I knew that but it just hadn't clicked
+in my mind I could use it that way. I guess I don't need to be going to
+asciitable.com as often :).
+
+    This is a little unrelated but, the difference between uppercase and lower
+    case is 32 or 0x20 where lower case letters have 0x20 set and upper case do
+    not. Example
+
+That makes a lot of sense, 0x20 is basically a flag between upper and lower
+case. Thanks for pointing that out, testing your code out on paper really
+helped solidify some stuff in my head about binary and hex. Lately I've been
+trying to force myself to use/become comfortable with binary, so this was
+perfect.
+
+I do have a question though, why did you use AND NOT (&~) instead of XOR (^)?
+As far as I could tell the two do the same thing.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]n0rs 0 points1 point2 points 4 years ago (1 child)
+
+    I do have a question though, why did you use AND NOT (&~) instead of XOR
+    ()? As far as I could tell the two do the same thing.
+
+XOR could also have been used instead of OR | for A->a but I wanted to make the
+distinction between set (OR), unset (AND NOT), and toggle (XOR).
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]h3ckf1r3 1 point2 points3 points 4 years ago (0 children)
+
+Thank you, that answers my question perfectly, XOR always toggles whereas AND
+NOT just unsets. As you can see I have a lot to learn still about bitwise
+operations and their uses :).
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]az4 0 points1 point2 points 4 years ago* (0 children)
+
+This can be a Java solution: 1. https://gist.github.com/az3/11144187 2. http://
+rextester.com/RXEST56255
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]domfx 0 points1 point2 points 4 years ago (0 children)
+
+My c++ attempt. I'm sure there are simpler, more elegant solutions.
+
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+//define numeric values for all letters to map to
+typedef enum letter { a=0, b, c, d, e, f ,g, h, i, j } State;
+
+const string map = "++--***...";
+const int size = 19;
+
+int getSize(char);
+
+int main(int argc, const char * argv[])
+{
+    string input;
+    cout << "Enter your code" << endl;
+    cin >> input;
+        //string input =     "j3f3e3e3d3d3c3cee3c3c3d3d3e3e3f3fjij3f3f3e3e3d3d3c3cee3c3c3d3d3e3e3fj";
+
+    string output[size];
+
+    int i = 0;
+    while(i < input.length())
+    {
+        //char is a number
+        if((input[i] >= 48) && (input[i] <=57))
+        {
+            char a = input[i+1];
+            int s = getSize(a);
+
+            int x = input[i]-48;
+
+            for(int i = 0; i < size; i++)
+            {
+                if( i <= (s + x))
+                {
+                    if(i < x)
+                        output[i].append(" ");
+                    else
+                        output[i] += map[i-x];
+                }
+                else
+                    output[i].append(" ");
+            }
+            i = i + 2;
+        }
+        else
+        {
+            char a = input[i];
+            int s = getSize(a);
+
+            for(int i = 0; i < size; i++)
+            {
+                if(i <= s)
+                    output[i] += map[i];
+                else
+                    output[i].append(" ");
+            }
+            i++;
+        }
+
+    }
+
+    for(int i = size; i >= 0; i--)
+    {
+        //if string only contains spaces, don't print it
+        if(output[i].find_first_not_of(' ') != string::npos)
+            cout << output[i] << endl;
+
+    }
+
+    return 0;
+}
+
+int getSize(char ch)
+{
+    if(ch == 'a')
+        return a;
+    else if(ch == 'b')
+        return b;
+    else if(ch == 'c')
+        return c;
+    else if(ch == 'd')
+        return d;
+    else if(ch == 'e')
+        return e;
+    else if(ch == 'f')
+        return f;
+    else if(ch == 'g')
+        return g;
+    else if(ch == 'h')
+        return h;
+    else if(ch == 'i')
+        return i;
+    else if(ch == 'j')
+        return j;
+    else
+        return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]tmoravec 0 points1 point2 points 4 years ago (0 children)
+
+Learning C++. Any kind of comments welcome!
+
+#include <iostream>
+#include <vector>
+#include <string>
+#include <map>
+#include <cstdlib>
+
+using namespace std;
+
+static map<char, string> columns = {
+    {{'a'}, {"+"}},
+    {{'b'}, {"++"}},
+    {{'c'}, {"++-"}},
+    {{'d'}, {"++--"}},
+    {{'e'}, {"++--*"}},
+    {{'f'}, {"++--**"}},
+    {{'g'}, {"++--***"}},
+    {{'h'}, {"++--***."}},
+    {{'i'}, {"++--***.."}},
+    {{'j'}, {"++--***..."}}
+};
+
+vector<string> draw_vertically(const string &input) {
+    vector<string> vertical;
+    string s;
+    char next_digit(0);
+
+    for (auto letter : input) {
+        if (isdigit(letter)) {
+            next_digit = atoi(&letter);
+        } else {
+            for (char c = 0; c < next_digit; c++) {
+                s += " ";
+            }
+            s += columns[letter];
+            vertical.push_back(s);
+
+            next_digit = 0;
+            s.erase();
+        }
+    }
+
+    return vertical;
+}
+
+char longest(const vector<string>& input) {
+    char length(0);
+
+    for (auto line : input) {
+        if (line.length() > length) {
+            length = line.length();
+        }
+    }
+
+    return length;
+}
+
+vector<string> prepare_empty_matrix(char length, char width) {
+    vector<string> empty_matrix;
+
+    for (char L = 0; L < length; L++) {
+        string s("");
+        for (char w = 0; w < width; w++) {
+            s += " ";
+        }
+        empty_matrix.push_back(s);
+    }
+
+    return empty_matrix;
+}
+
+vector<string> transpose(const vector<string>& vertical) {
+    vector<string> transposed;
+    char length = longest(vertical);
+    char c;
+
+    transposed = prepare_empty_matrix(length, vertical.size());
+
+    for (char o_width = length; o_width >= 0; --o_width) {
+        for (char o_height = 0; o_height < vertical.size(); o_height++) {
+            string line = vertical[o_height];
+
+            if ((c = line[o_width])) {
+                transposed[length-o_width-1][o_height] = c;
+            }
+        }
+    }
+
+    return transposed;
+}
+
+void print_result(const vector<string>& result) {
+    for (auto line : result) {
+        cout << line << endl;
+    }
+}
+
+int main() {
+    string input;
+    vector<string> vertical;
+    vector<string> transposed;
+
+    cin >> input;
+    vertical = draw_vertically(input);
+    transposed = transpose(vertical);
+    print_result(transposed);
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]modulexploited 0 points1 point2 points 4 years ago* (0 children)
+
+https://gist.github.com/modulexploited/11237457
+
+package sandbox;
+import java.util.*;
+
+public class ASCIIArchitect1 {
+    public static final String pillarTemplate = "++--***...";
+    public static String getPillar(char chr, int height){
+        return appendSpaces(pillarTemplate.substring(0, chr-96), height);
+    }
+
+    public static String appendSpaces(String strng, int height){
+        String str = strng;
+        for(int i=0;i<19-strng.length();i++)
+            str = (i<height) ? (" " + str) : (str + " ");
+        return str;
+    }
+
+    public static void showBuilding(String str){
+        List<String> building = new ArrayList<>();
+        for(int i=0;i<str.length();i++){
+            String pillar = "";
+            char c = str.charAt(i);
+            if(c>48 && c<=57)  // "c" is a number. So read the next character to
+                pillar = getPillar(str.charAt(++i), c-48);
+            else
+                pillar = getPillar(c, 0);
+            building.add(pillar);
+        }
+        for(int i=18;i>=0;i--,System.out.print("\n")){
+            for (String bldng : building) {
+                System.out.print(bldng.charAt(i) + "");
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        String s = "j3f3e3e3d3d3c3cee3c3c3d3d3e3e3f3fjij3f3f3e3e3d3d3c3cee3c3c3d3d3e3e3fj";
+        showBuilding(s);
+        s = "f2cccdehj5jjhedcc2cf";
+        showBuilding(s);
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]chaitan94 0 points1 point2 points 3 years ago (0 children)
+
+Python 2.7
+
+bricks = {
+    'a':'+',
+    'b':'++',
+    'c':'-++',
+    'd':'--++',
+    'e':'*--++',
+    'f':'**--++',
+    'g':'***--++',
+    'h':'.***--++',
+    'i':'..***--++',
+    'j':'...***--++',
+}
+blueprint = raw_input()
+
+padding = 0
+product = []
+
+for i in blueprint:
+    if i in bricks:
+        s = bricks[i]
+        s += ' ' * padding
+        product.append(' ' * (10 - len(s)) + s)
+        padding = 0
+    else:
+        padding = int(i)
+productstr = ''
+for x in xrange(10):
+    for i in product:
+        productstr += i[x]
+    productstr += '\n'
+
+print productstr
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+  • about
+  • blog
+  • about
+  • advertising
+  • careers
+
+  • help
+  • site rules
+  • Reddit help center
+  • wiki
+  • reddiquette
+  • mod guidelines
+  • contact us
+
+  • apps & tools
+  • Reddit for iPhone
+  • Reddit for Android
+  • mobile website
+  • buttons
+
+  • <3
+  • reddit gold
+  • redditgifts
+
+Use of this site constitutes acceptance of our User Agreement and Privacy
+Policy. (C) 2018 reddit inc. All rights reserved.
+
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+Advertise - technology
+
+[pixel]
+
+π Rendered by PID 1023 on app-273  at 2018-05-09 20:30:39.244978+00:00 running
+4c4e6ea country code: CH.
+

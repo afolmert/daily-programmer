@@ -1,0 +1,5846 @@
+ 
+r/dailyprogrammer
+log insign upsign in
+Reddit Feeds
+
+  • popular
+  • all
+  • 
+
+Sign up and stay connected to your favorite communities.
+
+sign uplog in
+ 
+r/
+
+dailyprogrammer
+
+Posts
+56
+Posted by
+u/Coder_d00d
+1 33 years ago
+
+[7/14/2014] Challenge #171 [Easy] Hex to 8x8 Bitmap
+
+Description:
+
+Today we will be making some simple 8x8 bitmap pictures. You will be given 8
+hex values that can be 0-255 in decimal value (so 1 byte). Each value
+represents a row. So 8 rows of 8 bits so a 8x8 bitmap picture.
+
+Input:
+
+8 Hex values.
+
+example:
+
+18 3C 7E 7E 18 18 18 18
+
+Output:
+
+A 8x8 picture that represents the values you read in.
+
+For example say you got the hex value FF. This is 1111 1111 . "1" means the
+bitmap at that location is on and print something. "0" means nothing is printed
+so put a space. 1111 1111 would output this row:
+
+xxxxxxxx
+
+if the next hex value is 81 it would be 1000 0001 in binary and so the 2nd row
+would output (with the first row)
+
+xxxxxxxx
+x      x
+
+Example output based on example input:
+
+   xx
+  xxxx
+ xxxxxx
+ xxxxxx
+   xx
+   xx
+   xx
+   xx
+
+Challenge input:
+
+Here are 4 pictures to process and display:
+
+FF 81 BD A5 A5 BD 81 FF
+AA 55 AA 55 AA 55 AA 55
+3E 7F FC F8 F8 FC 7F 3E
+93 93 93 F3 F3 93 93 93
+
+Output Character:
+
+I used "x" but feel free to use any ASCII value you want. Heck if you want to
+display it using graphics, feel free to be creative here.
+
+241 comments
+share
+90% Upvoted
+Sort by
+best
+ 
+best
+ 
+top
+ 
+new
+ 
+controversial
+ 
+old
+ 
+q&a
+ntxhhf
+39 points·3 years ago·edited 3 years ago
+
+Python. I had a lot of fun writing this. Abandon pep8 all ye who enter...
+
+__= '3E 7F FC F8 F8 FC 7F 3E'
+_=(()==[()])+(()==())<<(((())==(()))<<((()==())<<((()==()))))<<(()==());__=(__.
+split(chr(_)));__=((chr((_<<((()==(()))<<((()==()))))-(_>>((()==(()))<<((()==()
+)))+(()==()))-(()==()))+str((()==())>>(()==()))+chr((_<<-(_+~_+(_-_)))-((_/int(
+str(-(_+(_-_)+~_))+str(_-_)))<<((_==_)==(()==()))))+chr((_<<((()==(()))<<((()==
+()))))-(_>>((()==(()))<<((()==())))+(()==()))-(()==()))+str(-(~_+_))+chr((()==(
+))+(_<<((()==(()))<<((()==()))))-(_>>((()==(()))<<((()==())))+(()==())))+chr(((
+)==())+(_<<((( )==(()))<<((()==()))))-(_>>((()==(()))<<((()==())))+(()==())))).
+format(int(bin(int(__,_>>((((()))==()))))[~_*~_/_-_:]),~_*~_/_-_<<~_*~_/_-_)for
+__ in __);__=(str().join((chr((_<<(_>>(_%int(str(-(_+~_))+str(_-_))<<(()==())))
+)-(_%int(str(-(_+~_))+str(_-_))<<(()==())<<-(_+~_)))if __==str((()==())>>((()==
+())==(())))else chr(_)for __ in row))for row in __);print chr(int(str(-(_+~_))+
+str((()==(([])))>>(((()==())<<([]==()))==((()))==())))>>((~_+~_)==[])).join(__)
+
+Output:
+
+  xxxxx
+ xxxxxxx
+xxxxxx
+xxxxx
+xxxxx
+xxxxxx
+ xxxxxxx
+  xxxxx
+
+EDIT: Breakdown!
+
+share
+Save
+chunes
+1 234 points·3 years ago
+
+Wat.
+
+share
+Save
+killedbythegrue
+27 points·3 years ago
+
+Good lord, you wrote perl using python!.
+
+share
+Save
+ClickHereForBacardi
+9 points·3 years ago
+
+Finally a properly pythonic Brainfuck dialect.
+
+share
+Save
+LpSamuelm
+14 points·3 years ago
+
+This is why I want to learn how to think with bit shifting, but this is also
+why I definitely don't want to learn how to think with bit shifting.
+
+share
+Save
+ntxhhf
+5 points·3 years ago
+
+It's not all that daunting, really! Consider 0001 << 1, which maps to 0010
+
+8421
+----
+0001   << 1
+0010
+
+So you're just moving everything along to the left and adding a zero at the
+end. So everything at position 1 is at 2, 2 at 4, 4 at 8 etc. You're just
+multiplying by 2. So X << n is just X * 2^n.
+
+In decimal, I could left shift 1 and I'd get a 10, so I'm moving everything
+along, and adding a zero. This is effectively multiplication by 10. Right
+shifting is mostly the inverse of all this.
+
+There is also logical and arithmetic right shifting, the difference being the
+added bit is determined by the most significant (leftmost) bit. If it's 1, a 1
+will be added, if 0, a 0. Logical shifting ignores and just adds a 0. The
+reason behind this is so that the sign of the number can be preserved (on most
+systems the MSB determines the sign of the number).
+
+The limitation in shifting is eventually you'll reach the end of the number
+(typically 4 bytes in C, Python's Ints are allocated more space than for just
+the number) and overflow in to negative numbers.
+
+Without breaking down my awful piece of work up there, it's not as impressive
+as it looks. Try evaluating what all the chr()s and str()s resolve to and
+you'll see. ;)
+
+share
+Save
+doob10163
+5 points·3 years ago
+
+Hi, I am new to Python and programming in general. I just finished the
+codecademy course and am doing the edx course online.
+
+I just wanted to ask, what in the world is this? I have no clue what is going
+on here.
+
+share
+Save
+ntxhhf
+19 points·3 years ago·edited 3 years ago
+
+It's not as bad as it looks. I'll see if I can remember enough to give a
+line-by-line (lines are semicolon terminated) obfuscation explanation, with a
+side effect explaining my solution. Lets go!
+
+Line 1 is what births it all.
+
+_=(()==[()])+(()==())<<(((())==(()))<<((()==())<<((()==()))))<<(()==())
+
+Looks pretty awful, right? If you carefully follow the parens, it reduces down
+into practically nothing. ()==() is empty tuple == empty tuple, which is
+clearly to True. ()==[()] is empty tuple == empty list, which, because of the
+different types is False. The kicker is that the + in between the two coerces
+the types to int, so it becomes (1 + 0) = 1. We need the 0 or else there's
+nothing to coerce the True to a 1.
+
+So, without entering a single numeric literal, we have a 1 we can play with.
+What follows is a few left shifts, (which in essence perform multiplication by
+2^n (x<<y == x * 2**y)).
+
+Again, all the ()==() fu is just smoke and mirrors to get numbers without
+typing numbers, the first line really looks like something like 1 << 2 << 2 <<
+1, which equals 32.
+
+So after all that mucking about, we've got _ = 32, great, how useful?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+__=(__.split(chr(_)))
+
+Well, 32 is ASCII ' ' (space), so if we now call chr(_), we get a space. So all
+this was just to break the string into a list.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+__=((chr((_<<((()==(()))<<((()==()))))-(_>>((()==(()))<<((()==()
+)))+(()==()))-(()==()))+str((()==())>>(()==()))+chr((_<<-(_+~_+(_-_)))-((_/int(
+str(-(_+(_-_)+~_))+str(_-_)))<<((_==_)==(()==()))))+chr((_<<((()==(()))<<((()==
+()))))-(_>>((()==(()))<<((()==())))+(()==()))-(()==()))+str(-(~_+_))+chr((()==(
+))+(_<<((()==(()))<<((()==()))))-(_>>((()==(()))<<((()==())))+(()==())))+chr(((
+)==())+(_<<((( )==(()))<<((()==()))))-(_>>((()==(()))<<((()==())))+(()==())))).
+format(int(bin(int(__,_>>((((()))==()))))[~_*~_/_-_:]),~_*~_/_-_<<~_*~_/_-_)for
+__ in __)
+
+Looks horrible. Let's eval all the ()=() so we can see what's going on.
+
+`~_*~_/_-_`.
+
+Remember ~ does bitwise not. So we've got (-33 * -33)/32 - 32 = (1089/32 = 34)
+-32 = 2.
+
+All that garbage out of the way, we really have:
+
+__ =((chr(123)+str(0)+chr(58)+chr(123)+str(1)+chr(125)+chr(125)).format(int(bin(int(__,16))[2:]),8)for __ in __)
+
+Eval out the chr()s:
+
+('{0:{1}}'.format(int(bin(int(__,16))[2:]),8) for __ in __)
+
+Aha! That actually looks like python! We're padding up to 8 leading zeroes, the
+[2:] slice of each item in the hex list processed as a base 16 integer in
+binary. bin(x) returns a string '0bxxxx', we just want everything after the 0b
+for our printer. Generator comprehensions have their own scope, that's why I
+can reuse __ all over the place.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+__=(str().join((chr((_<<(_>>(_%int(str(-(_+~_))+str(_-_))<<(()==())))
+)-(_%int(str(-(_+~_))+str(_-_))<<(()==())<<-(_+~_)))if __==str((()==())>>((()==
+())==(())))else chr(_)for __ in row))for row in __)
+
+Ugh, less noise please:
+
+__=(str().join((chr(120) if __==str(1)else chr(_)for __ in row))for row in __)
+
+And evaling all the str()s and chr()s again, replacing variable names with
+sanity:
+
+__=(str().join(('x' if char == '1' else ' ' for char  in row)) for row in __)
+
+So, for every hex value given, make string of either 'x' or ' ', if it's 1 or a
+0. (0100100 -> x x).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Home stretch!
+
+print chr(int(str(-(_+~_))+str((()==(([])))>>(((()==())<<([]==()))==((()))==())))>>((~_+~_)==[])).join(__)
+
+Boils down to
+
+print chr(10).join(__)
+
+Now, 10 is ASCII \n, so we're printing a string made up of each item in the
+previous generator separated by a newline.
+
+Funny thing is in the intermediate, there's a int(str(1)+str(0). Originally I'd
+just done some more ()==()>> stuff to get a 10, but hadn't enough space to fill
+out the line. So there's all sorts of hoop-jumping between int chr str just to
+get a 10, to get a \n.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+And that's how it works, simples! It's quite a fun exercise to see how much you
+can bend Python, given how it's typically interpreter-enforced to be readable.
+
+share
+Save
+
+3 more replies
+
+[deleted]
+1 point·3 years ago
+
+How long did it take for you to learn to program something like that?
+
+share
+Save
+ntxhhf
+1 point·3 years ago
+
+If you check out the explanation, I'm still really just writing Python; there's
+nothing really 'low level' going on apart from going from integer values to
+their ASCII representation, and a few base conversions. I haven't been
+programming Python any longer than one year, but at the moment I'm teaching
+myself ARM Assembly for uni exams, which brings with it some of the bitwise
+operations (namely << and ~) you see, as well as the perspective shift that
+inspired the obfuscation.
+
+share
+Save
+skeeto
+-9 819 points·3 years ago·edited 3 years ago
+
+C. I like that I managed to do it with only one variable.
+
+#include <stdio.h>
+
+int main() {
+    while (!feof(stdin)) {
+        int line;
+        scanf("%02x ", &line);
+        do {
+            putchar(line & 0x80 ? 'x' : ' ');
+        } while (line <<= 1);
+        putchar('\n');
+    }
+    return 0;
+}
+
+share
+Save
+[deleted]
+1 point·3 years ago
+
+Wow, that was a lot simpler than how I did it. I don't have experience simply
+using hexadecimal numbers in my programs, so I used strings... made things
+interesting to be sure.
+
+share
+Save
+sheepweevil
+1 point·3 years ago
+
+Mine in C is similar but with more error checking and uses a fixed-width type:
+
+#include <inttypes.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+// Convert a string to a uint8
+uint8_t strtouint8(const char *s) {
+    int rv;
+    uint8_t val;
+
+    rv = sscanf(s, "%"SCNx8, &val);
+    if (rv < 1) {
+        fprintf(stderr, "Couldn't parse %s\n", s);
+        exit(1);
+    }
+    return val;
+}
+
+// Print the uint8 value as a bitmap
+void print_bitmap(uint8_t val) {
+    while (val > 0) {
+        if (val & 0x80) {
+            printf("x");
+        } else {
+            printf(" ");
+        }
+        val <<= 1;
+    }
+    printf("\n");
+}
+
+// Given 8 hex digits, print an 8x8 bitmap
+int main(int argc, char *argv[]) {
+    int i;
+    uint8_t val;
+
+    for (i = 1; i < argc; i++) {
+        val = strtouint8(argv[i]);
+        print_bitmap(val);
+    }
+    return 0;
+}
+
+share
+Save
+
+2 more replies
+
+Elite6809
+1 110 points·3 years ago
+
+Writing this Ruby code from memory on my phone. Can someone tell me if it
+works?
+
+gets.chomp.split(' ').map{|x| x.to_i(16).to_s(2).gsub(/1/, '#').gsub(/0/, ' ')}.each {|x| puts x}
+
+share
+Save
+parrotjay
+3 points·3 years ago
+
+yup, works fine! nice one-liner there
+
+share
+Save
+dummey
+1 point·3 years ago
+
+gets.split.map{|x| x.hex.to_s(2).gsub('0', ' ')}.join("\n")
+
+I tried to golf the num of chars a bit.
+
+share
+Save
+brain_poop
+1 point·3 years ago
+
+Newbie here. Can anyone explain to me where/how the hex conversion is taking
+place here?
+
+share
+Save
+Elite6809
+1 11 point·3 years ago
+
+Here: x.to_i(16)
+
+x is a string, and the .to_i method on a string turns it into an integer. If
+it's in a base other than 10 then .to_i(base) works - in this case, 16. To
+convert from an int type to an arbitrary base string, use the .to_s(base)
+method, in this case binary or base 2, so:
+
+x.to_i(16).to_s(2)
+
+First gets the string X, converts it from a hex string to an int type, and then
+from an int type to a binary string. I hope that helps!
+
+share
+Save
+aZeex2ai
+1 point·3 years ago·edited 3 years ago
+
+Here's my version in Ruby. I learned that the gsub method can take a hash
+argument. The binary strings need to be padded properly with leading zeroes.
+
+ARGF.readlines.map do |line|
+  puts line.split.map { |s|
+    "%08s" % s.hex.to_s(2).gsub(/[01]/, '0' => ' ', '1' => 'x')
+  }
+end
+
+Edit: removed redundant join. Edit: pad binary strings properly
+
+Output:
+
+xxxxxxxx
+x      x
+x xxxx x
+x x  x x
+x x  x x
+x xxxx x
+x      x
+xxxxxxxx
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+  xxxxx
+ xxxxxxx
+xxxxxx
+xxxxx
+xxxxx
+xxxxxx
+ xxxxxxx
+  xxxxx
+x  x  xx
+x  x  xx
+x  x  xx
+xxxx  xx
+xxxx  xx
+x  x  xx
+x  x  xx
+x  x  xx
+
+share
+Save
+
+1 more reply
+
+[deleted]
+8 points·3 years ago
+
+Befunge 93
+
+Just for fun:
+
+>#*~#7:#5<                                                                v_v#!`
+                                                                          : :
+                                                                          8 7
+"...."                                                                    4 9  v
+"X..."                                                                    * *  v
+".X.."                                                                    - `  v
+"XX.."                                                                    #v_v v
+"..X."                                                                   @<7 5 v
+"X.X."                                                                    |7 9 v
+".XX."                                                               v,+55<* * v
+"XXX."                                                                     3 - v
+"...X"                                                                     +   v
+"X..X"                                                               #     -   v
+".X.X"                                                         vp\6\"<"p10:< < v
+"XX.X"                                                                         v
+"..XX"                                                                         v
+"X.XX"                                                                         v
+".XXX"                                                               #         v
+"XXXX"                                                          v,,,,p\6\" "g10<
+      ^                                                        >
+
+
+
+
+v                                                               >    >
+
+share
+Save
+nyrol
+4 points·3 years ago
+
+Here is my entry in HCS12 assembly language. I'm trying to learn some
+optimization tricks, so any criticism is welcome :)
+
+            ABSENTRY Entry
+
+                    INCLUDE 'derivative.inc'
+
+ROMStart    EQU  $4000
+imageLength EQU  8
+imageChar   EQU  'x'
+
+
+            ORG RAMStart
+frameBuffer DS.B 64
+currentRow  DS.B 1
+currentCol  DS.B 1
+
+            ORG   ROMStart
+;inputImage  DC.B $18,$3C,$7E,$7E,$18,$18,$18,$18
+;inputImage  DC.B $FF,$81,$BD,$A5,$A5,$BD,$81,$FF
+;inputImage  DC.B $AA,$55,$AA,$55,$AA,$55,$AA,$55
+;inputImage  DC.B $3E,$7F,$FC,$F8,$F8,$FC,$7F,$3E
+inputImage  DC.B $93,$93,$93,$F3,$F3,$93,$93,$93
+
+Entry:
+            LDS  #RAMEnd+1                ;Setup Stack
+            LDAA #$50                     ;To enable STOP directive
+            TAP                           ;Put it in CCR
+
+            LDX  #frameBuffer-1
+            LDAB #imageLength
+
+            JSR  ClearFrameBuffer
+
+            MOVB #imageLength+1, currentRow
+            LDY  #inputImage
+            LDAB #imageChar
+NewRow:
+            MOVB #imageLength+1, currentCol ;Reset column counter
+            DEC  currentRow                 ;Move to next row
+            BEQ  Done                       ;If final row, finish
+            LDAA 1,Y+                       ;Get next row's data
+NewColumn:
+            DEC  currentCol                 ;Move to next column
+            BEQ  NewRow                     ;Check if end of row
+
+            INX                             ;Next char in framebuffer
+            LSLA                            ;Shift A into carry
+            BCC  NewColumn                  ;Check if we should draw x
+            STAB 0,X                        ;If so, draw x
+            BRA  NewColumn                  ;Start new column
+Done:
+            STOP
+
+;**************************************************************
+;*                ClearFrameBuffer subroutine                 *
+;*                                                            *
+;* Clears the contents of a framebuffer                       *
+;*                                                            *
+;* Inputs:                                                    *
+;*  X: Address of start of framebuffer - 1                    *
+;*  B: Height of Image                                        *
+;**************************************************************
+
+ClearFrameBuffer:
+            PSHX                            ;Save previous reg's
+            PSHB
+            INX
+ClearFrameBufferLoop2:
+            LDAA 0,SP                       ;Reset current column
+ClearFrameBufferLoop1:
+            CLR  1,X+                       ;Set current pixel to 0
+            DBNE A,ClearFrameBufferLoop1    ;Do this for each pixel
+            DBNE B,ClearFrameBufferLoop2
+            PULB                            ;Restore previous reg's
+            PULX
+            RTS
+
+;**************************************************************
+;*                 Interrupt Vectors                          *
+;**************************************************************
+            ORG   $FFFE
+            DC.W  Entry           ; Reset Vector
+
+Input:
+
+18 3C 7E 7E 18 18 18 18
+FF 81 BD A5 A5 BD 81 FF
+AA 55 AA 55 AA 55 AA 55
+3E 7F FC F8 F8 FC 7F 3E
+93 93 93 F3 F3 93 93 93
+
+Output:
+
+   xx
+  xxxx
+ xxxxxx
+ xxxxxx
+   xx
+   xx
+   xx
+   xx
+
+xxxxxxxx
+x      x
+x xxxx x
+x x  x x
+x x  x x
+x xxxx x
+x      x
+xxxxxxxx
+
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+
+  xxxxx
+ xxxxxxx
+xxxxxx
+xxxxx
+xxxxx
+xxxxxx
+ xxxxxxx
+  xxxxx
+
+x  x  xx
+x  x  xx
+x  x  xx
+xxxx  xx
+xxxx  xx
+x  x  xx
+x  x  xx
+x  x  xx
+
+share
+Save
+[deleted]
+1 point·3 years ago
+
+How hard is it to learn an assembly (and is it still worthwhile to do so with
+modern computers)?
+
+share
+Save
+Comment deleted3 years ago
+[deleted]
+1 point·3 years ago
+
+
+    I also am currently teaching myself 6502 assembly so that I can write Atari
+    2600 games.
+
+Oh man, I looked into making Atari games myself a while back, it's proper hard,
+for me at least. I watched a video talk of the guy who wrote pitfall, and the
+kind of hoops he, and the original 2600 programmers, had to jump through with
+that hardware... I was impressed and discouraged. Okay, thanks for the
+viewpoint. It'll be cool if I ever scrape enough determination together to
+finally set myself getting a grip on the fundamentals.
+
+share
+Save
+JaxMed
+5 points·3 years ago·edited 3 years ago
+
+(Edit: minor cleanup)
+
+C#
+
+using System;
+using System.IO;
+
+namespace DailyProgrammer
+{
+        class Program
+        {
+                const char PIXEL_1 = '█';
+                const char PIXEL_0 = '░';
+
+                static void Main(string[] args)
+                {
+                        string[] hexByteString = Console.ReadLine().Split(' ');
+
+                        foreach (string hexByte in hexByteString)
+                        {
+                                int byteValue = Convert.ToInt32(hexByte, 16);
+                                for (int i = 7; i >= 0; i--)
+                                        Console.Write(byteValue % (1 << i + 1) - byteValue % (1 << i) == 0 ? PIXEL_0 : PIXEL_1);
+
+                                Console.Write("\r\n");
+                        }
+                }
+        }
+}
+
+Output:
+
+18 3C 7E 7E 18 18 18 18
+░░░██░░░
+░░████░░
+░██████░
+░██████░
+░░░██░░░
+░░░██░░░
+░░░██░░░
+░░░██░░░
+Press any key to continue . . .
+
+FF 81 BD A5 A5 BD 81 FF
+████████
+█░░░░░░█
+█░████░█
+█░█░░█░█
+█░█░░█░█
+█░████░█
+█░░░░░░█
+████████
+Press any key to continue . . .
+
+AA 55 AA 55 AA 55 AA 55
+█░█░█░█░
+░█░█░█░█
+█░█░█░█░
+░█░█░█░█
+█░█░█░█░
+░█░█░█░█
+█░█░█░█░
+░█░█░█░█
+Press any key to continue . . .
+
+3E 7F FC F8 F8 FC 7F 3E
+░░█████░
+░███████
+██████░░
+█████░░░
+█████░░░
+██████░░
+░███████
+░░█████░
+Press any key to continue . . .
+
+93 93 93 F3 F3 93 93 93
+█░░█░░██
+█░░█░░██
+█░░█░░██
+████░░██
+████░░██
+█░░█░░██
+█░░█░░██
+█░░█░░██
+Press any key to continue . . .
+
+share
+Save
+TheVikO_o
+2 points·3 years ago
+
+Without using bit-operations, re-using Convert class
+
+using System.IO;
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        var hex = "93 93 93 F3 F3 93 93 93"; //FF 81 BD A5 A5 BD 81 FF";
+        foreach(var line in hex.Split(' '))
+        {
+            Console.WriteLine(Convert.ToString(Convert.ToInt32(line, 16),2).PadLeft(8,'0').
+            Replace('1', '#').Replace('0',' '));   // For custom char display only
+        }
+    }
+}
+
+share
+Save
+kuzux
+0 04 points·3 years ago
+
+My solution in Haskell. Well, that was much simpler than the previous easy
+challenge :)
+
+import Numeric
+import Control.Applicative
+
+process :: String -> String
+process = prependSpaces . (\x -> showIntAtBase 2 go x "") . fst . head . readHex
+    where go 0 = ' '
+          go 1 = '#'
+          prependSpaces s = (replicate (8 - length s) ' ') ++ s
+
+main :: IO ()
+main = (mapM_ $ putStrLn . process) =<< words <$> getLine
+
+share
+Save
+wenderen2
+5 points·3 years ago
+
+Python 2.7.6
+
+for hexvalue in raw_input().split():
+    for char in bin(int(hexvalue, 16))[2:].rjust(8, '0'):
+        print ' *'[int(char)],
+    print
+
+share
+Save
+stillalone
+2 points·3 years ago
+
+I think format has some binary conversion stuff so you can probably do
+something like this:
+
+from string import maketrans
+bin2x = maketrans('01',' X')
+for hexvalue in raw_input().split():
+    print "{0:08b}".format(int(hexvalue)).translate(bin2x)
+
+share
+Save
+xjcl
+2 points·3 years ago
+
+int(hexvalue) should be int(hexvalue, 16).
+
+share
+Save
+wenderen2
+1 point·3 years ago
+
+Great solution, very Pythonic! By contrast, my solution betrays my Ruby roots
+(chaining simple utility functions one after the another) :D
+
+share
+Save
+Sophira
+2 points·3 years ago
+
+Did this today in Perl in 2-3 minutes. Not a one-liner or anything like it,
+just wanted to do this as an introduction to this subreddit. (Which I've just
+subscribed to!)
+
+#!/usr/bin/perl
+
+my @codes = @ARGV;
+foreach my $code (@codes) {
+  my $value = hex($code);
+  my $row = "";
+  for (my $i = 128; $i != 0; $i >>= 1) {
+    if ($value & $i) { $row .= "x"; }
+                else { $row .= " "; }
+  }
+  print "$row\n";
+}
+
+The four runs:
+
+Sophie@Sophie-Laptop:~/dailyprogrammer/171/easy$ ./bitmap.pl FF 81 BD A5 A5 BD 81 FF
+xxxxxxxx
+x      x
+x xxxx x
+x x  x x
+x x  x x
+x xxxx x
+x      x
+xxxxxxxx
+Sophie@Sophie-Laptop:~/dailyprogrammer/171/easy$ ./bitmap.pl AA 55 AA 55 AA 55 AA 55
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+Sophie@Sophie-Laptop:~/dailyprogrammer/171/easy$ ./bitmap.pl 3E 7F FC F8 F8 FC 7F 3E
+  xxxxx
+ xxxxxxx
+xxxxxx
+xxxxx
+xxxxx
+xxxxxx
+ xxxxxxx
+  xxxxx
+Sophie@Sophie-Laptop:~/dailyprogrammer/171/easy$ ./bitmap.pl 93 93 93 F3 F3 93 93 93
+x  x  xx
+x  x  xx
+x  x  xx
+xxxx  xx
+xxxx  xx
+x  x  xx
+x  x  xx
+x  x  xx
+
+share
+Save
+BensThrowawayAcct
+1 point·3 years ago
+
+This is great. I'm new to Perl, and I spent a long time coming up with an
+overly-complicated solution that never worked. Your solution is definitely
+enlightening - and readable.
+
+share
+Save
+Sophira
+1 point·3 years ago
+
+Perl programming is often seen as a contest to see who can do something in the
+smallest possible way - "Perl golf". I prefer to write clear, readable code.
+I'm glad it helped you! :D
+
+If you need any help or explanations on any of the code, let me know.
+
+share
+Save
+blhylton
+2 points·3 years ago
+
+First submission here as I just found this place
+
+C# "one-liner" (or as close as you can get in C#.NET and still have console
+output)
+
+Not sure if this is the best way I could have managed it, but I'm still fairly
+new to Linq and figured this was a good way to flex my mind.
+
+Console.ReadLine().Split(' ').ToList<string>().ForEach(s =>{Convert.ToString(Convert.ToInt32(s, 16), 2).PadLeft(8, '0').ToList<char>().ForEach(c => Console.Write(c == '1' ? 'x' : ' '));Console.Write(Environment.NewLine);});
+
+share
+Save
+akenaide
+2 points·3 years ago
+
++u/CompileBot python 3
+
+def convert_hex_to_bin(hex_str):
+    return bin(int(hex_str, 16))[2:].zfill(8)
+
+
+def format_bin(bin_str):
+    return bin_str.replace("1", "x").replace("0", " ")
+
+
+def main():
+    hex_list = ["FF 81 BD A5 A5 BD 81 FF",
+            "AA 55 AA 55 AA 55 AA 55",
+            "3E 7F FC F8 F8 FC 7F 3E",
+            "93 93 93 F3 F3 93 93 93"]
+
+    for image in hex_list:
+        for line in image.split():
+            print(format_bin(convert_hex_to_bin(line)))
+
+if __name__ == "__main__":
+    main()
+
+share
+Save
+CompileBot
+1 point·3 years ago
+
+Output:
+
+xxxxxxxx
+x      x
+x xxxx x
+x x  x x
+x x  x x
+x xxxx x
+x      x
+xxxxxxxx
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+  xxxxx
+ xxxxxxx
+xxxxxx
+xxxxx
+xxxxx
+xxxxxx
+ xxxxxxx
+  xxxxx
+x  x  xx
+x  x  xx
+x  x  xx
+xxxx  xx
+xxxx  xx
+x  x  xx
+x  x  xx
+x  x  xx
+
+...
+
+^source ^| ^info ^| ^git ^| ^report
+
+share
+Save
+[deleted]
+2 points·3 years ago·edited 3 years ago
+
+Python
+
+a = str(raw_input("Input a series of 8 hex values separated by spaces\n"))
+n = 0
+while (n < 8):
+  b = bin(int("0x"+a[(n+2*n):(2+3*n)],0))
+  c = 8 - len(b[2:])
+  d = ""
+  for i in range(c):
+    d += " "
+  for bit in b[2:]:
+    if bit == "1":
+      d += "X"
+    else:
+      d += " "
+  print d
+  n += 1
+
+feels a little kludgey, but took me less than 10 minutes!
+
+share
+Save
+Edward_H
+3 points·3 years ago·edited 3 years ago
+
+I don't have a COBOL compiler which supports boolean/bit data, but I believe
+this should work:
+
+EDIT: Fixed errors.
+
+       >>SOURCE FREE
+IDENTIFICATION DIVISION.
+PROGRAM-ID. hex-to-bitmap.
+
+ENVIRONMENT DIVISION.
+CONFIGURATION SECTION.
+REPOSITORY.
+    FUNCTION hex-to-num
+    FUNCTION ALL INTRINSIC
+    .
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+01  bit-num                             PIC 9 COMP.
+01  hex-bool                            PIC 1(8) BIT.
+01  hex-str                             PIC XX.
+01  input-str                           PIC X(50).
+01  str-pos                             PIC 99 COMP VALUE 1.
+
+PROCEDURE DIVISION.
+    ACCEPT input-str
+    MOVE FUNCTION UPPER-CASE(input-str) TO input-str
+
+    PERFORM UNTIL EXIT
+        UNSTRING input-str DELIMITED BY SPACE INTO hex-str POINTER str-pos
+        MOVE BOOLEAN-OF-INTEGER(hex-to-num(hex-str)) TO hex-bool
+
+        PERFORM VARYING bit-num FROM 1 BY 1 UNTIL bit-num > 8
+            IF hex-bool (bit-num:1)
+                DISPLAY "X" NO ADVANCING
+            ELSE
+                DISPLAY SPACE NO ADVANCING
+            END-IF
+        END-PERFORM
+        DISPLAY SPACES
+    END-PERFORM
+    .
+END PROGRAM hex-to-bitmap.
+
+
+IDENTIFICATION DIVISION.
+FUNCTION-ID. hex-to-num.
+
+ENVIRONMENT DIVISION.
+CONFIGURATION SECTION.
+REPOSITORY.
+    FUNCTION hex-char-to-num
+    .
+DATA DIVISION.
+LINKAGE SECTION.
+01  str                                 PIC XX.
+
+01  num                                 PIC 9(3) COMP.
+
+PROCEDURE DIVISION USING str RETURNING num.
+    COMPUTE num = FUNCTION hex-char-to-num(str (1:1)) * 16
+        + FUNCTION hex-char-to-num(str (2:1))
+    .
+END FUNCTION hex-to-num.
+
+IDENTIFICATION DIVISION.
+FUNCTION-ID. hex-char-to-num.
+
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+01  char-map-area                       VALUE "0123456789ABCDEF".
+    03  char-map                        PIC X OCCURS 16 TIMES.
+
+LINKAGE SECTION.
+01  hex-char                            PIC X.
+
+01  num                                 PIC 99 COMP.
+
+PROCEDURE DIVISION USING hex-char RETURNING num.
+    PERFORM VARYING num FROM 1 BY 1
+        UNTIL char-map (num) = hex-char
+    END-PERFORM
+    SUBTRACT 1 FROM num
+    .
+END FUNCTION hex-char-to-num.
+
+share
+Save
+Coplate
+1 point·3 years ago
+
+I've been using: http://www.compileonline.com/compile_cobol_online.php
+
+But it doesn't support functions. I don't know about bit data
+
+share
+Save
+fluoroamine
+1 point·3 years ago
+
+Wow. Why would you use COBOL?
+
+share
+Save
+Coplate
+1 point·3 years ago
+
+I can't speak to Edward_H, but I'm doing mine because I just want to learn it.
+
+share
+Save
+Edward_H
+1 point·3 years ago
+
+Same for me. I find its unique design fascinating.
+
+Of course, I'd never want to write anything large in it; I'd probably succumb
+to RSI half way through. I feel sorry for any programmer who has to maintain
+the massive and incomprehensible legacy programs written in it.
+
+share
+Save
+dongas420
+2 points·3 years ago·edited 3 years ago
+
+Just another one-liner (Perl):
+
+($_=sprintf"%08b\n",hex)=~y/01/ x/,print for split/\s/,join'',<>;
+
+Input:
+
+FF 81 BD A5 A5 BD 81 FF
+AA 55 AA 55 AA 55 AA 55
+3E 7F FC F8 F8 FC 7F 3E
+93 93 93 F3 F3 93 93 93
+
+Output:
+
+xxxxxxxx
+x      x
+x xxxx x
+x x  x x
+x x  x x
+x xxxx x
+x      x
+xxxxxxxx
+
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+
+  xxxxx
+ xxxxxxx
+xxxxxx
+xxxxx
+xxxxx
+xxxxxx
+ xxxxxxx
+  xxxxx
+
+x  x  xx
+x  x  xx
+x  x  xx
+xxxx  xx
+xxxx  xx
+x  x  xx
+x  x  xx
+x  x  xx
+
+e: Fixed
+
+share
+Save
+prondose
+0 01 point·3 years ago
+
+nice! I never think of sprintf for base conversions
+
+share
+Save
+
+1 more reply
+
+thinksInCode
+3 points·3 years ago
+
+Groovy:
+
+args[0].split(' ').each() {
+    def row = Integer.parseInt(it, 16)
+    for (i in 8..0) {
+        print((row & 2**i) ? 'x' : ' ')
+    }
+    println()
+}
+
+share
+Save
+Dongface
+1 point·3 years ago
+
+That bit masking is cool!
+
+share
+Save
+FerdErik
+2 points·3 years ago
+
+Another quick one with Java 8
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    try (Scanner in = new Scanner(System.in)) {
+      in.forEachRemaining(s -> Arrays.stream(s.split(" "))
+          .map(i -> String.format("%8s",
+              Integer.toBinaryString(Integer.parseInt(i, 16)))
+            .replaceAll("0", " ")
+            .replaceAll("1", "#"))
+          .forEach(System.out::println));
+    } catch (Exception e) {}
+  }
+}
+
+Output:
+
+########
+#      #
+# #### #
+# #  # #
+# #  # #
+# #### #
+#      #
+########
+
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
+
+  #####
+ #######
+######
+#####
+#####
+######
+ #######
+  #####
+
+#  #  ##
+#  #  ##
+#  #  ##
+####  ##
+####  ##
+#  #  ##
+#  #  ##
+#  #  ##
+
+share
+Save
+Torfy
+2 points·3 years ago
+
+I really like this solutiion. I need to learn lambda expressions and how to do
+functional programming.
+
+share
+Save
+Comment deleted3 years ago
+chunes
+1 21 point·3 years ago
+
+Yep. It defines an anonymous function.
+
+share
+Save
+FerdErik
+1 point·3 years ago
+
+It's new in Java 8 and called Lambda Expression. It is pretty useful combined
+with the Streaming and functional interfaces, brings a bit of functional
+programming to java.
+
+share
+Save
+thestoicattack
+0 02 points·3 years ago·edited 3 years ago
+
+bash, with horrible arithmetic hackery:
+
+#!/bin/bash
+
+bits() {
+        blank=" "
+        filled="x"
+        output=""
+        for ((i = "$1"; i > 0; i = i / 2)); do
+                if ((i % 2 == 0)); then
+                        output="$blank$output"
+                else
+                        output="$filled$output"
+                fi
+        done
+        printf "%8s\n" "$output"
+}
+
+for byte; do
+        bits "$((16#$byte))"
+done
+
+share
+Save
+jnazario
+2 02 points·3 years ago·edited 3 years ago
+
+F#
+
+open System
+
+let input = ["FF 81 BD A5 A5 BD 81 FF"; "AA 55 AA FF AA FF AA FF";
+             "3E 7F FC F8 F8 FC 7F E3"; "93 93 93 F3 F3 93 93 93"; ]
+
+let clean (s:string) =
+    s.Replace("1", "x").Replace("0", " ")
+
+input |> List.iter ( fun x -> (x + " 00").Split()
+                            |> Array.map ( fun x -> Convert.ToString(Convert.ToInt32(x, 16), 2).PadLeft(8, '0') )
+                            |> Array.iter ( fun x -> Console.WriteLine( clean x ) )
+                    )
+0
+
+once compiled output is
+
+$ mono easy180.exe
+
+xxxxxxxx
+x      x
+x xxxx x
+x x  x x
+x x  x x
+x xxxx x
+x      x
+xxxxxxxx
+
+x x x x
+ x x x x
+x x x x
+xxxxxxxx
+x x x x
+xxxxxxxx
+x x x x
+xxxxxxxx
+
+  xxxxx
+ xxxxxxx
+xxxxxx
+xxxxx
+xxxxx
+xxxxxx
+ xxxxxxx
+xxx   xx
+
+x  x  xx
+x  x  xx
+x  x  xx
+xxxx  xx
+xxxx  xx
+x  x  xx
+x  x  xx
+x  x  xx
+
+share
+Save
+gfixler
+1 point·3 years ago
+
+Looking at the output examples in other comments, I think your middle two
+images might not be correct.
+
+share
+Save
+jnazario
+2 01 point·3 years ago
+
+i saw that, too, but i see a couple of other folks had the same issue. it had
+me worried.
+
+for the second, note that the alternate lines are AA and 55 for the first two
+then FF for the next ones, which would lead to the full lines (as opposed to
+the checkerboard that some people have). for the third the final row is E3, i
+suspect (given the ones that others have) a typo from 3E, like the first row.
+
+is that what you're expecting too?
+
+i wonder if they caught these same errors in the challenge input and silently
+changed them. i tackled it pretty early on in the day, soon after it was
+posted. i did a cut and paste into my code - and reviewing it it looks like
+they did. if i change my input definition i get what i think you're calling the
+right ones - a checkerboard and a crescent.
+
+let input = ["FF 81 BD A5 A5 BD 81 FF"; "AA 55 AA 55 AA 55 AA 55"; "3E 7F FC F8 F8 FC 7F 3E"; "93 93 93 F3 F3 93 93 93"]
+
+share
+Save
+gfixler
+1 point·3 years ago
+
+Yeah, your inputs are different than the [current] example input pictures. They
+must have changed them at some point.
+
+share
+Save
+rectal_smasher_2000
+1 12 points·3 years ago·edited 3 years ago
+
+c++
+
+#include <iostream>
+#include <array>
+
+int main() {
+        std::array<int, 8> h;
+        std::cin >> std::hex >> h[0] >> h[1] >> h[2] >> h[3] >> h[4] >> h[5] >> h[6] >> h[7];
+
+        for(auto val : h) {
+                for(unsigned mask = 1; mask < 255; mask <<= 1) {
+                        (val & mask) ? std::cout << "x" : std::cout << " ";
+                }
+                std::cout << std::endl;
+        }
+}
+
+share
+Save
+chunes
+1 22 points·3 years ago
+
+I'm learning Haskell. Suggestions are welcome!
+
+import Numeric
+import Data.Char
+
+input :: [String]
+input = ["18","3C","7E","7E","18","18","18","18"]
+
+hexToBin :: String -> String
+hexToBin h = showIntAtBase 2 intToDigit (fst $ readHex h !! 0) ""
+
+eightify :: String -> String
+eightify xs | length xs >= 8 = xs
+            | otherwise = eightify ('0' : xs)
+
+picturefy :: a -> a -> String -> [a]
+picturefy c e xs = [if x == '1' then c else e | x <- xs]
+
+main = putStrLn
+       $ unlines
+       $ map (\xs -> picturefy '*' ' ' (eightify $ hexToBin xs)) input
+
+share
+Save
+marchelzo
+2 points·3 years ago
+
+Rather than a lambda in your main function, I would have gone with
+
+$ map (picturefy '*' ' ' . eightify . hexToBin) input
+
+But I'm also pretty new to Haskell so take that with a grain of salt.
+
+share
+Save
+chunes
+1 22 points·3 years ago
+
+You're absolutely right. I've been having trouble understanding the . operator
+but your comment led to an epiphany. So thanks.
+
+share
+Save
+TheBeardedGuru
+1 point·3 years ago
+
+All the . operator does is allow you compose functions. Say you had a a
+function g and a function f. Instead of writing it f(g()) or f(g), you could
+instead write it f . g() or f . g
+
+share
+Save
+ryani
+1 point·3 years ago
+
+Converting numbers back to strings and then comparing with '1' feels wrong. You
+can use Data.Bits to grab the bits yourself. Otherwise, nice. I didn't know
+about the Numeric library, definitely some useful stuff in there!
+
+share
+Save
+Sage_Noctowl
+2 points·3 years ago·edited 3 years ago
+
+Currently trying to learn haskell (my first program), decided to avoid using
+some built-in functions, and tried to break up the ones I did have for
+readability's sake. Any advice?
+
+Edit: dammit, the output was flipped, this is why you check all sample cases
+first.
+
+import Numeric
+slicef :: [Char] -> Char -> [[Char]]
+slicef [] _ = [[]]
+slicef (x:xs) s
+    | (x == s) = []:y
+    | otherwise = (x:(head y)):(tail y)
+        where y = slicef xs s
+slice :: [Char] -> [[Char]]
+slice x = filter (/=[]) (slicef x ' ')
+getNums :: [Char] -> [Int]
+getNums x = map (fst . head . readHex) (slice x)
+
+makeLine :: Int -> [Char]
+makeLine 0 = []
+makeLine x = makeLine (x `div` 2) ++ [if mod x 2 == 1 then 'x' else ' ']
+
+parseInput x = map makeLine (getNums x)
+
+joins :: [[Char]] -> [Char]
+joins [] = ""
+joins (x:xs) = x ++ "\n" ++ (joins xs)
+
+main = do
+    input <- getLine
+    putStr $ joins $ parseInput input
+
+share
+Save
+ryani
+1 point·3 years ago
+
+++ is O(n^2) when applied left-recursively. Obviously doesn't matter in this
+small case, but you can do better. The common solution is a 'difference list':
+
+makeLine' :: Int -> String -> String
+makeLine' 0 = id
+makeLine' x = makeLine' (x `div` 2) . if mod x 2 == 1 then ('x':) else (' ':)
+
+makeLine n = makeLine' n []
+
+Basically you turn [] into id, ++ into ., and list into (list ++). Or just use
+Data.DList to do that for you.
+
+share
+Save
+Sage_Noctowl
+1 point·3 years ago
+
+I just worked through your code by hand, and it's a pretty interesting
+solution, I don't think I could have thought of that. So basically, you're
+recursively building a function backward instead of adding to the list forward?
+Things like this is why I'm really starting to warm up to haskell.
+
+share
+Save
+ryani
+1 point·3 years ago
+
+Right, when you evaluate the first character it still does all the recursion,
+but then ends up with
+
+(id . if _ then x: else sp: . if _ then x: else sp: . ...) []
+
+The id pops off the front right away, then you get 'x' : (thunk with the rest
+of the expression)
+
+share
+Save
+ryani
+1 point·3 years ago
+
+By the way, if you deriving Show, the compiler does exactly this trick; there's
+a type ShowS which is String -> String to solve this problem.
+
+share
+Save
+killedbythegrue
+2 points·3 years ago
+
+Erlang:
+
+Well this was fun, used bit strings in list comprehensions.
+
+  char(C) -> case C == 1 of true -> $X; false -> 32 end.
+  hex(H) -> lists:foreach(fun(S) -> io:fwrite("~s~n", [S]) end,
+                          [[char(Y) || <<Y:1>> <= <<X>>] || <<X:8>> <= H]).
+
+Ran it with the command:
+
+lists:foreach(fun bitmap:hex/1, [<<16#FF81BDA5A5BD81FF:64>>,
+       <<16#AA55AA55AA55AA55:64>>,
+       <<16#3E7FFCF8F8FC7F3E:64>>,
+       <<16#939393F3F3939393:64>>]).
+
+share
+Save
+
+6 more replies
+
+fifosine
+2 points·3 years ago
+
+Clojure. Please provide advice, I'm still learning.
+
+(require '[clojure.math.combinatorics :refer [selections]])
+(require '[clojure.string :refer [split join]])
+
+(def lines (vec (map join (selections [" " "#"] 4))))
+
+(defn hex->int [hc] (Integer/parseInt (str hc) 16))
+
+(->> (split (read-line) #" ")
+     (map seq)
+     (map #(map hex->int %))
+     (map #(map lines %))
+     (map join)
+     (join "\n")
+     (println))
+
+Entering "18 3C 7E 7E 18 18 18 18" into stdin produces expected output.
+
+I'm not a fan of all the calls to the map function. Is there a way to reduce
+them?
+
+share
+Save
+eltonhnjr
+2 points·3 years ago
+
+I know many of you have done it with Java already. But here's my solution:
+Could be done in fewer lines, but would be difficult to read.
+
+import java.util.Scanner;
+
+public class Main {
+
+public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+
+        String[] hexs = input.split(" ");
+        for (String hex : hexs) {
+                String binary = Integer.toBinaryString(Integer.parseInt(hex, 16));
+                String result = fillWithZeros(binary);
+                System.out.println(result.replaceAll("1", "X").replaceAll("0", " "));
+        }
+}
+
+private static String fillWithZeros(String binary){
+        if(binary.length() >= 8)
+                return binary;
+        else
+                return fillWithZeros("0" + binary);
+}
+}
+
+share
+Save
+Torfy
+2 points·3 years ago
+
+I like how easy this is to understand.
+
+share
+Save
+eltonhnjr
+1 point·3 years ago
+
+Like this: public class Main {
+
+public static void main(String[] args){
+        for (String hex : args[0].split(" "))
+                System.out.println(fillWithZeros(Integer.toBinaryString(Integer.parseInt(hex, 16))).replaceAll("1", "X").replaceAll("0", " "));
+}
+
+private static String fillWithZeros(String binary){
+        return (binary.length() >= 8) ? binary : fillWithZeros("0" + binary);
+}
+}
+
+share
+Save
+throwaway-dailyprogr
+2 points·3 years ago
+
+Common Lisp (SBCL)
+
+(ql:quickload ':cl-ppcre)
+(use-package :cl-ppcre)
+
+(defun hex-pic (line)
+  (let ((in (split #\Space line)))
+    (format t "~{~a~%~}"
+            (mapcar (lambda (x)
+                      (regex-replace-all "1"
+                       (regex-replace-all "0"
+                        (format nil "~8,'0b" (parse-integer x :radix 16))
+                        " ")
+                       "#"))
+                    in))))
+
+(dolist (line '("FF 81 BD A5 A5 BD 81 FF"
+                "AA 55 AA 55 AA 55 AA 55"
+                "3E 7F FC F8 F8 FC 7F 3E"
+                "93 93 93 F3 F3 93 93 93"))
+  (hex-pic line))
+
+share
+Save
+toruitas
+1 point·3 years ago·edited 3 years ago
+
+My first attempt for a challenge here... Python 3.4
+
+Short version
+
+for hexes in ["93", "93", "93", "F3", "F3", "93", "93", "93"]:
+    print((bin(int('1'+hexes,16))[3:]).replace("1","X").replace("0"," "))
+
+Long version:
+
+def hex_to_binary(hexstring):
+    for hexes in hexstring:
+        binary_strings.append(bin(int('1'+hexes, 16))[3:])
+        """adds leading 1 to string so any leading 0's aren't dropped
+         in conversion to int. bin converts to binary, 16 is the scale equivalent to binary, then [3:] slices
+         the leading 1 off again"""
+    return binary_strings
+
+def printout(binarystring):
+   for binary in binarystring:
+        print(binary.replace("1","X").replace("0"," ")) #replace both 1's and 0's
+
+
+if __name__ == "__main__":
+    hex_strings = ["FF", "81", "BD", "A5", "A5", "BD", "81", "FF"]
+    binary_strings = hex_to_binary(hex_strings)
+    printout(binary_strings)
+
+Output (from short version):
+
+X  X  XX
+X  X  XX
+X  X  XX
+XXXX  XX
+XXXX  XX
+X  X  XX
+X  X  XX
+X  X  XX
+
+share
+Save
+[deleted]
+1 point·3 years ago·edited 3 years ago
+
+Java. This is a simple to follow along solution, but long. Keyboard input could
+be done using Scanner, but this is the only one I ever seem to be able to
+remember off the top of my head, but it has to be encapsulated in try-catch.
+
+package hextobitmap;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+public class HexToBitmap {
+  public static void main(String[] args) {
+    try {
+      BufferedReader fromKeybd = new BufferedReader (new InputStreamReader (System.in));
+      String strInput="";
+      String[] charsHex;
+      do {
+        System.out.print("Gimmie your hex input: ");
+        strInput=fromKeybd.readLine();
+        charsHex = strInput.split(" ");
+      } while (charsHex.length !=8);
+      for (String hexNum : charsHex) {
+        StringBuilder strBinary = new StringBuilder(Integer.toBinaryString(Integer.parseInt(hexNum, 16)));
+        while (strBinary.length()%8 != 0)
+          strBinary.insert(0, '0');
+        for (int i=0; i<strBinary.length(); i++) {
+          if ( strBinary.charAt(i) == '1' )
+            System.out.print("X");
+          else
+            System.out.print(" ");
+        }
+        System.out.println();
+      }
+    }
+    catch (Exception e) {
+      e.getMessage(); }
+  }
+}
+
+//I used %8!=0 when adding back on the leading zeros just for the hell of it. /8!=1 would've done the same.
+
+This would've taken me a lot longer if I didn't just finish a project for a
+class that required hex input and hex output, so I'm somewhat familiar with it.
+
+Edit: Here's a (much) shorter solution with an obnoxious line. Still Java
+
+package hextobitmap;
+public class HexToBitmap {
+  public static void main(String[] args) {
+    for (String lines : "18 3C 7E 7E 18 18 18 18".split(" ")) System.out.println(String.format("%8s", Integer.toBinaryString(Integer.parseInt(lines,16))).replace('0', ' ').replace('1', 'X'));
+  }
+}
+
+Edit again: Modified the above to use a 2D array of all the sample input
+strings given.
+
+package hextobitmap;
+public class HexToBitmap {
+  public static void main(String[] args) {
+    String[][] hex = {"18 3C 7E 7E 18 18 18 18".split(" "),
+      "FF 81 BD A5 A5 BD 81 FF".split(" "),
+      "AA 55 AA 55 AA 55 AA 55".split(" "),
+      "3E 7F FC F8 F8 FC 7F 3E".split(" "),
+      "93 93 93 F3 F3 93 93 93".split(" ")};
+    for (String[] lines : hex) {
+      for (String line: lines)
+        System.out.println(String.format("%8s", Integer.toBinaryString(Integer.parseInt(line,16))).replace('0', ' ').replace('1', 'X'));
+      System.out.println(); System.out.println();
+    }
+  }
+}
+
+Output of the above:
+
+   XX
+  XXXX
+ XXXXXX
+ XXXXXX
+   XX
+   XX
+   XX
+   XX
+
+
+XXXXXXXX
+X      X
+X XXXX X
+X X  X X
+X X  X X
+X XXXX X
+X      X
+XXXXXXXX
+
+
+X X X X
+ X X X X
+X X X X
+ X X X X
+X X X X
+ X X X X
+X X X X
+ X X X X
+
+
+  XXXXX
+ XXXXXXX
+XXXXXX
+XXXXX
+XXXXX
+XXXXXX
+ XXXXXXX
+  XXXXX
+
+
+X  X  XX
+X  X  XX
+X  X  XX
+XXXX  XX
+XXXX  XX
+X  X  XX
+X  X  XX
+X  X  XX
+
+share
+Save
+ios_game_dev
+1 point·3 years ago
+
+Solution in C:
+
+https://gist.github.com/daltonclaybrook/163b642111ac27aaddd0
+
+share
+Save
+mikrostew
+1 point·3 years ago
+
+My first submission to this sub. Ruby:
+
+def hex_bitmap(string)
+    string.chomp.split(' ').map { |x| ("%08b" % x.hex).tr('0',' ').tr('1','x') }
+end
+
+puts hex_bitmap("FF 81 BD A5 A5 BD 81 FF"), "\n"
+puts hex_bitmap("AA 55 AA 55 AA 55 AA 55"), "\n"
+puts hex_bitmap("3E 7F FC F8 F8 FC 7F 3E"), "\n"
+puts hex_bitmap("93 93 93 F3 F3 93 93 93"), "\n"
+
+share
+Save
+srikarnadipally
+1 point·3 years ago
+
+My Java Solution
+
+   public void printBitmap(String input) {
+
+        for(String line : input.split(" ")){
+                String binaryStr = String.format("%8s", Integer.toBinaryString(Integer.parseInt(line, 16)));
+                for(int i = 0; i < binaryStr.length(); i++){
+                        if(binaryStr.charAt(i) == '1'){
+                                System.out.print("x");
+                        }else{
+                                System.out.print(" ");
+                        }
+                }
+                System.out.println();
+        }
+}
+
+share
+Save
+Reverse_Skydiver
+1 01 point·3 years ago
+
+Java:
+
+public class C0171_Easy {
+
+        private static String input = "18 3C 7E 7E 18 18 18 18";
+
+        public static void main(String[] args) {
+                for(String s : input.split(" ")){
+                        for(char c : hexToBinary(s).toCharArray())      System.out.print(c == '1' ? "X" : " ");
+                        System.out.println();
+                }
+        }
+
+        private static String hexToBinary(String hex){
+            String bin = Integer.toBinaryString(Integer.parseInt(hex, 16));
+            return addLeadingZeros(bin);
+        }
+
+        private static String addLeadingZeros(String s){
+                while(s.length() < 8)   s = "0" + s;
+                return s;
+        }
+}
+
+share
+Save
+mathiasschnell
+1 point·3 years ago·edited 3 years ago
+
+I had just discovered this subreddit today and this is my first submission
+here, so forgive me if my formatting isn't the best.
+
+Here's my jab at a PHP solution (outputting to HTML)
+
+foreach(explode(' ', $input) as $hex) {
+                        echo str_replace('0', ' ', str_pad(base_convert($hex, 16, 2), 8, '0', STR_PAD_LEFT) ) . "<br />";
+                }
+
+Here's the full code for the page I used as a testbed
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+        <title>Hex 8x8</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta name="generator" content="Geany 1.22" />
+</head>
+<body>
+        <?php
+                $in_arr = array("FF 81 BD A5 A5 BD 81 FF",
+                                                "AA 55 AA 55 AA 55 AA 55",
+                                                "3E 7F FC F8 F8 FC 7F 3E",
+                                                "93 93 93 F3 F3 93 93 93");
+                foreach($in_arr as $input):
+        ?>
+        <pre><?php
+                foreach(explode(' ', $input) as $hex) {
+                        echo str_replace('0', ' ', str_pad(base_convert($hex, 16, 2), 8, '0', STR_PAD_LEFT) ) . "<br />";
+                }
+        ?></pre>
+        <? endforeach; ?>
+</body>
+</html>
+
+Edit - I think Reddit is eating some of the code. There's a linebreak tag added
+to the end of each line output that is not appearing here.
+
+share
+Save
+king_of_the_universe
+1 point·3 years ago
+
+About your edit: Are you talking about the one at the end of the 6th last line,
+the one you see if you use the horizontal scroll bar? (It's outside of the gray
+background, however.)
+
+share
+Save
+mathiasschnell
+1 point·3 years ago
+
+Oh I see. Yeah, that's what I was referring too. lol
+
+BTW, is there a way to copy-paste code into Reddit's comment system and cover
+the whole thing in gray? Anytime I've done it up until now I've been
+copy-pasting 4 spaces in front of every single line. :-/
+
+share
+Save
+king_of_the_universe
+1 point·3 years ago
+
+I'm pretty sure that you can do that with the extremely popular browser
+extension http://redditenhancementsuite.com/
+
+I don't use it, I just paste my code into Notepad++ (which I use often,
+anyway), select all, tab - this inserts the 4 space room. Then I convert all
+tabs to spaces (Edit menu.) and paste the text here.
+
+share
+Save
+Idra_rage_lulz
+1 point·3 years ago
+
+Java. Any tips or advice would be appreciated.
+
+public static void main(String[] args) {
+        File input = new File("src/input.txt");
+
+        try {
+                // Read and parse input
+                Scanner sc = new Scanner(input);
+                String inputLine = sc.nextLine();
+                String[] hexInput = inputLine.split(" ");
+                char oneChar = 'O';
+                char zeroChar = ' ';
+
+                // Outputting the binary string, replacing the 1's with oneChar and 0's with zeroChar
+                for (int i = 0; i < hexInput.length; i++) {
+                        System.out.println(hexToBin(hexInput[i]).replace('1', oneChar).replace('0', zeroChar));
+                }
+
+                sc.close();
+        }
+        catch (FileNotFoundException e) {
+                e.printStackTrace();
+        }
+}
+
+// Turns a hexadecimal digit string into a binary digit string
+public static String hexToBin(String hexStr) {
+        int hexInt = Integer.parseInt(hexStr, 16);
+        String binStr = Integer.toBinaryString(hexInt);
+
+        // Need to pad with 0s if necessary
+        while (binStr.length() < 8) {
+                binStr = '0' + binStr;
+        }
+
+        return binStr;
+}
+
+share
+Save
+ImHeisenberg
+1 point·3 years ago
+
+I just started learning python Monday so this may seem "wordy". After working
+with it for a bit I was able to get everything done automatically as long as
+the input was it's own input.txt file.
+
+Input:
+
+fileIn = open("input.txt", "r")
+fileOut = open("output.txt", "w")
+
+row = ""
+bitRow = ""
+printRow = ""
+
+for line in fileIn.readlines():
+        code = line
+        fileOut.write(code)
+        for char in code:
+                if char != " " and char != "\n":
+                        row = row + char
+                else:
+                        bitRow = str(bin(int('1'+row, 16))[3:])
+                        for bit in bitRow:
+                                if bit == "1":
+                                        printRow = printRow + "#"
+                                else:
+                                        printRow = printRow + " "
+                        fileOut.write(printRow + "\n")
+                        row = ""
+                        bitRow = ""
+                        printRow = ""
+        fileOut.write("\n")
+
+fileIn.close()
+fileOut.close()
+
+Output:
+
+FF 81 BD A5 A5 BD 81 FF
+########
+#      #
+# #### #
+# #  # #
+# #  # #
+# #### #
+#      #
+########
+
+AA 55 AA 55 AA 55 AA 55
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
+
+3E 7F FC F8 F8 FC 7F 3E
+  #####
+ #######
+######
+#####
+#####
+######
+ #######
+  #####
+
+93 93 93 F3 F3 93 93 93
+#  #  ##
+#  #  ##
+#  #  ##
+####  ##
+####  ##
+#  #  ##
+#  #  ##
+#  #  ##
+
+share
+Save
+tetralogy
+1 point·3 years ago
+
+Python
+
+hex_vals = raw_input("Input the Bitmap")
+list = hex_vals.split()
+for s in list:
+         hex = int("0x{0}".format(s),16)
+         print "{0:08b}".format(hex).replace("1","*").replace("0"," ")
+
+share
+Save
+Torfy
+1 point·3 years ago
+
+I'm a bit late to the party but here is my solution in Java. Criticism and
+feedback welcome.
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class HexToNx8Bitmap {
+    public static void main(String[] args) throws IOException {
+        final InputStreamReader in = new InputStreamReader(System.in);
+        BufferedReader input = new BufferedReader(in);
+        System.out.println("Enter hex codes delineated with spaces:");
+        System.out.println("Enter an empty line to quit the program.");
+        String line;
+        while ((line = input.readLine()) != null && line.length() > 0) {
+            printAsciiArt(line);
+        }
+    }
+
+    private static void printAsciiArt(String line) {
+        final String anyWhitespace = "\\s+";
+        String[] inputTokens = line.trim().split(anyWhitespace);
+
+        for (int i = 0; i < inputTokens.length; i++) {
+            final int hexRadix = 16, bits = 8;
+            String hexEntry = inputTokens[i];
+            int entryValue = Integer.parseInt(hexEntry, hexRadix);
+
+            for (int bitIndex = 0; bitIndex < bits; bitIndex++) {
+                if (thisBitIsNotZero(entryValue, bitIndex)) {
+                    System.out.print("x");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    private static boolean thisBitIsNotZero(int byteValue, int bitIndex) {
+        return (byteValue & 1 << bitIndex) != 0;
+    }
+}
+
+Input/output:
+
+Enter hex codes delineated with spaces:
+Enter an empty line to quit the program.
+FF 81 BD A5 A5 BD 81 FF
+AA 55 AA 55 AA 55 AA 55
+3E 7F FC F8 F8 FC 7F 3E
+93 93 93 F3 F3 93 93 93
+xxxxxxxx
+x      x
+x xxxx x
+x x  x x
+x x  x x
+x xxxx x
+x      x
+xxxxxxxx
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ xxxxx
+xxxxxxx
+  xxxxxx
+   xxxxx
+   xxxxx
+  xxxxxx
+xxxxxxx
+ xxxxx
+xx  x  x
+xx  x  x
+xx  x  x
+xx  xxxx
+xx  xxxx
+xx  x  x
+xx  x  x
+xx  x  x
+
+share
+Save
+eltonhnjr
+2 points·3 years ago
+
+I really liked this approach. I'm not used to do bit shift operations. The only
+issue is that since binary code is written backwards, your picture has been
+printed backwards too. Your inner FOR could be done in reverse to fix it.
+
+for (int bitIndex = bits; bitIndex >=0 ; bitIndex--) {
+    // code here
+}
+
+share
+Save
+Torfy
+1 point·3 years ago
+
+I can't believe I didn't notice that! Thanks for pointing that out! I think a
+lot of other people have better solutions that are easier to understand. That's
+why I love this subreddit; I can see many ways to solve the same problem.
+
+share
+Save
+Paulthealien
+1 point·3 years ago·edited 3 years ago
+
+My code python 2.7 * formatting
+
+int "Please enter in  8 hex values"
+hex = raw_input("0-9,A-F :")
+
+stringlist = hex.split(" ")
+hexlist = []
+binlist  = []
+
+for c in stringlist:
+    try:
+        hexlist.append( int( c,16 ) )
+    except:
+        print c + " is an invalid character"
+
+for h in hexlist:
+    b = bin(h)[2:]
+    pad = 8 - len(b)
+    binlist.append(pad*'0' + b)
+
+if len(binlist) == 8:
+    for c in binlist:
+        line = ""
+           for b in range(len(c)):
+            if c[b] == '0':
+                line += " "
+            else:
+                line += "x"
+        print line
+else:
+    print "Either to many or to few arguments have been passed."
+
+comments and suggestions welcome.
+
+share
+Save
+Crystal_Cuckoo
+1 point·3 years ago
+
+Haskell. Still very much learning; any tips are greatly appreciated!
+
+import Data.Char (intToDigit)
+import Numeric (readHex, showIntAtBase)
+
+
+hexToBin :: String -> String
+hexToBin hex = replicate numZeros '0' ++ bin
+        where [(dec, _)] = readHex hex
+              bin = showIntAtBase (2::Int) intToDigit dec ""
+              numZeros = 4 * (length hex) - length bin
+
+hexToBitmap :: [String] -> String
+hexToBitmap = replace ∘ unlines ∘ map hexToBin
+        where replace = replaceChar '0' ' ' ∘ replaceChar '1' 'X'
+
+replaceChar :: Char -> Char -> String -> String
+replaceChar _ _ "" = ""
+replaceChar from to (x:xs)
+    | from == x = to:(replaceChar from to xs)
+    | otherwise = x:(replaceChar from to xs)
+
+main :: IO ()
+main = interact $ hexToBitmap ∘ words
+
+share
+Save
+learningtig
+1 point·3 years ago
+
+Here's a short python entry:
+
+import sys
+for s in sys.argv[1:]:
+    print bin(int(s,16))[2:].zfill(8)
+
+share
+Save
+redleadereu
+1 point·3 years ago·edited 3 years ago
+
+Python, and first time posting a solution here. I just want to ask could I have
+done it more efficiently?
+
+import re
+
+rows = list()
+scale = 16
+num_of_bits = 8
+r = list()
+p = list()
+my_hexdata = input('Put any number of hex values with spaces in between:')
+
+rows = re.split(' ',my_hexdata)
+
+for i in range(0,len(rows)):
+    r.append(bin(int(rows[i],16))[2:].zfill(num_of_bits))
+
+for i in range(0,len(r)):
+    p.append(r[i].replace("0"," "))
+
+
+print("\n".join(p))
+
+Output (of the 4th question for no reason):
+
+1  1  11
+1  1  11
+1  1  11
+1111  11
+1111  11
+1  1  11
+1  1  11
+1  1  11
+
+Edit: Noticed I needed to fill the 0'es in case it was at the start so added
+z.fill. Doh my bad.
+
+share
+Save
+hundertzwoelf
+1 point·3 years ago·edited 3 years ago
+
+I'm a bit late, but who cares. This is my python3 code.
+
+# reddit.com/r/dailyprogrammer
+# Challenge #171 - Hex to 8x8 Bitmap
+
+
+# hex to bin, adding leading zeros and removing '0b'
+# e.g.: 0x18 -> 00011000
+def hex_bin(n):
+    out = bin(int(str(n), 16))[2:]
+    while len(out) < 8:
+        out = '0' + out
+    return out
+
+# prints out the hex number according to the challenge.
+def printer(s):
+    line = ''
+    for i in s:
+        if int(i):
+            line = line + '#'
+        else:
+            line = line + ' '
+    print(line)
+
+def main():
+    inputs = ('FF 81 BD A5 A5 BD 81 FF',
+            'AA 55 AA 55 AA 55 AA 55',
+            '3E 7F FC F8 F8 FC 7F 3E',
+            '93 93 93 F3 F3 93 93 93')
+
+    for x in inputs:
+        for y in x.split(' '):
+            printer(hex_bin(y))
+        print('\n')
+
+if __name__=='__main__':
+    main()
+
+Output:
+
+########
+#      #
+# #### #
+# #  # #
+# #  # #
+# #### #
+#      #
+########
+
+
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
+
+
+  #####
+ #######
+######
+#####
+#####
+######
+ #######
+  #####
+
+
+#  #  ##
+#  #  ##
+#  #  ##
+####  ##
+####  ##
+#  #  ##
+#  #  ##
+#  #  ##
+
+Edit: Added output.
+
+share
+Save
+dethnight
+1 point·3 years ago·edited 3 years ago
+
+Javascript:
+
+var button = document.getElementById('convert');
+button.addEventListener('click', function(){
+    var arr = document.getElementById('txtHex').value.split(' '),
+        divBitmap = document.getElementById('divBitmap'),
+        convertedArr = arr.map(function(hex){
+            return convert(hex);
+        }),
+        htmlToInsert = convertedArr.map(function(ele){
+            return '<p>' + ele + '</p>';
+        }).join('');
+    divBitmap.innerHTML = '';
+    divBitmap.insertAdjacentHTML('beforeend', htmlToInsert);
+    });
+
+var pad = function(num, places){
+    var base = "00000000" + num;
+    return base.substr(base.length - places);
+};
+
+var convert = function(hex){
+    var bits = pad(parseInt(hex, 16).toString(2), 8);
+    return bits.replace(/1/g, 'X').replace(/0/g, ' ');
+};
+
+HTML/CSS:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+         body{font-family: monospace;}
+         p{margin: 0px 0px 0px 0px; white-space: pre;}
+        </style>
+    </head>
+    <body>
+        <input type="text" id="txtHex">
+        <button id="convert" >Convert</button>
+        <div id="divBitmap">
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+share
+Save
+BensThrowawayAcct
+1 point·3 years ago
+
+I solved this with Ruby, since that's one of the languages I'm trying to learn
+at the moment. It's probably a bit overcomplicated, but it's a start.
+
+print "enter: "
+
+vals = gets.chomp.split
+
+for i in 0...vals.length do
+    vals[i] = vals[i].hex.to_s(2)
+    while vals[i].length != 8
+        vals[i] = "0" + vals[i]
+    end
+end
+
+for i in 0...vals.length do
+    for j in 0...vals[i].length do
+        print vals[i][j] == "1" ? "x" : " "
+    end
+    print "\n"
+end
+
+share
+Save
+Volatile474
+1 point·3 years ago
+
+Probably has been posted already, but Python:
+
+def main(theargument):
+    dict = {
+    '0': '0000',
+    '1': '0001',
+    '2': '0010',
+    '3': '0011',
+    '4': '0100',
+    '5': '0101',
+    '6': '0110',
+    '7': '0111',
+    '8': '1000',
+    '9': '1001',
+    'A': '1010',
+    'B': '1011',
+    'C': '1100',
+    'D': '1101',
+    'E': '1110',
+    'F': '1111',
+    ' ': '\n'
+    }
+    newDict= {
+    '0' : ' ',
+    '1' : '#',
+    '\n': '\n'
+    }
+    output = ""
+    filtered = ""
+    for i in range(len(theargument)):
+        output = output + str( dict[theargument[i]])
+    for char in output:
+        filtered = filtered + str(newDict[char])
+    print filtered
+
+share
+Save
+semsemdavinci
+1 point·3 years ago·edited 3 years ago
+
+Python. Tried to be concise and use stdin, but nothing fancy.
+
+import sys
+
+
+def hex_to_bitmap(hexseq):
+    for i, p in enumerate(hexseq.split(' ')):
+        row = bin(int('0x'+p, 16))[2:].zfill(8)
+        print (row.replace('0', ' ')).replace('1', 'X')
+
+for line in sys.stdin:
+    try:
+        hex_to_bitmap(line)
+    except:
+        print 'Incorrect format'
+
+share
+Save
+semsemdavinci
+1 point·3 years ago·edited 3 years ago
+
+I prefer this version. *twitch*
+
+import sys
+
+
+def hex_to_bitmap(hexseq, print_=True, return_=False):
+    img = [[0 for j in range(8)] for i in range(8)]
+    for i, p in enumerate(hexseq.split(' ')):
+        row = bin(int('0x'+p, 16))[2:].zfill(8)
+        img[i] = list(row)
+        if print_: print (row.replace('0', ' ')).replace('1', 'X')
+    if return_: return img
+
+for line in sys.stdin:
+    try:
+        hex_to_bitmap(line)
+    except:
+        print 'Incorrect format'
+
+share
+Save
+semsemdavinci
+1 point·3 years ago
+
+Output:
+
+FF 81 BD A5 A5 BD 81 FF
+XXXXXXXX
+X      X
+X XXXX X
+X X  X X
+X X  X X
+X XXXX X
+X      X
+XXXXXXXX
+
+AA 55 AA 55 AA 55 AA 55
+X X X X
+ X X X X
+X X X X
+ X X X X
+X X X X
+ X X X X
+X X X X
+ X X X X
+
+3E 7F FC F8 F8 FC 7F 3E
+  XXXXX
+ XXXXXXX
+XXXXXX
+XXXXX
+XXXXX
+XXXXXX
+ XXXXXXX
+  XXXXX
+
+93 93 93 F3 F3 93 93 93
+X  X  XX
+X  X  XX
+X  X  XX
+XXXX  XX
+XXXX  XX
+X  X  XX
+X  X  XX
+X  X  XX
+
+share
+Save
+1nvader
+1 point·3 years ago
+
+Here's my solution in Python 3:
+
+i = ['18 3C 7E 7E 18 18 18 18',
+     'FF 81 BD A5 A5 BD 81 FF',
+     'AA 55 AA 55 AA 55 AA 55',
+     '3E 7F FC F8 F8 FC 7F 3E',
+     '93 93 93 F3 F3 93 93 93',]
+for l in i:
+    s = l.split(' ')
+    for x in s:
+        print(bin(int(x, 16))[2:].zfill(8).replace('0', ' ').replace('1', 'X'))
+    print('\n')
+
+Output:
+
+   XX
+  XXXX
+ XXXXXX
+ XXXXXX
+   XX
+   XX
+   XX
+   XX
+
+
+XXXXXXXX
+X      X
+X XXXX X
+X X  X X
+X X  X X
+X XXXX X
+X      X
+XXXXXXXX
+
+
+X X X X
+ X X X X
+X X X X
+ X X X X
+X X X X
+ X X X X
+X X X X
+ X X X X
+
+
+  XXXXX
+ XXXXXXX
+XXXXXX
+XXXXX
+XXXXX
+XXXXXX
+ XXXXXXX
+  XXXXX
+
+
+X  X  XX
+X  X  XX
+X  X  XX
+XXXX  XX
+XXXX  XX
+X  X  XX
+X  X  XX
+X  X  XX
+
+share
+Save
+thebmo
+1 point·3 years ago
+
+late to party but in Python 2.7.3:
+
+pics = [
+    ['FF', '81', 'BD', 'A5', 'A5', 'BD', '81', 'FF'],
+    ['AA', '55', 'AA', '55', 'AA', '55', 'AA', '55'],
+    ['3E', '7F', 'FC', 'F8', 'F8', 'FC', '7F', '3E'],
+    ['93', '93', '93', 'F3', 'F3', '93', '93', '93'],
+]
+
+for pic in pics:
+    for row in pic:
+        # print row
+        binary = bin(int(row, 16))[2:].zfill(8)
+        binary = binary.replace('0', ' ').replace('1', '*')
+        print binary
+    print '\n'
+
+share
+Save
+dp_account
+1 point·3 years ago
+
+Slightly golfed Python 3.4:
+
+for row in map(lambda x: int(x, 16), input().split()):
+        print("{:08b}".format(row).replace("1", "x").replace("0", " "))
+
+share
+Save
+YouAreNotASlave
+1 point·3 years ago
+
+Python 2.7. Not the most elegant solution!
+
+import sys
+import re
+
+def get_bits(n):
+    """Given an integer, returns a bit representation of the integer"""
+    def _next_bit(n):
+        if (int(n,16)<=1):
+            return str(int(n,16))
+        return _next_bit(str(int(n,16)/2)) + str(int(n,16)%2)
+
+    return "{:0>4}".format(_next_bit(n))
+
+bitmap = ""
+for chunk in sys.stdin.readline().strip().split(" "):
+    bitmap += (get_bits(chunk[0]) + get_bits(chunk[1])) + '\n'
+
+bitmap = re.sub('0',' ', bitmap)
+bitmap = re.sub('1','x', bitmap)
+print(bitmap)
+
+share
+Save
+slimky
+1 point·3 years ago·edited 3 years ago
+
+I'm a bit late to the party but here is my contribution creating real bmp using
+a Python script:
+
+from struct import *
+
+def generateBmp(filename, hexValues, magnificent, colorOn, colorOff):
+    mask = [1<<x for x in range(8)]
+
+    width = 8 * magnificent;
+    height = len(hexValues) * magnificent;
+    bufferBytes = (width * 3) % 4 #will always gives 0 anyway :S
+    lineBytes =  (width * 3) + bufferBytes
+    dataSize = lineBytes * height;
+    fullSize = dataSize + 54
+    data = b''
+
+    colorOffLine = colorOff * magnificent; #b"{0:b}".join([colorOff for x in range(    magnificent)])
+    colorOnLine = colorOn * magnificent; #b"{0:b}".join([colorOn for x in range(    magnificent)])
+
+    hexValues.reverse()
+    for hexa in hexValues:
+        line = b''
+        for bit in mask:
+            if bit&hexa == 0:
+                line += colorOffLine
+            else:
+                line += colorOnLine
+        line += bufferBytes * b"\x00"
+        data += line * magnificent #"{0:b}".join([line for x in range(magnificent)])
+
+    #BMP HEADER
+    fullBmpData = b"BM"
+    fullBmpData += pack("<l", fullSize)
+    fullBmpData += b"\x00\x00"
+    fullBmpData += b"\x00\x00"
+    fullBmpData += b"\x36\x00\x00\x00"
+
+    #DIB HEADER
+    fullBmpData += b"\x28\x00\x00\x00"
+    fullBmpData += pack("<l", width)
+    fullBmpData += pack("<l", height)
+    fullBmpData += b"\x01\x00"
+    fullBmpData += b"\x18\x00"
+    fullBmpData += b"\x00\x00\x00\x00"
+    fullBmpData += b"\x10\x00\x00\x00"
+    fullBmpData += b"\x13\x0B\x00\x00"
+    fullBmpData += b"\x13\x0B\x00\x00"
+    fullBmpData += b"\x00\x00\x00\x00"
+    fullBmpData += b"\x00\x00\x00\x00"
+
+    fullBmpData += data
+
+
+    fo = open(filename, "wb")
+    fo.write(fullBmpData)
+    fo.close()
+
+
+def main():
+    colorOn = b"\x00\xFF\x00"
+    colorOff = b"\xFF\x00\x00"
+    magnificent = 50
+
+    filenameA = "HexValuesA.bmp";
+    filenameB = "HexValuesB.bmp";
+    filenameC = "HexValuesC.bmp";
+    filenameD = "HexValuesD.bmp";
+    hexValuesA = [0xFF, 0x81, 0xBD, 0xA5, 0xA5, 0xBD, 0x81, 0xFF]
+    hexValuesB = [0xAA, 0x55, 0xAA, 0x55, 0xAA, 0x55, 0xAA, 0x55]
+    hexValuesC = [0x3E, 0x7F, 0xFC, 0xF8, 0xF8, 0xFC, 0x7F, 0x3E]
+    hexValuesD = [0x93, 0x93, 0x93, 0xF3, 0xF3, 0x93, 0x93, 0x93]
+
+    generateBmp(filenameA, hexValuesA, magnificent, colorOn, colorOff)
+    generateBmp(filenameB, hexValuesB, magnificent, colorOn, colorOff)
+    generateBmp(filenameC, hexValuesC, magnificent, colorOn, colorOff)
+    generateBmp(filenameD, hexValuesD, magnificent, colorOn, colorOff)
+
+
+if __name__ == "__main__":
+    main()''](/spoiler)
+
+Creating those: http://imgur.com/a/bsE1Y#0
+
+share
+Save
+koloron
+1 point·3 years ago
+
+Nimrod
+
+from strutils import join, parseHexInt, replace, split, toBin
+
+proc hexToXs(hexStr: string): string =
+  hexStr.parseHexInt.toBin(8).replace('1', 'x').replace('0', ' ')
+
+proc hexsToBitmap(hexVals: string): string =
+  hexVals.split.map(hexToXs).join("\n")
+
+if isMainModule:
+  for line in stdin.lines():
+    echo(hexsToBitmap(line), "\n")
+
+Processing the 4 sample pictures takes no time at all and only 624 kB!
+
+share
+Save
+Comment deleted3 years ago
+CompileBot
+1 point·3 years ago
+
+Output:
+
+^source ^| ^info ^| ^git ^| ^report
+
+share
+Save
+i_was_compromised
+1 point·3 years ago
+
++u/CompileBot python 3
+
+hexToBinArray = {'0': '0000', '1': '0001', '2': '0010', '3': '0011',
+                 '4': '0100', '5': '0101', '6': '0110', '7': '0111',
+                 '8': '1000', '9': '1001', 'A': '1010', 'B': '1011',
+                 'C': '1100', 'D': '1101', 'E': '1110', 'F': '1111'}
+toDecode = ['FF 81 BD A5 A5 BD 81 FF', 'AA 55 AA 55 AA 55 AA 55', '3E 7F FC F8 F8 FC 7F 3E', '93 93 93 F3 F3 93 93 93']
+
+htba = hexToBinArray
+
+def bitmap(string):
+    hexList = string.split(" ")
+    i = 0
+
+    while i < len(hexList):
+        hexList[i] = list(hexList[i])
+        i += 1
+
+    i = 0
+
+    while i < len(hexList):
+        p1 = htba[hexList[i][0]]
+        p2 = htba[hexList[i][1]]
+        fi = p1+p2
+        hexList[i] = fi
+        i += 1
+
+    i = 0
+
+    while i < len(hexList):
+        temp = ''
+        for value in hexList[i]:
+            if value == '0':
+                temp = temp + ' '
+            else:
+                temp = temp + 'x'
+        hexList[i] = temp
+        i += 1
+
+    for x in hexList:
+        print(x)
+
+if __name__ == "__main__":
+    for x in toDecode:
+        bitmap(x)
+
+I'm obviously not a very good/resourceful programmer. Am I stupid?
+
+share
+Save
+CompileBot
+1 point·3 years ago
+
+Output:
+
+xxxxxxxx
+x      x
+x xxxx x
+x x  x x
+x x  x x
+x xxxx x
+x      x
+xxxxxxxx
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+  xxxxx
+ xxxxxxx
+xxxxxx
+xxxxx
+xxxxx
+xxxxxx
+ xxxxxxx
+  xxxxx
+x  x  xx
+x  x  xx
+x  x  xx
+xxxx  xx
+xxxx  xx
+x  x  xx
+x  x  xx
+x  x  xx
+
+...
+
+^source ^| ^info ^| ^git ^| ^report
+
+share
+Save
+Lux_Perpetua
+1 point·3 years ago
+
+Managed to cobble together something in C+11. I'm really curios if there's a
+better way to split a string.
+
+#include <vector>
+#include <string>
+#include <iostream>
+#include <sstream>
+
+std::vector<int> getInput() {
+    std::vector<int> ret;
+    std::string input;
+    std::string buff;
+    std::getline(std::cin, input);
+    std::stringstream ss(input);
+    while (ss >> buff)
+        ret.push_back(std::stoi(buff, 0, 16));
+
+    return ret;
+}
+
+int main(int argc, char** argv) {
+    for (int num : getInput()) {
+        int mask = 128;
+        for (int i = 0; i < 8; i++) {
+            std::cout << (num & mask ? 'X' : ' ');
+            mask >>= 1;
+        }
+        std::cout << std::endl;
+    }
+    return 0;
+}
+
+share
+Save
+HieronymusScotch
+1 point·3 years ago·edited 3 years ago
+
+Python 2.7.3:
+
+def hex_to_bitmap(hex_values): #hex_values must be a string, with hex values separated by single spaces
+    for h in hex_values.split(' '):
+    bin_string = bin(int(h, 16)) #convert the string of the hex value to a binary string
+    bin_string = bin_string[2:].zfill(8) #cut the '0x' off the binary string and pad the string out to 8 digits
+    x_string = [('x' if y == '1' else ' ') for y in bin_string]
+    print ''.join(x_string)
+
+hex_to_bitmap('FF 81 BD A5 A5 BD 81 FF')
+
+And the output:
+
+xxxxxxxx
+x      x
+x xxxx x
+x x  x x
+x x  x x
+x xxxx x
+x      x
+xxxxxxxx
+
+share
+Save
+jsco
+1 point·3 years ago
+
+Java:
+
+public static void main(String args[]) {
+    int[] array = {0xFF, 0x81, 0xBD, 0xA5, 0xA5, 0xBD, 0x81, 0xFF};
+    printMap(array);
+}
+
+public static void printMap(int[] args) {
+    int mask;
+    for(int y = 0; y < args.length; y++) {
+        mask = 128;
+        for(int x = 0; x < Byte.SIZE; x++) {
+            if((mask & args[y]) != 0)
+                System.out.print("x");
+            else
+                System.out.print(" ");
+            mask = mask >> 1;
+        }
+        System.out.println();
+    }
+}
+
+share
+Save
+professorlamp
+1 01 point·3 years ago·edited 3 years ago
+
+Padding those leading zeroes proved to be waaaay more annoying than anticipated
+
+pictures = [['FF' ,'81', 'BD', 'A5', 'A5', 'BD', '81', 'FF'],
+['AA', '55', 'AA', '55', 'AA', '55', 'AA', '55'],
+['3E' ,'7F', 'FC', 'F8', 'F8', 'FC', '7F', '3E'],
+['93', '93', '93', 'F3', 'F3', '93', '93', '93']]
+
+def hex_to_bit(n):
+    converted = str(bin(int(n,16)))[2:].zfill(8)
+    return converted
+
+def output(*hex_values):
+    for hex_value in hex_values:
+        for bit in hex_to_bit(hex_value):
+            if bit == '1':
+                print('x',end='')
+            else: print(' ',end='')
+        print()
+
+Input:
+
+for picture in pictures:
+    for digit in picture:
+        output(digit)
+
+Output:
+
+xxxxxxxx
+x      x
+x xxxx x
+x x  x x
+x x  x x
+x xxxx x
+x      x
+xxxxxxxx
+
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+
+  xxxxx
+ xxxxxxx
+xxxxxx
+xxxxx
+xxxxx
+xxxxxx
+ xxxxxxx
+  xxxxx
+
+x  x  xx
+x  x  xx
+x  x  xx
+xxxx  xx
+xxxx  xx
+x  x  xx
+x  x  xx
+x  x  xx
+
+share
+Save
+TieSoul
+0 11 point·3 years ago·edited 3 years ago
+
+I took inspiration from the Python submission for this. Ruby:
+
+$\=gets.chomp;$__=$$**($$>>$$);def __(_);_ ? $__:$..to_i;end;___=$__<<(__([]==[])^(__(__({}==[]))
+<<$__)<<__($_));$\.split(___.chr).each{|_|_=_.to_i(((~___*~___)/___-___<<$__+$__<<(__([]==
+[]))));$\='';____=_.to_s($__<<(__(__([]=={})>>__([]==[]))));while ____.length < (___/((~___*~___)/___-
+___))/((~___*~___)/___-___); ____ = ($$>>$$).to_s + ____;end;____.each_char{|__|$\ += __ ==
+$..to_i.to_s ? (___**($..to_i<<$__)-(___<<$__)).chr('UTF-8') : ___.chr}; puts $\}
+
+share
+Save
+Hazzaman99
+1 point·3 years ago
+
+Python 2.7.6
+
+byte_strings = [bin(int(s, 16))[2:].zfill(8).replace("0", " ").replace("1", "x") for s in raw_input().split()]
+
+for s in byte_strings:
+    print s
+
+share
+Save
+grindcore6969
+1 point·3 years ago
+
+I just feel so dumb... I made it in java but in three classes. It is really not
+optimised.
+
+Edit: i'm not showing my code.
+
+share
+Save
+hash17
+1 point·3 years ago
+
+Probably the Worst C# code written. (What can you say , I am learning)
+
+using System; using System.Collections.Generic; using System.Linq; using
+System.Text; using System.IO;
+
+namespace RedditDailyProgrammer { class Program { static void Main(string[]
+args) {
+
+        string myInput = "AA 55 AA 55 AA 55 AA 55";
+        string[] array = myInput.Split(' ');
+
+        foreach (string arr  in array)
+        {
+               string temp = FinalBinary(arr);
+               foreach (char ch in temp)
+               {
+                   if (ch == '1') { Console.Write("X"); }
+                   else Console.Write(" ");
+               }
+
+               Console.WriteLine();
+        }
+
+        Console.ReadLine();
+    }
+
+    static string FinalBinary(string Y)
+    {
+        string one = ToBinary(Y.Substring(0, 1));
+        string two = ToBinary(Y.Substring(1, 1));
+        return one + two;
+    }
+
+
+
+    static string ToBinary(string X)
+    {
+        string returnValue = "";
+        int number = ReturnNumber(X);
+        int[] numbers = { 0, 0, 0, 0 };
+        int i = 0;
+        bool myBoolean = true;
+
+        while (myBoolean)
+        {
+
+            numbers[i] = number % 2;
+            number = number / 2;
+            returnValue += numbers[i];
+            i++;
+            if (i >= 4) { myBoolean = false; }
+
+        }
+        Array.Reverse(numbers);
+        return returnValue;
+    }
+
+
+    static int ReturnNumber(string temp)
+    {
+        int number=0;
+        try
+        {
+            number = Int32.Parse(temp);
+            return number;
+        }
+        catch (Exception InvalidCastOperation)
+        {
+            switch (temp)
+            {
+                case "A":
+                    number = 10;
+                    break;
+                case "B":
+                    number = 11;
+                    break;
+                case "C":
+                    number = 12;
+                    break;
+                case "D":
+                    number = 13;
+                    break;
+                case "E":
+                    number = 14;
+                    break;
+                case "F":
+                    number = 15;
+                    break;
+            }
+        }
+
+        return number;
+
+    }
+
+}
+
+}
+
+share
+Save
+AnhNyan
+1 point·3 years ago
+
+I know I'm late to the party.
+
+Ceylon
+
+import ceylon.test {
+    test
+}
+
+{String*} numbers_to_bitmap2({Integer*} numbers)
+    => {for (index->number in numbers.indexed) String({for (bitIndex in 0..numbers.size) number.get(bitIndex) then 'x' else ' '})};
+
+"Accepts space separated hex digits."
+{Integer*} parseHexString(String input)
+    => input.split().map((el) => parseInteger(el, 16) else 255);
+
+"Sums all elements in a given range. Useful for e.g. string array concatenation."
+Element sumAll<Element>(Element+ elements)
+    given Element satisfies Summable<Element>
+    => elements.reduce((Element partial, Element element) => partial + element);
+
+test
+void test171()
+{
+    value testStrings = {
+        "FF 81 BD A5 A5 BD 81 FF",
+        "AA 55 AA 55 AA 55 AA 55",
+        "3E 7F FC F8 F8 FC 7F 3E",
+        "93 93 93 F3 F3 93 93 93"
+    };
+
+    for (test in testStrings)
+    {
+        value result = numbers_to_bitmap2(parseHexString(test)).interpose("\n").sequence();
+        assert(nonempty result);
+        print(sumAll<String>(*result));
+        print("");
+    }
+}
+
+share
+Save
+NarcissusGray
+1 point·3 years ago·edited 3 years ago
+
+Python one-liner
+
+print'\n'.join(''.join(" X"[int(i)]for i in bin(int(j,16))[2:].zfill(8))for j in raw_input().split())
+
+share
+Save
+Godspiral
+3 31 point·3 years ago
+
+in J, all 4 at once
+
+   ' x' {~ #. inv dfh &> ' 'cut &> cutLF wd 'clippaste'
+ xxxxxxxx
+ x      x
+ x xxxx x
+ x x  x x
+ x x  x x
+ x xxxx x
+ x      x
+ xxxxxxxx
+
+ x x x x
+  x x x x
+ x x x x
+  x x x x
+ x x x x
+  x x x x
+ x x x x
+  x x x x
+
+   xxxxx
+  xxxxxxx
+ xxxxxx
+ xxxxx
+ xxxxx
+ xxxxxx
+  xxxxxxx
+   xxxxx
+
+ x  x  xx
+ x  x  xx
+ x  x  xx
+ xxxx  xx
+ xxxx  xx
+ x  x  xx
+ x  x  xx
+ x  x  xx
+
+share
+Save
+
+2 more replies
+
+Comment deleted3 years ago
+arcticblue
+2 points·3 years ago·edited 3 years ago
+
+Change your <div> tag to a <pre> tag. That should set a monospace font so your
+spaces and characters align. Then instead of using a <br> tag for a newline,
+just use \n.
+
+share
+Save
+learningtig
+1 point·3 years ago
+
+I am trying to learn js - and yours was the first js implementation here that I
+noticed. So I played around and refactored it and so on. Here is my similar
+code:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        inputs = ['FF 81 BD A5 A5 BD 81 FF',
+                  'AA 55 AA 55 AA 55 AA 55',
+                  '3E 7F FC F8 F8 FC 7F 3E',
+                  '93 93 93 F3 F3 93 93 93'];
+
+        function forEach(arr, func) {
+            for (var i = 0; i < arr.length; i++ ) {
+                func(arr[i]);
+            }
+        }
+
+        function l(input) {
+            console.log(input);
+        }
+
+        function hex2bin(hex) {
+            return parseInt(hex, 16).toString(2);
+        }
+
+        forEach(inputs, function(input) {
+
+            var hexes = input.split(" ");
+
+            forEach(hexes, function(hex) {
+
+                bin = hex2bin(hex);
+                bin = ("00000000" + bin).slice(-8);
+                bin = bin.replace(/0/g, ' ');
+                bin = bin.replace(/1/g, 'X');
+
+                l(bin);
+            });
+        });
+
+    </script>
+</head>
+</html>
+
+And as you can see, I'm playing around with creating some useful 'library'
+functions to make js more comfortable for me. :-)
+
+share
+Save
+[deleted]
+1 point·3 years ago·edited 2 years ago
+
+  • 
+
+share
+Save
+RangeruDangeru
+1 point·3 years ago
+
+Python 3
+
+def create_bitmap_row(hex_str):
+    bin_str = str(bin(int(hex_str, 16)))[2:].rjust(8)
+
+    bitmap = bin_str.replace('1', 'X')
+    bitmap = bitmap.replace('0', ' ')
+
+    return bitmap
+
+
+def main():
+    input_ = input('Enter hex numbers (0 - FF) seperated by spaces: ')
+
+    for element in input_.split():
+        print(create_bitmap_row(element))
+
+
+if __name__ == '__main__':
+    main()
+
+share
+Save
+dailyRubyProgrammer
+1 point·3 years ago
+
+My solution in ruby!
+
+#solution to challenge #171 here:
+#http://www.reddit.com/r/dailyprogrammer/comments/2ao99p/7142014_challenge_171_easy_hex_to_8x8_bitmap/
+#
+
+loop do
+        puts "Enter your hex, or type 'q' to quit:"
+        input = gets.chomp()
+
+        break if input == 'q'
+
+        input = input.split(" ").map{|i| i.to_i(16)} #get integers for our hex
+        input = input.map{|i| i.to_s(2).rjust(8, '0')} #convert to binary and pad
+        input = input.map{|i| i.gsub('1', '#').gsub('0', ' ')}#substitute occurences
+        puts input
+end
+
+share
+Save
+TiZ_EX1
+1 point·3 years ago·edited 3 years ago
+
+node.js (EDIT: better parameter names):
+
+#!/usr/bin/env node
+process.argv
+ .slice(2)
+ .map(function (item) {
+    console.log(parseInt("1" + item, 16)
+     .toString(2)
+     .split("")
+     .slice(1)
+     .reduce(function (prev, current) {
+        return prev + (current == 1 ? "█" : "░")
+     }, ""));
+});
+
+Output (EDIT: used the corrected challenge input. thanks for making my solution
+look wrong.):
+
+TiZLappy:m171$ ./es5.js 18 3C 7E 7E 18 18 18 18 \
+> FF 81 BD A5 A5 BD 81 FF \
+> AA 55 AA 55 AA 55 AA 55 \
+> 3E 7F FC F8 F8 FC 7F 3E \
+> 93 93 93 F3 F3 93 93 93
+░░░██░░░
+░░████░░
+░██████░
+░██████░
+░░░██░░░
+░░░██░░░
+░░░██░░░
+░░░██░░░
+████████
+█░░░░░░█
+█░████░█
+█░█░░█░█
+█░█░░█░█
+█░████░█
+█░░░░░░█
+████████
+█░█░█░█░
+░█░█░█░█
+█░█░█░█░
+░█░█░█░█
+█░█░█░█░
+░█░█░█░█
+█░█░█░█░
+░█░█░█░█
+░░█████░
+░███████
+██████░░
+█████░░░
+█████░░░
+██████░░
+░███████
+░░█████░
+█░░█░░██
+█░░█░░██
+█░░█░░██
+████░░██
+████░░██
+█░░█░░██
+█░░█░░██
+█░░█░░██
+
+share
+Save
+Etlas
+1 point·3 years ago
+
+I'm new so this is probably overly complex. But here it is in C#.
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace heximage
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string hex = "";
+            string[] parts = new string[8];
+
+
+            Console.WriteLine("Please enter the hex you would like to convert to an image: ");
+            hex = Console.ReadLine();
+            parts = hex.Split(' ');
+            Console.WriteLine();
+                int count = 0;
+                foreach (string value in parts)
+                {
+                string binaryval = "";
+                binaryval = Convert.ToString(Convert.ToInt32(value, 16), 2);
+                if (binaryval.Length != 8)
+                {
+                    int bitsdifference = 8 - binaryval.Length;
+                    for (int j = 0; j < bitsdifference; j++)
+                    {
+                        binaryval = "0" + binaryval;
+                    }
+                }
+                parts[count] = binaryval;
+                count++;
+            }
+            for (int i = 0; i < parts.Length; i++)
+            {
+                string line = "";
+                foreach (char c in parts[i])
+                {
+                    if (c == '0')
+                    {
+                        line = line + " ";
+                    }
+                    if (c == '1')
+                    {
+                        line = line + "x";
+                    }
+                }
+                Console.WriteLine(line);
+            }
+            Console.ReadLine();
+        }
+    }
+}
+
+share
+Save
+KillerCodeMonky
+1 point·3 years ago
+
+I would recommend this over your loop to pad:
+
+string binary = Convert.ToString(Convert.ToInt32(value, 16), 2);
+binary = String.Format("{0,8}", binary).Replace(' ', '0');
+
+This uses String.Format to pad out the binary representation to 8 characters
+with spaces on the left, then String.Replace to replace those spaces with
+zeroes.
+
+You could also use the same Replace method to form the final image:
+
+binary = binary.Replace('0', ' ').Replace('1', 'x');
+
+But, now we're reversing the same replace we did before! So let's fix that:
+
+string binary = Convert.ToString(Convert.ToInt32(value, 16), 2);
+binary = String.Format("{0,8}", binary);
+binary = binary.Replace('0', ' ').Replace('1', 'x');
+
+And there we go! A few lines to replace all that code. Now all you have to do
+is print them to the screen.
+
+share
+Save
+Etlas
+1 point·3 years ago
+
+This makes a lot of sense. Thank you for your help!
+
+share
+Save
+KillerCodeMonky
+1 point·3 years ago
+
+Actually, you should use String.PadLeft instead of String.Format. I spend too
+much time in Java and forget about how feature-full .NET strings are.
+
+share
+Save
+spfy
+1 point·3 years ago
+
+Here's my C solution. Really quick challenge, but I recently learned about
+binary operators so this was fun.
+
+#include <stdio.h>
+
+void expand(int hex)
+{
+    int i, nums[] = {128, 64, 32, 16, 8, 4, 2, 1};
+
+    for (i = 0; i < 8; ++i)
+        printf("%c", hex & nums[i] ? 'x' : ' ');
+    putchar('\n');
+}
+
+int main()
+{
+    int i;
+
+    for (i = 0; i < 8; ++i) {
+        int hex;
+        scanf("%x", &hex);
+        expand(hex);
+    }
+
+    return 0;
+}
+
+share
+Save
+ViridianKumquat
+1 point·3 years ago
+
+
+    You will be given 8 hex values that can be 0-254 in decimal value (so 1
+    byte).
+
+I'm guessing this isn't what you intended to say, since the first byte of the
+first input is FF.
+
+share
+Save
+Coder_d00d
+1 3Original Poster2 points·3 years ago
+
+0-255 gotcha.
+
+I got a B in CS 101 :P
+
+share
+Save
+Coplate
+1 point·3 years ago
+
+COBOL
+
+IDENTIFICATION DIVISION.
+PROGRAM-ID. HELLO-WORLD.
+
+DATA DIVISION.
+WORKING-STORAGE  SECTION.
+01 BMP-TABLE.
+    02 BMP-TEXT OCCURS 5 TIMES INDEXED BY TEXT_IDX.
+        04 BMP-CHAR PIC X OCCURS 24 TIMES INDEXED BY BMP_IDX.
+
+01 HEX-LOOKUP VALUE '0123456789ABCDEF'.
+    02 HEX-TEXT PIC X OCCURS 16 TIMES INDEXED BY HEX_IDX.
+
+01 IMAGE-LOOKUP VALUE '       1  1   11 1   1 1 11  1111   1  11 1 1 1111  11 1111 1111'.
+    02 IMAGE-TEXT PIC XXXX OCCURS 16 TIMES INDEXED BY IMAGE_IDX.
+
+
+PROCEDURE DIVISION.
+MOVE '18 3C 7E 7E 18 18 18 18' TO BMP-TEXT(1)
+MOVE 'FF 81 BD A5 A5 BD 81 FF' TO BMP-TEXT(2)
+MOVE 'AA 55 AA 55 AA 55 AA 55' TO BMP-TEXT(3)
+MOVE '3E 7F FC F8 F8 FC 7F 3E' TO BMP-TEXT(4)
+MOVE '93 93 93 F3 F3 93 93 93' TO BMP-TEXT(5)
+
+PERFORM VARYING TEXT_IDX FROM 1 BY 1 UNTIL TEXT_IDX > 5
+PERFORM VARYING BMP_IDX FROM 1 BY 1 UNTIL BMP_IDX > 24
+    SET HEX_IDX to 1
+    SEARCH HEX-TEXT VARYING HEX_IDX
+       AT END DISPLAY " "
+       WHEN HEX-TEXT(HEX_IDX) = BMP-CHAR(TEXT_IDX,BMP_IDX)
+            DISPLAY IMAGE-TEXT(HEX_IDX) WITH NO ADVANCING
+    END-SEARCH
+END-PERFORM
+DISPLAY " "
+END-PERFORM
+
+
+
+
+STOP RUN.
+
+OUTPUT
+
+   11
+  1111
+ 111111
+ 111111
+   11
+   11
+   11
+   11
+
+11111111
+1      1
+1 1111 1
+1 1  1 1
+1 1  1 1
+1 1111 1
+1      1
+11111111
+
+1 1 1 1
+ 1 1 1 1
+1 1 1 1
+ 1 1 1 1
+1 1 1 1
+ 1 1 1 1
+1 1 1 1
+ 1 1 1 1
+
+  11111
+ 1111111
+111111
+11111
+11111
+111111
+ 1111111
+  11111
+
+1  1  11
+1  1  11
+1  1  11
+1111  11
+1111  11
+1  1  11
+1  1  11
+1  1  11
+
+share
+Save
+harrychin2
+1 point·3 years ago
+
+C++ Solution
+
+Edit: formatting
+
+share
+Save
+KillerCodeMonky
+1 point·3 years ago·edited 3 years ago
+
+C#:
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+public static class E171
+{
+    public static void Main(string[] args)
+    {
+        while(true)
+        {
+            string line = Console.ReadLine();
+            if (line.Length == 0) break;
+
+            IEnumerable<string> rasters = line.Split(' ')
+                .Select(s => Convert.ToInt32(s, 16))
+                .Select(i => Convert.ToString(i, 2))
+                .Select(s => s.PadLeft(8, ' '))
+                .Select(s => s.Replace('0', ' ').Replace('1', 'X'));
+
+            foreach(string raster in rasters)
+                Console.WriteLine(raster);
+            Console.WriteLine();
+        }
+    }
+}
+
+Output:
+
+FF 81 BD A5 A5 BD 81 FF
+XXXXXXXX
+X      X
+X XXXX X
+X X  X X
+X X  X X
+X XXXX X
+X      X
+XXXXXXXX
+
+AA 55 AA 55 AA 55 AA 55
+X X X X
+ X X X X
+X X X X
+ X X X X
+X X X X
+ X X X X
+X X X X
+ X X X X
+
+3E 7F FC F8 F8 FC 7F 3E
+  XXXXX
+ XXXXXXX
+XXXXXX
+XXXXX
+XXXXX
+XXXXXX
+ XXXXXXX
+  XXXXX
+
+93 93 93 F3 F3 93 93 93
+X  X  XX
+X  X  XX
+X  X  XX
+XXXX  XX
+XXXX  XX
+X  X  XX
+X  X  XX
+X  X  XX
+
+share
+Save
+prondose
+0 01 point·3 years ago
+
+Perl 5.10
+
+map{$_=unpack'B8',pack'H2',$_;y/10/# /,say}split/ / for<>;
+
+share
+Save
+leonardo_m
+1 point·3 years ago
+
+D language:
+
+void main() {
+    import std.stdio, std.string;
+
+    foreach (s; [x"FF 81 BD A5 A5 BD 81 FF", x"AA 55 AA 55 AA 55 AA 55",
+                 x"3E 7F FC F8 F8 FC 7F 3E", x"93 93 93 F3 F3 93 93 93"])
+        "%(%08b\n%)\n".format(s.representation).tr("01", " #").writeln;
+}
+
+Edit: added output:
+
+########
+#      #
+# #### #
+# #  # #
+# #  # #
+# #### #
+#      #
+########
+
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
+
+  #####
+ #######
+######
+#####
+#####
+######
+ #######
+  #####
+
+#  #  ##
+#  #  ##
+#  #  ##
+####  ##
+####  ##
+#  #  ##
+#  #  ##
+#  #  ##
+
+share
+Save
+[deleted]
+1 point·3 years ago
+
+Here's my oneliner, written in JavaScript.
+
+function i(l){console.log("\n"+l.split(' ').map(function(i){return (new Array(8).join("0") + parseInt(i,16).toString(2)).slice(-8)}).join("\n"))};
+
+144 characters. If you want to run it, call i(theHex).
+
+I can't seem to make it any shorter without breaking rules :(.
+
+Output:
+
+"
+11111111
+10000001
+10111101
+10100101
+10100101
+10111101
+10000001
+11111111"
+"
+10101010
+01010101
+10101010
+01010101
+10101010
+01010101
+10101010
+01010101"
+"
+00111110
+01111111
+11111100
+11111000
+11111000
+11111100
+01111111
+00111110"
+"
+10010011
+10010011
+10010011
+11110011
+11110011
+10010011
+10010011
+10010011"
+
+share
+Save
+
+3 more replies
+
+[deleted]
+1 point·3 years ago
+
+C. Mine is a tad wordy. Feedback more than welcome. I generated each file with
+a hex editor beforehand.
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char * argv[])
+{
+        if (argc != 3)
+        {
+                printf("Usage: ./hex2bmp file rowsize\n");
+        printf("Where file = a source of hex characters\n");
+        printf("and rowsize = number of 'pixels' per row\n");
+                return 1;
+        }
+
+        //load file into array
+        char * inputfile = argv[1];
+        FILE * input = fopen(inputfile, "r");
+        int rowsize = atoi(argv[2]), i;
+        unsigned char buffer;
+
+        while(fread(&buffer, 1, 1, input) == 1)
+        {
+                for (i = 0; i < rowsize - 1; i++)
+                        printf(" ");
+
+                for (i = 0; i < rowsize; i++)
+                {
+                        printf(buffer % 2 == 1 ? "x" : " ");
+                        if (i != rowsize - 1) printf("\b\b");
+                        buffer /=2;
+                }
+                printf("\n");
+        }
+        fclose(input);
+        return 0;
+}
+
+share
+Save
+atlasMuutaras
+1 point·3 years ago
+
+Python 2.7 solution. Seems to work fine. Criticism/advice welcome!
+
+def hex2Pic(input_string):
+    lines = input_string.split(' ')
+    for line in lines:
+        bin_str = bin(int(line, 16))[2:].zfill(8)
+        for char in bin_str:
+            if char == '1':
+                bin_str += 'x'
+            else:
+                bin_str += ' '
+        print bin_str[8:]
+        bin_str == ''
+
+share
+Save
+
+1 more reply
+
+duksandfish
+1 point·3 years ago
+
+Java, having looked at some of the other solutions I see I could have used
+String.format to get the leadind 0s rather than manually printing spaces.
+
+public class HexToAscii {
+
+        public static void main(String[] args) {
+
+                Scanner s = new Scanner(System.in);
+
+                while(true) {
+                        String image = s.nextLine();
+                        for (String line : image.split(" ")) {
+                                line = Integer.toBinaryString(Integer.parseInt(line, 16));
+                                for(int i = 0; i < 8-line.length(); ++i) {
+                                        System.out.print(" ");
+                                }
+                                for (char c : line.toCharArray()) {
+                                        if(c == '1') System.out.print("x");
+                                        else System.out.print(" ");
+                                }
+                                System.out.println();
+                        }
+                }
+        }
+
+}
+
+share
+Save
+minikomi
+1 point·3 years ago·edited 3 years ago
+
+Single-liner bash without printf or do loop:
+
+λ ~ → echo "FF 81 BD A5 A5 BD 81 FF" | xxd -r -p | xxd -b -c 1 | awk '{print $2}' | sed 's/0/\ /g; s/1/X/g'
+
+
+ XXXXXXXX
+ X      X
+ X XXXX X
+ X X  X X
+ X X  X X
+ X XXXX X
+ X      X
+ XXXXXXXX
+
+share
+Save
+thestoicattack
+0 01 point·3 years ago
+
+Awesome! I always forget about xxd. I would have used cut and tr instead of awk
+and sed, but either way:
+
+xxd -r -p | xxd -b -c 1 | cut -d' ' -f2 | tr 01 " x"
+
+share
+Save
+
+1 more reply
+
+supercheesepuffs
+1 point·3 years ago
+
+C#
+
+ using System;
+ using System.Collections.Generic;
+ using System.Linq;
+ using System.Text;
+
+ namespace challenge171
+ {
+     class Program
+     {
+         static void Main()
+         {
+             string input = "18 3C 7E 7E 18 18 18 18";
+             string[] hexValues = input.Split();
+             foreach (string hex in hexValues)
+                 Console.WriteLine(Convert.ToString(Convert.ToInt32(hex, 16), 2)
+                        .PadLeft(8, '0').Replace('0',' ').Replace('1','X'));
+             Console.ReadLine();
+         }
+     }
+ }
+
+share
+Save
+ryani
+1 point·3 years ago
+
+Haskell one-liner. Handles multiple inputs (separated by newlines).
+
+import Data.List;main=interact$unlines.map(concatMap((\c->t(4,id)!!(c-c`div`16*7-27)).fromEnum)).concat.intersperse[""].map words.lines where {t(0,s)=[s[]];t(n,s)= t(n-1,s.(:)' ')++t(n-1,s.(:)'x')}
+
+Kind of long for a one-liner, but I just got a new monitor and it fits on my
+screen! :)
+
+share
+Save
+snowhawk04
+1 point·3 years ago·edited 3 years ago
+
+C++11.
+
+#include <algorithm>
+#include <bitset>
+#include <iostream>
+
+void printBinaryBitmap(const std::string& binary_string, const char on, const char off) {
+    std::for_each(binary_string.begin(),
+                  binary_string.end(),
+                  [&](const char bit) {
+                      std::cout << (bit == '0' ? off : on);
+                  });
+    std::cout << '\n';
+}
+
+std::string hexToString(const int hex) {
+    std::bitset<8> display(hex);
+    return display.to_string();
+}
+
+int main() {
+    for (int input, count = 0; std::cin >> std::hex >> input;) {
+        printBinaryBitmap(hexToString(input), 'X', ' ');
+        if (++count == 8) {
+            std::cout << '\n';
+            count = 0;
+        }
+    }
+}
+
+share
+Save
+killedbythegrue
+1 point·3 years ago
+
+C
+
+unsigned long long input[4] = {
+    0xFF81BDA5A5BD81FF, 0xAA55AA55AA55AA55,
+    0x3E7FFCF8F8FC7F3E, 0x939393F3F3939393 };
+
+unsigned long long mask = 0x8000000000000000;
+
+int main( int argc, char *argv[] ) {
+    for( int i = 0; i < 4; ++i ) {
+        unsigned long long hex = input[i];
+        for( int j = 0; j < 64; ++j ) {
+            if( 0 < j && 0 == j % 8 )
+                printf("\n");
+            printf("%c", (hex & mask) ? 'x' : ' ' );
+            hex <<= 1;
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+share
+Save
+LordZillion
+1 point·3 years ago
+
+PowerShell v3 I'm a sysadmin, hence the PowerShell and no decent development
+skills, but I cobbled this together, only had to go to the googles once because
+my when I converted the hex to binary I lost the leading 0 :S. Love to hear
+some tips.
+
+Code:
+
+Function StringToPic($string){
+    $string.Split(' ') | %{
+        [string]$OutputString = ''
+        ([System.Convert]::ToString(([System.Convert]::ToInt16($_,16)),2)).PadLeft(8,'0').ToCharArray() | %{
+            if([int]$_.ToString()){
+                [string]$OutputString += '█'
+            } else {
+                [string]$OutputString += ' '
+            }
+        }
+        Write-Output ([string]$OutputString)
+    }
+}
+$Input = @('FF 81 BD A5 A5 BD 81 FF','AA 55 AA 55 AA 55 AA 55','3E 7F FC F8 F8 FC 7F 3E','93 93 93 F3 F3 93 93 93')
+
+$Input | %{StringToPic -string $_ ; Write-Host ''}
+
+Output:
+
+████████
+█      █
+█ ████ █
+█ █  █ █
+█ █  █ █
+█ ████ █
+█      █
+████████
+
+█ █ █ █ 
+ █ █ █ █
+█ █ █ █ 
+ █ █ █ █
+█ █ █ █ 
+ █ █ █ █
+█ █ █ █ 
+ █ █ █ █
+
+  █████ 
+ ███████
+██████  
+█████   
+█████   
+██████  
+ ███████
+  █████ 
+
+█  █  ██
+█  █  ██
+█  █  ██
+████  ██
+████  ██
+█  █  ██
+█  █  ██
+█  █  ██
+
+share
+Save
+Godd2
+1 point·3 years ago
+
+It's a little more verbose that others, and it may not follow the reqs 100%,
+but it's a lot of fun to run in Ruby:
+
+def to_bitmap(map, char = "X")
+  output = ""
+  map.each do |row|
+    row.unpack("C")[0].to_s(2).rjust(8, "0").each_char {|cell| output += (cell.to_i == 1) ? char : " " }
+    output += "\n"
+  end
+  output
+end
+
+rand_chars = [*"!".."~"]
+map = ["\x18", "\x3C", "\x7E", "\x7E", "\x18", "\x18", "\x18", "\x18"]
+puts to_bitmap(map)
+puts
+
+map = ["\xFF", "\x81", "\xBD", "\xA5", "\xA5", "\xBD", "\x81", "\xFF"]
+puts to_bitmap(map, rand_chars.sample)
+puts
+
+map = ["\xAA", "\x55", "\xAA", "\x55", "\xAA", "\x55", "\xAA", "\x55"]
+puts to_bitmap(map, rand_chars.sample)
+puts
+
+map = ["\x3E", "\x7F", "\xFC", "\xF8", "\xF8", "\xFC", "\x7F", "\x3E"]
+puts to_bitmap(map, rand_chars.sample)
+puts
+
+map = ["\x93", "\x93", "\x93", "\xF3", "\xF3", "\x93", "\x93", "\x93"]
+puts to_bitmap(map, rand_chars.sample)
+puts
+
+share
+Save
+Teh_Sauce_Guy
+1 point·3 years ago
+
+Uh, using x implies printing a line, but you said 8x8 bitmap. 8 lines and an
+8x8 bitmap are two entirely different things.
+
+share
+Save
+poltergeistt
+1 point·3 years ago·edited 3 years ago
+
+Haxe solution. Haxe requires base 16 values to have a 0x prefix, so I had to
+[DEL:write a short function that would:DEL] add "0x" to every base 16 value
+entered. Input data is read from a file where all hex values are separated by a
+space (no new lines). The output "picture" is written to a file. The solution
+could definitely be trimmed and improved upon, but it could also be a LOT
+worse. Either way, I'm satisfied with how it turned out.
+
+EDIT: Realised I made things more complicated than they need to be.
+
+Main.hx
+
+import sys.*;
+import sys.io.*;
+
+class Main {
+        static inline var PATH_IN : String = "./assets/171e_in.txt";
+        static inline var PATH_OUT : String = "./assets/171e_out.txt";
+
+        static function main () : Void {
+                if(!FileSystem.exists(PATH_IN)) Sys.println("No input file!");
+                if(FileSystem.exists(PATH_OUT)) FileSystem.deleteFile(PATH_OUT);
+
+                var input : Array<String> = File.getContent(PATH_IN).split(" ");
+                var output = File.append(PATH_OUT, false);
+
+                for(number in input) {
+                        var i = 7;
+                        while(i > -1) {
+                                Sys.print(((Std.parseInt("0x" + number) >> i) % 2 == 0) ? "." : "X");
+                                output.writeString(((Std.parseInt("0x" + number) >> i) % 2 == 0) ? "." : "X");
+                                i--;
+                        }
+                        Sys.println("");
+                        output.writeString("\n");
+                }
+
+                output.close();
+        }
+}
+
+INPUT
+
+FF 81 BD A5 A5 BD 81 FF AA 55 AA 55 AA 55 AA 55 3E 7F FC F8 F8 FC 7F 3E 93 93 93 F3 F3 93 93 93
+
+OUTPUT
+
+XXXXXXXX
+X......X
+X.XXXX.X
+X.X..X.X
+X.X..X.X
+X.XXXX.X
+X......X
+XXXXXXXX
+X.X.X.X.
+.X.X.X.X
+X.X.X.X.
+.X.X.X.X
+X.X.X.X.
+.X.X.X.X
+X.X.X.X.
+.X.X.X.X
+..XXXXX.
+.XXXXXXX
+XXXXXX..
+XXXXX...
+XXXXX...
+XXXXXX..
+.XXXXXXX
+..XXXXX.
+X..X..XX
+X..X..XX
+X..X..XX
+XXXX..XX
+XXXX..XX
+X..X..XX
+X..X..XX
+X..X..XX
+
+share
+Save
+Ronny93
+1 point·3 years ago
+
+Java. A more verbose, but easy to understand and extend version:
+
+package c171_easy_done;
+
+import java.util.Scanner;
+
+/**
+ * This class reads 8 hex values, each one representing a row. These rows are converted to binary and a picture is painted of them, where 1 = character and 0 = no character
+ *
+ * @date July 2014
+ *
+ */
+public class HexToBitmap {
+
+        private static String outputSymbolOne = "█";
+        private static String outputSymbolZero = "░";
+        private static int numberOfBytes = 8;
+        private static int numberOfRows = 8;
+
+        public static void main(String[] args) {
+
+                String[] hexList;
+                Scanner scanner = new Scanner(System.in);
+
+                do {
+
+                        // Read input, until it has correct length (normally 8 bytes = 16 hex digits)
+                        do {
+                                // Read line
+                                System.out.println("Please enter " + numberOfRows + " hexadecimal bytes:");
+                                String line = scanner.nextLine();
+
+                                // Split line into array
+                                hexList = line.split("\\s+");
+
+                                // Too many or too few bytes entered -> message
+                                if (hexList.length != numberOfBytes) {
+                                        System.out.println("You have to enter exactly " + numberOfBytes + " bytes");
+                                }
+                        }
+                        while (hexList.length != numberOfBytes);
+
+                        // Convert each byte to binary, create the string representation and print it out
+                        // E.g. "FF" -> 255
+                        int hexToDecimal;
+
+                        // E.g. "11111111"
+                        String binary;
+
+                        // E.g. "XXXXXXXX"
+                        String outputLine;
+
+                        for (int i = 0; i < hexList.length; i++) {
+                                hexToDecimal = Integer.parseInt(hexList[i], 16);
+                                binary = Integer.toBinaryString(hexToDecimal);
+
+                                // Add leading zeros (if lost during conversion)
+                                binary = String.format("%1$" + numberOfBytes + "s", binary).replace(' ', '0');
+
+                                outputLine = convertBinaryStringToOutput(binary);
+                                System.out.println(outputLine);
+                        }
+
+                        System.out.println("Try again? (y/n):");
+                }
+
+                while (scanner.nextLine().equals("y"));
+
+                // Input finished
+                scanner.close();
+        }
+
+        /**
+         * Converts a binary string to an output representation. Example: "101" -> "X X"
+         *
+         * @param binary A binary input string
+         * @return Output represented with symbols specified in variables outputSymbolOne and outputSymbolZero
+         */
+        private static String convertBinaryStringToOutput(String binary) {
+                String result = "";
+                char currentCharacter;
+
+                for (int i = 0; i < binary.length(); i++) {
+                        currentCharacter = binary.charAt(i);
+
+                        if (String.valueOf(currentCharacter).equals("1")) {
+                                result += outputSymbolOne;
+                        }
+                        else {
+                                result += outputSymbolZero;
+                        }
+                }
+                return result;
+        }
+
+}
+
+share
+Save
+eltonhnjr
+1 point·3 years ago·edited 3 years ago
+
+Personaly, I think it's so verbose that is even harder to understand. Your
+convertBinaryToStringOutput could be done with a simple
+
+private String convertBinaryToStringOutput(String binary) {
+    return binary.replaceAll("1", outputSymbolOne).replaceAll("0", outputSymbolZero);
+}
+
+share
+Save
+Ronny93
+1 point·3 years ago
+
+Thanks a lot! Did not know, that this was possible. That's the reason I really
+like r/dailyprogrammer... you see other approaches to the same problem.
+
+share
+Save
+sonj88
+1 point·3 years ago
+
+C. First time posting. Longer once since I didn't use bitwise operations.
+Cheers!
+
+    // Daily Programming Challenge #171 [Easy] Hex to 8x8 BitMap
+// Date issued: 07/14/2014
+// Author: Brandon
+
+#include <stdio.h>
+
+void printMapRow(char hex) {
+        switch (hex) {
+        case '1':
+                printf("   x"); break;
+        case '2':
+                printf("  x "); break;
+        case '3':
+                printf("  xx"); break;
+        case '4':
+                printf(" x  "); break;
+        case '5':
+                printf(" x x"); break;
+        case '6':
+                printf(" xx "); break;
+        case '7':
+                printf(" xxx"); break;
+        case '8':
+                printf("x   "); break;
+        case '9':
+                printf("x  x"); break;
+        case 'A':
+                printf("x x "); break;
+        case 'B':
+                printf("x xx"); break;
+        case 'C':
+                printf("xx  "); break;
+        case 'D':
+                printf("xx x"); break;
+        case 'E':
+                printf("xxx "); break;
+        case 'F':
+                printf("xxxx"); break;
+        case ' ':
+                printf("\n"); break;
+        case '\n':
+                printf("\n"); break;
+        default:
+                printf("Invalid Hex representation used: %c\n", hex);
+        }
+}
+
+void printMap(char* hex, int length) {
+        for(int i = 0; i < length-1; i++) {
+                printMapRow(hex[i]);
+        }
+        printf("\n");
+}
+
+int main() {
+        char hexRow[] = {"FF 81 BD A5 A5 BD 81 FF"};
+        char hexRow2[] = {"AA 55 AA 55 AA 55 AA 55"};
+        char hexRow3[] = {"3E 7F FC F8 F8 FC 7F 3E"};
+        char hexRow4[] = {"93 93 93 F3 F3 93 93 93"};
+        int length = sizeof(hexRow) / sizeof(hexRow[0]);
+        printMap(hexRow, length);
+        printMap(hexRow2, length);
+        printMap(hexRow3, length);
+        printMap(hexRow4, length);
+}
+
+share
+Save
+BryghtShadow
+1 point·3 years ago
+
+SWI-Prolog v6.6.6
+
+Note: main/0 processes only one line. main/0 will fail on empty input (because
+I think that it doesn't satisfy the precondition of 8 bytes).
+
+:- module('c171a', [main/0]).
+
+main :- main_(user_input).
+
+main_(In) :-
+    (   read_line_to_atom(In, Lines)
+    ->  byte_ascii(Lines, Asciis),
+        maplist(writeln, Asciis)
+    ).
+
+read_line_to_atom(In, A):-
+    read_line_to_codes(In, Cs),
+    (   Cs \= end_of_file
+    ->  atom_codes(A, Cs)
+    ;   !, fail
+    ).
+
+byte_ascii(Bytes, Asciis):-
+    atomic_list_concat(ByteList, ' ', Bytes),
+    maplist(byte_ascii_, ByteList, Asciis).
+
+byte_ascii_(Hex, Ascii) :-
+    hex_dec(Hex, Dec),
+    numlist(0, 7, L),
+    reverse(L, R),
+    maplist(bit_ascii(Dec), R, AsciiBits),
+    atom_chars(Ascii, AsciiBits).
+
+bit_ascii(Byte, Pos, Ascii) :-
+    Mask is 1 << Pos,
+    (   (Byte /\ Mask) =\= 0
+    ->  Ascii = 'x'
+    ;   Ascii = ' '
+    ).
+
+hex_dec(X, D) :-
+    atom_chars(X, Chars),
+    hex_dec_(Chars, 0, D).
+
+hex_dec_([], Out, Out).
+hex_dec_([X|Xs], In, Out) :-
+    hex(X, N),
+    In0 is In << 4 + N,
+    hex_dec_(Xs, In0, Out).
+
+hex('0', 0).
+hex('1', 1).
+hex('2', 2).
+hex('3', 3).
+hex('4', 4).
+hex('5', 5).
+hex('6', 6).
+hex('7', 7).
+hex('8', 8).
+hex('9', 9).
+hex('A', 10). hex(a, 10).
+hex('B', 11). hex(b, 11).
+hex('C', 12). hex(c, 12).
+hex('D', 13). hex(d, 13).
+hex('E', 14). hex(e, 14).
+hex('F', 15). hex(f, 15).
+
+Output:
+
+?- consult('reddit/c171a').
+% reddit/c171a compiled into c171a 0.00 sec, 32 clauses
+true.
+
+?- main.
+|:
+false.
+
+?- main, main, main, main.
+|: FF 81 BD A5 A5 BD 81 FF
+xxxxxxxx
+x      x
+x xxxx x
+x x  x x
+x x  x x
+x xxxx x
+x      x
+xxxxxxxx
+|: AA 55 AA 55 AA 55 AA 55
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+x x x x
+ x x x x
+|: 3E 7F FC F8 F8 FC 7F 3E
+  xxxxx
+ xxxxxxx
+xxxxxx
+xxxxx
+xxxxx
+xxxxxx
+ xxxxxxx
+  xxxxx
+|: 93 93 93 F3 F3 93 93 93
+x  x  xx
+x  x  xx
+x  x  xx
+xxxx  xx
+xxxx  xx
+x  x  xx
+x  x  xx
+x  x  xx
+true.
+
+share
+Save
+Meenhard
+1 point·3 years ago·edited 3 years ago
+
+Rust. First time using this language. 5h googleing later...
+
+use std::os;
+use std::num::strconv::from_str_common;
+use std::string::String;
+
+fn main() {
+    let args = os::args();
+        for argument in args.iter().skip(1) {
+            let line:Option<u8> = from_str_common(argument.as_slice(),16,false,false,false,std::num::strconv::ExpNone,false,false);
+            match line {
+                Some(number) =>  println!("{}",convert_to_line(number)),
+                None => fail!("Couldnt convert Number!")
+            }
+    }
+
+}
+
+fn convert_to_line(mut line_as_number:u8) -> String {
+    let mut count = 0i;
+
+    let mut result:Vec<u8>=Vec::new();
+    while count < 8 {
+        if line_as_number % 2 == 1 {
+            result.push('*' as u8);
+        }
+        else {
+            result.push(' ' as u8);
+        }
+        line_as_number /= 2;
+        count += 1;
+    }
+    result.reverse();
+    return String::from_utf8(result).unwrap();
+}
+
+Edit: found a smarter solution:
+
+use std::os;
+use std::num::strconv::from_str_common;
+use std::string::String;
+
+fn main() {
+    let args = os::args();
+        for argument in args.iter().skip(1) {
+            let line:Option<u8> = from_str_common(argument.as_slice(),16,false,false,false,std::num::strconv::ExpNone,false,false);
+            match line {
+                Some(number) =>  println!("{}",convert_to_line(number)),
+                None => fail!("Couldnt convert Number!")
+            }
+    }
+}
+fn convert_to_line(line_as_number:u8) -> String {
+    range(0,8).map(|x|
+                   if line_as_number << x >= 128
+                   {'*'}
+                   else{' '}
+                  ).collect()
+}
+
+share
+Save
+[deleted]
+1 point·3 years ago
+
+Java. My first submission
+
+package temp;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+//166769WN
+
+public class DoStuff {
+
+private static ArrayList<String> hexadecimal = new ArrayList<>();
+private static ArrayList<Integer> decimal = new ArrayList<>();
+private static ArrayList<String> binary = new ArrayList<>();
+private static String x = null;
+public static void main(String[] args) {
+
+        input();
+
+        for (int i = 0; i < hexadecimal.size(); i++) {
+                decimal.add(Integer.parseInt(hexadecimal.get(i), 16));
+        }
+        for (int i = 0; i < hexadecimal.size(); i++) {
+                binary.add(Integer.toBinaryString(decimal.get(i)));
+        }
+        for (int i = 0; i < hexadecimal.size(); i++) {
+                x = binary.get(i).toString();
+                x = x.replaceAll("1", "x");
+                x = x.replaceAll("0", " ");
+                System.out.println(x);
+        }
+        }
+
+
+private static void input() {
+        Scanner in = new Scanner(System.in);
+        for (int i = 0; i < 8; i++) {
+                hexadecimal.add(in.next());
+        }
+        in.close();
+        }
+}
+
+share
+Save
+Wiezy_Krwi
+1 point·3 years ago
+
+C#, works in LINQPad (Console outputting is for the weak).
+
+"FF 81 BD A5 A5 BD 81 FF"
+    .Split(' ')
+    .Select(c => Convert.ToString(Convert.ToInt32(c, 16), 2))
+    .Select(l => l.Replace("1", "X").Replace("0", " "))
+    .Dump();
+
+share
+Save
+fredlhsu
+1 point·3 years ago
+
+Go:
+
+package main
+
+import (
+        "bytes"
+        "fmt"
+        "strconv"
+        "strings"
+)
+
+func getInput() []string {
+        var h []string
+        h = make([]string, 8)
+        _, err := fmt.Scan(&h[0], &h[1], &h[2], &h[3], &h[4], &h[5], &h[6], &h[7])
+        if err != nil {
+                fmt.Println(err)
+        }
+        return h
+}
+
+func toBinary(hexes []string) []string {
+        var bins []string
+        bins = make([]string, 8)
+        for i, h := range hexes {
+                bin, err := strconv.ParseInt(h, 16, 32)
+                if err != nil {
+                        fmt.Println(err)
+                }
+                bins[i] = fmt.Sprintf("%b", bin)
+                var pad bytes.Buffer
+                for j := 0; j < 8-len(bins[i]); j++ {
+                        pad.WriteString("0")
+                }
+                bins[i] = pad.String() + bins[i]
+        }
+        return bins
+}
+
+func printPic(bins []string) {
+        for _, b := range bins {
+                r := strings.NewReplacer("1", "x", "0", " ")
+                fmt.Println(r.Replace(b))
+        }
+}
+
+func main() {
+        h := getInput()
+        fmt.Println(h)
+        b := toBinary(h)
+        fmt.Println(b)
+        printPic(b)
+}
+
+share
+Save
+Frigguggi
+0 11 point·3 years ago
+
+Java:
+
+import java.util.Scanner;
+
+public class HexToBit {
+   public static void main(String[] args) {
+      Scanner in = new Scanner(System.in);
+      Scanner tokenizer = new Scanner(in.nextLine());
+      for(int i = 0; i < 8; i++) {
+         String line = Integer.toBinaryString(tokenizer.nextInt(16));
+         while(line.length() < 8) {
+            line = "0" + line;
+         }
+         for(char ch: line.toCharArray()) {
+            System.out.print((ch == '0') ? " " : "*");
+         }
+         System.out.println();
+      }
+   }
+}
+
+Output:
+
+FF 81 BD A5 A5 BD 81 FF
+********
+*      *
+* **** *
+* *  * *
+* *  * *
+* **** *
+*      *
+********
+
+AA 55 AA 55 AA 55 AA 55
+* * * *
+ * * * *
+* * * *
+ * * * *
+* * * *
+ * * * *
+* * * *
+ * * * *
+
+3E 7F FC F8 F8 FC 7F 3E
+  *****
+ *******
+******
+*****
+*****
+******
+ *******
+  *****
+
+93 93 93 F3 F3 93 93 93
+*  *  **
+*  *  **
+*  *  **
+****  **
+****  **
+*  *  **
+*  *  **
+*  *  **
+
+share
+Save
+marchelzo
+1 point·3 years ago
+
+Haskell one liner. Read this at your own risk:
+
+import Numeric
+import Data.Char (intToDigit)
+main =  getLine >>= putStr . unlines . (map ( (map (\x -> if x == '0' then '░' else '█')) . (\x -> let d = (8 - length x) in if d > 0 then (replicate d '0') ++ x else x) . flip (showIntAtBase 2 intToDigit) "" . (fst . (!! 0) . readHex))) . words
+
+share
+Save
+lunkdjedi
+1 point·3 years ago
+
+An implementation in Clojure with no imports required.
+
+        (def data [
+                "18 3C 7E 7E 18 18 18 18"
+                "FF 81 BD A5 A5 BD 81 FF"
+                "AA 55 AA 55 AA 55 AA 55"
+                "3E 7F FC F8 F8 FC 7F 3E"
+                "93 93 93 F3 F3 93 93 93"])
+
+        (defn h2b [hex]
+                (let [b (Integer/toBinaryString (Integer/parseInt hex 16))
+                                        p "00000000"]
+                                        (subs (str p b) (- (+ (.length p) (.length b)) (.length p)))))
+
+        (defn print-pic [data]
+                (let [raw-data (map h2b (clojure.string/split data #" "))]
+                        (println "")
+                        (println (clojure.string/replace (clojure.string/join "\n" raw-data) #"0" " "))))
+
+        (for [d data] (print-pic d))
+
+share
+Save
+bharatgudihal
+1 point·3 years ago
+
+Hi Everyone!
+
+I'm new to the group. You can find my code at: https://github.com/bharatgudihal
+/Daily-Programmer/tree/master/Challenge%20171/src/challenge171
+
+share
+Save
+cereal_numbers
+1 point·3 years ago
+
+First time posting on Reddit. Tried it out in Swift
+
+// Playground - noun: a place where people can play
+
+import Cocoa
+
+
+
+func hexToDec(hex: String) -> Int{
+    var num: Int = 0
+    for x in hex.utf8 {
+        if ( x < 65) {
+            num = Int(x-48)
+        } else {
+            num = Int(x - 65 + 10)
+        }
+    }
+    return num
+}
+
+func DecToBin(dec: Int) -> String {
+    var ans: String = ""
+    var num = dec
+    do {
+        var rem = num % 2
+        ans = String(rem) + ans
+        num = num / 2
+    } while (num > 0)
+    while (ans.utf16count < 4){
+        ans = "0" + ans
+    }
+    return ans
+}
+
+func hexToBin(hex: String) ->String {
+    return DecToBin(hexToDec(hex))
+}
+
+func getString(line: String) {
+    var words = line.componentsSeparatedByString(" ")
+    var count = 0
+    for word in words {
+        for c in word{
+            var bin = hexToBin(String(c))
+            for x in bin {
+                if x == "1"{
+                    print("X")
+                } else {
+                    print(" ")
+                }
+            }
+        }
+        println()
+    }
+}
+
+share
+Save
+toodim
+1 point·3 years ago
+
+Python 3.4
+
+input_pics = [line.split() for line in open("challenge171")]
+
+for pic in input_pics:
+    for line in pic:
+       print (str(bin(int(line, 16))[2:].zfill(8)).replace("0"," ").replace("1","X"))
+
+share
+Save
+fluoroamine
+1 point·3 years ago·edited 3 years ago
+
+Very simple and fast version. Was nice to learn that BitArray exists.
+
+C#
+
+Please do some crtitique if you wish. I want to be better.
+
+http://pastebin.com/FixFZ9wk
+
+    // from SO
+    public static byte[] StringToByteArray(String hex)
+    {
+        int NumberChars = hex.Length;
+        byte[] bytes = new byte[NumberChars / 2];
+        for (int i = 0; i < NumberChars; i += 2)
+            bytes[i / 2] = Convert.ToByte(hex.Substring(i, 2), 16);
+        return bytes;
+    }
+
+    static void Main(string[] args){
+
+        byte[] full = StringToByteArray(Console.ReadLine().Replace(" ", ""));
+
+        foreach (byte b in full)
+        {
+            // viens baits apzīmē vienu rindiņu
+            BitArray ba = new BitArray(new byte[] { b });
+            foreach (bool bit in ba)
+            {
+                if (bit)
+                    Console.Write("X");
+                else
+                    Console.Write(" ");
+            }
+            Console.WriteLine();
+        }
+
+        Console.ReadLine();
+    }
+
+share
+Save
+[deleted]
+1 point·3 years ago
+
+Python 2.7
+
+test_input = "18 3C 7E 7E 18 18 18 18"
+scale = 16
+num_of_bits = 8
+
+def convert(n):
+        if n == "1":
+                return "x"
+        else:
+                return " "
+
+a = [[convert(i) for i in bin(int(i, scale))[2:].zfill(num_of_bits)] for i in test_input.split()]
+for t in a:
+        print "".join(t)
+
+share
+Save
+gfixler
+1 point·3 years ago
+
+This is only my 2nd Haskell program; I didn't bother digging into bitwise
+things, nor worrying too much about edge conditions (like lowercase letters in
+the input). I'll get there eventually.
+
+import Data.List
+
+hexCharVal c = length $ takeWhile (/= c) "0123456789ABCDEF"
+hexDots c = ["    ","   *","  * ","  **",
+             " *  "," * *"," ** "," ***",
+             "*   ","*  *","* * ","* **",
+             "**  ","** *","*** ","****"] !! (hexCharVal c)
+
+renderHexPair s = (hexDots $ head s) ++ (hexDots $ head (tail s))
+renderHexPic s = unlines (map renderHexPair $ words s)
+showHexPic = putStr . renderHexPic
+
+share
+Save
+mrmulyani
+1 point·3 years ago
+
+Clojure. Redditor fifosine posted his solution for review over at r/clojure.
+
+Taking ryfow's suggested change to the call to 'selections' into account we
+arrive at the following alternatives:
+
+(require '[clojure.math.combinatorics :refer [selections]]
+         '[clojure.string :refer [split join]])
+
+(def lines (vec (map join (selections [" " "#"] 8))))
+
+(defn hex->int [hc] (Integer/parseInt (str hc) 16))
+
+;; Using comp
+(->> (split (read-line) #" ")
+     (map (comp lines hex->int))
+     (join "\n")
+     (println))
+
+;; Using thread-last
+(->> (split (read-line) #" ")
+     (map #(-> % hex->int lines))
+     (join "\n")
+     (println))
+
+share
+Save
+jppunnett
+1 point·3 years ago
+
+C++ (quite verbose)
+
+#include <iostream>
+#include <iterator>
+#include <string>
+#include <sstream>
+#include <bitset>
+#include <algorithm>
+
+int main() {
+
+    std::istream_iterator<std::string> hex_iter(std::cin);
+    std::istream_iterator<std::string> end_iter;
+    for(; hex_iter != end_iter; ++hex_iter) {
+        //  Convert hex string to an integer.
+        std::stringstream ss(*hex_iter);
+        unsigned long val = 0;
+        ss >> std::hex >> val;
+
+        // Convert integer to a string of binary digits.
+        std::bitset<8> bits(val);
+        std::string byte_str = bits.to_string();
+
+        // Replace all '0's with spaces and all '1's with 'x'
+        std::replace(byte_str.begin(), byte_str.end(), '0', ' ');
+        std::replace(byte_str.begin(), byte_str.end(), '1', 'x');
+
+        std::cout << byte_str << std::endl;
+    }
+
+    return 0;
+}
+
+share
+Save
+nalexander50
+1 point·3 years ago
+
+Very neat, simple task. Here is my solution in Python!
+
+with open("input.txt", "r") as inputFile:
+        bitmap = ""
+        for line in inputFile:
+                hexValues = line.split()
+                for value in hexValues:
+                        binary = bin(int(value, 16))
+                        hexString = str(binary)[2:].zfill(8)
+                        for bit in hexString:
+                                if bit == '0':
+                                        bitmap += " "
+                                else:
+                                        bitmap += "x"
+                        bitmap += '\n'
+                bitmap += '\n'
+        with open("output.txt", "w") as outputFile:
+                outputFile.write(bitmap)
+
+share
+Save
+quastra
+1 point·3 years ago
+
+C++, Probably more bloated than it should have been but I wanted to practice
+using the STL.
+
+#include <iostream>
+#include <vector>
+#include <iomanip>
+
+int main()
+{
+std::vector<int> nums;
+for(auto i = 0; i < 8; ++i)
+{
+        int n = 0;
+        std::cin >> std::hex >> n;
+        nums.push_back(n);
+}
+
+
+for(auto z = 0; z < 8; ++z)
+{
+        int num = nums.at(0);
+        nums.erase(nums.begin());
+        for(auto r = 0; r < 8; ++r)
+        {
+
+                char c = num % 2 ? 'X' : ' ';
+                std::cout << c;
+                num /= 2;
+        }
+        std::cout << std::endl;
+}
+}
+
+share
+Save
+hiroism
+1 point·3 years ago
+
+I'm new to this sub so this is probably a bit long and inefficient. Here's my
+Java solution:
+
+public class Generator {
+    public static void main(String[] args) {
+        String hexEx = "18 3C 7E 7E 18 18 18 18";
+        String binEx = multipleHexToMultipleBinary(hexEx);
+        String gfx = generateGraphic(binEx);
+        System.out.println(gfx);
+    }
+
+    public static String hexToBinary(String hex) throws NumberFormatException{
+        int i = Integer.parseInt(hex, 16);
+        String bin = Integer.toBinaryString(i);
+        bin = String.format("%08d", Integer.parseInt(bin));
+        return bin;
+    }
+
+    public static String multipleHexToMultipleBinary(String hex) {
+        String[] hexArray = hex.split(" ");
+        int length = hexArray.length;
+        String[] binArray = new String[length];
+
+        try {
+            for(int i = 0; i < length; i++) {
+                binArray[i] = hexToBinary(hexArray[i]);
+            }
+        } catch (NumberFormatException e) {
+            return "";
+        }
+
+        StringBuilder result = new StringBuilder();
+        for(String s : binArray) {
+            result.append(s);
+        }
+
+        return result.toString();
+    }
+
+    public static String generateGraphic(String bin) {
+        String graphic = bin.replace('1', 'x').replace('0', ' ');
+        String[] graphicArray = graphic.split("(?<=\\G.{8})");
+
+        StringBuilder result = new StringBuilder();
+        for(String s : graphicArray) {
+            result.append(s);
+            result.append("\n");
+        }
+
+        return result.toString();
+    }
+}
+
+share
+Save
+rock_neurotiko
+1 point·3 years ago·edited 3 years ago
+
+One-line solve with maps in python 3.4 :)
+
+for hex_repr in input().strip().split(): list(map( lambda y: list(map(lambda x: print(" ", end="") if x=="0" else print("X", end=""),y)), bin(int(hex_repr,16))[2:].zfill(8))) and print()
+
+share
+Save
+jeaton
+1 point·3 years ago
+
+C++
+
+#include <iostream>
+#include <algorithm>
+#include <iomanip>
+#include <string>
+
+const int DIGITS[] = { 0xff, 0x81, 0xbd, 0xa5, 0xa5, 0xbd, 0x81, 0xff,
+                       0xaa, 0x55, 0xaa, 0x55, 0xaa, 0x55, 0xaa, 0x55,
+                       0x3e, 0x7f, 0xfc, 0xf8, 0xf8, 0xfc, 0x7f, 0x3e,
+                       0x93, 0x93, 0x93, 0xf3, 0xf3, 0x93, 0x93, 0x93 },
+          DIGIT_LENGTH = sizeof(DIGITS) / sizeof(int);
+
+std::string parse_line(int n) {
+  if (n == 0)
+    return "";
+  std::string result;
+  do {
+    result.push_back(n % 2 == 1 ? 'x' : ' ');
+  } while ((n /= 2) != 0);
+  std::reverse(result.begin(), result.end());
+  return result;
+}
+
+int main() {
+  for (int i = 0; i < DIGIT_LENGTH; i++) {
+    std::cout << std::setw(8) << parse_line(DIGITS[i]) << std::endl;
+  }
+  return 0;
+}
+
+JavaScript:
+
+function parseLine(n) {
+  var s = '';
+  while (n !== 0) {
+    s += ' x'.charAt(n % 2);
+    n = ~~(n / 2);
+  }
+  return new Array(9 - s.length).join(' ') +
+    s.split('').reverse().join('');
+}
+
+var digits = [0xff, 0x81, 0xbd, 0xa5, 0xa5, 0xbd, 0x81, 0xff,
+              0xaa, 0x55, 0xaa, 0x55, 0xaa, 0x55, 0xaa, 0x55,
+              0x3e, 0x7f, 0xfc, 0xf8, 0xf8, 0xfc, 0x7f, 0x3e,
+              0x93, 0x93, 0x93, 0xf3, 0xf3, 0x93, 0x93, 0x93];
+console.log(digits.map(parseLine).join('\n'));
+
+share
+Save
+eltonhnjr
+1 point·3 years ago
+
+I'm learning Scala: Great language but a little complex to read
+
+object ws1 {
+  def hextodraw(input: String) = {
+    (input split " ") .map { s =>
+      Integer.toBinaryString(Integer.parseInt(s, 16))
+    } .map { line => fillWithZeros(line).map { c => c match {
+          case ' ' => 'A'
+          case '1' => 'X'
+          case '0' => ' '
+        }
+      }
+    } .reduce { (acc, n) => acc + "\n" + n }
+  }
+
+  def fillWithZeros(input: String) : String = {
+    if (input.length() >= 8) input else fillWithZeros("0" ++ input)
+  }
+
+  println(hextodraw("18 3C 7E 7E 18 18 18 18"))
+}
+
+share
+Save
+Flembobs
+1 point·3 years ago·edited 3 years ago
+
+Solution for python 3.4:
+
+  ##############################################################################
+  # bitmap.py
+  ##############################################################################
+  # Draws a hexadecimal string.
+  ##############################################################################
+
+  #get the input
+  toDraw = input("Enter the hex string you wish to print:")
+
+  #split the input string
+  toDraw = toDraw.split(" ")
+
+  #iterate through toDraw to see what we have to draw
+  for hex in toDraw:
+
+     #the string we will print
+     toPrint = ""
+
+     try:
+        #loop through each bit of the hex digit
+        for bit in format(int(hex,16),'08b'):
+           if bit is "1":
+              toPrint += "X"
+           else:
+              toPrint += " "
+        toPrint += "\n"
+
+     except:
+        print("Invalid hex string supplied")
+
+     #print the output
+     print(toPrint)
+
+share
+Save
+exick
+1 point·3 years ago
+
+Just starting to learn D, so I thought I'd try it. I left the comments in
+because they were helpful for me. I spent an inordinate amount of time trying
+to figure out if there was a way I could use the existing libraries to convert
+from a hex string to an integer. It's late, so no one may see this, but any
+feedback would be appreciated.
+
+import std.stdio : writeln, readln;
+import std.regex : regex, match, replaceAll;
+import std.string : format;
+import std.conv : parse;
+
+void main() {
+    // read line
+    string line = readln();
+
+    // look for two hex numbers
+    auto r = regex(r"[0-9A-F][0-9A-F]", "g");
+
+    // iterate through the matched hex numbers
+    foreach (n; match(line, r)) {
+        // duplicate match. parse doesn't like using the n.hit slice for some reason
+        string x = n.hit.dup;
+
+        // convert matched hex number into integer, then format as binary string
+        string m = format("%b", parse!int(x, 16));
+
+        // replace 0 with blank, and 1 with x
+        m = replaceAll(m, regex("0"), " ");
+        m = replaceAll(m, regex("1"), "x");
+
+        // display our new line
+        writeln(m);
+    }
+}
+
+share
+Save
+etagawesome
+1 point·3 years ago·edited 1 year ago
+
+[deleted]
+^0.5579
+
+    What is this?
+
+share
+Save
+retupmoca
+1 point·3 years ago
+
+Perl 6:
+
+while $_=get() {
+    .comb(/\w+/).map({:16($_).base(2).fmt("%08d").subst("0", " ", :g)}).join("\n").say
+}
+
+share
+Save
+robin-gvx
+0 21 point·3 years ago
+
+I thought I'd try doing this with NumPy. (Gist contains Intermediate solution
+as well, and includes output.)
+
+share
+Save
+bgards
+1 point·3 years ago
+
+python 2.7
+
+def printPicture(hex):
+    ''' prints a picture based on hex input '''
+    hexToBin = []
+    try:
+        hex = hex.split(" ")
+
+        for i in range(0,len(hex)):
+            hexToBin += [bin(int(hex[i],16))]
+            hexToBin[i] = hexToBin[i][2:]
+
+        for j in range(0,len(hex)):
+            leading = "0" * (8-len(hexToBin[j]))
+            hexToBin[j] = leading + hexToBin[j]
+
+        for k in range(0,len(hexToBin)):
+            line = ""
+            for l in range(0,len(hexToBin[k])):
+                if hexToBin[k][l] == "0":
+                    line += " "
+                else:
+                    line += "X"
+            print line
+    except Exception:
+        print 'Hex input error'
+
+share
+Save
+
+42 more replies
+
+Community Details
+r/dailyprogrammer
+
+142k
+
+Subscribers
+
+147
+
+Online
+
+**Welcome to r/DailyProgrammer!** First time visitors of Daily Programmer
+please [Read the Wiki] (http://www.reddit.com/r/dailyprogrammer/wiki/index) to
+learn everything about this subreddit. 3 Programming Challenges a week!
+
+SubscribeCreate Post
+aboutcareerspress
+advertisebloghelp
+the reddit appreddit goldreddit gifts
+content policy| privacy policy
+user agreement| mod policy
+© 2018 Reddit, Inc. All rights reserved
+back to top

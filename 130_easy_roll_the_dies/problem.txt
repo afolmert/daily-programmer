@@ -1,0 +1,5203 @@
+close this window
+jump to content
+my subreddits
+edit subscriptions
+
+  • popular
+  • -all
+  • -random
+  • -users
+
+ | 
+
+  • AskReddit
+  • -worldnews
+  • -videos
+  • -funny
+  • -todayilearned
+  • -pics
+  • -gaming
+  • -movies
+  • -news
+  • -gifs
+  • -mildlyinteresting
+  • -aww
+  • -Showerthoughts
+  • -television
+  • -Jokes
+  • -science
+  • -OldSchoolCool
+  • -sports
+  • -IAmA
+  • -Documentaries
+  • -TwoXChromosomes
+  • -explainlikeimfive
+  • -personalfinance
+  • -books
+  • -tifu
+  • -Futurology
+  • -dataisbeautiful
+  • -WritingPrompts
+  • -nottheonion
+  • -food
+  • -Music
+  • -photoshopbattles
+  • -EarthPorn
+  • -philosophy
+  • -Art
+  • -nosleep
+  • -GetMotivated
+  • -askscience
+  • -LifeProTips
+  • -space
+  • -UpliftingNews
+  • -DIY
+  • -history
+  • -gadgets
+  • -creepy
+  • -listentothis
+  • -blog
+  • -announcements
+  • -InternetIsBeautiful
+
+more >>
+dailyprogrammer dailyprogrammer
+
+  • comments
+
+Want to join? Log in or sign up in seconds.|
+
+  • English
+
+[                    ][]
+[ ]limit my search to r/dailyprogrammer
+
+use the following search parameters to narrow your results:
+
+subreddit:subreddit
+    find submissions in "subreddit"
+author:username
+    find submissions by "username"
+site:example.com
+    find submissions from "example.com"
+url:text
+    search for "text" in url
+selftext:text
+    search for "text" in self post contents
+self:yes (or self:no)
+    include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+    include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+
+see the search faq for details.
+
+advanced search: by author, subreddit...
+
+this post was submitted on  17 Jun 2013
+87 points (99% upvoted)
+shortlink:  [https://redd.it/1giv]
+[                    ][                    ]
+[ ]remember mereset password
+login
+Submissions restricted
+Only approved users may post in this community.
+
+dailyprogrammer
+
+subscribeunsubscribe142,051 readers
+
+110 users here now
+
+ 1. Challenge #321: Easy
+ 2. Challenge #321: Intermediate
+ 3. Challenge #321: Hard
+ 4. Weekly #25: Escape the trolls
+
+Welcome to r/DailyProgrammer!
+
+First time visitors of Daily Programmer please Read the Wiki to learn
+everything about this subreddit.
+
+  • Solution Submission Tutorial
+  • Solution Submission Guidelines
+  • Code / Peer-Review Guidelines
+  • Problem Submission Guidelines
+  • Achievements System
+  • Community Projects
+  • Links to other Programming subreddits
+  • Special Thanks
+
+Can't submit solutions?
+
+If you are a new or unverified account, and are unable to post comment replies,
+please click here to verify your account. Otherwise, read the Solution
+Submission Tutorial for a walkthrough of submitting a solution, or click below
+to message the moderators for assistance.
+
+Write your own challenge!
+
+To help the community and write your own challenge to be submitted, head on
+over to /r/DailyProgrammer_Ideas and share your project - read the sidebar in
+that subreddit for more information.
+
+IRC Channel
+
+Message the Moderators
+
+Challenge List in Chronological Order
+
+created by nottoobadguya community for 6 years
+message the moderators
+
+MODERATORS
+
+  • rya111113 1
+  • nint221 2
+  • Cosmologicon2 3
+  • Elite68091 1
+  • XenophonOfAthens2 1
+  • jnazario2 0
+  • Godspiral3 3
+  • Blackshell2 0
+  • fvandepitte0 0
+  • G33kDude1 1
+  • about moderation team >>
+
+discussions in r/dailyprogrammer
+<>
+X
+ 
+41 . 10 comments
+[2018-05-09] Challenge #360 [Intermediate] Find the Nearest Aeroplane
+ 
+60 . 26 comments
+[2018-05-04] Challenge #359 [Hard] Primes in Grids
+ 
+40 . 37 comments
+[2018-05-02] Challenge #359 [Intermediate] Unwrap Some Text
+ 
+66 . 111 comments
+[2018-04-30] Challenge #359 [Easy] Regular Paperfold Sequence Generator
+ 
+66 . 12 comments
+[2018-04-27] Challenge #358 [Hard] Puzzle me this
+ 
+52 . 36 comments
+[2018-04-25] Challenge #358 [Intermediate] Everyone's A Winner!
+ 
+73 . 75 comments
+[2018-04-23] Challenge #358 [Easy] Decipher The Seven Segments
+ 
+57 . 28 comments
+[2018-04-20] Challenge #357 [Hard] Continued Fractions
+ 
+58 . 26 comments
+[2018-04-19] Challenge #357 [Intermediate] Kolakoski Sequences
+ 
+69 . 114 comments
+[2018-04-11] Challenge #356 [Intermediate] Goldbach's Weak Conjecture
+
+Welcome to Reddit,
+
+the front page of the internet.
+
+Become a Redditor
+
+and subscribe to one of thousands of communities.
+
+x
+
+86
+87
+88
+
+[06/17/13] Challenge #130 [Easy] Roll the Dies (self.dailyprogrammer)
+
+submitted 4 years ago by nint221 2
+
+ (Easy): Roll the Dies
+
+In many board games, you have to roll multiple multi-faces dies.jpg) to
+generate random numbers as part of the game mechanics. A classic die used is
+the d20 (die of 20 faces) in the game Dungeons & Dragons. This notation, often
+called the Dice Notation, is where you write NdM, where N is a positive integer
+representing the number of dies to roll, while M is a positive integer equal to
+or grater than two (2), representing the number of faces on the die. Thus, the
+string "2d20" simply means to roll the 20-faced die twice. On the other hand
+"20d2" means to roll a two-sided die 20 times.
+
+Your goal is to write a program that takes in one of these Dice Notation
+commands and correctly generates the appropriate random numbers. Note that it
+does not matter how you seed your random number generation, but you should try
+to as good programming practice.
+
+Author: nint22
+
+Formal Inputs & Outputs
+
+Input Description
+
+You will be given a string of the for NdM, where N and M are describe above in
+the challenge description. Essentially N is the number of times to roll the
+die, while M is the number of faces of this die. N will range from 1 to 100,
+while M will range from 2 to 100, both inclusively. This string will be given
+through standard console input.
+
+Output Description
+
+You must simulate the die rolls N times, where if there is more than one roll
+you must space-delimit (not print each result on a separate line). Note that
+the range of the random numbers must be inclusive of 1 to M, meaning that a die
+with 6 faces could possibly choose face 1, 2, 3, 4, 5, or 6.
+
+Sample Inputs & Outputs
+
+Sample Input
+
+2d20
+4d6
+
+Sample Output
+
+19 7
+5 3 4 6
+
+  • 357 comments
+  • share
+  • save
+  • hide
+  • report
+
+top 200 commentsshow all 357
+sorted by:
+best
+topnewcontroversialoldrandomq&alive (beta)
+ [                    ]
+
+Want to add to the discussion?
+
+Post a comment!
+
+Create an account
+
+[–]Edward_H 37 points38 points39 points 4 years ago* (3 children)
+
+My solution in COBOL:
+
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. Roll-The-Dies.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+
+       01  Dice-Format  PIC X(7).
+
+       01  Num-Dices    PIC 999.
+       01  Num-Sides    PIC 999.
+
+       01  Rand-Number  PIC 999.
+
+       PROCEDURE DIVISION.
+           ACCEPT Dice-Format
+
+           UNSTRING Dice-Format DELIMITED BY "d" OR SPACES
+               INTO Num-Dices Num-Sides
+
+      *    Seed RANDOM with the current time and day.
+           MOVE FUNCTION RANDOM(FUNCTION CURRENT-DATE (7:10))
+               TO Rand-Number
+
+           PERFORM Num-Dices TIMES
+               COMPUTE Rand-Number =
+                   FUNCTION REM((FUNCTION RANDOM * 1000), Num-Sides) + 1
+               DISPLAY Rand-Number " " WITH NO ADVANCING
+           END-PERFORM
+
+           DISPLAY SPACE
+
+           GOBACK
+           .
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dreugeworst 31 points32 points33 points 4 years ago (1 child)
+
+You know, I've never actually seen a program written in COBOL.. it looks as
+horrible as people say it is though...
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]gworroll 9 points10 points11 points 4 years ago (0 children)
+
+The school I was in about ten years ago had it as a requirement for a 2 year CS
+degree.
+
+I actually wrote a few Perl scripts for code generation, so I could save my
+fingers for the parts that actually did stuff.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]skeeto-9 8 8 points9 points10 points 4 years ago (0 children)
+
+I didn't think Debian had a COBOL compiler. Turns out it does, and, after
+writing a bit of C glue to invoke it, your program actually works!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]herpderpdoo 24 points25 points26 points 4 years ago* (8 children)
+
+here's mine, written in Befunge (sepcifically befunge 93) http://pastebin.com/
+wvFk4GsX
+
+it should be Funge-93 compliant, but I don't actually know for sure; I wrote my
+own interpreter for it in Python and haven't checked it on any other programs.
+Python gives me bignum (if I need it, haven't yet) and unlimited problem space
+using a dictionary (I did not implement the Lahey-space wraparound spec from
+funge-98 but this program doesn't hit the limits.) if it doesn't work on other
+interpreters, here's my python version: http://pastebin.com/AxJ3HKVc
+
+it's horribly optimized by the way :p once I get my interpreter to accept xls
+or csv files I'll get around to cutting it down. The simplest thing would be to
+direct three separate ways from a single RNG
+
+edit: I have returned! and I have returned with an almost-implemented funge-98
+interpreter, which you can get here http://pastebin.com/e5DASDRE
+
+I haven't implemented lahey-space, fingerprints, handprints, file i/o, or
+concurrency yet, but pretty much all of the trivial operators are done.
+
+I used this to create a funge-98 version of this program, here http://
+pastebin.com/uUJ5Mmzj
+
+you'll notice the format is different; I made the interpreter load 'custom' csv
+files, which makes editing the program a lot simpler. I havent got around to
+making a csv to ascii converter yet.
+
+place the csv named 'dice.csv' next to the script and run, it should work. It
+also rejects if you dont provide the correct format (ie 1d6, 4d20, etc) now,
+but input is still done via the input() function, so keyed by enters.
+
+it isn't very funge-98ey, I threw a couple in there, the biggest space saver
+was just figuring out a simpler way to do random numbers.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]REDDIT_HARD_MODE 29 points30 points31 points 4 years ago (1 child)
+
+What the actual fuck
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]drquantumphd 4 points5 points6 points 4 years ago (0 children)
+
+You've now begun reddit hard mode. aaaand GO!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]pandubear0 1 6 points7 points8 points 4 years ago (0 children)
+
+Whoo, an esolang! I might do one for this challenge...
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (5 replies)
+
+[–]imwearingyourpants0 1 23 points24 points25 points 4 years ago (3 children)
+
+Javascript:
+
+// This is pretty useless, as Math.random already seeds itself with time,
+// and it's according to specifications and blah blah
+// But this allows us to use our own seed!
+var seededRandom = function(seed, min, max) {
+  // Set default if variables are not passed
+  seed = seed || ( new Date().getTime() );
+  min = min || 0;
+  max = max || 1;
+
+  // This is some dark magic right here, watch out for Spanish inquisition
+  seed = (seed * 9301 + 49297) % 233280;
+  var rnd = seed / 233280;
+
+  // Some more magic, and rounding up the result
+  return Math.round(min + rnd * (max - min));
+};
+
+// This is the main function, just call
+// die('2d100');
+var die = function(die) {
+  // Array to contain the results
+  var data = [];
+
+  // Get the information needed for the die cast
+  // cast[0] = How many dies (dices?)
+  // cast[1] = Number of faces on the die
+  var cast = die.split('d');
+
+  // THE DIE HAS BEEN CAST - loop
+  for(i = 0; i < cast[0]; i++) {
+    // Generate random seed ( see, there is a problem here - we
+    // need a random seed, but we cannot trust the client-side
+    // random function for security reasons, but standard is to
+    // expect that the client is always compromised - Then again
+    // this is just a die cast function, so unless somebody really
+    // wants to crit that badly, I think we're okay :) )
+    var seed = Math.round(Math.random()*10153);
+    seed = (seed * 9301 + 49297) % 233280;
+
+    // Get our random result ( we assume that the faces start from 1 )
+    var rnd = seededRandom(seed, 1, cast[1]);
+
+    // Add the result to the result container
+    data.push( rnd );
+  }
+
+  // Return the results by joining the array
+  return data.join(" ");
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 11 points12 points13 points 4 years ago* (1 child)
+
+This is... the most hard-core commented code I have ever seen.. and I love it
+:D I like how you actually go into the potential security venerability of
+trusting client-side RNG.
+
+Edit: wtf, did you just take my pants and put them on? Here is +1 silver.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]imwearingyourpants0 1 6 points7 points8 points 4 years ago (0 children)
+
+I was thinking that we could share these pants...
+
+Thanks for the silver, makes me feel special :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (1 reply)
+
+[–]skeeto-9 8 12 points13 points14 points 4 years ago* (1 child)
+
+A slightly more challenging version of this was given about 8 months ago.
+
+Here's a JavaScript solution,
+
+function roll(expr) {
+    var values = expr.split(/d/).map(parseFloat);
+    var rolls = [];
+    for (var i = 0; i < values[0]; i++) {
+        rolls.push(Math.floor(Math.random() * values[1]) + 1);
+    }
+    return rolls;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 12 points13 points14 points 4 years ago (0 children)
+
+You sir are one of the fastest programmers I know; nicely done!
+
+As for the somewhat repeated content: I've been going through past challenges,
+seeing if we can simplify them or complicate them, with respect to our Easy/
+Moderate/Hard difficulties, all while keeping things fun. The issue is "fun"
+and "minimum changes" are objective, but I believe that this remix is a fair
+one...
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Steve1320 1 15 points16 points17 points 4 years ago (11 children)
+
+overly-functional C++11
+
+#include<iostream>
+#include<iterator>
+#include<string>
+#include<chrono>
+#include<random>
+#include<functional>
+#include<algorithm>
+using namespace std;
+
+struct rollrequest {int rolls,sides;};
+default_random_engine rengine(chrono::system_clock::now().time_since_epoch().count());
+
+ostream& operator<<(ostream& out,const rollrequest& r) {
+    uniform_int_distribution<int> d(1,r.sides);
+        generate_n(ostream_iterator<int>(out," "),r.rolls,bind(d,rengine));
+        return out;
+}
+
+istream& operator>>(istream& in,rollrequest& r) {
+        cin >> r.rolls;cin.ignore(); return cin >> r.sides;
+}
+
+int main()
+{
+        copy(
+                istream_iterator<rollrequest>(cin),
+                istream_iterator<rollrequest>(),
+                ostream_iterator<rollrequest>(cout,"\n")
+                );
+        return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]MoreAxes 2 points3 points4 points 4 years ago (10 children)
+
+Do you mind providing some explanation? This is unlike any C++11 (or C++, for
+that matter) code I've ever seen.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Steve1320 1 42 points43 points44 points 4 years ago* (9 children)
+
+Sure. Skipping the includes, the first line declares a random number engine
+variable. Random number engines are the new C++11 way to generate random
+numbers. They are much more accurate and correct than rand(), which doesn't
+always produce uniform results(especially if you use rand() % N).. I'm seeding
+the random number generator using the current time from the C++11 way to
+generate timing, std::chrono.
+
+Next, I have a custom data type "rollrequest" which is special because it can
+be serialized using << and >>. I'll get to the output serialization in a
+second, but first, the input serialization function:
+
+operator>> simply overloads the operator >> when an input stream is on the left
+and a rollrequest is on the right. It parses an integer, then skips a character
+('d') then parses the next integer, then is done. operator>> overloads on
+istream must return the istream, so thats what I do.
+
+Now, to talk about main. std::copy is a special algorithm from std::algoritm()
+that takes in iter1,iter2,iter3 and copies the range from iter1 to iter2 into
+the sequence started by iter3.
+
+stream iterators are a special iterator type which automatically attempt to
+serialize the data type from a stream when they are incremented. so, for
+example, istream_iterator<int> integers_in(cin) would create an iterator
+integers_in which reads a sequence of formatted integers on cin, seperated by
+whitespace... you could say "next_integer=*integers_in++" and automatically
+read an integer from stdin.
+
+In order for you to be able to create an instance of istream_iterator<T>, all
+that needs to exist is for T to have an overload of operator>> that works to
+read that type from stdin, and the iterator will read successive values of type
+T using that operator from the input stream supplied on the constructor. If you
+do not provide a constructor argument, the iterator object created is an
+end_of_file iterator...meaning its the iterator discovered when there is no
+more input.
+
+see this code:
+
+istream_iterator<int> begin_integers(cin);
+istream_iterator<int> end_integers;
+std::vector<int> ints(begin_integers,end_integers); //read all the integers supplied on stdin and store them in a vector of ints.
+
+Of course, you don't have to have the type be named...you can just invoke the
+constructor directly and make un-named integer variables as arguments.
+
+std::vector<int> ints(istream_iterator<int>(cin), //begin
+                             istream_iterator<int>()); //end
+//read all the integers supplied on stdin and store them in a vector of ints, in one statement.
+
+Similarly, an ostream_iterator<T> is a write-only iterator that, when written
+to, outputs to the stream it was constructed with using operator<<.
+
+so, for example.
+
+ //print a sequence of integers to the screen,seperated by newlines
+ vector<int> ints;
+ output_iterator<int> int_printer(cout,"\n");
+ for(size_t i=0;i<ints.size();i++)
+ {
+    *int_printer++ = ints[i];  //write the iterator, printing to the console.
+ }
+
+of course, we could combine the two together...and we really should also use
+iterators to traverse our vector because thats the proper C++ way.
+
+//Program mirrors integers seperated by whitespace from stdin to stdout
+//on stdout, always seperated by newlines.
+
+vector<int> ints(istream_iterator<int>(cin),istream_iterator());
+output_iterator<int> int_printer(cout,"\n");
+for(vector<int>::const_iterator vi=ints.begin();vi!=ints.end();)
+{
+    *int_printer++ = *vi++;
+}
+
+so, now we have a cool little program that reads integers and copies them to
+stdout...but for loops are icky.. I remember! We have std::copy!
+
+vector<int> ints(istream_iterator<int>(cin),istream_iterator());
+output_iterator<int> int_printer(cout,"\n");
+copy(ints.begin(),ints.end(),int_printer);
+
+But...when we do this, our vector doesn't actually do anything but save them
+all then print them all.. do we HAVE to do it in two steps? Isn't the vector
+redundant? Also, do we really need a seperate variable for int_printer if all
+we do with it is pass it to copy?
+
+int main()
+{
+    //program reads ws-seperated integers from stdin,
+    //copies them to standard out seperated by newlines
+    copy(istream_iterator<int>(cin),  //begin reading ints from cin
+         istream_iterator<int>(),     //end
+         ostream_iterator<int>(cout,"\n") //output each one to cout, seperated by newlines
+         );
+    return 0;
+}
+
+So, thats the meat and the bones of it...however, we aren't processing ints,
+we're processing rollrequests... Well, the magic of templates makes that easy.
+
+int main()
+{
+    //program reads ws-seperated integers from stdin,
+    //copies them to standard out seperated by newlines
+    copy(istream_iterator<rollrequest>(cin),  //begin reading rollrequests from cin
+         istream_iterator<rollrequest>(),     //end
+         ostream_iterator<rollrequest>(cout,"\n") //output each one to cout, seperated by newlines
+         );
+    return 0;
+}
+
+Cool! So, now, the rest of our program is in the interesting part: We don't
+just want to COPY the roll requests we get..we want to perform some computation
+using them and output the result. In order to accomplish that, I overload the
+operator<< (that is called on each output to cout by copy) and tell IT to do
+the computation necessary to output the result. lets take a look at that
+closer.
+
+ostream& operator<<(ostream& out,const rollrequest& r)
+{
+    //basically, we need to 1) generate a bunch of random numbers.
+    //output them with out
+    std::uniform_int_distribution<int> dice(1,r.sides); //initialize an N-sided dice
+    for(size_t i=0;i<r.rolls;i++) //for each roll
+    {
+        int result=dice(rengine); //rolling the dice requires the random engine to work.
+        out << result << " "; //output to "out" seperated by spaces
+    }
+}
+
+This code is basically the algorithm we want. but can it be made simpler?
+Prettier? Yes. First, we note that the paradigm of "generate the results of
+repeatedly calling a function" is already there... its called std::generate_n
+(iter_out,n,function). It calls "function()" n-times, and stores the output to
+an iterator...but we don't want an iterator, we want to print it!
+ostream_iterator to the rescue again!
+
+ostream& operator<<(ostream& out,const rollrequest& r)
+{
+    //basically, we need to 1) generate a bunch of random numbers.
+    //output them with out
+    std::uniform_int_distribution<int> dice(1,r.sides); //initialize an N-sided dice
+    ostream_iterator<int> out_result_printer(out," "); //seperated by spaces
+    generate_n(out_result_printer,r.rolls,dice); //cool!
+}
+
+Crap. This doesn't compile? Why not? Well, unfortunately, the function argument
+to generate_n has to have no arguments. but dice(rengine) takes 1 argument!
+Otherwise it doesn't work! CRAP.
+
+Well, C++11 has std::bind, which lets you do currying. It creates a new
+function object from a previous function object with arguments.
+
+ostream& operator<<(ostream& out,const rollrequest& r)
+{
+    //basically, we need to 1) generate a bunch of random numbers.
+    //output them with out
+    std::uniform_int_distribution<int> dice(1,r.sides); //initialize an N-sided dice
+    ostream_iterator<int> out_result_printer(out," "); //seperated by spaces
+    auto dicerollerfunc=std::bind(dice,rengine); //dicerollerfunc() calls dice(rengine)
+    generate_n(out_result_printer,r.rolls,dicerollerfunc); //cool!
+}
+
+This compiles! Awesome! Now all we have to do is get rid of our variables we
+don't need....
+
+ostream& operator<<(ostream& out,const rollrequest& r)
+{
+    std::uniform_int_distribution<int> dice(1,r.sides); //initialize an N-sided dice
+    generate_n(ostream_iterator<int>(out," "),r.rolls,bind(dice,rengine)); //cool!
+}
+
+there you go.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]pohatu 5 points6 points7 points 4 years ago (0 children)
+
+I learned so much from this post! Thank you.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]MoreAxes 1 point2 points3 points 4 years ago* (2 children)
+
+This is pretty cool, but I have two further questions.
+
+ 1. In operator<<(ostream& out,const rollrequest& r),
+    std::uniform_int_distribution<T> seems like it would be a fairly large
+    object (perhaps not for small sizeof(T)). Wouldn't it be wiser to declare
+    it static, so it doesn't have to be created every time the operator is
+    called? While we're at it, why not put the global rengine in operator
+    <<(...) as well as making it static, since declaring global variables is
+    considered bad practice?
+
+ 2. What are the benefits of using generate_n, copy and iterators compared to
+    doing it the "standard", perhaps more readable way?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Steve1320 1 3 points4 points5 points 4 years ago* (1 child)
+
+    Wouldn't it be wiser to declare it static, so it doesn't have to be created
+    every time the operator is called? While we're at it, why not put the
+    global rengine in operator<<(...) as well as making it static, since
+    declaring global variables is considered bad practice?
+
+Maybe, but I wrote it in 20 minutes, sue me. :)
+
+    What are the benefits of using generate_n, copy and iterators compared to
+    doing it the "standard", perhaps more readable way?
+
+In theory, much much much less buggier code, also shorter code. all the
+standard algorithms have been thoroughly tested, so you don't have to worry
+about array bounds overflowing or screwing up the way you are inputting
+formatting rules or remembering the correct way to check if you've run out of
+input (which can be fairly tricky..just checking istream.good() is not
+sufficient). It's also slightly more memory efficient.
+
+In REALITY, however, I just did it to be clever.
+
+EDIT: I remember now:
+
+    Wouldn't it be wiser to declare it static, so it doesn't have to be created
+    every time the operator is called?
+
+It DOES have to be created every time the operator is called, because the
+number of sides on the dice changes every time, making a new distribution
+definition. A new distribution has to be generated every time.
+
+You are right that I could have initialized the device statically, but it
+doesn't really matter that much.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]MoreAxes 1 point2 points3 points 4 years ago (0 children)
+
+Right, I missed the r.sides part :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]infiniteBox 1 point2 points3 points 4 years ago (4 children)
+
+Hi. What compiler did you use for this? I can't even get the following to
+compile under VS2012 and clang on Mac (V3.0, I could be wrong) :(
+
+istream_iterator<int> begin_integers(cin);
+istream_iterator<int> end_integers();
+std::vector<int> ints(begin_integers,end_integers); //read all the integers supplied on stdin and store them in a vector of ints.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Steve1320 1 2 points3 points4 points 4 years ago (3 children)
+
+I didn't check all my little "example" codes, but my main program I used G++
+4.7.2 running on linux in C++11 mode.
+
+Here's an online compiler that compiles and runs the main program:
+
+http://ideone.com/eRSZoy
+
+Ok, so I'm going to test the relevant snippet on that compiler:
+
+http://ideone.com/lxNyzG
+
+It worked, but I had to remove the () from end_integers(); The parser was
+treating that statement as a function declaration. I'm going to edit the
+original for that snippet.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]infiniteBox 1 point2 points3 points 4 years ago* (2 children)
+
+Thanks for your reply Steve132. I've also stumbled across the same conclusion
+after much google foo and experiments. Like you mentioned this is actually a
+classic case of "Most vexing parse" case. The following is working for me now.
+
+std::istream_iterator<int> readIntBegin(std::cin);// = std::istream_iterator<int>(std::cin);
+std::istream_iterator<int> readIntEnd = std::istream_iterator<int>();
+std::vector<int> ints(begin_integers,end_integers);
+
+What I don't understand is why is it parsed as a function declaration when they
+were declared inside a function such as main()... UPDATE: So I just learnt that
+the function declaration within functions thing belonged to C. It's in C++ for
+compatibility issues...
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Steve1320 1 4 points5 points6 points 4 years ago  (1 child)
+
+Just a note, the
+
+Type varname=Type();
+
+construct is inefficient, because what that actually does under the hood is
+
+Allocate a new variable "Type <unnamed>"
+Invoke Type::Type() on <unnamed>
+Allocate a new variable "Type varname"
+Invoke Type::Type() on varname
+run a copy constructor or move constructor to implement varname=<unnamed>
+
+However, we've seen that
+
+Type varname();
+
+Fails to parse, so the BEST way to declare a variable and invoke the default
+constructor is to do
+
+Type varname;
+
+This calls
+
+Allocate Type varname;
+Call Type::Type() on varname;
+
+which is much more efficient than the former case.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (1 reply)
+
+[–]Coder_d00d1 3 14 points15 points16 points 4 years ago* (13 children)
+
+C
+
+input from standard input, partial error checking, seeding based on current
+time
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(int argc, const char * argv[]) {
+
+    int numberOfRolls, maxFace;
+    char d, newline;
+
+    scanf("%d%c%d%c", &numberOfRolls, &d, &maxFace, &newline);
+    if ((d == 'd' || d == 'D') &&
+        !(numberOfRolls < 1 || numberOfRolls > 100 || maxFace < 2 || maxFace > 100))
+    {
+        srand((unsigned) time(NULL)); /* seeds random number from current time */
+
+        for (int i = 1; i <= numberOfRolls; i++)
+            printf("%d ", rand() % maxFace + 1);
+        printf("\n");
+    }
+    return 0;
+}
+
+My Warrior swings at the goblin..
+
+1d20
+2
+
+...and misses his to hit roll. But lucky for me the party has a mage who casts
+a fireball with good results and does massive damage
+
+6d6
+3 3 4 3 6 5
+
+the goblin is no more.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 6 points7 points8 points 4 years ago (0 children)
+
+Haha, awesome text at the bottom! I was on my chair's edge until you rolled
+that 6d6!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Stalemeat 4 points5 points6 points 4 years ago (3 children)
+
+I've never seen those parameters in main. Can you explain their purpose to me?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]WhatIsSobriety 8 points9 points10 points 4 years ago (2 children)
+
+Not OP, but argv would be an array of characters representing the command used
+to run the program. So if you ran the program with two inputs like this: "./foo
+10d10 5d5", argv would be this char array: "foo 10d10 5d5" (notice that it
+includes the name of the program, you'd have to skip over that if you were only
+looking for inputs). Argc is the number of space-delimited tokens in the
+string, in this case three.
+
+OP uses scanf in their implementation though, meaning the input is provided
+after the program starts. Argv and argc aren't used at all.
+
+Hope that answers the question!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Stalemeat 1 point2 points3 points 4 years ago (1 child)
+
+It did, thank you! Gotta try that with something later.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Coder_d00d1 3 3 points4 points5 points 4 years ago (0 children)
+
+So using your idea of using strtok then reading from command line so like one
+could enter.
+
+./programName 1d20 6d6 1d20 1d8
+
+then it would roll all the arguments. The program would be like this.
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <time.h>
+
+
+int main(int argc, const char * argv[]) {
+
+    int i = 1;
+    int numberOfRolls, maxFaces;
+
+    if (argc < 1) return 0;
+    srand((unsigned)time(NULL));
+    while (i < argc) {
+        numberOfRolls = atoi(strtok(argv[i++], "dD"));
+        maxFaces = atoi(strtok(NULL, "dD"));
+        printf("Rolling %dD%d: ", numberOfRolls, maxFaces);
+        for (int j = 1; j <= numberOfRolls; j++)
+            printf("%d ", rand() % maxFaces + 1);
+        printf("\n");
+    }
+    return 0;
+}
+
+And the output passing 1d20 6d6 1d20 1d8 at the command line would be:
+
+Rolling 1D20: 9
+Rolling 6D6: 3 3 1 1 6 2
+Rolling 1D20: 1
+Rolling 1D8: 1
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]mdf356 2 points3 points4 points 4 years ago (1 child)
+
+From a pedantic style point of view, most loops in C are zero based (and
+exclude the upper bound). So the common C idiom would be to write the rolling
+loop as:
+
+for (int i = 0; i < numberOfRolls; i++)
+
+You get the same result, except that the zero-based is correct when e.g.
+dealing with array indexes, so the pattern of using zero-based carries over
+even for loops that don't involve an array index.
+
+Also, you may wish to check the return value of scanf otherwise some or all of
+the parameters may not have been initialized. For example, on the input of
+"junk 3d20" scanf would return 0 and none of the values would be set.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Coder_d00d1 3 1 point2 points3 points 4 years ago (0 children)
+
+Yah I did the 1 to <= because in my mind rolling a die on the 0th try just felt
+wrong. :)
+
+Great point on the scanf. I should say "partial error checking". If I was gonna
+make it bullet proof I would probably read input as a string character by
+character and parse it for perfection. Thanks for the feedback!!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]WeDieYoung 2 points3 points4 points 4 years ago (1 child)
+
+I coded this up real quickly in C as well, and ended up with something very
+similar.
+
+Quick question though: you grab the newline off of scanf at the end of the
+input. I didn't even think to do so. Is it necessary to grab it, and if you
+don't, what could the negative effects be?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Coder_d00d1 3 1 point2 points3 points 4 years ago (0 children)
+
+scanf is my quick and dirty dailyprogrammer method for input. There would be no
+negative effects leaving it off. Out of habit I read the newline because in my
+mind I saw myself type number d number <enter key>. And sometimes on
+dailyprogrammer challenges I code scanf in a loop where I do have to account
+for the newline. I should have left it off as there was no loop in the input.
+Nice observation on me doing that.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (4 replies)
+
+[–]IceDane0 0 10 points11 points12 points 4 years ago (0 children)
+
+Haskell, input is passed as arguments: ./foo 1d20 3d10 40d11
+
+import System.Environment (getArgs)
+import Data.Char          (isNumber)
+import System.Random      (randomRIO)
+import Control.Monad      (replicateM)
+
+main :: IO ()
+main = do
+    args <- getArgs
+    putStrLn . unlines =<< mapM doEeet args
+  where
+    doEeet = fmap (unwords . map show) . rollDie . parseDie
+
+rollDie :: (Int, Int) -> IO [Int]
+rollDie (n, m) =
+    replicateM n $ randomRIO (1, m)
+
+parseDie :: String -> (Int, Int)
+parseDie str =
+    let n    = takeWhile isNumber str
+        rest = drop (length n + 1) str
+    in (read n, read rest)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Master_of_Ares 11 points12 points13 points 4 years ago (5 children)
+
+Thank goodness I saw everyone using split functions before I started. You learn
+something every day
+
+Java
+
+public static void main(String[] args)
+{
+    Scanner s = new Scanner(System.in);
+    String[] in = s.next().split("d");
+    for(int i = 0; i < Integer.parseInt(in[0]); i++)
+        System.out.print((int)(Math.random() * Integer.parseInt(in[1]) + 1) + "\t");
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]skeeto-9 8 2 points3 points4 points 4 years ago (1 child)
+
+Not that it matters in this case, but be aware that this reparses the input
+numbers over and over again as dice rolls are generated.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (1 reply)
+
+load more comments (3 replies)
+
+[–]randomRA 8 points9 points10 points 4 years ago* (2 children)
+
+J, 39 chars (edited from 44 chars) (with ugly and long string manipulation)
+
+   f=.>:@?@({.${:)@".@((-68*>&60)&.(3&u:))
+
+   f '10d5'
+3 1 3 1 5 5 5 1 3 4
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]eBtDMoN2oXemz1iKB 3 points4 points5 points 4 years ago (1 child)
+
+This is amazingly short! How does it work?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]randomRA 1 point2 points3 points 4 years ago* (0 children)
+
+Apart from the string manipulation part:
+
+   g=.      >:    @      ?          @ ({.    $       {:)
+         plus_one ( random_0_to_n-1 (head number of tail)) 10 5
+                                      10             5
+                                     5 5 5 5 5 5 5 5 5 5
+                    2 0 2 0 4 4 4 0 2 3
+         3 1 3 1 5 5 5 1 3 4
+
+   g 10 5
+3 1 3 1 5 5 5 1 3 4
+
+Edit: Four less char solution (35 chars)
+
+   f=.1+?@($/)@".@((-68*>&60)&.(3&u:))
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]wilsoniya 8 points9 points10 points 4 years ago (11 children)
+
+Python:
+
+def roll(d_str):
+    import random
+
+    num, size = map(int, d_str.split('d'))[:2]
+    face_values = range(1, size+1)
+    rolls = [str(random.choice(face_values)) for i in xrange(num)]
+    print(' '.join(rolls))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]axgop 6 points7 points8 points 4 years ago (2 children)
+
+Just started Python last week. Here's my version:
+
+def roll(ndm):
+    from random import randrange
+
+    rolls, sides = ndm.split('d')
+
+    for roll in range(int(rolls)):
+        print randrange(1, int(sides)),
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (2 replies)
+
+load more comments (8 replies)
+
+[–]xanderstrike1 0 7 points8 points9 points 4 years ago (9 children)
+
+I may have gone a bit overboard. My solution in Ruby on Rails can be found here
+, with the code found here.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 2 points3 points4 points 4 years ago (3 children)
+
+Oh noes :-/ Unable to connect to your URL.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]xanderstrike1 0 2 points3 points4 points 4 years ago (2 children)
+
+Should work now, was pushing some changes.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nint221 2[S] 1 point2 points3 points 4 years ago (1 child)
+
+Wow, this is really nice! Easily gets you a gold medals for the cool work.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]xanderstrike1 0 2 points3 points4 points 4 years ago (0 children)
+
+My first medal! Thank you!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]TweenageDream 1 point2 points3 points 4 years ago (1 child)
+
+Nice! Makes me want to learn rails, especially since I love Ruby so much... How
+long have you been developing in rails?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]xanderstrike1 0 2 points3 points4 points 4 years ago (0 children)
+
+A couple months full time, then a couple classes and some part time work before
+that. It's surprisingly easy, though I'm only just feeling like I have a solid
+working knowledge of it.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Loomax 1 point2 points3 points 4 years ago (2 children)
+
+Nice result, out of curiosity, how much of the code/layout is generated by RoR
+or any build tool / template? Looks like a lot of work if you have to create
+most of that on your own, but would be manageable if a skeleton is already
+created by a tool.
+
+Since I have no real knowledge about Ruby/RoR beside a short tutorial I did a
+few years ago I can't comment on the actual code tho :(
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]xanderstrike1 0 2 points3 points4 points 4 years ago (1 child)
+
+Not gonna lie, it's probably 99% generated code. RoR does virtually all of the
+heavy lifting for you when making a webapp, from setting up MVC to handling
+database interactions. Also, the style here is from Bootstrap, which can be
+included in any project as a gem to make everything look nice (albeit generic).
+
+All I actually wrote myself here was the method to take in a dice roll, return
+and render the result, and the arrangement of the buttons and results in the
+view. The challenge could have easily been webified with a single HTML page and
+Javascript, but I wanted persistent custom buttons and some practice rapidly
+prototyping a rails app.
+
+I might decide to add user accounts so that each user can have unlimited custom
+buttons, but for now everybody shares them.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Loomax 1 point2 points3 points 4 years ago (0 children)
+
+That's what I thought, as I heard getting up and running with RoR is really
+fast. Doesn't change the fact that you made something nice and useful out of
+it. I should maybe have a look at ruby soon'ish again, seems like it's a good
+way to get something visualized quickly.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]djmantis 7 points8 points9 points 4 years ago (0 children)
+
+Java solution. I am have been feeling rusty lately so I am using these
+exercises to re-familiarize myself. Feedback is welcomed.
+
+public static void main(String[] args) {
+    // A scanner to assist with getting input.
+    Scanner console = new Scanner(System.in);
+
+    // A random number generator.
+    Random rand = new Random();
+
+    int n; // Number of times to roll the die. Ranges from 1-100;
+
+    int m; // Number of die faces. Ranges from 2-100.
+
+    String input; // The user input string
+
+    String[] tokens; // Parsed string
+
+    System.out.print("Please input a string in the form of NdM:    ");
+    input = console.nextLine();
+
+    tokens = input.split("d");
+    n = Integer.parseInt(tokens[0]);
+    m = Integer.parseInt(tokens[1]);
+
+    for(int i = 0; i < n; i++) {
+        System.out.print(rand.nextInt(m) + " ");
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]balidani 30 points31 points32 points 4 years ago (0 children)
+
+Always relevant xkcd
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 6 points7 points8 points 4 years ago (1 child)
+
+PHP solution. Seeding is done automatically by the rand() function.
+
+function roll($input) {
+    if (!preg_match('/^(\d+)d(\d+)$/i', $input, $matches)) {
+        return 'Invalid format';
+    }
+    $num_rolls = $matches[1];
+    $max = $matches[2];
+    $retarray = array();
+    for ($i=1; $i <= $num_rolls; $i++) {
+        $retarray[] = rand(1, $max);
+    }
+    return implode(' ', $retarray);
+}
+
+Sample input/output:
+
+$inputs = array('2d20', '4d6', '20d4');
+
+foreach ($inputs as $input) {
+    echo roll($input) . "\n";
+}
+
+// Results:
+// 13 10
+// 6 5 5 6
+// 4 1 2 2 2 4 1 1 3 2 1 3 1 1 2 2 2 4 1 2
+
+  • permalink
+  • embed
+  • save
+
+[–]anvoz 2 points3 points4 points 4 years ago (0 children)
+
+Just use mt_rand() instead of rand() in PHP: http://boallen.com/
+random-numbers.html
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Carnitin 5 points6 points7 points 4 years ago (0 children)
+
+My solution using Erlang:
+
+-module(dice).
+
+-export([roll/1]).
+
+%% @doc This is the public method for rolling the dice.
+%%
+%% Input for this method needs to be given in the format of "NdM", where N is the number of times
+%% to roll the dice while M is the number of faces of this dice.
+%%
+%% Example:
+%%  dice:roll("2d20") -> 19 7 ok
+%%  dice:roll("4d6") -> 5 3 4 6 ok
+-spec roll(list()) -> integer() | ok.
+%% @end
+roll(Input) ->
+    [DiceString, FacesString] = re:split(Input, "d", [{return, list}]),
+    {Dice, _} = string:to_integer(DiceString),
+    {Faces, _} = string:to_integer(FacesString),
+    roll(Dice, Faces).
+
+%% @private
+roll(Dice, Faces) ->
+    case Dice of
+        Amount when Amount > 0 ->
+            io:format("~p ", [random:uniform(Faces)]),
+            roll(Dice-1, Faces);
+        _ ->
+            ok
+    end.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Stalemeat 5 points6 points7 points 4 years ago (4 children)
+
+Here's my solution in C. I'd appreciate feedback
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(void){
+  int rolls;
+  int faces;
+  int i = 0;
+  char input[10];
+  char * token;
+
+  printf("Input: ");
+  fgets(input, 10, stdin);
+  token = strtok(input, "d");
+  while(token != NULL){
+     if(i == 0){
+     rolls = atoi(token);
+     i++;
+    }else if(i == 1){
+       faces = atoi(token);
+       token = strtok(NULL, "d");
+     }
+ }
+ srand(time(NULL));
+ for(i = 0; i < rolls; i++){
+   printf("%d ", rand()%faces + 1);
+ }
+
+return 0;
+}
+
+Sample input/output:
+
+Input: 10d10
+10 8 6 1 6 10 7 2 5 9
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Coder_d00d1 3 2 points3 points4 points 4 years ago* (3 children)
+
+For my compiler (using xcode on a Mac) I had to cast the call srand(time(NULL))
+to a unsigned to remove a warning. So it becomes srand((unsigned)time(NULL));
+
+I like your use of fgets and strtok to parse out a string buffer into tokens
+and then convert the strings to integer. That is cool.
+
+One simple thing to do is change your calls to strtok to separate by "dD". The
+string is all the characters that can parse it so it will handle a d or D.
+
+In your second call to strtok you should reverse the order so you get the next
+token and convert it. right now you are just setting faces to whatever rolls
+is. Since your test case was 10d10 -- your faces = rolls so you wouldn't see
+this. So Change it so it is:
+
+      token = strtok(NULL, "dD");
+      faces = atoi(token);
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Stalemeat 1 point2 points3 points 4 years ago* (2 children)
+
+Thanks for the feedback! But using
+
+token = strtok(NULL, "dD");
+faces = atoi(token);
+
+Causes segmentation fault when running the program. Doesn't putting it that way
+mean it assigns NULL value to the integrer?
+
+edit: and forgot, what warning did you get? I compiled with gcc on Ubuntu and
+got no warnings.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Coder_d00d1 3 2 points3 points4 points 4 years ago* (1 child)
+
+One thing to note since you are just reading a token and quickly passing it to
+atoi to get a integer we can probably just combine those in 1 line and don't
+worry about having char *token. Also instead of a loop to do the strtok - just
+do them in sequence. This prevents the seg fault from occuring. so you could
+replace the code from token = to the end of the while loop with
+
+rolls = atoi(strtok(input, "dD"));
+faces = atoi(strtok(NULL, "dD"));
+
+So strtok works by passing it a character string. It remembers the string and
+so using NULL should just tell strtok use the last string and where I left off
+from the last token.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Stalemeat 1 point2 points3 points 4 years ago (0 children)
+
+That works much better. Thank you.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]super_satan 6 points7 points8 points 4 years ago (0 children)
+
+JavaScript since I can write it and run it in my browser while reading the
+challenge.¨
+
+function roll(command) {
+  var c = command.split("d");
+  while (c[0]-->0)
+    console.log(~~(Math.random()*c[1] + 1));
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Carnitin 4 points5 points6 points 4 years ago (2 children)
+
+Another solution, this time using Vimscript
+
+function! RollDice(input)
+    let dice_and_faces = split(a:input, "d")
+    let dice = dice_and_faces[0]
+    let faces = dice_and_faces[1]
+    call Roll(dice, faces)
+endfunction
+
+function! Roll(dice, faces)
+    if a:dice > 0
+        let amount = system("php -r 'echo mt_rand(1, ". a:faces .");'")
+        echom amount
+        call Roll(a:dice-1, a:faces)
+    else
+        return
+    endif
+endfunction
+
+I'm "secretly" making use of PHP for the random number generation since this is
+not natively possible using only vimscript.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pandubear0 1 2 points3 points4 points 4 years ago (1 child)
+
+Whoo, Vim! The lack of a random number generator in Vimscript's bothered me
+before actually... maybe I'll implement one for this challenge.
+
+And then after I'm done I'll probably just end up googling for a better
+implementation someone somewhere's done...
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Carnitin 1 point2 points3 points 4 years ago (0 children)
+
+Well, I found this which seems to do the trick, but I didn't want to include it
+since I wanted to try solving it myself. After not being able to find a
+solution, I just went with the system() command.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]csuley 5 points6 points7 points 4 years ago (0 children)
+
+My solution in Go, rolling the dice concurrently:
+
+package main
+
+import (
+    "fmt"
+    "os"
+    "math/rand"
+    "time"
+)
+
+func main() {
+    numDice, numSides := 0, 0
+    if scan, _ := fmt.Sscanf(os.Args[1], "%dd%d", &numDice, &numSides) ; scan == 2 {
+        rand.Seed(time.Now().UnixNano())
+
+        diceChan := make(chan int)
+        for i := 0 ; i < numDice ; i++ {
+            go func() { diceChan <- rand.Intn(numSides) + 1 }()
+        }
+
+        for i := 0 ; i < numDice ; i++ {
+            fmt.Print(<-diceChan, " ")
+        }
+        fmt.Print("\n")
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]TechnoCat 3 points4 points5 points 4 years ago* (1 child)
+
+node.js:
+
+var Die = function(faces) {
+    this.faces = faces;
+};
+Die.prototype = (function() {
+    function roll() {
+        return Math.floor(Math.random() * this.faces) + 1;
+    };
+    return {
+        roll: roll
+    };
+})();
+var lines = process.argv.splice(2);
+var results = [];
+for (var i=0; i<lines.length; i++) {
+    var dieData = lines[i].split('d');
+    var die = new Die(dieData[1]);
+    var rolls = [];
+    for (var j=0; j< dieData[0]; j++) {
+        rolls.push(die.roll());
+    }
+    results.push(rolls.join(' '));
+}
+console.log(results.join('\n'));
+
+edit: Critique is very welcome! :)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+load more comments (1 reply)
+
+[–]DonBiggles 4 points5 points6 points 4 years ago (1 child)
+
+Clojure:
+
+(use '[clojure.string :only [split-lines join]])
+
+(defn die-roll [dice]
+  (let [[n sides] (map #(Integer. %) (re-seq #"\d+" dice))]
+    (repeatedly n #(inc (rand-int sides)))))
+
+(defn compute-rolls [in]
+  (join "\n"
+        (map #(join " " (die-roll %))
+             (split-lines in))))
+
+Example:
+
+(compute-rolls "2d20\n4d6")
+; "9 1\n3 6 1 4"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]skeeto-9 8 3 points4 points5 points 4 years ago (0 children)
+
+Nice use of repeatedly.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]anvoz 4 points5 points6 points 4 years ago (2 children)
+
+My solution in Javascript:
+
+function rollDices(input) {
+    var rolls = [],
+        nRolls, nFaces;
+    [nRolls, nFaces] = input.split("d");
+    for (var i = 0; i < nRolls; i++) {
+        rolls.push(Math.floor(Math.random() * nFaces) + 1);
+    }
+    console.log(rolls.join(" "));
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]anvoz 5 points6 points7 points 4 years ago (1 child)
+
+[nRolls, nFaces] = input.split("d");
+
+I really want to use this kind of assignment but it's still not supported in
+Chrome.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]skeeto-9 8 2 points3 points4 points 4 years ago (0 children)
+
+If destructuring assignment is accepted into ES6 then, and only then, will you
+see it in V8.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]r_s 4 points5 points6 points 4 years ago (5 children)
+
+Ruby
+
+NdM = ARGV[0].split("d")
+1.upto(NdM[0].to_i) {print "#{Random.rand(1..NdM[1].to_i)} "}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]TweenageDream 4 points5 points6 points 4 years ago (4 children)
+
+don't repeat yourself! and i think arrays are ugly :-p but i like your code!
+
+n,m = $*[0].split("d").map(&:to_i)
+1.upto(n) {print "#{Random.rand(1..m)} "}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]134671 1 5 points6 points7 points 4 years ago (1 child)
+
+Instead of
+
+1.upto(n)
+
+I like writing
+
+n.times
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]r_s 1 point2 points3 points 4 years ago (0 children)
+
+So many ways to loop in ruby I never know which to choose.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]r_s 4 points5 points6 points 4 years ago (1 child)
+
+thanks for the input, ruby is the first non c/c++ language ive ever used so I
+often find myself making non-optimal solutions.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]eBtDMoN2oXemz1iKB 1 point2 points3 points 4 years ago (0 children)
+
+You can also call the rand() method by itself without referencing the Random
+class.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]mrdoodlecakes0 0 2 points3 points4 points 4 years ago (5 children)
+
+Been learning Java for a couple months now
+
+public static String roll(String str)
+{
+    Random r = new Random();
+    String out = "";
+    n = Integer.parseInt(str.substring(0, 1));
+    m = Integer.parseInt(str.substring(2));
+
+    for(int i = 0; i < n; i++)
+        out += r.nextInt(m) + " ";
+
+    return out;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]meeva 2 points3 points4 points 4 years ago (4 children)
+
+Just a heads up: You are limiting yourself to inputs where the integers are <10
+with your substring method. You might want to want to determine the position of
+the 'd' character dynamically (i.e. don't hardcode the substring parameters) in
+the string first and then parse all characters up to the position of the 'd'
+into your variable n and the ones from 'd' to the end of the string into m.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]mrdoodlecakes0 0 4 points5 points6 points 4 years ago (3 children)
+
+So would this work?
+
+    n = Integer.parseInt(str.substring(0, str.indexOf('d')));
+    m = Integer.parseInt(str.substring(str.indexOf('d')+1));
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]meeva 1 point2 points3 points 4 years ago (2 children)
+
+You will want to revisit the second line again to allow multiple digit integers
+after the 'd'. Other than that it should work even though I'm a little bit
+rusty on java so I might be missing something.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]mrdoodlecakes0 0 1 point2 points3 points 4 years ago (1 child)
+
+In Java if you put one number in the substring method then it uses that number
+as the starting index and it ends at the last character.
+
+Example:
+
+String str = "foobar";
+System.out.println(str.substring(3));
+
+Would output "bar"
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]meeva 1 point2 points3 points 4 years ago (0 children)
+
+Ohh, right, I somehow thought it would create a one-character string.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ph0zz 4 points5 points6 points 4 years ago (2 children)
+
+Just finished intro to java course about a month ago, came up with this
+solution:
+
+public String Die(String input){
+String result = "";
+
+Random random = new Random();
+
+int rolls = Integer.parseInt(input.substring(0, input.indexOf("d")));
+int faces = Integer.parseInt(input.substring(input.indexOf("d")+1, input.length()));
+
+for(int i = 0; i < rolls; i++){
+    result += (random.nextInt(faces)+1) + " ";
+}
+
+return result;
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+load more comments (2 replies)
+
+[–]mokeymanq0 0 3 points4 points5 points 4 years ago (7 children)
+
+A few solutions written in Java.
+
+Trying things normally:
+
+public static void easy130(String str)
+{
+  int numDice = Integer.parseInt(str.substring(0, str.indexOf("d")));
+  int numSides = Integer.parseInt(str.substring(str.indexOf("d")+1));
+  for (int i = 0; i < numDice; i++)
+  {
+    int dieRoll = (int)(Math.random()*numSides)+1);
+    System.out.print(dieRoll+" ");
+  }
+}
+
+Experimenting with recursion:
+
+public static String easy130(String str)
+{
+  int numDice = Integer.parseInt(str.substring(0, str.indexOf("d")));
+  int numSides = Integer.parseInt(str.substring(str.indexOf("d")+1));
+  int dieRoll = (int)(Math.random()*numSides)+1);
+  return (numDice <= 0 ? "\n" : (dieRoll+" "+easy130((numDice-1)+"d"+numSides));
+}
+
+A complete and total clusterfuck engineered specifically to cram this all into
+one line:
+
+public static String easy130(String str)
+{
+return (Integer.parseInt(str.substring(0, str.indexOf("d"))) <= 0 ? "\n" : ((int)(Math.random()*Integer.parseInt(str.substring(str.indexOf("d")+1)))+1)+" "+easy130((Integer.parseInt(str.substring(0, str.indexOf("d")))-1)+"d"+Integer.parseInt(str.substring(str.indexOf("d")+1))));
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Loomax 2 points3 points4 points 4 years ago (1 child)
+
+I like your recursive solution. Took me a bit to wrap my head around it, but
+that's actually a nice way!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]mokeymanq0 0 1 point2 points3 points 4 years ago (0 children)
+
+It is a bit obtuse, isn't it? That's probably because all of the logic was
+crammed into one return statement. Here's a version that should be easier to
+understand.
+
+public static String easy130(String str)
+{
+  int numDice = Integer.parseInt(str.substring(0, str.indexOf("d")));
+  int numSides = Integer.parseInt(str.substring(str.indexOf("d")+1));
+  int dieRoll = (int)(Math.random()*numSides)+1);
+
+  if (numDice > 0)
+  {
+    numDice --;
+    str = numDice+"d"+numSides;
+    return dieRoll+" "+easy130(str);
+  }
+  return ""; \\This was a newline character in the original post. Either would work - the purpose of this line is just to terminate the loop.
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (5 replies)
+
+[–]Peragore 4 points5 points6 points 4 years ago* (2 children)
+
+Using Java and Math.random(). It is built on Swing, simply because I like
+working in it. Also, why not? GUIs are less annoying to deal with on the front
+end than using command prompt. And yes, as there is not main loop, this is
+meant to be used as part of a slightly larger program, which is launched from a
+difference page. Enjoy!
+
+Edit: don't normally post code: why is it all acting like a spoiler?
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Arrays;
+
+public class Main extends JFrame {
+    static String diceInput;
+    static int[] output;
+    public Main() {
+        initUI();
+    }
+
+    private final void initUI() {
+        //sets dimensions for the new window. GUI's are fun, what can I say?
+        setTitle("Dice Roller");
+        setSize(320, 330);
+        setLocationRelativeTo(null);
+        setResizable(false);
+        setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+
+        JPanel panel = new JPanel();
+        getContentPane().add(panel);
+        panel.setLayout(null);
+
+        JLabel outputLabel = new JLabel("Roll: ");
+        outputLabel.setLocation(10, 60);
+        outputLabel.setSize(100, 30);
+
+        final JTextField areaOutput= new JTextField();
+        areaOutput.setLocation(130, 60);
+        areaOutput.setSize(150, 30);
+        areaOutput.setEditable(false);
+
+        JLabel input = new JLabel("Input");
+        input.setLocation(10, 10);
+        input.setSize(110, 30);
+
+        //to the logic. The user inputs the number of nice and type in _d__ format.
+        // The program then, after splitting the data into number of dice and type of die,
+        //rolls the dice concurrently,
+        // and feeds it into an array, which is then converted into a string,
+        //and stripping it of it's ugly brackets,
+        //set as the text of the answer window. Pretty straight forward, eh?
+
+        final JTextField areaInput = new JTextField();
+        areaInput.setLocation(130, 10);
+        areaInput.setSize(100, 30);
+        areaInput.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                int a = 0;
+                String[] parsedInput;
+                diceInput = areaInput.getText();
+                parsedInput = diceInput.split("d");
+                output = new int[Integer.parseInt(parsedInput[0])];
+
+
+                for (int i = 1; i < Double.parseDouble(parsedInput[0]) + 1; i++) {
+                    output[a] = (int)(Math.random()*Double.parseDouble(parsedInput[1]));
+                    a += 1;
+                }
+                String outputString = Arrays.toString(output);
+                String fixedOutputString = outputString.replace("[", "").replace("]", "");
+                areaOutput.setText(fixedOutputString);
+            }
+        });
+
+
+
+        panel.add(input);
+        panel.add(areaInput);
+        panel.add(outputLabel);
+        panel.add(areaOutput);
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                Main main = new Main();
+                main.setVisible(true);
+            }
+        });
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+load more comments (2 replies)
+
+[–]TheKrumpet 3 points4 points5 points 4 years ago (0 children)
+
+static void Main(string[] args)
+{
+    Enumerable.Range(1, int.Parse(args[0].Substring(0, Math.Max(args[0].IndexOf("d"), args[0].IndexOf("D"))))).ToList().ForEach(x => Console.WriteLine("Roll {0}: {1}", x, (new Random(DateTime.Now.Millisecond + x)).Next(int.Parse(args[0].Substring(Math.Max(args[0].IndexOf("d"), args[0].IndexOf("D")) + 1))) + 1));
+}
+
+A C# one liner (If we're not counting the Main() framework ofc). Terribly
+inefficient, but this challenge seemed a little too easy to do it
+conventionally.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ILiftOnTuesdays1 0 5 points6 points7 points 4 years ago* (6 children)
+
+Python one-liner time! I used __import__ to avoid having to use extra lines,
+and also cheated a bit by using a double generator comprehension in order to
+access the data from raw_input.
+
+print " ".join(map(str, (__import__('random').randint(1,int(i[1])) for i in [raw_input().split("d")] for j in range(int(i[0])))))
+
+EDIT: After toying around with it some more I decided to use a lambda function
+instead of a double comprehension. The code is much cleaner now:
+
+print (lambda x,y:" ".join(str(__import__('random').randint(1,int(y))) for i in range(int(x))))(*raw_input().split("d"))
+
+Pro-tip: Never write actual code that looks like this.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pandubear0 1 2 points3 points4 points 4 years ago (1 child)
+
+I thoroughly appreciate that last line. Sometimes when I see things like this I
+worry that some people will look at them and decide it might be a good idea to
+write serious code like this...
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ILiftOnTuesdays1 0 6 points7 points8 points 4 years ago (0 children)
+
+I hope everyone realizes that a lot of code submitted here is written in the
+spirit of code golfing, and that the shortest code isn't always the best.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]5hassay 1 point2 points3 points 4 years ago (3 children)
+
+lol I look forward to your solutions
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ILiftOnTuesdays1 0 1 point2 points3 points 4 years ago (2 children)
+
+Thanks! In every challenge I do I'm trying to accomplish one of two goals:
+
+  • Complete the challenge with one line of code
+  • Complete the challenge in a way which exhibits very well written code,
+    which follows all language spec and takes advantage of cool features.
+
+I find that a challenge always lends itself to one of these two. The easy
+challenges usually lend the the first, hard to the second, but intermediate
+could probably go either way.
+
+I was looking at your solution, and it's pretty much the same concept, though
+probably more readable. I like the use of the Py33 print function, and I would
+probably use it too if I took the time to install Py33. =(
+
+Anyway, I'm rambling. Thanks for the compliment! I really enjoy these
+challenges and I'm glad to see someone enjoys my terribly coded solutions.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (2 replies)
+
+[–]rabidwombat 4 points5 points6 points 4 years ago (0 children)
+
+Nitpick: the plural of die is dice. But +1 for correctly using the singular -
+few people do.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]eBtDMoN2oXemz1iKB 2 points3 points4 points 4 years ago* (6 children)
+
+My solution in Ruby
+
+Edit: split
+
+n, m = ARGV.first.split('d').map(&:to_i)
+n.times do print rand(1..m), ' ' end; puts
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]eBtDMoN2oXemz1iKB 1 point2 points3 points 4 years ago (5 children)
+
+Shorter version with regular expression, 52 characters
+
+$*[0]=~/(.*)d(.*)/;$1.to_i.times{p rand 1..$2.to_i}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]TweenageDream 4 points5 points6 points 4 years ago (4 children)
+
+can be shortened to 45 char:
+
+$*[0]=~/(d)/;$`.to_i.times{p rand 1..$'.to_i}
+
+unfortunately, that output doesnt follow the guidelines for output...
+
+    where if there is more than one roll you must space-delimit (not print each
+    result on a separate line)
+
+I think this is the next best thing, 55:
+
+$*[0]=~/(d)/;$`.to_i.times{print"#{rand(1..$'.to_i)} "}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]eBtDMoN2oXemz1iKB 1 point2 points3 points 4 years ago* (3 children)
+
+Cool, I did not know about $` and $'.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]eBtDMoN2oXemz1iKB 1 point2 points3 points 4 years ago (2 children)
+
+After re-reading the challenge, the input comes from STDIN and not a
+command-line argument. Updated version
+
+$<.read=~/(d)/;$`.to_i.times{print rand(1..$'.to_i),' '}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]joblessjunkie 1 point2 points3 points 4 years ago (1 child)
+
+Using the * operator to join a string with spaces, you can gain a newline at
+the end. Also, the parenthesis in the regex are not essential.
+
+$<.read=~/d/;puts (1..$`.to_i).map{rand($'.to_i)+1}*' '
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (1 reply)
+
+[–]WhatIsSobriety 2 points3 points4 points 4 years ago (3 children)
+
+C#, inputs passed through the console after a prompt, current time used to seed
+the Random object
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace RollDice
+{
+    class Program
+    {
+        static private Random rand = new Random((int) DateTime.Now.Ticks);
+
+        static void Main()
+        {
+            string input;
+            Console.WriteLine("Input dice info in NdM form separated by spaces:");
+            input = Console.ReadLine();
+            foreach (string s in input.Split(' '))
+            {
+                for (int i = 0; i < Convert.ToInt32(s.Split('d')[0]); i++)
+                {
+                    Console.Write("{0} ", rand.Next(Convert.ToInt32(s.Split('d')[1]))+1);
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]palad1 2 points3 points4 points 4 years ago (2 children)
+
+Nice. May I nitpick? If so, the default constructor for Random does exactly
+what you are doing - it uses Environment.Ticks as the seed.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]WhatIsSobriety 1 point2 points3 points 4 years ago (1 child)
+
+Ah ok, thanks. I'm a C programmer at heart, making the transition to C# for
+work. I'm not used to stuff being done for me lol.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]palad1 2 points3 points4 points 4 years ago (0 children)
+
+This is some decent C#, here's the secret to staying on top of .Net : never
+trust the MSDN documentation when you can look at the source code of the
+framework!
+
+You might want to use DotPeek (or Resharper if you can afford it) to have a
+look at the underlying source: http://www.jetbrains.com/decompiler/
+
+You will learn a LOT about .Net this way.
+
+Happy learning!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]qsvans 2 points3 points4 points 4 years ago* (0 children)
+
+My solution in Common Lisp:
+
+(defun prompt-read (prompt)
+  (format *query-io* "~a: " prompt)
+  (force-output *query-io*)
+  (read-line *query-io*))
+
+(defun roll-dice (times faces)
+  (setf *random-state* (make-random-state t))
+  (if (and (integerp times) (integerp faces) (<= 2 faces))
+      (loop repeat times do
+        (format *query-io* "~a " (1+ (random faces))))
+      (error 'weird-die-error)))
+
+(defun generate-rolls (string)
+  (let ((times (parse-integer
+                (subseq string 0 (search "d" string)) :junk-allowed t))
+        (faces (parse-integer
+                (subseq string (1+ (search "d" string))) :junk-allowed t)))
+    (restart-case (roll-dice times faces)
+      (skip-die-roll ()
+        (format *query-io* "Weird die, skipping~%")))))
+
+(define-condition weird-die-error (error) ())
+
+(defun skip-die-roll (c)
+  (declare (ignore c))
+  (let ((restart (find-restart 'skip-die-roll)))
+    (when restart (invoke-restart restart))))
+
+(defun main ()
+  (handler-bind ((weird-die-error #'skip-die-roll))
+    (loop
+      (generate-rolls (prompt-read "Die"))
+      (unless (y-or-n-p "Roll another? [y/n]: ") (return)))))
+
+Just a hobbyist, feedback and advice welcomed. :)
+
+EDIT: change t to *query-io* in roll-dice EDIT2: markdown
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Urist_Mc_George 2 points3 points4 points 4 years ago (0 children)
+
+And my solution in C++
+
+#include <iostream>
+#include <string>
+#include <vector>
+#include <String>
+#include <sstream>
+
+using namespace std;
+
+int main()
+{
+    string input;
+    int n; // number of dice
+    int a; // number of faces
+    char* tkns;
+    vector<string> numbers;
+
+    getline(std::cin, input);
+
+    stringstream inputStream(input);
+
+    string num;
+    while(getline(inputStream, num, 'd'))
+    {
+       numbers.push_back(num);
+    }
+
+    //simple check if input is malformed
+    if(numbers.size() < 2)
+        return 0;
+    n = atoi(numbers.at(0).c_str());
+    a = atoi(numbers.at(1).c_str());
+
+    //throwing the dice
+    printf("Throwing %dd%d\n",n,a );
+    srand (time(NULL));
+    for(int i =0; i< n;i++)
+    {
+        printf("%d ", rand()%a+1);
+    }
+    printf("\n");
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]hyperforce 2 points3 points4 points 4 years ago (1 child)
+
+When you say standard console input, are you referring to STDIN, like something
+pipable, or through command line arguments??
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 2 points3 points4 points 4 years ago (0 children)
+
+Good question: I'm talking about standard input, so STDIN, so it's pipe-able
+and (depending on the challenge) interactive.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]hyperforce 2 points3 points4 points 4 years ago (0 children)
+
+I posted this below someone else's submission. Relatively standard
+quasi-functional Perl.
+
+while (<STDIN>) {
+    my($rolls, $faces) = $_ =~ /(\d+)d(\d+)/;
+
+      print join(' ', map { int(rand() * $faces) + 1 } 1 .. $rolls) . "\n";
+}
+
+Alternatively, the first parsing line could be
+
+chomp;
+my($rolls, $faces) = split /d/;
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 2 points3 points4 points 4 years ago (1 child)
+
+Made in Python using an IDE called CodeSkulptor. :)
+
+import random
+
+def roller(v):
+    roll = v.split("d")
+    result = 0
+    i = 0
+    while i < int(roll[0]):
+        result += random.randint(1, int(roll[1]))
+        i += 1
+    return result
+
+edit: Just have to implement user inputs, and it will be done.
+
+  • permalink
+  • embed
+  • save
+
+[–][deleted] 1 point2 points3 points 4 years ago (0 children)
+
+Turns out I formatted it incorrectly before. Here's the correct output
+formatting:
+
+import random
+
+def roller(v):
+    roll = v.split("d")
+    result = ""
+    i = 0
+    while i < int(roll[0]):
+        result += " " + str(random.randint(1, int(roll[1])))
+        i += 1
+    return result
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]JustGetMeIn 2 points3 points4 points 4 years ago (0 children)
+
+D solution
+
+import std.stdio, std.algorithm, std.random, std.conv, std.range, std.string;
+void main() {
+  auto numbers = readln().chomp().splitter('d').map!(to!int).array();
+  writeln(iota(numbers[0]).map!(a => uniform!"[]"(1, numbers[1]).to!string).joiner(" "));
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]0x746d616e 2 points3 points4 points 4 years ago (0 children)
+
+Straightforward solution in Go:
+
+package main
+
+import (
+    "fmt"
+    "math/rand"
+    "time"
+)
+
+func init() {
+    rand.Seed(time.Now().UnixNano())
+}
+func main() {
+    in := "4d6"
+    var n, m int
+    fmt.Sscanf(in, "%dd%d", &n, &m)
+
+    for i := 0; i < n; i++ {
+        fmt.Print(rand.Intn(m)+1, " ")
+    }
+    fmt.Println()
+}
+
+Output: http://play.golang.org/p/fvlCqL7gxo (time is always 2009-11-10 23:00:00
++0000 UTC).
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Bigelownage 2 points3 points4 points 4 years ago* (3 children)
+
+Solution in java, with a regex input check:
+
+public static void roll(String s){
+
+    if(!s.matches("\\d+d\\d+"))
+        return;
+    Random r = new Random(System.currentTimeMillis());
+    int rolls = Integer.parseInt(s.split("d")[0]);
+    int faces = Integer.parseInt(s.split("d")[1]);
+    for(int i = 0; i < rolls; i++){
+        System.out.print(r.nextInt(faces)+1 + " ");
+    }
+}
+
+Also works as an ugly 1-liner:
+
+    for(int i = 0; i < Integer.parseInt(s.split("d")[0]); i++) System.out.print(new Random().nextInt(Integer.parseInt(s.split("d")[1]))+1 + " ");
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 2 points3 points4 points 4 years ago (0 children)
+
+You can always expect the input to be well-formed. I found it unhelpful to have
+programmers first check and clean input data, rather than focus on the real
+meat of the challenge.
+
+Either way, what you did is good for regular code, but I wouldn't sweat it in
+these programming challenges. :-)
+
+Your one-liner is slick, packing it all into one for-loop, nice!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]gworroll 2 points3 points4 points 4 years ago (1 child)
+
+I don't know Java regexes, but in most regex implementations you can capture
+pieces of the match for later use. Meaning, the regex could be used to both
+validate the input, and extract the parts you are interested in.
+
+This is normally done by parenthesizing the parts you are interested in. For
+this, the regex in most implementations would be-
+
+(\d+)d(\d+)
+
+Yes, I realize this isn't anchored properly, some invalid data will get
+through. But it's enough to illustrate the principle. Anchor and delimit as
+appopriate to your language. You get data validation, and the parts you are
+after are saved for later reference(look at your language reference for how to
+get to it)- you only parse the string once this way. Not a huge difference in
+this challenge, but in bigger tasks this could be a fairly big deal.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (1 reply)
+
+[–]yvesmh 2 points3 points4 points 4 years ago (0 children)
+
+JavaScript:
+
+function rollDice(NdM){
+var a= NdM.split('d'), N=a[0], M=a[1], i=0;
+for(i; i<N; i++){
+    console.log(Math.floor(Math.random()*M)+1);
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]toodim 2 points3 points4 points 4 years ago* (0 children)
+
+I just found out about this place today. Just looking for new ways to learn.
+
+Python:
+
+import random
+
+def die_roller(dice):
+    number_of_dice = int(dice[:dice.find("d")])
+    sides = int(dice[dice.find("d")+1:])
+    result = ""
+    for die in range(number_of_dice):
+        result += str(random.choice([x for x in range (1,sides+1)]))+" "
+    return result[:-1]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]GPK_Ethan0 0 2 points3 points4 points 4 years ago (1 child)
+
+My solution in Java.
+
+import java.util.Random;
+
+public class rollTheDies {
+
+    public static void main(String args[]) {
+
+        String input = "2d20";
+
+        rollDies(input);
+
+    }
+
+    private static void rollDies(String input) {
+
+        Random rand = new Random();
+
+        int numDies = input.charAt(0) - 48;
+        int numFace = Integer.parseInt( input.substring(2) );
+
+        for(int i = 0; i < numDies; i++) {
+
+            System.out.print( rand.nextInt(numFace + 1) + " " );
+
+        }
+    }
+}
+
+Also would it be considered bad programming practice to do something like this,
+where I don't really use any variables?
+
+import java.util.Random;
+
+public class rollTheDies {
+
+    public static void main(String args[]) {
+
+        String input = "4d6";
+
+        rollDies(input);
+
+    }
+
+    private static void rollDies(String input) {
+
+        Random rand = new Random();
+
+        for(int i = 0; i < input.charAt(0) - 48; i++) {
+
+            System.out.print( rand.nextInt(Integer.parseInt( input.substring(2) ) + 1) + " " );
+
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pandubear0 1 3 points4 points5 points 4 years ago (0 children)
+
+Of the two code snippets you posted, the first is much more readable. If
+someone's reading the second, they have to stop and figure out what
+input.charAt(0) - 48 and Integer.parseInt( input.substring(2) ) mean.
+
+Neither is really obvious, (and even if it's obvious to you as the person
+writing the code, if it takes more than half a second for someone reading the
+code to figure out what it means, you probably should put in some extra
+clearly-named variables or comments that make the meaning obvious when reading
+the code.) so I'd call it bad programming practice.
+
+The first is also much more maintainable: if you want to change how you get the
+number of dice, it's more obvious where to do that. This issue isn't too big in
+this example, but the bigger and more complicated a program gets, the more
+important this sort of thing becomes.
+
+As a rule of thumb, readability and maintainability should always be your top
+priorities when programming.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]otsojaun 2 points3 points4 points 4 years ago (0 children)
+
+Java
+
+import java.util.Random;
+
+public class RollDice {
+
+    public static void main(String args[]){
+        String []data = args[0].split("d");
+        int nRolls = Integer.parseInt(data[0]);
+        int faces = Integer.parseInt(data[1]);
+        Random r = new Random();
+        for (int i = 0; i < nRolls; i++){
+            System.out.print((r.nextInt(faces)+1) + " ");
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]YZBot 2 points3 points4 points 4 years ago (0 children)
+
+Java
+
+public class Easy {
+    public static void main(String[] args) {
+        for (int i : rollDice("4d6")) { // example data
+            System.out.print(i + " ");
+        }
+    }
+
+    private static int[] rollDice(String s) {
+        String diceData[] = s.split("d");
+        int[] result = new int[Integer.parseInt(diceData[0])];
+        for (int i = 0; i < result.length; i++) {
+            result[i] = (int)(Math.random() * Integer.parseInt(diceData[1]) + 1);
+        }
+        return result;
+    }
+}
+
+I'm not really familiar with Java's random number generator. It's probably good
+enough as it is for rolling of dice.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]infiniteBox 2 points3 points4 points 4 years ago* (0 children)
+
+Hi, first timer here, and quite new to C++. Here's my C++ solution. Not as
+elegant as Steve132's. In fact very C like... Input is passed as arguments.
+(e.g. ./foo "12d32" "32d33"). Please critic.
+
+#include <iostream>
+#include <random>
+#include <string>
+#include <sstream>
+
+struct roll
+{
+    unsigned int diceCount;
+    unsigned int diceFaceCount;
+};
+
+const roll parser(const std::string p_cmd)
+{
+    std::stringstream ss(p_cmd);
+    roll newRoll;
+    ss >> newRoll.diceCount;
+    ss.ignore() >> newRoll.diceFaceCount)
+    return newRoll;
+}
+
+void print_dice(const int argc, const char* const argv[])
+{
+    std::default_random_engine rand;
+    for(int i = 1; i < argc; ++i)
+    {
+        roll newRoll = parser(argv[i]);
+        std::uniform_int_distribution<int> distribution(1,newRoll.diceFaceCount);
+        for (int j = 0; j < static_cast<int>(newRoll.diceCount); ++j)
+        {
+            std::cout << distribution(rand) << " ";
+        }
+        std::cout << "\n";
+    }
+}
+
+int main(const int argc,const char* const argv[]/**/)
+{
+    print_dice(argc, argv);
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]psyomn 2 points3 points4 points 4 years ago (1 child)
+
+Ruby, trying as concise as possible.
+
+#!/usr/bin/env ruby
+a, b = $stdin.gets.chomp!.split('d').collect{|e| e.to_i}
+a.times{ print "#{(1..b).to_a.sample} "}
+puts
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]134671 1 2 points3 points4 points 4 years ago (0 children)
+
+My Ruby golf solution:
+
+a,b=gets.split(?d).map &:to_i;a.times{print"#{rand(b)+1} "}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]tylian 2 points3 points4 points 4 years ago (0 children)
+
+This challenge reminds me of a function I wrote in Javascript forever ago for
+doing complex rolls, which I used when playing Dungeons & Dragons over a chat
+client with my friends.
+
+Sadly, it's not an actual solution to this challenge as it combines all the
+rolls into one statement making it impossible to output the result of every
+single roll. Still interesting though, so I'mma post it anyway.
+
+function rollDice(input) {
+    return input.replace(/\b(\d+)d(\d+)\b/g, function(match, dice, sides) {
+        dice = parseInt(dice, 10), sides = parseInt(sides, 10);
+        return Math.round(Math.random() * (sides - 1) * dice) + dice;
+    });
+}
+
+I used it like so:
+
+var result = eval(rollDice("1d20+10")); // Allows you to roll stuff like "1d40 + 2 / 3 * 90"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]aredna1 0 2 points3 points4 points 4 years ago (0 children)
+
+SQL, for no reason other than I like practicing CTEs.
+
+Code Here because reddit still breaks and won't accept posts when you submit
+code with a SQL CTE for some reason.
+
+And for the hell of it a code golf version: http://pastebin.com/0Gfhun6f
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Ryukishi 2 points3 points4 points 4 years ago (0 children)
+
+My solution in python 3.3
+
+def multiDieRoll(inputString):
+    from random import randint
+    DicesStr, facesStr = inputString.split('d')
+    try:
+        numDices = int(DicesStr)
+        numFaces = int(facesStr)
+    except ValueError:
+        return "incorrect input"
+    for i in range(numDices):
+        print(randint(1,numFaces), end = ' ')
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Cannonball7171 2 points3 points4 points 4 years ago (0 children)
+
+Java
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Random rand = new Random();
+        Scanner scan = new Scanner(System.in);
+        String input = scan.nextLine();
+        int times = Integer.parseInt(input.split("d")[0]);
+        for (int i = 0; i < times; i++)
+            System.out.print(rand.nextInt(Integer.parseInt(input.split("d")[1])) + 1 + " ");
+        scan.close();
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 2 points3 points4 points 4 years ago* (7 children)
+
+Javascript (hoping my formatting works on this):
+function roll(dice){
+var numRolls = parseInt(dice.substring(0,dice.indexOf("d")));
+var numInt = parseInt(dice.substring(dice.indexOf("d")+1,dice.length))
+var printOut = "";
+for(var x=0; x<numRolls; x++){
+printOut = printOut + " " + Math.ceil(Math.random()*numInt);
+}
+return printOut;
+}
+
+  • permalink
+  • embed
+  • save
+
+[–]nint221 2[S] 1 point2 points3 points 4 years ago (6 children)
+
+All you have to do for formatting is space each line out by four spaces :-)
+
+Like this!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 2 points3 points4 points 4 years ago (3 children)
+
+When I don't put 4 spaces in the first line it doesn't do it.
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]nint221 2[S] 1 point2 points3 points 4 years ago (1 child)
+
+All the lines.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Loomax 2 points3 points4 points 4 years ago (0 children)
+
+And two new lines after the first line
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (1 reply)
+
+load more comments (2 replies)
+
+[–]pohatu 2 points3 points4 points 4 years ago (0 children)
+
+PowerShell
+I didn't see any powershell versions, so here is one complete with unit tests
+and input validation. It can be called like a function or take a string from
+the pipeline.
+
+    function Roll-Dice {
+    param(
+        [Parameter(
+        Mandatory = $true,
+        #Position = 0,
+        ValueFromPipeline = $true,
+        ValueFromPipelineByPropertyName = $true)]
+            [string]$ndm
+        )
+        #should probably check for input not matching ndm pattern
+        if (-not ($ndm -match "\dd\d")){
+          Write-Error -Message "Invalid Input, format must be ndm where 1<=n<=100 and 2<=m<=200." -Category InvalidArgument;
+          return $null
+        }
+        [system.int32]$n = $ndm.split("d")[0]
+        [system.int32]$m = $ndm.split("d")[1]
+
+        #validate input
+        if (($n -lt 1) -or ($n -gt 100) -or ($m -lt 2) -or ($m -gt 100)){
+          Write-Error -Message "Invalid Input, format must be ndm where 1<=n<=100 and 2<=m<=200." -Category InvalidArgument
+          return $null
+        }
+
+        $result = @();
+        while ($i++ -lt $n){$result += Get-Random -Minimum 1 -Maximum ($m+1) }
+        return $result
+    }
+
+    #region UnitTests
+    function verify-diceroll($n, $m) {
+      $output = roll-dice ("" + $n + "d" + $m)
+      if ($output -eq $null) {write-error "FAIL OUTPUT NULL"; return; }
+      if ($output.count -ne $n) { Write-Error "FAIL! number of rolls doesn't match input: actual:$output.count. expected:$n."; return;}
+      foreach($a in $output) {
+        if (($a -gt $m) -or ($a -lt 1)){ write-error "FAIL Resulting roll result ($a) is out of expected bounds 1..$m."; return;}
+      }
+      write-host "looks good"
+    }
+
+    function test-ValidateOutput() {
+      Write-Host "Test Valid Values"
+      verify-diceroll 1 2 #min
+      verify-diceroll 1 100 #max
+      verify-diceroll 100 100 #max
+      verify-diceroll 2 6 #most common
+    }
+
+    function test-invalidinputs() {
+    #invalid
+      write-host "Test Invalid Values"
+     "abd" | Roll-Dice
+     "0d6" | Roll-Dice
+     "101d6" | ROll-Dice
+     "2d1" | Roll-Dice
+     "2d101" | Roll-Dice
+    }
+
+    function test-PipelineInputs(){
+      Write-Host "Test Pipeline Inputs"
+      "2d6" | Roll-Dice
+      "1d2" | Roll-Dice
+      "100d100" | Roll-Dice
+    }
+
+    function Run-Tests()
+    {
+      test-PipelineInputs
+      test-invalidinputs
+      test-ValidateOutput
+    }
+
+    #endregion
+
+    Roll-Dice 2d6
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]skibo_0 0 2 points3 points4 points 4 years ago* (4 children)
+
+Bash:
+
+#!/bin/bash
+
+dies=$(echo $1|cut -d"d" -f1)
+faces=$(echo $1|cut -d"d" -f2)
+throws=""
+while [ $dies -gt 0 ]
+do
+    throws+="$(( $(( $RANDOM % $faces )) + 1 )) "
+    dies=$(( $dies - 1 ))
+done
+echo $throws
+
+EDIT: Fixed error pointed out by Loomax (thanks!)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Loomax 2 points3 points4 points 4 years ago (3 children)
+
+Should
+
+$RANDOM % 6
+
+be
+
+$RANDOM % $faces
+
+Just tested it, and I seem to be right Edit: missing $ added
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (3 replies)
+
+[–]WFurman 2 points3 points4 points 4 years ago (0 children)
+
+The following is my solution in JavaScript using HTML5. In addition to
+computing the die roll(s), note that the program also checks to see if the
+user's input is in NdM format:
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>DailyProgrammer Challenge #130</title>
+<script type="text/javascript">
+function validateAndCalculate()
+{
+var N, M, Roll;
+var legitFormat;
+var dRoll = prompt("Please enter your die roll in NdM format:");
+if (dRoll != null)
+{
+    if (dRoll.indexOf("d") === -1)
+        legitFormat = false;
+    else if (dRoll.indexOf(" ") !== -1)
+        legitFormat = false;
+    else
+    {
+        N = dRoll.substr(0, dRoll.indexOf("d"));
+        M = dRoll.substr(dRoll.indexOf("d") + 1, dRoll.length - dRoll.indexOf("d") - 1);
+        for (var i = 0; i < N.length; i++)
+        {
+            var NCheck = parseInt(N.charAt(i));
+            if (isNaN(NCheck))
+                legitFormat = false;
+        }
+        for (var i = 0; i < N.length; i++)
+        {
+            var MCheck = parseInt(M.charAt(i));
+            if (isNaN(MCheck))
+                legitFormat = false;
+        }
+        N = parseInt(N);
+        if ((N < 1) || (N > 100))
+            legitFormat = false;
+        M = parseInt(M);
+        if ((M < 2) || (M > 100))
+            legitFormat = false;
+        if (legitFormat != false)
+        {
+            document.write("Rolling a:<br /><br />");
+            document.write(dRoll + "<br /><br />");
+            var Roll;
+            document.write("Gives a result of:<br /><br />");
+            for (var i = 0; i < N; i++)
+            {
+                Roll = Math.floor(Math.random()*M + 1);
+                document.write(Roll + " ");
+            }
+            document.write("<br /><br />Thank you for using this program. Please press the
+&quot;Back&quot; button on your browser to return to the previous page.");
+        }
+    }
+}
+if (legitFormat === false)
+    window.alert("The string is not of legitmate format!");
+}
+</script>
+</head>
+
+<body>
+ Click on the button to start the program.<br /><br />
+<button onclick="validateAndCalculate()">Start Program</button><br /><br />
+ Note that the content on this page is cleared with successful input!
+</body>
+</html>
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Davess1 2 points3 points4 points 4 years ago* (1 child)
+
+import random
+f = [ int(x) for x in str(raw_input("# times d # of sides: ")).split("d")]
+k = [ random.randrange(0, f[1]) for i in range(0, f[0])]
+print "Rolls = ",k
+print "Sum = ",sum(k)
+
+My attempt in Python. [DEL:I wanted to sum the numbers, but that's beyond me.
+:DEL] Added sum thing, It looks so ugly though. How do I avoid doing the
+constant k = ..., f = k+... line by line grind?
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+load more comments (1 reply)
+
+[–]Dev-Dan 2 points3 points4 points 4 years ago (0 children)
+
+Bash & SED
+
+Not the best way to do this, but here is an easy bash solution
+
+diceRoller.sh #! /bin/bash
+
+# User input e.g. 2d20 or 4d6
+diceNotation=$1
+
+# Using sed to seperate the delimentor "d"
+arr=(`echo $diceNotation | sed -e 's/d/\n/g'`)
+
+# Storing the values
+rolls=${arr[0]}
+diceRange=${arr[1]}
+
+
+# Rolling dice
+for i in $(seq 1 $rolls)
+do
+  rollValue=$[( $RANDOM % $diceRange ) + 1]
+  echo "Roll $i: $rollValue"
+done
+
+./dashRoller.sh 2d20
+
+Roll 1: 5
+
+Roll 2: 12
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]untitledthegreat 2 points3 points4 points 4 years ago (0 children)
+
+Here's my attempt in Java. Let me know if you see any improvements I can make
+to it.
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class RollDies
+{
+   public static void main(String[] args)
+   {
+      Scanner scan = new Scanner(System.in);
+      System.out.println("Input a roll in dice notation.");
+      String command = scan.nextLine();
+      Scanner line = new Scanner(command);
+      line.useDelimiter("d");
+      int rolls = line.nextInt();
+      int sideDie = line.nextInt();
+      Random dieRoll = new Random(279723792);
+      for (int i = 0; i < rolls; i++)
+      {
+         System.out.print(dieRoll.nextInt(sideDie) + 1 + " ");
+      }
+   }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dabarnes 2 points3 points4 points 4 years ago (0 children)
+
+lua
+
+local io = require("io");
+local math = require("math");
+
+local str = io.stdin:read();
+
+local num_dice, faces, pivot;
+local outstr = "";
+
+pivot = str:find("d");
+if pivot ~= nil then
+    num_dice = str:sub(1, pivot - 1);
+    faces = str:sub(pivot + 1);
+    for i = 0, tonumber(num_dice) do
+        outstr = outstr .. math.random(tonumber(faces)) .. " ";
+    end
+    print(outstr);
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]AstroCowboy 2 points3 points4 points 4 years ago (0 children)
+
+My solution in Java, with minimal error checking...
+
+import java.util.Random;
+public class Challenge130{
+public static void main(String[] args){
+    Random the_generator = new Random();
+    for(int i = 0; i < args.length; i++){
+        ProcessInput(args[i], the_generator);
+    }
+}
+public static void ProcessInput(String input, Random generator){
+    String [] tokenized = input.split("d");
+    if(tokenized.length == 2){
+        int rolls = Integer.parseInt(tokenized[0]);
+        int sides = Integer.parseInt(tokenized[1]);
+        for(int i = 0; i < rolls; i++){
+            System.out.print((generator.nextInt(sides) + 1) + " ");
+        }
+        System.out.print("\n");
+    }
+    else{
+        System.err.println("Error");
+    }
+}
+}
+
+Input:
+
+java Challenge130 2d20 4d6 Garbage
+
+Output:
+
+11 17
+5 3 5 2
+Error
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]baz0r 2 points3 points4 points 4 years ago* (0 children)
+
+my solution in Go/Golang: (updated and shorter thanks to Scanf)
+
+package main
+
+import (
+    "fmt"
+    "time"
+    "math/rand"
+    "strings"
+    "strconv"
+)
+
+func main() {
+    var n,m int
+    if _, err := fmt.Scanf("%dd%d",&n,&m); err != nil {
+        return
+    }
+    rand.Seed(time.Now().Unix())
+    for i := 0; i < n; i++ {
+        fmt.Printf("%d ",rand.Intn(m)+1)
+    }
+    fmt.Printf("\n")
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]JBu92_work 4 points5 points6 points 4 years ago (4 children)
+
+My solution in perl
+
+my $input = $ARGV[0];
+my($rolls, $faces) = split('d', $input);
+my @results;
+for( my $i = 0; $i < $rolls; $i++){
+push(@results, int(rand($faces))+1);
+}
+print "@faces\n";
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]hyperforce 2 points3 points4 points 4 years ago (1 child)
+
+Regarding your solution, you're actually using a command line argument, but the
+OP states the values from from standard input. Also, your Perl is a bit wordy/
+non-idiomatic...
+
+while (<STDIN>) {
+  my($rolls, $faces) = $_ =~ /(\d+)d(\d+)/;
+
+  print join(' ', map { int(rand() * $faces) + 1 } 1 .. $rolls) . "\n";
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]JBu92_work 2 points3 points4 points 4 years ago (0 children)
+
+I rarely muss around with input, or even output for that matter, as it's really
+secondary to the function. (in fact I usually do these challenges as a
+subroutine so that if I ever want to use it again it's literally just
+copy-paste).
+And yeah, my perl usually is fairly wordy- my primary language is C++.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]eBtDMoN2oXemz1iKB 2 points3 points4 points 4 years ago (1 child)
+
+I like your idea to split on 'd'.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]JBu92_work 3 points4 points5 points 4 years ago (0 children)
+
+yep. it also allows the possibility of adding input validation later on.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]the_mighty_skeetadon 1 point2 points3 points 4 years ago* (0 children)
+
+Ruby one-liner, if a little complicated.
+
+input.scan(/\d+d\d+\b/im).map {|x| x.split('d')}.each {|x|  x[0].to_i.times {|y|  print (rand(x[1].to_i) + 1).to_s + ' ' }; puts }
+
+Expanded for readability:
+
+input.scan(/\d+d\d+\b/im).map {|x| x.split('d')}.each do |x|
+  x[0].to_i.times {|y|  print (rand(x[1].to_i) + 1).to_s + ' ' }
+  puts
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]regul 1 point2 points3 points 4 years ago (0 children)
+
+Here's my initial solution in Go:
+
+package main
+
+import (
+    "fmt"
+    "math/rand"
+    "os"
+    "time"
+)
+
+func dieroll(die, sides int) (rolls []int) {
+    rand.Seed(time.Now().Unix());
+    rolls = make([]int, die)
+    for i:=0; i<die; i++ {
+        rolls[i] = rand.Intn(sides)+1;
+    }
+    return;
+}
+
+func parseDieString(str string) (die, sides int) {
+    _, _ = fmt.Sscanf(str, "%dd%d", &die, &sides);
+    return;
+}
+
+func main() {
+    for i:=1; i<len(os.Args); i++ {
+        fmt.Println(dieroll(parseDieString(os.Args[i])));
+    }
+}
+
+Got inspired by someone else's Go solution further down to try to parallelize
+it. That attempt is forthcoming.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]clark_poofs 1 point2 points3 points 4 years ago (3 children)
+
+Scala:
+
+import scala.util.Random
+object dieRoll {
+    def main(args: Array[String]) {
+       roll(args.head)
+       println()
+    }
+    val rand = new Random
+    def roll(die: String) = {
+        def rollDice(num: Int, sides: Int) =
+               for(i <- 1 to num) print((rand.nextInt(sides) + 1) + " ")
+        val data = die.split("d")
+        if (data.length == 2) rollDice(data.head.toInt, data.last.toInt)
+        else println("Bad Input")
+   }
+}
+
+output:
+
+scala dieRoll 2d20
+4 10
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Carnitin 2 points3 points4 points 4 years ago (2 children)
+
+Is Scala inconsistent, or is there an error in your code? As far as I know,
+method definitions are formed as:
+
+def methodName(args) = {body}
+
+But in your code I see:
+
+def main(args: Array[String]) {
+
+and
+
+def roll(die: String) = {
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (2 replies)
+
+[–]visionvalley 1 point2 points3 points 4 years ago* (0 children)
+
+My first post, although I have been following for a little while. I have
+started learning D and thought I would try out the regex features in D for this
+solution. Any feedback or comments welcome.
+
+import std.random, std.stdio, std.regex, std.conv;
+
+void main(){
+    char[] theInput;
+    int[] matches;
+    foreach(line; stdin.byLine){
+        theInput = line;
+        matches = pickDice(theInput);
+        rollDice(matches);
+    }
+}
+
+int[] pickDice(char[] theIn){
+    int[] mInt;
+    auto re = regex("(?P<N>[0-9]+)[d](?P<M>[0-9]+)","g");
+    auto m = match(theIn, re);
+    auto c = m.captures;
+    mInt ~= to!int(c["N"]);
+    mInt ~= to!int(c["M"]);
+    return mInt;
+}
+
+void rollDice(int[] theMatches){
+    int N;
+    int M;
+    N = theMatches[0];
+    M = theMatches[1];
+
+    for (int j=0; j<N; j++){
+        auto rnd = Random(unpredictableSeed);
+        auto a = uniform(1, M+1, rnd);
+        write(a);
+        write(" ");
+    }
+    write("\n");
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]RobertMuldoonfromJP 1 point2 points3 points 4 years ago (0 children)
+
+Learning javascript so...this is in javascript
+
+var params = prompt('provide a string').split('d');
+var outputString = '';
+
+for(var i = 1; i <= params[0]; i++)
+{
+    if(i == params[0])
+    {
+        outputString += Math.round((Math.random()*params[1])+0.5);
+    }
+    else
+    {
+        outputString += Math.round((Math.random()*params[1])+0.5) + ', ';
+    }
+}
+
+
+console.log(outputString);
+
+edit: no error handling...I know
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]simster7 1 point2 points3 points 4 years ago (6 children)
+
+My solution in Python. I would really love any feedback :)
+
+import random
+
+def dice(diceNotation):
+    rolls = int(diceNotation[:diceNotation.find("d")])
+    faces = int(diceNotation[diceNotation.find("d")+1:])
+
+    out = ""
+
+    for x in range (0, rolls):
+        out += str(random.randint(1, faces)) + " "
+
+    return out
+
+print(dice("2d20"))
+print(dice("4d6"))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pandubear0 1 2 points3 points4 points 4 years ago (1 child)
+
+Looks like solid, clean code. Maybe there are a few ways you can make it more
+Pythonic, but I wouldn't know too much about that.
+
+I've just got two things:
+
+  • I'd consider storing diceNotation.find("d") in a variable.
+  • So you know, range(x) is a nice shorthand for range(0, x)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]simster7 1 point2 points3 points 4 years ago (0 children)
+
+Thanks!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (4 replies)
+
+[–]rsamrat 1 point2 points3 points 4 years ago (0 children)
+
+Clojure:
+
+(defn roll [notation]
+    (let [[n m] (map read-string (clojure.string/split notation #"d"))]
+      (repeatedly n #(inc (rand-int m)))))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]IProto 1 point2 points3 points 4 years ago (3 children)
+
+First submission here, done in C#. Probably a bit verbose but was just playing
+around a bit :)
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace DailyProgrammer
+{
+  static class Program
+  {
+    static void Main(string[] args)
+    {
+      var generator = new Random((int)(DateTime.UtcNow.Ticks % int.MaxValue));
+      for(var input = Console.ReadLine(); input != null; input = Console.ReadLine())
+      {
+        var nums = input.Split('d');
+        int rolls, faces;
+        if(int.TryParse(nums[0], out rolls) && int.TryParse(nums[1], out faces) && rolls >= 1 && rolls <= 100 && faces >= 2 && faces <= 100)
+          Console.WriteLine(Enumerable.Repeat(1, rolls).Select(i => generator.Next(faces).ToString()).Join(" "));
+      }
+    }
+
+    static string Join(this IEnumerable<string> input, string delimiter)
+    {
+      if (input.Count() == 0)
+        return String.Empty;
+
+      var builder = new StringBuilder();
+      input.Take(input.Count() - 1).ToList().ForEach(s => builder.Append(s).Append(delimiter));
+      builder.Append(input.Last());
+      return builder.ToString();
+    }
+  }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]palad1 1 point2 points3 points 4 years ago (2 children)
+
+Nice, if I may, String.Join(string, IEnumerable<T>) would have saved you a lot
+of code. It is using (as of 4.5 at least) a stringbuilder under the covers.
+
+Also, I do not believe ForEach is part of the BCL, so you have to define the
+extension method yourself.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]IProto 1 point2 points3 points 4 years ago (1 child)
+
+Aha!I knew there was a method somewhere that did that join but I couldn't find
+it so I just rewrote it XD.
+
+As for ForEach I think this one is actually part of BCL. I had to use ToList()
+on the IEnumerable because ForEach is on List<T>.
+
+foreach msdn
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]palad1 1 point2 points3 points 4 years ago (0 children)
+
+Forgot about List<T>.ForEach, good find :) Interesting tidbit about the lack of
+Enumerable.ForEach here : http://blogs.msdn.com/b/ericlippert/archive/2009/05/
+18/foreach-vs-foreach.aspx
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]cooptex977 1 point2 points3 points 4 years ago (0 children)
+
+C#:
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace dice
+{
+    public static class roll
+    {
+        public static void parse(string input, out int sides, out int dice)
+        {
+            sides = 0;
+            dice = 0;
+
+            string[] templist = input.Split('d');
+            dice = Convert.ToInt32(templist[0]);
+            sides = Convert.ToInt32(templist[1]);
+        }
+
+        public static void RollDice()
+        {
+            int nsides = 0;
+            int ndice = 0;
+            string input = Console.ReadLine();
+            parse(input, out nsides, out ndice);
+
+            Random rnd = new Random((Int32)DateTime.Now.Ticks);
+
+            int[] roll = new Int32[ndice];
+
+            for (int i = 0; i < ndice; i++)
+            {
+
+                roll[i] = rnd.Next(1, nsides);
+                Console.Write(roll[i] + " ");
+            }
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]bssameer 1 point2 points3 points 4 years ago (0 children)
+
+import random
+def rollDice(diceNotation):
+positionOfD=diceNotation.find('d')
+noOfDice=int(diceNotation[0:positionOfD])
+noOfFaces=int(diceNotation[positionOfD+1:])
+if noOfDice>=1 and noOfDice<=100 and noOfFaces>=2 and noOfFaces<=100 :
+    for i in range(0,noOfDice):
+        print " ",random.randint(1,noOfFaces)," ",
+
+#Run:
+inputString="2d20"
+rollDice(inputString)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]shoegazefan 1 point2 points3 points 4 years ago (4 children)
+
+Java. This is my first time submitting code for anyone to look at, so a
+thorough review would be appreciated.
+
+import java.util.Arrays;
+
+public class Main {
+
+    public static void main(String[] args) {
+    diceRoll("2d6");
+    diceRoll("7d6");
+    diceRoll("1d20");
+    }
+    public static void  diceRoll(String input){
+        String[] numberSplit;
+        numberSplit = input.toLowerCase().split("d");
+        int diceNum = Integer.parseInt(numberSplit[0]);
+        int sides  = Integer.parseInt((numberSplit[1]));
+        int i=0;
+        int roll[] = new int[diceNum];
+        while (i<diceNum){
+        roll[i] = (int)(sides*Math.random()+1);
+        i++;
+        }
+        System.out.println(Arrays.toString(roll));
+    }
+}
+
+Output
+
+[5, 4]
+[6, 3, 1, 2, 1, 3, 1]
+[17]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Loomax 1 point2 points3 points 4 years ago (2 children)
+
+Since your output does not match the requirement (Was expecting space delimited
+output) you should iterate over your roll[] array to build the output String.
+
+Afaik (I might be wrong on this) it is common practice to use foreach in favor
+of a while. For example:
+
+for (int i = 0; i < dicenum; i++) {
+    roll[i] = (int)(sides*Math.random()+1);
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]shoegazefan 1 point2 points3 points 4 years ago (1 child)
+
+Thanks for the input, I am still new to some of these terms. I assumed space
+delimited meant that each set of dice rolls should not be on a separate line.
+What you are telling me is that there cannot be any commas or brackets either?
+So I have have to put a loop over my array to print each part of the array
+without anything at all in between?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Loomax 1 point2 points3 points 4 years ago (0 children)
+
+space delimited means, that between values there are so called whitespaces.
+
+Your output: [6, 3, 1, 2, 1, 3, 1]
+
+Would be space delimited: 6 3 1 2 1 3 1
+
+In my solution I use a StringBuilder, iterate through my result list and add a
+space after each result. Finally I trim the resulting String of the trailing
+space. There is quite a few way to handle this. For example make your own Class
+and override the toString() method (silly, but just to show a different way to
+solve something).
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (1 reply)
+
+[–]Eogcloud 1 point2 points3 points 4 years ago (0 children)
+
+Threw this together quickly in C#, I don't do any validation checking at all
+and don't check for values >20 or >100 but this could be easily done.
+
+    using System;
+
+        namespace RollTheDies
+        {
+            public class DiceRoll
+            {
+                private int _rolls;
+                private int _numSides;
+                private String _input;
+
+                public DiceRoll()
+                {
+                    GetInput();
+                    RollDies();
+                }
+
+                public void GetInput()
+                {
+                    _input = Console.ReadLine();
+
+                    var pos = _input.IndexOf("d", StringComparison.Ordinal);
+
+                    _numSides = int.Parse(_input.Substring(0, pos));
+                    _rolls = int.Parse(_input.Substring(pos+1, pos));
+                }
+
+                public void RollDies()
+                {
+                    Console.WriteLine(_rolls+" "+_numSides);
+                    var ranGen = new Random();
+
+                    for (int i = 0; i < _rolls; i++)
+                    {
+                       Console.Write(ranGen.Next(1, _numSides)+" ");
+                    }
+                }
+
+
+                static void Main()
+                {
+                    new DiceRoll();
+                    Console.ReadKey();
+                }
+            }
+        }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Zardoz84 1 point2 points3 points 4 years ago* (0 children)
+
+It isn't exactly the same output, but because evaluates more complex roll dices
+expressions and outputs the result not every roll. Can evaluate expressions
+like 3d6 + 2 - 1d3 and output the total result. Here is my solution in C# :
+
+public static class Dice {
+
+  private static Random rndGen = new Random();
+
+  private static readonly Regex numberToken = new Regex("^[0-9]+$");
+  private static readonly Regex diceRollToken = new Regex("^([0-9]*)d([0-9]+|%)$");
+
+  /// <summary>Roll a single dice</summary>
+  /// <param name="sides"></param>
+  /// <returns></returns>
+  private static Int32 RollDice(int sides) {
+    if (sides < 2)
+      throw new Exception("Invalid Dice sides");
+    return rndGen.Next(1, sides + 1);
+  }
+
+  /// <summary>
+  /// Parse a dice expresion
+  /// <expr> :=   <expr> + <expr>
+  ///        | <expr> - <expr>
+  ///        | [<number>]d(<number>|%)
+  ///        | <number>
+  /// <number> := positive integer
+  /// </summary>
+  /// <param name="exp"></param>
+  /// <returns></returns>
+  public static Int32 Parse(string expresion) {
+    Int32 result = 0;
+    expresion = expresion.ToLower().Trim();
+
+    if (expresion.Length < 1) {
+      throw new Exception("Invalid expresion");
+    }
+
+    // Calcs every addition subexpresion and do the sum of it
+    var subExpresions = expresion.Split('+');
+    if (subExpresions.Count() > 1) {
+      foreach (var exp in subExpresions) {
+        if (exp.Length > 0)
+          result += Parse(exp);
+      }
+
+      return result;
+    }
+
+    // Calcs every substraction subexpresion and do the subtration
+    subExpresions = subExpresions[0].Split('-');
+    if (subExpresions.Count() > 1) {
+      if (subExpresions.First().Length > 0)
+        result = Parse(subExpresions.First());
+      foreach (var exp in subExpresions.Skip(1)) {
+        if (exp.Length > 0)
+          result -= Parse(exp);
+      }
+      return result;
+    }
+
+    // Search for isolated numbers
+    if (numberToken.IsMatch(subExpresions[0])) {
+      Int32.TryParse(subExpresions[0], out result);
+      return result;
+    }
+
+    // Handles [<number>]d(<number>|%) -> dice notation
+    if (diceRollToken.IsMatch(subExpresions[0])) {
+      subExpresions = subExpresions[0].Split('d');
+
+      Int32 ndices = 1, sides;
+      if (!Int32.TryParse(subExpresions.Last(), out sides)) {
+        if (subExpresions.Last().Contains("%")) // d% = d100
+          sides = 100; // d% means d100
+      }
+
+      if (subExpresions.Count() > 2)
+        throw new Exception("Invalid expresion"); // "d2" minimal and  isn't valid "d2d6"
+
+      if (subExpresions.Count() > 1) {
+        if (!Int32.TryParse(subExpresions.First(), out ndices)) // Gets number of dices to roll
+          ndices = 1;
+        if (ndices < 1)
+          throw new Exception("Invalid expresion");
+
+      }
+
+      for (var i = 0; i < ndices; i++)
+        result += RollDice(sides);
+
+    }
+
+    return result;
+  }
+
+}
+
+PD: Random constructor auto-seeds using the clock.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]palad1 1 point2 points3 points 4 years ago (0 children)
+
+C#, just discovered this sub, nice golfing to get into gear at work!
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace rdp
+{
+    static class Program130
+    {
+        static IEnumerable<String> Read() { while (true) yield return Console.ReadLine(); }
+        static void Out(this IEnumerable<string>e){foreach(var l in e) Console.Out.WriteLine(l);}
+        static void Main()
+        {
+           var rnd = new Random();
+           var check = new Regex(@"(?<n>\d+)d(?<s>\d+)", RegexOptions.CultureInvariant | RegexOptions.Compiled | RegexOptions.IgnoreCase);
+           Read().Select(s => check.Match(s ?? ""))
+                 .Where(m => m.Success)
+                 .Select(m => string.Join(" ", Enumerable.Repeat(int.Parse(m.Groups["s"].Value) + 1, int.Parse(m.Groups["n"].Value)).Select(b => rnd.Next(1, b))))
+                 .Out();
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]chaz2x4 1 point2 points3 points 4 years ago (1 child)
+
+JAVA implementation using Math.random() that I learnt in class:
+
+public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    String choice = input.nextLine();
+    int numRolls = Integer.parseInt(choice.split("d")[0]);
+    int dieFace = Integer.parseInt(choice.split("d")[1]);
+    for(int i = 0 ; i < numRolls ; i++){
+        System.out.println((int) (Math.random()*dieFace)+1);
+    }
+}
+
+then Python which doesn't seem really special at this point
+
+import random
+def roll(choice):
+    numRolls, dieFace = choice.split('d')
+    for numRolls in range(int(numRolls)):
+        print(random.randint(1,int(dieFace)))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Loomax 1 point2 points3 points 4 years ago (0 children)
+
+To get the wanted output, you would have to change:
+
+System.out.println((int) (Math.random()*dieFace)+1);
+
+To:
+
+System.out.print(((int) (Math.random()*dieFace)+1) + " ");
+
+I'd prefer using a StringBuilder instead tho
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Loomax 1 point2 points3 points 4 years ago* (0 children)
+
+Solution in Java, sorta OOP: Edit: Solution at github with some tests
+
+DieParser.java
+
+public class DieParser {
+
+    public static Die parse(final String input) {
+        if (input == null) {
+            throw new IllegalArgumentException("Input must not be null");
+        }
+        final String[] split = input.split("d");
+        if (split.length != 2) {
+            throw new IllegalArgumentException("Input was not of a correct format");
+        }
+        final int times = Integer.parseInt(split[0]);
+        final int faces = Integer.parseInt(split[1]);
+
+        return new Die(times, faces);
+    }
+}
+
+Die.java
+
+public class Die {
+    private final int times;
+    private final int faces;
+    private final Random randomGenerator;
+
+    public Die(final int times, final int faces) {
+        if (times < 1) {
+            throw new IllegalArgumentException("Faces must be greater or equal to 1");
+        }
+        if (faces < 2) {
+            throw new IllegalArgumentException("Faces must be greater or equal to 2");
+        }
+        this.times = times;
+        this.faces = faces;
+        // Could try with current time as seed too
+        randomGenerator = new Random();
+    }
+
+    public List<Integer> rollDice() {
+        final List<Integer> diceRolls = new ArrayList<Integer>(times);
+        for (int i = 0; i < times; i++) {
+            Integer roll = randomGenerator.nextInt(faces) + 1;
+            diceRolls.add(roll);
+        }
+        return diceRolls;
+    }
+
+    public int getFaces() {
+        return faces;
+    }
+
+    public int getTimes() {
+        return times;
+    }
+}
+
+App.java
+
+public class App {
+    public static void main(String[] args) {
+
+        final List<Integer> rolledTwoDice = DieParser.parse("2d20").rollDice();
+        final List<Integer> rolledFourDice = DieParser.parse("4d6").rollDice();
+        String outputTwoDice = getString(rolledTwoDice);
+        String outputFourDice = getString(rolledFourDice);
+        System.out.println(outputTwoDice);
+        System.out.println(outputFourDice);
+    }
+
+    private static String getString(List<Integer> rolledTwoDice) {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (Integer roll : rolledTwoDice) {
+            stringBuilder.append(roll).append(" ");
+        }
+        return stringBuilder.toString().trim();
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Cbearr 1 point2 points3 points 4 years ago (0 children)
+
+Java effort:
+
+   public static String dieNotation(String dieRoll){
+        Random randGen = new Random();
+        int result = 0;
+
+        String[] parts = dieRoll.split("d");
+        int dieQuantity = Integer.parseInt(parts[0]);
+        int dieMax = Integer.parseInt(parts[1]);
+
+        for (int x=1; x<=dieQuantity; x++){
+            result += randGen.nextInt(dieMax)+1;
+        }
+
+        return String.valueOf(result);
+
+    }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]monumentshorts 1 point2 points3 points 4 years ago* (0 children)
+
+fsharp
+
+open System
+
+let random = new Random()
+
+let roll size = random.Next(1, size + 1);
+
+let d count size =
+    seq{
+        for i in [1..count] do
+            yield roll size
+    }
+
+let print i = Console.Write(i.ToString() + " ")
+
+let toInt i = Convert.ToInt32(i.ToString());
+
+let parse (s:String) =
+    let splits = s.Split([|'d'|])
+    (splits.[0] |> toInt, splits.[1] |> toInt)
+
+let (count, size) = Console.ReadLine().Trim() |> parse
+
+count |> d <| size
+    |> Seq.iter print
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]luxgladius0 0 1 point2 points3 points 4 years ago (0 children)
+
+Perl one-liner
+
+perl -MList::Util=sum -Mfeature=say -ne "BEGIN {srand(time);} next unless /(\d+)d(\d+)/i; @_ = map {int(rand($2)+1)} 1 .. $1; say join('+',@_) . '=' . sum(@_)"
+
+Sample session
+
+1d6
+5=5
+2d6
+2+4=6
+10d2
+1+1+1+2+1+2+1+2+1+1=13
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]prondose0 0 1 point2 points3 points 4 years ago* (0 children)
+
+perl6:
+
+sub dices {
+    my ($rolls, $faces) = $^a.split(/d/);
+    join ' ', roll $rolls, 1..$faces;
+}
+
+results:
+
+say dices '4d6';
+2 6 6 5
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]alexjneves 1 point2 points3 points 4 years ago (2 children)
+
+My Java solution. I've just finished my first year of a CS degree, and feedback
+would be appreciated.
+
+import java.util.Random;
+
+public class RollTheBones {
+
+    public static void main(String[] args) {
+        System.out.print("Input: ");
+
+        // read the string
+        String str = G51OOPInput.readString();
+
+        // convert string into two ints
+        int n = Integer.parseInt(str.substring(0, str.indexOf("d")));
+        int m = Integer.parseInt(str.substring(str.indexOf("d") + 1, str.length()));
+
+        // call the roll method
+        Roll(n, m);
+    }
+
+    private static void Roll(int numRolls, int numFace) {
+        // create a new Random object
+        Random seed = new Random();
+
+        for(int i = 0; i < numRolls; i++) {
+            // produce the next random number in correct range
+            System.out.print(seed.nextInt(Integer.MAX_VALUE) % numFace + 1 + " ");
+        }
+    }
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Loomax 2 points3 points4 points 4 years ago (1 child)
+
+You shouldn't start a method with a capital letter, common practice is to use
+lowercase for methods (camel case if it's more than one word).
+
+Beside that it's quite clean. (I prefer using seed.nextInt(numFaces) instead of
+the modulo, but that might just be personal preference)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (1 reply)
+
+[–]makuto9 1 point2 points3 points 4 years ago* (0 children)
+
+My solution in Python (I'm new to the language, so I did it the more C way
+rather than the better Python ways that I don't know yet). It is used like
+this: python dice.py 1d20 2d13 4d4 1000d2 etc. EDIT: nevermind, I can't get the
+formatting to work (I'm using Geany in Ubuntu, anyone know what I have to do?)
+http://pastebin.com/iLw2V5P6
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Darunian 1 point2 points3 points 4 years ago* (5 children)
+
+My solution in Java:
+
+import java.util.Random;
+import java.util.Scanner;
+
+
+public class DiceRoller
+{
+
+    public static void main(String[] args)
+    {
+        Random gen = new Random();
+        if (args.length < 1)
+            System.out.println("Please enter dicerolls to
+                            use!");
+
+        for (int i = 0; i < args.length; i++)
+        {
+            String rollCommand = args[i];
+            Scanner parse = new Scanner(rollCommand);
+            String command = parse.next();
+            String[] roll = command.split("d");
+            int numRolls = Integer.parseInt(roll[0]);
+            int diceType = Integer.parseInt(roll[1]);
+            for (int j = 0; j < numRolls; j++)
+            {
+                int result = gen.nextInt(diceType 1) +
+                                    1;  //Used to not get a roll of zero
+                System.out.print(result + " ");
+
+            }
+            System.out.print("\n");
+
+        }
+
+    }
+}
+
+And my solution using: "6d6 10d10" as input:
+
+4 4 1 1 3 2
+8 9 6 3 1 8 5 3 9 6
+
+First time poster, so go easy on me =P Edited for accuracy.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Loomax 1 point2 points3 points 4 years ago (4 children)
+
+int result = gen.nextInt(diceType -1) + 1;
+
+This does not work, since nextInt() rolls a value between 0 and the given
+int-exclusive.
+
+This means if you have a d20 your call is:
+
+gen.nextInt(19) + 1;
+
+Thus you would get only results between 1 and 19. You actually want to fix this
+with:
+
+int result = gen.nextInt(diceType) + 1;
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+load more comments (4 replies)
+
+[–]rknDA1337 1 point2 points3 points 4 years ago (0 children)
+
+My java version
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class RollTheDies {
+
+    public static void main(String[] args) {
+
+        Scanner s = new Scanner(System.in);
+        rollTheDies(s.nextLine());
+
+    }
+
+    public static void rollTheDies(String input) {
+
+        int rolls = Integer.parseInt(input.substring(0, input.indexOf("d")));
+        int size = Integer.parseInt(input.substring(input.indexOf("d") + 1));
+
+        Random r = new Random();
+        StringBuilder b = new StringBuilder();
+
+        for (int i = 0; i < rolls; i++) {
+
+            b.append(r.nextInt(size) + 1);
+
+            if (rolls > 1) {
+                b.append(" ");
+            }
+
+        }
+        System.out.println(b.toString());
+
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]leonardo_m 1 point2 points3 points 4 years ago* (0 children)
+
+D language. Takes the inputs on a single line:
+
+import std.stdio, std.range, std.algorithm, std.random,
+       std.conv, std.string;
+
+void main(string[] args) {
+    foreach (ns; args[1 .. $].map!(p => p.split("d").to!(uint[])))
+        ns[0].iota.map!(_ => uniform(1, ns[1] + 1)).writeln;
+}
+
+Sample run:
+
+>dmd -run test 2d20 4d6
+[3, 11]
+[4, 3, 5, 4]
+
+For simplicity it accepts malformed inputs as "2d0d0d0".
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]vexxecon 1 point2 points3 points 4 years ago* (0 children)
+
+My solution, using javascript:
+
+var input = prompt("Please enter the dice you wish to roll","2d20");
+var amnt = '';
+var dsize = '';
+var rolls = Array();
+
+for (var i = 0; i < input.length; i++) {
+    if (input.charAt(i) == "d" || input.charAt(i) == "D") {
+        amnt = dsize;
+        dsize = '';
+    } else {
+        dsize += input.charAt(i);
+    }
+}
+
+amnt = parseInt(amnt);
+dsize = parseInt(dsize);
+
+for (var i = 0; i < amnt; i++) {
+    rolls[i] = Math.floor(Math.random() * dsize)+1;
+}
+alert(rolls);
+
+Bonus JSFiddle.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]gworroll 1 point2 points3 points 4 years ago (3 children)
+
+Python 3.3. I didn't bother doing the output formatting, in the Python REPL it
+will print the list which is close enough. Regex to validate and parse the
+input, simple loop to build the list of rolls.
+
+Blog post where I discuss my thought process in developing this solution. http:
+//georgeworroll.wordpress.com/2013/06/18/
+roll-the-dice-rdailyprogrammer-130-easy/
+
+And here's the code.
+
+#r/dailyprogrammer 130 Easy "Roll the dies"
+import random
+import re
+
+random.seed()
+def roll_the_dice(die_string):
+    """ Parses the die string of the form NdM, where N
+    is a number of dice and M is the number of faces of
+    the die.  IT then rolls the dice and returns a list
+    of each roll
+    """
+
+    #Parse out N and M with a regex
+    #Placeholder: Hardcoded N and M
+    (N,M) = get_dice_data(die_string)
+    #N = 3
+   # M = 6
+
+    results = []
+    for i in range(N):
+        results.append(random.randint(1, M))
+
+    return results
+
+def get_dice_data(die_string):
+    """Gets the number of dice and the number of faces
+    per die out of the string"""
+    r = re.match(r"(\d+)d(\d+)", die_string)
+    if r:
+         return (int(r.group(1)), int(r.group(2)))
+    else:
+        raise ValueError
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+load more comments (3 replies)
+
+[–]minikomi 1 point2 points3 points 4 years ago* (0 children)
+
+My racket version:
+
+#lang racket
+
+(define (rolldice n d)
+    (cond [(= 0 n) (newline)]
+          [else (display " ")
+              (display (+ 1 (random d)))
+              (rolldice (- n 1) d)]))
+
+(define (parse-diceroll nDd)
+    (display nDd) (display ":")
+    (apply rolldice
+        (map
+            (compose
+                string->number
+                bytes->string/utf-8)
+            (regexp-split #"[dD]" nDd))))
+
+(for ((nDd (current-command-line-arguments)))
+    (parse-diceroll nDd))
+
+$ racket ./dice.rkt 2d6 5d6
+2d6: 4 6
+5d6: 4 3 6 2 5
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]vulcant 1 point2 points3 points 4 years ago (0 children)
+
+C# solution:
+
+static void Main(string[] args)
+        {
+            string input = ""; int n, m;
+            var rollList = new List<int>(); var rand = new Random();
+            while (input != "q")
+            {
+                Console.Write("Enter dice roller in NdM format: ");
+                input = Console.ReadLine();
+                if (input == "q")
+                    break;
+                var temp = input.Split('d');
+                n = int.Parse(temp[0]);
+                m = int.Parse(temp[1]);
+                for (int i = 0; i < n; i++)
+                    rollList.Add(rand.Next(1,m+1));
+                foreach (var r in rollList)
+                   Console.Write("{0}\t", r);
+                Console.WriteLine();
+                rollList.Clear();
+
+            }
+        }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ashenrose 1 point2 points3 points 4 years ago* (1 child)
+
+A PHP solution (operating under the assumption that the input is pulled from a
+dropdown menu and can't be incorrectly submitted). Criticism is greatly
+appreciated.
+
+<?php
+
+$input = "5d20";
+
+function roller($input)
+
+{
+    $split = preg_split("(d)", "$input");   //Splits the string into an array based on delimiter "d"
+    list($rolls, $sides) = $split;             //Keys $split array
+
+    for($i = 1; $i <= $rolls; $i++)
+    {
+        print_r(rand(1, $sides) . " ");      //Gens a number (incl. & betw. 1-20 in this case) for each roll
+    }
+}
+
+return roller($input);
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+load more comments (1 reply)
+
+[–]TheoRoar 1 point2 points3 points 4 years ago (0 children)
+
+import std.stdio;
+import std.string;
+import std.random;
+import std.array;
+import std.conv;
+
+void main() {
+    writeln("Enter Die: ");
+    string userInput = chomp(readln());
+
+    string inputs[] = userInput.split("d");
+    int finalOutput = RollDie(to!int(inputs[0]), to!int(inputs[1]));
+
+    writeln(to!string(finalOutput));
+}
+
+int RollDie(int rolls, int face) {
+    auto rnd = Random(unpredictableSeed);
+    int output;
+    int roll;
+
+    for(int i = 0; i < rolls; i++) {
+        roll = uniform(1, face, rnd);
+        output += roll;
+        write(to!string(roll));
+        write(" ");
+    }
+    writeln();
+
+    return output;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jhrrsn 1 point2 points3 points 4 years ago (0 children)
+
+My solution in C++:
+
+#include <iostream>
+#include <sstream>
+
+using namespace std;
+
+string getInput()
+{
+  cout << "Enter your desired die roll(s):" << endl;
+  string input;
+  cin >> input;
+  return input;
+}
+
+int asInt(string s)
+{
+  istringstream buffer(s);
+  int numeric;
+  buffer >> numeric;
+  return numeric;
+}
+
+int diceRoll(int faces)
+{
+  return (rand() % faces) + 1;
+}
+
+int main()
+{
+  srand((int)time(0));
+
+  string sDiceInput = getInput();
+  string sRolls = sDiceInput.substr(0, sDiceInput.find('d'));
+  string sFaces = sDiceInput.substr(sDiceInput.find('d')+1, string::npos);
+
+  int nRolls = asInt(sRolls);
+  int nFaces = asInt(sFaces);
+
+  for (int i = 0; i < nRolls; i++)
+  {
+    cout << (diceRoll(nFaces)) << " ";
+  }
+
+  cout << endl;
+
+  return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+load more comments (147 replies)
+
+  • about
+  • blog
+  • about
+  • advertising
+  • careers
+
+  • help
+  • site rules
+  • Reddit help center
+  • wiki
+  • reddiquette
+  • mod guidelines
+  • contact us
+
+  • apps & tools
+  • Reddit for iPhone
+  • Reddit for Android
+  • mobile website
+  • buttons
+
+  • <3
+  • reddit gold
+  • redditgifts
+
+Use of this site constitutes acceptance of our User Agreement and Privacy
+Policy. (C) 2018 reddit inc. All rights reserved.
+
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+Advertise - technology
+
+[pixel]
+
+π Rendered by PID 16201 on app-214  at 2018-05-09 20:39:46.872356+00:00 running
+4b07d45 country code: CH.
+

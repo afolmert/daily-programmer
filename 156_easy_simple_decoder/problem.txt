@@ -1,0 +1,3333 @@
+close this window
+jump to content
+my subreddits
+edit subscriptions
+
+  • popular
+  • -all
+  • -random
+  • -users
+
+ | 
+
+  • AskReddit
+  • -worldnews
+  • -videos
+  • -funny
+  • -todayilearned
+  • -pics
+  • -gaming
+  • -movies
+  • -news
+  • -gifs
+  • -mildlyinteresting
+  • -aww
+  • -Showerthoughts
+  • -television
+  • -Jokes
+  • -science
+  • -OldSchoolCool
+  • -sports
+  • -IAmA
+  • -Documentaries
+  • -TwoXChromosomes
+  • -explainlikeimfive
+  • -personalfinance
+  • -books
+  • -tifu
+  • -Futurology
+  • -dataisbeautiful
+  • -WritingPrompts
+  • -nottheonion
+  • -food
+  • -Music
+  • -photoshopbattles
+  • -EarthPorn
+  • -philosophy
+  • -Art
+  • -nosleep
+  • -GetMotivated
+  • -askscience
+  • -LifeProTips
+  • -space
+  • -UpliftingNews
+  • -DIY
+  • -history
+  • -gadgets
+  • -creepy
+  • -listentothis
+  • -blog
+  • -announcements
+  • -InternetIsBeautiful
+
+more >>
+dailyprogrammer dailyprogrammer
+
+  • comments
+
+Want to join? Log in or sign up in seconds.|
+
+  • English
+
+[                    ][]
+[ ]limit my search to r/dailyprogrammer
+
+use the following search parameters to narrow your results:
+
+subreddit:subreddit
+    find submissions in "subreddit"
+author:username
+    find submissions by "username"
+site:example.com
+    find submissions from "example.com"
+url:text
+    search for "text" in url
+selftext:text
+    search for "text" in self post contents
+self:yes (or self:no)
+    include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+    include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+
+see the search faq for details.
+
+advanced search: by author, subreddit...
+
+this post was submitted on  01 Apr 2014
+91 points (95% upvoted)
+shortlink:  [https://redd.it/21w3]
+[                    ][                    ]
+[ ]remember mereset password
+login
+Submissions restricted
+Only approved users may post in this community.
+
+dailyprogrammer
+
+subscribeunsubscribe142,051 readers
+
+141 users here now
+
+ 1. Challenge #321: Easy
+ 2. Challenge #321: Intermediate
+ 3. Challenge #321: Hard
+ 4. Weekly #25: Escape the trolls
+
+Welcome to r/DailyProgrammer!
+
+First time visitors of Daily Programmer please Read the Wiki to learn
+everything about this subreddit.
+
+  • Solution Submission Tutorial
+  • Solution Submission Guidelines
+  • Code / Peer-Review Guidelines
+  • Problem Submission Guidelines
+  • Achievements System
+  • Community Projects
+  • Links to other Programming subreddits
+  • Special Thanks
+
+Can't submit solutions?
+
+If you are a new or unverified account, and are unable to post comment replies,
+please click here to verify your account. Otherwise, read the Solution
+Submission Tutorial for a walkthrough of submitting a solution, or click below
+to message the moderators for assistance.
+
+Write your own challenge!
+
+To help the community and write your own challenge to be submitted, head on
+over to /r/DailyProgrammer_Ideas and share your project - read the sidebar in
+that subreddit for more information.
+
+IRC Channel
+
+Message the Moderators
+
+Challenge List in Chronological Order
+
+created by nottoobadguya community for 6 years
+message the moderators
+
+MODERATORS
+
+  • rya111113 1
+  • nint221 2
+  • Cosmologicon2 3
+  • Elite68091 1
+  • XenophonOfAthens2 1
+  • jnazario2 0
+  • Godspiral3 3
+  • Blackshell2 0
+  • fvandepitte0 0
+  • G33kDude1 1
+  • about moderation team >>
+
+discussions in r/dailyprogrammer
+<>
+X
+ 
+42 . 10 comments
+[2018-05-09] Challenge #360 [Intermediate] Find the Nearest Aeroplane
+ 
+60 . 26 comments
+[2018-05-04] Challenge #359 [Hard] Primes in Grids
+ 
+41 . 37 comments
+[2018-05-02] Challenge #359 [Intermediate] Unwrap Some Text
+ 
+64 . 111 comments
+[2018-04-30] Challenge #359 [Easy] Regular Paperfold Sequence Generator
+ 
+70 . 12 comments
+[2018-04-27] Challenge #358 [Hard] Puzzle me this
+ 
+52 . 36 comments
+[2018-04-25] Challenge #358 [Intermediate] Everyone's A Winner!
+ 
+73 . 75 comments
+[2018-04-23] Challenge #358 [Easy] Decipher The Seven Segments
+ 
+56 . 28 comments
+[2018-04-20] Challenge #357 [Hard] Continued Fractions
+ 
+55 . 26 comments
+[2018-04-19] Challenge #357 [Intermediate] Kolakoski Sequences
+ 
+73 . 114 comments
+[2018-04-11] Challenge #356 [Intermediate] Goldbach's Weak Conjecture
+
+Welcome to Reddit,
+
+the front page of the internet.
+
+Become a Redditor
+
+and subscribe to one of thousands of communities.
+
+x
+
+90
+91
+92
+
+[4/1/2014] Challenge #156 [Easy] Simple Decoder (self.dailyprogrammer)
+
+submitted 4 years ago by Coder_d00d1 3
+
+Oops:
+
+By now you all have noticed /r/dailyprogrammer has added 3 new moderators. All
+of us including the existing moderators have been working hard to bring back 3
+challenges a week.
+
+We have had some minor issues with dates and challenge numbers. Many of the
+dates posted were said to be in "4" which is April and really should have been
+"3" for March. Also our numbering of challenges have been weird.
+
+So going forward this week we will start with 156. Each challenge this week
+will be 156 (easy, intermediate and hard). Next week all 3 challenges will be
+157. Etc. Also we will strive to update the 3 links at the top of the subreddit
+with the latest challenges and try to get dates correct on our postings. Thanks
+for your patience and your support!
+
+Description:
+
+To honor our mistake this week's easy challenge is to decode a message. I have
+encoded a message by adding a "4" to each character's ASCII value. It will be
+your job to decode this message by reversing the process and making a decoder.
+
+Input:
+
+Decode this message:
+
+Etvmp$Jsspw%%%%
+[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr
+mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix
+tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk
+f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv
+jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$
+Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}
+tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps
+{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$
+tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-
+Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-
+
+Output:
+
+As part of the challenge we leave it to the programmer to discover the correct
+output.
+
+  • 154 comments
+  • share
+  • save
+  • hide
+  • report
+
+all 154 comments
+sorted by:
+best
+topnewcontroversialoldrandomq&alive (beta)
+ [                    ]
+
+Want to add to the discussion?
+
+Post a comment!
+
+Create an account
+
+[–]Elite68091 1 30 points31 points32 points 4 years ago* (6 children)
+
+Befunge-93:
+
+0 952**7+    v
+>:3-        v6
+ >-  :3-::7v:6
+ 1         -8*
+ *         :+
++8         2
+66 v-+9**25<
+:^     **464<
+^         +8:<
+
+   >        :v
+   ^    ,+*88_@
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nomodz4real 31 points32 points33 points 4 years ago (4 children)
+
+what sort of hell is this?....
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Splanky2220 0 15 points16 points17 points 4 years ago (3 children)
+
+It's actually really cool. It's a 2-dimensional programming language. v, <, >,
+and ^ direct control flow around the document.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nomodz4real 9 points10 points11 points 4 years ago (2 children)
+
+intriguing but way over my head lol
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]TheGiantPanda 8 points9 points10 points 4 years ago (1 child)
+
+I bet it's what aliens code in.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nomodz4real 4 points5 points6 points 4 years ago (0 children)
+
+probably
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Coder_d00d1 3[S] 7 points8 points9 points 4 years ago (0 children)
+
+nice. I had to go look up this language. very cool :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]pikaaa 26 points27 points28 points 4 years ago (2 children)
+
+C++
+
+#include <iostream>
+
+std::ostream llllll(std::cout.rdbuf());
+
+template <typename lllll1, typename llll1l>
+void llll11(lllll1 & lll1ll, llll1l const& lll1l1)
+{
+  lll1ll << lll1l1;
+}
+
+char lll11l [] = "\n!dfloUHraWeKoqS(lP$ )bzJ%1";
+
+template <int lll111>
+void ll1lll()
+{
+  llll11(llllll, lll11l[lll111]);
+  ll1lll<!(lll111 % 2) ? (lll111 / 2) : ((3 * lll111 + 1) / 2)>();
+}
+
+template <>
+void ll1lll<1>()
+{
+  llll11(llllll, lll11l[1]);
+  llll11(llllll, lll11l[0]);
+}
+
+int main()
+{
+  ll1lll<7>();
+  std::cout<<"!!";
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]b93b3de72036584e40541 0 8 points9 points10 points 4 years ago (0 children)
+
+oh my god o_o
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]TheGiantPanda 7 points8 points9 points 4 years ago (0 children)
+
+I've found the closer I look at your code, the more it resembles abstract art.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Karl_von_Moor 12 points13 points14 points 4 years ago* (3 children)
+
+imo a lot of people here really missed the point.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Coder_d00d1 3[S] 10 points11 points12 points 4 years ago (0 children)
+
+;)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]lcowell 4 points5 points6 points 4 years ago (0 children)
+
+It seems like this exercise may have backfired.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]professorlamp1 0 2 points3 points4 points 4 years ago (0 children)
+
+Definitely
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Coder_d00d1 3[S] 12 points13 points14 points 4 years ago (6 children)
+
+The Truth.
+
+Welcome to the days after April the 1st or April's Fools day. The challenge was
+designed to be a fun challenge in the spirit of April's Fools day on the
+internet. Yes the challenge is super easy. Because we wanted people to decode
+the message and do the real challenge of posting just a fun hello world program
+as the message explained.
+
+It was interesting to see the responses. Thank you for the people who just
+posted Hello World Programs.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dont_press_ctrl-W 7 points8 points9 points 4 years ago (3 children)
+
+It's too bad because when I saw the challenge I thought "Wow, that's a rare
+challenge where Brainfuck might be the simplest language to use!". I almost
+didn't decode it and I was disappointed when I did. For my pleasure here's the
+9 symbol solution:
+
+,[----.,]
+
+it would be funny to ask if any other language can actually beat that.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]FelixMaxwell1 0 2 points3 points4 points 4 years ago (1 child)
+
+HQ9+ does it in 1 character
+
+H
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]dont_press_ctrl-W 0 points1 point2 points 4 years ago (0 children)
+
+No, I was referring to decreasing the input's ascii value by 4, not to the
+Hello World.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]AardvarkInDisguise 2 points3 points4 points 4 years ago (0 children)
+
+I was thinking the exact same thing.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]featherfooted 1 point2 points3 points 4 years ago (1 child)
+
+Not many people are going to drop into the thread and see this, I think.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Coder_d00d1 3[S] 1 point2 points3 points 4 years ago (0 children)
+
+Good point I might try a mod post
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]IceDane0 0 8 points9 points10 points 4 years ago (1 child)
+
+Haskell
+
+import Data.Char
+import Data.Bits
+import Data.Int
+
+type Boobs  = Int64
+type Burger = Boobs
+type Zebra  = Burger
+type Wizard = Int
+
+message =
+    concat
+    [ "Etvmp$Jsspw%%%%[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki"
+    , "2$Rs{$mx$mw$}syv$xyvr$xs$nsmrmr$sr$xlmw$tvero2$Hs$rsx$tswx$e"
+    , "r}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pixtistpi$higshi$x"
+    , "li$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$"
+    , "epsrkf}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$ts"
+    , "wx$}syv$wspyxmsr$xs$fi$}syvjezsvmxi$Lipps${svph$tvskveq$mr$s"
+    , "ri$perkyeki$sj$}syv$glsmgi2$Qeoi$wyvi$}syv$tvskveq$we}w$&Lip"
+    , "ps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}tistp i$fvs{wmrk$x"
+    , "li$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmr hw2$Xlswi${"
+    , "ls$tswx$lipps{svph$wspyxmsrw${mxlsyx$xli$xlvii$%% %${mpp$lez"
+    , "i$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$tspmxip}$ tsmrx$syx"
+    , "$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mr k$epsrk$"
+    , "{mxlsyx$ors{mrk-Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$li ph$f}$x"
+    , "lswi${ls$ger$higshi$xli$qiwweki2$>-"
+    ]
+
+decode =
+    map (chr . (+ (-(negate (- abs(offset))))) . ord) . magic
+  where
+    offset     :: Wizard
+    offset     = fromIntegral $ ((oxdeadbeef `div` boobs) - 1) `div` f05
+    oxdeadbeef :: Burger
+    oxdeadbeef = 0xdeadbeef
+    boobs      :: Zebra
+    boobs      = 0xb00b5
+    f05        :: Boobs
+    f05        = (0x144 `shiftL` 2) - 1
+    magic      = takeWhile (/= '&') . tail . dropWhile (/= '&')
+
+main = print $ decode message
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 1 point2 points3 points 4 years ago (0 children)
+
+Damn I need to start naming my variables "boobs" and "zebra". I may have to
+start looking for a new job soon after that but it'd be totally worth it.
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]HAEC_EST_SPARTA 12 points13 points14 points 4 years ago* (1 child)
+
+Brainf**k
+
+++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+...>++.
+
+Edit: Typographical error
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dont_press_ctrl-W 1 point2 points3 points 4 years ago (0 children)
+
+my attempt:
+
++++++++[>++++++<-]>+...........................................+++........................................................................---...+++.-...+.............................---...+++.-...+.......---...+++..-...+...---...+++.-.+...............................................................................---.+++.-...+.......................................................---...+++.-...+........................---...+++.-...+...---...+++.-.+......---.+++.-.+........---.+++.-.+...................................................................---.+++...
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ponkanpinoy 12 points13 points14 points 4 years ago* (0 children)
+
+Common Lisp:
+
+(defun decode ()
+    (map 'string (lambda (c) (code-char (- c 4)))
+        '(76 105 112 112 115 36 91 115 118 112 104 37 37 37)))
+
+EDIT: one-liner
+
+,hijyr$higshi$,wxv$wlmjx-$,qet$+wxvmrk$,peqfhe$,g-$,gshi1glev$,/$,glev1gshi$g-$wlmjx---$wxv--
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ooplease0 0 5 points6 points7 points 4 years ago* (0 children)
+
+MIPS assembly:
+
+.data
+
+message: .asciiz "Etvmp$Jsspw%%%%L[ei}$pxsp$kss%$$][sys$lvezpi$hws%pz%ih%$x\0li$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmrmr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pitistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrkf}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syvjezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-"
+
+.text
+.globl main
+
+main:
+    la $t0,message
+    addi $t2,$t0,15
+    loop1:
+        lb $t1,($t2)
+        beqz $t1,endLoop1
+        addi $t1,$t1,-4
+        sb $t1,($t0)
+        addi $t2,$t2,3
+        addi $t0,$t0,1
+        j loop1
+    endLoop1:
+    sb $t1,($t0)
+    li $v0,4
+    la $a0,message
+    syscall
+exit:
+    li $v0,10
+    syscall
+
+edit: magic
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pbeard_t0 1 6 points7 points8 points 4 years ago (1 child)
+
+C
+
+#include <stdio.h>
+#define lllll int
+#define llllll 15
+#define lllllll(llllllll,lll) do llllllll while(lll)
+#define llll(lllllllll) lllll lllllllll=llllll;lllllll({putchar((llllll\
+-lllllllll)[ll]+lllllllll);--lllllllll;},lllllllll)
+lllll ll[] = { 57,87,95,96,100,22,110,103,107,102,95,29,30,31,9 };
+lllll main() { llll(lll); return lll; }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dangerbird2 9 points10 points11 points 4 years ago (0 children)
+
+This shit confirms my fears of the C preprocessor.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]MonkeH13 13 points14 points15 points 4 years ago* (2 children)
+
+PHP:
+
+<?php
+$encoded = 'Etvmp$Jsspw%%%%'
+    .'[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr'
+    .'mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix'
+    .'tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk'
+    .'f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv'
+    .'jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$'
+    .'Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}'
+    .'tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps'
+    .'{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$'
+    .'tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-'
+    .'Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-';
+
+solution($encoded);
+
+//-----------------------------------------------------------------------------
+// Decoder Solution
+//-----------------------------------------------------------------------------
+
+function solution($encoded)
+{
+    $decoded = array_map(function ($char) {
+        return chr(ord($char) - 4);
+    }, str_split($encoded));
+
+    $decodedString = join('', $decoded);
+    echo substr($decodedString, 336, 11)."!!!";
+}
+
+EDIT: Downvoted for?! :o I've done exactly as the message stated! ;)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]PHProx 2 points3 points4 points 4 years ago (0 children)
+
+Nicely done!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Elite68091 1 2 points3 points4 points 4 years ago (0 children)
+
+Veeery sneaky, I like it! :D
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]raging_hipster 8 points9 points10 points 4 years ago (0 children)
+
+one liner
+
+print "".join(chr(int(i)) for i in "104 101 108 108 111 32 119 111 114 100 33 33 33".split())
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]TolaBonbon 2 points3 points4 points 4 years ago (0 children)
+
+My javascript solution. I'm going for clean code, not short code:
+
+var input = "Etvmp$Jsspw%%%%\
+[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr\
+mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix\
+tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk\
+f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv\
+jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$\
+Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}\
+tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps\
+{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$\
+tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-\
+Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-"
+
+var decodedMessage = "";
+
+for(var i = 0; i < input.length; i++){
+    var charCode = input.charCodeAt(i);
+    var charCodeOffset = -4;
+
+    decodedMessage += String.fromCharCode(charCode + charCodeOffset);
+}
+
+print(decodedMessage);
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]toodim 7 points8 points9 points 4 years ago (6 children)
+
+Python solution using regular expressions.
+
+import re
+
+inp = "Etvmp$Jsspw%%%%\
+[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr\
+mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix\
+tistpi$higshi$$He$xli$qiwweki$sr$xlimv$s{r$erh$$ll$vieh$xlmw$qiwweki2$]sy$$o $ger$tpe}$epsrk\
+f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv\
+jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$\
+Qeoi$wyvi$}syv$tvskveq$$Wor$e}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}\
+tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro$$ld${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps\
+{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$\
+tspmxip}$tsmrx$syx$xlimv$$!!!$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-\
+Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-"
+
+
+def decoder(s):
+    answer = "".join(re.findall('\$\$[^\$]+\$', s))
+    print ( re.sub('\$+',"",answer) )
+
+decoder(inp)
+
+Output:
+
+Hello World!!!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]featherfooted 4 points5 points6 points 4 years ago (0 children)
+
+This one's my favorite. I don't know how the fuck you managed to do that/came
+up with that.
+
+It looks like you hid each of the output characters inside the input string and delimited them with dollar signs ($), but I can't say I understand how replacing '\$+'. doesn't just delete everything, including the intended output text.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]the_mighty_skeetadon 3 points4 points5 points 4 years ago (2 children)
+
+FYI, you can simplify your processing using lookahead and lookbehind, like the
+following Regex:
+
+/(?<=\$\$)[^\$]+(?=\$)/
+
+Then you don't need to delete the dollar signs from the result.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]toodim 1 point2 points3 points 4 years ago (1 child)
+
+Cool, thanks for the tip.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]the_mighty_skeetadon 0 points1 point2 points 4 years ago (0 children)
+
+glad to help!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Nitrodist 0 points1 point2 points 4 years ago (1 child)
+
+WTH, how is that the output text? Can you explain exactly what the regex is
+doing?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]IMHERETOCODE 1 point2 points3 points 4 years ago* (0 children)
+
+    \$\$[^\$]+\$
+
+It looks like it is searching for a double dollarsign ($$) and takes what is in
+between those and the next single dollarsign.
+
+So in the input block there is:
+
+    inp = "Etvmp$Jsspw%%%%\ [e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs
+    {$mx$mw$}syv$xyvr$xs$nsmr\ mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex$
+    {mpp$kmzi$e{e}$xlmw$qiwweki2$Pix\ tistpi$higshi$$He$xli$qiwweki$sr$xlimv$s
+    {r$erh$$ll$vieh$xlmw$qiwweki2$]sy$$o $ger$tpe}$epsrk\ f}$RSX$tswxmrk$ls{$}
+    sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv\
+    jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$\ Qeoi$wyvi$}
+    syv$tvskveq$$Wor$e}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}\
+    tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro$$ld$
+    {i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps\ {svph$wspyxmsrw$
+    {mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$\
+    tspmxip}$tsmrx$syx$xlimv$$!!!$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps
+    {mrk$epsrk${mxlsyx$ors{mrk-\ Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}
+    $xlswi${ls$ger$higshi$xli$qiwweki2$>-"
+
+[DEL:I'm not sure what the .sub() is doing, because it looks like the regex
+isn't even capturing any of the dollar signs? I know very little about re
+though.:DEL]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+edit: Just ran a test on the code, and it actually does pull the dollar signs
+with it? Weird, I always thought that it only captured what was inside of the
+brackets, and the brackets say anything not a dollarsign... ¯\_(ツ)_/¯
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]trevdak2 2 points3 points4 points 4 years ago (0 children)
+
+Malbolge:
+
+('&%:9]!~}|z2Vxwv-,POqponl$Hjig%eB@@>}=<M:9wv6WsU2T|nm-,jcL(I&%$#"`CB]V?Tx<uVtT`Rpo3NlF.Jh++FdbCBA@?]!~|4XzyTT43Qsqq(Lnmkj"Fhg${z@>
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]IMHERETOCODE 4 points5 points6 points 4 years ago* (0 children)
+
+Objective-C (improved):
+
+    NSString *input = @"Etvmp$Jsspw%%%%"
+    "[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr"
+    "mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix"
+    "tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk"
+    "f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv"
+    "jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$"
+    "Qeoi$wyvi$}syv$tvskveq$we}w$&amp;amp;Lipps$[svph%%%&amp;amp;${mxl$7$%$ex$xli$irh2$Xlmw${e}"
+    "tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps"
+    "{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$"
+    "tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-"
+    "Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-";
+    NSArray *key = [@"72 101 108 108 111 32 87 111 114 108 100 33 33 33" componentsSeparatedByString:@" "];
+    NSString *decoded = [[NSString alloc] init];
+
+
+    for (NSString *value in key) {
+        decoded = [decoded stringByAppendingFormat:@"%c", [value intValue]];
+    }
+
+    NSLog(@"%@", decoded);
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Coder_d00d1 3[S] 6 points7 points8 points 4 years ago (0 children)
+
+BASIC
+
+1010 REM **************************
+1020 REM * Solution
+1030 REM **************************
+1040 GOTO 1190
+1050 END
+1060 PRINT " "
+1070 GOTO 1080
+1080 PRINT "W"
+1090 GOTO 1170
+1100 PRINT "L"
+1105 GOTO 1150
+1110 PRINT "E"
+1120 GOTO 1100
+1130 PRINT " "
+1140 GOTO 1050
+1150 PRINT "L"
+1160 GOTO 1270
+1170 PRINT "O"
+1180 GOTO 1230
+1190 PRINT "H"
+1200 GOTO 1110
+1210 PRINT "L"
+1220 GOTO 1250
+1230 PRINT "R"
+1240 GOTO 1210
+1250 PRINT "D!!!"
+1260 GOTO 1050
+1270 PRINT "O"
+1280 GOTO 1060
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]KillerCodeMonky 3 points4 points5 points 4 years ago (0 children)
+
+Powershell:
+
+[String]::Join("", $(@(76, 105, 112, 112, 115, 36, 91, 115, 118, 112, 104, 37, 37, 37) |% { [Convert]::ToChar($_ - 4) }))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]demon_ix1 0 2 points3 points4 points 4 years ago (2 children)
+
+Java
+
+public class Decoder {
+
+    public static final String message =
+        "Etvmp$Jsspw%%%%" +
+        "[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr" +
+        "mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix" +
+        "tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk" +
+        "f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv" +
+        "jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$" +
+        "Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}" +
+        "tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps" +
+        "{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$" +
+        "tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-" +
+        "Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-";
+
+    public static String decoded(String input) {
+        int[] key = {29, 7, 0, 3, -79, 55, 24, 3, -6, -8, -67, 0, 0};
+        int i = 76;
+        StringBuilder sb = new StringBuilder();
+        for (int k: key) {
+            sb.append((char)(i-4));
+            i += k;
+        }
+        return sb.toString();
+    }
+
+    public static void main(String[] args) {
+        System.out.println(decoded(message));
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]SixCrazyMexicans 1 point2 points3 points 4 years ago (1 child)
+
+i dont understand where you get the key[] values from :(
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]demon_ix1 0 1 point2 points3 points 4 years ago (0 children)
+
+Either from complex elliptic curve math, or from running a short subtraction on
+the output and putting the result in an array. I forget which one it was.
+
+If you haven't already, I suggest running this first :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Edward_H 4 points5 points6 points 4 years ago* (0 children)
+
+COBOL:
+
+IDENTIFICATION DIVISION.
+PROGRAM-ID. decoder.
+
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+01  chars PIC X(15) VALUE X"4C6970707330247B73767068252525".
+01  i     PIC 99.
+
+PROCEDURE DIVISION.
+    PERFORM VARYING i FROM 1 BY 1 UNTIL i > 15
+        DISPLAY FUNCTION CHAR(FUNCTION ORD(chars (i:1)) - 4) WITH NO ADVANCING
+    END-PERFORM
+    DISPLAY SPACE
+    .
+END PROGRAM decoder.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]JaxMed 1 point2 points3 points 4 years ago (0 children)
+
+Here is mine, utilizes both the given input while also remaining true to the
+given specifications:
+
+C#
+
+using System;
+using System.Text;
+using System.Collections.Generic;
+using System.IO;
+
+namespace DailyProgrammer
+{
+    class Program
+    {
+        private const string hiddenMessage =
+            "Etvmp$Jsspw%%%%" +
+            "[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr" +
+            "mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix" +
+            "tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk" +
+            "f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv" +
+            "jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$" +
+            "Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}" +
+            "tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps" +
+            "{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$" +
+            "tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-" +
+            "Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-";
+
+
+        private static List<int> decodeRules = new List<int>()
+        {
+            40,-32,16,0,30,0,43,0,104,0,5,-4,10,-32,390,0,51,0,46,0,64,-23,11,-4,428,-4,24,-4
+        };
+
+        static void Main(string[] args)
+        {
+            char[] encodedChars = hiddenMessage.ToCharArray();
+
+            char[] decodedChars = new char[decodeRules.Count/2];
+            for (int x = 0; x < decodedChars.Length; x++)
+                decodedChars[x] = (char)(encodedChars[decodeRules[x*2]] + decodeRules[x*2 + 1]);
+
+            Console.WriteLine(decodedChars);
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]savage8841 1 1 point2 points3 points 4 years ago (0 children)
+
+using System;
+using System.Linq;
+
+namespace SimpleDecoder
+{
+    class Program
+    {
+        // As you can see, I hate parsing input
+        const string Message = "Etvmp$Jsspw%%%%\n"
+            + "[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr"
+            + "mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwwekLipps0${svph%%%i2$Pix"
+            + "tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk"
+            + "f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv"
+            + "jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$"
+            + "Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}"
+            + "tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps"
+            + "{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$"
+            + "tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-"
+            + "Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-";
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine(new string(Message.Skip(4 * 40).Take((int)Math.Sqrt(225)).Select(c => c == '\n' ? '\n' : Convert.ToChar(((int)c) - 4)).ToArray()));
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dongas420 1 point2 points3 points 4 years ago* (0 children)
+
+Perl:
+
+$num =
+"24616d3d277768696c65273b24766572793d2728273b246d6f64656c3d27" .
+"3c535444494e3e273b24613d2729273b246d6f6465726e3d277b273b244d" .
+"616a6f723d27737072696e7466273b2447656e6572616c3d272f5b5c725c" .
+"6e5d2f273b244976653d273f273b24696e666f726d6174696f6e3d27245f" .
+"273b24766567657461626c653d273a273b24616e696d616c3d2763687227" .
+"3b246d696e6572616c3d2728273b246b6e6f773d276f7264273b246b696e" .
+"67733d2728273b24456e676c616e643d27245f273b2471756f74653d2729" .
+"273b246669676874733d272d273b24686973746f726963616c3d2734273b" .
+"2446726f6d3d2729273b244d61726174686f6e3d27666f72273b24746f3d" .
+"2773706c6974273b2457617465726c6f6f3d272f2f273b24696e3d273b27" .
+"3b246f726465723d277d273b2463617465676f726963616c3d277072696e" .
+"74202248656c6c6f20576f726c64212121223b27";
+
+$thing1 =
+"247468696e6732202e3d20737072696e7466206368722068657820245f20" .
+"666f7220246e756d203d7e206d2f2e2e2f673b";
+
+$thing1 =~ s/([a-f0-9]{2})/chr hex $1/ge;
+
+eval $thing1;
+eval $thing2;
+eval
+"$I $am $the $very $model $of $a $modern $Major $General
+$Ive $information $vegetable $animal $and $mineral
+$I $know $the $kings $of $England $and $I $quote $the $fights $historical
+$From $Marathon $to $Waterloo $in $order $categorical";
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]FusionXIV 1 point2 points3 points 4 years ago (0 children)
+
+Java:
+
+class Decoder
+{
+    public static void main (String[] args)
+    {
+        String input = "Etvmp$Jsspw%%%%" +
+"[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr" +
+"mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix" +
+"tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk" +
+"f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv" +
+"jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$" +
+"Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}" +
+"tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps" +
+"{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$" +
+"tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-" +
+"Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-";
+
+        String output = "";
+        for(char letter:input.toCharArray())
+            output += (char)(letter - 4);
+        System.out.println(Decoder.output);
+    }
+
+
+
+
+    public static String output = "Hello World!!!";
+}
+
+Output:
+
+Hello World!!!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 4 years ago* (2 children)
+
+[deleted]
+
+[–]mcbubblelite 0 points1 point2 points 4 years ago (0 children)
+
+Sneaky! I like it!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]turbollie 1 point2 points3 points 4 years ago* (3 children)
+
+This one was rather simple!
+
+#include <iostream>
+#include <string>
+
+static const std::string validChars =
+             "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+             "abcdefghijklmnopqrstuvwxyz"
+             "0123456789+/";
+
+static const std::string toDecrypt =
+    "Etvmp$Jsspw%%%%"
+    "[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr"
+    "mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix"
+    "tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk"
+    "f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv"
+    "jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$"
+    "Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}"
+    "tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps"
+    "{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$"
+    "tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-"
+    "Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-";
+
+static inline bool is_Valid(unsigned char c) {
+  return (isalnum(c) || (c == '+') || (c == '/'));
+}
+
+std::string getOutput(std::string const& encoded_string) {
+  int in_len = encoded_string.size();
+  int i = 0;
+  int j = 0;
+  int in_ = 0;
+  unsigned char char_array_4[4], char_array_3[3];
+  std::string ret;
+
+  while (in_len-- && ( encoded_string[in_] != '=') && is_Valid(encoded_string[in_])) {
+    char_array_4[i++] = encoded_string[in_]; in_++;
+    if (i ==4) {
+      for (i = 0; i <4; i++)
+        char_array_4[i] = validChars.find(char_array_4[i]);
+
+      char_array_3[0] = (char_array_4[0] << 2) + ((char_array_4[1] & 0x30) >> 4);
+      char_array_3[1] = ((char_array_4[1] & 0xf) << 4) + ((char_array_4[2] & 0x3c) >> 2);
+      char_array_3[2] = ((char_array_4[2] & 0x3) << 6) + char_array_4[3];
+
+      for (i = 0; (i < 3); i++)
+        ret += char_array_3[i];
+      i = 0;
+    }
+  }
+
+  if (i) {
+    for (j = i; j <4; j++)
+      char_array_4[j] = 0;
+
+    for (j = 0; j <4; j++)
+      char_array_4[j] = validChars.find(char_array_4[j]);
+
+    char_array_3[0] = (char_array_4[0] << 2) + ((char_array_4[1] & 0x30) >> 4);
+    char_array_3[1] = ((char_array_4[1] & 0xf) << 4) + ((char_array_4[2] & 0x3c) >> 2);
+    char_array_3[2] = ((char_array_4[2] & 0x3) << 6) + char_array_4[3];
+
+    for (j = 0; (j < i - 1); j++) ret += char_array_3[j];
+  }
+
+  return ret;
+}
+
+int main() {
+
+  std::cout << getOutput(std::string("SGVsbG8gV29ybGQhISENCg")) << std::endl;
+
+  getchar();
+  return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]masterftp 0 points1 point2 points 4 years ago (1 child)
+
+any line starting with 4 spaces is treated as code. in your IDE select the code
+and hit tab key, it should add four spaces to every line(doesnt work in windows
+notepad). paste it in the comment and it should work.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]turbollie 0 points1 point2 points 4 years ago (0 children)
+
+Ah, thanks.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]felix1429 -1 points0 points1 point 4 years ago (0 children)
+
+    rather simple
+
+    has longest code on page
+
+I jest, good job :P
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]dooglehead 4 points5 points6 points 4 years ago (3 children)
+
+x86 Assembly (assembled with MASM)
+
+.386
+.model flat, stdcall
+option casemap :none
+
+include \masm32\include\windows.inc
+include \masm32\include\kernel32.inc
+include \masm32\include\masm32.inc
+includelib \masm32\lib\kernel32.lib
+includelib \masm32\lib\masm32.lib
+
+.data
+    message       db      "Hello World!!!", 10, 0
+
+.code
+start:
+    mov eax, offset message
+    push eax
+    call StdOut
+    push 0
+    call ExitProcess
+end start
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]beefcheese 5 points6 points7 points 4 years ago* (2 children)
+
+Isn't this just a Hello World program?
+
+edit: Now I see
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Coder_d00d1 3[S] 4 points5 points6 points 4 years ago (0 children)
+
+yup solves the challenge quite well.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]HAEC_EST_SPARTA 2 points3 points4 points 4 years ago (0 children)
+
+Yes, it is.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Zapman 3 points4 points5 points 4 years ago (1 child)
+
+Not the most elegant solution in Ruby, but gets the job done...
+
+str = "Etvmp$Jsspw%%%%
+[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr
+mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix
+tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk
+f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv
+jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$
+Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}
+tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps
+{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$
+tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-
+Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-"
+
+(0..(str.length-1)).each { |i| str[i] = (str[i].ord - ((i - 6) / 16) % 26 - 4).abs.chr }
+print str[str.index('"')+1, str.index('"', str.index('"')+1) - str.index('"')-1]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]the_mighty_skeetadon 1 point2 points3 points 4 years ago (0 children)
+
+Not sure why someone downvoted you... it's a perfect solution.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]hkoh59 1 point2 points3 points 4 years ago (0 children)
+
+python 2.7
+
+# initialize a with some random string
+a = "hello world!"
+code = """
+    Etvmp$Jsspw%%%%
+    [e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr
+    mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix
+    tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk
+    f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv
+    jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$
+    Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}
+    tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps
+    {svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$
+    tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-
+    Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-
+    """
+
+def decode(code):
+    a = []
+    for i in range(0, len(code)):
+        a.append(chr(ord(code[i]) - 4))
+
+decode(code)
+print a
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]azamatsmith 1 point2 points3 points 4 years ago (0 children)
+
+JavaScript:
+
+var encodedString = "Etvmp$Jsspw%%%%" +
+"[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr"+
+"mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix"+
+"tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$"+
+"f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv"+
+"jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$"+
+"Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}"+
+"tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps"+
+"{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$"+
+"tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-"+
+"Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-";
+
+var newString = '';
+
+function decode(x) {
+
+    xArray = x.split('');
+
+    for (var i = 0; i < xArray.length; i++){
+
+        newString += realValue(xArray[i]);
+
+    } // end for loop
+
+    var decoderStart = newString.indexOf(String.fromCharCode(34));
+
+    console.log(newString.substring(decoderStart+1,decoderStart+15));
+
+} // end decode function
+
+function realValue(y){
+    return String.fromCharCode(y.charCodeAt()-4);
+} // end realValue function
+
+decode(encodedString);
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Frigguggi0 1 0 points1 point2 points 4 years ago* (0 children)
+
+RISC:
+
+        .text
+        .globl __start
+__start:
+        la      $s0, msgIn
+        la      $s1, msgOut
+loop:
+        lb      $s2, ($s0)
+        beqz    $s2, end
+        sb      $s2, ($s1)
+        add     $s0, $s0, 1
+        add     $s1, $s1, 1
+        b       loop
+
+end:
+        la      $a0, msgOut
+        li      $v0, 4
+        syscall
+
+        li      $v0, 10
+        syscall
+
+        .data
+msgIn:  .byte   72, 101, 108, 108, 111, 32, 119, 111, 114, 108, 100, 33, 33, 33, 0
+msgOut: .asciiz "              "
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]skeeto-9 8 0 points1 point2 points 4 years ago (0 children)
+
+C99.
+
+#include <stdio.h>
+int main() {
+    int c = 1;
+    for (int i = 0; i < 4; i++) c += getchar() + 1;
+    while (c--) getchar();
+    c = (getchar() + getchar()) / 5;
+    while (c--) {
+        putchar(getchar() - 4);
+    }
+    return 0;
+}
+
+Usage:
+
+$ cc -std=c99 decode.c -o decode
+$ ./decode < input.txt
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]campsun 0 points1 point2 points 4 years ago (0 children)
+
+Javascript
+
+function simple_decoder(text) {
+    var result = '';
+
+    for (var i = 0; i < text.length; i++) {
+        result += String.fromCharCode(text.charCodeAt(i) - 4);
+    }
+
+    return result;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 4 years ago (0 children)
+
+My solution in Dart:
+
+import 'dart:math';
+
+decodeMessage(String f){
+   String cipher = "Etvmp\$Jsspw%%%%[e}\$xs\$ks%\$]sy\$lezi\:"+
+  "\$wspzih\$xli\$lmhhir\$qiwweki2\$Rs{\$mx\$mw\$}syv\$xyvr\$xs\$ns   mr"+
+ "mr\$sr\$xlmw\$tvero2\$Hs\$rsx\$tswx\$er}xlmrk\$xlex\${mpp\$kmzi\     $e{e}\$xlmw\$qiwweki2"+
+"\$Pixtistpi\$higshi\$xli\$qiwweki\$sr\$xlimv\$s{r\$erh\$vieh\$xlmw\$qi    wweki2\$]sy\$ger"+
+"\$tpe}\$epsrkf}\$RSX\$tswxmrk\$ls{\$}sy\$higshih\$xlmw\$qiwweki2\    $Mrwxieh\$tswx\$}syv"+
+"\$wspyxmsr\$xs\$fi\$}syvjezsvmxi\$Lipps\${svph\$tvskveq\$mr\$sri\$    perkyeki\$sj\$}syv\$glsmgi2"+
+"\$Qeoi\$wyvi\$}syv\$tvskveq\$we}w\$&Lipps\$[svph%%%&\${mxl\$7    \$%\$ex\$xli\$irh2\$Xlmw\${e}"+
+"tistpi\$fvs{wmrk\$xli\$gleppirki\${mpp\$xlmro\${i\$lezi\$epp\$pswx\$    syv\$qmrhw2\$Xlswi\${ls\$tswx\$lipps"+
+"    {svph\$wspyxmsrw\${mxlsyx\$xli\$xlvii\$%%%\${mpp\$lezi\$rsx\$hig    shih\$xli\$qiwweki\$erh\$ws\$}sy\$ger\$"+
+"tspmxip}\$tsmrx\$syx\$xlimv\$wspyxmsr\$mw\$mr\$ivvsv\$,xli}\$evi\    $nywx\$jspps{mrk\$epsrk\${mxlsyx\$ors{mrk-"+
+"Irns}\$xlmw\$jyr2\$Xli\$xvyxl\${mpp\$fi\$liph\$f}\$xlswi\${ls\$ger\$h      igshi\$xli\$qiwweki2\$>-";
+  String b ="llo";
+  print(b);
+}
+
+nonsense(String l){
+  print(" w");
+}
+
+randomStringGen(num aNumber){
+  String x = " ";//initializes placeholder
+  var random = new Random();
+  x = random.toString();
+  print('orld$aNumber');
+ }
+
+main(){
+  String y = " ";
+  print("he");
+  decodeMessage(y);
+  nonsense(y);
+ num i = randomStringGen(3);
+ if (i == 3){
+   print(" ");
+ }
+ else(){
+   print("UNDECODEABLE");
+ };
+
+ }
+
+The output's formatting looks terrible, but it works.
+
+  • permalink
+  • embed
+  • save
+
+[–]dangerbird2 0 points1 point2 points 4 years ago* (0 children)
+
+C This was a toughie, the visual studio compiler doesn't seem to work very
+nicely with ASCII.
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+    char message[] = "Etvmp$Jsspw%%%%[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmrmr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pixtistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrkf}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syvjezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-";
+char *newstr = (char*) malloc(sizeof(message) + 1);
+char key[] ={0x48, 0x65, 0x6c, 0x6c, 0x6f, 0x20, 0x57, 0x6f, 0x72, 0x6c, 0x64, 0x21, 0x21, 0x21, 0};
+int i;
+for (i=0; message[i] != '\0'; i++) {
+    newstr[i] = (message[i] - '4') * 0;
+}
+strcpy(newstr, key);
+printf("%s\n", newstr);
+//free(newstr)
+//memory leaks? what's the big deal?
+return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]diddystacks 0 points1 point2 points 4 years ago (0 children)
+
+Some Python:
+
+def decoder(string):
+    key = [72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100, 33, 33, 33]
+    listed = [c for c in string]
+    answer = []
+    for c in listed:
+        if len(key) > 0:
+            if (ord(c) - 4 == key[0]):
+                answer.append(chr(key.pop(0)))
+   print ''.join(answer)
+usage: decoder(yourString)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]vorophobe 0 points1 point2 points 4 years ago (0 children)
+
+C
+
+void main(void) {
+
+int i = 0;
+char decode = 0;
+char *string = "Etvmp$Jsspw%%%%\
+[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr\
+mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix\
+tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk\
+f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv\
+jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$\
+Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}\
+tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps\
+{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$\
+tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-\
+Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-";
+
+while(string[i] != NULL) {
+    decode = string[i] - 4;
+    printf("%c", decode);
+    i++;
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]hobbified 0 points1 point2 points 4 years ago (0 children)
+
+Perl 5:
+
+print pack "N*", 1214606444, 1864390511, 1919706145, 555813376;
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]professorlamp1 0 0 points1 point2 points 4 years ago* (4 children)
+
+Finally learning a new language, thought I'd test it out. I trimmed the message
+for less mess in the code.
+
+C#
+
+using System;
+
+public class Test
+{
+    public static void Main()
+    {
+          Console.WriteLine("Hello World!");
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]featherfooted 1 point2 points3 points 4 years ago (3 children)
+
+I tried your code, but it doesn't seem to work. I think there must be a bug,
+because your code doesn't print the right output.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]professorlamp1 0 0 points1 point2 points 4 years ago (2 children)
+
+Fixed ;D
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]featherfooted 0 points1 point2 points 4 years ago (0 children)
+
+There ya go. :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]coditza 0 points1 point2 points 4 years ago (0 children)
+
+Still wrong!!!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]kdoblosky 0 points1 point2 points 4 years ago (0 children)
+
+PowerShell one-liner, assuming you've stored the plaintext in $msg:
+
+[String]::Join("", (@($msg, 72,101,108,108,111,32,87,111,114,108,100,33,33,33)[1..14] | % { [string][char]$_ }))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]coditza 0 points1 point2 points 4 years ago* (0 children)
+
+Here is another php solution:
+
+$str = '... PUT THE MESSAGE HERE ...';
+
+for ($i=0,$j=0;$i<strlen($str);$i++) {
+    echo chr(((!$j&&ord($str[$i])==(ord('"')+4))?chr(($j++*$i++)*0):'')*0)
+    .chr(($j&&ord($str[$i])==(ord('"')+4))?chr(($j--)*0):'')
+    .($j?chr(ord($str[$i])-4):''); }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]the_mighty_skeetadon 0 points1 point2 points 4 years ago (0 children)
+
+Ruby one-liner:
+
+[72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100, 33, 33, 33].each {|c| STDOUT << ''.concat(c) }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]VerifiedMyEmail 0 points1 point2 points 4 years ago (0 children)
+
+python 2.7
+
+def decoder(string):
+    output = ''
+    for character in string:
+        output += chr(ord(character) - 4)
+    print output
+
+decoder('Etvmp$Jsspw%%%%')
+
+one liner
+
+ print ''.join(map(lambda x: chr(ord(x) - 4), 'Etvmp$Jsspw%%%%'))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Aceofsquares_orig 0 points1 point2 points 4 years ago (0 children)
+
+Processing
+
+String encrypted = "Etvmp$Jsspw %%%%[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmrmr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pixtistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrkf}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syvjezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-";
+int eKey[] = new int[]{72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100, 33, 33, 33};
+
+void setup()
+{
+  size(200, 75);
+  background(0, 0, 0);
+
+  fill(255);
+  textAlign(CENTER);
+}
+
+void draw()
+{
+  background(0, 0, 0);
+  String solution = "";
+  char c[] = encrypted.toCharArray();
+  for(int i = 0; i < 14 % c.length; i++)
+  {
+    solution = solution + (char)((int)c[i] % 1 + eKey[i]);
+  }
+  text(solution, width/2, height/2);
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]BondDotCom 0 points1 point2 points 4 years ago (0 children)
+
+Here's a VBScript solution that shows how you can use a "map" function similar
+to JavaScript and other languages.
+
+a = Split("L/i/p/p/s/0/$/{/s/v/p/h/%/%/%", "/")
+Map a, GetRef("SubtractFour")
+MsgBox Join(a, "")
+
+Sub Map(a, f)
+    For i = 0 To UBound(a)
+        a(i) = f(a(i))
+    Next
+End Sub
+
+Function SubtractFour(c)
+    SubtractFour = Chr(Asc(c) - 4)
+End Function
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]cmcollander 0 points1 point2 points 4 years ago (0 children)
+
+AVR C
+
+#include <avr/io.h>
+#include <util/delay.h>
+#include "USART.h"
+
+#define ASCII_OFFSET = (1<<2)
+
+int main(void) {
+    DDRB = (1<<3);
+initUSART();
+const uint8_t m[] = {(1<<4)|(1<<7), (1<<3)|(1<<6)|(1<<7),(1<<0)|(1<<3)|(1<<4)|(1<<6)|(1<<7),(1<<0)|(1<<3)|(1<<4)|(1<<6)|(1<<7),~((1<<4)|(1<<7)),(1<<6),
+~((1<<3)|(1<<5)|(1<<7))~((1<<4)|(1<<7)),(1<<1)|(1<<4)|(1<<5)|(1<<6),(1<<0)|(1<<3)|(1<<4)|(1<<6)|(1<<7),(1<<2)|(1<<5)|(1<<6),(1<<0)|(1<<5),(1<<0)|(1<<5),(1<<0)|(1<<5)}
+for(uint8_t i = 0; i < 14; i++) {
+    printChar(m[i]);
+    _delay_ms(ASCII_OFFSET);
+}
+while(1) {
+    PORTB^=(1<<3);
+    _delay_ms(1000);
+}
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Octopuscabbage 0 points1 point2 points 4 years ago (1 child)
+
+Python multithreaded approach to handle complex computations
+
+from multiprocessing import Pool
+
+data =[
+    76, 105, 112, 112, 115, 36, 91, 115, 118, 112, 104, 37, 37, 37,
+]
+
+
+def decode(char):
+       return chr(char-4)
+pool = Pool()
+results = pool.map(decode,data)
+
+pool.close()
+pool.join()
+
+print("".join(results))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Octopuscabbage 0 points1 point2 points 4 years ago (0 children)
+
+Weird side note: It wouldn't let me use a lambda function for pool.map, anyone
+know why?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]thinksInCode 0 points1 point2 points 4 years ago (0 children)
+
+Java:
+
+import java.util.stream.IntStream;
+
+public class Decoder {
+    public static void main(String...args) {
+        IntStream.of(0x48, 0x65, 0x6c, 0x6c, 0x6f, 0x20, 0x57, 0x6f, 0x72, 0x6c, 0x64, 0x21, 0x21, 0x21, 0xa)
+            .mapToObj(c -> Character.toString((char) c))
+            .forEach(System.out::print);
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]godzab 0 points1 point2 points 4 years ago (0 children)
+
+This was really easy. This solution was done in Java.
+
+                                                                                                  import java.util.Scanner;
+                                                                  public class Challange156 {
+                                                       public static void main(String[] args) {
+
+                                    String helloWorld = "Etvmp$Jsspw%%%%"+
+                            "[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr"+
+                            "mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix"+
+                            "tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk"+
+                            "f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv"+
+                            "jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$"+
+                            "Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}"+
+                            "tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps"+
+                            "{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$"+
+                            "tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-"+
+                            "Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-";
+                                    char[] holdString = helloWorld.toCharArray();
+
+
+                                    for(int i = 0; i < holdString.length; i++){
+                                        holdString[i] = (char) (holdString[i]-4);
+                                    }
+                                    helloWorld = new String(holdString);//this is not the real string, you must hack to decode
+                                    helloWorld = "";
+                                    System.out.println();
+                                    System.out.println(new String("Hello World!!!3"));
+
+                                }
+
+                            }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 4 years ago* (0 children)
+
+https://github.com/PhilipKaludercic/extutils/blob/master/left/left.c
+
+My little ASCII shifter written in C.
+
+  • permalink
+  • embed
+  • save
+
+[–]anonymousking1 0 points1 point2 points 4 years ago (0 children)
+
+Java:
+
+public class Decode { String sentence = "";
+
+public Decode(String sentence) {
+    this.sentence = sentence;
+}
+
+public String decode() {
+    String newSentence = "";
+    for (int i = 0; i < sentence.length(); i++) {
+        newSentence += convertChar(sentence.charAt(i));
+
+    }
+    return newSentence;
+
+}
+//convert to ASCII
+private String convertChar(char c) {
+    int cInt = c;
+    cInt -= 4;
+    char newChar = (char) cInt;
+    return Character.toString(newChar);
+
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jstoja 0 points1 point2 points 4 years ago (0 children)
+
+My solution in OCaml:
+
+let test_string = "Etvmp$Jsspw%%%%
+[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr
+mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix
+tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk
+f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv
+jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$
+Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}
+tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps
+{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$
+tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-
+Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-"
+
+let () =
+  let plus_four c =
+    Char.chr(Char.code(c) - 4) in
+  print_endline (String.map plus_four test_string)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]AnonSweden 0 points1 point2 points 4 years ago (0 children)
+
+Here's what I did.
+
+Python
+
+# Daily Programmer #156 (Easy)
+
+def decode(c):
+    return ord(c) - 4
+
+encoded = "Etvmp$Jsspw%%%% [e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$ Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e} tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps {svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$ tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk- Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-"
+
+for i,v in enumerate(encoded):
+    print(chr(decode(v)), end='')
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]theholychilli 0 points1 point2 points 4 years ago (0 children)
+
+Here's what I did in Python.
+
+for x in text:
+    y = (ord(x) - 4)
+    print(chr(y), end='')
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]myachizero 0 points1 point2 points 4 years ago (0 children)
+
+This is just a Java 7 method I came up with. I'm still very new at this, but I
+think this gets the job well done.
+
+ public void decode()
+{
+    int tempASCII;
+    char tempChar;
+    for(int i = 0; i < decodedString.length(); i++)
+    {
+        tempASCII = (int)originalEncoding.charAt(i);
+        tempASCII -= 4;
+        tempChar = (char)tempASCII;
+        decodedString.replace(i, i + 1, Character.toString(tempChar));
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Ash_Pokemon_Master 0 points1 point2 points 4 years ago (0 children)
+
+Sinput = "Etvmp$Jsspw%%%%\
+[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr\
+mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix\
+tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk\
+f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv\
+jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$\
+Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}\
+tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps\
+{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$\
+tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-\
+Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-"
+
+
+def ascii_decoder(n):
+    output = ''
+    for i in n:
+        output += chr(ord(i) - 4)
+    print output
+
+ascii_decoder(Sinput)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Boolean_Cat 0 points1 point2 points 4 years ago (0 children)
+
+My Python Solution:
+
+def decode(string):
+    return ''.join(chr(ord(s) - 4) for s in string)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]FelixMaxwell1 0 0 points1 point2 points 4 years ago (2 children)
+
+In HQ9+
+
+H
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]drguildo 0 points1 point2 points 4 years ago (1 child)
+
+Your solution is in error.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]FelixMaxwell1 0 0 points1 point2 points 4 years ago (0 children)
+
+How so?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]TASER_NINJA 0 points1 point2 points 4 years ago (0 children)
+
+This is the first thing I've ever made in Java so I have no idea if I did it
+right or not. All I know is that it works.
+
+public class main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        String output = "";
+        String input = sc.next();
+
+        for(int i=0; i<input.length(); i++) {
+            char c = ( input.charAt( i ) );
+            int outC = String.valueOf(c).codePointAt(0);
+            int decodedOut =  outC - 4;
+            char dOC = (char)decodedOut;
+            output += dOC;
+         }
+
+        System.out.println(output);
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dont_press_ctrl-W 0 points1 point2 points 4 years ago (1 child)
+
+New Brainfuck solution!
+
+>>,,,,,,---->,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.,,,,,,,,,,,,.,,,,..,++.<.---[<+++<+>>-]<.>>.,.,,,,.,-.<<<++++...
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dont_press_ctrl-W 0 points1 point2 points 4 years ago (0 children)
+
+improved!
+
+>>,,,,,,---->++++++++++++[>+++++++++<-]>--[-<,>]<.,,,,,,,,,,,,.,,,,..,++.<.---[<+++<+>>-]<.>>.,.,,,,.,-.<<<++++...
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]AardvarkInDisguise 0 points1 point2 points 4 years ago (0 children)
+
+Malbolge
+
+('&%:9]!~}|z2Vxwv-,POqponl$Hjig%eB@@>}=<M:9wv6WsU2T|nm-,jcL(I&%$#"
+`CB]V?Tx<uVtT`Rpo3NlF.Jh++FdbCBA@?]!~|4XzyTT43Qsqq(Lnmkj"Fhg${z@>
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]eduardog3000 0 points1 point2 points 4 years ago* (1 child)
+
+Java:
+
+ public class Main {
+      public static void main(String[] args) {
+           char[] chars = "Etvmp$Jsspw%%%%[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmrmr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pixtistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrkf}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syvjezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-".toCharArray();
+
+           for(int i = 0; i < chars.length; i++) {
+                System.out.print((char)((int)chars[i] - 4));
+           }
+      }
+ }
+
+Shorter, sort of:
+
++/u/CompileBot Java
+
+ public class Main {
+      public static void main(String[] args) {
+           for(int i = 0; i < "Etvmp$Jsspw%%%%[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmrmr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pixtistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrkf}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syvjezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-".toCharArray().length; i++) {
+                System.out.print((char)((int)"Etvmp$Jsspw%%%%[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmrmr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pixtistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrkf}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syvjezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-".toCharArray()[i] - 4));
+           }
+      }
+ }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]CompileBot 0 points1 point2 points 4 years ago (0 children)
+
+Output:
+
+April Fools!!!!Way to go! You have solved the hidden message. Now it is your turn to joinin on this prank. Do not post anything that will give away this message. Letpeople decode the message on their own and read this message. You can play alongby NOT posting how you decoded this message. Instead post your solution to be yourfavorite Hello world program in one language of your choice. Make sure your program says "Hello World!!!" with 3 ! at the end. This waypeople browsing the challenge will think we have all lost our minds. Those who post helloworld solutions without the three !!! will have not decoded the message and so you can politely point out their solution is in error (they are just following along without knowing)Enjoy this fun. The truth will be held by those who can decode the message. :)
+
+^source ^| ^info ^| ^git ^| ^report
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 0 points1 point2 points 4 years ago (0 children)
+
+python 2.7.1
+
+decode_input = raw_input("Enter message to be decoded:\n")
+result = ''
+for i in range(len(decode_input)):
+    result += chr(ord(decode_input[i]) - 4)
+print '\n\nDecoded message:\n', result
+
+  • permalink
+  • embed
+  • save
+
+[–][deleted] 0 points1 point2 points 4 years ago (0 children)
+
+Late, but this is my first time posting here.
+
+Java:
+
+String message = "Lipps$[svph%%%";
+char[] answer = message.toCharArray();
+    for (char c: answer){
+        int i = c-4;
+        System.out.print(Character.toString((char)i));
+    }
+}
+
+What I used to encode the message (just did the reverse):
+
+String message = "Hello World!!!";
+char[] mesarry = message.toCharArray();
+    for (char c: mesarry){
+        int i = c+4;
+        System.out.print(Character.toString((char)i));
+    }
+}
+
+  • permalink
+  • embed
+  • save
+
+[–][deleted] 0 points1 point2 points 4 years ago (0 children)
+
+Universal Java solution:
+
+import java.io.*; import java.util.Arrays; import java.util.Scanner; import
+java.lang.Object;
+
+public class challenge {
+
+public static void main(String[] args){
+System.out.println("Please enter an encoded message:");
+
+Scanner s = new Scanner(System.in);
+String encryptedMsg = s.next();
+
+String[] spliced = encryptedMsg.split("(?!^)");
+
+
+for (int i = 0; i <= spliced.length; i++) {
+        char initial = spliced[i].charAt(0);
+        int processedAscii = initial - 4;
+        char decodedChar = (char) processedAscii;
+
+        System.out.print(decodedChar);
+    }
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+
+[–]TobiTako 0 points1 point2 points 3 years ago (0 children)
+
+for too long I tried subtracting the ascii value of '4' from each character...
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jppunnett 0 points1 point2 points 3 years ago (0 children)
+
+C++
+
+// http://www.reddit.com/r/dailyprogrammer
+// Challenge 156-Easy - Create a simple decoder
+// Usage: decode
+//    Decode from standard input. Will typically be used like this:
+//    decode < file.in
+// Built using g++: g++ -std=c++0x -Wall -o chal156 chal156.cpp
+//
+#include <iostream>
+
+char decode(char ch) {
+    return ch == '\n' ? ch : ch-4;
+}
+
+int main() {
+
+    char ch = 0;
+    while((ch = std::getchar()) != EOF) {
+        std::cout << decode(ch);
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]RangeruDangeru 0 points1 point2 points 3 years ago (0 children)
+
+Python 3
+
+Here's a link to my solution, as it was too long to post here...
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]PrismPoultry 0 points1 point2 points 4 years ago (0 children)
+
+Python
+
+def decode(data):
+    chars = sorted(set(data))
+    secret = "d!!!"
+    code_breaker = [10,22,29,29,32,5,39,32,35,29]
+    message = []
+    for code in code_breaker:
+        message.append(chars[code])
+    message.append(secret)
+    print(''.join(message))
+
+Output
+
+Hello-world!!!
+
+Spoiler
+
+I couldn't find a space so I just used a dash. Also.. not ONE d in that whole thing? Amazing!
+
+Neat challenge.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]y0d4h -2 points-1 points0 points 4 years ago* (0 children)
+
+Visual Basic Yo
+
+Sub Main()
+    console.writeline("Hello World!!!")
+    console.readline()
+End Sub
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]danofar0 1 0 points1 point2 points 4 years ago (0 children)
+
+Dart
+
+void main(List<String> args){
+    print(new String.fromCharCodes([72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100, 33, 33, 33]));
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Gflat 0 points1 point2 points 4 years ago (0 children)
+
+F#
+
+let (+) x y=String.concat "" [x;y]
+let (!--!) x="H"+x
+let (!<) x="e"+x
+let (!) x="l"+x
+let (|/|/) x y=x+" W"+y
+let (!>) x="r"+x
+let (|>.) x y=x+"r"+y
+let (|!) x y=x+"!!"+y
+
+!--! !< ! ! "o"    |/|/ "o" |>. ! "d" |! "!"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]featherfooted 0 points1 point2 points 4 years ago (4 children)
+
+I was very pleased with this easy challenge and learned a lot about hashing in
+the process.
+
+Python:
+
+import hashlib
+import pickle
+
+def decode(input):
+    public_key = input = \
+    pickle.loads('(lp0\n(I0\nI72\nI1\ntp1\na(I1\nI101\nI1\ntp2\na(I2\nI108\nI1\ntp3\na(I3\nI108\nI1\ntp4\na(I4\nI111\nI1\ntp5\na(I5\nI44\nI1\ntp6\na(I6\nI32\nI1\ntp7\na(I7\nI87\nI1\ntp8\na(I8\nI111\nI1\ntp9\na(I9\nI114\nI1\ntp10\na(I10\nI108\nI1\ntp11\na(I11\nI100\nI1\ntp12\na(I12\nI33\nI1\ntp13\na(I13\nI33\nI1\ntp14\na(I14\nI33\nI1\ntp15\na.')
+    sha256 = [chr(i)*j for (_,i,j) in public_key]
+    decoded = "".join(sha256)
+    return decoded
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]professorlamp1 0 0 points1 point2 points 4 years ago (3 children)
+
+Did you use hashlib and the pickle library on purpose? An easier way would have
+been to use the ord() and chr() functions that are built in to the standard
+library.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]featherfooted 0 points1 point2 points 4 years ago (2 children)
+
+Yes ;)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]professorlamp1 0 0 points1 point2 points 4 years ago (1 child)
+
+Just making sure :D
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]featherfooted -1 points0 points1 point 4 years ago (0 children)
+
+You'll notice that they don't actually do anything. Whatever input given to the function (such as, say, trying to "decode" the string in the prompt) is immediately thrown out and replaced by the line-wrapped call to pickle loads, which unserializes a string I produced from my own command line. The "decoded" output is then parsed from the object unserialized from pickle, and printed to screen.
+
+and
+
+you'll notice that I did in fact hide a chr() in there, because I couldn't think of any other devious way to do it.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]b93b3de72036584e40541 0 0 points1 point2 points 4 years ago (0 children)
+
+C :
+
+#include "stdio.h"
+#define e 3
+#define g (e/e)
+#define h ((g+e)/2)
+#define f (e-g-h)
+#define j (e*e-g)
+#define k (j-h)
+#define l(x) tab2[x]/h
+#define m(n,a) ((n&(a))==(a))
+
+long tab1[]={ 989L,5L,26L,0L,88319L,123L,0L,9367L };
+int tab2[]={ 4,6,10,14,22,26,34,38,46,58,62,74,82,86 };
+
+main(m1,s) char *s; {
+    int a,b,c,d,o[k],n=(int)s;
+    if(m1==1){ char b[2*j+f-g]; main(l(h+e)+h+e,b); printf(b); }
+    else switch(m1-=h){
+        case f:
+            a=(b=(c=(d=g)<<g)<<g)<<g;
+            return(m(n,a|c)|m(n,b)|m(n,a|d)|m(n,c|d));
+        case h:
+            for(a=f;a<j;++a)if(tab1[a]&&!(tab1[a]%((long)l(n))))return(a);
+        case g:
+            if(n<h)return(g);
+            if(n<j){n-=g;c='D';o[f]=h;o[g]=f;}
+            else{c='\r'-'\b';n-=j-g;o[f]=o[g]=g;}
+            if((b=n)>=e)for(b=g<<g;b<n;++b)o[b]=o[b-h]+o[b-g]+c;
+            return(o[b-g]%n+k-h);
+        default:
+            if(m1-=e) main(m1-g+e+h,s+g); else *(s+g)=f;
+            for(*s=a=f;a<e;) *s=(*s<<e)|main(h+a++,(char *)m1);
+        }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Reverse_Skydiver1 0 0 points1 point2 points 4 years ago (0 children)
+
+Java:
+
+public class C0156_Easy {
+    static String m = "Etvmp$Jsspw%%%%" +
+            "[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr" +
+            "mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix" +
+            "tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk" +
+            "f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv" +
+            "jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$" +
+            "Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}" +
+            "tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps" +
+            "{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$" +
+            "tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-" +
+            "Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-", dec = "";
+
+    public static void main(String[] args) {
+        char[] c = new char[]
+                {m.charAt(40), m.charAt(57), m.charAt(30), m.charAt(30), m.charAt(104), "\0".charAt(0),
+                m.charAt(98), m.charAt(104),m.charAt(500), m.charAt(506), (char)(m.charAt(0)+31),
+                (char)(33), (char)(m.charAt(10)-86), (char)(m.charAt(763)-72)
+                };
+        for(int i = 0; i < c.length; i++)   System.out.print(c[i]);
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]cncplyr 0 points1 point2 points 4 years ago (0 children)
+
+JavaScript
+
+function decode(input){
+    console.log($.map("Lipps$[svph%%%".split(''), function(n){ return String.fromCharCode(n.charCodeAt()-4);}).join(''));
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dunnowins 0 points1 point2 points 4 years ago* (0 children)
+
+Clojure:
+
+(apply str (map #(char (+ % 6)) '(66 95 102 102 105 26 81 105 108 102 94 27 27 27)))
+
+Edit: I cant read.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 4 years ago* (3 children)
+
+[deleted]
+
+[–]the_mighty_skeetadon 0 points1 point2 points 4 years ago (0 children)
+
+It's beautiful.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]SirDelirium 0 points1 point2 points 4 years ago (1 child)
+
+Is the
+
+  BRA *
+
+just a placeholder or does * mean something in HCS12?
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]prophile 0 points1 point2 points 4 years ago (1 child)
+
+Haskell:
+
+main = forever $ getLine >>= putStrLn . map (chr . (subtract 4) . ord)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]the_mighty_skeetadon 1 point2 points3 points 4 years ago (0 children)
+
+=(
+
+Sadface for instructions =(
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 4 years ago (1 child)
+
+[deleted]
+
+[–]lcowell 0 points1 point2 points 4 years ago (0 children)
+
+It didn't say anything about obfuscating what the code does.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dohaqatar71 1 -1 points0 points1 point 4 years ago (0 children)
+
+it was tricky, but here's my go:
+
+    char[] decode = {'h','w','e','o','l','r','l','l','o','d'};
+    for(int index = 0; index < decode.length-2;index+=2)
+        System.out.print(decode[index]);
+    System.out.print("o ");
+    for(int index = 1; index < decode.length;index+=2)
+        System.out.print(decode[index]);
+    if(true)
+        System.out.print("!!!");
+    else{
+        while(false){
+              System.out.print("-_-");
+        }
+    }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dahitokiri -4 points-3 points-2 points 4 years ago (0 children)
+
+#include <stdio.h>
+int main() { printf("Hello world!!!"); return 0; }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]notTheSnake -1 points0 points1 point 4 years ago* (0 children)
+
+After writing my first successful regex (really, I should learn that stuff)
+this is my python solution:
+
+import re
+message = '''Etvmp$Jsspw%%%%
+[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr
+mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix
+tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk
+f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv
+jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$
+Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}
+tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps
+{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$
+tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-
+Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-'''
+print(''.join([chr(ord(c) - 4) for c in re.search('(\&)(.*)(\&)', message).group(2)]))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Dutsj -1 points0 points1 point 4 years ago (0 children)
+
+Java 8 approach using the new Lamdas in all their goodness.
+
+public class DecodeMessage {
+            public static void main(String[] args) {
+                String message = "Éäííî¡Öîóíå   ";
+                StringBuilder builder = new StringBuilder();
+                message.chars().mapToObj(
+                                (c)->Character.valueOf((char)(c^((1<<7)|1))).toString())
+                               .forEach(builder::append);
+                System.out.println(builder.toString());
+            }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ilikeorangutans -1 points0 points1 point 4 years ago (0 children)
+
+Go:
+
+package main
+
+import (
+    "fmt"
+)
+
+func main() {
+
+    input := `Etvmp$Jsspw%%%%
+    [e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr
+    mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix
+    tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk
+    f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv
+    jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$
+    Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}
+    tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps
+    {svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$
+    tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-
+    Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-`
+
+    for _, v := range(input) {
+        fmt.Printf("%c", (v - 4))
+    }
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]TheGiantPanda -1 points0 points1 point 4 years ago (0 children)
+
+C++ :
+
+#include<iostream>
+int main()
+
+{
+cout << "Hello World!!!" << endl;
+return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]the_dinks0 1 -1 points0 points1 point 4 years ago (0 children)
+
+A revolutionary way to do this in Python:
+
+from math import pi
+from math import sqrt
+
+obscure_the_truth = ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!', '!', '!']
+
+x = pi
+while x < 500:
+    print ''.join(obscure_the_truth)
+    x += sqrt(9999999999999999999)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pablo208 -5 points-4 points-3 points 4 years ago (0 children)
+
+Erlang:
+
+-module(hello).
+-export([start/0]).
+
+start() ->
+   spawn(fun() -> loop() end).
+
+loop() ->
+   receive
+       hello ->
+            io:format("Hello, World!!!~n"),
+            loop();
+
+       goodbye ->
+            ok
+   end.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[+]starscream92 comment score below threshold-10 points-9 points-8 points 4
+years ago (4 children)
+
+Simple Java implementation:
+
+public class SimpleDecoder {
+
+    public static final String INPUT = "Etvmp$Jsspw%%%%$"
+        + "[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr$"
+        + "mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix$"
+        + "tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk$"
+        + "f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv$"
+        + "jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$"
+        + "Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}$"
+        + "tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps$"
+        + "{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$"
+        + "tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-$"
+        + "Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-$";
+
+    public static void main(final String[] args) {
+        System.out.println(decode(INPUT));
+    }
+
+    public static String decode(final String input) {
+        final char[] characters = input.toCharArray();
+        for (int i = 0; i < characters.length; i++) { characters[i] -= 4; }
+        return new String(characters);
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]lcowell 1 point2 points3 points 4 years ago (3 children)
+
+Wow, someone really hates you. You got shit-canned on the votes.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]starscream92 1 point2 points3 points 4 years ago (2 children)
+
+Lol yeah whatever it took literally 2 minutes to write.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]lcowell 1 point2 points3 points 4 years ago (1 child)
+
+Don't you care about karma!!!?? If you don't have karma you can't uhhhh.... oh
+wait nevermind.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]starscream92 1 point2 points3 points 4 years ago (0 children)
+
+Hahaha exactly! If anything the only thing that remotely bothers me is that
+people who wrote HelloWorld! got more points.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]darkspy13 -2 points-1 points0 points 4 years ago (0 children)
+
+VB.Net
+
+Module Module1
+
+Sub Main()
+    For Each s As Char In "Lipps$[svph%%"
+        Console.Write(Chr(Asc(s) - 4))
+    Next
+    Console.ReadLine()
+End Sub
+
+End Module
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]h3ckf1r3 -2 points-1 points0 points 4 years ago (0 children)
+
+asciitable.com is awesome for debugging this one :). I find the more I use C,
+the more often I am at that site.
+
+#include <stdio.h>
+
+int main()
+{
+    int nums[] = {76,105,112,112,115,36,91,115,118,112,104,37,14};
+    for(int* i = nums;i<nums+sizeof(nums)/sizeof(int);i++)
+    {
+        printf("%c",*i-4);
+    }
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]BrunnerPB -2 points-1 points0 points 4 years ago (0 children)
+
+Perl
+
+I'm sure I could have made this more succinct, but I'm quite new at this.
+Anyway, this was tough.
+
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+my $str = 'Etvmp$Jsspw%%%%
+[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr
+mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix
+tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk
+f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv
+jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$
+Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}
+tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps
+{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$
+tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-
+Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-';
+
+my @chars = ('H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd', '!', '!', '!');
+
+my @decoded;
+
+foreach (@chars) {
+    push @decoded, $_;
+}
+
+print @decoded;
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[+]kuzux0 0 comment score below threshold-7 points-6 points-5 points 4 years
+ago (2 children)
+
+Haskell:
+
+import Data.Char
+
+decode :: String -> String
+decode = map $ chr . (-4) . ord
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]eccstartup 0 points1 point2 points 4 years ago (1 child)
+
+decode = map (chr . (+ negate 4) . ord)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]dahuiii9 -3 points-2 points-1 points 4 years ago (0 children)
+
+Java:
+
+public class daily156 {
+public static void main(String[] args) {
+    String input = "Etvmp$Jsspw%%%%" +
+                    "[e}$xs$ks%$]sy$lezi$wspzih$xli$lmhhir$qiwweki2$Rs{$mx$mw$}syv$xyvr$xs$nsmr" +
+                    "mr$sr$xlmw$tvero2$Hs$rsx$tswx$er}xlmrk$xlex${mpp$kmzi$e{e}$xlmw$qiwweki2$Pix" +
+                    "tistpi$higshi$xli$qiwweki$sr$xlimv$s{r$erh$vieh$xlmw$qiwweki2$]sy$ger$tpe}$epsrk" +
+                    "f}$RSX$tswxmrk$ls{$}sy$higshih$xlmw$qiwweki2$Mrwxieh$tswx$}syv$wspyxmsr$xs$fi$}syv" +
+                    "jezsvmxi$Lipps${svph$tvskveq$mr$sri$perkyeki$sj$}syv$glsmgi2$" +
+                    "Qeoi$wyvi$}syv$tvskveq$we}w$&Lipps$[svph%%%&${mxl$7$%$ex$xli$irh2$Xlmw${e}" +
+                    "tistpi$fvs{wmrk$xli$gleppirki${mpp$xlmro${i$lezi$epp$pswx$syv$qmrhw2$Xlswi${ls$tswx$lipps" +
+                    "{svph$wspyxmsrw${mxlsyx$xli$xlvii$%%%${mpp$lezi$rsx$higshih$xli$qiwweki$erh$ws$}sy$ger$" +
+                    "tspmxip}$tsmrx$syx$xlimv$wspyxmsr$mw$mr$ivvsv$,xli}$evi$nywx$jspps{mrk$epsrk${mxlsyx$ors{mrk-" +
+                    "Irns}$xlmw$jyr2$Xli$xvyxl${mpp$fi$liph$f}$xlswi${ls$ger$higshi$xli$qiwweki2$>-";
+    String[] chars = input.split("");
+    String output = "";
+
+    for (int i = 1; i < chars.length; i++){
+        char tempC = chars[i].charAt(0);
+        int ascii = (int)tempC;
+        ascii -= 4;
+        tempC = (char)ascii;
+        String tempS = String.valueOf(tempC);
+        output += tempS;
+    }
+
+    output = output.substring(417,431);
+    System.out.println(output);
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 4 years ago (2 children)
+
+[deleted]
+
+[–]dangerbird2 0 points1 point2 points 4 years ago (1 child)
+
+I just ran the code through the compiler, I think you have an error in there.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]catfishdeity 0 points1 point2 points 4 years ago (0 children)
+
+I didn't actually test it...but there's no way in hell i'm testing that exec
+command.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+  • about
+  • blog
+  • about
+  • advertising
+  • careers
+
+  • help
+  • site rules
+  • Reddit help center
+  • wiki
+  • reddiquette
+  • mod guidelines
+  • contact us
+
+  • apps & tools
+  • Reddit for iPhone
+  • Reddit for Android
+  • mobile website
+  • buttons
+
+  • <3
+  • reddit gold
+  • redditgifts
+
+Use of this site constitutes acceptance of our User Agreement and Privacy
+Policy. (C) 2018 reddit inc. All rights reserved.
+
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+Advertise - technology
+
+[pixel]
+
+π Rendered by PID 1210 on app-275  at 2018-05-09 20:31:14.058467+00:00 running
+4c4e6ea country code: CH.
+

@@ -1,0 +1,6319 @@
+close this window
+jump to content
+my subreddits
+edit subscriptions
+
+  • popular
+  • -all
+  • -random
+  • -users
+
+ | 
+
+  • AskReddit
+  • -worldnews
+  • -videos
+  • -funny
+  • -todayilearned
+  • -pics
+  • -gaming
+  • -movies
+  • -news
+  • -gifs
+  • -mildlyinteresting
+  • -aww
+  • -Showerthoughts
+  • -television
+  • -Jokes
+  • -science
+  • -OldSchoolCool
+  • -sports
+  • -IAmA
+  • -Documentaries
+  • -TwoXChromosomes
+  • -explainlikeimfive
+  • -personalfinance
+  • -books
+  • -tifu
+  • -Futurology
+  • -dataisbeautiful
+  • -WritingPrompts
+  • -nottheonion
+  • -food
+  • -Music
+  • -photoshopbattles
+  • -EarthPorn
+  • -philosophy
+  • -Art
+  • -nosleep
+  • -GetMotivated
+  • -askscience
+  • -LifeProTips
+  • -space
+  • -UpliftingNews
+  • -DIY
+  • -history
+  • -gadgets
+  • -creepy
+  • -listentothis
+  • -blog
+  • -announcements
+  • -InternetIsBeautiful
+
+more >>
+dailyprogrammer dailyprogrammer
+
+  • comments
+
+Want to join? Log in or sign up in seconds.|
+
+  • English
+
+[                    ][]
+[ ]limit my search to r/dailyprogrammer
+
+use the following search parameters to narrow your results:
+
+subreddit:subreddit
+    find submissions in "subreddit"
+author:username
+    find submissions by "username"
+site:example.com
+    find submissions from "example.com"
+url:text
+    search for "text" in url
+selftext:text
+    search for "text" in self post contents
+self:yes (or self:no)
+    include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+    include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+
+see the search faq for details.
+
+advanced search: by author, subreddit...
+
+this post was submitted on  20 Aug 2013
+69 points (96% upvoted)
+shortlink:  [https://redd.it/1kph]
+[                    ][                    ]
+[ ]remember mereset password
+login
+Submissions restricted
+Only approved users may post in this community.
+
+dailyprogrammer
+
+subscribeunsubscribe142,051 readers
+
+118 users here now
+
+ 1. Challenge #321: Easy
+ 2. Challenge #321: Intermediate
+ 3. Challenge #321: Hard
+ 4. Weekly #25: Escape the trolls
+
+Welcome to r/DailyProgrammer!
+
+First time visitors of Daily Programmer please Read the Wiki to learn
+everything about this subreddit.
+
+  • Solution Submission Tutorial
+  • Solution Submission Guidelines
+  • Code / Peer-Review Guidelines
+  • Problem Submission Guidelines
+  • Achievements System
+  • Community Projects
+  • Links to other Programming subreddits
+  • Special Thanks
+
+Can't submit solutions?
+
+If you are a new or unverified account, and are unable to post comment replies,
+please click here to verify your account. Otherwise, read the Solution
+Submission Tutorial for a walkthrough of submitting a solution, or click below
+to message the moderators for assistance.
+
+Write your own challenge!
+
+To help the community and write your own challenge to be submitted, head on
+over to /r/DailyProgrammer_Ideas and share your project - read the sidebar in
+that subreddit for more information.
+
+IRC Channel
+
+Message the Moderators
+
+Challenge List in Chronological Order
+
+created by nottoobadguya community for 6 years
+message the moderators
+
+MODERATORS
+
+  • rya111113 1
+  • nint221 2
+  • Cosmologicon2 3
+  • Elite68091 1
+  • XenophonOfAthens2 1
+  • jnazario2 0
+  • Godspiral3 3
+  • Blackshell2 0
+  • fvandepitte0 0
+  • G33kDude1 1
+  • about moderation team >>
+
+discussions in r/dailyprogrammer
+<>
+X
+ 
+42 . 10 comments
+[2018-05-09] Challenge #360 [Intermediate] Find the Nearest Aeroplane
+ 
+60 . 26 comments
+[2018-05-04] Challenge #359 [Hard] Primes in Grids
+ 
+44 . 37 comments
+[2018-05-02] Challenge #359 [Intermediate] Unwrap Some Text
+ 
+65 . 111 comments
+[2018-04-30] Challenge #359 [Easy] Regular Paperfold Sequence Generator
+ 
+66 . 12 comments
+[2018-04-27] Challenge #358 [Hard] Puzzle me this
+ 
+54 . 36 comments
+[2018-04-25] Challenge #358 [Intermediate] Everyone's A Winner!
+ 
+68 . 75 comments
+[2018-04-23] Challenge #358 [Easy] Decipher The Seven Segments
+ 
+53 . 28 comments
+[2018-04-20] Challenge #357 [Hard] Continued Fractions
+ 
+58 . 26 comments
+[2018-04-19] Challenge #357 [Intermediate] Kolakoski Sequences
+ 
+72 . 114 comments
+[2018-04-11] Challenge #356 [Intermediate] Goldbach's Weak Conjecture
+
+Welcome to Reddit,
+
+the front page of the internet.
+
+Become a Redditor
+
+and subscribe to one of thousands of communities.
+
+x
+
+68
+69
+70
+
+[08/13/13] Challenge #136 [Easy] Student Management (self.dailyprogrammer)
+
+submitted 4 years ago * by nint221 2
+
+ (Easy): Student Management
+
+You are a computer science professor at South Harmon Institute of Technology,
+and are in dire need of automatic grading! The good news is you have all of
+your student's assignments in an easy-to-read format, making automation easy!
+
+You will be given a list of unique student names, and then a list of their
+assignment grades. All assignments are based on 20 points and are scored in
+whole-numbers (integers). All students have received the same number of
+assignments, so you don't have to worry about managing jagged arrays.
+
+Author: nint22
+
+Formal Inputs & Outputs
+
+Input Description
+
+On standard console input, you will be given two space-delimited integers N and
+M: N is the number of students (which ranges from 1 to 60, inclusive), and M is
+the number of assignments (which ranges from 4 to 100, inclusive). This will be
+followed by N lines of text, each starting with an upper-case unique string
+being is your students name. This is then followed by M integers, which are the
+grades ranging from 0 to 20, inclusively.
+
+Output Description
+
+On the first line of output, print the class' average grade. Then, for each
+student, print their name and average grade (up to two decimal points
+precision).
+
+Sample Inputs & Outputs
+
+Sample Input 1
+
+3 5
+JON 19 14 15 15 16
+JEREMY 15 11 10 15 16
+JESSE 19 17 20 19 18
+
+Sample Output 1
+
+15.93
+JON 15.80
+JEREMY 13.40
+JESSE 18.60
+
+Sample Input 2
+
+10 10
+ABIGAIL 11 3 5 20 4 2 8 17 4 5
+ALEXANDER 2 12 20 0 6 10 3 4 9 7
+AVA 11 15 2 19 14 5 16 18 15 19
+ETHAN 6 12 0 0 5 11 0 11 12 15
+ISABELLA 16 0 10 7 20 20 7 2 0 1
+JACOB 2 14 17 7 1 11 16 14 14 7
+JAYDEN 10 10 3 16 15 16 8 17 15 3
+MADISON 10 11 19 4 12 15 7 4 18 13
+SOPHIA 5 17 14 7 1 17 18 8 1 2
+WILLIAM 12 12 19 9 4 3 0 4 13 14
+
+Sample Output 2
+
+9.50
+ABIGAIL 7.90
+ALEXANDER 7.30
+AVA 13.40
+ETHAN 7.20
+ISABELLA 8.30
+JACOB 10.30
+JAYDEN 11.30
+MADISON 11.30
+SOPHIA 9.00
+WILLIAM 9.00
+
+  • 149 comments
+  • share
+  • save
+  • hide
+  • report
+
+all 149 comments
+sorted by:
+best
+topnewcontroversialoldrandomq&alive (beta)
+ [                    ]
+
+Want to add to the discussion?
+
+Post a comment!
+
+Create an account
+
+[–]lukz2 0 21 points22 points23 points 4 years ago* (0 children)
+
+Common Lisp
+
+(defun avg (l) (/ (apply '+ l) (length l)))
+
+(defun solve (&aux (n (read)) (m (read)) l all)
+  (dotimes (i n) (push (read) l) (push (avg (mapcar 'read (make-list m))) l)
+    (push (car l) all))
+  (format t "~,2f~%~{~a ~,2f~%~}" (avg all) (reverse l)))
+
+Now if somebody cannot read Lisp here is a step by step description of the code
+
+First we define function named avg with one argument l, which is a list of
+numbers
+
+(defun avg (l) )
+
+Inside the function we compute the sum of all the numbers
+
+(apply '+ l)
+
+we also get the list length
+
+(length l)
+
+and we divide the sum by the length
+
+(/ (apply '+ l) (length l))
+
+which is the average value of the list and that is returned.
+The whole function looks like this:
+
+(defun avg (l) (/ (apply '+ l) (length l)))
+
+
+Next we define function named solve with four auxiliary variables,
+
+(defun solve (&aux n m l all) )
+
+We fill the variables n and m with numbers read from the standard input using
+(read), the variables l and all are initially empty lists.
+
+(defun solve (&aux (n (read)) (m (read)) l all) )
+
+Now we will loop n-times
+
+(dotimes (i n) )
+
+inside the loop we first read a student's name from the standard input
+
+(read)
+
+and we push that value at the front of list l
+
+(push (read) l)
+
+then we read a list of m numbers from standard input
+
+(mapcar 'read (make-list m))
+
+we apply our function avg to that list
+
+(avg (mapcar 'read (make-list m))
+
+then we push the average value at the front of list l.
+
+(push (avg (mapcar 'read (make-list m))) l)
+
+Then we take the front of list l (what we just pushed there)
+
+(car l)
+
+and we push it at the front of list all.
+
+(push (car l) all)
+
+The whole loop now reads
+
+(dotimes (i n) (push (read) l) (push (avg (mapcar 'read (make-list m))) l)
+  (push (car l) all))
+
+Now that we have read all necessary data we can start printing to the standard
+output. For that we use the (format) function.
+
+(format t "" )
+
+Inside "" goes the format string, we will go to that later. We send two
+parameters to the (format) function to be printed out. First one is the class
+average.
+
+(avg all)
+
+The second one is a list of student names and averages. As we were adding
+elements to the front of the list l and not to the back, we need a reversed
+list to get all the items in the correct order.
+
+(reverse l)
+
+The output function gets these parameters:
+
+(format t "" (avg all) (reverse l))
+
+Now the format function gets some data but it needs a format string to know how
+we would like the data formatted. For the class average, format it as fixed
+format floating point with 2 digits after decimal point.
+
+~,2f
+
+Then put a newline in the output.
+
+~%
+
+For each student, we want to print his name
+
+~a
+
+followed by a space and a number with 2 digits after decimal point.
+
+~,2f
+
+The format for one line of student's result is:
+
+~a ~,2f~%
+
+Now the actual parameter we send to format is not just name and average of one
+student, but a list of values for all students. So we want this format string to
+be used repeatedly until the whole list is exhausted.
+
+~{~a ~,2f~%~}
+
+The complete format string is:
+
+"~,2f~%~{~a ~,2f~%~}"
+
+And the full function solve is:
+
+(defun solve (&aux (n (read)) (m (read)) l all)
+  (dotimes (i n) (push (read) l) (push (avg (mapcar 'read (make-list m))) l)
+    (push (car l) all))
+  (format t "~,2f~%~{~a ~,2f~%~}" (avg all) (reverse l)))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]technosqueek 10 points11 points12 points 4 years ago (6 children)
+
+Okay, here goes. This is my first submission, so I hope it isn't too terrible.
+It seems to work, at least. It also reads from a file, rather than standard
+console input. (I hope this isn't cheating!)
+
+With that said, here follows some poorly-written Python 3:
+
+from sys import argv
+
+def autograde(f):
+    f = open(f, 'r')
+    n, m = map(int, f.readline().split())
+    class_average = 0.0
+    student_averages = []
+    for i in range(n):
+        line = f.readline().split()
+        line = [line[0]] + list(map(int, line[1::]))
+        class_average += sum(line[1::])
+        student_averages.append([line[0], round(sum(line[1::])/m, 2)])
+    print(class_average/(m*n))
+    for i in range(n):
+        print('{0} {1}'.format(student_averages[i][0], student_averages[i][1]))
+    return
+
+autograde(argv[1])
+
+I'm (obviously) pretty inexperienced, so I'd be indebted to anyone who points
+out anything I've done horribly wrong.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pandubear0 1 9 points10 points11 points 4 years ago* (4 children)
+
+Don't undercut yourself! Just a few suggestions:
+
+Your class_average variable really is a class_total variable, unless I'm
+misinterpreting your code.
+
+Also, instead of using line[0] and line[1::], (by the way, you can just say
+line[1:] for that) consider using descriptive names like name and grades. So
+instead of:
+
+line = [line[0]] + list(map(int, line[1::]))
+
+I'd do:
+
+name = line[0]               # also, now that we split these up, we
+grades = map(int, line[1::]) # don't need to turn "grades" into a list!
+
+Last thing: Instead of rounding values when you put them into student_averages,
+you can round when you print:
+
+>>> '{0:.2f}'.format(3.1415926)
+3.14
+
+Edit: Oops, one more thing. You can say
+
+for pair in student_averages:
+    print('{0} {1}'.format(pair[0], pair[1]))
+
+instead of
+
+for i in range(n):
+    print('{0} {1}'.format(student_averages[i][0], student_averages[i][1]))
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]134671 1 10 points11 points12 points 4 years ago (1 child)
+
+Better yet:
+
+for name, avg in student_averages:
+    print('{0} {1}'.format(name, avg))
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]technosqueek 5 points6 points7 points 4 years ago (0 children)
+
+I keep forgetting you can do that! That is much better, thanks.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]technosqueek 1 point2 points3 points 4 years ago (1 child)
+
+No, you're right: class_average is a total—I think I got a bit ahead of myself
+when I named it—and splitting the list makes a lot more sense than my rather
+silly method. This is exactly the kind of feedback I was hoping for, thank you.
+
+P.S. Forgive my ignorance, but what's the advantage of rounding as you print?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]pandubear0 1 4 points5 points6 points 4 years ago (0 children)
+
+There isn't really any advantage, but I think it makes more sense to separate
+the "math" logic and the "printing" logic. That's highly subjective, though.
+
+And you're welcome!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Edward_H 18 points19 points20 points 4 years ago (1 child)
+
+My solution in COBOL:
+
+       identification division.
+       program-id. student-management.
+
+       data division.
+       working-storage section.
+       01  input-str               pic x(75).
+
+       01  num-students            pic 99.
+       01  num-assignments         pic 999.
+
+       01  grand-total             pic 9(5).
+       01  overall-average         pic Z9.99.
+
+       01  current-total           pic 9(5).
+
+       01  students-area.
+           03  students            occurs 1 to 60 times
+               depending on num-students.
+               05  name            pic x(20).
+               05  average         pic Z9.99.
+
+       01  i                       pic 99.
+       01  j                       pic 999.
+
+       01  offset                  pic 99.
+       01  token                   pic x(20).
+
+       procedure division.
+           accept input-str
+           unstring input-str delimited by spaces into num-students,
+               num-assignments
+
+           *> Get and process each student's results.
+           perform varying i from 1 by 1 until num-students < i
+               accept input-str
+
+               perform get-and-remove-next-token
+               move token to name (i)
+
+               initialize current-total
+               perform varying j from 1 by 1 until num-assignments < j
+                   perform get-and-remove-next-token
+                   add function numval(token)
+                       to current-total, grand-total
+               end-perform
+
+               divide current-total by num-assignments
+                   giving average (i)
+           end-perform
+
+           compute overall-average =
+               grand-total / (num-assignments * num-students)
+
+           *> Display stats.
+           display overall-average
+           perform varying i from 1 by 1 until num-students < i
+               display function trim(name (i)) " " average (i)
+           end-perform
+
+           goback
+           .
+       *> Puts the first space-delimited word/number from input-str into
+       *> token, and left-shifts input-str over it.
+       get-and-remove-next-token.
+           initialize offset
+           inspect input-str tallying offset for characters
+               before space
+
+           move input-str (1:offset) to token
+           add 2 to offset
+           move input-str (offset:) to input-str
+           .
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]professorlamp1 0 6 points7 points8 points 4 years ago (0 children)
+
+Once again, upvote for COBOL.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]goakley 7 points8 points9 points 4 years ago (0 children)
+
+A C solution:
+
+#include <stdio.h>
+
+int main()
+{
+  size_t student_c, assignment_c;
+  size_t index1, index2;
+  scanf("%zu %zu", &student_c, &assignment_c);
+  char names[student_c][64];
+  int assignments[student_c][assignment_c];
+  float sum = 0;
+  for (index1 = 0; index1 < student_c; index1++) {
+    scanf("%63s",names[index1]);
+    for (index2 = 0; index2 < assignment_c; index2++) {
+      scanf("%d", assignments[index1]+index2);
+      sum += assignments[index1][index2];
+    }
+  }
+  printf("%.2f\n", sum / (student_c * assignment_c));
+  for (index1 = 0; index1 < student_c; index1++) {
+    sum = 0;
+    for (index2 = 0; index2 < assignment_c; index2++) {
+      sum += assignments[index1][index2];
+    }
+    printf("%s %.2f\n", names[index1], sum/assignment_c);
+  }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]prophile 6 points7 points8 points 4 years ago (1 child)
+
+Almost comically over-engineered Haskell (but with plenty of error checking!)
+
+{-# LANGUAGE RecordWildCards #-}
+
+module Main where
+
+import Prelude hiding (foldr)
+
+import Control.Applicative
+import Control.Monad(replicateM, guard, liftM, forM_)
+import Control.Monad.Instances()
+import Data.Decimal
+import Data.Foldable(Foldable, foldr, foldMap)
+import Data.List(words, genericLength)
+import Data.Monoid(Sum(Sum), getSum)
+import Text.Printf
+import Text.Read(readMaybe)
+
+import Control.Monad.Error
+
+flen :: (Foldable l, Num n) => l a -> n
+flen = getSum . foldMap (const (Sum 1))
+
+data ClassConfiguration = ClassConfiguration { numStudents :: Integer,
+                                               numAssignments :: Integer }
+                            deriving (Show, Eq)
+
+data Student = Student { name :: String,
+                         grades :: [Integer] }
+                 deriving (Show)
+
+data Class = Class { configuration :: ClassConfiguration,
+                     students :: [Student] }
+               deriving (Show)
+
+guarantee :: (Monad m) => String -> Bool -> m ()
+guarantee s False = fail s
+guarantee _ True = return ()
+
+readOpt :: (Read s, Monad m) => String -> m s
+readOpt s = case readMaybe s of
+              Just x -> return x
+              Nothing -> fail "Parse error."
+
+readClass :: (Monad m) => String -> m ClassConfiguration
+readClass s = do
+  [studentsS, assignmentsS] <- return $ words s
+  numStudents <- readOpt studentsS
+  guarantee "There must be at least one student." $ numStudents >= 1
+  guarantee "There must be at most 60 students." $ numStudents <= 60
+  numAssignments <- readOpt assignmentsS
+  guarantee "There must be at least 4 assignments." $ numAssignments >= 4
+  guarantee "There must be at most 100 assignments" $ numAssignments <= 100
+  return ClassConfiguration {..}
+
+readStudent :: (Monad m) => ClassConfiguration -> String -> m Student
+readStudent c s = do
+  name:gradesS <- return $ words s
+  grades <- mapM readOpt gradesS
+  guarantee (name ++ " must have the correct grade count.")
+            (genericLength grades == numAssignments c)
+  forM_ grades $ \grade -> do
+    guarantee "Grades must be between 0 and 20 inclusive." $ grade >= 0
+    guarantee "Grades must be between 0 and 20 inclusive." $ grade <= 20
+  return Student {..}
+
+readFullClass :: (Monad m) => m String -> m Class
+readFullClass line = do
+  configuration <- readClass =<< line
+  students <- replicateM (fromInteger $ numStudents configuration)
+                         (readStudent configuration =<< line)
+  return Class {..}
+
+average :: (Fractional n) => Student -> n
+average = averageGrade . map fromInteger . grades
+
+averageGrade :: (Fractional n, Foldable l) => l n -> n
+averageGrade = (/) <$> sum <*> len
+  where sum = foldr (+) 0
+        len = flen
+
+showAverage :: Decimal -> String
+showAverage = show . roundTo 2
+
+runGradeSystem :: (Monad m) => m String -> (String -> m ()) -> m ()
+runGradeSystem get put = do
+  cls <- readFullClass get
+  let overallAverage = averageGrade $ map average (students cls)
+  put (showAverage overallAverage)
+  forM_ (students cls) $ do
+    averageText <- showAverage . average
+    stName <- name
+    return $ put $ printf "%s %s" stName averageText
+
+type GradeSystem a = ErrorT String IO a
+
+main :: IO ()
+main = do
+  result <- runErrorT $ (runGradeSystem (lift getLine)
+                                        (\x -> lift (putStrLn x))
+                                           :: GradeSystem ())
+  case result of
+    Left error -> printf "Error occurred: %s\n" error
+    Right () -> return ()
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]toodim 6 points7 points8 points 4 years ago (0 children)
+
+Python 3
+
+sample = """10 10
+ABIGAIL 11 3 5 20 4 2 8 17 4 5
+ALEXANDER 2 12 20 0 6 10 3 4 9 7
+AVA 11 15 2 19 14 5 16 18 15 19
+ETHAN 6 12 0 0 5 11 0 11 12 15
+ISABELLA 16 0 10 7 20 20 7 2 0 1
+JACOB 2 14 17 7 1 11 16 14 14 7
+JAYDEN 10 10 3 16 15 16 8 17 15 3
+MADISON 10 11 19 4 12 15 7 4 18 13
+SOPHIA 5 17 14 7 1 17 18 8 1 2
+WILLIAM 12 12 19 9 4 3 0 4 13 14
+"""
+
+N, M= int(sample[0:2]), int(sample[3:5])
+students = [[s for s in sample[6:].split()][m] for m in range(0,N*M+N,M+1) ]
+scores = [int(score) for score in sample[6:].split() if score not in students]
+
+print(sum(scores)/len(scores))
+for student in enumerate(students):
+    print (student[1], sum(scores[student[0]*M:student[0]*M+M])/M)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]chaz2x4 5 points6 points7 points 4 years ago* (1 child)
+
+Straight forward JAVA solution.
+
+import java.util.Scanner;
+
+public class Student_Management {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter raw data");
+        String[] data = input.nextLine().split(" ");
+        int n = Integer.parseInt(data[0]);
+        int m = Integer.parseInt(data[1]);
+        String names[] = new String[n];
+        double grades [] = new double[n];
+        double average_grade = 0;
+        for(int i=0; i<n;i++){
+            String [] studentdata = input.nextLine().split(" ");
+            names[i] = studentdata[0];
+            for(int j=1;j<=m;j++){
+                grades[i] += (Integer.parseInt(studentdata[j]));
+            }
+            average_grade += grades[i]/(n*m);
+        }
+        System.out.printf("%.2f\n" ,average_grade);
+        for(int i =0; i<n;i++){
+            System.out.printf("%s %.2f\n", names[i], grades[i]/m);
+        }
+    }
+}
+
+And in Python 27
+
+    def student_management(input):
+            space = input.find(' ')+1
+            line = input.find('\n')+1
+            n,m = int(input[0:space]), int(input[space:line])
+            average = 0
+            students = input[line::].split("\n")
+            for i in range(n):
+                    data = students[i].split(" ",1)
+                    students[i] = data[0] + (" %.2f" % (sum(float(n) for n in data[1].split(" "))/m))
+                    average += sum(float(n) for n in data[1].split(" "))/(m*n)
+            print "%.2f" % average
+            for i in range(int(n)):
+                    print students[i]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]luxgladius0 0 5 points6 points7 points 4 years ago (0 children)
+
+Perl
+
+sub average {my $sum = 0; $sum += $_ for @_; $sum / @_;}
+my $junk = <STDIN>; #don't need those numbers
+my @averages;
+while(<>)
+{
+    chomp;
+    my ($name, @grade) = split;
+    push @averages, {name => $name, average => average(@grade)};
+}
+printf("%.2f\n", average(map {$_->{average}} @averages)); #since the arrays are not jagged
+printf("$_->{name} %.2f\n", $_->{average}) for @averages;
+
+A little more "functional" and shorter
+
+sub average {my $sum = 0; $sum += $_ for @_; $sum / @_;}
+my @student = map {chomp; my ($name, @grade) = split; [$name, average(@grade)]} <STDIN>;
+shift @student;
+printf "%.2f\n", average(map $$_[1], @student);
+printf "$$_[0] %.2f\n", $$_[1] for @student;
+
+And an abusive one-liner to top things off
+
+perl -MList::Util=sum -ne '$.<2&&next;chop;($n,@g)=split;$a=sum(@g)/@g;push@l,$a;push@s,sprintf qq($n %.2f\n),$a;END{printf qq(%.2f\n),sum(@l)/@l;print@s;}'
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Medicalizawhat 5 points6 points7 points 4 years ago (0 children)
+
+Ugly Ruby:
+
+n_students = 0
+n_grades = 0
+grades = {}
+total = 0
+File.open('prog.text', 'r').readlines.each_with_index do |line, index|
+    if index == 0
+        n_students, n_grades = line.split.map(&:to_i)
+    else
+        data = line.split
+        n = line.split.slice(1, n_grades).map(&:to_i).inject(&:+).to_f / n_grades.to_f
+        total+=n
+        grades.merge!(data[0]=>n)
+    end
+end
+
+puts total / n_grades
+grades.each {|k, v| puts "#{k}: #{v.round(3)}"}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Dysruption 4 points5 points6 points 4 years ago (2 children)
+
+I'm new to Ruby- can someone critique me? It feels messy...
+
+ def grades(input)
+   lines = input.split(/\n/)
+   grades = lines[1..lines.length]
+   s = lines[0].split(/\s/)
+   n = s[0].to_f
+   m = s[1].to_f
+   avgs = Hash.new
+   grades.each do |line|
+     split_line = line.split(/\s/)
+     avgs[split_line[0]] = split_line[1..m].inject(0){|sum, x| sum + x.to_f} / m
+   end
+   avg = (avgs.to_a.inject(0){|sum, x| sum + x[1].to_f} / n).round(2).to_s
+   avgs.each do |k, v|
+     avg += "\n" + k.to_s + " " + v.to_s
+   end
+   puts avg
+ end
+
+ grades "3 5
+ JON 19 14 15 15 16
+ JEREMY 15 11 10 15 16
+ JESSE 19 17 20 19 18"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ozzkloz 0 points1 point2 points 4 years ago (0 children)
+
+you might like the heredoc format for your input:
+
+input = <<-TEXT.gsub(/^ {2}/, '')
+  3 5
+  JON 19 14 15 15 16
+  JEREMY 15 11 10 15 16
+  JESSE 19 17 20 19 18
+TEXT
+
+grades input
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ozzkloz 0 points1 point2 points 4 years ago (0 children)
+
+Also, instead of having puts in your method, I'd pull it out (separate data
+from display):
+
+def grades(input)
+  ....
+  avg
+end
+
+puts grades "3 5
+JON 19 14 15 15 16
+JEREMY 15 11 10 15 16
+JESSE 19 17 20 19 18"
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]MatthewASobol 2 points3 points4 points 4 years ago (0 children)
+
+Java Solution
+
+import java.util.*;
+import java.math.*;
+import java.text.*;
+
+public class Challenge136
+{
+    public static double getAverageScore(int numScores, Scanner sc)
+    {
+        double sum = 0;
+        for (int x=0; x < numScores; x++)
+        {
+            sum += sc.nextDouble();
+        }
+        return (sum / (numScores*1.0));
+    }
+
+    public static void main(String argv[])
+    {
+        Map<String, Double> studentsAndScores = new LinkedHashMap<>();
+        String name;
+        double avgScore, classAvgTotal = 0, classAvg, classSum = 0;
+        Scanner sc = new Scanner(System.in);
+        DecimalFormat df = new DecimalFormat("###.##");
+
+        int numStudents = sc.nextInt(), numAssignments = sc.nextInt();
+
+        for (int i=0; i < numStudents; i++)
+        {
+            name = sc.next();
+            avgScore = getAverageScore(numAssignments, sc);
+            classSum += avgScore;
+            studentsAndScores.put(name, avgScore);
+        }
+
+        classAvg = classSum / (numStudents*1.0);
+        System.out.println(df.format(classAvg));
+
+        for (String aStudentName : studentsAndScores.keySet())
+        {
+            System.out.print(aStudentName + " ");
+            System.out.println(df.format(studentsAndScores.get(aStudentName)));
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]rent0n86 2 points3 points4 points 4 years ago (0 children)
+
+Hi, first time posting for me too.
+
+This is my solution with R:
+
+input <- read.table("input.txt", skip=1, row.names=1)
+students <- apply(input, 1, mean)
+myClass <- mean(students)
+write.table(myClass, "output.txt", col.names=FALSE, row.names=FALSE, quote=FALSE)
+write.table(students, "output.txt", col.names=FALSE, row.names=TRUE, quote=FALSE, append=TRUE)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]shangas 4 points5 points6 points 4 years ago (0 children)
+
+Factor
+
+USING: kernel io math arrays sequences formatting splitting math.parser ;
+
+readln drop lines
+[ " " split [ first ] [ rest ] bi [ string>number ] map
+  [ sum ] [ length ] bi / 2array ] map
+[ [ [ second ] map-sum ] [ length ] bi / "%.2f\n" printf ]
+[ [ first2 "%s %.2f\n" printf ] each ] bi
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Rellikolbaid0 0 3 points4 points5 points 4 years ago* (2 children)
+
+Python 2.7.5
+
+I'd really appreciate some tips for making my code better.
+
+import os
+
+grades = os.path.join(os.path.dirname(__file__), 'log.txt')
+
+def auto_grade(directory):
+    """ Takes a text file directory containing student
+    name and grades as input. Returns dictionary with
+    student's name and grade average.
+    """
+    numAssignments = 0
+    lineNum = 1
+    studentGrades = {}
+    for line in open(grades, 'r'):
+        # Get data about number of assignments from first line.
+        if lineNum == 1:
+            numAssignments = int(line.split()[1])
+            lineNum += 1
+            continue
+
+        else:
+            data = line.split()
+            # Make a copy of data so as not to iterate over a list being changed.
+            dataCopy = list(data)
+            # Makes sure everything beyond the students name is not a str.
+            for i in range(len(dataCopy)):
+                if i == 0:
+                    continue
+                else:
+                    data[i] = float(dataCopy[i])
+            # Averaging everything make sure not to include the students name.
+            studentGrades[data[0]] = sum(data[1:]) / numAssignments
+
+    return studentGrades
+
+
+if __name__ == "__main__":
+    studentGrades = auto_grade(grades)
+    # Print contents of dictionary in an easier format to read.
+    for student in studentGrades:
+        print student, ("%.2f" % studentGrades[student])
+
+I decided to write the function around the input being from a text document in
+the same directory as the script. In my algorithm, I make a copy of a list I'm
+iterating over. Is this necessary here? I've read that it's bad to iterate over
+a list that you're modifying so I made a copy to be safe. [DEL:(Isn't dataCopy
+= data just making dataCopy a pointer to data though? Is this even helping in
+any way or is it just redundant? Any help here in particular would be great.)
+:DEL] Edit: Got the copy thing figured out somewhat.
+
+As for the rest of the code, it seems really inelegant. Would it be better if I
+found a way to write this shorter? I've seen some really short python solutions
+people posted here. I feel like mine is kind of hard to read...
+
+Any input at all would be great! Thanks!
+
+Edit 1: Changed code to actually create a shallow copy of a list.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 4 years ago* (1 child)
+
+[deleted]
+
+[–]Rellikolbaid0 0 1 point2 points3 points 4 years ago (0 children)
+
+I didn't know you could simply use list() to make a shallow copy, thanks!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]elurin 3 points4 points5 points 4 years ago (0 children)
+
+A naive C solution
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <assert.h>
+
+struct student {
+    char *name;
+    float grade;
+};
+
+int main(void)
+{
+    int n, m;
+    int i, j;
+    int asn, ssum;
+    float cgrade = 0.0;
+    struct student sts[60], *st;
+
+    scanf("%d %d", &n, &m);
+    assert(1 <= n && n <= 60);
+    assert(4 <= m && m <= 100);
+
+    for (i = 0, st = &sts[0]; i < n; i++, st++) {
+        st->name = malloc(100 * sizeof(char *));
+        assert(st->name);
+        scanf("%99s", st->name);
+
+        for (j = 0, ssum = 0; j < m; j++, ssum += asn)
+            fscanf(stdin, " %d", &asn);
+
+        st->grade = (float) ssum / m;
+        cgrade += st->grade;
+    }
+
+    cgrade /= n;
+
+    printf("%.2f\n", cgrade);
+
+    for (i = 0, st = &sts[0]; i < n; i++, st++)
+        printf("%s %.2f\n", st->name, st->grade);
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]void_fraction 3 points4 points5 points 4 years ago (0 children)
+
+Quick scala solution
+
+  def grade(s: String):Unit={
+      val lines = s.split("\n").map(_.split(" "))
+      val N = lines.head(0).toInt
+      val M = lines.head(1).toInt
+      val grades = lines.drop(1).map(x =>
+              (x.head, x.tail.map(_.toDouble).sum / M))
+      println(grades.map{case (s, i) => i}.sum / N)
+      grades.foreach{case (s, i) => println(s"$s $i")}
+  }
+
+It doesn't output with the correct precision, I don't know how to do that with
+Scala's string formatting yet.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]lordtnt 7 points8 points9 points 4 years ago* (7 children)
+
+Python 2.7
+
+n, m = raw_input().split()
+for i in xrange(int(n)):
+    tokens = raw_input().split()
+    print '%s %.2f' % (tokens[0], sum(int(scr) for scr in tokens[1:])/float(m))
+
+http://ideone.com/m0KHc6
+
+Edit: forgot to print average score of all students first... Fixed:
+
+n, m = raw_input().split()
+p = []
+for i in xrange(int(n)):
+    tokens = raw_input().split()
+    p.append( (tokens[0], sum(int(scr) for scr in tokens[1:])/float(m)) )
+print '%.2f' % ( reduce(lambda x,y: x+y[1], p, 0)/float(n) )
+for student in p:
+    print '%s %.2f' % (student[0], student[1])
+
+http://ideone.com/Kl6Evj
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]PolloFrio 7 points8 points9 points 4 years ago (4 children)
+
+    int(scr) for scr in tokens[1:]
+
+What does this line mean when expanded?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]pandubear0 1 7 points8 points9 points 4 years ago (3 children)
+
+Say tokens is something like ['BOB', '3', '19'].
+
+Then tokens[1:] is ['3', '19'].
+
+int() turns things into integers, so if you did something like, int('21'), it
+would return the integer 21.
+
+int(scr) for scr in tokens[1:] gives back a generator that contains the values
+3 and 19 as integers instead of strings.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]PolloFrio 4 points5 points6 points 4 years ago (2 children)
+
+Oh is that how you make a generator? Awesome! Thank you!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nan6 6 points7 points8 points 4 years ago (1 child)
+
+It's one type, called a list comprehension. More complex ones can be made kind
+of like a function, with a yield statement instead of a return one.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]PolloFrio 2 points3 points4 points 4 years ago (0 children)
+
+Cheers! That's really good to know
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]winged_scapula 2 points3 points4 points 4 years ago (1 child)
+
+You need to keep track of data to print class average on first line.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]lordtnt 1 point2 points3 points 4 years ago (0 children)
+
+yea you're right, I missed that. Updated with reduce() to find avg score of all
+students instead of trivial averaging ;)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]blimey1701 5 points6 points7 points 4 years ago (6 children)
+
+Ruby
+
+def main(input)
+  averages      = averages(input.lines)
+  class_average = averages.values.reduce(:+) / averages.count
+
+  puts format("%.2f", class_average)
+
+  averages.each { |name, average| puts format("%s %.2f", name, average) }
+end
+
+def averages(lines)
+  _, assignment_count = lines.shift.split.map(&:to_i)
+
+  lines.each_with_object({}) do |line, averages|
+    name, *scores = line.split
+
+    averages[name] = scores.map(&:to_f).reduce(:+) / assignment_count
+  end
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Dysruption 3 points4 points5 points 4 years ago (3 children)
+
+If possible, can you step-by-step your averages method? I'd love to learn.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]blimey1701 5 points6 points7 points 4 years ago* (2 children)
+
+Sure thing!
+
+Pull off the first string from the input array
+
+_, assignment_count = lines.shift.split.map(&:to_i)
+
+The first line of the input has a number of students (which we can easily infer
+from the data itself) and the number of assignments. The _, variable_name
+construct is two things: a multiple assignment (more specifically a
+destructuring) and a throwaway variable. What I'm saying is "take this pair of
+input values and assign them to two variables, one of which I plan to never
+look at again". For a right triangle you might store its edge lengths like so:
+
+> a,b,c = [3,4,5]
+
+[3, 4, 5]
+
+> puts a+b+c
+
+12
+
+Break up the first line into two numbers lines.shift consumes the first element
+(a string!) off the input array. .split splits the resulting string on
+whitespace into an array of strings. .map(&:to_i) iterates through the array of
+strings, asks each of them to convert itself into an integer, and then returns
+the resulting array of integers. By the way, that .higher_order_function
+(&:method_name) pattern is a sweet bit of Ruby goodness in and of itself. Watch
+this awesome video from Peter Cooper of Ruby Weekly and Cooper Press to learn
+more. Here's a quick example to show you basically what's going on (you'll have
+to see the video to understand how it works):
+
+> "1 2".split.map(&:to_i)
+
+[1, 2]
+
+> "3 4".split.map{ |str| str.to_i }
+
+[3, 4]
+
+Break up the per-student input lines into a name and some scores
+
+lines.each_with_object({}) do |line, averages|
+
+lines.each_with_object is a Rubyish wrinkle on the standard functional inject/
+fold/reduce constructs. What we're saying here is that we have an array of
+integers and we're processing them one at a time while also keeping up with a
+persistent object, the {} I passed in the parentheses. do |line, averages|
+binds the current line being iterated as a local variable 'line' and the
+persistent hash we passed to the whole construct as a local variable named
+'averages'.
+
+Average the student's scores and store them in a hash Within this
+each_with_object block we see another multiple assignment, and this one has the
+wrinkle of using a splat * operator (see the aforementioned destructuring
+article). The splat packs the remaining arguments (pieces of the split-up line)
+up as a single array which we're calling scores.
+
+averages[name] = scores.map(&:to_f).reduce(:+) / assignment_count
+
+Finally we assign a new value to our averages hash table averages[name] by
+converting all of the student's stringish scores to floating point numbers
+(scores.map(&:to_f)), "reducing" the resulting array of floating point scores
+using the sum method (a simple array sum example: [1,2,3].reduce(:+) returns
+6), and then dividing them by the total number of assignments.
+
+Please let me know if this isn't completely clear. I would've liked to use
+github markdown formatting but decided to try it in-line here on reddit.
+
+Happy hacking!
+
+Note: 'Mapping' across a collection of data and then 'reducing' the results
+into a usable format is a time-tested pattern and once you get used to the
+pattern you'll see it everywhere. The best part is that it lends itself well to
+distributed computing which can mean super fast computation.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Dysruption 2 points3 points4 points 4 years ago (1 child)
+
+Thank you so much! A beautiful explanation.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]eBtDMoN2oXemz1iKB 0 points1 point2 points 4 years ago* (0 children)
+
+He basically jacked my solution and added some superfluous variables and
+methods.
+
+each_with_object is ugly and puts format can be better expressed as printf
+
+:)
+
+    a throwaway variable[2] . What I'm saying is "take this pair of input
+    values and assign them to two variables, one of which I plan to never look
+    at again".
+
+Don't do this.
+
+As it stands, /u/blimey1701 's solution doesn't even produce any output as the
+main() method is never called.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]BinofBread 2 points3 points4 points 4 years ago (1 child)
+
+Nice, here's mine. I'm still new to ruby, so it really looks like java... And
+the formatting is off, but printing the global average first is easy enough.
+
+input = gets.split.map{|i| i.to_i}
+num_students= input[0]
+i = num_students
+num_scores = input[1]
+global_avg = 0
+
+while(i > 0)
+  avg = 0
+  name = nil
+  line = gets.split.each_with_index do |token, index|
+    if index == 0
+      name = token.to_s
+    else
+      avg += token.to_f
+    end
+  end
+  i -= 1
+  p "#{name} #{(avg/num_scores).round(2)}"
+  global_avg += avg/num_scores
+end
+p (global_avg/num_students).round(2)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]blimey1701 0 points1 point2 points 4 years ago (0 children)
+
+Looking good. Glad to see you chaining a few simple operations on standard
+objects and making use of higher order functions (map). Your Ruby is only going
+to get better!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]yoho139 5 points6 points7 points 4 years ago* (1 child)
+
+Uh... I think your Sample Inputs are broken. You've got N students with N
+assignments, not N students with M assignments.
+
+Edit: Wasn't going to do it originally since I was busy, but I had a bit of
+free time and wanted to take a break from a project (taking a break from
+programming to program), so here's a solution in Java.
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
+public class Students {
+
+public static void main(String[] args) {
+    int n = Integer.parseInt(args[0]);
+    int m = Integer.parseInt(args[1]);
+    String[] names = new String[m];
+    BigDecimal[] averages = new BigDecimal[n];
+    BigDecimal total = BigDecimal.ZERO;
+    int current = 2;
+
+    for (int i = 0; i < n; i++) {
+        names[i] = args[current++];
+        BigDecimal temp = BigDecimal.ZERO;
+        for (int j = 0; j < m; j++) {
+            temp = temp.add(BigDecimal.valueOf(Integer.parseInt(args[current++])));
+        }
+        total = total.add(temp);
+        averages[i] = temp.divide(BigDecimal.valueOf(m), 2, RoundingMode.HALF_UP);
+    }
+
+    System.out.println(total.divide(BigDecimal.valueOf(n*m), 2, RoundingMode.HALF_UP));
+    for(int i = 0; i < n; i++) {
+        System.out.println(names[i] + " " + averages[i]);
+    }
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 6 points7 points8 points 4 years ago (0 children)
+
+Good catch! A mistake on my part when generating the data. Fixed, thanks for
+the heads up!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]skeeto-9 8 5 points6 points7 points 4 years ago (2 children)
+
+JavaScript, taking the input as a single string.
+
+function grade(input) {
+    var total = 0;
+    var students = input.split(/\n+/).slice(1).map(function(line) {
+        var split = line.split(/ +/),
+            grades = split.slice(1).map(parseFloat),
+            grade = grades.reduce(function(total, grade) {
+                return total + grade / grades.length;
+            }, 0);
+        total += grade;
+        return { name: split[0], grade: grade.toFixed(2) };
+    });
+    return {
+        total: total / students.length,
+        students: students
+    };
+}
+
+Sampel output in JSON:
+
+grade(input);
+// => {
+    total: 9.5,
+    students: [
+        { name: "ABIGAIL",   grade:  "7.90" },
+        { name: "ALEXANDER", grade:  "7.30" },
+        { name: "AVA",       grade: "13.40" },
+        { name: "ETHAN",     grade:  "7.20" },
+        { name: "ISABELLA",  grade:  "8.30" },
+        { name: "JACOB",     grade: "10.30" },
+        { name: "JAYDEN",    grade: "11.30" },
+        { name: "MADISON",   grade: "11.30" },
+        { name: "SOPHIA",    grade:  "9.00" },
+        { name: "WILLIAM",   grade:  "9.00" }
+    ]
+};
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]beeb2010 1 point2 points3 points 4 years ago (1 child)
+
+Having a JSON output is a nice touch - the output can now be easily read by
+other programs: say a mobile app developed for the university departments and
+students.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]skeeto-9 8 0 points1 point2 points 4 years ago (0 children)
+
+The main reason I do it that way is because I prefer to think functionally
+instead of in terms of input/output character streams. IMO, in these exercises
+the latter puts too much emphasis on parsing and formatting, which is the least
+interesting part of the problem.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 5 points6 points7 points 4 years ago* (0 children)
+
+Haskell:
+
+import System.IO
+import Data.Char
+
+main =  do
+            ineof <- isEOF
+            if ineof
+                then
+                    putStr ("")
+                else
+                    do
+                        x <- getLine
+                        putStrLn (grade(words x))
+                        main
+
+grade (x:xs)
+        | (isDigit (head x)) == (True) = ""
+        | otherwise = x ++ " " ++ (show((fromIntegral(sum(map read xs)))
+                                                /(fromIntegral(length xs))))
+
+  • permalink
+  • embed
+  • save
+
+[–]5hassay 2 points3 points4 points 4 years ago (0 children)
+
+python33
+
+from collections import OrderedDict
+
+
+N, M = [int(i) for i in input("N, M (space delim): ").split()]
+assert 1 <= N <= 60
+assert 4 <= M <= 100
+stud_avgs = OrderedDict()
+i = 0
+while i < N:
+    data = input("Student data: ").split()
+    stud = data[0]
+    grades = [int(i) for i in data[1:]]
+    assert len(grades) == M
+    avg = sum(grades) / M
+    stud_avgs.update({stud: avg})
+    i += 1
+CLASS_AVG = sum(stud_avgs.values()) / N
+print("%.2f" % CLASS_AVG)
+for stud in stud_avgs:
+    print("%s %.2f" % (stud, stud_avgs[stud]))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]professorlamp1 0 2 points3 points4 points 4 years ago* (0 children)
+
+Python 3 I did the input a bit lazily though, mine takes a list.
+
+def student_manager(students):
+
+    number_count =  0
+    class_total = 0
+
+    for i in range (len(students)):
+        print (students[i][0],'Student average =', sum(students[i][1:])/len(students[i][1:]))
+        for number in students[i][1:]:
+            number_count+=1
+            class_total+=number
+    print ('Class average =', class_total/number_count)
+
+Input:
+
+[
+['ABIGAIL', 11, 3, 5, 20, 4, 2, 8, 17, 4, 5],
+['ALEXANDER', 2, 12, 20, 0 ,6 ,10, 3 ,4, 9, 7],
+['AVA' ,11 ,15, 2, 19, 14, 5 ,16, 18, 15, 19],
+['ETHAN' ,6, 12, 0, 0, 5 ,11, 0 ,11 ,12, 15],
+['ISABELLA' ,16 ,0, 10, 7, 20, 20, 7, 2 ,0 ,1],
+['JACOB' ,2 ,14, 17, 7, 1, 11 ,16 ,14, 14 ,7],
+['JAYDEN' ,10, 10, 3, 16 ,15, 16, 8, 17, 15, 3],
+['MADISON' ,10 ,11, 19, 4 ,12 ,15, 7, 4 ,18, 13],
+['SOPHIA' ,5, 17, 14, 7 ,1 ,17, 18, 8 ,1, 2],
+['WILLIAM' ,12, 12, 19, 9 ,4 ,3 ,0 ,4 ,13 ,14]]
+
+Output:
+
+ABIGAIL Student average = 7.9
+ALEXANDER Student average = 7.3
+AVA Student average = 13.4
+ETHAN Student average = 7.2
+ISABELLA Student average = 8.3
+JACOB Student average = 10.3
+JAYDEN Student average = 11.3
+MADISON Student average = 11.3
+SOPHIA Student average = 9.0
+WILLIAM Student average = 9.0
+Class average = 9.5
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]relarmane 2 points3 points4 points 4 years ago (0 children)
+
+Straight forwards Java solution. I had to include a precision and rounding mode
+for the divide due to a non-terminating decimal value result throwing an
+ArithmeticException.
+
+import static java.lang.System.*;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.util.Scanner;
+
+public class dp136E
+{
+    public static void main(String[] args)
+    {
+        Scanner scan = new Scanner(in);
+        int [][] map = new int[scan.nextInt()][scan.nextInt()];
+        String [] names = new String[map.length];
+        BigDecimal [] avg  = new BigDecimal[map.length];
+        BigDecimal totAvg = new BigDecimal("0");
+
+        scan.nextLine();
+
+        //get input
+        //calculate the individual averages
+        //sum all the averages and get the class average after the loop terminates
+        for(int x=0;x<map.length;x++)
+        {
+            BigDecimal temp = new BigDecimal("0");
+            names[x] = scan.next().trim();
+
+            for(int y=0;y<map[x].length;y++)
+            {
+                map[x][y]= scan.nextInt();
+                temp = temp.add(new BigDecimal(map[x][y]+""));
+            }
+
+            avg[x] = temp.divide(new BigDecimal(map[x].length+""));
+            totAvg = totAvg.add(avg[x]);
+        }
+
+        totAvg = totAvg.divide(new BigDecimal(avg.length+""),2, RoundingMode.HALF_UP);
+        scan.close();
+
+        out.printf("%.2f\n",totAvg);
+
+        for(int x=0;x<names.length;x++)
+            out.printf("%s %.2f\n",names[x], avg[x]);
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]sup_reddit 2 points3 points4 points 4 years ago (1 child)
+
+OCaml (review welcome):
+
+(* Given a list of ints (as strings), calculate the avg *)
+let calcavg scores length =
+  let sumf = List.fold_left (+.) 0. in
+  (sumf (List.map (fun a -> float_of_string a) scores)) /. length
+
+(* Read input from stdin and return lists like ["name", "2", "4"] *)
+let rec readinput cnt n input =
+  if cnt < n then
+    readinput (cnt + 1) n ((Str.split (Str.regexp_string " ") (input_line stdin)) :: input)
+  else
+    input
+
+(* Given string input like "4 5", return tuple 4, 5.0 *)
+let parse1stLine l = int_of_string (List.hd l), float_of_string (List.nth l 1)
+
+let classavg all length = calcavg (List.map (fun a -> string_of_float (snd a)) all) length
+
+let () =
+  let n, m = parse1stLine (Str.split (Str.regexp_string " ") (input_line stdin)) in
+  let input = readinput 0 n [] in
+  let allavgs = List.map (fun line -> (List.hd line, calcavg (List.tl line) m)) input in
+  Printf.printf "%.2f\n" (classavg allavgs (float_of_int n));
+  List.iter (fun avg -> Printf.printf "%s %.2f\n" (fst avg) (snd avg)) (List.rev allavgs)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]bescheidenheit 2 points3 points4 points 4 years ago (0 children)
+
+First submission in this sub! Here's my solution in Java.
+
+public void checkGrades(){
+
+        Scanner input = new Scanner(System.in);
+
+        String studentsAssignments = input.nextLine();
+        int numStudents  = Integer.parseInt(studentsAssignments.split(" ")[0]);
+        int numAssignments  = Integer.parseInt(studentsAssignments.split(" ")[1]);
+        String[] nameAndGrades = new String[numStudents + 1];
+        String[] temp;
+        double rollingTotal;
+        double classRollingTotal = 0;
+        DecimalFormat df = new DecimalFormat("#.00");
+
+        for(int i = 1; i <= numStudents; i++){
+
+            rollingTotal = 0;
+            String toFill = "";
+            nameAndGrades[i] = input.nextLine();
+            temp = nameAndGrades[i].split(" ");
+            toFill += temp[0] + " ";
+
+            for(int q = 1; q <= numAssignments; q++){
+
+                rollingTotal += Integer.parseInt(temp[q]);
+
+            }//end inner for
+
+            rollingTotal = rollingTotal / numAssignments;
+            classRollingTotal += rollingTotal;
+            toFill += String.valueOf(df.format(rollingTotal));
+            nameAndGrades[i] = toFill;
+        }//end outer for
+        System.out.println("");
+        nameAndGrades[0] = String.valueOf(df.format(classRollingTotal / numStudents));
+        for(String each : nameAndGrades){
+            System.out.println(each);
+        }
+    }//end checkGrades
+}// end class
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ubiqu1ty 2 points3 points4 points 4 years ago (0 children)
+
+My solution in Java:
+
+import java.util.Scanner;
+
+public class Easy136 {
+    public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
+    int n = in.nextInt();
+    int m = in.nextInt();
+    String[] names = new String[n];
+    int[][] scores = new int[n][m];
+    int classMarks = 0;
+    int[] studentMarks = new int[n];
+
+    for (int studentNum = 0; studentNum < n; studentNum++) {
+        names[studentNum] = in.next();
+        for (int scoreNum = 0; scoreNum < m; scoreNum++) {
+            scores[studentNum][scoreNum] = in.nextInt();
+            studentMarks[studentNum] += scores[studentNum][scoreNum];
+            classMarks += scores[studentNum][scoreNum];
+        }
+    }
+    System.out.println("Calculating results...");
+    System.out.printf("The class average is %.2f.%n", (double)classMarks/(n*m));
+    System.out.println("Individual student marks are as follows:");
+
+    for (int studentNum = 0; studentNum < n; studentNum++) {
+        System.out.print("\t" + names[studentNum] + ": ");
+        System.out.printf("%.2f%n", (double)studentMarks[studentNum]/m);
+    }
+}
+}
+
+I only realized near the end of completing my solution that the 2-dimensional
+scores array was unnecessary in the context of the problem, but figured it
+wouldn't hurt to keep in.
+
+This was also my first time trying the printf function, which was a little
+confusing.
+
+Criticism or advice is welcome!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]winged_scapula 2 points3 points4 points 4 years ago (0 children)
+
+Python
+
+def automatic_grading():
+    N, M = map(int, raw_input().split())
+
+    avgrades = 0
+    data = []
+
+    for i in range(N):
+        stu_data = raw_input()
+        student = stu_data.split()[0]
+        grades = (map(int, stu_data.split()[1:]))
+        avgrade = sum(grades) / float(M)
+
+        avgrades += avgrade
+        data.append([student, '{0:.2f}'.format(avgrade)])
+
+    print '\n\n{0:.2f}'.format(avgrades/N)
+    for item in data:
+        print item[0], item[1]
+
+automatic_grading()
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Dutsj 2 points3 points4 points 4 years ago* (0 children)
+
+It's a liiiiitle bit big, but I took the chance to play around with function
+objects a bit for the averages, they can be quite useful. I coulnd't use stoi
+instead of atoi and c_str in the code because it's not supported on gcc for
+windows yet and my ubuntu install decided to quit today. Also, I used a file
+instead of standard input, but that was because that made testing a lot easier.
+
+#include <vector>
+#include <sstream>
+#include <string>
+#include <fstream>
+#include <algorithm>
+#include <iostream>
+#include <iomanip>
+
+class Average
+{
+private:
+    int sum;
+    int count;
+public:
+    Average() : sum(0), count(0){}
+
+    void operator() (int i){
+        sum += i;
+        ++count;
+    }
+
+    double getAverage(){
+        return (static_cast<double>(sum) / static_cast<double>(count));
+    }
+};
+
+class StudentRecord
+{
+public:
+
+    StudentRecord (const std::string& str) {
+        std::stringstream sstr(str);
+        getline(sstr, name, ' ');
+        std::string numberadd;
+        while (std::getline(sstr, numberadd, ' ')) {
+            int gradeToAdd = std::atoi(numberadd.c_str());
+            grades.push_back(gradeToAdd);
+
+        }
+    }
+
+    std::vector<int> grades;
+    std::string name;
+};
+
+
+
+int main()
+{
+    using namespace std;
+
+    int numStudents, numGrades;
+    cin>>numStudents>>numGrades;
+
+    string s;
+    ifstream ifstr("studentdata.txt");
+    vector<StudentRecord> students;
+
+    while (getline(ifstr, s)){
+        students.push_back(StudentRecord(s));
+    }
+
+    double classSum = 0.0;
+
+    size_t strwidth = 0; //get the width to set cout to for formatting
+    for (StudentRecord SR:students){
+        if (SR.name.size()>strwidth){
+            strwidth = SR.name.size();
+        }
+    }
+
+    for (StudentRecord SR : students){
+        cout<<std::left<<setw(strwidth+1)<<SR.name<<' ';
+
+        if (SR.name.size()>strwidth){
+            strwidth = SR.name.size();
+        }
+
+        Average av = for_each((SR.grades).begin(), (SR.grades).end(), Average());
+        cout<<std::right<<setw(5)<<(floor(av.getAverage()*100 + 0.5 )/100)<<endl;
+
+        classSum += av.getAverage();
+    }
+    double classAverage = classSum / static_cast<double>(numStudents);
+    cout<<"Class Average is: "<<classAverage<<endl;
+
+    return 0;
+}
+
+output is
+
+ABIGAIL      7.9
+ALEXANDER    7.3
+AVA         13.4
+ETHAN        7.2
+ISABELLA     8.3
+JACOB       10.3
+JAYDEN      11.3
+MADISON     11.3
+SOPHIA         9
+WILLIAM        9
+Class Average is: 9.5
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]killedbythegrue 2 points3 points4 points 4 years ago* (0 children)
+
+Two different solutions in Erlang.
+
+The first, calcGrades1, uses list comprehensions. The code is very succinct,
+only 2 lines not counting function headers and output. The downside is it has
+to go through the data three times. The second, calcGrades2, takes the more
+classic tail recursive approach. It comes in at 4 lines of code, not counting
+function headers or output. But the list of students is reversed.
+
+-module(grades).
+-compile(export_all).
+
+sum(X,Y) -> X+Y.
+
+calcGrades1([NumStu,NumAsn|Data]) ->
+    StuGrades = [[Name,lists:foldl(fun sum/2, 0, Grades) / NumAsn] ||
+        [Name|Grades] <- Data],
+    ClassAvg = lists:foldl(fun sum/2, 0, [G || [_,G] <- StuGrades])/NumStu,
+
+    io:fwrite("~.2f\n", [ClassAvg]),
+    lists:foreach(fun(L)-> io:fwrite("~s ~.2f \n", L) end, StuGrades).
+
+
+
+
+calcGrades2([NumStu,NumAsn|Data]) ->
+    {ClassAvg, StuGrades} = doCalcGrades2(NumStu,NumAsn, 0, [], Data),
+
+    io:fwrite("~.2f\n", [ClassAvg]),
+    lists:foreach(fun(L)-> io:fwrite("~s ~.2f \n", L) end, StuGrades).
+
+doCalcGrades2(NumStu, _NumAsn, ClassTot, StuGrades, [] ) ->
+    {ClassTot/NumStu, StuGrades};
+
+doCalcGrades2(NumStu, NumAsn, ClassTot, StuGrades, [[Name|Grades]|T] ) ->
+    Grade = lists:foldl(fun sum/2,0,Grades)/NumAsn,
+    doCalcGrades2(NumStu, NumAsn, (ClassTot + Grade),
+        lists:append([[Name,Grade]],StuGrades), T).
+
+Output
+
+1> c(grades).
+{ok,grades}
+2> grades:sampleData1().
+[3,5,
+ ["JON",19,14,15,15,16],
+ ["JEREMY",15,11,10,15,16],
+ ["JESSE",19,17,20,19,18]]
+3> grades:sampleData2().
+[10,10,
+ ["ABIGAIL",11,3,5,20,4,2,8,17,4,5],
+ ["ALEXANDER",2,12,20,0,6,10,3,4,9,7],
+ ["AVA",11,15,2,19,14,5,16,18,15,19],
+ ["ETHAN",6,12,0,0,5,11,0,11,12,15],
+ ["ISABELLA",16,0,10,7,20,20,7,2,0,1],
+ ["JACOB",2,14,17,7,1,11,16,14,14,7],
+ ["JAYDEN",10,10,3,16,15,16,8,17,15,3],
+ ["MADISON",10,11,19,4,12,15,7,4,18,13],
+ ["SOPHIA",5,17,14,7,1,17,18,8,1,2],
+ ["WILLIAM",12,12,19,9,4,3,0,4,13,14]]
+4> grades:calcGrades1(grades:sampleData1()).
+15.93
+JON 15.80
+JEREMY 13.40
+JESSE 18.60
+ok
+5> grades:calcGrades1(grades:sampleData2()).
+9.50
+ABIGAIL 7.90
+ALEXANDER 7.30
+AVA 13.40
+ETHAN 7.20
+ISABELLA 8.30
+JACOB 10.30
+JAYDEN 11.30
+MADISON 11.30
+SOPHIA 9.00
+WILLIAM 9.00
+ok
+6> grades:calcGrades2(grades:sampleData1()).
+15.93
+JESSE 18.60
+JEREMY 13.40
+JON 15.80
+ok
+7> grades:calcGrades2(grades:sampleData2()).
+9.50
+WILLIAM 9.00
+SOPHIA 9.00
+MADISON 11.30
+JAYDEN 11.30
+JACOB 10.30
+ISABELLA 8.30
+ETHAN 7.20
+AVA 13.40
+ALEXANDER 7.30
+ABIGAIL 7.90
+ok
+8>
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]GPK_Ethan0 0 2 points3 points4 points 4 years ago (0 children)
+
+In Java.
+
+At first I made a class(inside the same file) just to hold a students name and
+his/her average, but instead I just decided to store each variable inside the
+ArrayList individually. I felt the program might run slower because I had
+created another class. But would having a separate class consisting of maybe 7
+lines of code make a program run slower?
+
+public class studentManage {
+
+public static void main( String args[] ) {
+
+    ArrayList studInfo = new ArrayList();
+    Scanner scan = new Scanner(System.in);
+
+    System.out.println("Enter input:");
+    int numStudents = scan.nextInt();
+    int numAssignments = scan.nextInt();
+
+    for(int i = 0; i < numStudents; i++) {
+
+        System.out.print("> ");
+        studInfo.add( scan.next() );
+
+        double personAve = 0;
+
+        for (int j = 0; j < numAssignments; j++) {
+
+            personAve += scan.nextInt();
+
+            if(j == numAssignments - 1) {
+
+                studInfo.add(personAve / numAssignments);
+
+            }
+
+        }
+
+    }
+
+    double totalAve = 0;
+
+    for(int i = 1 ; i < studInfo.size(); i += 2) {
+
+         totalAve += (double)studInfo.get(i);
+
+    }
+
+    System.out.println( totalAve / numStudents );
+
+    for(int i = 1; i < studInfo.size(); i += 2) {
+
+        System.out.print( studInfo.get(i - 1) );
+        System.out.println(" "  + studInfo.get(i) );
+
+    }
+}
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]otsojaun 2 points3 points4 points 4 years ago (0 children)
+
+Java
+
+import java.text.DecimalFormat;
+
+public class StudentManagement {
+    public static void main(String args[]){
+        int c = 0;
+        int n = Integer.parseInt(args[c++]);
+        int m = Integer.parseInt(args[c++]);
+        String[] names = new String[n];
+        float[] grades = new float[n];
+        float totalGrades = 0;
+
+        for (int i = 0; i < n; i++){
+            names[i] = args[c++];
+            for (int j = 0; j < m; j++)
+                grades[i] += Float.parseFloat(args[c++]);
+            grades[i] /= m;
+            totalGrades += grades[i];
+        }
+
+        DecimalFormat df = new DecimalFormat("0.00");
+        System.out.println(df.format(totalGrades / n));
+        for (int i = 0; i < n; i++)
+            System.out.println(names[i] + " " + df.format(grades[i]));
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]y2bd0 0 2 points3 points4 points 4 years ago (0 children)
+
+In Lua 5.2:
+
+-- converts the iterator string.gmatch gives us into an array
+local function buildArr(...)
+  local arr = {}
+  local n = 1
+
+  for v in ... do
+    arr[n] = v
+    n = n + 1
+  end
+  return arr
+end
+
+local function extractKeys(arr)
+  local keys = {}
+  local n = 1
+
+  for k,_ in pairs(arr) do
+    keys[n] = k
+    n = n + 1
+  end
+
+  return keys
+end
+
+local line = buildArr(string.gmatch(io.read(), '%d+'))
+local n, m = line[1], line[2]
+
+local grades = {}
+local totalSum = 0
+
+for i=1, n do
+  line = buildArr(string.gmatch(io.read(), '%S+'))
+
+  local sum = 0
+
+  for j=2, m+1 do
+    sum = sum + line[j]
+    totalSum = totalSum + line[j]
+  end
+
+  grades[line[1]] = sum / m
+end
+
+print (string.format("%.2f", totalSum / (n*m)))
+
+-- we do this instead of directly iterating over the dict
+-- so we can keep alpha order of names
+local names = extractKeys(grades)
+table.sort(names)
+
+for _, name in ipairs(names) do
+  print(string.format("%s %.2f", name, grades[name]))
+end
+
+This was more to test Lua's string parsing methods than anything. Definitely a
+bit more expanded than Python!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]TimeCannotErase 2 points3 points4 points 4 years ago (0 children)
+
+Here's my R solution:
+
+rm(list=ls())
+NM<-as.vector(scan(n=2,sep=" ",quiet=TRUE))
+Grades<-t(matrix(scan(n=(NM[1]*(NM[2]+1)),what="",quiet=TRUE),ncol=NM[1],nrow=(NM[2]+1)))
+Output<-cbind(Grades[,1],rowMeans(matrix(as.numeric(Grades[,(2:(NM[2]+1))]),nrow=NM[1],ncol=NM[2])))
+cat("\n",mean(as.numeric(Grades[,(2:(NM[2]+1))])),"\n")
+write.table(Output,row.names=F,col.names=F,quote=F)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 2 points3 points4 points 4 years ago (0 children)
+
+First time posting here :). Tried my hand at writing it in GO, and being super
+noob, didn't get it quite right, but had fun!
+
+package main
+import (
+    "fmt"
+    "io/ioutil"
+    "strconv"
+    "strings"
+)
+
+var (
+    n float64 = 0
+    m         = 0
+)
+
+func main() {
+    var input_data []byte
+
+    input_data, _ = ioutil.ReadFile("./input.txt")
+    lines := strings.Split(string(input_data), "\n")
+
+    chars := strings.Split(string(lines[0]), " ")
+    students, _ := strconv.ParseInt(chars[0], 10, 0)
+    assignments, _ := strconv.ParseInt(chars[1], 10, 0)
+    m := int(students)
+    n := float64(assignments)
+
+    //for the number of students run the averaging machine
+    var class_sum_of_avg float64
+    for i := 0; i < m; i++ {
+        chars := strings.Split(string(lines[i+1]), " ")
+        name := chars[0]
+        //then average the # of assignments
+        var sum float64
+
+        var avg float64
+        var class_avg float64
+
+        for i := 0; i < len(chars); i++ {
+
+            score, _ := strconv.ParseInt(chars[i], 10, 0)
+            int_score := float64(score)
+            sum = int_score + sum
+
+        }
+        avg = sum / n
+        class_sum_of_avg = avg + class_sum_of_avg
+
+        if m == i+1 {
+            students := float64(m)
+            class_avg = class_sum_of_avg / students
+            fmt.Printf("%v \n", class_avg)
+        }
+
+        defer fmt.Printf("%v \n", avg)
+        defer fmt.Print(name, "  ")
+
+    }
+
+}
+
+  • permalink
+  • embed
+  • save
+
+[–]antoniocs 2 points3 points4 points 4 years ago (0 children)
+
+Here is my attempt using C
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+#define MAXSIZE 100
+
+struct studentList {
+    struct student **list;
+    float list_avg;
+};
+
+struct student {
+    char *name;
+    int *assignments;
+    float avg;
+};
+
+int main(int argc, char** argv) {
+
+    //state 0 - Get the students and assignments
+    //state 1 - Have read the number of students and assignments
+    //state 2 - Started reading students with their grades in the assignments
+    //state 3 - Make all the calculations
+    //state 4 - Show
+    int state = 0;
+
+    struct studentList stList = {NULL, 0};
+    char *data = calloc(MAXSIZE, 1);
+    int totalStudents = 0;
+    int totalAssignments = 0;
+
+    while (1) {
+        switch (state) {
+            case 0://get the number of students and assignments
+                ++state;
+
+                //must have the \n
+                scanf("%d %d\n", &totalStudents, &totalAssignments);
+                break;
+            case 1:
+                ++state;
+
+                if (totalStudents <= 0 || totalAssignments <= 0) {
+                    printf("ERROR\n");
+                    goto loop_exit;
+                }
+
+                stList.list = malloc(sizeof (struct student) * totalStudents);
+                break;
+            case 2://Read all the students names and grades
+                ++state;
+
+                char *ptr = NULL;
+                struct student *st = NULL;
+
+                for (int x = 0; x < totalStudents; x++) {
+                    fgets(data, MAXSIZE, stdin);
+                    ptr = strtok(data, " ");
+
+                    if (ptr == NULL) {
+                        printf("Error no data given\n");
+                        goto loop_exit;
+                    }
+
+                    st = calloc(sizeof (struct student), 1);
+
+                    if (st == NULL) {
+                        printf("Unable to allocate space for student\n");
+                        goto loop_exit;
+                    }
+
+                    st->name = calloc(MAXSIZE, 1);
+                    st->assignments = calloc(sizeof (int), totalAssignments);
+
+                    if (st->name == NULL || st->assignments == NULL) {
+                        free(st);
+                    }
+
+                    strcpy(st->name, ptr);
+
+                    int a = 0;
+                    ptr = strtok(NULL, " "); //Start getting the numbers
+
+                    while (a < totalAssignments) {
+                        if (ptr == NULL) {
+                            printf("Error - Missing Assignments");
+                            goto loop_exit;
+                        }
+
+                        st->assignments[a++] = atoi(ptr);
+
+                        ptr = strtok(NULL, " ");
+                    }
+
+                    stList.list[x] = st;
+                    memset(data, 0, MAXSIZE);
+                }
+                break;
+            case 3://We have all the students with their assignments, so we can make all the calculations
+                {
+                ++state;
+
+                int sum = 0;
+                for (int i = 0; i < totalStudents; i++) {
+                    sum = 0;
+                    for (int a = 0; a < totalAssignments; a++) {
+                        sum += stList.list[i]->assignments[a];
+                    }
+
+                    stList.list[i]->avg = sum / ((float)totalAssignments);
+                    stList.list_avg += stList.list[i]->avg;
+                }
+
+                stList.list_avg /= (float) totalStudents;
+                }
+                break;
+            case 4: //show result
+                printf("%.2f\n", stList.list_avg);
+                for (int i = 0; i < totalStudents; i++) {
+                    printf("%s %.2f\n", stList.list[i]->name, stList.list[i]->avg);
+                }
+                goto loop_exit;
+                break;
+        }
+    }
+
+loop_exit:
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pmpmp 2 points3 points4 points 4 years ago* (0 children)
+
+First submission here. I've been programming ~1 week, excluding some C++ in
+CS101 15 years ago. Python, used a dictionary.
+
+# Student Management
+
+from string import split
+
+# Get values for N & M
+get_n_m = raw_input("N students, M assignments: ")
+n = get_n_m.split()[0]
+m = get_n_m.split()[1]
+
+book = {}
+
+# Get students' names & grades
+    for s in range(int(n)):
+    get_name_grades = raw_input("Enter Name & Grades: ")
+    name = get_name_grades.split()[0]
+    grades = [float(i) for i in get_name_grades.split()[1:]]
+    book[name] = round(float(sum(grades)/len(grades)),2)
+
+#Calculate Class Average
+sumc = 0.0
+class_avg = 0.0
+
+for s in book:
+    sumc += book[s]
+
+class_avg = sumc/int(n)
+
+# Print Output
+print class_avg
+
+for t in book:
+    print t,book[t]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]7f0b 2 points3 points4 points 4 years ago (0 children)
+
+Solution in object-oriented PHP with comments (no error checking):
+
+/**
+ * STUDENT GRADE AVERAGES
+ *
+ * Self-contained class that takes an input array and echos
+ * the class average and the student averages.
+ */
+class StudentGradeAverages
+{
+    public $studentCount = 0;
+    public $assignmentCount = 0;
+    public $classGradeSum = 0;
+    public $classGradeAverage = 0;
+    public $studentList = array();
+
+    public function __construct($input)
+    {
+        // Get number of students and assignments from input
+        $counts = explode(' ', $input[0]);
+        $this->studentCount = $counts[0];
+        $this->assignmentCount = $counts[1];
+        unset($input[0]);
+
+        // Loop through students and add to studentList
+        foreach($input as $student)
+        {
+            $studentInfo = explode(' ', $student);
+            $studentName = $studentInfo[0];
+            $studentGradeList = array();
+            $studentGradeSum = 0;
+            unset($studentInfo[0]);
+
+            // Loop through student's grades
+            foreach($studentInfo as $grade)
+            {
+                $studentGradeList[] = $grade;
+                $studentGradeSum+= $grade;
+                $this->classGradeSum+= $grade;
+            }
+
+            // Get student average and add to array
+            $studentGradeAverage = $studentGradeSum / $this->assignmentCount;
+            $this->studentList[] = array(
+                'name' => $studentName,
+                'gradeList' => $studentGradeList,
+                'average' => $studentGradeAverage
+            );
+        }
+
+        // Get class average
+        $this->classGradeAverage = $this->classGradeSum / ($this->studentCount * $this->assignmentCount);
+
+        // Ouput averages
+        echo number_format($this->classGradeAverage, 2) . '<br>';
+        foreach($this->studentList as $student)
+        {
+            echo $student['name'] . ' ' . number_format($student['average'], 2) . '<br>';
+        }
+    }
+}
+
+
+/**
+ * CLASS INSTANCE
+ *
+ * Create a new instance of the main class and pass the input.
+ * The input is held in an array that we can pretend comes
+ * from the user standard input or a web form. The class echos
+ * the output directly, including HTML breaks (for web use).
+ */
+new StudentGradeAverages(array(
+    '10 10',
+    'ABIGAIL 11 3 5 20 4 2 8 17 4 5',
+    'ALEXANDER 2 12 20 0 6 10 3 4 9 7',
+    'AVA 11 15 2 19 14 5 16 18 15 19',
+    'ETHAN 6 12 0 0 5 11 0 11 12 15',
+    'ISABELLA 16 0 10 7 20 20 7 2 0 1',
+    'JACOB 2 14 17 7 1 11 16 14 14 7',
+    'JAYDEN 10 10 3 16 15 16 8 17 15 3',
+    'MADISON 10 11 19 4 12 15 7 4 18 13',
+    'SOPHIA 5 17 14 7 1 17 18 8 1 2',
+    'WILLIAM 12 12 19 9 4 3 0 4 13 14'
+));
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jagt 2 points3 points4 points 4 years ago (1 child)
+
+C. This took so much longer than I expected and now I'm quite depressed :(
+
+#include <stdio.h>
+#include <stdlib.h>
+#define NAMEMAX 32
+
+int main() {
+    int row, cnt, ix, jx, *bufs;
+    char *names;
+    float *avgs, total_sum;
+    scanf("%d%d", &row, &cnt);
+    avgs = malloc(row * sizeof(float));
+    bufs = malloc(cnt * row * sizeof(int));
+    names = malloc(NAMEMAX * row * sizeof(char));
+    for (ix = 0; ix < row; ++ix) {
+        scanf("%s", names+ix*NAMEMAX);
+        for (jx = 0; jx < cnt; ++jx) {
+            scanf("%d", bufs+ix*cnt+jx);
+        }
+    }
+
+    for (ix = 0; ix < row; ++ix) {
+        avgs[ix] = 0;
+        for (jx = 0; jx < cnt; ++jx) {
+            avgs[ix] += bufs[ix*cnt+jx];
+        }
+        avgs[ix] /= cnt;
+        total_sum += avgs[ix];
+    }
+    total_sum /= row;
+
+    printf("%.2f\n", total_sum);
+    for (ix = 0; ix < row; ++ix) {
+        printf("%s", (names+ix*NAMEMAX));
+        printf(" %.2f\n", avgs[ix]);
+    }
+
+    free(avgs);
+    free(bufs);
+    free(names);
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]eBtDMoN2oXemz1iKB 1 point2 points3 points 4 years ago (0 children)
+
+Don't be depressed! At least it looks like you're not leaking memory.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]leflings 2 points3 points4 points 4 years ago (0 children)
+
+First F# program
+
+type Student = { Name: string; GradeAvg: float; }
+
+let _::input = System.IO.File.ReadAllLines("input.txt") |> List.ofArray ;;
+
+let createStudent (s:string) =
+  let name::grades = s.Split(Seq.toArray " ") |> List.ofArray
+  let avg =
+    grades
+    |> List.map (fun x -> System.Double.Parse(x))
+    |> List.average
+  { Name=name; GradeAvg=avg; }
+
+let students = List.map createStudent input
+
+let totalAvg = students |> List.averageBy (fun x -> x.GradeAvg)
+printfn "%.2f" totalAvg
+students |> List.iter (fun x -> printfn "%s %.2f" x.Name x.GradeAvg)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 2 points3 points4 points 4 years ago (0 children)
+
+Not a very good programmer, but here is my shot in C. I assumed the data was
+coming from a file.
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+    int n; //students
+    int m;//assignments
+    int i,j;
+    int assig;
+    int sum=0;
+    float div;
+    float avg;
+    char name[10];
+    long pos;
+    FILE *fp;
+    fp=fopen("C:/Users/ME/Desktop/STUDENT.TXT", "r");
+    fscanf(fp,"%d %d", &n, &m);
+    pos=ftell(fp);
+    div=n*m;
+    for(i=0;i<n;i++)
+    {
+        fscanf(fp,"%s", name);
+        for(j=0;j<m;j++)
+        {
+            fscanf(fp,"%d",&assig);
+            sum+=assig;
+        }
+    }
+    avg=sum/div;
+    sum=0;
+    printf("%.2f\n",avg);
+    avg=0;
+    fseek(fp,pos,SEEK_SET);
+    for(i=0;i<n;i++)
+    {
+        fscanf(fp,"%s", name);
+        for(j=0;j<m;j++)
+        {
+            fscanf(fp,"%d",&assig);
+            sum+=assig;
+        }
+        avg=(float)sum/m;
+        printf("%s %.2f\n", name, avg);
+        sum=0;
+    }
+    fclose(fp);
+    system("pause");
+
+}
+
+  • permalink
+  • embed
+  • save
+
+[–]bheinks0 0 2 points3 points4 points 4 years ago (0 children)
+
+Python
+
+def mean(numbers):
+    return sum(numbers) / len(numbers)
+
+averages = []
+
+for i in range(int(input().split()[0])):
+    line = input().split()
+    averages.append((line[0], mean(list(map(int, line[1:])))))
+
+print("{:.2f}".format(mean([average for name, average in averages])))
+
+for name, average in averages:
+    print("{} {:.2f}".format(name, average))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]shangas 3 points4 points5 points 4 years ago* (1 child)
+
+(Semi-)obfuscated Haskell. Just for fun, a bit of code-golfing this time
+(although Haskell is not all that compact for this kind of string manipulation,
+so it's not that short in golfing terms).
+
+import Control.Applicative
+import Control.Arrow
+import Text.Printf
+
+main = getContents>>=mapM_ putStrLn.o.p where
+    a=(/)<$>sum<*>fromIntegral.length
+    p=map((head&&&a.map read.tail).words).drop 1.lines
+    o=(:)<$>f.a.map snd<*>map(uncurry$printf"%s %.2f")
+    f=printf"%.2f"::Double -> String
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]134671 1 1 point2 points3 points 4 years ago (0 children)
+
+I also gave it a shot:
+
+import Text.Printf
+p x=printf"%.2f"(x::Double)
+f x=sum x/fromIntegral(length x)
+g(a:b)=(\x->(x,a++' ':p x))$f$map read b
+h(a,b)=putStr$unlines$(p$f a):b
+main=getContents>>=h.unzip.map(g.words).tail.lines
+
+Not counting imports:
+
+import Control.Arrow
+import Control.Applicative
+import Text.Printf
+p x=printf"%.2f"(x::Double)
+f x=sum x/fromIntegral(length x)
+g(a:b)=f&&&(a++).(' ':).p.f$read<$>b
+h(a,b)=putStr$unlines$(p$f a):b
+main=getContents>>=h.unzip.map(g.words).tail.lines
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]throwawayInsertGuid 4 points5 points6 points 4 years ago (0 children)
+
+C#, fast and dirty. Obviously uses the linq/extensions libraries.
+
+int students = 0;
+int assignments;
+var line = 1;
+Dictionary<string,List<double>> studentGrades = new Dictionary<string,List<double>>();
+try
+{
+    var values = Console.ReadLine().Split(' ').Select (c => int.Parse(c)).ToArray();
+    students = values[0];
+    assignments = values[1];
+    line++;
+    if (students != 0)
+    {
+        for (var i=0;i< students;i++)
+        {
+//              Uncomment these to enable checking for available data, only available on a
+//              real Console.In (Linqpad, for instance, does not support it)
+//              if (!Console.KeyAvailable){
+//                  Console.WriteLine("Not enough student data provided");
+//                  break;
+//              }
+
+            var line = Console.ReadLine().Split(' ');
+            studentGrades.Add(line[0],line.Skip(1).Select (l => double.Parse(l)).ToList());
+            if (studentGrades[line[0]].Count != assignments)
+            {
+                Console.WriteLine("Not enough assignments provided");
+                break;
+            }
+            line++;
+        }
+    }
+}
+catch (Exception ex)
+{
+    Console.WriteLine("Invalid input on line {0} ({1}:{2})",line,ex.GetType().Name, ex.Message);
+}
+
+if (students != 0 && studentGrades.Count == students)
+{
+    foreach (var student in studentGrades.Keys)
+    {
+        studentGrades[student].Add(studentGrades[student].Average ());
+    }
+    Console.WriteLine("{0:0.00}",studentGrades.Average (g => g.Value.Last ()));
+    foreach (var student in studentGrades.Keys)
+    {
+        Console.WriteLine("{0} {1:0.00}",student,studentGrades[student].Last ());
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Seus2k11 3 points4 points5 points 4 years ago (3 children)
+
+This is my first submission and I chose Ruby. I'm still fairly new to Ruby, so
+if anyone wants to give me a critique, that would be awesome. I'm currently
+reading through Eloquent Ruby to try and improve.
+
+def grade_report(input)
+  num = 1
+  num_names = 0
+  num_grades = 0
+  output = ""
+  class_avg = 0.00
+
+  input.split("\n").each do |line|
+
+    if num == 1
+      num_names_and_grades = line.split("\s")
+      num_names = num_names_and_grades[0].to_f
+      num_grades = num_names_and_grades[1].to_f
+    else
+
+      user = line.split("\s")
+
+      name = user[0]
+      avg_grade = 0.0
+
+      for i in 1..num_grades
+        avg_grade += user[i].to_f
+      end
+
+      avg_grade = avg_grade / num_grades
+      class_avg += avg_grade
+
+      output += "#{name} #{avg_grade}\n"
+
+    end
+
+    num +=1
+  end
+
+  class_avg = class_avg / num_names
+
+  puts "#{class_avg}"
+  puts output
+end
+
+grade_report("3 5\nJON 19 14 15 15 16\nJEREMY 15 11 10 15 16\nJESSE 19 17 20 19 18\n")
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ozzkloz 1 point2 points3 points 4 years ago (2 children)
+
+You named so many other things, why not name:
+
+input.split("\n").each do |line|
+
+so it becomes:
+
+lines = input.split("\n")
+lines.each do |line|
+
+also, in ruby, try to lean on internal iterators (found in the enumerable
+library if you want to go looking)
+
+avg_grade = 0.0
+
+for i in 1..num_grades
+  avg_grade += user[i].to_f
+end
+
+avg_grade = avg_grade / num_grades
+
+just doesn't feel very rubyish. better if you have a collection of grades to
+iterate over:
+
+total = 0.0
+
+grades.each do |grade|
+  total += grade
+end
+
+avg_grade = total / grades.size
+
+or even better:
+
+total = grades.inject do |grade, sum|
+  sum += grade
+end
+total / grades.size
+
+or best:
+
+total = grades.inject(:+) / grades.size
+
+so how do you get that grades array? well, based on the code you have written:
+
+grades = user[1..-1].map(&:to_i)
+
+enjoy!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Seus2k11 1 point2 points3 points 4 years ago (1 child)
+
+Cool. Thanks for the tips. I'm still working to improve my ruby skills. While I
+can develop in it, mastering the ruby-way is definitely more challenging.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ozzkloz 1 point2 points3 points 4 years ago (0 children)
+
+One day we'll get there. :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Sirenos 1 point2 points3 points 4 years ago* (4 children)
+
+Frankenstein monster made from preprocessor abuse and some C++11 features.
+
+#include <iostream>
+#include <iomanip>
+#include <string>
+#include <vector>
+using namespace std;
+#define FOR_TIMES(X) for(int i=0;i<X;i++)
+#define EACH(C) for(auto e : C)
+struct R{string name;double avg;}r;
+int main() {
+    vector<R> rs;int n,m;double avg;cin>>n>>m;cout.setf(ios::fixed);
+    FOR_TIMES(n){r.avg=0;cin>>r.name;FOR_TIMES(m){int g;cin>>g;r.avg+=g;avg+=g;}
+        r.avg/=m;rs.push_back(r);}cout.precision(2);avg/=n*m;cout<<avg<<endl;
+    EACH(rs){cout<<e.name<<' '<<e.avg<<endl;}
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]makotech222 0 points1 point2 points 4 years ago (3 children)
+
+    struct R{string name;double avg;}r;
+
+Question: on the above line, what does the lowercase "r" signify? I've never
+seen that before after defining a struct.
+
+Edit: err, unless its just another struct. Is it given the same definition as
+"R"?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Sirenos 1 point2 points3 points 4 years ago (2 children)
+
+It defines a variable r of type struct R.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]makotech222 0 points1 point2 points 4 years ago (1 child)
+
+Ah makes sense. I think it was your formatting that made me thing it was
+something else.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Sirenos 0 points1 point2 points 4 years ago (0 children)
+
+Yeah, sorry about that. Thought I'd write some ugly code for a change.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Alborak 1 point2 points3 points 4 years ago (0 children)
+
+I'm a little late to the party, but here's my basic java solution. It's a bit
+more verbose even without error checks than I'd like;
+
+public static void main(String[] args) throws IOException, NumberFormatException {
+    int n, m;
+    float grades[], classGrade = 0;
+    String names[], tokens[];
+
+    BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
+    tokens = stdin.readLine().split("\\s");
+    n = Integer.parseInt(tokens[0]);
+    m = Integer.parseInt(tokens[1]);
+    grades = new float[n];
+    names = new String[n];
+
+    for(int i=0; i<n; ++i){
+        tokens = stdin.readLine().split("\\s");
+        names[i] = tokens[0];
+        for(int j=1; j <= m; ++j){
+            /*adding integers to floats is safe provided they start as int*/
+            grades[i] += Integer.parseInt(tokens[j]);
+        }
+        classGrade += grades[i];
+        grades[i] /= m;
+    }
+    classGrade /= (n*m);
+    System.out.printf("%.2f\n",classGrade);
+
+    for(int i=0; i < n; ++i){
+        System.out.printf("%s:\t\t%.2f\n",names[i],grades[i]);
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]vvan 1 point2 points3 points 4 years ago (0 children)
+
+Ruby:
+
+$/ = "end"
+lines = STDIN.gets
+lines = lines.split("\n")
+
+students, exams =  lines[0].split(' ')[0].to_i, lines[0].split(' ')[1].to_i
+average, student_avg = 0.0, {}
+
+1.upto(students) { |x| student_avg[lines[x].split(' ').first] = lines[x].split(' ').map{|x| x.to_i}.inject(:+).to_f }
+puts "%0.2f" % (student_avg.values.inject(:+).to_f/(exams*students))
+student_avg.each_pair {|key,val| puts key + " " + "%0.2f" % "#{val/exams}"}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]thirdegree 1 point2 points3 points 4 years ago (0 children)
+
+My solution in Python2.7:
+
+input1 = '''10 10
+ABIGAIL 11 3 5 20 4 2 8 17 4 5
+ALEXANDER 2 12 20 0 6 10 3 4 9 7
+AVA 11 15 2 19 14 5 16 18 15 19
+ETHAN 6 12 0 0 5 11 0 11 12 15
+ISABELLA 16 0 10 7 20 20 7 2 0 1
+JACOB 2 14 17 7 1 11 16 14 14 7
+JAYDEN 10 10 3 16 15 16 8 17 15 3
+MADISON 10 11 19 4 12 15 7 4 18 13
+SOPHIA 5 17 14 7 1 17 18 8 1 2
+WILLIAM 12 12 19 9 4 3 0 4 13 14'''
+avg = (lambda x: sum(x)/float(len(x)))
+averages = {line.split(None, 1)[0]: avg(map(int, line.split(None, 1)[1].split()))
+            for line in input1.split('\n')[1:]}
+print '%0.2f' % avg([average for case, average in averages.iteritems()])
+for case, average in averages.iteritems():
+    print case, '%0.2f' % average
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Yamame 1 point2 points3 points 4 years ago* (0 children)
+
+Here is my newbie python solution https://gist.github.com/6303355
+
+I am still new to programming, so i feel that the code can be optimized
+further. Any feedback is really appreciated
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ozzkloz 1 point2 points3 points 4 years ago* (1 child)
+
+My Ruby solution. Critique away.
+
+class Student
+  attr_accessor :name
+  attr_reader :scores
+
+  def average
+    (scores.inject(:+) / scores.size.to_f).round(2)
+  end
+
+  def to_s
+    "#{name} #{format('%.2f', average)}"
+  end
+
+  private
+
+  def initialize(name, scores)
+    self.name, self.scores = name, scores
+  end
+
+  attr_writer :scores
+end
+
+class Students
+  def display
+    puts grades
+  end
+
+  def grades
+    [students.average] + students
+  end
+
+  private
+
+  def initialize(input)
+    lines = input.split(/\n/)
+    names_and_scores = lines[1..-1].map(&:split)
+    self.students = create_students_from(names_and_scores)
+    def students.average
+      format('%.2f', (self.map(&:average).inject(:+) / self.size.to_f).round(2))
+    end
+  end
+
+  def create_students_from(input)
+    input.each.with_object([]) do |name_and_scores, students|
+      student_data = name_and_scores.partition do |e|
+        e.match /\D+/
+      end
+      name = student_data[0][0]
+      scores = student_data[1].map(&:to_i)
+      students << Student.new(name, scores)
+    end
+  end
+
+  attr_accessor :students
+end
+
+input = <<-TEXT.gsub(/^ {2}/, '')
+  10 10
+  ABIGAIL 11 3 5 20 4 2 8 17 4 5
+  ALEXANDER 2 12 20 0 6 10 3 4 9 7
+  AVA 11 15 2 19 14 5 16 18 15 19
+  ETHAN 6 12 0 0 5 11 0 11 12 15
+  ISABELLA 16 0 10 7 20 20 7 2 0 1
+  JACOB 2 14 17 7 1 11 16 14 14 7
+  JAYDEN 10 10 3 16 15 16 8 17 15 3
+  MADISON 10 11 19 4 12 15 7 4 18 13
+  SOPHIA 5 17 14 7 1 17 18 8 1 2
+  WILLIAM 12 12 19 9 4 3 0 4 13 14
+TEXT
+
+Students.new(input).display
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ozzkloz 0 points1 point2 points 4 years ago (0 children)
+
+And with seeing_is_believing output:
+
+class Student
+  attr_accessor :name  # => nil
+  attr_reader :scores  # => nil
+
+  def average
+    (scores.inject(:+) / scores.size.to_f).round(2)  # => 7.9, 7.3, 13.4, 7.2, 8.3, 10.3, 11.3, 11.3, 9.0, 9.0, 7.9, 7.3, 13.4, 7.2, 8.3, 10.3, 11.3, 11.3, 9.0, 9.0
+  end                                                # => nil
+
+  def to_s
+    "#{name} #{format('%.2f', average)}"  # => "ABIGAIL 7.90", "ALEXANDER 7.30", "AVA 13.40", "ETHAN 7.20", "ISABELLA 8.30", "JACOB 10.30", "JAYDEN 11.30", "MADISON 11.30", "SOPHIA 9.00", "WILLIAM 9.00"
+  end                                     # => nil
+
+  private  # => Student
+
+  def initialize(name, scores)
+    self.name, self.scores = name, scores  # => ["ABIGAIL", [11, 3, 5, 20, 4, 2, 8, 17, 4, 5]], ["ALEXANDER", [2, 12, 20, 0, 6, 10, 3, 4, 9, 7]], ["AVA", [11, 15, 2, 19, 14, 5, 16, 18, 15, 19]], ["ETHAN", [6, 12, 0, 0, 5, 11, 0, 11, 12, 15]], ["ISABELLA", [16, 0, 10, 7, 20, 20, 7, 2, 0, 1]], ["JACOB", [2, 14, 17, 7, 1, 11, 16, 14, 14, 7]], ["JAYDEN", [10, 10, 3, 16, 15, 16, 8, 17, 15, 3]], ["MADISON", [10, 11, 19, 4, 12, 15, 7, 4, 18, 13]], ["SOPHIA", [5, 17, 14, 7, 1, 17, 18, 8, 1, 2]], ["WI...
+  end                                      # => nil
+
+  attr_writer :scores  # => nil
+end                    # => nil
+
+class Students
+  def display
+    puts grades  # => nil
+  end            # => nil
+
+  def grades
+    [students.average] + students  # => ["9.50", #<Student:0x007fad9383a2f0 @name="ABIGAIL", @scores=[11, 3, 5, 20, 4, 2, 8, 17, 4, 5]>, #<Student:0x007fad93838a40 @name="ALEXANDER", @scores=[2, 12, 20, 0, 6, 10, 3, 4, 9, 7]>, #<Student:0x007fad938338b0 @name="AVA", @scores=[11, 15, 2, 19, 14, 5, 16, 18, 15, 19]>, #<Student:0x007fad93831ec0 @name="ETHAN", @scores=[6, 12, 0, 0, 5, 11, 0, 11, 12, 15]>, #<Student:0x007fad93830480 @name="ISABELLA", @scores=[16, 0, 10, 7, 20, 20, 7, 2, 0, 1]>, #<S...
+  end                              # => nil
+
+  private  # => Students
+
+  def initialize(input)
+    lines = input.split(/\n/)                                                     # => ["10 10", "ABIGAIL 11 3 5 20 4 2 8 17 4 5", "ALEXANDER 2 12 20 0 6 10 3 4 9 7", "AVA 11 15 2 19 14 5 16 18 15 19", "ETHAN 6 12 0 0 5 11 0 11 12 15", "ISABELLA 16 0 10 7 20 20 7 2 0 1", "JACOB 2 14 17 7 1 11 16 14 14 7", "JAYDEN 10 10 3 16 15 16 8 17 15 3", "MADISON 10 11 19 4 12 15 7 4 18 13", "SOPHIA 5 17 14 7 1 17 18 8 1 2", "WILLIAM 12 12 19 9 4 3 0 4 13 14"]
+    names_and_scores = lines[1..-1].map(&:split)                                  # => [["ABIGAIL", "11", "3", "5", "20", "4", "2", "8", "17", "4", "5"], ["ALEXANDER", "2", "12", "20", "0", "6", "10", "3", "4", "9", "7"], ["AVA", "11", "15", "2", "19", "14", "5", "16", "18", "15", "19"], ["ETHAN", "6", "12", "0", "0", "5", "11", "0", "11", "12", "15"], ["ISABELLA", "16", "0", "10", "7", "20", "20", "7", "2", "0", "1"], ["JACOB", "2", "14", "17", "7", "1", "11", "16", "14", "14", "7"], ["JAYDE...
+    self.students = create_students_from(names_and_scores)                        # => [#<Student:0x007fad9383a2f0 @name="ABIGAIL", @scores=[11, 3, 5, 20, 4, 2, 8, 17, 4, 5]>, #<Student:0x007fad93838a40 @name="ALEXANDER", @scores=[2, 12, 20, 0, 6, 10, 3, 4, 9, 7]>, #<Student:0x007fad938338b0 @name="AVA", @scores=[11, 15, 2, 19, 14, 5, 16, 18, 15, 19]>, #<Student:0x007fad93831ec0 @name="ETHAN", @scores=[6, 12, 0, 0, 5, 11, 0, 11, 12, 15]>, #<Student:0x007fad93830480 @name="ISABELLA", @scores=[...
+    def students.average
+      format('%.2f', (self.map(&:average).inject(:+) / self.size.to_f).round(2))  # => "9.50"
+    end                                                                           # => nil
+  end                                                                             # => nil
+
+  def create_students_from(input)
+    input.each.with_object([]) do |name_and_scores, students|
+      student_data = name_and_scores.partition do |e|
+        e.match /\D+/                                          # => #<MatchData "ABIGAIL">, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, #<MatchData "ALEXANDER">, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, #<MatchData "AVA">, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, #<MatchData "ETHAN">, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, #<MatchData "ISABELLA">, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, #<MatchData "JACOB">, nil, nil, nil, nil, nil, nil, nil, nil, ...
+      end                                                      # => [["ABIGAIL"], ["11", "3", "5", "20", "4", "2", "8", "17", "4", "5"]], [["ALEXANDER"], ["2", "12", "20", "0", "6", "10", "3", "4", "9", "7"]], [["AVA"], ["11", "15", "2", "19", "14", "5", "16", "18", "15", "19"]], [["ETHAN"], ["6", "12", "0", "0", "5", "11", "0", "11", "12", "15"]], [["ISABELLA"], ["16", "0", "10", "7", "20", "20", "7", "2", "0", "1"]], [["JACOB"], ["2", "14", "17", "7", "1", "11", "16", "14", "14", "7"]], [["...
+      name = student_data[0][0]                                # => "ABIGAIL", "ALEXANDER", "AVA", "ETHAN", "ISABELLA", "JACOB", "JAYDEN", "MADISON", "SOPHIA", "WILLIAM"
+      scores = student_data[1].map(&:to_i)                     # => [11, 3, 5, 20, 4, 2, 8, 17, 4, 5], [2, 12, 20, 0, 6, 10, 3, 4, 9, 7], [11, 15, 2, 19, 14, 5, 16, 18, 15, 19], [6, 12, 0, 0, 5, 11, 0, 11, 12, 15], [16, 0, 10, 7, 20, 20, 7, 2, 0, 1], [2, 14, 17, 7, 1, 11, 16, 14, 14, 7], [10, 10, 3, 16, 15, 16, 8, 17, 15, 3], [10, 11, 19, 4, 12, 15, 7, 4, 18, 13], [5, 17, 14, 7, 1, 17, 18, 8, 1, 2], [12, 12, 19, 9, 4, 3, 0, 4, 13, 14]
+      students << Student.new(name, scores)                    # => [#<Student:0x007fad9383a2f0 @name="ABIGAIL", @scores=[11, 3, 5, 20, 4, 2, 8, 17, 4, 5]>], [#<Student:0x007fad9383a2f0 @name="ABIGAIL", @scores=[11, 3, 5, 20, 4, 2, 8, 17, 4, 5]>, #<Student:0x007fad93838a40 @name="ALEXANDER", @scores=[2, 12, 20, 0, 6, 10, 3, 4, 9, 7]>], [#<Student:0x007fad9383a2f0 @name="ABIGAIL", @scores=[11, 3, 5, 20, 4, 2, 8, 17, 4, 5]>, #<Student:0x007fad93838a40 @name="ALEXANDER", @scores=[2, 12, 20, 0, 6...
+    end                                                        # => [#<Student:0x007fad9383a2f0 @name="ABIGAIL", @scores=[11, 3, 5, 20, 4, 2, 8, 17, 4, 5]>, #<Student:0x007fad93838a40 @name="ALEXANDER", @scores=[2, 12, 20, 0, 6, 10, 3, 4, 9, 7]>, #<Student:0x007fad938338b0 @name="AVA", @scores=[11, 15, 2, 19, 14, 5, 16, 18, 15, 19]>, #<Student:0x007fad93831ec0 @name="ETHAN", @scores=[6, 12, 0, 0, 5, 11, 0, 11, 12, 15]>, #<Student:0x007fad93830480 @name="ISABELLA", @scores=[16, 0, 10, 7, 20, 2...
+  end                                                          # => nil
+
+  attr_accessor :students  # => nil
+end                        # => nil
+
+input = <<-TEXT.gsub(/^ {2}/, '')
+  10 10
+  ABIGAIL 11 3 5 20 4 2 8 17 4 5
+  ALEXANDER 2 12 20 0 6 10 3 4 9 7
+  AVA 11 15 2 19 14 5 16 18 15 19
+  ETHAN 6 12 0 0 5 11 0 11 12 15
+  ISABELLA 16 0 10 7 20 20 7 2 0 1
+  JACOB 2 14 17 7 1 11 16 14 14 7
+  JAYDEN 10 10 3 16 15 16 8 17 15 3
+  MADISON 10 11 19 4 12 15 7 4 18 13
+  SOPHIA 5 17 14 7 1 17 18 8 1 2
+  WILLIAM 12 12 19 9 4 3 0 4 13 14
+TEXT
+
+Students.new(input).display  # => nil
+
+# >> 9.50
+# >> ABIGAIL 7.90
+# >> ALEXANDER 7.30
+# >> AVA 13.40
+# >> ETHAN 7.20
+# >> ISABELLA 8.30
+# >> JACOB 10.30
+# >> JAYDEN 11.30
+# >> MADISON 11.30
+# >> SOPHIA 9.00
+# >> WILLIAM 9.00
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]dartman5000 1 point2 points3 points 4 years ago (0 children)
+
+In C#
+
+I'm a little late for the challenge but interested in any suggestions to
+improve the code towards best practices and efficiency.
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+
+namespace StudentManagementChallenge
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] input = File.ReadAllLines("F:\\programming\\C#\\StudentManagementChallenge\\input1.txt");
+            string[] numStudentsAssignments = input[0].Split(' ');
+            int numStudents = Convert.ToInt32(numStudentsAssignments[0]);
+            int numAssignments = Convert.ToInt32(numStudentsAssignments[1]);
+            string[,] nameGrade = new string[numStudents, numAssignments + 2];
+            double totalAllStudentsScore = 0;
+            for (int i = 1; i < input.Count(); i++)
+            {
+                string[] line = input[i].Split(' ');
+                double lineAverage = 0;
+                for (int x = 0; x < line.Count(); x++)
+                {
+                    double temp;
+                    nameGrade[i-1, x] = line[x];
+                    if (double.TryParse(line[x], out temp))
+                    {
+                        totalAllStudentsScore += temp;
+                        lineAverage += temp;
+                    }
+                }
+                nameGrade[i - 1, numAssignments + 1] = (lineAverage / numAssignments).ToString("N");
+            }
+            double average = totalAllStudentsScore / (numAssignments * numStudents);
+            Console.WriteLine(average.ToString("N"));
+            for (int q = 0; q < numStudents; q++)
+            {
+                Console.WriteLine(nameGrade[q, 0] + " " + nameGrade[q, numAssignments + 1]);
+            }
+            Console.ReadLine();
+        }
+
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 4 years ago (1 child)
+
+[deleted]
+
+[–]skyangelisme0 1 1 point2 points3 points 4 years ago (0 children)
+
+Python 2
+
+num_students, num_grades = map(float, raw_input().split())
+avgs, students = [], []
+for i in xrange(int(num_students)):
+  line = raw_input().split()
+  grades = map(int, line[1:])
+  student_avg = sum(grades)/num_grades
+  avgs.append(student_avg)
+  students.append((line[0], student_avg))
+print "%.2f" % (sum(avgs)/num_students)
+print "\n".join(x[0] + " " + str("%.2f" % x[1]) for x in students)
+
+Follows the description and examples to the dot, nothing special here.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jedrekk 1 point2 points3 points 4 years ago* (3 children)
+
+Well this is some ugly, PHP and Pascal inspired Ruby:
+
+running_grade_count = 0;
+running_grade_total = 0;
+
+output = []
+
+File.open('data.txt', 'r').each_line do |line|
+    name, scores_s = line.chomp.split(' ', 2)
+    scores = scores_s.split(' ')
+    score_avg = scores.inject { |sum, el| sum.to_i + el.to_i }.to_f / scores.size
+    running_grade_total += scores.inject { |sum, el| sum.to_i + el.to_i }.to_f
+    running_grade_count += scores.size
+    output << "%s %.2f" % [name, score_avg]
+end
+
+output.shift
+
+puts "%.2f" % (running_grade_total / running_grade_count)
+puts output.join("\n")
+
+Not 100% sure why I'm getting the wrong total averages though.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]antoniocs 0 points1 point2 points 4 years ago (2 children)
+
+This is not php
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]jedrekk 0 points1 point2 points 4 years ago (1 child)
+
+no, it's Ruby written by someone who learned to code in Pascal and PHP.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]antoniocs 1 point2 points3 points 4 years ago (0 children)
+
+ops. Missread :P
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]lancevo3 1 point2 points3 points 4 years ago (0 children)
+
+Here is my python 3 solution, tried to apply some new concepts I ran into this
+past week. I feel like this code is unnecessarily long so please any tips to
+shorten would be greatly appreciated, time for bed or else I would review more
+:). Also, style pointers always welcome!
+
+def average(scores_in):
+    return sum(scores_in)/len(scores_in)
+
+def printgrades():
+    print(lines[i][0],'{0:.2f}'.format(average(grades)))
+
+def printtotal(a):
+    num_students = a[0][0]
+    total=0
+    del a[0]
+    for i,x in enumerate(a):
+        [*grades] = list(map(int,a[i][1:]))
+        records.append(grades)
+        total = total + sum(grades)/len(grades)
+
+    print('{0:.2f}'.format(total/float(num_students)))
+
+records = []
+with open('PythonClass/grades.txt') as f:
+    lines = [tuple(line.split()) for line in f]
+    printtotal(lines)
+
+    for i,x in enumerate(lines):
+        [*grades] = list(map(int,lines[i][1:]))
+        printgrades()
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]battleguard 1 point2 points3 points 4 years ago* (0 children)
+
+little late but heres my C# code using the power of Linq
+
+var args = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+var text = new String[args[0]];
+for (var i = 0; i < args[0]; i++) text[i] = Console.ReadLine();
+var students = text.Select(s => s.Split(' ')).Select(s => new { name = s[0], grades = s.Skip(1).Select(int.Parse) }).ToList();
+Console.WriteLine("{0:#.00}", students.SelectMany(n => n.grades).Average());
+students.ForEach(s => Console.WriteLine("{0} {1:#.00}", s.name, s.grades.Average()));
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]xmusil81 1 point2 points3 points 4 years ago (0 children)
+
+My attempt in C#:
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Reddit
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int students = Console.ReadLine().Split(' ').Take(1).Select(i => Int32.Parse(i)).Single();
+            double averageTotal = 0;
+            double average;
+            string name;
+            StringBuilder output = new StringBuilder();
+
+            for (int i = 0; i < students; i++)
+            {
+                string input = Console.ReadLine();
+
+                average = input.Split(' ').Skip(1).Average(n => Int32.Parse(n));
+                name = input.Split(' ').Take(1).Single();
+                averageTotal += average;
+
+                output.Append(name);
+                output.Append(" ");
+                output.Append(String.Format("{0:0.00}", average));
+                output.Append(Environment.NewLine);
+            }
+
+            Console.WriteLine(String.Format("{0:0.00}", averageTotal/students));
+            Console.WriteLine(output.ToString());
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Nabol 1 point2 points3 points 4 years ago (0 children)
+
+My very first submission, in Python 2.7. Please feel free to give feedback, as
+I haven't done Python in a while and I'm not that experienced to begin with :)
+
+students = {}
+with open('136-input.txt') as f:
+    lines = f.readlines()
+    num_students, num_grades = lines.pop(0).rstrip().split(' ')
+    for line in lines:
+        student, student_grades = line.rstrip().partition(' ')[::2]
+        student_grades = [int(grade) for grade in student_grades.split(' ')]
+        students[student] = float(sum(student_grades) / int(num_grades))
+print "%.02f" % float(sum([avg_grade for avg_grade in students.values()]) / int(num_students))
+for student, avg_grade in sorted(students.iteritems(), key=lambda (k, v): k):
+    print "%s %.02f" % (student, avg_grade)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 1 point2 points3 points 4 years ago (0 children)
+
+C++, any feedback is appreciated.
+
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+    int num_students, num_assignments;
+    float current_average, overall_average = 0;
+    string current_student_name;
+    vector<string> student_names;
+    float current_score;
+    vector<float> student_scores;
+
+    cout << fixed << showpoint << setprecision(2);
+    cin >> num_students >> num_assignments;
+
+    for(int i = 1; i <= num_students; i++)
+    {
+        current_average = 0;
+        cin >> current_student_name;
+        student_names.push_back(current_student_name);
+
+        for(int j = 1; j <= num_assignments; j++)
+       {
+            cin >> current_score;
+            current_average += current_score;
+       }
+
+        student_scores.push_back(current_average / num_assignments);
+        overall_average += (current_average / num_assignments);
+    }
+
+    overall_average /= num_students;
+
+    cout << "\n" << overall_average <<endl;
+
+    for(int i = 0; i < num_students; i++)
+    {
+        cout << student_names[i] << " " << student_scores[i]<<endl;
+    }
+
+    cin.get();
+    cin.ignore(255, '\n');
+    cin.clear();
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+
+[–]Sandor_at_the_Zoo 1 point2 points3 points 4 years ago (0 children)
+
+Haskell. I decided to play code golf, so this is some of the least readable
+code I've ever written. But I did get it in 4 lines and if I wanted to go all
+the way I could get it in 2.
+
+import System.IO
+process (_:xs) = (show $ avg (map (\x -> read x::Float) $ concat $ map (tail.words) xs))
+                 :(map (\(n:gs) -> n++" "++ (show $ avg $ map (\x -> read x::Float) gs)) (map words xs))
+  where avg x = (sum x) / (fromIntegral $ length x)
+main = (openFile "grades.txt" ReadMode) >>= hGetContents >>= (putStrLn . unlines . process . lines)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]RagnarRocks 1 point2 points3 points 4 years ago (0 children)
+
+Trying to brush up on some Java; this is my first post here!
+
+I made an attempt to be robust, with commenting throwing errors. I probably
+should have stayed away from the 2D array, but I like that the data can be
+later indexed when stored that way.
+
+package StudentManagement;
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+/**
+ *
+ * @author RagnarRocks
+ */
+public class StudentManagement {
+
+public static void main (String[] args){
+
+    //Setup scanner and initial output.
+    Scanner input = new Scanner(System.in);
+    System.out.println("\nEnter raw grade data.");
+
+    //Take in input and determine number of students and grades.
+    String[] data = input.nextLine().split(" ");
+    int numStudents = Integer.parseInt(data[0]);
+    int numGrades = Integer.parseInt(data[1]);
+
+    //Send error if students range out of bounds; restart program.
+    if ((numStudents <1) || (numStudents > 60)){
+
+        System.out.println("\nNumber of students range: 1-60");
+        main(args);
+    }
+
+    //Send error if number of grades out of bounds; restart program.
+    if ((numGrades <4) || (numGrades > 100)) {
+
+        System.out.println("\nNumber of grades range: 4-100.");
+        main(args);
+    }
+
+    //Make arrays to hold data
+    String[] studentNames = new String[numStudents];
+    double [][] studentGrades = new double[numStudents] [numGrades +1];
+    double allGrades = 0;
+
+    //Break out student grades
+    for (int x = 0; x < numStudents; x++){
+
+        //Read new line into a string array
+        String[] studentData = input.nextLine().split(" ");
+
+        //Set student name and grade info
+        studentNames[x] = studentData[0];
+        double studentTotal = 0;
+
+
+        for (int y = 0; y <= numGrades; y++){
+
+            //Add student's grades
+            if (y < numGrades){
+
+                int grade = Integer.parseInt(studentData[(y+1)]);
+                studentGrades[x][y] = grade;
+                studentTotal += grade;
+
+                //Add grade to class total.
+                allGrades += studentGrades[x][y];
+
+            //Average student's grades
+            }else if (y == numGrades){
+                    studentGrades[x][y] = (studentTotal / numGrades);
+                }
+        }
+    }
+
+
+    /*******************************Final output section*********************************/
+
+    //Display class average
+    DecimalFormat df = new DecimalFormat("#.##");
+    double classAverage = allGrades/numStudents/numGrades;
+
+    System.out.println("\nClass average: "  + df.format(classAverage) + "\n");
+
+    //List student names and their averages.
+    for (int x = 0; x < numStudents; x++){
+
+        System.out.println(studentNames[x] + " " + df.format(studentGrades[x][numGrades]));
+
+
+    }
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Takadimi91 1 point2 points3 points 4 years ago* (0 children)
+
+First time submitting, if the format is horribly wrong then I'll delete this
+really quick. The solution I have is pretty easy to break, but I thought I'd
+just give it a shot. I've only been programming since January and learning C
+since a couple weeks ago.
+
+C Solution
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#define MAX_NAME_SIZE 100
+
+    float findAvg(float *nums, int count) {
+
+    float total = 0.0;
+    float avg = 0.0;
+    int i = 0;
+
+    for (i = 0; i < count; i++) {
+
+        total = total + nums[i];
+
+    }
+
+    avg = total / count;
+
+    return avg;
+
+    }
+
+int main(int argc, char *argv[]) {
+
+    if (argc != 3) {
+
+        printf("User must enter the number of students and assignments as such:\
+            [students] [assignments]");
+
+        exit(1);
+
+    }
+
+    int numOfStudents = atoi(argv[1]);
+    int numOfAssignments = atoi(argv[2]);
+
+    char studentNames[numOfStudents][MAX_NAME_SIZE];
+    float studentGrades[numOfStudents];
+
+    int i = 0;
+    int j = 0;
+
+    for (i = 0; i < numOfStudents; i++) {
+
+        float tempGrades[numOfAssignments];
+
+        printf("Enter student %d's name followed by all %d assignments:\n",\
+                    (i + 1), numOfAssignments);
+
+        scanf("%s", studentNames[i]);
+
+        for (j = 0; j < numOfAssignments; j++) {
+
+                scanf("%f", &tempGrades[j]);
+
+        }
+
+        studentGrades[i] = findAvg(tempGrades, numOfAssignments);
+
+    }
+
+    printf("\n------------------\n");
+    printf("**CLASS AVERAGE**\n------%.2f------\n\n", findAvg(studentGrades, numOfStudents));
+
+    for (i = 0; i < numOfStudents; i++) {
+
+        printf("%s %.2f\n", studentNames[i], studentGrades[i]);
+
+    }
+
+return 0;
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]frozenna 1 point2 points3 points 4 years ago (0 children)
+
+Ruby
+
+def ask_input(msg)
+print ">> #{msg} "
+str_inp = gets.chomp
+inputs = str_inp.split(' ')
+return inputs
+end
+
+def evaluate_nb_stu_assigment_input(nb, min_val, max_val)
+
+#bn must be convertable to integer and between min_val and max_val
+if nb.to_i.to_s != nb or nb.to_i < min_val or nb.to_i > max_val
+    return false
+end
+return true
+end
+
+def evaluate_note(note)
+#Note must be convertable to integer and between 0-20
+if note.to_i.to_s != note or note.to_i < 0 or note.to_i > 20
+    return false
+end
+return true
+end
+
+def evaluate_note_input (nb_of_ele, arr)
+
+if nb_of_ele != arr.length
+    return false
+end
+
+for i in 0..nb_of_ele - 1
+    if i == 0
+        if arr[i] != arr[i].upcase
+            return false
+        end
+    else
+        if not evaluate_note(arr[i])
+            return false
+        end
+    end
+    i += 1
+end
+return true
+end
+
+
+#Ask for nb student && nb of assignment
+
+input1 = []
+note_arr = []
+begin
+input1 = ask_input("Please input the number of student and assignment seperated by space: ")
+#input1 = []
+if input1.length == 2 and evaluate_nb_stu_assigment_input(input1[0], 1, 60) and evaluate_nb_stu_assigment_input(input1[1], 4, 100)
+    break
+end
+puts "Bad input !"
+end while (true)
+
+
+for i in 0..input1[0].to_i - 1
+begin
+
+    notes = ask_input("Student #{i+1}:")
+    if evaluate_note_input( input1[1].to_i + 1, notes)
+        note_arr.push(notes)
+        i += 1
+        break
+    end
+    puts "Bad input !"
+end while true
+end
+
+sum_total = 0
+for i in 0..note_arr.length - 1
+sum_each_stu = 0
+arr_tmp = note_arr[i]
+
+for j in 1..arr_tmp.length - 1
+    sum_each_stu += arr_tmp[j].to_i
+    j += 1
+end
+avg = Float(sum_each_stu)/(arr_tmp.length - 1)
+sum_total += avg
+arr_tmp.push(avg)
+note_arr[i] = arr_tmp
+i += 1
+
+end
+
+puts ">> #{(sum_total/input1[0].to_i)}"
+
+i = 0
+while i < input1[0].to_i
+arr_tmp = note_arr[i]
+puts ">> #{arr_tmp.first} #{arr_tmp.last}"
+i += 1
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]mrcrassic 1 point2 points3 points 4 years ago (0 children)
+
+C++. Major suck alert; I'm relearning it after years of programming in other
+languages. Please put your flamethrowers on max and provide feedback!
+
+Also, I know I needed to make the ints doubles but I ran out of time to fix it.
+
+#include <stdlib.h>
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <vector>
+using namespace std;
+
+
+vector<string> split_whitespace(string str) {
+    vector<string> toks;
+    string buf;
+    stringstream ss(str);
+    while (ss >> buf)
+        toks.push_back(buf);
+    return toks;
+}
+
+
+void get_averages (string fp) {
+    // Check file existence
+    ifstream file;
+    vector<string> averages;
+    file.open(fp, ifstream::in);
+    if (!file) {
+        cout << "read_file: no file provided." << endl;
+        return;
+    }
+
+
+    string first_line;
+    int assignments, students;
+    getline(file,first_line);
+    if (first_line.empty()) {
+        cout << "read_file: first line was empty." << endl;
+        return;
+    }
+
+
+    vector<string> first_line_tokens;
+    first_line_tokens = split_whitespace(first_line);
+    if (first_line_tokens.size() != 2) {
+        cout << "read_file: only 2 arguments expected at top of file. got: " << first_line_tokens.size() << endl;
+        return;
+    }
+
+
+    students = atoi(first_line_tokens[0].c_str());
+    assignments = atoi(first_line_tokens[1].c_str());
+
+
+    int grand_total = 0;
+    while ( !file.eof() )
+    {
+        string this_line;
+        getline(file,this_line);
+        vector<string> student_info = split_whitespace(this_line);
+        if (student_info.size() == 0) {
+            cout << "read_file: this line is invalid: " << this_line << endl;
+            return;
+        }
+        if (student_info.size() != assignments+1) {
+            cout << "read_file: line [" << this_line << "]; expected " << assignments+1 << " elements, but only saw " << student_info.size() << endl;
+            return;
+        }
+        string name = student_info[0];
+        int total = 0;
+        for (int i = 1 ; i<=assignments ; i++) {
+            int grade = atoi(student_info[i].c_str());
+            if (grade < 0 ) {
+                cout << "read_file: assignment " << i << " for student " << name << " is now 0 from " << grade << endl;
+                grade = 0;
+            } else if (grade > 20) {
+                cout << "read_file: assignment " << i << " for student " << name << " is now 20 from " << grade << endl;
+                grade = 20;
+            }
+            cout << "name: " << name << ", grade: " << grade << endl;
+            total+=grade;
+            grand_total+=grade;
+        }
+        stringstream result;
+        float avg = total/assignments;
+        result << name << " " << avg;
+        averages.push_back(result.str());
+    }
+    float grand_avg = (grand_total/(assignments*students));
+    cout << grand_avg << endl;
+    for (vector<string>::iterator it = averages.begin() ; it != averages.end() ; ++it) {
+        cout << *it << endl;
+    }
+    // Read first line of file to buffer lines
+    // Check that grades in line correspond to number given; fail if not.
+}
+
+
+void main (int argc , char **argv) {
+    if (argc != 2) {
+        cout << "Invalid number of arguments.\nUsage:\n   137 [file]" << endl;
+        return;
+    }
+    string fp = argv[1];
+    get_averages(fp);
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]mrcrassic 1 point2 points3 points 4 years ago (0 children)
+
+Powershell: if ($args.count -ne 1 ) { throw "Invalid number of arguments." } if
+(!($file = cat $args[0])) { throw "Could not read file: $($args[0])." }
+$overall = 0 $result = @() $students, $assignments = $( if (!($toks = $file
+[0].split(' ')) -or $toks.Count -ne 2) { throw "Invalid header: $file[0]" }
+$toks ) for ($i=1;$i -lt $file.count;$i++) { $total = 0 $line = $file[$i] if (
+!($toks = $line.split(' ')) -or ($toks.count-1 -ne $assignments) ) { throw
+"Line is invalid: $line. Expected $assignments, but got $($toks.count-1)" }
+$name = $toks[0] $assignmentcount = $toks.count-1 $toks[1..$assignment_count] |
+%{ $grade = $ ; $total+=$grade ; $overall+=$grade } $result += "$name $($total/
+$assignments)" } $overall/([int]$assignments*[int]$students) $result
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]mrcrassic 1 point2 points3 points 4 years ago (0 children)
+
+Powershell:
+
+if ($args.count -ne 1 ) { throw "Invalid number of arguments." }
+if (!($file = cat $args[0])) { throw "Could not read file: $($args[0])." }
+$overall = 0
+$result = @()
+$students, $assignments = $(
+    if (!($toks = $file[0].split(' ')) -or $toks.Count -ne 2)
+        { throw "Invalid header: $file[0]" }
+    $toks
+)
+for ($i=1;$i -lt $file.count;$i++) {
+    $total = 0
+    $line = $file[$i]
+    if ( !($toks = $line.split(' ')) -or ($toks.count-1 -ne $assignments) )
+        { throw "Line is invalid: $line. Expected $assignments, but got $($toks.count-1)" }
+    $name = $toks[0]
+    $assignment_count = $toks.count-1
+    $toks[1..$assignment_count] | %{ $grade = $_ ; $total+=$grade ; $overall+=$grade }
+    $result += "$name $($total/$assignments)"
+}
+$overall/([int]$assignments*[int]$students)
+$result
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ScholarCorvus 1 point2 points3 points 4 years ago (0 children)
+
+Writing in some squished down Python
+
+num_s, num_a = map(int, input().strip().split())
+raw_scores = [input().split() for _ in range(num_s)]
+scores = [(score[0], list(map(int, score[1:]))) for score in raw_scores]
+print('%.2f' % (sum([sum(score[1]) for score in scores])/(num_s*num_a)))
+[print('%s %.2f' % (score[0], sum(score[1])/num_a)) for score in scores]
+
+I might come back and re-do this a bit more readably.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]flexiblecoder 1 point2 points3 points 4 years ago (0 children)
+
+Board seems dead, but I'm bored so: lua:
+
+function studentAvg(input)
+    local gradeCount
+    local studentCount
+    local averages = {}
+    local runningAverage = 0
+    local sc = 0
+    local ec = 0
+
+    while ec do
+        --split the input into lines
+        ec = input:find("\n", sc+1)
+        --relying on the fact that if ec is nil, we grab to the end of the string
+        local line = input:sub(sc+1, ec)
+        --grab the counts so we don't have to loop the array later
+        if sc == 0 then
+            --lazy, not storing off the result of the find
+            studentCount = tonumber(line:sub(1, line:find(" ")))
+            gradeCount = tonumber(line:sub(line:find(" ")+1))
+        else
+            local sc = 0
+            local ec = 0
+            local name
+            while ec do
+                ec = line:find(" ", sc+1)
+                local token = line:sub(sc+1, ec)
+                if sc == 0 then
+                    name = token
+                    averages[name] = 0
+                else
+                    averages[name] = averages[name] + tonumber(token) / gradeCount
+                end
+                sc = ec
+            end
+
+            runningAverage = runningAverage + averages[name] / studentCount
+        end
+
+        sc = ec
+    end
+
+    local function format(n)
+        return string.format("%.2f", n)
+    end
+
+    print(format(runningAverage))
+    for k,v in pairs(averages) do
+        print(k..' '..format(v))
+    end
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Pinnelot 1 point2 points3 points 4 years ago (0 children)
+
+First submission! In Java! Feedback welcome.
+
+import java.util.Scanner;
+
+public class startup
+ {
+    public static void main(String[] args)
+    {
+        Scanner scan = new Scanner(System.in);
+        int studentCount = scan.nextInt();
+        int assignmentCount = scan.nextInt();
+
+        String[][] students = new String[studentCount][assignmentCount+1];
+
+        for(int i = 0; i < studentCount; i++)
+        {
+            students[i][0] = scan.next();
+            for(int j = 1; j <= assignmentCount; j++)
+            {
+                students[i][j] = scan.next();
+            }
+        }
+
+        float sum = 0;
+        for(int k = 0; k < studentCount; k++)
+        {
+            for(int l = 1; l <= assignmentCount; l++)
+            {
+                sum += Integer.parseInt(students[k][l]);
+            }
+         }
+        System.out.print(sum / (studentCount * assignmentCount) + "\n");
+
+        for(int k = 0; k < studentCount; k++)
+        {
+            sum = 0;
+            System.out.print(students[k][0]);
+            for(int l = 1; l <= assignmentCount; l++)
+            {
+                sum += Integer.parseInt(students[k][l]);
+            }
+            System.out.print(" " + sum / assignmentCount + "\n");
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dunnowins 1 point2 points3 points 4 years ago (0 children)
+
+No one will see this since I'm so late to the game but I did it in AWK.
+
+awk -F " " '
+{
+    for(i = 2; i <= NF; i++) x += $i;
+    avg = x / (i - 2);
+    print $1":", avg;
+    grades[$1] = avg;
+    x = 0;
+}
+END {
+    for(i in grades) {
+        n++;
+        y += grades[i];
+    }
+    printf "Class average: %.2f\n", y/n;
+}
+'
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Thalatnos 1 point2 points3 points 4 years ago (0 children)
+
+Quite a messy python solution, but it gets the job done:
+
+data = [lines.strip() for lines in open("students[136].txt", "r")]
+students, assignments = data[0].split()[0], data[0].split()[1]
+del(data[0])
+
+NAMES = ['']*len(data)
+AVERAGES = ['']*int(students)
+TOTAL = 0
+
+def average(numbers):
+    temp = [0, 0]
+    for num in numbers:
+        temp[0] += int(num)
+        temp[1] += 1
+    return float(("%.2f" % round((temp[0]/temp[1]),2)))
+
+for item in range(0, len(data)):
+    data[item] = data[item].split()
+    NAMES[item] = data[item].pop(0)
+    TOTAL += average(data[item])
+    AVERAGES[item] = average(data[item])
+
+print("%.2f" % round((TOTAL/int(students)),2))
+for pos in range(0, len(NAMES)):
+    print("%s %s" % (NAMES[pos], str(("%.2f" % round((AVERAGES[pos]),2)))))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]vape 1 point2 points3 points 4 years ago (0 children)
+
+better late than never. python solution which takes input from a text file.
+
+def main():
+    inp = open("input.txt").read().splitlines()
+    student_count = int(inp[0].split(' ')[0])
+    assgn_count = int(inp[0].split(' ')[1])
+
+    students = []
+    for line in inp[1:]:
+        params = line.split(' ')
+        grades = [int(g) for g in params[1:]]
+        students.append((params[0], sum(grades) / assgn_count))
+
+    avg_grades = [grd for name, grd in students]
+    print("{0:.2f}".format(sum(avg_grades) / student_count))
+    [print(name, grd) for name, grd in students]
+
+if __name__ == "__main__":
+    main()
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]miguelgazela 1 point2 points3 points 4 years ago (0 children)
+
+Simple python solution.
+
+def calc_student_averages(records, m):
+    averages = []
+    for student in records:
+        grades = map(int, student[1:])
+        averages.append((student[0], sum(grades)/float(m)))
+    return averages
+
+
+def main():
+    n, m = map(int, raw_input().split())
+    records = [raw_input().split() for __ in range(n)]
+
+    averages = calc_student_averages(records, m)
+    class_average = sum([student[1] for student in averages])/float(n)
+
+    for name, avg in averages:
+        print "{0} {1:.2f}".format(name, avg)
+    print "{0:.2f}".format(class_average)
+
+if __name__ == "__main__":
+    main()
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]northClan 1 point2 points3 points 4 years ago (0 children)
+
+I Know this is old, but I figured I'd post my solution anyway
+
+Java, OO approach:
+
+package e;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class StudentManagement {
+
+    public static void main(String[] args) {
+
+        Scanner k = new Scanner(System.in);
+        int numStudents = Integer.parseInt(k.next());
+        int numGrades = Integer.parseInt(k.next());
+        double totalScore = 0.0;
+        k.nextLine();
+        ArrayList<Student> students= new ArrayList<>();
+
+        for(int i = 0; i < numStudents; i++)
+            students.add(new Student(k.nextLine().split(" ")));
+
+        for(Student s : students)
+            totalScore += s.getTotalScore();
+        System.out.printf("%.2f \n", totalScore/(numGrades*students.size()));
+
+        for(Student s : students)
+            System.out.printf("%s %.2f \n", s.getName(), s.getAverage());
+
+        k.close();
+    } // end main
+} // end StudentManagement
+
+class Student {
+
+    private int[] grades;
+    private String name;
+
+    public Student(String[] input){
+        this.name = input[0];
+        this.grades = new int[input.length];
+        for(int i = 1; i < input.length; i++)
+            this.grades[i-1] = Integer.parseInt(input[i]);
+    }
+    public String getName(){
+        return this.name;
+    }
+    public double getTotalScore(){
+        int total = 0;
+        for(int a : this.grades)
+            total += a;
+        return total;
+    }
+    public double getAverage(){
+        return (this.getTotalScore() / (this.grades.length-1));
+    }
+} // end Student
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]alabomb 1 point2 points3 points 4 years ago (0 children)
+
+Probably a lot longer than it needs to be, but it works!
+
+/**
+ * @(#)StudentManagement.java
+ *
+ * StudentManagement: Given N number of students with M number of assignments each, calculate the average score for each student and the overall class average
+ *
+ * @reddit http://www.reddit.com/r/dailyprogrammer/comments/1kphtf/081313_challenge_136_easy_student_management/
+ * @version 1.00 2013/10/29
+ */
+
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+public class StudentManagement
+{
+    public static void main(String[] args)
+    {
+        Scanner in = new Scanner(System.in).useDelimiter("\\s+");
+        DecimalFormat df = new DecimalFormat("###.##");
+
+        int numStudents = 0;
+        int numAssign = 0;
+        boolean unacceptable = true;
+
+        while (unacceptable)
+        {
+            System.out.println("Enter number of students and number of assignments: ");
+            numStudents = in.nextInt();
+            numAssign = in.nextInt();
+
+            if (numStudents >= 1 && numStudents <= 60 && numAssign >= 4 && numAssign <= 100)
+                    unacceptable = false;
+            else
+                System.out.println("\nInvalid input. \n\tNumber of students may not be less than 1 or greater than 60. \n\tNumber of assignments may not be less than 4 or greater than 100. \n");
+        }
+
+        Student[] students = new Student[numStudents];
+
+        for (int i = 0; i < numStudents; i++)
+        {
+            System.out.println("\nEnter student name followed by assignment scores: ");
+            String name = in.next();
+
+            int[] scores = new int[numAssign];
+
+            for (int j = 0; j < numAssign; j++)
+            {
+                scores[j] = in.nextInt();
+            }
+
+            students[i] = new Student(name, scores);
+        }
+
+        double classAvg = calcClassAvg(students);
+
+        System.out.println("\nClass Average: " + df.format(classAvg));
+
+        for (int i = 0; i < students.length; i++)
+        {
+            System.out.print(students[i].getName() + ": " + df.format(students[i].getAverage()) + "\n");
+        }
+    }
+
+    public static double calcClassAvg(Student[] students)
+    {
+        double sum = 0;
+
+        for (int i = 0; i < students.length; i++)
+        {
+            sum += students[i].getAverage();
+        }
+
+        return (sum / students.length);
+    }
+}
+
+class Student
+{
+    String studentName;
+    int[] assignScores;
+
+    public Student(String name, int[] scores)
+    {
+        this.studentName = name;
+        this.assignScores = scores;
+    }
+
+    public String getName()
+    {
+        return studentName;
+    }
+
+    public double getAverage()
+    {
+        double sum = 0;
+
+        for (int i = 0; i < assignScores.length; i++)
+        {
+            sum += assignScores[i];
+        }
+
+        return (sum / assignScores.length);
+    }
+}
+
+And the output:
+
+Enter number of students and number of assignments:
+3 5
+
+Enter student name followed by assignment scores:
+JON 19 14 15 15 16
+
+Enter student name followed by assignment scores:
+JEREMY 15 11 10 15 16
+
+Enter student name followed by assignment scores:
+JESSE 19 17 20 19 18
+
+Class Average: 15.93
+JON: 15.8
+JEREMY: 13.4
+JESSE: 18.6
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]kate_katie_kat 1 point2 points3 points 4 years ago (0 children)
+
+OOP Ruby
+
+class Classroom
+
+  attr_reader :students
+
+  def initialize
+    limit = gets.chomp.split(/ /)
+    limit[0].to_i.times do
+      @students ||= []
+      @students << Student.new(gets.chomp.split(/ /))
+    end
+  end
+
+  def average_grade
+    @students.map{|student| student.average_grade}.reduce(:+) / @students.length
+  end
+end
+
+class Student
+
+  attr_reader :name
+
+  def initialize(input)
+    @name = input[0]
+    @grades = input[1..-1].map!{|input| input.to_f}
+  end
+
+  def average_grade
+    @grades.reduce(:+)/@grades.length
+  end
+
+end
+
+class Output
+  def initialize
+    @collection = Classroom.new
+  end
+
+  def classroom_average
+    puts @collection.average_grade.round(2)
+  end
+
+  def student_average
+    @collection.students.each do |student|
+      puts student.name + " " + student.average_grade.round(2).to_s
+    end
+  end
+
+  def console
+    classroom_average
+    student_average
+  end
+
+end
+
+Output.new.console
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Hanse00 1 point2 points3 points 4 years ago (0 children)
+
+Very basic Python 2.7 (No validation, no OOP, no nothing, but it works)
+
+numbers = raw_input().split(" ")
+
+students = []
+
+for i in range(int(numbers[0])):
+    students.append(raw_input().split(" "))
+
+average_list = []
+
+for student in students:
+    student_total = 0
+    student_average = 0.0
+    for j in range(1, int(numbers[1]) + 1):
+        student_total += float(student[j])
+    student_average = student_total / float(numbers[1])
+    average_list.append(student_average)
+
+total_average = sum(average_list) / int(numbers[0])
+
+print "%.2f" % total_average
+for j, student in enumerate(students):
+    print student[0] + " " + "%.2f" % float(average_list[j])
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Darksonn 1 point2 points3 points 4 years ago (0 children)
+
+I wanted to see a good examble og spaghetti code, so I made a spaghetti version
+of this in c, it turned out pretty spaghetti. Tested and working on linux,
+compiled with gcc.
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <errno.h>
+
+int main(int argc, char *argv[]) {
+    FILE *v0;
+    void *v1, *v5, *v10, *v11;
+    int v2, v3, v8, v9, va, vb, v12, v13;
+    double vd, *vf;
+    char *v4, v6, *v7, **vc;
+
+    v0 = 0; v4 = 0; v7 = 0; vc = 0; vf = 0;
+    if (argc < 2) goto l0;
+    v0 = fopen(argv[1], "r");
+    if (v0 == 0) goto lO;
+    v1 = &&l11;
+    goto l4;
+    lc: v5 = &&lO;
+    v1 = &&l13;
+    goto l3;
+    l11: free(vc[v3++]);
+    l10: if (v3 < va) goto l11;
+    free(vc); vc = 0;
+    goto l1;
+    l7: v7 = malloc(sizeof(char) * (v3 << 1));
+    v8 = 0;
+    l9: v7[v8] = v4[v8];
+    v8 += 1;
+    if (v8 < v3) goto l9;
+    v3 = v3 << 1;
+    v4 = v7;
+    goto l8;
+    l12: v1 = &&lc;
+    v10 = &&l5;
+    goto l5;l15:
+    l16: v1 = &&l17;
+    goto l3;
+    l19: v1 = &&l1a;
+    vf[v12] = 0;
+    goto l4;
+    lO: printf("unable to read file %s\n", argv[1]);
+    v2 = 1;
+    goto l1;
+    l17: vb = v2;
+    vc = malloc(sizeof(char *) * va);
+    vf = malloc(sizeof(double) * va);
+    v12 = -1;
+    goto l18;
+    l1b: vd += v2;
+    if (v13++ < vb) goto l1O;
+    vd /= vb;
+    vf[v12] = vd;
+    l18: if (v12++ < va - 1) goto l19;
+    v12 = 0;
+    vd = 0;
+    l1c: vd += vf[v12];
+    if (v12++ < va) goto l1c;
+    printf("%0.2f\n", vd / va);
+    v12 = 0;
+    l1d: printf("%s %0.2f\n", vc[v12], vf[v12]);
+    if (v12++ < va - 1) goto l1d;
+    goto l1;
+    l0: printf("useage: %s datafile\n", argv[0]);
+    v2 = 1;
+    goto l1;
+    l3: v2 = strtol(v4, &v7, 0);
+    v7 = 0;
+    free(v4); v4 = 0;
+    if (!errno) goto *v1;
+    goto *v5;
+    l1: return v2;
+    ll2: v1 = &&l1b;goto l3;
+    l4: v10 = &&l5;
+    v3 = 4;
+    v4 = malloc(sizeof(char) * v3);
+    v2 = 0;
+    l5: if (v1 == &&l11) v10 = &&l12;
+    v9 = fread(&v6, sizeof(char), 1, v0);
+    if (v9 == 0) goto lb;
+    if (v6 == ' ' | v6 == '\n') goto l6;
+    if (v2 == v3 - 1) goto l7;
+    l8: v4[v2++] = v6;
+    goto *v10;
+    l13: va = v2;
+    v1 = &&l15;
+    goto l4;
+    l1a: vc[v12] = v4;
+    vd = 0;
+    v13 = 1;
+    l1O: v1 = &&ll2;
+    goto l4;
+    lb: v6 = '\n';
+    l6: v4[v2] = 0;
+    goto *v1;
+    la:
+    fread(&v6, sizeof(char), 1, v0);
+    goto *v1;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]VerifiedMyEmail 1 point2 points3 points 4 years ago* (0 children)
+
+javascript with html
+
+<!doctype html>
+<html>
+  <head>
+    <style type='text/css'>
+      #input {
+        height: 200px;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id='input' rows='50' cols='50'>
+3 5
+JON 19 14 15 15 16
+JEREMY 15 11 10 15 16
+JESSE 19 17 20 19 18
+    </textarea>
+    <button id='button' type='submit' onclick='solve()'>do grades</button>
+    <div id='output'></div>
+    <script>
+
+      function solve() {
+        input = document.getElementById('input').value
+        output = document.getElementById('output')
+        var lines = input.match(/[a-zA-Z]+[0-9 ]+/g),
+            numberOfAssignments = parseInt(/\s\d+/.exec(input)),
+            numberOfStudents = parseInt(/\d+/.exec(input)),
+            students = {},
+            classAverage = 0,
+            result = ''
+        for (var i = 0; i < lines.length; i++) {
+          var name = /\w+/.exec(lines[i]).toString(),
+              grade = (eval(/[0-9 ]+/.exec(lines[i]).toString()
+                      .replace(/\s/g, '+')) / numberOfAssignments).toFixed(2)
+          students[name] = grade
+          result += name + ' ' + grade + '<br>'
+        }
+        for (var prop in students) {
+          classAverage += parseFloat(students[prop])
+        }
+        classAverage = (classAverage / numberOfStudents).toFixed(2)
+        result = classAverage + '<br>' + result
+        output.innerHTML = result
+      }
+
+    </script>
+  </body>
+  <footer>
+  </footer>
+</html>
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]EvanHahn 0 points1 point2 points 4 years ago (0 children)
+
+I feel like I could be more clever with this Ruby:
+
+def report(input)
+
+  lines = input.lines
+  lines.shift # we can actually ignore the first line
+
+  total_students = lines.length
+  total_grade = 0
+
+  grades = lines.map do |line|
+    split = line.split
+    name = split.shift
+    total = split.reduce(0) { |sum, n| sum + n.to_f }
+    mean = (total / split.length).round(2)
+    total_grade += mean
+    "#{name} #{mean}"
+  end
+
+  average = (total_grade / total_students).round(2)
+
+  puts average
+  puts grades
+
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]eBtDMoN2oXemz1iKB 1 point2 points3 points 4 years ago* (0 children)
+
+Ruby
+
+total, students = 0, {}
+n, m = gets.split
+
+n.to_i.times do
+  name, *grades = gets.split
+  students[name] = grades.map(&:to_i).reduce(:+) / m.to_f
+  total += students[name]
+end
+
+printf "%.2f\n", total / n.to_f
+
+students.map do |key, value|
+  printf "%s %.2f\n", key, value
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]PolloFrio 3 points4 points5 points 4 years ago* (5 children)
+
+Here is my clunky Python answer:
+
+import string
+def grading(input):
+    firstSpace = input.find(' ')
+    N, M = input[0:firstSpace], input[firstSpace+1:input.find('\n')]
+    students=input[input.find('\n')+1:].split('\n')
+    classAverage = 0
+    data = ''
+    for i in range(int(N)):
+        line = students[i].split()
+        name = line[0]
+        average = sum(int(values) for values in line[1:])/float(M)
+        data += '%s %f \n' % (name, average)
+        classAverage += average
+    print classAverage/float(N)
+    print data
+
+I am not sure how to get the class average. Also any help in making the code a
+little more readable would be nice!
+
+Edit: So I have got the class average but it's printed at the end instead of
+the top and I'm not sure how to change that...
+
+Edit2: This seems to now attest to the conditions set by the problem! Cheers!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]eBtDMoN2oXemz1iKB 0 points1 point2 points 4 years ago (4 children)
+
+To get the class average, keep a running total of student averages and divide
+by the number of students.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]yoho139 1 point2 points3 points 4 years ago (0 children)
+
+Alternatively, keep a running total of their score and divide by n*m at the
+end. I tried both in my Java solution and there's no real difference in run
+time (both hover around 2.2 ms).
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]PolloFrio 0 points1 point2 points 4 years ago (2 children)
+
+Cheers, just edited that in!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]eBtDMoN2oXemz1iKB 0 points1 point2 points 4 years ago (1 child)
+
+    So I have got the class average but it's printed at the end instead of the
+    top and I'm not sure how to change that...
+
+To solve this, I saved the student names and averages in a hash and printed it
+after printing the class average.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]PolloFrio 0 points1 point2 points 4 years ago (0 children)
+
+Thanks, edited again to fix that and it works perfectly!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Urist_Mc_George 1 point2 points3 points 4 years ago (0 children)
+
+And here is my Python solution. Thanks at pandubear for the twodigit idea for
+formatting!
+
+def twodigit(n):
+    return '{0:.2f}'.format(n)
+
+# split the first input to get the range of int
+numOfStudents,numOfAssignments = (int(n) for n in raw_input().split())
+avgs = []
+print "\n"
+
+for _ in range(numOfStudents):
+    line = raw_input().strip()
+    name = line.split()[0]
+    grades = line.split()[1:]
+    grades = (float(grade) for grade in grades)
+    # calc the avgs
+    avgs.append((name, sum(grades)/numOfAssignments))
+
+print twodigit(sum(x[1] for x in avgs)/numOfStudents)
+for stud, avg in avgs:
+    print "%s %s" % (stud, twodigit(avg))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]zengargoyle 2 points3 points4 points 4 years ago* (0 children)
+
+For shame...
+
+perl -MList::Util=sum -lane 'BEGIN{<>}push@o,shift@F;$s{$o[-1]}=sum(@F)/@F;END{@t=values%s;printf"%.2f\n",sum(@t)/@t;printf"$_ %.2f\n",$s{$_}for@o}'
+
+This is why oneliners are so much fun in Perl. :)
+
+But here's a nicer version...
+
+#!/usr/bin/env perl
+use strict;
+
+#use List::Util qw(sum);
+sub sum { my $sum = 0; $sum += $_ for @_; $sum }
+
+my $unused = <>;
+
+my @ordering;
+my %students;
+
+while (<>) {
+  my ($name, @grades) = split ' ';
+  push @ordering, $name;
+  $students{ $name } = sum(@grades) / scalar @grades;
+}
+
+my @all_grades = values %students;
+my $class_average = sum(@all_grades) / scalar @all_grades;
+
+printf "%.2f\n", $class_average;
+printf "$_ %.2f\n", $students{$_} for @ordering;
+
+EDIT: Should have just gone ahead and added an average function:
+
+sub average { my $sum = 0; $sum += $_ for @_; $sum / scalar @_ }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]missblit 2 points3 points4 points 4 years ago (0 children)
+
+Hard to get a nice terse solution with C++ without any helper libraries.
+
+#include <iostream>
+#include <sstream>
+#include <cassert>
+
+int main() {
+    using namespace std;
+    stringstream ss;
+
+    cout.setf(ios::fixed); cout.precision(2);
+      ss.setf(ios::fixed);   ss.precision(2);
+
+    int student_count, assign_count, grand_total = 0;
+
+    assert(cin >> student_count >> assign_count);
+
+    //process all student records
+    for(int i = 0; i < student_count; i++) {
+        //read in name and send to buffer
+        string name;
+        assert(cin >> name);
+        ss << name;
+
+        //read in score total and send to buffer
+        int student_total = 0, score;
+        while(cin >> score)
+            student_total += score;
+        cin.clear();
+        ss << " " << student_total / double(assign_count) << "\n";
+
+        //add score total to class total
+        grand_total += student_total;
+    }
+    //class average
+    cout << ( grand_total / double(assign_count * student_count) ) << "\n";
+    //individual student info
+    cout << ss.str();
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]kirsybuu0 1 1 point2 points3 points 4 years ago (0 children)
+
+D language. Does integer arithmetic in hundredths to avoid the rounding of
+floats.
+
+import std.stdio, std.algorithm, std.conv, std.typecons;
+import std.range : walkLength, isForwardRange;
+
+auto average(Range)(Range r) if (isForwardRange!Range) {
+    return r.reduce!( (a,b) => a+b ) / r.walkLength;
+}
+auto splitCents(Int)(Int n) {
+    return tuple(n / 100, n % 100);
+}
+void main() {
+    auto reader = stdin.byLine();
+    reader.popFront();
+
+    Tuple!(string, size_t)[] grades;
+    foreach(line ; reader) {
+        const record = line.findSplit(" ");
+        grades ~= tuple(record[0].idup,
+                        record[2].splitter
+                                 .map!(p => 100 * p.to!size_t)
+                                 .average);
+    }
+    writefln("%d.%02d", grades.map!(t => t[1])
+                            .average
+                            .splitCents
+                            .expand);
+    foreach(grade ; grades) {
+        writefln("%s %d.%02d", grade[0], grade[1].splitCents.expand);
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pandubear0 1 1 point2 points3 points 4 years ago (0 children)
+
+Pretty straightforward Python solution:
+
+def twodigit(n):
+    return '{0:.2f}'.format(n)
+
+students, assignments = (int(n) for n in input().strip().split())
+
+averages = []
+for _ in range(students):
+    line = input().strip()
+    name, *grades = line.split()
+    grades = (int(grade) for grade in grades)
+    averages.append((name, sum(grades)/assignments))
+
+class_average = sum(record[1] for record in averages)/students
+
+print(twodigit(class_average))
+
+for student, average in averages:
+    print(student, twodigit(average))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 1 point2 points3 points 4 years ago* (0 children)
+
+In Python:
+
+DATA = """10 10
+ABIGAIL 11 3 5 20 4 2 8 17 4 5
+ALEXANDER 2 12 20 0 6 10 3 4 9 7
+AVA 11 15 2 19 14 5 16 18 15 19
+ETHAN 6 12 0 0 5 11 0 11 12 15
+ISABELLA 16 0 10 7 20 20 7 2 0 1
+JACOB 2 14 17 7 1 11 16 14 14 7
+JAYDEN 10 10 3 16 15 16 8 17 15 3
+MADISON 10 11 19 4 12 15 7 4 18 13
+SOPHIA 5 17 14 7 1 17 18 8 1 2
+WILLIAM 12 12 19 9 4 3 0 4 13 14"""
+
+
+def studentManagement(data):
+    data = data.split("\n")
+    data.pop(0)
+    grades, gradesStudent = [], []
+
+    for y, line in enumerate(data):
+        data[y] = line.split(" ")
+        line = line.split(" ")
+        for x, grade in enumerate(line):
+            if x == 0:
+                gradesStudent.append([])
+            else:
+                grades.append(float(grade))
+                gradesStudent[-1].append(float(grade))
+
+    print(sum(grades) / len(grades))
+    for i, j in enumerate(gradesStudent):
+        print("%s: %.2f" % (data[i][0],
+        sum(gradesStudent[i]) / len(gradesStudent[i])))
+
+
+if __name__ == "__main__":
+    studentManagement(DATA)
+
+  • permalink
+  • embed
+  • save
+
+[–]thisisnotmypenis 1 point2 points3 points 4 years ago (0 children)
+
+[C++]
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+
+using namespace std;
+
+struct StudentInfo
+{
+ string name;
+ vector<int> scores;
+ double avg;
+};
+
+int main()
+{
+    int N, M;
+    cin>>N>>M;
+
+    vector<StudentInfo> i_vec;
+    int p;
+
+    for(int i = 0; i < N; ++i)
+    {
+        StudentInfo tmp;
+        double acc = 0;
+        cin>>tmp.name;
+
+        for(int j = 0; j < M; ++j)
+        {
+            cin>>p;
+            acc += p;
+            tmp.scores.push_back(p);
+        }
+
+        tmp.avg = acc / M;
+
+        i_vec.push_back(tmp);
+    }
+
+    double average = 0;
+
+    for(int i = 0; i < N; ++i)
+    {
+            average += i_vec[i].avg;
+        }
+
+    cout<<average/N<<endl;
+
+    for(int i = 0; i < N; ++i)
+    {
+        cout<<i_vec[i].name<<" ";
+
+        cout<<i_vec[i].avg<<endl;
+    }
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pteek 1 point2 points3 points 4 years ago (0 children)
+
+Simple C program.
+
+Feedback is requested.
+
+#include <stdio.h>
+
+int main(){
+    size_t no_of_stdnts, no_of_assmnts;
+    int i, j;
+    float subtotal, temp, total=0;
+
+    scanf("%d %d", &no_of_stdnts, &no_of_assmnts);
+
+    char name[no_of_stdnts][128];
+    float score[no_of_stdnts];
+
+    for(i = 0; i < no_of_stdnts; i++){
+        scanf("%s", name[i]);
+        subtotal = 0.0f;
+        for(j = 0; j < no_of_assmnts; j++){
+            scanf("%f", &temp);
+            subtotal += temp;
+        }
+        score[i] = subtotal/no_of_assmnts;
+        total += score[i];
+    }
+
+    printf("%.2f\n",total/no_of_stdnts);
+    for(i = 0; i < no_of_stdnts; i++){
+        printf("%s %.2f\n", name[i], score[i]);
+    }
+
+}
+
+OUTPUT:
+
+3 5
+JON 19 14 15 15 16
+JEREMY 15 11 10 15 16
+JESSE 19 17 20 19 18
+15.93
+JON 15.80
+JEREMY 13.40
+JESSE 18.60
+
+10 10
+ABIGAIL 11 3 5 20 4 2 8 17 4 5
+ALEXANDER 2 12 20 0 6 10 3 4 9 7
+AVA 11 15 2 19 14 5 16 18 15 19
+ETHAN 6 12 0 0 5 11 0 11 12 15
+ISABELLA 16 0 10 7 20 20 7 2 0 1
+JACOB 2 14 17 7 1 11 16 14 14 7
+JAYDEN 10 10 3 16 15 16 8 17 15 3
+MADISON 10 11 19 4 12 15 7 4 18 13
+SOPHIA 5 17 14 7 1 17 18 8 1 2
+WILLIAM 12 12 19 9 4 3 0 4 13 14
+9.50
+ABIGAIL 7.90
+ALEXANDER 7.30
+AVA 13.40
+ETHAN 7.20
+ISABELLA 8.30
+JACOB 10.30
+JAYDEN 11.30
+MADISON 11.30
+SOPHIA 9.00
+WILLIAM 9.00
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]TeaPow 1 point2 points3 points 4 years ago* (0 children)
+
+Python
+
+import sys
+
+input_file = open(sys.argv[1])
+student_count, assignment_count = map(int, input_file.readline().split())
+student_grades = {}
+
+for line in input_file:
+    line_data = line.split()
+    student_name = line_data[0]
+    grade_average = sum(map(float, line_data[1:])) / assignment_count
+    student_grades[student_name] = grade_average
+
+# output
+class_average = sum(student_grades.values()) / student_count
+print '{:.2f}'.format(class_average)
+
+for student_name in sorted(student_grades.keys()):
+    print '{}: {:.2f}'.format(student_name, student_grades[student_name])
+
+Think this is quite an elegant solution (if I do say so myself), and I'm pretty
+happy with it! I learned about using .format() for printing strings (whereas
+previously I was using formatters [%.2f]). Output is as expected. Any feedback
+or questions?
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 1 point2 points3 points 4 years ago (7 children)
+
+Simple and very up-front solution, written in C++. Note how I generously
+over-allocate my arrays.. This is a simple trick used to trade a bit of extra
+memory for a more defensive/robust run-time. It's perfect for ACM-style
+programming competitions, where quickly getting to a valid output solution is
+more important than quality code. It's counter-intuitive, since it's like
+condoning bugs, but that's sometimes helpful for quickly iterating over a small
+program.
+
+#include <stdio.h>
+
+int main()
+{
+    int N, M;
+    scanf("%d %d", &N, &M);
+
+    char nameBuffer[512][512];
+    float avg[512];
+    float allSum = 0.0f;
+    for(int n = 0; n < N; n++)
+    {
+        scanf("%s", nameBuffer[n]);
+        float tmp, sum = 0.0f;
+        for(int m = 0; m < M; m++)
+        {
+            scanf("%f", &tmp);
+            sum += tmp;
+        }
+
+        avg[n] = sum / (float)M;
+        allSum += avg[n];
+    }
+
+    printf("%.2f\n", allSum / (float)N);
+    for(int n = 0; n < N; n++)
+    {
+        printf("%s %.2f\n", nameBuffer[n], avg[n]);
+    }
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]yoho139 1 point2 points3 points 4 years ago (6 children)
+
+I don't know C, but how does over allocating arrays help at all?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nint221 2[S] 0 points1 point2 points 4 years ago (5 children)
+
+The idea here is you suppress a class of bugs, specifically out-of-bounds array
+indexing (the bug is still there, just won't cause a crash). Though bad
+practice for writing quality code, it's helpful specifically in ACM-like
+competitions, where you're judged on the number of challenges complete, not
+quality of code. Since in these competitions you only have one computer and
+three people, you'll usually end up quickly changing code, which may lead to
+subtle copy/paste/typing errors. Allocate more than you need to be safe so you
+can focus on getting to a solution, not writing perfect code.
+
+If the competition isn't limited on time, then of course just allocate the
+exact array size and make sure you catch all those bugs. A size-correct array
+would just be:
+
+char nameBuffer[N][512]; // 512 still needed for the string itself
+float avg[N];
+
+Note that I don't use any heap-allocations, as C++ allows this style
+dynamic-stack array allocation.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]yoho139 1 point2 points3 points 4 years ago (4 children)
+
+But when you know for a fact that the array size you will need is exactly n,
+why bother over allocating? For all you know, n could be greater than 512
+(assuming C arrays can go over that?).
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nint221 2[S] 1 point2 points3 points 4 years ago (3 children)
+
+Sure, even though the challenge is trivial and N is well defined (and well
+under 512!), it's still a good trick to be aware of. You're right that it's
+overkill in this situation, but I still do it to point out (as an example) why
+the trick can be helpful. It's why I made a big comment about it in the
+first-place :-)
+
+The gist is: it's better to generate some data to at least try and submit as a
+solution than to just have a program that crashes on an off-by-one error. If
+you're hitting the padding, you're in very bad shape, but it's still better
+than nothing.
+
+If your question is more about the technical aspect of why it helps with
+out-of-bounds array indexing crashes: native languages, like C and C++,
+generally place stack variables next to each other in some continuous segment
+of memory. If I allocate two arrays of size N on the stack in the same scope,
+it's possible they are directly adjacent to each other. So if I write past the
+end of one of these arrays, then you could be corrupting good data in the next
+adjacent array. Even worse: what if it causes a crash? You want to avoid
+corrupt data and crashes, hence the padding trick.
+
+Look up at how programs are loaded and mapped in memory, it's actually really
+interesting!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]yoho139 2 points3 points4 points 4 years ago* (2 children)
+
+Yeah, I spent a long, long time reading up on stuff like that when I got into
+the technical stuff behind the bugs in Pokemon Red. Pretty fascinating stuff,
+and the way people manipulate it is awesome too. Someone managed to break out
+of the game, write a compiler (from within the Gameboy - although technically
+in an emulator as it would take forever to write otherwise) and use that to
+write a program that played a song (MLP theme, but whatever) and displayed some
+art. link
+
+Edit: Technical explanation and background. Linked in the description, but
+sometimes people forget to check there.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nint221 2[S] 1 point2 points3 points 4 years ago (0 children)
+
+That is... WOW. INCREDIBLY cool, holy crap. I'm aware that the MissingNo bug
+was corruption of instanced Pokemon data, but that's an incredibly slick hack!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]neptunDK 0 points1 point2 points 4 years ago (0 children)
+
+Finally finished another of these, can't wait to see how well other people
+solved this. Solved with dict, while, for and some print formating. Python 2.7.
+
+uservar = raw_input("input number of students and assignments: ")
+
+num_students, num_assignments = uservar.split()
+
+num_students = int(num_students)
+num_assignments = int(num_assignments)
+
+studentdict = dict()
+
+input_counter = 0
+
+while input_counter < num_students:
+    temp = raw_input("input student name and grades: ").split()
+    student_name = temp.pop(0)
+    sum_grades = 0
+    grades = map(int,temp)
+    for grade in grades:
+        sum_grades += grade
+        avg_grade = (sum_grades*1.0)/num_assignments
+        studentdict.update({student_name:avg_grade})
+    input_counter += 1
+
+avg_grades_all_students = sum(studentdict.values())/num_students
+
+print "%.2f" % avg_grades_all_students
+
+sorted_by_name = sorted(studentdict.keys())
+for key in sorted_by_name:
+    print "%s %.2f" % (key, studentdict[key])
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]godzab 0 points1 point2 points 4 years ago (0 children)
+
+//http://www.reddit.com/r/dailyprogrammer/comments/1kphtf/081313_challenge_136_easy_student_management/
+//author: godzab
+import java.util.Scanner;
+public class StudentManagement {
+
+    public static void main(String[] args){
+        // n = number of students(ranges from 1 to 60)
+        //m is the number of assigments
+
+        int n, m;
+        Scanner s = new Scanner(System.in);
+        n = s.nextInt(); m = s.nextInt();
+
+        Student arrays[] = new Student[n];
+
+        for(int i = 0; i < n; i++){
+            System.out.println("Enter name: ");
+            String name = s.next();
+            int grades[] = new int[m];
+            for(int j = 0; j < m; j++){
+                int nu = s.nextInt();
+                grades[j] = nu;
+            }
+
+            arrays[i] = new Student(name, grades);
+        }
+
+        float sum = 0;
+        for(int i = 0; i < arrays.length; i++){
+            sum += arrays[i].computeAverage();
+        }
+        sum = sum/arrays.length;
+        System.out.println();
+        System.out.println("Average is: " + sum);
+        for(int i = 0; i < arrays.length; i++){
+            System.out.println(arrays[i].toString());
+        }
+    }
+
+}
+
+
+
+public class Student {
+    String n;
+    int[] grades;
+    public Student(String name, int[] numberOfGrades){
+        n = name;
+        grades = numberOfGrades;
+    }
+
+    public float computeAverage(){
+        float sum = 0;
+        for(int i = 0; i < grades.length; i++){
+            sum += grades[i];
+        }
+        return sum/ grades.length;
+    }
+
+    public String toString(){
+        return n + ": " + computeAverage();
+    }
+}
+
+It has been long time since I have used Java, any suggestions will be
+appreciated.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]revrii 0 points1 point2 points 4 years ago (0 children)
+
+Late, but first submission. Implemented the challenge as a Groovy script.
+Stripped out input validation to keep things simple.
+
+def roster = new Roster()
+def line
+while (line = System.console().readLine()) {
+    def input = line.split(' ').toList()
+    roster.parseStudent(input)
+}
+printf "%.2f\n", roster.averageScore
+roster.students.each { println "$it.name $it.averageScore" }
+
+class Roster {
+    def students = new ArrayList<Student>()
+
+    def getAverageScore() {
+        students*.averageScore.sum() / students.size()
+    }
+
+    void parseStudent(List<String> input) {
+        def name = input.remove 0
+        def scores = input.collect { it.toInteger() }
+        students.add(new Student(name: name, scores: scores))
+    }
+}
+
+class Student {
+    def name, scores
+
+    def getAverageScore() {
+        scores.sum() / scores.size()
+    }
+}
+
+https://gist.github.com/jdcrensh/6374096
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]whatiswronghere 0 points1 point2 points 4 years ago (0 children)
+
+Simple Java solution. I would appreciate tips on how to make this solution
+neater. =)
+
+package easy;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class StudentManagement {
+
+public static void main(String[] args) {
+
+    Scanner sc = new Scanner(System.in);
+    int N = sc.nextInt();
+    int M = sc.nextInt();
+    sc.nextLine();
+    ArrayList<Student> students = new ArrayList<Student>();
+
+    for (int i = 0; i < N; i++) {
+        String[] s = sc.nextLine().split(" ");
+        String name = s[0];
+        int scoreSum = 0;
+        for (int j = 1; j < s.length; j++) {
+            scoreSum += Integer.parseInt(s[j]);
+        }
+        students.add(new Student(name, (scoreSum / (M * 1.0))));
+    }
+
+    System.out.printf("%.2f\n", calculateClassAverage(students));
+    for (Student s : students) {
+        System.out.printf("%s %.2f\n", s.name, s.average);
+    }
+
+}
+
+private static class Student {
+
+    double average;
+    String name;
+
+    public Student(String s, double avg) {
+        this.name = s;
+        this.average = avg;
+    }
+
+    @Override
+    public String toString() {
+        return this.name + " " + this.average;
+    }
+}
+
+public static double calculateClassAverage(ArrayList<Student> list) {
+    double avg = 0;
+    for (Student s : list) {
+        avg += s.average;
+    }
+    return avg / list.size();
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Xynect 0 points1 point2 points 4 years ago (0 children)
+
+*Just another Java solution*
+    import java.util.ArrayList;
+    import java.util.Scanner;
+
+    /**
+     * Date: 15/10/13
+     * Time: 19:21
+     * > XycsC
+     */
+    public class rChallengeNumber136 {
+        public static void main(String args[]){
+            double scoreSummed = 0;
+            double classAverage = 0;
+            int n;
+            ArrayList<String> list2 =new ArrayList<String>();
+            ArrayList<String> list = new ArrayList<String> ();
+            inputHandler(list);
+            for(int i=0;i<Integer.parseInt(list.get(0));i++){
+            list2.add(list.get(2+(Integer.parseInt(list.get(1))+1)*i));
+                n=3+(Integer.parseInt(list.get(1))+1)*i ;
+                for(int ii=0;ii<Integer.parseInt(list.get(1));ii++){
+                scoreSummed += Integer.parseInt(list.get(n));
+                n++;
+                }
+            classAverage +=scoreSummed;
+            scoreSummed = scoreSummed/Integer.parseInt(list.get(1));
+            list2.add(String.valueOf(scoreSummed));
+            scoreSummed =0;
+            }
+            System.out.println(classAverage/
+            (Integer.parseInt(list.get(1))*Integer.parseInt(list.get(0))));
+            for(int mm=0;mm<list2.size()*2;mm+=2){
+                System.out.print(list2.get(mm) + " ");
+                System.out.println(list2.get(mm+1));
+            }
+        }
+        public static void inputHandler(ArrayList<String>  list){
+            System.out.println("enter END to stop the input");
+            Scanner in = new Scanner(System. in);
+            String counter;
+            while(in.hasNext())
+            {
+
+                counter = in.next();
+                list.add(list.size(),counter);
+                if(list.get(list.size()-1).equals("END")){break;}
+
+            }
+        }
+        }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ittybittykittyloaf 0 points1 point2 points 4 years ago (0 children)
+
+Clunky C++:
+
+#include <map>
+#include <string>
+#include <iterator>
+#include <iostream>
+#include <stdexcept>
+#include <iomanip>
+#include <sstream>
+#include <fstream>
+
+class GradeBook {
+    public:
+        typedef std::multimap<std::string, float>::size_type GradeBookSizeT;
+
+        friend std::ostream& operator<<(std::ostream& os, const GradeBook& o);
+        int addGrade(std::string const &studentName, float const grade);
+        GradeBookSizeT getSize() const;
+        float average() const;
+        float average(std::string const &studentName) const;
+        void zero();
+    private:
+        typedef std::pair<std::string, float> GradeBookPair;
+        typedef std::multimap<std::string, float> GradeBookMap;
+        typedef GradeBookMap::const_iterator GradeBookMapConstItr;
+        typedef GradeBookMap::iterator GradeBookMapItr;
+        typedef std::pair<GradeBookMapConstItr, GradeBookMapConstItr> GradeBookRange;
+
+        GradeBookMap _gradeBook;
+};
+
+std::ostream& operator<<(std::ostream& os, const GradeBook& o) {
+    std::cout << std::fixed << std::setprecision(2) << o.average() << std::endl;
+    GradeBook::GradeBookRange range;
+    GradeBook::GradeBookMapConstItr it, it2;
+
+    for (it = o._gradeBook.begin(); it != o._gradeBook.end(); it = range.second) {
+        range = o._gradeBook.equal_range(it->first);
+        std::cout << it->first << " ";
+        std::cout << o.average(it->first) << std::endl;
+    }
+
+    return os;
+}
+
+int GradeBook::addGrade(std::string const &studentName, float const grade) {
+    // Returns -1 on failure (bad param)
+    if (studentName.empty() || grade < 0) return -1;
+    this->_gradeBook.insert(GradeBookPair(studentName, grade));
+
+    return 0;
+}
+
+float GradeBook::average() const {
+    if (this->getSize() == 0) {
+        throw std::range_error("No grades to compute");
+        return 0.0;
+    }
+
+    GradeBookMapConstItr it;
+    float total = 0;
+    GradeBook::GradeBookSizeT n = 0;
+    GradeBookRange range;
+
+    for (it = this->_gradeBook.begin(); it != _gradeBook.end(); it = range.second) {
+        range = this->_gradeBook.equal_range(it->first);
+        total += this->average(it->first);
+        n++;
+    }
+
+    return total / n;
+}
+
+float GradeBook::average(std::string const &studentName) const {
+    // Throws std::invalid_argument if the key is not found
+    GradeBookRange range = this->_gradeBook.equal_range(studentName);
+    if (std::distance(range.first, range.second) == 0) {
+        throw std::invalid_argument("Key not found");
+        return 0;
+    }
+
+    float total = 0.0;
+    GradeBook::GradeBookSizeT n = 0;
+
+    for (GradeBookMapConstItr it = range.first; it != range.second; ++it) {
+        total += it->second;
+        n++;
+    }
+
+    return (total / n);
+}
+
+GradeBook::GradeBookSizeT GradeBook::getSize() const {
+    return std::distance(this->_gradeBook.begin(), this->_gradeBook.end());
+}
+
+void GradeBook::zero() {
+    this->_gradeBook.clear();
+}
+
+int main(int argc, char *argv[]) {
+    GradeBook gradeBook;
+    std::ifstream file("input.txt");
+
+    while (file) {
+        std::string line;
+        std::getline(file, line);
+        std::stringstream ss(line);
+        std::string student = "";
+
+        ss >> student;
+        float grade = 0.0;
+        while (ss >> grade) {
+            gradeBook.addGrade(student, grade);
+        }
+    }
+
+    std::cout << gradeBook;
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]milliDavids 0 points1 point2 points 4 years ago (0 children)
+
+Just found this subreddit, am currently teaching myself python and just started
+working towards my CS degree in college. Python 3.3. Please tell me what you
+think.
+
+def student_manager():
+"""
+Takes a list of students and a list of their grades and outputs the students' average and the class average.
+"""
+
+number_of_students = int(input('How many students? '))
+number_of_grades = int(input('How many graded assignments? '))
+individual = []
+students = []
+student_total = 0
+total_in_class = 0
+
+for stu in range(number_of_students):
+    for position in range(number_of_grades+1):
+        if position == 0:
+            individual.append(input('Enter student ' + str(stu) + '. '))
+        else:
+            individual.append(int(input('Enter grade for ' + individual[0] + ' out of 20 points. ')))
+            total_in_class += individual[position]
+            student_total += individual[position]
+    individual.append(student_total)
+    students.append(individual)
+    student_total = 0
+    individual = []
+
+print('\nClass average:', round(total_in_class/(number_of_students*number_of_grades), 2))
+
+for final in students:
+    print(final[0], "'s average is ", round(final[number_of_grades+1]/number_of_grades, 2), '.', sep='')
+
+student_manager()
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]aron0405 0 points1 point2 points 4 years ago (0 children)
+
+Here's mine! Java.
+
+    import java.math.BigDecimal;
+import java.util.Scanner;
+
+public class StudentManagement {
+
+    static int numStudents; //Number of students
+    static int numAssignments; //Number of assignments per student
+    static String name; //A student's name
+    static float average; //A student's average grade
+    static float classAverage; //The class' average grade
+
+    public static void main(String[] args)
+    {
+        BigDecimal studentAve;  //Used BigDecimal to round to exactly 2 decimal places
+        BigDecimal classAve;
+        String studentResult = ""; // A string holding all students' names & averages
+        String result = ""; // classAverage + studentResult
+        Scanner sc = new Scanner(System.in);
+
+        numStudents = Integer.parseInt(sc.next()); // parse numStudents from input
+        numAssignments = Integer.parseInt(sc.next());// parse numAssignments
+
+        for(int i = 0; i < numStudents; i++)
+        {
+            average = 0;
+            name = sc.next();
+            for(int j = 0; j < numAssignments; j++)
+            {
+                average = average + Float.parseFloat(sc.next()); // a student's average
+                classAverage = classAverage + average; // the class' average
+            }
+            //Rounding to 2 decimal places
+            average = (average/numAssignments) * 100; //multiply by 100
+            studentAve = new BigDecimal(Math.round(average)); //round to nearest int
+            studentAve = studentAve.movePointLeft(2); //move decimal point to the left
+
+            studentResult = studentResult + name + " " + studentAve + "\n";
+
+        }
+        classAverage = classAverage/(numStudents*numAssignments) * 100;
+        classAve = new BigDecimal(Math.round(classAverage));
+        classAve = classAve.movePointLeft(2); //do the same rounding thing here
+
+        result = classAve + "\n" + studentResult; //the final concatenation
+        System.out.println(result); //voila!
+
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+  • about
+  • blog
+  • about
+  • advertising
+  • careers
+
+  • help
+  • site rules
+  • Reddit help center
+  • wiki
+  • reddiquette
+  • mod guidelines
+  • contact us
+
+  • apps & tools
+  • Reddit for iPhone
+  • Reddit for Android
+  • mobile website
+  • buttons
+
+  • <3
+  • reddit gold
+  • redditgifts
+
+Use of this site constitutes acceptance of our User Agreement and Privacy
+Policy. (C) 2018 reddit inc. All rights reserved.
+
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+Advertise - technology
+
+[pixel]
+
+π Rendered by PID 50027 on app-740  at 2018-05-09 20:36:06.326799+00:00 running
+4b07d45 country code: CH.
+

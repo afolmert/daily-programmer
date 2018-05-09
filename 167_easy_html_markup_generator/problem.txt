@@ -1,0 +1,3467 @@
+close this window
+jump to content
+my subreddits
+edit subscriptions
+
+  • popular
+  • -all
+  • -random
+  • -users
+
+ | 
+
+  • AskReddit
+  • -worldnews
+  • -videos
+  • -funny
+  • -todayilearned
+  • -pics
+  • -gaming
+  • -movies
+  • -news
+  • -gifs
+  • -mildlyinteresting
+  • -aww
+  • -Showerthoughts
+  • -television
+  • -Jokes
+  • -science
+  • -OldSchoolCool
+  • -sports
+  • -IAmA
+  • -Documentaries
+  • -TwoXChromosomes
+  • -explainlikeimfive
+  • -personalfinance
+  • -books
+  • -tifu
+  • -Futurology
+  • -dataisbeautiful
+  • -WritingPrompts
+  • -nottheonion
+  • -food
+  • -Music
+  • -photoshopbattles
+  • -EarthPorn
+  • -philosophy
+  • -Art
+  • -nosleep
+  • -GetMotivated
+  • -askscience
+  • -LifeProTips
+  • -space
+  • -UpliftingNews
+  • -DIY
+  • -history
+  • -gadgets
+  • -creepy
+  • -listentothis
+  • -blog
+  • -announcements
+  • -InternetIsBeautiful
+
+more >>
+dailyprogrammer dailyprogrammer
+
+  • comments
+
+Want to join? Log in or sign up in seconds.|
+
+  • English
+
+[                    ][]
+[ ]limit my search to r/dailyprogrammer
+
+use the following search parameters to narrow your results:
+
+subreddit:subreddit
+    find submissions in "subreddit"
+author:username
+    find submissions by "username"
+site:example.com
+    find submissions from "example.com"
+url:text
+    search for "text" in url
+selftext:text
+    search for "text" in self post contents
+self:yes (or self:no)
+    include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+    include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+
+see the search faq for details.
+
+advanced search: by author, subreddit...
+
+this post was submitted on  16 Jun 2014
+69 points (91% upvoted)
+shortlink:  [https://redd.it/289p]
+[                    ][                    ]
+[ ]remember mereset password
+login
+Submissions restricted
+Only approved users may post in this community.
+
+dailyprogrammer
+
+subscribeunsubscribe142,051 readers
+
+147 users here now
+
+ 1. Challenge #321: Easy
+ 2. Challenge #321: Intermediate
+ 3. Challenge #321: Hard
+ 4. Weekly #25: Escape the trolls
+
+Welcome to r/DailyProgrammer!
+
+First time visitors of Daily Programmer please Read the Wiki to learn
+everything about this subreddit.
+
+  • Solution Submission Tutorial
+  • Solution Submission Guidelines
+  • Code / Peer-Review Guidelines
+  • Problem Submission Guidelines
+  • Achievements System
+  • Community Projects
+  • Links to other Programming subreddits
+  • Special Thanks
+
+Can't submit solutions?
+
+If you are a new or unverified account, and are unable to post comment replies,
+please click here to verify your account. Otherwise, read the Solution
+Submission Tutorial for a walkthrough of submitting a solution, or click below
+to message the moderators for assistance.
+
+Write your own challenge!
+
+To help the community and write your own challenge to be submitted, head on
+over to /r/DailyProgrammer_Ideas and share your project - read the sidebar in
+that subreddit for more information.
+
+IRC Channel
+
+Message the Moderators
+
+Challenge List in Chronological Order
+
+created by nottoobadguya community for 6 years
+message the moderators
+
+MODERATORS
+
+  • rya111113 1
+  • nint221 2
+  • Cosmologicon2 3
+  • Elite68091 1
+  • XenophonOfAthens2 1
+  • jnazario2 0
+  • Godspiral3 3
+  • Blackshell2 0
+  • fvandepitte0 0
+  • G33kDude1 1
+  • about moderation team >>
+
+discussions in r/dailyprogrammer
+<>
+X
+ 
+42 . 10 comments
+[2018-05-09] Challenge #360 [Intermediate] Find the Nearest Aeroplane
+ 
+63 . 26 comments
+[2018-05-04] Challenge #359 [Hard] Primes in Grids
+ 
+41 . 37 comments
+[2018-05-02] Challenge #359 [Intermediate] Unwrap Some Text
+ 
+66 . 111 comments
+[2018-04-30] Challenge #359 [Easy] Regular Paperfold Sequence Generator
+ 
+66 . 12 comments
+[2018-04-27] Challenge #358 [Hard] Puzzle me this
+ 
+51 . 36 comments
+[2018-04-25] Challenge #358 [Intermediate] Everyone's A Winner!
+ 
+75 . 75 comments
+[2018-04-23] Challenge #358 [Easy] Decipher The Seven Segments
+ 
+56 . 28 comments
+[2018-04-20] Challenge #357 [Hard] Continued Fractions
+ 
+61 . 26 comments
+[2018-04-19] Challenge #357 [Intermediate] Kolakoski Sequences
+ 
+69 . 114 comments
+[2018-04-11] Challenge #356 [Intermediate] Goldbach's Weak Conjecture
+
+Welcome to Reddit,
+
+the front page of the internet.
+
+Become a Redditor
+
+and subscribe to one of thousands of communities.
+
+x
+
+68
+69
+70
+
+[6/16/2014] Challenge #167 [Easy] HTML markup generator (self.dailyprogrammer)
+
+submitted 3 years ago by professorlamp1 0
+
+Description
+
+You're a well known web-dev with far too much confidence, you mistakingly
+agreed to complete too many projects in too little a timeframe. In order to fix
+this, you devise a program that will automatically write all of the HTML for
+you!
+
+But first, you'll need to program it.
+
+Formal Inputs & Outputs
+
+Input description
+
+On standard console input you should be prompted to enter a paragraph.
+
+Output description
+
+Once your paragraph has been entered, it should be saved as a valid HTML file
+and opened in your default brower to display the results
+
+Sample Inputs & Outputs
+
+Input
+
+"Enter your paragraph:"
+"This is my paragraph entry"
+
+Output
+
+(this is the expected content of the .html file)
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <p>This is my paragraph entry</p>
+    </body>
+</html>
+
+Bonus
+
+Implement a good looking default CSS style-sheet that also gets automatically
+generated.
+
+Notes
+
+Have a good challenge idea?
+
+Consider submitting it to /r/dailyprogrammer_ideas
+
+  • 87 comments
+  • share
+  • save
+  • hide
+  • report
+
+all 87 comments
+sorted by:
+best
+topnewcontroversialoldrandomq&alive (beta)
+ [                    ]
+
+Want to add to the discussion?
+
+Post a comment!
+
+Create an account
+
+[–]jeaton 10 points11 points12 points 3 years ago (0 children)
+
+Simple shell script:
+
+#!/bin/sh
+
+[[ $1 && $2 ]] &&
+echo "<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <p>$1</p>
+    </body>
+</html>" > $2 && $BROWSER $2
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Edward_H 7 points8 points9 points 3 years ago (0 children)
+
+The following COBOL program is surprisingly compact and uses syntax defined in
+the COBOL XML technical report. It outputs the file as XHTML. However, I have
+no idea if the program is correct because there is no compiler that supports
+this syntax.
+
+       >>SOURCE FREE
+IDENTIFICATION DIVISION.
+PROGRAM-ID. html-generator.
+
+ENVIRONMENT DIVISION.
+INPUT-OUTPUT SECTION.
+FILE-CONTROL.
+    SELECT OPTIONAL xhtml-out ASSIGN "out.xhtml"
+        ORGANIZATION XML
+        TYPE EXTERNAL SCHEMA "http://www.w3.org/1999/xhtml".
+
+DATA DIVISION.
+FILE SECTION.
+FD  xhtml-out.
+01  xhtml                               IDENTIFIED "html".
+    03  head                            IDENTIFIED "head".
+        05  title-elt                   IDENTIFIED "title"
+                                        PIC X.
+    03  body                            IDENTIFIED "body".
+        05  p                           IDENTIFIED "p"
+                                        PIC X ANY LENGTH.
+
+PROCEDURE DIVISION.
+    OPEN OUTPUT xhtml-out
+    OPEN DOCUMENT xhtml-out
+
+    MOVE SPACE TO title-elt
+    WRITE title-elt
+
+    DISPLAY "Enter your paragraph terminated with a blank line."
+    ACCEPT p
+    PERFORM UNTIL p = SPACES
+        WRITE p
+        ACCEPT p
+    END-PERFORM
+
+    CLOSE DOCUMENT xhtml-out
+    CLOSE xhtml-out
+
+    GOBACK
+    .
+END PROGRAM html-generator.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]MrP_123 4 points5 points6 points 3 years ago (5 children)
+
+My solution in Java.
+
+I'm new to programming, so please give me feedback on my code.
+
+package Challenge_167;
+
+import java.awt.Desktop;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Formatter;
+import java.util.Scanner;
+
+public class HtmlMarkupGen{
+
+    private String title;
+    private String paragraph;
+    private Formatter formatter;
+
+    public HtmlMarkupGen(){
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter title:");
+        title = s.nextLine();
+        System.out.println("Enter your paragraph:");
+        paragraph = s.nextLine();
+        genFile();
+
+        s.close();
+    }
+
+    private void genFile(){
+        File f = new File(System.getProperty("user.home") + "/Desktop/HTML_Markup_Gen.html");
+
+        try{
+            formatter = new Formatter(f);
+        }catch(FileNotFoundException e){
+            e.printStackTrace();
+        }
+        String html = "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<title>" + title + "</title>\n\t</head>\n\n\t<body>\n\t\t<p>" + paragraph + "</p>\n\t</body>\n</html>";
+        formatter.format("%s", html);
+        formatter.close();
+
+        try{
+            Desktop.getDesktop().open(f);
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+    }
+
+    public static void main(String[] args){
+        new HtmlMarkupGen();
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]fvandepitte0 0 1 point2 points3 points 3 years ago (3 children)
+
+Not bad. I would have worked with string formatting:
+
+String html = "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<title>%s</title>\n\t</head>\n\n\t<body>\n\t\t<p>%s</p>\n\t</body>\n</html>";
+formatter.format(html, title, paragraph);
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]MrP_123 0 points1 point2 points 3 years ago (2 children)
+
+Yes you are absolutely right, that looks a bit cleaner.
+
+Thanks for the feedback.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]fvandepitte0 0 0 points1 point2 points 3 years ago (1 child)
+
+It are the small things that matters when you learn to program. You could have
+created an class with title and paragraph in it and created a getuserinput that
+returned an instance off that class. An afterwards use that instance to write
+your output again.
+
+Learning to program is an everlasting growth
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]poeir 4 points5 points6 points 3 years ago (0 children)
+
+There's something to be said for understanding the scale of what you're working
+on. Something this small doesn't require enterprise-level discipline, but if
+you're trying to practice enterprise-level discipline you should do it anyway.
+The problem is the same habits that make large projects manageable make small
+projects unwieldy, and vice versa.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]afaulds 0 points1 point2 points 3 years ago (0 children)
+
+The way I've seen it, usually stuff like user input is done in the main and
+then the results are passed to a constructor as arguments. That way you could
+instead get the args from a file and still use the constructor :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 4 points5 points6 points 3 years ago* (4 children)
+
+New to Python, just started programming in Java last September. Please point
+out any mistakes or bad practices in my code. Python 2.7.7, btw.
+
+def writeDocument(title, paragraph):
+    return "<!DOCTYPE html>\n%s\n\n%s\n</html>" % (writeHead(title), writeParagraph(paragraph))
+
+
+def writeHead(title):
+    return "\t<head>\n\t\t<title>\n\t\t\t%s\n\t\t</title>\n\t</head>" % (title)
+
+def writeParagraph(paragraph):
+    return "\t<body>\n\t\t<p>\n\t\t\t%s\n\t\t</p>\n\t</body>" % (paragraph)
+
+title = raw_input("Please enter the title for your HTML document: ")
+paragraph = raw_input("Please enter the paragraph for your HTML document:\n")
+
+print writeDocument(title, paragraph)
+
+Sample input: Please enter the title for your HTML document: Kobe
+
+Please enter the paragraph for your HTML document: This page is all about Kobe
+Bryant!
+
+Sample output:
+
+    <!DOCTYPE html>
+        <head>
+            <title>
+                Kobe
+            </title>
+        </head>
+
+        <body>
+            <p>
+                This page is all about Kobe Bryant!
+            </p>
+        </body>
+    </html>
+
+  • permalink
+  • embed
+  • save
+
+[–]ginjal 5 points6 points7 points 3 years ago (2 children)
+
+Instead of using \n and \t it's usually easier (and more readable) to use
+triple quotes. so:
+
+"""  <body>
+    <p>
+      %s
+    </p>
+  </body>""" % (paragraph)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 1 point2 points3 points 3 years ago (1 child)
+
+That's crazy! I thought triple quotes meant multi-line quotes?
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]ginjal 0 points1 point2 points 3 years ago (0 children)
+
+Well it does but it includes all whitespace within the triple quoted string,
+including newlines and tabs. It remains a normal str type, so you can still
+perform string substitutions as was done here.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]mva 0 points1 point2 points 3 years ago (0 children)
+
+In python we generally try to avoid mixedCase. You can check out http://
+legacy.python.org/dev/peps/pep-0008/ for the standard style guide. Your
+functions should be separated by a _
+
+def writeDocument(...)
+
+should be
+
+def write_document(...)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Elite68091 1 4 points5 points6 points 3 years ago (0 children)
+
+Ruby. Supports adding a title value, and also multiline paragraphs - but you'll
+have to add in line breaks yourself with <br /> tags or something.
+
+Once I get home I may try to do this in Befunge for a laugh.
+
+puts 'Enter a title.'
+title = gets.chomp
+
+puts 'Enter your paragraph. Enter a blank line to finish.'
+para = []
+while (line = gets.chomp; line.length > 0)
+  para.push('    ' * 3 + line) # indents the paragraph so the output HTML looks decent
+end
+
+puts <<END
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>#{title}</title>
+    </head>
+    <body>
+        <p>
+#{para.join "\n"}
+        </p>
+    </body>
+</html>
+END
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]passwordissame 5 points6 points7 points 3 years ago (0 children)
+
+#!/bin/bash
+
+filepath="${1:-$0.html}"
+read -r -p "> " webscale
+cat << EOF > "$filepath"
+<!doctype html>
+<meta charset="utf-8">
+<title>$filepath</title>
+<p>$webscale</p>
+EOF
+
+echo "Check $filepath"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]snarf2888 1 point2 points3 points 3 years ago (0 children)
+
+C. The system() call to open the completed HTML is set up to work on Mac but
+can be adjusted to work on other operating systems.
+
+I also added support for a title.
+
+Usage:
+
+html "<paragraph>" [-t] ["<title>"]
+
+Code:
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#if !defined(__APPLE__)
+#include <malloc.h>
+#endif
+
+void usage() {
+    printf("Usage: html \"<paragraph>\" [-t] [\"<title>\"]\n");
+    exit(1);
+}
+
+int main(int argc, char *argv[]) {
+    int rc = 0;
+    char *start, *middle, *end, *output, *filename = "output.html";
+    char title[256], paragraph[256], command[25] = "open ";
+    long start_len = 40, middle_len = 32, end_len = 22;
+    long title_len = 0,paragraph_len = 0, output_len = 0;
+    FILE *file = NULL;
+
+    start = "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<title>";
+    middle = "</title>\n\t</head>\n\n\t<body>\n\t\t<p>";
+    end = "</p>\n\t</body>\n</html>";
+
+    switch (argc) {
+    case 1:
+        printf("Enter your paragraph:\n");
+        scanf("%[^\n]%*c", paragraph);
+        break;
+    case 2:
+        if (strcmp(argv[1], "-t") == 0) {
+            printf("Enter your paragraph:\n");
+            scanf("%[^\n]%*c", paragraph);
+
+            printf("Enter your title:\n");
+            scanf("%[^\n]%*c", title);
+        } else if (strcmp(argv[1], "-h") == 0) {
+            usage();
+        } else {
+            strcpy(paragraph, argv[1]);
+        }
+
+        break;
+    case 3:
+        strcpy(paragraph, argv[1]);
+
+        if (strcmp(argv[2], "-t") == 0) {
+            printf("Enter your title:\n");
+            scanf("%[^\n]%*c", title);
+        } else {
+            strcpy(title, argv[2]);
+        }
+
+        break;
+    case 4:
+        if (strcmp(argv[2], "-t") == 0) {
+            strcpy(paragraph, argv[1]);
+            strcpy(title, argv[3]);
+        }
+
+        break;
+    default:
+        usage();
+        break;
+    }
+
+    paragraph_len = strlen(paragraph);
+    title_len = strlen(title);
+    output_len = start_len + title_len + middle_len + paragraph_len + end_len;
+
+    output = malloc(sizeof(char) * output_len);
+
+    strcpy(output, start);
+    strcat(output, title);
+    strcat(output, middle);
+    strcat(output, paragraph);
+    strcat(output, end);
+
+    file = fopen(filename, "w+");
+
+    if (!file) {
+        printf("Could not open %s\n", filename);
+        rc = 1;
+        goto cleanup;
+    }
+
+    if (fwrite(output, 1, output_len, file) != output_len) {
+        printf("Error writing %s\n", output);
+        rc = 1;
+        goto cleanup;
+    }
+
+    strcat(command, filename);
+    system(command);
+
+cleanup:
+    if (file) {
+        fclose(file);
+    }
+
+    if (output) {
+        free(output);
+    }
+
+    return rc;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]DuoSRX 1 point2 points3 points 3 years ago (0 children)
+
+Go
+
+package main
+
+import (
+    "bufio"
+    "fmt"
+    "os"
+    "text/template"
+)
+
+type Page struct {
+    Title     string
+    Paragraph string
+}
+
+var tmpl, _ = template.New("t").Parse(
+    `<!DOCTYPE html>
+<html>
+    <title>{{.Title}}</title>
+    <body>
+        <p>{{.Paragraph}}</p>
+    </body>
+</html>`)
+
+func readLine() string {
+    reader := bufio.NewReader(os.Stdin)
+    line, _, _ := reader.ReadLine()
+    return string(line)
+}
+
+func main() {
+    page := Page{}
+    fmt.Println("Enter title:")
+    page.Title = readLine()
+    fmt.Println("Enter paragraph:")
+    page.Paragraph = readLine()
+
+    f, _ := os.Create("out.html")
+    writer := bufio.NewWriter(f)
+    tmpl.Execute(writer, page)
+    writer.Flush()
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]poeir 1 point2 points3 points 3 years ago* (0 children)
+
+Python solution. Doesn't exactly match the initial requirements, but matches /u
+/Elite6809's input prompts, supporting title and multiple paragraphs. Had to do
+a weird hack thanks to my choice of dominate for HTML generation, but it beat
+doing it with strings all the way through. I didn't bother with the CSS because
+I couldn't imagine what would look any nicer than what you get for free.
+
+edit: /u/BryghtShadow made use of the tempfile module, and that is the right
+solution to needing a temporary file (versus just creating one and letting it
+lie around), so now I'm doing that, too.
+
+#! /usr/bin/python
+
+import dominate # 'pip install dominate' must be run once before this
+from dominate.tags import *
+import re # Only needed because dominate doesn't let us set tab indentation
+import tempfile
+import webbrowser
+
+def generate_html(title, paragraphs):
+    page = dominate.document(title=title)
+    with page:
+        for paragraph in paragraphs:
+            p(paragraph)
+    return str(page)
+
+def read_paragraphs():
+    to_return = {'title': '', 'paragraphs': []}
+    to_return['title'] = raw_input("Enter a title:\n")
+    print "Enter your paragraph.  Enter a blank line to finish."
+    for line in iter(raw_input, ''):
+        to_return['paragraphs'].append(line)
+    return to_return
+
+if __name__ == '__main__':
+    user_input = read_paragraphs()
+    html_output = generate_html(user_input['title'], user_input['paragraphs'])
+    with tempfile.NamedTemporaryFile(mode='w+t', suffix='.html', delete=False) as out:
+        # HACK: This is silly, but dominate doesn't provide a way to change the
+        # number of spaces used for a tab, but since it gives us exactly half
+        # as many as we want, we can double-up on spaces at start of line and
+        # get what we want
+        out.write(re.sub(r'^(\s*)', r'\1\1', html_output, flags=re.MULTILINE))
+    webbrowser.open(out.name)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]kakaroto_BR 1 point2 points3 points 3 years ago (0 children)
+
+Java
+
+    package exercises;
+
+    import java.awt.Desktop;
+    import java.io.File;
+    import java.io.IOException;
+    import java.util.Formatter;
+
+    public class HTMLMarkupGenerator {
+
+        private static final String FILE_NAME = "html.html";
+        public static final String TEMPLATE = "<!DOCTYPE html><html><head><title>%s</title></head><body>"
+                + "<p>%s</p></body></html>";
+
+        public static void main(String[] args) {
+            String title = System.console().readLine("Enter title:");
+            String paragraph = System.console().readLine("Enter paragraph:");
+            Formatter formatter;
+            try {
+                formatter = new Formatter(FILE_NAME);
+                formatter.format(TEMPLATE, title, paragraph);
+                formatter.close();
+                Desktop.getDesktop().open(new File(FILE_NAME));
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]entoros 1 point2 points3 points 3 years ago (2 children)
+
+Python is succinct!
+
+import webbrowser, os
+with open('test.html', 'w') as html:
+    html.write("<!DOCTYPE html><html><head><title></title></head><body><p>%s</p></</html>" % raw_input("Enter your paragraph: "))
+    webbrowser.open('file://%s' % os.path.abspath('test.html'))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]poeir 2 points3 points4 points 3 years ago (0 children)
+
+Python's succinctness is nice, but its true advantage lies in its clarity. Perl
+is ludicrously succinct, but reading terse Perl takes 10 times as long as
+writing it; no good for long-term maintainability of programs. You can write
+clear Perl, but you almost have to write clear Python.
+
+Also, as feedback, this is a good place to apply the tempfile module. It will
+add one line to your program.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ubercode5 1 point2 points3 points 3 years ago (0 children)
+
+You might want to move the call to the web browser outside of the with open.
+I'm not sure if python allows lazy file writes, so it would be safer to close
+it.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]1nvader 1 point2 points3 points 3 years ago* (0 children)
+
+Python 3
+
+However, opening the browser doesn't seem to work in OS X.
+
+#!/usr/bin/env python3
+import os
+import webbrowser
+
+p = input('Enter your paragraph:')
+with open(os.path.join(os.getcwd(), 'output.html'), 'w') as f:
+    f.write('''<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <p>{0}</p>
+    </body>
+</html>'''.format(p))
+webbrowser.open_new_tab(os.path.join('file://', os.getcwd(), 'output.html'))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nocfenix 1 point2 points3 points 3 years ago (0 children)
+
+Here is my Java solution:
+
+package dailyprog167;
+import java.util.Scanner;
+import java.io.*;
+
+public class DailyProg167 {
+
+    public static void main(String[] args) {
+        //a string to store the first half of the HTML code
+        String TopHalf = "<!DOCTYPE html>\n<html>\n<head>\n<title></title>\n</head>\n\n<body>\n<p>" ;
+        //a string to store the second half of the HTML code
+        String Bottom = "</p>\n</body>\n</html>" ;
+        //an empty string that will later accept the user's input
+        String Paragraph = "";
+
+        //setup a way to get user input
+        Scanner input = new Scanner(System.in);
+
+        //get a name for the file
+        System.out.println("Please name your file: ");
+        System.out.println("(.html is automatically appended)");
+        String fileName = input.nextLine();
+
+        //get the paragraph
+        System.out.print("Please enter your paragraph: ");
+        Paragraph = input.nextLine();
+
+        //create and write to the file
+        try (Writer writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileName + ".html")))) {
+            writer.write(TopHalf + Paragraph + Bottom);
+        } catch (IOException ex){
+            System.err.println("Problem writing to the file " + fileName + ".html");
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Hath995 1 point2 points3 points 3 years ago (0 children)
+
+Super simple node.js implementation.
+
+var readline = require('readline');
+var fs = require('fs');
+
+var htmlbase =
+"<!DOCTYPE html>\
+<html>\
+    <head>\
+        <title></title>\
+    </head>\
+    <body>\
+        <p>";
+var htmlend =
+"</p>\
+    </body>\
+</html>";
+
+
+var rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.question("Enter your paragraph:", function(answer) {
+  var html = htmlbase+answer+htmlend;
+  fs.writeFileSync("output.html",html);
+  rl.close();
+});
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]robertmeta 1 point2 points3 points 3 years ago* (0 children)
+
+This is my (pointlessly overcomplicated) solution in vanilla Go (Golang). I got
+carried away. Technically, it is a failure because I don't write out a file.
+Instead I start a webserver and serve the template combined with data directly.
+I continuously (and currently) loop on input and open the browser, so you can
+change the title, paragraph and color forever.
+
+No attempt was made at "code golf" -- I included error handling, whitespace,
+easy to read template, support for the "big 3' platforms and comments.
+
+As for "good looking" css, far from it, but it inserts a colored background!
+
+MustXXX is a go idiom signaling the caller that this function call will panic
+on failure, crashing the program.
+
+To Run: Install Go: http://golang.org/doc/install && cut and paste code to
+foo.go && go run foo.go
+
+package main
+
+import (
+    "errors"
+    "fmt"
+    "log"
+    "net/http"
+    "os/exec"
+    "runtime"
+    "text/template"
+)
+
+type templateData struct {
+    Title     string
+    Paragraph string
+    Color     string
+}
+
+var templateHtml = `<!DOCTYPE html>
+        <html>
+            <head>
+                <style>
+                    p {
+                        background-color: {{.Color}}
+                    }
+                </style>
+                <title>{{.Title}}</title>
+            </head>
+            <body>
+                <p>
+                    {{.Paragraph}}
+                </p>
+            </body>
+        </html>`
+
+func main() {
+    address := "localhost:8080"
+    var d templateData
+    t := template.Must(template.New("167").Parse(templateHtml))
+
+    // this uses a closure over t & d, allows them to be dangerously rewritten
+    // under it, but that is OK for this example
+    http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+        err := t.Execute(w, d)
+        mustNotError(err, "Unable to execute template")
+    })
+    go http.ListenAndServe(address, nil) // runs it own goroutine
+    fmt.Println("Listening on http://" + address + "")
+
+    for {
+        fmt.Println("-=- listening on http://" + address + ", hit ctrl-c to exit -=-")
+        d = mustGetTemplateData()
+        mustOpenBrowser("http://" + address)
+    }
+}
+
+func mustGetTemplateData() templateData {
+    d := templateData{}
+
+    fmt.Printf("Enter a title: ")
+    _, err := fmt.Scan(&d.Title)
+    mustNotError(err, "Bad Title Input")
+
+    fmt.Printf("Enter a paragraph: ")
+    _, err = fmt.Scan(&d.Paragraph)
+    mustNotError(err, "Bad Paragraph Input")
+
+    fmt.Printf("Enter an html color: ")
+    _, err = fmt.Scan(&d.Color)
+    mustNotError(err, "Bad Color Input")
+
+    return d
+}
+
+func mustOpenBrowser(url string) {
+    var err error
+    switch runtime.GOOS {
+    case "linux":
+        err = exec.Command("xdg-open", url).Start()
+    case "darwin":
+        err = exec.Command("open", url).Start()
+    case "windows":
+        err = exec.Command("cmd", "/C", "start", "", url).Start()
+    default:
+        err = errors.New("Unsupported platform (" + runtime.GOOS + ")")
+    }
+    mustNotError(err, "Unable to start browser")
+}
+
+func mustNotError(err error, msg string) {
+    if err != nil {
+        log.Fatal(msg, err)
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]zajicraft 1 point2 points3 points 3 years ago (0 children)
+
+With node (opens with the default browser in OSX):
+
+var readline = require('readline');
+var fs = require('fs');
+var exec = require('child_process').exec, child;
+var interfaceConfig = {input: process.stdin, output: process.stdout};
+var rl = readline.createInterface(interfaceConfig);
+
+function makeParagraph (input) {
+  var head = '<!DOCTYPE html>\r\n<html>\r\n\t<head>\r\n\t\t<title></title>\r\n\t</head>\r\n\r\n\t<body>\r\n\t\t<p>';
+  var tail = '</p>\r\n\t</body>\r\n</html>';
+  return head + input + tail;
+}
+
+function writeFileHandler (err, fileName) {
+  if (err) console.log('Couldn\'t write file.');
+  console.log('Paragraph generated. Opening in default browser...');
+  openInBrowser(fileName);
+}
+
+function openInBrowser (file) {
+  child = exec('open ' + file);
+}
+
+function record (ans) {
+  var html = makeParagraph(ans);
+  var fileName = 'index.html';
+  fs.writeFile(fileName, html, function (err) { writeFileHandler(err, fileName) });
+  rl.close();
+}
+
+rl.question('Enter your paragraph: ', record);
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]zanklord 1 point2 points3 points 3 years ago (0 children)
+
+My solution in python 2.7.6:
+
+import webbrowser, os
+
+myFile = open('index.html', 'w')
+
+code = """
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <p> %s </p>
+    </body>
+</html>
+""" % raw_input("Enter your paragraph: ")
+
+myFile.write(code)
+myFile.close()
+
+webbrowser.open(os.path.abspath('index.html'))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dancole42 1 point2 points3 points 3 years ago (0 children)
+
+Python 2.7
+
+I've only been programming for a few weeks, Python is my first language, and
+I'm self-taught, so feedback is extremely appreciated!
+
+I've tried to make this flexible and "data driven" - all indents and rows are
+converted to integers so code blocks can (in theory) be tracked, and the HTML
+is edited and constructed line-by-line. I used the challenge's boilerplate HTML
+as-is and used the script to edit it.
+
+import webbrowser
+
+def setTabSpace(spaces):
+    """Sets the spacing for line indents."""
+    tab = " " * spaces
+    return tab
+
+def linePrint(line_num, indent_block, text):
+    """Returns a single line of code for output."""
+    if line_numbers == True:
+        intro = '<!--' + str(line_num) + '-->'
+    else:
+        intro = ''
+    return intro + indent_block * tab + text + '\n'
+
+def convertSpacetoIndent(line_text, line_indent_block=0):
+    """Turns any indents equal to tab into integers to track indentation
+    level."""
+    tabchars = tab
+    if tabchars in line_text:
+        line_text = line_text.rstrip(tabchars)
+        return line_text, line_indent_block + 1
+    else:
+        return line_text, line_indent_block
+
+def lineGen(raw, line_num=1, indent_block=0):
+    """Turns text into a series of lists (i.e. a page) that indicate row number
+    and indentation level."""
+    page = []
+    line_text = ''
+    line_indent_block = indent_block
+    for char in raw:
+        line_text += char
+        line_text, line_indent_block = convertSpacetoIndent(line_text, \
+            line_indent_block)
+        if '\n' in line_text:
+            line_text = line_text.rstrip('\n')
+            page.append([line_num, line_indent_block, line_text])
+            line_indent_block = indent_block
+            line_text = ''
+            line_num += 1
+    return page
+
+def insertLine(page, newline, line_num='default', indent_block=0):
+    """Add a line to a page. Defaults to end of page."""
+    if line_num == 'default':
+        line_num = len(page) + 1
+    newline = lineGen(newline + '\n', line_num, indent_block)[0]
+    page.insert(line_num - 1, newline)
+    return refreshLineNumbers(page)
+
+def removeLine(page, line_num='default'):
+    """Remove a line from a page. Defaults to end of page."""
+    if line_num == 'default':
+        line_num = len(page)
+    del page[line_num - 1]
+    return refreshLineNumbers(page)
+
+def replaceLine(page, newline, line_num='default', indent_block=0):
+    """Replaces a line with a new line. Defaults to end of page."""
+    page = removeLine(page, line_num)
+    page = insertLine(page, newline, line_num, indent_block)
+    return page
+
+def refreshLineNumbers(page):
+    """Updates line numbers after insertions/removals."""
+    new_line_number = 1
+    for line in page:
+        line[0] = new_line_number
+        new_line_number += 1
+    return page
+
+def titleLine():
+    """Prompts user for and returns a title line."""
+    title = raw_input("Enter your page title: ")
+    title = "<title>" + title + "</title>"
+    return title
+
+def pLine():
+    """Prompts user for and returns a paragraph line."""
+    title = raw_input("Enter your paragraph: ")
+    title = "<p>" + title + "</p>"
+    return title
+
+def textPrint(text):
+    """Prints out a page."""
+    pageout = ''
+    for line in text:
+        pageout += linePrint(line[0], line[1], line[2])
+    return pageout
+
+def htmlOut(page, url):
+    """Writes a page to a given file."""
+    f = open(url, 'w')
+    f.write(textPrint(page))
+    f.close()
+
+line_numbers = True # For debugging. Adds commented line numbers to output.
+tab = setTabSpace(4) # Set desired indentation size.
+
+reddit_text = """<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <p>This is my paragraph entry</p>
+    </body>
+</html>
+"""
+page = lineGen(reddit_text) # Parse the input text.
+page = replaceLine(page, titleLine(), 4, 2) # Replace boilerplate title.
+page = replaceLine(page, pLine(), 8, 2) # Replace template paragraph.
+url = 'index.html' # Name of output file.
+htmlOut(page, url) # Write page to HTML.
+
+webbrowser.open_new(url) # Opens URL in browser.
+
+Output - with Debugging On
+
+<!--1--><!DOCTYPE html>
+<!--2--><html>
+<!--3-->    <head>
+<!--4-->        <title>This is my title entry.</title>
+<!--5-->    </head>
+<!--6-->
+<!--7-->    <body>
+<!--8-->        <p>This is my paragraph entry.</p>
+<!--9-->    </body>
+<!--10--></html>
+
+Output - with Debugging Off
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my title entry.</title>
+    </head>
+
+    <body>
+        <p>This is my paragraph entry.</p>
+    </body>
+</html>
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]BryghtShadow 1 point2 points3 points 3 years ago (0 children)
+
+SWI-Prolog 6.6.6 [32bit] sans-bonus: Simply load the module and run the main
+procedure. Input text must be one line, wrapped in ['] and terminated by a
+period [.].
+
+Code:
+
+/*
+   This module is a Prolog implementation for http://redd.it/289png
+   "[6/16/2014] Challenge #167 [Easy] HTML markup generator"
+
+   @author /u/BryghtShadow
+   //TODO: the output file could be replaced with temporary files, but I cannot get it working.
+*/
+
+:- use_module(library(http/html_write)).
+
+write_reddit(FILENAME, STREAMOUT, P) :-
+   setup_call_cleanup(
+      open(FILENAME, write, STREAMOUT),
+      (
+         phrase(my_nonterm(P), TokenizedHtml, []),
+         print_html(STREAMOUT, TokenizedHtml)
+      ),
+      close(STREAMOUT)
+   ).
+
+my_nonterm(P) -->
+   html([ \['<!DOCTYPE html>'],
+          html([ head([title('')]),
+                 body([p(P)])
+               ])
+        ]).
+
+prompt_reddit(Message, A) :-
+   write(Message),
+   read(A).
+   % read_line_to_codes(user_input, Cs), atom_codes(A, Cs), atomic_list_concat(L, ' ', A).
+
+main :-
+   FILENAME = 'reddit_289png.html',
+   prompt_reddit('Enter your paragraph:\n', P),
+   write_reddit(FILENAME, _STREAMOUT, P),
+   www_open_url(FILENAME).
+
+Input:
+
+    ?- main.
+    Enter your paragraph:
+    |: 'This is my paragraph'.
+
+Output:
+
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+
+</head>
+<body>
+
+<p>
+This is my paragraph</p>
+</body>
+</html>
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]KiwiGeek 0 points1 point2 points 3 years ago (0 children)
+
+VB.net
+
+Should encode any HTML characters, attempts to wordwrap the results (credits
+for this function in the comments), and launches in the browser when finished:
+
+Module Module1
+
+' WordWrap from DeadDude @ http://vbcity.com/forums/t/113288.aspx
+
+Sub Main()
+    Console.WriteLine("Enter your paragraph:")
+    Dim strForPage As String = Console.ReadLine()
+    Dim encodeStr As String = System.Net.WebUtility.HtmlEncode(strForPage)
+    Dim pageContent = "<!DOCTYPE html>" & vbCrLf & _
+                        "<html>" & vbCrLf & _
+                        vbTab + "<head>" & vbCrLf & _
+                        vbTab & vbTab & "<title></title>" & vbCrLf & _
+                        vbTab + "</head>" & vbCrLf & _
+                        vbCrLf & _
+                        vbTab & "<body>" & vbCrLf & _
+                        vbTab & vbTab & "<p>" & WordWrap(encodeStr, 60) & "</p>" & vbCrLf & _
+                        vbTab & "</body>" & vbCrLf & _
+                        "</html>"
+
+    Using OutFile As New System.IO.StreamWriter("sample.html")
+        OutFile.Write(pageContent)
+    End Using
+
+    Process.Start("sample.html")
+
+End Sub
+
+Private Function WordWrap(ByVal strText As String, ByVal iWidth As Integer) As String
+
+    If strText.Length <= iWidth Then Return strText
+
+    Dim sResult As String = strText
+    Dim sChar As String
+    Dim iEn As Long
+    Dim iLineNO As Long = iWidth
+    Do While sResult.Length >= iLineNO
+        For iEn = iLineNO To 1 Step -1         ' work backwards from the max len to 1 looking for a space
+            sChar = sResult.Chars(iEn)
+            If sChar = " " Then             ' found a space
+                sResult = sResult.Remove(iEn, 1)     ' Remove the space
+                sResult = sResult.Insert(iEn, vbCrLf & vbTab & vbTab)     ' insert a line feed here,
+                iLineNO += iWidth             ' increment
+                Exit For
+            End If
+        Next
+    Loop
+    Return sResult
+End Function
+
+End Module
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+Python 2.7 Long one-liner for the file writing. Console app takes a title and a
+paragraph. Basic CSS written into the file creation -- I will work on a
+separate CSS file generation when I get home later.
+
+import os
+
+output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)))
+
+with open(output_dir + '\output.html', 'w') as out:
+    t = raw_input("Enter a page title: ")
+    p = raw_input("Enter a paragraph: ")
+    out.write('<html>\n\t<head>\n\t\t<title>%s</title>\n\t\t<style type="text/css">\n\t\tp {text-align: center;\n\t\t border-style: dotted solid;\n\t\t border-width: 2px;\n\t\t border-color:  #000099; }\n\t\t</style>\n\t</head>\n\t<body>\n\t\t<p>%s</p>\n\t</body>\n</html>' % (t,p))
+
+Output:
+
+<html>
+    <head>
+        <title>Test Output</title>
+        <style type="text/css">
+        p {text-align: center;
+         border-style: dotted solid;
+         border-width: 2px;
+         border-color:  #000099; }
+        </style>
+    </head>
+    <body>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id pellentesque augue, eleifend ullamcorper dui. Duis ut risus accumsan, lobortis turpis non, scelerisque enim. Nam nec tortor nisl. Praesent hendrerit enim ut consectetur mattis. In non tellus mauris. Fusce quam quam, condimentum vel odio eget, tincidunt molestie dolor. Integer sed ornare orci. </p>
+    </body>
+</html>
+
+  • permalink
+  • embed
+  • save
+
+[–]_M1nistry 0 points1 point2 points 3 years ago (0 children)
+
+C#
+
+using System;
+using System.Diagnostics;
+using System.IO;
+
+namespace HTMLMarkup
+{
+    class Program
+    {
+        static void Main()
+        {
+            Console.Out.Write("Enter your paragraph: ");
+            if (WriteDocument(Console.In.ReadLine()))
+                Process.Start(Directory.GetCurrentDirectory() + @"\Markup.HTML");
+        }
+
+        static bool WriteDocument(string paragraph)
+        {
+            var markup = "<!DOCTYPE html> \n <html> \n \t <head> \n \t \t <title></title> \n \t </head>" +
+                         "\n \n \t <body> \n \t \t <p>" + paragraph + "</p> \n \t </body> \n </html>";
+            File.WriteAllText(Directory.GetCurrentDirectory() + @"\Markup.HTML", markup);
+            return true;
+        }
+    }
+}
+
+Originally used Environment.Newline instead of \n, which made it a little
+easier to decipher the structure, but for size/compact, decided to just use \n.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]sneaky_reader 0 points1 point2 points 3 years ago (0 children)
+
+#!/usr/bin/env python
+
+import sys, os, webbrowser
+
+def paragraphify(s):
+    html = """<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <p>%s</p>
+    </body>
+</html>""" % s
+    cwd = os.getcwd()
+    filename = "paragraph.html"
+    filepath = "%s%s" % (cwd, filename)
+    f = open(filepath, "w")
+    f.write(html)
+    f.close()
+    webbrowser.open(filepath, new=2)#2 means new tab
+
+if __name__ == '__main__':
+    if sys.argv:
+        try:
+            paragraph = sys.argv[1]
+            paragraphify(paragraph)
+        except IndexError:
+            print "paragraph2html.py <paragraph>"
+            sys.exit(1)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]BryghtShadow 0 points1 point2 points 3 years ago* (0 children)
+
+Python 3.4 and 2.7
+Edit: wrapped in def generate_html_from_input, while keeping ability to run as
+a main module.
+
+import os, sys
+import tempfile
+import webbrowser
+import cgi
+
+def generate_html_from_input():
+    if sys.version[0] == '3':
+        raw_input = input
+    paragraph = raw_input('Enter your paragraph:\n')
+    # requirements did not specify input escapes...
+    # just in case, we escape '&', '<', '>'
+    paragraph = cgi.escape(paragraph)
+
+    # requirements did not specify the filename...
+    # use a temporary file
+    with tempfile.NamedTemporaryFile(mode='w+t', suffix='.css', delete=False) as temp_css:
+        temp_css.write(r"""
+    @media screen {
+        body {
+            background-color: #222;
+            color: #777;
+        }
+        body, p {
+            font-family: sans-serif;
+            font-size: 1em;
+        }
+    }
+    """)
+        temp_css.flush()
+
+    with tempfile.NamedTemporaryFile(mode='w+t', suffix='.html', delete=False) as temp_html:
+        href = temp_css.name
+        if os.path.isfile(href):
+            href = 'file:///' + href  # local files
+        stylesheet = '<link href="{href}" rel="stylesheet" type="text/css">'.format(href=href)
+        html_output = """<!DOCTYPE html>
+    <html>
+        <head>
+            {stylesheet}
+            <title></title>
+        </head>
+
+        <body>
+            <p>{paragraph}</p>
+        </body>
+    </html>""".format(stylesheet=stylesheet, paragraph=paragraph)
+        temp_html.write(html_output)
+        temp_html.flush()
+    webbrowser.open(temp_html.name)
+
+if __name__ == '__main__':
+    generate_html_from_input()
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Daige 0 points1 point2 points 3 years ago (1 child)
+
+Python 2.7. Just the basic, no css or anything extra
+
+        def generateHTML(p):
+                htmlFile = open("output.html","w")
+                htmlFile.write("<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<title></title>\n\t</head>\n\n\t<body>\n\t\t<p>"+p+"</p>\n\t</body>\n</html>")
+        generateHTML(raw_input("Enter your paragraph:\n"))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]popcorncolonel 1 point2 points3 points 3 years ago (0 children)
+
+One-liner based on yours:
+
+ open("output.html","w").write("<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<title></title>\n\t</head>\n\n\t<body>\n\t\t<p>"+raw_input('Enter your paragraph:\n')+"</p>\n\t</body>\n</html>")
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]goktugerce 0 points1 point2 points 3 years ago (0 children)
+
+Perl.
+
+my $title, $paragraph, $body;
+$path = "C:/Users/Goktug/Desktop";
+
+print "Enter a title: ";
+chomp($title = <>);
+print "Enter your paragraph:";
+chomp($paragraph = <>);
+
+$body = "<!DOCTYPE html>\n<html>\n<head>\n<title>$title</title>\n</head>\n<body>\n<p>"
+. $paragraph .
+"</p>\n</body>\n</html>";
+
+open (OUTFILE, '>', "$path/output.html") or die $!;
+print OUTFILE "$body";
+close (OUTFILE);
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]fvandepitte0 0 0 points1 point2 points 3 years ago* (1 child)
+
+C++, I've just started to learn C++ so all feedback is welcome.
+
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <windows.h>
+#include <Shellapi.h>
+
+using namespace std;
+
+int main()
+{
+    cout << "Enter your paragraph:" << endl;
+    string paragraph;
+    //cin >> paragraph;
+    // Didn't work properly ^^
+    getline(cin, paragraph);
+
+    ofstream myfile;
+    myfile.open("167-easy.html");
+
+    myfile << "<!DOCTYPE html>" << endl;
+    myfile << "<html>" << endl;
+    myfile << "    <head>" << endl;
+    myfile << "        <title></title>" << endl;
+    myfile << "    </head>" << endl;
+    myfile << "    <body>" << endl;
+    myfile << "        <p>" << paragraph << "</p>" << endl;
+    myfile << "    </body>" << endl;
+    myfile << "</html>" << endl;
+    myfile.close();
+
+    ShellExecute(NULL, "open", "167-easy.html", NULL, NULL, SW_SHOWMAXIMIZED);
+
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]mvolling 0 points1 point2 points 3 years ago (0 children)
+
+This was from a while ago and you probably know by now, but the reason
+
+cin >> paragraph;
+
+didn't work is because >> stops pulling characters in at the first whitespace
+character after the first non-whitespace character. The getline function you
+ended up using stops pulling when it sees '\n'.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]dongas420 0 points1 point2 points 3 years ago* (0 children)
+
+Perl. Gotta escape those HTML entities:
+
+open STDOUT, ">.\\chaloutput.html";
+
+chomp($input = join('', <STDIN>));
+
+%entities = qw/
+! &#33; " &#34; $ &#36; % &#37; ' &#39; ( &#40; ) &#41; * &#42;
++ &#43; , &#44; - &#45; . &#46; \/ &#47; : &#58; < &lt; = &#61; > &gt;
+? &#63; @ &#64; [ &#91; \ &#92; ] &#93; ^ &#94; _ &#95; ` &#96; { &#123;
+| &#124; } &#125; ~ &#126;/;
+
+$input =~ s/(;|&|#)/$1 eq ';' ? '&#59;' : $1 eq '#' ? '&#35' : '&#38;'/ge;
+($input =~ s/\Q$_\E/$entities{$_}/g) for keys %entities;
+$input =~ s#\r?\n#<br />#g;
+
+print STDOUT
+'<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>';
+print
+"<p>$input</p>";
+print '</body>
+</html>';
+
+close STDOUT;
+exec ".\\chaloutput.html";
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Reverse_Skydiver1 0 0 points1 point2 points 3 years ago (0 children)
+
+Done in Java:
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+public class C0167_easy {
+
+    private static Scanner in = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        String title = getTitle();
+        String[] paragraphs = getParagraphs();
+        print(title, paragraphs);
+    }
+
+
+    private static void print(String title, String[] paragraphs){
+        System.out.print("<!DOCTYPE html>\n    <html> \n        <head> \n            <title>" + title + "</title> \n        </head> \n \n");
+        System.out.print("        <body> \n");
+        for(int i = 0; i < paragraphs.length; i++){
+            if(paragraphs[i].equals("<br>")){
+                System.out.println("            <br>");
+            } else{
+                System.out.println("            <p>" + paragraphs[i] + "</p>");
+            }
+        }
+        System.out.print("        </body> \n    </html>");
+    }
+
+    private static String getTitle(){
+        System.out.println("Enter text for the <title> tag: ");
+        return in.next();
+    }
+
+    private static String[] getParagraphs(){
+        System.out.println("Enter text for first paragraph. Text here goes in a <p> tag. ");
+        System.out.println("To insert a line break type ! and hit enter");
+        System.out.println("To finish entering paragraphs type < and hit enter");
+
+        ArrayList<String> paragraphs = new ArrayList<String>();
+        boolean finished = false;
+        String temp;
+        while(!finished){
+            temp = in.next();
+            if(temp.equals("<")){
+                finished = true;
+            } else if(temp.equals("!")){
+                paragraphs.add("<br>");
+            } else{
+                paragraphs.add(temp);
+            }
+        }
+        return paragraphs.toArray(new String[paragraphs.size()]);
+    }
+
+}
+
+Working:
+
+https://i.imgflip.com/9m3tl.gif
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago* (0 children)
+
+Done in Pascal. Not good pascal as it's outdated (it'll compile in TP), but I
+don't see pascal on here so I thought I'd post some.
+
+Program HTMLGenerator;
+
+Uses CRT, DOS;
+
+Var
+    UserInput    : string;
+    FileContents : text;
+
+Begin
+ClrScr;
+WriteLn('Enter your paragraph: ');
+ReadLn(UserInput);
+AssignFile(FileContents,'index.html');
+Rewrite(FileContents);
+WriteLn(FileContents, '<!DOCTYPE html>'#13#10'<html>'#13#10'    <head>'#13#10,
+    '        <title></title>'#13#10'    </head>'#13#10#13#10'    ',
+    '<body>'#13#10'        <p>', UserInput, '</p>'#13#10'    ',
+    '</body>'#13#10'</html>');
+Close(FileContents);
+
+SwapVectors;
+Exec('C:\Program Files (x86)\Mozilla Firefox\firefox.exe', 'index.html');
+SwapVectors;
+If DosError <> 0 Then
+    Begin
+    ClrScr;
+    WriteLn('Error #', DosError,', could not exec.');
+    End
+Else
+    WriteLn('Opened in browser');
+End.
+
+  • permalink
+  • embed
+  • save
+
+[–]TASER_NINJA 0 points1 point2 points 3 years ago (0 children)
+
+In C#
+
+using System;
+
+public class main {
+    static void Main() {
+        string input;
+        string code;
+
+        Console.Write("Enter your paragraph: ");
+
+        input = Console.ReadLine();
+
+        code = "<!DOCTYPE html>\n<html>\n<head>\n<title></title>\n</head>\n<body>\n</p>" + input + "\n</body>\n</html>";
+
+        System.IO.File.WriteAllText(@"index.html",code);
+
+        System.Diagnostics.Process.Start("index.html");
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Swimbo 0 points1 point2 points 3 years ago (0 children)
+
+First time posing here; I'm new to coding.
+
+Here's my Ruby version. I may have failed the good-look qualification for the
+style sheet.
+
+def htmlGenerator
+    puts "Welcome to the HTML Generator!"
+  promptUserInput
+    puts "<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+        body {
+    background-color: black;
+        }
+        p {
+    color: green;
+    font-family: mono;
+    font-size: 24px;
+        }
+        </style>
+    </head>
+
+    <body>
+        #{$userInput}
+    </body>
+</html>"
+end
+
+def promptUserInput
+    @paraNumber = 1
+    @userAddPara = "1"
+    $userInput = "<!--Generated with HTML Generator-->"
+    while @userAddPara == "1" do
+    puts "Please enter paragraph number #{@paraNumber}."
+    $userInput = $userInput + "\n \t" + "<p>" + gets.chomp + "</p>"
+    puts "Do you want to write another paragraph?"
+    puts "1. Yes"
+    puts "2. No"
+    @userAddPara = gets.chomp
+        @paraNumber += 1
+    end
+end
+
+htmlGenerator
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Odwolfe 0 points1 point2 points 3 years ago (2 children)
+
+Solution in Java, any feedback would be much appreciated:
+
+import java.awt.Desktop;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class HTMLFileGenerator
+{
+    public static void main(String[] args) throws IOException
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your paragraph: \n");
+        String theParagraph = sc.nextLine();
+        String result = String.format("<!DOCTYPE html> \n <html> \n \t "
+            + "<head> \n \t \t <title></title> \n \t \t <style> \n \t "
+            + "\t p { \n \t \t \t border-style: solid; \n \t \t \t "
+            + "background-color: #00FF00 \n \t \t } \n \t \t </style> "
+            + "\n \t </head> \n \t <body> \n \t \t <p> %s </p> \n \t "
+            + "</body> \n </html>", theParagraph);
+        File myFile = new File("Generated_HTML.html");
+        try
+        {
+            FileWriter fw = new FileWriter(myFile);
+            fw.write(result);
+            fw.close();
+            Desktop.getDesktop().browse(myFile.toURI());
+        }
+        catch(IOException e)
+        {
+            System.out.println(e.getMessage());
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ubercode5 0 points1 point2 points 3 years ago (1 child)
+
+Your solution works fine for the given problem. Just one thought about future
+extensibility. If you were to split the format into three sections, one for
+title, one for body, and a top level HTML one that merged those, it would make
+the code easier to extend if requirements change.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Odwolfe 0 points1 point2 points 3 years ago (0 children)
+
+Thank you, I see what you mean.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Metallicgeek 0 points1 point2 points 3 years ago (1 child)
+
+Very simple solution using Python 3.4.0
+
+import os
+para = input("Enter your paragrapgh: ")
+f = open("FILENAME.html", 'w')
+f.write("<!DOCTYPE html>\n<html>\n    <head>\n        <title></title>\n    </head>\n\n    <body>\n        <p>" + para + "</p>\n    </body>\n<html>")
+os.system('google-chrome file:///PATH_TO_FILE')
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]BryghtShadow 1 point2 points3 points 3 years ago (0 children)
+
+A few tips:
+
+  • Close the file before using. Alternatively, use with open('FILENAME.html',
+    'w') as f:.
+  • When opening files in browser, perhaps it is better to use webbrowser
+    rather than os.system. webbrowser.open('FILENAME.html') should work.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]squ_are 0 points1 point2 points 3 years ago (0 children)
+
+Straight forward solution in Befunge-93.
+
+">p<"9:91+">ydob<"991+:">daeh/<"919+">eltit/<>eltit<"  v
+9:19+">daeh<"919+">lmth<"19+">lmth EPYTCOD!<">:#,_    v>
+$>~:1+#v_">lmth/<"91+">ydob/<"991+">p/<">:#,_@        >
+ ^    ,<
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dMenche 0 points1 point2 points 3 years ago* (0 children)
+
+C:
+
+#include <stdio.h>
+#include <stdlib.h>
+
+char* get_line(FILE* stream, int* count) ;
+
+int main()
+{
+    FILE* output = NULL ;
+    int length = 0 ;
+    char* paragraph = NULL ;
+
+    if(! (output = fopen("index.html", "w")))
+    {
+        puts("Error opening file.") ;
+        exit(EXIT_FAILURE) ;
+    }
+
+    puts("Enter your paragraph:") ;
+    if(! (paragraph = get_line(stdin, &length)))
+    {
+        puts("Error allocating memory.") ;
+        exit(EXIT_FAILURE) ;
+    }
+
+    fprintf(output,
+        "<!DOCTYPE html>\n"
+        "<html>\n\t<head>\n"
+        "\t\t<title></title>\n"
+        "\t</head>\n"
+        "\t<body>\n"
+        "\t\t<p>%s<p>\n"
+        "\t</body>\n</html>\n",
+        paragraph) ;
+
+    free(paragraph) ;
+    fclose(output) ;
+}
+
+char* get_line(FILE* stream, int* count)
+{
+    char* line = (char*)malloc(sizeof(char)*128);
+    int additional_allocs = 0 ;
+    int input ;
+    *count = 0 ;
+
+    if(line == NULL)
+    {
+        return NULL ;
+    }
+
+    do
+    {
+        input = fgetc(stream) ;
+
+        if(*count < (128 + additional_allocs*16))
+        {
+            line[*count] = (input != '\n' && input != EOF) ? input : '\0' ;
+            (*count)++ ;
+        }
+        else
+        {
+            additional_allocs++ ;
+            line = (char*)realloc(line, 128+additional_allocs*16) ;
+            if(line == NULL)
+            {
+                return NULL ;
+            }
+
+            line[*count] = (input != '\n' && input != EOF) ? input : '\0' ;
+            (*count)++ ;
+        }
+    }
+    while(input != '\n' && input != EOF) ;
+
+    (*count)-- ;
+
+    line = (char*)realloc(line, *count) ;
+
+    return line ;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nocfenix 0 points1 point2 points 3 years ago (0 children)
+
+Because I'm trying to expand into Lua, here is my solution in that as well. Any
+feed back is welcome as I'm still learning! Thanks!
+
+top = "<DOCTYPE! html>\n<html>\n<head>\n<title></title>\n</head>\n<body>\n<p>"
+bottom = "</p>\n</body>\n</html>"
+
+print("Please choose a file name: ")
+print(".html is automatically appended.")
+fileName = io.read()
+
+print("Please enter your content: ")
+body = io.read()
+
+file = io.open (fileName .. ".html", "w")
+file:write(top .. body .. bottom)
+file:close()
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]staminaplusone 0 points1 point2 points 3 years ago* (0 children)
+
+In C++ - with added style.
+
+#include <windows.h>
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main()
+{
+char cTitle[1000];
+char cBuffer[1000];
+char cFileName[1000];
+char cParagraph[1000];
+char cCompleteParagraph[1000];
+
+cout << "Please enter a page title:" << endl;
+cin.getline(cBuffer, 1000);
+sprintf_s(cTitle,sizeof(cTitle),cBuffer);
+
+cout << "Please enter a Paragraph:" << endl;
+cin.getline(cBuffer, 1000);
+sprintf_s(cParagraph,sizeof(cParagraph),cBuffer);
+
+sprintf_s(cCompleteParagraph,sizeof(cCompleteParagraph),"<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<style type=\"text/css\">\n\t\t\t.mycss{text-shadow:2px 1px 2px rgba(28,1,1,1);font-weight:normal;color:#FF19BA;background-color:#B0FFE5;border: 2px solid #b5a759;letter-spacing:1pt;word-spacing:5pt;font-size:22px;text-align:justify;font-family:helvetica, sans-serif;line-height:1;}\n\t\t</style>\n\t\t<title>%s</title>\n\t</head>\n\n\t<body>\n\t\t<p class=\"mycss\">%s</p>\n\t</body>\n</html>\0",cTitle, cParagraph);
+strncpy_s(cFileName, "MyWebpage.html", sizeof(cFileName));
+
+std::ofstream ofile(cFileName);
+ofile << cCompleteParagraph << endl;
+ofile.close();
+
+HINSTANCE h = ShellExecute(0,0, cFileName, 0, 0, SW_SHOWNORMAL);
+
+return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]travnation 0 points1 point2 points 3 years ago (0 children)
+
+Haskell, basic version.
+
+Opens in OS X default browser.
+
+import System.Process (createProcess, shell)
+
+main = do
+    putStrLn "Enter a paragraph (^D when done):"
+    getContents >>= (\x -> writeFile "temp.html" $ generateHtml x)
+    createProcess (shell "open 'temp.html'")
+
+generateHtml :: String -> String
+generateHtml x = "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t" ++
+                 "<title></title>\n\t</head>\n\t<body>\n\t\t" ++
+                 "<p>\n\t\t\t"++x++"\n\t\t</p>\n\t</body>\n</html>"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]grammar_excellent_is 0 points1 point2 points 3 years ago (2 children)
+
+In Python 3.4, sans bonus:
+
+from os import system
+
+def gen_html_file(entry, title="Hello world!", open_output=False):
+    output = """<!DOCTYPE html>
+    <html>
+        <head>
+            <title>{title}</title>
+        </head>
+
+        <body>
+            <p>{entry}</p>
+        </body>
+    </html>
+    """.format(entry=entry, title=title)
+
+    with open("output.html", 'w') as file_generator:
+        file_generator.write(output)
+
+    if open_output == True:
+        system("""firefox 'output.html'""")
+
+gen_html_file('Hello world!!', title="New Hello World!", open_output=True)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]BryghtShadow 0 points1 point2 points 3 years ago (1 child)
+
+When opening files in browser, perhaps it is better to use webbrowser rather
+than os.system. webbrowser.open('output.html') should work.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]grammar_excellent_is 1 point2 points3 points 3 years ago (0 children)
+
+I had no idea that library even existed, thanks!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]jnazario2 0 0 points1 point2 points 3 years ago* (0 children)
+
+some basic F#
+
+printfn "Enter your paragraph: "
+let text = System.Console.ReadLine()
+let code = "<!DOCTYPE html>\n<html>\n<head>\n<title></title>\n</head>\n<body>\n</p>" + text + "\n</body>\n</html>"
+System.IO.File.WriteAllText("/tmp/index.html",code)
+System.Diagnostics.Process.Start("/tmp/index.html")
+;;
+
+tested on OSX with Mono. opens in my chrome browser.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]OberstK 0 points1 point2 points 3 years ago (0 children)
+
+My try on the challenge with Java. Improvements are highly appreciated!
+
+    import java.awt.Desktop;
+    import java.io.File;
+    import java.io.FileWriter;
+    import java.io.IOException;
+    import java.util.Scanner;
+
+    public class HTMLGenerator {
+
+        private String paragraph;
+        private File outputFile;
+
+        public HTMLGenerator(String paragraph){
+            this.paragraph = paragraph;
+            generateHTML();
+            openFile();
+        }
+
+        private void generateHTML(){
+            String htmlbody = "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<title>Autogenerated HTML File</title>\n\t</head>\n\t<body>\n\t\t<p>%s</p>\n\t</body>\n</html>";
+            String htmlWithContent = String.format(htmlbody, paragraph);
+            try{
+                outputFile = new File(System.getProperty("user.home")+"/index.html");
+                FileWriter fr = new FileWriter(outputFile);
+                fr.write(htmlWithContent);
+                fr.close();
+            }catch(IOException ioe){
+                ioe.printStackTrace();
+            }
+        }
+
+        private void openFile(){
+            try {
+                Desktop.getDesktop().open(outputFile);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+
+        public static void main(String[] args) {
+            Scanner s = new Scanner(System.in);
+            System.out.println("Hi! Gimme your Paragraph!");
+            String p = s.nextLine();
+            s.close();
+            new HTMLGenerator(p);
+        }
+
+    }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]TheManAccount 0 points1 point2 points 3 years ago (0 children)
+
+Unconventional, but an AutoHotKey solution:
+
+InputBox, title, Title, Please enter a title to your HTML page
+
+InputBox, paragraph, Paragraph, Please enter a paragraph for your HTML page
+
+title_html = <head>`n`t`t<title>`n`t`t`t%title%`n`t`t</title>`n`t</head>
+
+paragraph_html = <body>`n`t`t<p>`n`t`t`t%paragraph%`n`t`t</p>`n`t</body>
+
+HTML = <!DOCTYPE html>`n`t%title_html%`n`n`t%paragraph_html%`n</html>
+
+FileAppend, %HTML%, yourWebSite.html
+
+Run, yourWebSite.html
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dailyRubyProgrammer 0 points1 point2 points 3 years ago (0 children)
+
+Hi Everyone,
+
+long-time VBA programmer. Thought I'd give Ruby a spin and this is what I came
+up with. Perhaps overkill, but it is reusable and extensible. Feel free to
+comment or contribue!
+
+print "Enter your paragraph: "
+paragraphInput = gets.chomp()
+
+puts "Here's your HTML:"
+
+docTypeTag = "<!DOCTYPE html>\n"
+htmlTags = ['html', ['head', 'title'] , ['body', 'p']]
+
+=begin
+    Instead of using a traditional tree, I opted for nested arrays. The reason is that if
+    I went with a tree, I'd have to specify ordinality to make everything show correctly, or feed
+    the nodes in order. I could have done that but that would involve objects and I really just wanted
+    to force this to be a simple function with arrays...
+
+    Each array level defines the level of tags. Ex:
+        no array (a simple string)  => 'html', leftmost tags
+        an array with one element   => ['h1'], starts at previous array's indentation
+        an array with two elements  => ['body', 'p'] starts with previous array's indentation and indents subsequent elements
+
+    This means that in order to put tags at the same level of indentation you'd have to ensure they are contained within the same array.
+=end
+
+def generateHtml(tagArray, tabCounter = 0, inputHTML = "", pTagText = "")
+    if tagArray.kind_of?(Array)
+        reverseTagArray = []
+        tagArray.each do |tag|
+            #call recursively on other arrays
+            if tag.kind_of?(Array)
+                inputHTML = generateHtml(tag, tabCounter, inputHTML, pTagText)
+            else
+                reverseTagArray.unshift(tag)
+                inputHTML += ("\t" * tabCounter) + "<" + tag + ">\n"
+                tabCounter += 1
+
+                if tag == "p"
+                    inputHTML += ("\t" * tabCounter) + pTagText + "\n"
+                end
+            end
+        end
+
+        #put the tags back
+        reverseTagArray.each do |reverseTag|
+            tabCounter -= 1
+            inputHTML += ("\t" * tabCounter) + "</" + reverseTag + ">\n"
+        end
+    end
+    return inputHTML
+end
+
+outputHtml = generateHtml(htmlTags, 0, docTypeTag, paragraphInput)
+puts outputHtml
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]NarraEngineer 0 points1 point2 points 3 years ago* (0 children)
+
+Python 3.3 lol, I just tried the best I could
+
+html = """<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+   <body>
+       <p>{text}</p>
+    </body>
+</html>
+"""
+css = "p {text-align:center;}"
+
+def generate_html( mytext ):
+        with open('page.html', 'w') as page, open('style.css','w') as style:
+            page.write( html.format(text=mytext) )
+            style.write( css )
+
+if __name__ == "__main__":
+    generate_html( input("Enter your paragraph:\n") )
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+My ruby solution:
+
+print 'Title: '; title = gets.chomp
+puts 'Enter your paragraph:'; paragraph = gets.chomp
+
+def html(file_name, text)
+    f = File.new("#{file_name}.html", 'w')
+    html_paragraph = "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<title>#{file_name}</title>\n\t</head>\n\n\t<body>\n\t\t<p>#{text}</p>\n\t</body>\n</html>"
+    f.write(html_paragraph)
+    f.close
+    puts "File written: #{file_name}.html"
+end
+
+html(title, paragraph)
+
+  • permalink
+  • embed
+  • save
+
+[–]PandaPewZ 0 points1 point2 points 3 years ago (0 children)
+
+Solved in C. Should probably have done some error checking, but was too lazy.
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#define BUF_SIZE 1024
+
+const char *html_page = "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<title></title>\n"
+            "\t</head>\n\n\t<body>\n\t\t<p>%s</p>\n\t</body>\n</html>";
+
+int main()
+{
+    const char *filename = "test.html";
+    const char *browser = "chromium ";
+    char buf[BUF_SIZE];
+    FILE *fp;
+
+    printf("Enter your paragraph:\n");
+    fgets(buf, BUF_SIZE, stdin);
+    buf[strlen(buf)-1] = '\0'; // remove trailing newline
+
+    fp = fopen(filename, "w");
+
+    char *page = malloc(strlen(html_page) + strlen(buf) + 1);
+    sprintf(page, html_page, buf);
+
+    fwrite(page, sizeof(char), strlen(page), fp);
+
+    char *cmd = malloc(strlen(browser) + strlen(filename) + 1);
+    strcpy(cmd, browser);
+    strcat(cmd, filename);
+
+    fflush(fp);
+
+    system(cmd);
+
+    fclose(fp);
+    free(page);
+    free(cmd);
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]The-Dwarf 0 points1 point2 points 3 years ago (0 children)
+
+my solutioin in c# feedback welcome pretty basic:
+
+using System;
+using System.IO;
+using System.Diagnostics;
+
+namespace HTML
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string sContent;
+            StreamWriter sw = new StreamWriter("html.html");
+
+            Console.WriteLine("Enter Paragraph");
+            sContent = Console.ReadLine();
+
+            sContent = "<!DOCTYPE html>\n<html>\n<head>\n<title></title>\n</head>\n<body>\n<p>" + sContent + "</p>\n</body>\n</html>";
+
+            sw.Write(sContent);
+
+            sw.Close();
+
+            Process.Start("html.html");
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Imonfiyah 0 points1 point2 points 3 years ago* (0 children)
+
+Inspired by this I had the background change for the current time it was. Every
+time you run this script you will get a different background color.
+
+Critiques very welcome.
+
+import datetime;
+import webbrowser;
+sheader = raw_input("Please enter the header:")
+f = open('/Temp/out.html', 'w') #file open
+
+now = datetime.datetime.now() #grabs the current time
+hexstring = ("#%02d%02d%02d") % (now.hour, now.minute,     now.second) #formats the time in hexadicmal
+
+text = ("""<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: %s;
+    color: white;
+    text-align: center;
+    font-size: 50pt;
+}
+</style>
+
+    <title> %s </title>
+</head>
+    <body>
+        <p> %s </p>
+    </body>
+</html>
+""") % (hexstring, sheader, hexstring)
+f.write(text)
+
+f.close()
+url = "file:///C:/Temp/out.html"
+webbrowser.open_new_tab(url)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]KillCrushDestroySwag 0 points1 point2 points 3 years ago (0 children)
+
+First time trying out Rust. It makes semi-large files (1.8M for just this), but
+it's interesting! CCW.
+
+use std::{io, os};
+use std::io::{File, BufferedReader};
+
+fn main() {
+    // Declare our std input reader
+    let mut stdin = BufferedReader::new(io::stdin());
+
+    // Set up header
+    let mut header = ~"<!DOCTYPE html>\n<html>\n\t<head>\n";
+    header = header + "\t\t<title></title>\n";
+
+    // Set up style
+    header = header + "\t\t<style type=\"text/css\">\n\t\tbody {\n";
+    header = header + "\t\t\tbackground: #CCFFFF;\n";
+    header = header + "\t\t\tfont-family: sans-serif;\n";
+    header = header + "\t\t\tfont-weight: 100;\n\t\t}\n\t\t</style>\n";
+
+    header = header + "\t</head>\n\n\t<body>\n";
+
+    // Set up footer
+    let footer = "\t</body>\n</html>";
+
+    // Get and trim the content
+    let mut content = stdin.read_line().unwrap();
+    content = content.trim_right().to_owned();
+    let template = format!("\t\t<p>{:s}</p>\n", content);
+
+    // File IO time
+    let file_name = "autogen.html";
+    let mut file = File::create(&Path::new(file_name));
+    let file_status = file.write_str(header + template + footer);
+
+    // Inform if an error occured
+    if file_status.is_err() {
+        println!("An error occured");
+        os::set_exit_status(1);
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]-AMD- 0 points1 point2 points 3 years ago (0 children)
+
+Quick python solution:
+
+import subprocess
+
+def make_html_file(paragraph):
+
+    f = open(paragraph.split()[0]+'.html', 'w')
+    html_content = """ <!DOCTYPE html>
+    <html>
+        <head>
+            <title></title>
+        </head>
+        <body>
+            <p>%s</p>
+        </body>
+    </html> """ % (paragraph)
+    f.write(html_content)
+    f.close()
+    return paragraph.split()[0]+'.html'
+
+if __name__ == "__main__":
+   filepath = make_html_file( raw_input("Enter your paragraph:"))
+   subprocess.call(('xdg-open', filepath))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]terrapin1203 0 points1 point2 points 3 years ago (0 children)
+
+My solution, in Python.
+
+def getInput():
+    x = raw_input("Enter your paragraph:\n")
+    return x
+
+def setOutput(x):
+    print "<!DOCTYPE html>"
+    print "<html>"
+    print "\t<head>"
+    print "\t\t<title></title>"
+    print "\t</head>"
+    print ""
+    print "\t<body>"
+    print "\t\t<p>",x,"</p>"
+    print "\t</body>"
+    print "</html>"
+
+def main():
+    input = getInput()
+    setOutput(input)
+
+main()
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+Python 2.7 noob code (first thing written on my brand new raspberry pi):
+
+import webbrowser
+
+print 'Type your paragraph here: '
+p = raw_input('>>> ')
+
+
+x = open('index.html', 'w')
+x.write("""
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <p>"""+p+"""</p>
+    </body>
+</html>
+ """)
+x.close()
+
+url = ("/home/pi/index.html")
+
+webbrowser.open(url)
+
+  • permalink
+  • embed
+  • save
+
+[–]nelmaven 0 points1 point2 points 3 years ago (0 children)
+
+Ruby
+
+require 'rubygems'
+require 'active_support/all'
+require 'launchy'
+
+def generate_html(input)
+  return <<-HTML.strip_heredoc
+  <!DOCTYPE html>
+  <html>
+      <head>
+          <title></title>
+      </head>
+
+      <body>
+          <p>#{input}</p>
+      </body>
+  </html>
+  HTML
+end
+
+printf "Enter your paragraph: "
+text = gets.chomp
+
+File.open('index.html', 'w') { |file| file.write generate_html(text) }
+Launchy.open File.expand_path('index.html')
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]CoffeeDrivenCoder 0 points1 point2 points 3 years ago (0 children)
+
+Python 3.4 Solution. Not necessarily compact, but definitely readable.
+
+usrPar = input("Enter your paragraph: ")  # Raw_input was renamed to input in python 3.
+usrTitle = input("Enter your title: ")
+
+def template(usrPar, usrTitle):
+    htmlTemp = ("""
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <title> """ + str(usrTitle) + """</title>
+            </head>
+            <body>
+                <p>   """ + str(usrPar) + """ </p>
+            </body>
+        </html>
+    """)
+    return htmlTemp
+
+htmlDoc = template(usrPar)
+print (htmlDoc)
+
+f = open('index.html', 'w+')
+f.write(str(htmlDoc))
+f.close()
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]TopHatMann 0 points1 point2 points 3 years ago (0 children)
+
+Java
+
+package htmlmarkup;
+
+import java.awt.*;
+import java.io.*;
+import java.util.Scanner;
+
+public class htmlmarkup {
+    public static void main(String[] args) {
+        File f= new File("file.html");
+        if(f.exists()){
+            f.delete();
+        }
+        String input=getInput();
+        String line= "<!DOCTYPE html>\n" +
+                "<html>\n" +
+                "    <head>\n" +
+                "        <title></title>\n" +
+                "    </head>\n" +
+                "\n" +
+                "    <body>\n" +
+                "        <p>"+ input + "</p>\n" +
+                "    </body>\n" +
+                "</html>";
+        FileOutputStream out=null;
+        try{
+            out= new FileOutputStream(f);
+            out.write(line.getBytes());
+            Desktop.getDesktop().browse(f.toURI());
+        } catch(IOException x){x.printStackTrace();}
+    }
+
+    private static String getInput() {
+        Scanner scan= new Scanner(System.in);
+        System.out.println("Type Paragraph: ");
+        String input= scan.nextLine();
+        return input;
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Ekrow 0 points1 point2 points 3 years ago (0 children)
+
+First entry here. New to Java.
+
+package mainpackage;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.awt.Desktop;
+
+public class HtmlGenerator {
+
+public static void generateHtmlFile(ArrayList<String> sentenceList) throws IOException{
+    String body = "";
+    Desktop myDesktop = Desktop.getDesktop();
+    for(int i = 1; i <= sentenceList.size() - 1; i++){
+        body += "<p>"+sentenceList.get(i)+"</p>";
+    }
+
+    String text = "<html><head><title>"+sentenceList.get(0)+"</title><body>"+body+"</body></head></html>";
+
+    Path target = Paths.get("C:/dev/temp/test.html");
+    Path file = Files.createFile(target);
+    Files.write(file, text.getBytes(), StandardOpenOption.WRITE);
+
+    File theFile = new File("C:/dev/temp/test.html");
+    myDesktop.open(theFile);
+}
+
+/**
+ * @param args
+ */
+public static void main(String[] args) throws IOException {
+    int sentenceCount = 1;
+    ArrayList<String> sentenceList = new ArrayList<String>();
+    Scanner s = new Scanner(System.in);
+
+    System.out.println("Please enter a title for your HTML page:");
+    sentenceList.add(s.nextLine());
+    while(true){
+        System.out.println("Please enter sentence #" + sentenceCount);
+        sentenceList.add(s.nextLine());
+        System.out.println("Add another sentence? [y/n]");
+        String next = s.nextLine();
+        System.out.println(next);
+        if(next.equals("n")){
+            break;
+        }
+        sentenceCount++;
+    }
+    generateHtmlFile(sentenceList);
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Lockneedo 0 points1 point2 points 3 years ago (2 children)
+
+python 2.7
+
+import os, webbrowser
+
+def create_layout():
+    title = raw_input("Type a Title:")
+    header = raw_input("Type a header:")
+    content = raw_input("Type Some Content:")
+
+    with open ('css.css', 'w') as css:
+        css.write("body {margin: 0;padding: 0;font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;color: #444;}")
+        css.write("header {font-size: large; color: #E0E0E0; background-color: #2B2B2B;height: 35px;width: 100%;opacity: .9;margin-bottom: 10px; text-align: center}")
+        css.write("")
+        css.close()
+
+    with open ('index.html', 'w') as html:
+        html.write("<!DOCTYPE html><html><head><link rel=\"stylesheet\" type =\"text/css\" href=\"css.css\"><title>%s</title></head><body><header>%s</header><p>%s</p></body></html>" % (title, header, content))
+        html.close()
+
+create_layout()
+webbrowser.open('file://%s' % os.path.abspath('index.html'))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]BryghtShadow 0 points1 point2 points 3 years ago (1 child)
+
+close isn't needed when you use with
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Lockneedo 1 point2 points3 points 3 years ago (0 children)
+
+With automatically saves? Thank you.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]marcelliru 0 points1 point2 points 3 years ago* (0 children)
+
+In racket, with css. All criticism and advice is welcome! Especially for a
+beginner like me!
+
+#lang web-server/insta
+
+"Enter the title of the page:"
+(define my-title (read))
+"Enter the tile of the post:"
+(define my-h1 (read))
+"Enter your paragraph:"
+(define my-p (read))
+"Enter the color of the text:"
+(define my-color (read))
+"Enter the size of the text:"
+(define my-size (read))
+
+(define my-css
+  (string-append "body{color:" my-color ";font-size:"my-size";}"))
+
+(define (start req)
+  (response/xexpr
+   `(html (head (title ,my-title)
+                (style ,my-css))
+          (body (h1 ,my-h1)
+                (p ,my-p)))))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]tothemooncoin 0 points1 point2 points 3 years ago* (0 children)
+
+In java:
+
+public class Driver {
+    public static void main(String[] args) {
+        HTMLMarkupApp markupApp = new HTMLMarkupApp();
+        markupApp.getInput();
+}
+}
+
+
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+public class HTMLMarkupApp {
+
+    public HTMLMarkupApp() {
+    }
+
+    public void getInput(){
+        System.out.println("Enter your paragraph:");
+        Scanner sc = new Scanner(System.in);
+        String userInput = sc.nextLine();
+        getOutput(userInput);
+    }
+
+    private void getOutput(String userInput){
+    String topPart = "<!DOCTYPE html>\n<html>\n\t<head>\n\t    <title></title>\n\t</head>\n\n\t<body>";
+    String middlePart = "\n\t   <p>" + userInput + "</p>";
+    String lastPart = "\n\t</body>\n</html>";
+        String entireString = topPart+middlePart+lastPart;
+        System.out.println(entireString);
+        try {
+            writeToFile(entireString);
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+
+    private void writeToFile(String entireString) throws IOException {
+        File file = new File("output.html");
+
+        if (!file.exists()){
+            try {
+                file.createNewFile();
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        }
+
+        FileWriter fw = new FileWriter(file.getAbsoluteFile());
+        BufferedWriter bw = new BufferedWriter(fw);
+        bw.write(entireString);
+        bw.close();
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]mm865 0 points1 point2 points 3 years ago (0 children)
+
+My design skills are amazing
+
+import webbrowser, os.path, os
+
+paragraph = raw_input('Enter your paragraph:\n')
+output = '''<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <style>
+            p{
+                font-family:'Oswald', sans-serif;
+            }
+            body{
+                background-color:pink;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p>%s</p>
+    </body>
+</html>''' % paragraph
+
+if os.path.isfile('output.html'):
+    os.remove('output.html')
+with open('output.html', 'w') as f:
+    f.write(output)
+
+webbrowser.open(os.path.realpath('output.html'))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]mdlcm 0 points1 point2 points 3 years ago (0 children)
+
+Used R! I used paste function in R to paste the prompt response ("readline") to
+the HTML code, then wrapped it in "cat", which helped me write it as a html
+file.
+
+Code:
+
+cat(paste0("<!DOCTYPE html>\n <html>\n <head>\n <title></title>\n </head>\n\n <body>\n <p>",
+           readline(prompt = "Enter your paragraph:"),
+           "</p>\n </body>\n </html>"),
+    file="DPC167I.html")
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nalexander50 0 points1 point2 points 3 years ago (0 children)
+
+Second challenge in Python. I don't know very much CSS, so I decided to skip
+the bonus. Feedback Appreciated.
+
+import os, webbrowser
+
+with open("autoHTML.html", "w") as file:
+    if (os.stat(file.name).st_size > 0): # If the html file is NOT empty, clear the contents
+        for line in file:
+            string.replace(line, "")
+
+    paragraph = input("Enter the Paragraph: ")
+
+    html = "<!DOCTYPE html\n" + "<html>\n" + "\t<head>\n" + "\t\t<title>AutoHTML Markup Generator</title>\n" + "\t</head>\n\n" + "\t<body>\n" + "\t\t<p>" + paragraph + "</p>\n" + "\t</body>\n" + "</html>"
+
+    file.write(html)
+file.close()
+webbrowser.open(file.name, new = 2) # new = 2 instructs WebBrowswer to open in a new tab, if possible
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dp_account 0 points1 point2 points 3 years ago (0 children)
+
+Python3. It opens a temporary file in the browser before asking to save.
+
+import webbrowser, tempfile, sys, os.path
+paragraph = input("Enter paragraph: ")
+
+source = """
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <p>{}</p>
+    </body>
+</html>
+""".strip().format(paragraph)
+
+with tempfile.NamedTemporaryFile(suffix=".html") as temp:
+    temp.write(bytes(source, "UTF-8"))
+    temp.flush()
+    webbrowser.open_new("file://" + temp.name)
+    filename = input("Would you like to save the file? If so enter the file name: ")
+    if filename:
+        try:
+            with open(os.path.expanduser(filename), "w") as savefile:
+                savefile.write(source)
+            print("Successfully saved")
+        except:
+            sys.stderr.write("Error saving file\n")
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]quastra 0 points1 point2 points 3 years ago (0 children)
+
+My C++ solution, to make it platform independent i chose not to open a browser.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]benjiko99 0 points1 point2 points 3 years ago (0 children)
+
+My first challenge!
+
+Done in C++, which i am new with.
+
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <windows.h>
+
+using namespace std;
+
+
+int main()
+{
+    string Paragraph;
+    ofstream MyFile;
+
+    cout << "Enter a paragraph:\n";
+    getline(cin, Paragraph);
+
+    MyFile.open("index.html");
+    MyFile << "<!DOCTYPE html>\n"
+        "<html>\n"
+        "   <head>\n"
+        "       <title></title>\n"
+        "   </head>\n"
+        "\n"
+        "   <body>\n"
+        "       <p>" << Paragraph + "</p>\n"
+        "   </body>\n"
+        "</html>";
+    MyFile.close();
+
+    ShellExecuteA(NULL, "open", "index.html", NULL, NULL, SW_SHOWNORMAL);
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]kurtlocker 0 points1 point2 points 3 years ago (0 children)
+
+JavaScript. Using Nodejs.
+
+var rd = require('readline'),
+    fs = require('fs'),
+    rl = rd.createInterface({input: process.stdin, output: process.stdout});
+rl.question("Enter a paragraph: ", function(p) {
+    var template = "<!DOCTYPE html><html><head><title></title></head><body><p>"+p+"</p></body></html>"
+    fs.writeFile('valid.html', template, function (err) {if (err) throw err;});
+    rl.close();
+});
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+  • about
+  • blog
+  • about
+  • advertising
+  • careers
+
+  • help
+  • site rules
+  • Reddit help center
+  • wiki
+  • reddiquette
+  • mod guidelines
+  • contact us
+
+  • apps & tools
+  • Reddit for iPhone
+  • Reddit for Android
+  • mobile website
+  • buttons
+
+  • <3
+  • reddit gold
+  • redditgifts
+
+Use of this site constitutes acceptance of our User Agreement and Privacy
+Policy. (C) 2018 reddit inc. All rights reserved.
+
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+Advertise - technology
+
+[pixel]
+
+π Rendered by PID 101209 on app-403  at 2018-05-09 20:28:35.612254+00:00
+running 4c4e6ea country code: CH.
+

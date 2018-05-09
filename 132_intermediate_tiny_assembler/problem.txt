@@ -1,0 +1,6390 @@
+close this window
+jump to content
+my subreddits
+edit subscriptions
+
+  • popular
+  • -all
+  • -random
+  • -users
+
+ | 
+
+  • AskReddit
+  • -worldnews
+  • -videos
+  • -funny
+  • -todayilearned
+  • -pics
+  • -gaming
+  • -movies
+  • -news
+  • -gifs
+  • -mildlyinteresting
+  • -aww
+  • -Showerthoughts
+  • -television
+  • -Jokes
+  • -science
+  • -OldSchoolCool
+  • -sports
+  • -IAmA
+  • -Documentaries
+  • -TwoXChromosomes
+  • -explainlikeimfive
+  • -personalfinance
+  • -books
+  • -tifu
+  • -Futurology
+  • -dataisbeautiful
+  • -WritingPrompts
+  • -nottheonion
+  • -food
+  • -Music
+  • -photoshopbattles
+  • -EarthPorn
+  • -philosophy
+  • -Art
+  • -nosleep
+  • -GetMotivated
+  • -askscience
+  • -LifeProTips
+  • -space
+  • -UpliftingNews
+  • -DIY
+  • -history
+  • -gadgets
+  • -creepy
+  • -listentothis
+  • -blog
+  • -announcements
+  • -InternetIsBeautiful
+
+more >>
+dailyprogrammer dailyprogrammer
+
+  • comments
+
+Want to join? Log in or sign up in seconds.|
+
+  • English
+
+[                    ][]
+[ ]limit my search to r/dailyprogrammer
+
+use the following search parameters to narrow your results:
+
+subreddit:subreddit
+    find submissions in "subreddit"
+author:username
+    find submissions by "username"
+site:example.com
+    find submissions from "example.com"
+url:text
+    search for "text" in url
+selftext:text
+    search for "text" in self post contents
+self:yes (or self:no)
+    include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+    include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+
+see the search faq for details.
+
+advanced search: by author, subreddit...
+
+this post was submitted on  20 Aug 2013
+71 points (92% upvoted)
+shortlink:  [https://redd.it/1kqx]
+[                    ][                    ]
+[ ]remember mereset password
+login
+Submissions restricted
+Only approved users may post in this community.
+
+dailyprogrammer
+
+subscribeunsubscribe142,051 readers
+
+112 users here now
+
+ 1. Challenge #321: Easy
+ 2. Challenge #321: Intermediate
+ 3. Challenge #321: Hard
+ 4. Weekly #25: Escape the trolls
+
+Welcome to r/DailyProgrammer!
+
+First time visitors of Daily Programmer please Read the Wiki to learn
+everything about this subreddit.
+
+  • Solution Submission Tutorial
+  • Solution Submission Guidelines
+  • Code / Peer-Review Guidelines
+  • Problem Submission Guidelines
+  • Achievements System
+  • Community Projects
+  • Links to other Programming subreddits
+  • Special Thanks
+
+Can't submit solutions?
+
+If you are a new or unverified account, and are unable to post comment replies,
+please click here to verify your account. Otherwise, read the Solution
+Submission Tutorial for a walkthrough of submitting a solution, or click below
+to message the moderators for assistance.
+
+Write your own challenge!
+
+To help the community and write your own challenge to be submitted, head on
+over to /r/DailyProgrammer_Ideas and share your project - read the sidebar in
+that subreddit for more information.
+
+IRC Channel
+
+Message the Moderators
+
+Challenge List in Chronological Order
+
+created by nottoobadguya community for 6 years
+message the moderators
+
+MODERATORS
+
+  • rya111113 1
+  • nint221 2
+  • Cosmologicon2 3
+  • Elite68091 1
+  • XenophonOfAthens2 1
+  • jnazario2 0
+  • Godspiral3 3
+  • Blackshell2 0
+  • fvandepitte0 0
+  • G33kDude1 1
+  • about moderation team >>
+
+discussions in r/dailyprogrammer
+<>
+X
+ 
+40 . 10 comments
+[2018-05-09] Challenge #360 [Intermediate] Find the Nearest Aeroplane
+ 
+57 . 26 comments
+[2018-05-04] Challenge #359 [Hard] Primes in Grids
+ 
+39 . 37 comments
+[2018-05-02] Challenge #359 [Intermediate] Unwrap Some Text
+ 
+67 . 111 comments
+[2018-04-30] Challenge #359 [Easy] Regular Paperfold Sequence Generator
+ 
+64 . 12 comments
+[2018-04-27] Challenge #358 [Hard] Puzzle me this
+ 
+49 . 36 comments
+[2018-04-25] Challenge #358 [Intermediate] Everyone's A Winner!
+ 
+72 . 75 comments
+[2018-04-23] Challenge #358 [Easy] Decipher The Seven Segments
+ 
+57 . 28 comments
+[2018-04-20] Challenge #357 [Hard] Continued Fractions
+ 
+57 . 26 comments
+[2018-04-19] Challenge #357 [Intermediate] Kolakoski Sequences
+ 
+74 . 114 comments
+[2018-04-11] Challenge #356 [Intermediate] Goldbach's Weak Conjecture
+
+Welcome to Reddit,
+
+the front page of the internet.
+
+Become a Redditor
+
+and subscribe to one of thousands of communities.
+
+x
+
+70
+71
+72
+
+[08/08/13] Challenge #132 [Intermediate] Tiny Assembler (self.dailyprogrammer)
+
+submitted 4 years ago * by nint221 2
+
+ (Intermediate): Tiny Assembler
+
+Tiny, a very simple fictional computer architecture, is programmed by an
+assembly language that has 16 mnemonics, with 37 unique op-codes. The system is
+based on Harvard architecture, and is very straight-forward: program memory is
+different from working memory, the machine only executes one instruction at a
+time, memory is an array of bytes from index 0 to index 255 (inclusive), and
+doesn't have any relative addressing modes. Instructions are multibyte, much
+like the X86 architecture. Simple instructions like HALT only take one byte,
+while complex instructions like JLS (Jump if Less-than) take four bytes.
+
+Your goal will be to write an assembler for Tiny: though you don't need to
+simulate the code or machine components, you must take given assembly-language
+source code and produce a list of hex op-codes. You are essentially writing
+code that converts the lowest human-readable language to machine-readable
+language!
+
+The following are all mnemonics and associated op-codes for the Tiny machine.
+Note that brackets mean "content of address-index" while non-brackets mean
+literals. For example, the instruction "AND [0] 1" will set the contents of the
+first element (at index 0) of memory to 1 if, and only if, the original
+contents at that element are equal to the given literal 1.
+
+Google Documents of the below found here.
+
+Group     Instruction Byte Code  Description
+1. Logic  AND a b     2 Ops, 3   M[a] = M[a] bit-wise and M[b]
+                      bytes:
+                      0x00 [a]
+                      [b]
+                      0x01 [a] b
+          OR a b      2 Ops, 3   M[a] = M[a] bit-wise or M[b]
+                      bytes:
+                      0x02 [a]
+                      [b]
+                      0x03 [a] b
+          XOR a b     2 Ops, 3   M[a] = M[a] bit-wise xor M[b]
+                      bytes:
+                      0x04 [a]
+                      [b]
+                      0x05 [a] b
+          NOT a       1 Op, 2    M[a] = bit-wise not M[a]
+                      bytes:
+                      0x06 [a]
+2. Memory MOV a b     2 Ops, 3   M[a] = M[b], or the literal-set M[a] = b
+                      bytes:
+                      0x07 [a]
+                      [b]
+                      0x08 [a] b
+3. Math   RANDOM a    2 Ops, 2   M[a] = random value (0 to 25; equal
+                      bytes:     probability distribution)
+                      0x09 [a]
+          ADD a b     2 Ops, 3   M[a] = M[a] + b; no overflow support
+                      bytes:
+                      0x0a [a]
+                      [b]
+                      0x0b [a] b
+          SUB a b     2 Ops, 3   M[a] = M[a] - b; no underflow support
+                      bytes:
+                      0x0c [a]
+                      [b]
+                      0x0d [a] b
+                                 Start executing instructions at index of value
+4.        JMP x       2 Ops, 2   M[a] (So given a is zero, and M[0] is 10, we
+Control               bytes:     then execute instruction 10) or the literal
+                                 a-value
+                      0x0e [x]
+                      0x0f x
+                      4 Ops, 3   Start executing instructions at index x if M
+          JZ x a      bytes:     [a] == 0 (This is a nice short-hand version of
+                                 )
+                      0x10 [x]
+                      [a]
+                      0x11 [x] a
+                      0x12 x [a]
+                      0x13 x a
+          JEQ x a b   4 Ops, 4   Jump to x or M[x] if M[a] is equal to M[b] or
+                      bytes:     if M[a] is equal to the literal b.
+                      0x14 [x]
+                      [a] [b]
+                      0x15 x [a]
+                      [b]
+                      0x16 [x]
+                      [a] b
+                      0x17 x [a]
+                      b
+          JLS x a b   4 Ops, 4   Jump to x or M[x] if M[a] is less than M[b] or
+                      bytes:     if M[a] is less than the literal b.
+                      0x18 [x]
+                      [a] [b]
+                      0x19 x [a]
+                      [b]
+                      0x1a [x]
+                      [a] b
+                      0x1b x [a]
+                      b
+          JGT x a b   4 Ops, 4   Jump to x or M[x] if M[a] is greater than M[b]
+                      bytes:     or if M[a] is greater than the literal b.
+                      0x1c [x]
+                      [a] [b]
+                      0x1d x [a]
+                      [b]
+                      0x1e [x]
+                      [a] b
+                      0x1f x [a]
+                      b
+          HALT        1 Op, 1    Halts the program / freeze flow of execution
+                      byte:
+                      0xff
+                                 Print the contents of M[a] in either ASCII (if
+5.        APRINT a    4 Ops, 2   using APRINT) or as decimal (if using DPRINT).
+Utilities             byte:      Memory ref or literals are supported in both
+                                 instructions.
+                      0x20 [a]
+          DPRINT a    (as ASCII;
+                      aprint)
+                      0x21 a (as
+                      ASCII)
+                      0x22 [a]
+                      (as
+                      Decimal;
+                      dprint)
+                      0x23 a (as
+                      Decimal)
+
+Original author: /u/nint22
+
+Formal Inputs & Outputs
+
+Input Description
+
+You will be given the contents of a file of Tiny assembly-language source code.
+This text file will only contain source-code, and no meta-data or comments. The
+source code is not case-sensitive, so the instruction "and", "And", and "AND"
+are all the same.
+
+Output Description
+
+Print the resulting op-codes in hexadecimal value. Formatting does not matter,
+as long as you print the correct hex-code!
+
+Sample Inputs & Outputs
+
+Sample Input
+
+The following Tiny assembly-language code will multiply the numbers at
+memory-location 0 and 1, putting the result at memory-location 0, while using
+[2] and [3] as working variables. All of this is done at the lowest 4 bytes of
+memory.
+
+Mov [2] 0
+Mov [3] 0
+Jeq 6 [3] [1]
+Add [3] 1
+Add [2] [0]
+Jmp 2
+Mov [0] [2]
+Halt
+
+Sample Output
+
+0x08 0x02 0x00
+0x08 0x03 0x00
+0x15 0x06 0x03 0x01
+0x0B 0x03 0x01
+0x0A 0x02 0x00
+0x0F 0x02
+0x07 0x00 0x02
+0xFF
+
+Challenge Bonus
+
+If you write an interesting Tiny-language program and successfully run it
+against your assembler, you'll win a silver medal! If you can formally prove
+(it won't take much effort) that this language / machine is Turing Complete,
+you'll win a gold medal!
+
+  • 100 comments
+  • share
+  • save
+  • hide
+  • report
+
+all 100 comments
+sorted by:
+best
+topnewcontroversialoldrandomq&alive (beta)
+ [                    ]
+
+Want to add to the discussion?
+
+Post a comment!
+
+Create an account
+
+[–]rectal_smasher_20001 1 9 points10 points11 points 4 years ago (1 child)
+
+c++ solution. would have been nicer in c++11, unfortunately i haven't managed
+to set it up on windows, whereas i couldn't be bothered booting up linux, since
+i was already half way through writing the code.
+
+#include <cstdlib>
+#include <map>
+#include <iostream>
+#include <iomanip>
+#include <fstream>
+#include <sstream>
+
+inline void parse(std::string _input, std::string (&_token)[4]) {
+    for(int i = 0, j = 0; i < _input.size(); i++) {
+        if(_input.at(i) == ' ') { j++; i++; }
+        _token[j] += _input.at(i);
+    }
+}
+
+inline void reset(std::string (&_token)[4]) {
+    _token[0].clear();
+    _token[1].clear();
+    _token[2].clear();
+    _token[3].clear();
+}
+
+inline int get_val(std::string const &_token) {
+    int _val;
+    if(_token.at(0) == '[') {
+        std::string _temp = _token.substr(1, _token.size() - 2);
+        std::istringstream(_temp) >> _val;
+        return _val;
+    }
+    std::istringstream(_token) >> _val;
+    return _val;
+}
+
+inline bool is_index(std::string const &_token) {
+    if(_token.at(0) == '[' && _token.at(_token.size() - 1) == ']')
+        return true;
+    return false;
+}
+
+inline void error_cmd(std::string const &_token, int const &_l_cnt) {
+    std::cout << std::noshowbase;
+    std::cout << "ERROR: Unknown instruction '" << _token << "', on line " << _l_cnt << "." << std::endl;
+}
+
+inline void error_op(int const &_l_cnt) {
+    std::cout << std::noshowbase;
+    std::cout << "ERROR: Not an operand on line " << _l_cnt << "." << std::endl;
+}
+
+inline void print0(int const &cmd) {
+    std::cout << std::hex << std::showbase << cmd << std::endl;
+}
+
+inline void print1(int const &cmd, int const &op1) {
+    std::cout << std::showbase << std::internal << std::setfill('0');
+    std::cout << std::hex << std::setw(4) << cmd << " ";
+    std::cout << std::hex << std::setw(4) << op1 << std::endl;
+}
+
+inline void print2(int const &cmd, int const &op1, int const &op2) {
+    std::cout << std::showbase << std::internal << std::setfill('0');
+    std::cout << std::hex << std::setw(4) << cmd << " ";
+    std::cout << std::hex << std::setw(4) << op1 << " ";
+    std::cout << std::hex << std::setw(4) << op2 << std::endl;
+}
+
+inline void print3(int const &cmd, int const &op1, int const &op2, int const &op3) {
+    std::cout << std::showbase << std::internal << std::setfill('0');
+    std::cout << std::hex << std::setw(4) << cmd << " ";
+    std::cout << std::hex << std::setw(4) << op1 << " ";
+    std::cout << std::hex << std::setw(4) << op2 << " ";
+    std::cout << std::hex << std::setw(4) << op3 << std::endl;
+}
+
+inline void handle_op2(std::string const (&_token)[4], int const &addr) {
+    if(is_index(_token[1]) && is_index(_token[2]))
+        print2(addr, get_val(_token[1]), get_val(_token[2]));
+    else
+        print2(addr + 1, get_val(_token[1]), get_val(_token[2]));
+}
+
+inline void handle_op3(std::string const (&_token)[4], int const &addr) {
+    if(is_index(_token[1]))
+        if(is_index(_token[3]))
+            print3(addr, get_val(_token[1]), get_val(_token[2]), get_val(_token[3]));
+        else
+            print3(addr + 2, get_val(_token[1]), get_val(_token[2]), get_val(_token[3]));
+    else
+        if(is_index(_token[3]))
+            print3(addr + 1, get_val(_token[1]), get_val(_token[2]), get_val(_token[3]));
+        else
+            print3(addr + 3, get_val(_token[1]), get_val(_token[2]), get_val(_token[3]));
+}
+
+int main(int argc, char** argv) {
+    int l_cnt = 0;
+    std::ifstream infile("prog.txt");
+    std::map<std::string, int> instr;
+    instr["AND"]        = 0x00;
+    instr["OR"]         = 0x02;
+    instr["XOR"]        = 0x04;
+    instr["NOT"]        = 0x06;
+    instr["MOV"]        = 0x07;
+    instr["RANDOM"]     = 0x09;
+    instr["ADD"]        = 0x0a;
+    instr["SUB"]        = 0x0c;
+    instr["JMP"]        = 0x0e;
+    instr["JZ"]         = 0x10;
+    instr["JEQ"]        = 0x14;
+    instr["JLS"]        = 0x18;
+    instr["JGT"]        = 0x1c;
+    instr["HALT"]       = 0xff;
+    instr["APRINT"]     = 0x20;
+    instr["DPRINT"]     = 0x20;
+
+    std::string input, token[4];
+
+    while(std::getline(infile, input))
+        std::cout << input << std::endl;
+    std::cout << std::endl;
+    infile.clear();
+    infile.seekg(0, infile.beg);
+
+    while(std::getline(infile, input)) {
+        parse(input, token); l_cnt++;
+        if(!instr[token[0]]) error_cmd(token[0], l_cnt);
+
+        switch(instr[token[0]]) {
+            case 0x00:     //AND 2 op
+                if(!is_index(token[1])) error_op(l_cnt);
+                handle_op2(token, instr["AND"]);
+                break;
+            case 0x02:     //OR 2 op
+                if(!is_index(token[1])) error_op(l_cnt);
+                handle_op2(token, instr["OR"]);
+                break;
+            case 0x04:     //XOR 2 op
+                if(!is_index(token[1])) error_op(l_cnt);
+                handle_op2(token, instr["XOR"]);
+                break;
+            case 0x06:     //NOT 1 op
+                if(!is_index(token[1])) error_op(l_cnt);
+                print1(instr["NOT"], get_val(token[1]));
+                break;
+            case 0x07:     //MOV 2 op
+                if(!is_index(token[1])) error_op(l_cnt);
+                handle_op2(token, instr["MOV"]);
+                break;
+            case 0x09:     //RANDOM 1 op
+                if(!is_index(token[1])) error_op(l_cnt);
+                print1(instr["RANDOM"], get_val(token[1]));
+                break;
+            case 0x0a:     //ADD 2 op
+                if(!is_index(token[1])) error_op(l_cnt);
+                handle_op2(token, instr["ADD"]);
+                break;
+            case 0x0c:    //SUB 2 op
+                if(!is_index(token[1])) error_op(l_cnt);
+                handle_op2(token, instr["SUB"]);
+                break;
+            case 0x0e:     //JMP 1 op
+                if(is_index(token[1]))
+                    print1(instr["JMP"], get_val(token[1]));
+                else
+                    print1(instr["JMP"] + 1, get_val(token[1]));
+                break;
+            case 0x10:    //JZ 2 op - keep
+                if(is_index(token[1]))
+                    if(is_index(token[2]))
+                        print2(instr["JZ"], get_val(token[1]), get_val(token[2]));
+                    else
+                        print2(instr["JZ"] + 1, get_val(token[1]), get_val(token[2]));
+                else
+                    if(is_index(token[2]))
+                        print2(instr["JZ"] + 2, get_val(token[1]), get_val(token[2]));
+                    else
+                        print2(instr["JZ"] + 3, get_val(token[1]), get_val(token[2]));
+                break;
+            case 0x14:    //JEQ 3 op
+                if(!is_index(token[2])) error_op(l_cnt);
+                handle_op3(token, instr["JEQ"]);
+                break;
+            case 0x18:     //JLS 3 op
+                if(!is_index(token[2])) error_op(l_cnt);
+                handle_op3(token, instr["JLS"]);
+                break;
+            case 0x1c:     //JGT 3 op
+                if(!is_index(token[2])) error_op(l_cnt);
+                handle_op3(token, instr["JGT"]);
+                break;
+            case 0xff:     //HALT 0 op
+                if(token[1].size()) error_op(l_cnt);
+                print0(instr["HALT"]);
+                break;
+            case 0x20:     //APRINT 1 op
+                if(is_index(token[1]))
+                    print1(instr["APRINT"], get_val(token[1]));
+                else
+                    print1(instr["APRINT"] + 1, get_val(token[1]));
+                break;
+            case 0x22:     //DPRINT 1 op
+                if(is_index(token[1]))
+                    print1(instr["DPRINT"], get_val(token[1]));
+                else
+                    print1(instr["DPRINT"] + 1, get_val(token[1]));
+                break;
+            default: break;
+        }
+        reset(token);
+    }
+    return 0;
+}
+
+covers most syntax errors, however not all. here's the example output:
+
+MOV [2] 0
+MOV [3] 0
+JEQ 6 [3] [1]
+ADD [3] 1
+ADD [2] [0]
+JMP 2
+MOV [0] [2]
+HALT
+
+0x08 0x02 0000
+0x08 0x03 0000
+0x15 0x06 0x03 0x01
+0x0b 0x03 0x01
+0x0a 0x02 0000
+0x0f 0x02
+0x07 0000 0x02
+0xff
+
+and here be an output with errors:
+
+MOV [2] 0
+MOV 3 0
+JEQ 6 [3] [1]
+AWD [3] 1
+ADD [2] [0]
+JMP 2
+MOV [0] [2]
+HALT 2
+
+0x08 0x02 0000
+ERROR: Not an operand on line 2.
+0x08 0x03 0000
+0x15 0x06 0x03 0x01
+ERROR: Unknown instruction 'AWD', on line 4.
+0x01 0x03 0x01
+0x0a 0x02 0000
+0x0f 0x02
+0x07 0000 0x02
+ERROR: Not an operand on line 8.
+0xff
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Elite68091 1 4 points5 points6 points 4 years ago (0 children)
+
+I like this in particular. C++ isn't easy to write cleanly but you pulled it
+off. With C++11 (like you said) you could replace the print* function with a
+variadic function.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]lukz2 0 8 points9 points10 points 4 years ago (0 children)
+
+Common Lisp
+
+(defparameter opcodes '(
+  "and]]"   "and]0"
+  "or]]"    "or]0"
+  "xor]]"   "xor]0"
+  "not]"
+  "mov]]"   "mov]0"
+  "random]"
+  "add]]"   "add]0"
+  "sub]]"   "sub]0"
+  "jmp]"    "jmp0"
+  "jz]]"    "jz]0"
+  "jz0]"    "jz00"
+  "jeq]]]"  "jeq0]]"
+  "jeq]]0"  "jeq0]0"
+  "jls]]]"  "jls0]]"
+  "jls]]0"  "jls0]0"
+  "jgt]]]"  "jgt0]]"
+  "jgt]]0"  "jgt0]0"
+  "aprint]" "aprint0"
+  "dprint]" "dprint0"))
+
+(defun digitp (c) (find c "0123456789"))
+
+(defun opcode (s &aux r)
+  (do ((i 0 (1+ i))) ((= i (length s)) (coerce (reverse r) 'string))
+     (if (eql (elt s i) #\[) (setf i (position #\] s :start i)))
+     (if (digitp (elt s i)) (if (not (digitp (elt s (1- i)))) (push #\0 r))
+       (if (not (eql (elt s i) #\ )) (push (elt s i) r)))))
+
+(defun arguments (s i &aux j)
+  (when (setf i (position-if 'digitp s :start i))
+    (setf j (or (position-if-not 'digitp s :start i) (length s)))
+    (cons (read-from-string s () () :start i :end j) (arguments s j))))
+
+(defun main ()
+  (do (l) ((equalp "" (setf l (read-line () ""))))
+    (format t "~x" (if (equalp (opcode l) "halt") 255
+                     (position (opcode l) opcodes :test 'equalp)))
+    (format t "~{ ~x~}~%" (arguments l 0))))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]EvanHahn 8 points9 points10 points 4 years ago (4 children)
+
+My Ruby solution!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]msiemens1 1 2 points3 points4 points 4 years ago* (0 children)
+
+Fails for me when running with the example from the description:
+
+> ruby tiny.rb test.asm
+0x08 0x02 0x00
+0x08 0x03 0x00
+0x15 0x06 0x03 0x01
+0x0B 0x03 0x01
+0x0A 0x02 0x00
+0x0F 0x02
+tiny.rb:90:in `parse': undefined method `first' for nil:NilClass (NoMethodError)
+        from tiny.rb:99:in `block in <main>'
+        from tiny.rb:97:in `open'
+        from tiny.rb:97:in `<main>'
+
+EDIT: Having troubleswith the same line, too. [DEL:Specs are saying: MOV [a]
+[b] or MOV [a] b but the demo input actually is MOV a [b]. Assuming it's a
+error in the demo input or specs.:DEL] EDIT: Specs have been fixed.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]eBtDMoN2oXemz1iKB 2 points3 points4 points 4 years ago (0 children)
+
+Very clever use of find, I'm stealing it!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]monumentshorts 1 point2 points3 points 4 years ago (1 child)
+
+I have to say I really like the use of symbols here. It makes it extremely
+clean and easy to see how the patterns are set up. I was trying to figure out
+how to mimic this in F# but I'm not totally sure I can. Anyways, thanks for
+sharing!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]EvanHahn 0 points1 point2 points 4 years ago (0 children)
+
+Thanks! Glad it could help.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]134671 1 6 points7 points8 points 4 years ago (1 child)
+
+Haskell. I'm not very proud of this... it works fine but isn't very pretty. I
+don't know if it would've been prettier if I used something like Parsec,
+though.
+
+import Data.Word
+import Data.Char
+import Text.Printf
+
+data Ptr = Ptr Word8 deriving (Show, Eq)
+data Val = VPtr Word8 | VLit Word8 deriving (Show, Eq)
+
+data Instruction = And Ptr Val
+                 | Or Ptr Val
+                 | Xor Ptr Val
+                 | Not Ptr
+                 | Mov Ptr Val
+                 | Random Ptr
+                 | Add Ptr Val
+                 | Sub Ptr Val
+                 | Jmp Val
+                 | Jz Val Val
+                 | Jeq Val Ptr Val
+                 | Jls Val Ptr Val
+                 | Jgt Val Ptr Val
+                 | Halt
+                 | APrint Val
+                 | DPrint Val deriving (Show, Eq)
+
+readPtr :: String -> Ptr
+readPtr ('[':x) = Ptr (read (init x))
+
+readVal :: String -> Val
+readVal ('[':x) = VPtr (read (init x))
+readVal x       = VLit (read x)
+
+parse :: [String] -> [Instruction]
+parse []               = []
+parse ("and":p:v:ts)   = (And    (readPtr p) (readVal v)            ) : parse ts
+parse ("or":p:v:ts)    = (Or     (readPtr p) (readVal v)            ) : parse ts
+parse ("xor":p:v:ts)   = (Xor    (readPtr p) (readVal v)            ) : parse ts
+parse ("not":p:ts)     = (Not    (readPtr p)                        ) : parse ts
+parse ("mov":p:v:ts)   = (Mov    (readPtr p) (readVal v)            ) : parse ts
+parse ("random":p:ts)  = (Random (readPtr p)                        ) : parse ts
+parse ("add":p:v:ts)   = (Add    (readPtr p) (readVal v)            ) : parse ts
+parse ("sub":p:v:ts)   = (Sub    (readPtr p) (readVal v)            ) : parse ts
+parse ("jmp":v:ts)     = (Jmp    (readVal v)                        ) : parse ts
+parse ("jz":v:w:ts)    = (Jz     (readVal v) (readVal w)            ) : parse ts
+parse ("jeq":v:p:w:ts) = (Jeq    (readVal v) (readPtr p) (readVal w)) : parse ts
+parse ("jls":v:p:w:ts) = (Jls    (readVal v) (readPtr p) (readVal w)) : parse ts
+parse ("jgt":v:p:w:ts) = (Jgt    (readVal v) (readPtr p) (readVal w)) : parse ts
+parse ("halt":ts)      = (Halt                                      ) : parse ts
+parse ("aprint":v:ts)  = (APrint (readVal v)                        ) : parse ts
+parse ("dprint":v:ts)  = (DPrint (readVal v)                        ) : parse ts
+
+assemble :: Instruction -> [Word8]
+assemble (And    (Ptr p)  (VPtr v)        ) = [0x00, p, v]
+assemble (And    (Ptr p)  (VLit v)        ) = [0x01, p, v]
+assemble (Or     (Ptr p)  (VPtr v)        ) = [0x02, p, v]
+assemble (Or     (Ptr p)  (VLit v)        ) = [0x03, p, v]
+assemble (Xor    (Ptr p)  (VPtr v)        ) = [0x04, p, v]
+assemble (Xor    (Ptr p)  (VLit v)        ) = [0x05, p, v]
+assemble (Not    (Ptr p)                  ) = [0x06, p]
+assemble (Mov    (Ptr p)  (VPtr v)        ) = [0x07, p, v]
+assemble (Mov    (Ptr p)  (VLit v)        ) = [0x08, p, v]
+assemble (Random (Ptr p)                  ) = [0x09, p]
+assemble (Add    (Ptr p)  (VPtr v)        ) = [0x0a, p, v]
+assemble (Add    (Ptr p)  (VLit v)        ) = [0x0b, p, v]
+assemble (Sub    (Ptr p)  (VPtr v)        ) = [0x0c, p, v]
+assemble (Sub    (Ptr p)  (VLit v)        ) = [0x0d, p, v]
+assemble (Jmp    (VPtr v)                 ) = [0x0e, v]
+assemble (Jmp    (VLit v)                 ) = [0x0f, v]
+assemble (Jz     (VPtr v) (VPtr w)        ) = [0x10, v, w]
+assemble (Jz     (VPtr v) (VLit w)        ) = [0x11, v, w]
+assemble (Jz     (VLit v) (VPtr w)        ) = [0x12, v, w]
+assemble (Jz     (VLit v) (VLit w)        ) = [0x13, v, w]
+assemble (Jeq    (VPtr v) (Ptr p) (VPtr w)) = [0x14, v, p, w]
+assemble (Jeq    (VLit v) (Ptr p) (VPtr w)) = [0x15, v, p, w]
+assemble (Jeq    (VPtr v) (Ptr p) (VLit w)) = [0x16, v, p, w]
+assemble (Jeq    (VLit v) (Ptr p) (VLit w)) = [0x17, v, p, w]
+assemble (Jls    (VPtr v) (Ptr p) (VPtr w)) = [0x18, v, p, w]
+assemble (Jls    (VLit v) (Ptr p) (VPtr w)) = [0x19, v, p, w]
+assemble (Jls    (VPtr v) (Ptr p) (VLit w)) = [0x1a, v, p, w]
+assemble (Jls    (VLit v) (Ptr p) (VLit w)) = [0x1b, v, p, w]
+assemble (Jgt    (VPtr v) (Ptr p) (VPtr w)) = [0x1c, v, p, w]
+assemble (Jgt    (VLit v) (Ptr p) (VPtr w)) = [0x1d, v, p, w]
+assemble (Jgt    (VPtr v) (Ptr p) (VLit w)) = [0x1e, v, p, w]
+assemble (Jgt    (VLit v) (Ptr p) (VLit w)) = [0x1f, v, p, w]
+assemble (Halt                            ) = [0xff]
+assemble (APrint (VPtr v)                 ) = [0x20, v]
+assemble (APrint (VLit v)                 ) = [0x21, v]
+assemble (DPrint (VPtr v)                 ) = [0x22, v]
+assemble (DPrint (VLit v)                 ) = [0x23, v]
+
+hex :: Word8 -> String
+hex = printf "0x%02X"
+
+showAssembly :: [[Word8]] -> String
+showAssembly = unlines . map (unwords . map hex)
+
+tinyAssemble :: String -> String
+tinyAssemble = showAssembly . map assemble . parse . words . map toLower
+
+main = interact tinyAssemble
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]134671 1 4 points5 points6 points 4 years ago (0 children)
+
+This calculates factorial(M[0]) and puts it in M[0], then halts, using M[1,2,3]
+as temporary variables.
+
+With labels:
+
+        ; input
+0       mov [0] 5
+
+        ; product temp variable
+        ; starts out at 0! = 1
+3       mov [1] 1
+    fact_loop:
+        ; if we're done looping (m[0] = 0), halt
+6       jgt not_done [0] 0
+
+        ; we're done, put the result in m[0]
+10       mov [0] [1]
+13      halt
+
+    not_done:
+        ; add m[1] together m[0] times,
+        ; i.e. m[1] *= m[0]
+14      mov [3] [0]
+17      mov [2] [1]
+20      mov [1] 0
+
+    mul_loop:
+23      jz mul_done [3]
+26      add [1] [2]
+29      sub [3] 1
+32      jmp mul_loop
+
+    mul_done:
+        ; done multiplying; loop to next factor
+34      sub [0] 1
+36      jmp fact_loop
+
+Or in "assemblable" form:
+
+        mov [0] 5
+        mov [1] 1
+        jgt 14 [0] 0
+        mov [0] [1]
+        halt
+        mov [3] [0]
+        mov [2] [0]
+        mov [1] 0
+        jz 34 [3]
+        add [1] [2]
+        sub [3] 1
+        jmp 23
+        sub [0] 1
+        jmp 6
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]shangas 5 points6 points7 points 4 years ago (0 children)
+
+Haskell. Because writing the assembler and parser by hand would have been
+repetitive and boring, the language spec is embedded in the source code and
+expanded into the actual assembler implementation by a compile-time macro.
+
+{-# LANGUAGE TemplateHaskell #-}
+{-# LANGUAGE QuasiQuotes #-}
+
+import TinyQQ
+
+langParser = [languageSpec|
+0x00
+AND [a] [b]
+    [a]  b
+OR  [a] [b]
+    [a]  b
+XOR [a] [b]
+    [a]  b
+NOT [a]
+MOV [a] [b]
+    [a]  b
+RANDOM  [a]
+ADD [a] [b]
+    [a]  b
+SUB [a] [b]
+    [a]  b
+JMP [x]
+     x
+JZ  [x] [a]
+    [x]  a
+     x  [a]
+     x   a
+JEQ [x] [a] [b]
+     x  [a] [b]
+    [x] [a]  b
+     x  [a]  b
+JLS [x] [a] [b]
+     x  [a] [b]
+    [x] [a]  b
+     x  [a]  b
+JGT [x] [a] [b]
+     x  [a] [b]
+    [x] [a]  b
+     x  [a]  b
+APRINT  [a]
+         a
+DPRINT  [a]
+         a
+0xff
+HALT
+|]
+
+main :: IO ()
+main = getContents >>= mapM_ print . langParser
+
+-- file: TinyQQ.hs
+{-# LANGUAGE RecordWildCards #-}
+{-# LANGUAGE TemplateHaskell #-}
+{-# LANGUAGE QuasiQuotes #-}
+
+module TinyQQ where
+
+import Language.Haskell.TH
+import Language.Haskell.TH.Quote
+import Language.Haskell.TH.Lift
+
+import Control.Arrow (first, (***))
+import Control.Applicative ((<$>),(<$),(<*),(<*>),(*>))
+import Control.Monad
+
+import Data.Word
+import Data.Char
+
+import Text.Parsec
+import Text.Parsec.Token
+import Text.Parsec.Language
+import Text.Printf
+
+data OpCode = OpCode Code Params
+type Code   = Word8
+type Params = [Word8]
+
+data ParamType = Address | Value deriving Show
+
+hexWord :: Word8 -> String
+hexWord = printf "0x%.2x"
+
+instance Show OpCode where
+    show (OpCode c ps) = unwords . map hexWord $ c : ps
+
+languageSpec :: QuasiQuoter
+languageSpec = QuasiQuoter
+    { quoteExp = parseLanguageSpec }
+
+parseAddress   = char '[' *> parseWord8 <* char ']'
+parseWord8 :: Parsec String u Word8
+parseWord8     = fmap fromIntegral $ natural $ makeTokenParser emptyDef
+parseOpName kw = many1 letter >>= guard . (== kw) . map toUpper
+
+data OpSpec = OpSpec Word8 String [ParamType] deriving Show
+
+instance Lift Word8 where
+    lift w = [|(fromInteger i :: Word8)|] where
+        i = fromIntegral w
+
+parseLanguageSpec :: String -> ExpQ
+parseLanguageSpec s = langParser where
+    TokenParser{..} = makeTokenParser emptyDef
+    specLine = newline *> (setIndex <|> defOp <|> contOp)
+
+    setIndex = do
+        char '0' *> hexadecimal >>= modifyState . first . const . fromInteger
+        return []
+
+    defOp = join $ newSpec <$> many1 letter <*> defForm
+    contOp = do
+        spaces
+        form <- defForm
+        Just name <- snd <$> getState
+        newSpec name form
+
+    newSpec name form = do
+        i <- fst <$> getState
+        modifyState $ ((+1) *** (const $ Just $ name))
+        return [OpSpec i name form]
+
+    defForm   = spaces *> (defParam `sepBy` (many1 $ char ' '))
+    defParam  = address <|> value
+    address   = Address <$ (char '[' *> lower *> char ']')
+    value     = Value   <$ lower
+    opSpecs   = concat . mkSpec $ s
+    mkSpec    = either (error.show) id . runParser (many1 specLine) (0,Nothing) ""
+    qLangLine = [|choice $(listE $ map compileSpec opSpecs)|]
+
+    compileSpec (OpSpec code kw params)
+        = [|OpCode code <$> try (parseOpName kw *> spaces *> $compileParams)|] where
+            compileParam p = case p of
+                Address -> [|parseAddress <* spaces|]
+                Value   -> [|parseWord8 <* spaces|]
+            compileParams = [|sequence $(listE $ map compileParam params)|]
+
+    langParser = [|
+        let parseLine = either (error.show) id . parse langLine ""
+            langLine  = $qLangLine
+        in  map parseLine . filter (not.null) . lines
+        |]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Glassfish0 0 14 points15 points16 points 4 years ago (4 children)
+
+Python3:
+
+import re
+translate={
+        'and':{'[a] [a]':'0x00','[a] a':'0x01'},
+        'or':{'[a] [a]':'0x02','[a] a':'0x03'},
+        'xor':{'[a] [a]':'0x04','[a] a':'0x05'},
+        'not':{'[a]':'0x06'},
+        'mov':{'[a] [a]':'0x07','[a] a':'0x08'},
+        'random':{'[a]':'0x09'},
+        'add':{'[a] [a]':'0x0a','[a] a':'0x0b'},
+        'sub':{'[a] [a]':'0x0c','[a] a':'0x0d'},
+        'jmp':{'[a]':'0x0e','a':'0x0f'},
+        'jz':{'[a] [a]':'0x10','[a] a':'0x11','a [a]':'0x12','a a':'0x13'},
+        'jeq':{'[a] [a] [a]':'0x14','a [a] [a]':'0x15','[a] [a] a':'0x16','a [a] a':'0x17'},
+        'jls':{'[a] [a] [a]':'0x18','a [a] [a]':'0x19','[a] [a] a':'0x1a','a [a] a':'0x1b'},
+        'jgt':{'[a] [a] [a]':'0x1c','a [a] [a]':'0x1d','[a] [a] a':'0x1e','a [a] a':'0x1f'},
+        'halt':{'':'0xff'},
+        'aprint':{'a':'0x21','[a]':'0x20'},
+        'dprint':{'a':'0x23','[a]':'0x22'}
+}
+def compile(istr):
+        spl=istr.split()
+        op=spl[0].lower()
+        match=re.sub('\d+','a',' '.join(spl[1:]))
+        numbers=map(int,re.findall('\d+',' '.join(spl[1:])))
+        code=translate[op][match]
+        return '{0} {1}'.format(code,' '.join(map(hex,numbers)))
+
+if __name__=='__main__':
+        f=open('source')
+        print('\n'.join(compile(x) for x in f))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Alborak 1 point2 points3 points 4 years ago (2 children)
+
+I like it, very clean. Can you explain a little of how the translate array(?)
+works? I'm not familiar with python, what type of data structure is it? Is it a
+2 dimensional array with lookup by strings?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Glassfish0 0 4 points5 points6 points 4 years ago (0 children)
+
+Thank you. Translate it's a dictionary.(HashMap if you use Java)
+
+Dictonaries allows you to store key : value entries. In this case i've
+associated the name of each instruction with all his possible hex codes using
+another dictionary.
+
+Values can be accessed by searching for a key in this way: dict[key]
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]lukz2 0 2 points3 points4 points 4 years ago (0 children)
+
+It is a dictionary. Basically you can construct a one-element dictionary with
+this syntax:
+
+{ key : datum }
+
+And the datum part can again be a dictionary (nested dictionary):
+
+{ key : { subkey : datum } }
+
+When all the keys and data are strings, it will look:
+
+{ 'key' : { 'subkey' : 'datum' } }
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]airstrike 0 points1 point2 points 4 years ago (0 children)
+
+    Python3
+
+Great solution. I'm going to have to nitpick and say the code is not PEP8
+compliant, so you get a B+ from me.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]jpverkamp 5 points6 points7 points 4 years ago (1 child)
+
+That was interesting. I worked out a solution using Racket and more macros than
+I probably should have. I turned out pretty clean though.
+
+And there's a proof for Turning completeness. :) (Assuming that you add the
+MMOV opcode that I described below; I'm still not convinced you can do it
+without...)
+
+If you'd like to see a more in depth write up, you can do so on my blog: A
+'Tiny' virtual machine in Racket
+
+If you'd rather just see the entire source code, you can do so on GitHub:
+jpverkamp/tiny
+
+Here's the gist of it though. First, we define the op codes. I have a chain of
+macros for that:
+
+; Macro to define instructions
+; Add them both to the name -> multiop hash and the opcode -> op hash
+(define-syntax-rule (define-op (NAME ARGS ...) [OPCODE (PARAMS ...) APP] ...)
+  (let ()
+    (define arity (length '(ARGS ...)))
+
+    (define ops
+      (for/list ([opcode  (in-list '(OPCODE ...))]
+                 [pattern (in-list '((PARAMS ...) ...))]
+                 [app     (in-list (list APP ...))])
+        (op 'NAME arity opcode pattern app)))
+
+    (hash-set! (current-instructions) 'NAME (multiop arity ops))
+
+    (for/list ([opcode (in-list '(OPCODE ...))]
+               [op     (in-list ops)])
+      (hash-set! (current-opcodes) opcode op))
+
+    (void)))
+
+Next, the definitions. Here are a few. Most are similar or use the same
+submacro:
+
+(define-syntax-rule (define-simple-pair NAME OP1 OP2 f)
+  (define-op (NAME a b)
+    [OP1 ([a] [b]) (λ (a b) (memory a (f (memory a) (memory b))))]
+    [OP2 ([a] b  ) (λ (a b) (memory a (f (memory a) b)))]))
+
+(define-simple-pair AND #x00 #x01 bitwise-and)
+(define-simple-pair OR  #x02 #x03 bitwise-ior)
+(define-simple-pair XOR #x04 #x05 bitwise-xor)
+
+(define-simple-pair MOV #x07 #x08 (λ (a b) b))
+
+(define-op (JMP x)
+  [#x0e ([x]) (λ (x) (current-pc (memory x)))]
+  [#x0f (x)   (λ (x) (current-pc x))])
+
+(define-op (MMOV a b)
+  [#xf0 ([a] [b]) (λ (a b) (memory (memory a) (memory (memory b))))])
+
+From there, assembly is relatively straight forward:
+
+; Assemble a list of ops
+(define (assemble code)
+  (cond
+    [(null? code) '()]
+    [else
+     (define name (first code))
+     (define multiop (hash-ref (current-instructions) name))
+     (define params (take (rest code) (multiop-arity multiop)))
+     (define op
+       (let loop ([ops (multiop-ops multiop)])
+         (cond
+           [(null? ops)
+            (error 'assemble "unmatched pattern ~a for ~a\n" params name)]
+           [(matched-patterns? params (op-pattern (first ops)))
+            (first ops)]
+           [else
+            (loop (rest ops))])))
+     `(,(op-code op) ,@(flatten params) . ,(assemble (drop code (+ 1 (multiop-arity multiop)))))]))
+
+If we assemble the given example (with a tweak to multiple two defined
+variables):
+
+> (define TEST-CODE "
+MOV [0] 5
+MOV [1] 7
+ADD [0] [1]
+DPRINT [0]
+HALT
+")
+> (call-with-input-string TEST-CODE parse)
+'(MOV (0) 5 MOV (1) 7 ADD (0) (1) DPRINT (0) HALT)
+> (bytecode->string (assemble (call-with-input-string TEST-CODE parse)))
+"0x08 0x00 0x05 0x08 0x01 0x07 0x0a 0x00 0x01 0x22 0x00 0xff"
+
+We can run it as well; go check out the blog post for that.
+
+Finally, the proof of Turing completeness. Basically, you convert any given
+Turning machine into Tiny code. Basically, you get something like this:
+
+(define ones-to-twos
+  (make-tiny-turing
+   '(start one halt)
+   '(0 1 2)
+   'start
+   'halt
+   '((start 1 start 2 R)
+     (start 0 halt  0 R))))
+
+> (ones-to-twos '(1 1 1))
+
+Tiny version:
+0: MOV (0) 0     ; Initial setup
+3: MOV (1) 4
+6: MOV (2) 3
+9: MOV (4) 1     ; Store initial state
+12: MOV (5) 1
+15: MOV (6) 1
+18: JEQ 24 (0) 2 ; Main loop, check for halt state
+22: JMP 25
+24: HALT
+25: MMOV (2) (1) ; Start of transitions: (start 1 start 2 R)
+28: JEQ 34 (0) 0
+32: JMP 54
+34: JEQ 40 (3) 1
+38: JMP 54
+40: MOV (0) 0
+43: MOV (3) 2
+46: MMOV (1) (2)
+49: ADD (1) 1
+52: JMP 18
+54: MMOV (2) (1) ; Second transition: (start 0 halt 0 R)
+57: JEQ 63 (0) 0
+61: JMP 83
+63: JEQ 69 (3) 0
+67: JMP 83
+69: MOV (0) 2
+72: MOV (3) 0
+75: MMOV (1) (2)
+78: ADD (1) 1
+81: JMP 18
+83: HALT         ; If we don't match any transition, just halt
+
+Bytecode:
+0x08 0x00 0x00 0x08
+0x01 0x04 0x08 0x02
+0x03 0x08 0x04 0x01
+0x08 0x05 0x01 0x08
+0x06 0x01 0x17 0x18
+0x00 0x02 0x0f 0x19
+0xff 0xf0 0x02 0x01
+0x17 0x22 0x00 0x00
+0x0f 0x36 0x17 0x28
+0x03 0x01 0x0f 0x36
+0x08 0x00 0x00 0x08
+0x03 0x02 0xf0 0x01
+0x02 0x0b 0x01 0x01
+0x0f 0x12 0xf0 0x02
+0x01 0x17 0x3f 0x00
+0x00 0x0f 0x53 0x17
+0x45 0x03 0x00 0x0f
+0x53 0x08 0x00 0x02
+0x08 0x03 0x00 0xf0
+0x01 0x02 0x0b 0x01
+0x01 0x0f 0x12 0xff
+
+Input:
+(1 1 1)
+
+Result:
+(2 2 2)
+
+Unfortunately you can't actually have more than 8 transitions (I use 29 bytes
+per transition plus 16 + 3 * initial bytes for the header) even in the best
+case without breaking the hex encoding. It still works on my machine because
+I'm storing everything as integers internally (giving me essentially unlimited
+memory because Racket integers are really integers), but it won't print nicely.
+
+Well, that's it.
+
+jverkamp.com: A 'Tiny' virtual machine in Racket
+
+If you'd rather just see the entire source code, you can do so on GitHub:
+GitHub: jpverkamp/tiny
+
+If anyone has a proof for Turning completeness with MMOV I'd love to see it.
+I'm just not convinced it's actually possible.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jpverkamp 1 point2 points3 points 4 years ago (0 children)
+
+I went through and actually fixed it. Now we can compile a Turing machine into
+Tiny code without needing MMOV. It still won't work on the machine as specified
+[it requires unbounded numbers in each cell], but it doesn't add any
+instructions.
+
+Essentially, rather than encoding symbol on the tape into a different memory
+cell, it puts all of them together into three of them--one for a stack of
+leftward memory cells, one for the current value, and the last for the right.
+It's far slower (what would you expect from encoding the tape in a single
+number), but still works just fine.
+
+Here's the full writeup: jverkamp.com: 'Tiny' Turing completeness without MMOV
+
+The sourcecode is in the same GitHub repository. Here's the new result for
+ones-to-twos:
+
+; Initial setup
+0: MOV [0] 0
+3: MOV [1] 0
+6: MOV [2] 1
+9: MOV [3] 4
+
+; Main loop
+12: JEQ 18 [0] 2
+16: JMP 19
+18: HALT
+
+; First transition: (start 1 start 2 R)
+19: JEQ 25 [0] 0 ; Check if this is the transition we want
+23: JMP 91
+25: JEQ 31 [2] 1
+29: JMP 91
+31: MOV [0] 0    ; Update the state and symbol
+34: MOV [2] 2
+37: MOV [4] 2    ; Move state into buffer [multiply and add current]
+40: MOV [5] [1]
+43: JZ 54 [4]
+46: ADD [1] [5]
+49: SUB [4] 1
+52: JMP 43
+54: ADD [1] [2]
+57: MOV [2] [3]  ; Get the next symbol
+60: JLS 69 [2] 3
+64: SUB [2] 3
+67: JMP 60
+69: SUB [3] [2]  ; Remove current from the other buffer
+72: MOV [4] 0
+75: JZ 86 [3]
+78: ADD [4] 1
+81: SUB [3] 3
+84: JMP 75
+86: MOV [3] [4]
+89: JMP 12       ; Jump back to the main loop
+
+; Second transition: (start 0 halt 0 R)
+91: JEQ 97 [0] 0
+95: JMP 163
+97: JEQ 103 [2] 0
+101: JMP 163
+103: MOV [0] 2
+106: MOV [2] 0
+109: MOV [4] 2
+112: MOV [5] [1]
+115: JZ 126 [4]
+118: ADD [1] [5]
+121: SUB [4] 1
+124: JMP 115
+126: ADD [1] [2]
+129: MOV [2] [3]
+132: JLS 141 [2] 3
+136: SUB [2] 3
+139: JMP 132
+141: SUB [3] [2]
+144: MOV [4] 0
+147: JZ 158 [3]
+150: ADD [4] 1
+153: SUB [3] 3
+156: JMP 147
+158: MOV [3] [4]
+161: JMP 12
+
+; Fallback
+163: HALT
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Hakawatha 4 points5 points6 points 4 years ago (0 children)
+
+In Bison and Flex.
+
+assembler.l:
+
+%{
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include "assembler.tab.h"
+%}
+%%
+AND return AND;
+OR  return OR;
+XOR return XOR;
+NOT return NOT;
+MOV return MOV;
+RANDOM  return RANDOM;
+ADD return ADD;
+SUB return SUB;
+JMP return JMP;
+JZ  return JZ;
+JEQ return JEQ;
+JLS return JLS;
+JGT return JGT;
+HALT    return HALT;
+APRINT  return APRINT;
+DPRINT  return DPRINT;
+\[[0-9]+\]  sscanf(yytext+1, "%d", &yylval.imm); return MEMADDR;
+[0-9]+      sscanf(yytext, "%d", &yylval.imm); return CONSTANT;
+%%
+
+assembler.y:
+
+%{
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include "assembler.tab.h"
+void yyerror(char *str) { puts(str); return; }
+int yywrap(void) { return 1; }
+#define EMIT2B(x, a) printf(#x " 0x%x\n", a)
+#define EMIT3B(x, a, b) printf(#x " 0x%x 0x%x\n", a, b)
+#define EMIT4B(x, a, b, c) printf(#x " 0x%x 0x%x 0x%x\n", a, b, c)
+int main()
+{
+    yyparse();
+    return 0;
+}
+%}
+%union {
+    int imm;
+}
+%token <imm> MEMADDR CONSTANT
+%token AND OR XOR NOT MOV RANDOM ADD SUB JMP JZ JEQ JLS JGT HALT APRINT DPRINT
+%%
+commands:
+    | commands command
+    ;
+command:
+      AND MEMADDR MEMADDR { EMIT3B(0x00,$2,$3); }
+    | AND MEMADDR CONSTANT { EMIT3B(0x01,$2,$3); }
+    | OR MEMADDR MEMADDR { EMIT3B(0x02,$2,$3); }
+    | OR MEMADDR CONSTANT { EMIT3B(0x03,$2,$3); }
+    | XOR MEMADDR MEMADDR { EMIT3B(0x04,$2,$3); }
+    | XOR MEMADDR CONSTANT { EMIT3B(0x05,$2,$3); }
+    | NOT MEMADDR { EMIT2B(0x06,$2); }
+    | MOV MEMADDR MEMADDR { EMIT3B(0x07,$2,$3); }
+    | MOV MEMADDR CONSTANT { EMIT3B(0x08,$2,$3); }
+    | RANDOM MEMADDR { EMIT2B(0x09,$2); }
+    | ADD MEMADDR MEMADDR { EMIT3B(0x0A,$2,$3); }
+    | ADD MEMADDR CONSTANT { EMIT3B(0x0B,$2,$3); }
+    | SUB MEMADDR MEMADDR { EMIT3B(0x0C,$2,$3); }
+    | SUB MEMADDR CONSTANT { EMIT3B(0x0D,$2,$3); }
+    | JMP MEMADDR { EMIT2B(0x0E,$2); }
+    | JMP CONSTANT { EMIT2B(0x0F,$2); }
+    | JZ MEMADDR MEMADDR { EMIT3B(0x10,$2,$3); }
+    | JZ MEMADDR CONSTANT { EMIT3B(0x11,$2,$3); }
+    | JZ CONSTANT MEMADDR { EMIT3B(0x12,$2,$3); }
+    | JZ CONSTANT CONSTANT { EMIT3B(0x13,$2,$3); }
+    | JEQ MEMADDR MEMADDR MEMADDR { EMIT4B(0x14,$2,$3,$4); }
+    | JEQ CONSTANT MEMADDR MEMADDR { EMIT4B(0x15,$2,$3,$4); }
+    | JEQ MEMADDR MEMADDR CONSTANT { EMIT4B(0x16,$2,$3,$4); }
+    | JEQ CONSTANT MEMADDR CONSTANT { EMIT4B(0x17,$2,$3,$4); }
+    | JLS MEMADDR MEMADDR MEMADDR { EMIT4B(0x18,$2,$3,$4); }
+    | JLS CONSTANT MEMADDR MEMADDR { EMIT4B(0x19,$2,$3,$4); }
+    | JLS MEMADDR MEMADDR CONSTANT { EMIT4B(0x1A,$2,$3,$4); }
+    | JLS CONSTANT MEMADDR CONSTANT { EMIT4B(0x1B,$2,$3,$4); }
+    | JGT MEMADDR MEMADDR MEMADDR { EMIT4B(0x1C,$2,$3,$4); }
+    | JGT CONSTANT MEMADDR MEMADDR { EMIT4B(0x1D,$2,$3,$4); }
+    | JGT MEMADDR MEMADDR CONSTANT { EMIT4B(0x1E,$2,$3,$4); }
+    | JGT CONSTANT MEMADDR CONSTANT { EMIT4B(0x1F,$2,$3,$4); }
+    | HALT { printf("0xff\n"); }
+    | APRINT MEMADDR { EMIT2B(0x20,$2); }
+    | APRINT CONSTANT { EMIT2B(0x21,$2); }
+    | DPRINT MEMADDR { EMIT2B(0x22,$2); }
+    | DPRINT CONSTANT { EMIT2B(0x23,$2); }
+    ;
+
+Example I/O:
+
+./tiny < factorial.asm
+
+factorial.asm:
+
+MOV [0] 5
+MOV [1] 1
+JGT 14 [0] 0
+MOV [0] [1]
+HALT
+MOV [3] [0]
+MOV [2] [0]
+MOV [1] 0
+JZ 34 [3]
+ADD [1] [2]
+SUB [3] 1
+JMP 23
+SUB [0] 1
+JMP 6
+
+output:
+
+  0x08 0x0 0x5
+
+  0x08 0x1 0x1
+
+   0x1F 0xe 0x0 0x0
+
+  0x07 0x0 0x1
+
+0xff
+
+  0x07 0x3 0x0
+
+  0x07 0x2 0x0
+
+  0x08 0x1 0x0
+
+  0x12 0x22 0x3
+
+  0x0A 0x1 0x2
+
+  0x0D 0x3 0x1
+
+ 0x0F 0x17
+
+  0x0D 0x0 0x1
+
+ 0x0F 0x6
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]VerilyAMonkey 3 points4 points5 points 4 years ago* (1 child)
+
+It seems like it's pretty simple in Python:
+
+def assemble(filename):
+    with file(filename) as f:
+        return '\n'.join(map(assemble_line, f.readlines()))
+
+def assemble_line(line):
+    op, args = parse(*line.split())
+    return ' '.join([codes[op,tuple(map(type,args))]]+map(value,args))
+
+parse = lambda op, *args: (op.lower(), map(eval,args))
+value = lambda x: hex(x) if isinstance(x,int) else hex(x[0])
+
+add=(list,)
+lit=(int,)
+codes = {op_signature:hex(i) for i,op_signature in enumerate([
+('and',add*2), ('and',add+lit),
+('or',add*2), ('or',add+lit),
+('xor',add*2), ('xor',add+lit),
+('not',add),
+
+('mov',add*2), ('mov',add+lit),
+
+('random',add),
+('add',add*2), ('add',add+lit),
+('sub',add*2), ('add',add+lit),
+
+('jmp',add), ('jmp',lit),
+('jz',add*2), ('jz',add+lit), ('jz',lit+add), ('jz',lit*2),
+('jeq',add*3), ('jeq',lit+add*2), ('jeq',add*2+lit), ('jeq',lit+add+lit),
+('jls',add*3), ('jls',lit+add*2), ('jls',add*2+lit), ('jls',lit+add+lit),
+('jgt',add*3), ('jgt',lit+add*2), ('jgt',add*2+lit), ('jgt',lit+add+lit),
+
+('aprint',add), ('aprint',lit),
+('dprint',add), ('dprint',lit)
+])}
+
+codes[('halt',())] = hex(0xff)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]lukz2 0 1 point2 points3 points 4 years ago (0 children)
+
+Good. After having done my solution I've noticed that your idea of the
+instruction signatures is quite similar to mine. But you were faster, of
+course.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Alborak 2 points3 points4 points 4 years ago (0 children)
+
+I'm not terribly proud of this, but I've been doing nothing but driver coding
+in C so wanted a minor break. Basic premise is look up base code in hash table,
+add offsets to it based on arguments. Error handling is pretty much just to
+crash. If that.
+
+import java.io.*;
+import java.util.HashMap;
+
+public class Assembler {
+
+static HashMap<String,Integer> table;
+
+private static void InitTable()
+{
+    table = new HashMap<String,Integer>();
+    table.put("AND",  0);
+    table.put("OR",  2);
+    table.put("XOR",  4);
+    table.put("NOT",  6);
+    table.put("MOV",  7);
+    table.put("RANDOM",  9);
+    table.put("ADD",  0x0A);
+    table.put("SUB",  0x0c);
+    table.put("JMP",  0x0e);
+    table.put("JZ",  0x10);
+    table.put("JEQ",  0x14);
+    table.put("JLS",  0x18);
+    table.put("JGT",  0x1c);
+    table.put("HALT",  0xff);
+    table.put("APRINT",  0x20);
+    table.put("DPRINT",  0x22);
+}
+
+private class opCode
+{
+    public int op;
+    public int arg1;
+    public int arg2;
+    public int arg3;
+
+    opCode()
+    {
+        this.op = 0x00;
+        this.arg1 = -1;
+        this.arg2 = -1;
+        this.arg3 = -1;
+    }
+    public opCode readLine(String[] tokens)
+    {
+        opCode retVal = new opCode();
+
+        retVal.op = table.get(tokens[0]);
+
+        /* jump ops */
+        if( retVal.op >= 0x14  && retVal.op < 0x20)
+        {
+            if(tokens.length == 4)
+            {
+                if(tokens[1].charAt(0) != '[') retVal.op += 1;
+                if(tokens[3].charAt(0) != '[') retVal.op += 2;
+            }else{
+                return null;
+            }
+            retVal.arg1 = Integer.parseInt(tokens[1].replaceAll("\\[?(\\d*)\\]?", "$1"));
+            retVal.arg2 = Integer.parseInt(tokens[2].replaceAll("\\[?(\\d*)\\]?", "$1"));
+            retVal.arg3 = Integer.parseInt(tokens[3].replaceAll("\\[?(\\d*)\\]?", "$1"));
+
+        }else if(tokens.length == 3)
+        {
+            if(tokens[2].charAt(0) != '[') retVal.op += 1;
+            if(retVal.op > 0x10 && tokens[1].charAt(0) != '[') retVal.op += 1;
+
+            retVal.arg1 = Integer.parseInt(tokens[1].replaceAll("\\[?(\\d*)\\]?", "$1"));
+            retVal.arg2 = Integer.parseInt(tokens[2].replaceAll("\\[?(\\d*)\\]?", "$1"));
+        }else if (tokens.length == 2)
+        {
+            if(tokens[1].charAt(0) != '[') retVal.op += 1;
+            retVal.arg1 = Integer.parseInt(tokens[1].replaceAll("\\[?(\\d*)\\]?", "$1"));
+        }else if(retVal.op != 0xff){
+            return null;
+        }
+        return retVal;
+    }
+
+}
+public static void main(String args[])
+{
+    Assembler obj = new Assembler();
+    opCode line = obj.new opCode();
+
+    String strLine;
+    String[] tokens;
+    String filename =  "C:\\Test.txt.txt";
+
+    InitTable();
+
+    FileInputStream fstream;
+    try {
+        fstream = new FileInputStream(filename);
+
+    DataInputStream in = new DataInputStream(fstream);
+    BufferedReader br = new BufferedReader(new InputStreamReader(in));
+
+    while ((strLine = br.readLine()) != null)
+    {
+        strLine = strLine.toUpperCase();
+        tokens = strLine.split("\\s");
+
+        line = line.readLine(tokens);
+
+        tokens = new String[4];
+        tokens[0] = Integer.toHexString(line.op);
+        if (line.arg1 > -1){
+            tokens[1] = Integer.toHexString(line.arg1);
+        }else
+        {
+            tokens[1] = "";
+        }
+        if (line.arg2 > -1)
+        {
+            tokens[2] = Integer.toHexString(line.arg2);
+        }else
+        {
+            tokens[2] = "";
+        }
+        if (line.arg3 > -1)
+        {
+            tokens[3] = Integer.toHexString(line.arg3);
+        }else
+        {
+            tokens[3] = "";
+        }
+
+        for(int i = 0; i < tokens.length; ++i)
+        {
+            String prefix = "0x";
+
+            if(tokens[i].length() < 2)
+                prefix += "0";
+
+            if(tokens[i].length() > 0)
+                tokens[i] = prefix + tokens[i];
+        }
+
+        System.out.println(tokens[0] +" "+ tokens[1] +" "+ tokens[2] +" "+ tokens[3]);
+    }
+    in.close();
+    } catch (FileNotFoundException e) {
+        e.printStackTrace();
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]msiemens1 1 3 points4 points5 points 4 years ago (1 child)
+
+My submission for the bonus (writing an interisting Tiny program):
+
+  • Original source code: https://github.com/msiemens/TINY.ASM/blob/master/
+    pi.asm
+  • Preprocessed + parsed code: https://gist.github.com/msiemens/6379442
+
+I've extended the syntax a bit (labels, constants, ...) and wrote a virtual
+machine. The program source code with my extended syntax along with the
+assembler program and the virtual machine can be found here: https://github.com
+/msiemens/TINY.ASM
+
+What does the program do? It computes π using a stochastic algorithm:
+
+    Another Monte Carlo method for computing π is to draw a circle inscribed in
+    a square, and randomly place dots in the square. The ratio of dots inside
+    the circle to the total number of dots will approximately equal π/4. (from 
+    Wikipedia)
+
+Because of the random values and the word size of 8 bit, the result will have a
+very low precision and vary between runs. In addition, due to the lack of float
+point arithmetics, the program will only output the equation to get π (e.g. 78/
+100*4). I'm still working on implementing 16bit float point arithmetics for
+Tiny, so it might output the actual result.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 0 points1 point2 points 4 years ago (0 children)
+
+Wow msiemens, this is truly awesome! Extending Tiny the way you did, all while
+completing a solid cool example of Tiny assembly code, you certainly win the
+award for awesome code! Enjoy the gold medal :D
+
+(I added a +1 silver as well for the added effort on extending the assembler
+with Labels, etc. Very smart!)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]NegativeLatency 2 points3 points4 points 4 years ago (1 child)
+
+You have to escape the close paren for links to work
+
+[Assembler](http://en.wikipedia.org/wiki/Assembler_(computing\)#Assembler)
+                                                             ^
+
+Assembler
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 1 point2 points3 points 4 years ago (0 children)
+
+Thanks! Fixed.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]zengargoyle 2 points3 points4 points 4 years ago (1 child)
+
+MOV a b 2 Ops, 3 bytes: M[a] = M[b], or the literal-set M[a] = b 0x07 [a] [b]
+0x08 [a] b
+
+This perturbs me. you had a good streak going of the 0x01 bit being [x][y] vs
+[x]y and broke it. :P
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 2 points3 points4 points 4 years ago (0 children)
+
+Fixed! Thanks for catching that - I fail at my own assembly language, isn't
+that funny T_T
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]zengargoyle 2 points3 points4 points 4 years ago (1 child)
+
+A quick Perl programming language solution. When I started, line 7 of the
+example input was Mov 0 [2] which gave the helpful error Mov does not support ?
+[?] at line 7. Assumed it was [0] [2]
+
+#!/usr/bin/env perl
+use strict;
+use warnings;
+
+use Try::Tiny;
+
+my $input = <<_END;
+Mov [2] 0
+Mov [3] 0
+Jeq 6 [3] [1]
+Add [3] 1
+Add [2] [0]
+Jmp 2
+Mov [0] [2]
+Halt
+_END
+
+my $expected_output = <<_END;
+0x08 0x02 0x00
+0x08 0x03 0x00
+0x15 0x06 0x03 0x01
+0x0B 0x03 0x01
+0x0A 0x02 0x00
+0x0F 0x02
+0x07 0x00 0x02
+0xFF
+_END
+
+my $op_table = {
+  AND => {
+    # 0x00 [a] [b]
+    # 0x01 [a] b
+    mode => {
+      '11' => 0x00,
+      '10' => 0x01,
+    },
+  },
+  OR => {
+    # 0x02 [a] [b]
+    # 0x03 [a] b
+    mode => {
+      '11' => 0x02,
+      '10' => 0x03,
+    },
+  },
+  XOR => {
+    # 0x04 [a] [b]
+    # 0x05 [a] b
+    mode => {
+      '11' => 0x04,
+      '10' => 0x05,
+    },
+  },
+  NOT => {
+    # 0x06 [a]
+    mode => {
+      '1' => 0x06,
+    },
+  },
+  MOV => {
+    # 0x07 [a] [b]
+    # 0x08 [a] b
+    mode => {
+      '11' => 0x07,
+      '10' => 0x08,
+    },
+  },
+  RANDOM => {
+    # 0x09 [a]
+    mode => {
+      '1' => 0x09,
+    },
+  },
+  ADD => {
+    # 0x0a [a] [b]
+    # 0x0b [a] b
+    mode => {
+      '11' => 0x0a,
+      '10' => 0x0b,
+    },
+  },
+  SUB => {
+    # 0x0c [a] [b]
+    # 0x0d [a] b
+    mode => {
+      '11' => 0x0c,
+      '10' => 0x0d,
+    },
+  },
+  JMP => {
+    # 0x0e [x]
+    # 0x0f x
+    mode => {
+      '1' => 0x0e,
+      '0' => 0x0f,
+    },
+  },
+  JZ => {
+    # 0x10 [x] [a]
+    # 0x11 [x] a
+    # 0x12 x [a]
+    # 0x13 x a
+    mode => {
+      '11' => 0x10,
+      '10' => 0x11,
+      '01' => 0x12,
+      '00' => 0x13,
+    },
+  },
+  JEQ => {
+    # 0x14 [x] [a] [b]
+    # 0x15 x [a] [b]
+    # 0x16 [x] [a] b
+    # 0x17 x [a] b
+    mode => {
+      '111' => 0x14,
+      '011' => 0x15,
+      '110' => 0x16,
+      '010' => 0x17,
+    },
+  },
+  JLS => {
+    # 0x18 [x] [a] [b]
+    # 0x19 x [a] [b]
+    # 0x1a [x] [a] b
+    # 0x1b x [a] b
+    mode => {
+      '111' => 0x18,
+      '011' => 0x19,
+      '110' => 0x1a,
+      '010' => 0x1b,
+    },
+  },
+  JGT => {
+    # 0x1c [x] [a] [b]
+    # 0x1d x [a] [b]
+    # 0x1e [x] [a] b
+    # 0x1f x [a] b
+    mode => {
+      '111' => 0x1c,
+      '011' => 0x1d,
+      '110' => 0x1e,
+      '010' => 0x1f,
+    },
+  },
+  HALT => {
+    # 0xff
+    mode => 0xff,
+  },
+  APRINT => {
+    # 0x20 [a]
+    # 0x21 a
+    mode => {
+      '1' => 0x20,
+      '0' => 0x21,
+    },
+  },
+  DPRINT => {
+    # 0x22 [a]
+    # 0x23 a
+    mode => {
+      '1' => 0x22,
+      '0' => 0x23,
+    },
+  },
+};
+
+open my $fh, '<', \$input;
+while (<$fh>) {
+  my ($op, @args) = split;
+  my $opmap = $op_table->{uc $op} or die "$op is not an op at line $.\n";
+  my ($op_code, $arg_types, $arg_vals);
+  try {
+    ($op_code, $arg_types, $arg_vals) = get_op( $opmap,  @args );
+  }
+  catch {
+    die "$op does not support ".
+      join( ' ', map { $_ ? '[?]' : '?' } @$_ ).
+      " at line $.\n";
+  };
+  print join( ' ', map { sprintf "0x%02X", $_ } $op_code, @$arg_vals ), "\n";
+}
+
+use Params::Util qw( _HASH );
+
+sub get_op {
+  my $opmap = shift;
+  my $mode = $opmap->{mode};
+  if ( ! _HASH($mode) ) {
+    return ($mode, [], [] );
+  }
+  my @types = map { /\[/ ? 1 : 0 } @_;
+  #use Data::Dump; dd [ types => \@types ];
+  my $opcode = $mode->{ join '', @types }
+    or die \@types;
+  my @vals = map { my ($v) = /(\d+)/; $v } @_;
+  #use Data::Dump; dd [ vals => [ @_, "@_", \@vals ] ];
+  return ($opcode, \@types, \@vals);
+}
+
+__END__
+
+0x08 0x02 0x00
+0x08 0x03 0x00
+0x15 0x06 0x03 0x01
+0x0B 0x03 0x01
+0x0A 0x02 0x00
+0x0F 0x02
+0x07 0x00 0x02
+0xFF
+
+The point I was trying to make earlier was that the first few operands follow
+the rule 'last bit 0 = [a] [b], last bit 1 = [a] b' which having NOT,MOV,RANDOM
+breaks the chain. Opcodes usually break down on the binary level so ops that
+take 2 args would have form XXXXXX?? with the ?? bits choosing between '11 [a]
+[b], 10 [a]b, 01 a[b], 00 a b' so the individual bits would control direct/
+indirect.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 0 points1 point2 points 4 years ago (0 children)
+
+You're right about op-codes binary values mapping to logically-related
+operations. Since this is a fictional machine, I picked the numbers based on
+op-code order.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]msiemens1 1 2 points3 points4 points 4 years ago* (2 children)
+
+Update: Assembler with extended syntax (labels, constants, ...) + a virtual
+machine for Tiny can be found here: https://github.com/msiemens/TINY.ASM
+
+My Python 2 solution.
+
+# Create type enum, fallback to ints
+try:
+    from enum import Enum
+except ImportError:
+    address = 0
+    literal = 1
+else:
+    args = Enum('args', 'address literal')
+    address = args.address
+    literal = args.literal
+
+
+instructions = {
+    'AND': {
+        # M[a] = M[a] bit-wise and M[b]
+        '0x00': (address, address),
+        '0x01': (address, literal)
+    },
+    'OR': {
+        # M[a] = M[a] bit-wise or M[b]
+        '0x02': (address, address),
+        '0x03': (address, literal),
+    },
+    'XOR': {
+        # M[a] = M[a] bit-wise xor M[b]
+        '0x04': (address, address),
+        '0x05': (address, literal),
+    },
+    'NOT': {
+        # M[a] = bit-wise not M[a]
+        '0x06': (address,),
+    },
+    'MOV': {
+        # M[a] = M[b], or the literal-set M[a] = b
+        '0x07': (address, address),
+        '0x08': (address, literal),
+    },
+    'RANDOM': {
+        # M[a] = random value (0 to 25; equal probability distribution)
+        '0x09': (address,)
+    },
+    'ADD': {
+        # M[a] = M[a] + b; no overflow support
+        '0x0A': (address, address),
+        '0x0B': (address, literal),
+    },
+    'SUB': {
+        # M[a] = M[a] - b; no underflow support
+        '0x0C': (address, address),
+        '0x0D': (address, literal),
+    },
+    'JMP': {
+        # Start executing at index of value M[a] or the literal a-value
+        '0x0E': (address,),
+        '0x0F': (literal,)
+    },
+    'JZ': {
+        # Start executing instructions at index x if M[a] == 0
+        '0x10': (address, address),
+        '0x11': (address, literal),
+        '0x12': (literal, address),
+        '0x13': (literal, literal),
+    },
+    'JEQ': {
+        # Jump to x or M[x] if M[a] is equal to M[b]
+        # or if M[a] is equal to the literal b.
+        '0x14': (address, address, address),
+        '0x15': (literal, address, address),
+        '0x16': (address, address, literal),
+        '0x17': (literal, address, literal),
+    },
+    'JLS': {
+        # Jump to x or M[x] if M[a] is less than M[b]
+        # or if M[a] is less than the literal b.
+        '0x18': (address, address, address),
+        '0x19': (literal, address, address),
+        '0x1A': (address, address, literal),
+        '0x1B': (literal, address, literal),
+    },
+    'JGT': {
+        # Jump to x or M[x] if M[a] is greater than M[b]
+        # or if M[a] is greater than the literal b
+        '0x1C': (address, address, address),
+        '0x1D': (literal, address, address),
+        '0x1E': (address, address, literal),
+        '0x1F': (literal, address, literal),
+    },
+    'HALT': {
+        # Halts the program / freeze flow of execution
+        '0xFF': tuple()  # No args
+    },
+    'APRINT': {
+        # Print the contents of M[a] in ASCII
+        '0x20': (address,),
+        '0x21': (literal,)
+    },
+    'DPRINT': {
+        # Print the contents of M[a] as decimal
+        '0x22': (address,),
+        '0x23': (literal,)
+    }
+}
+
+
+def assembler_to_hex(assembler_code):
+    """
+    Convert a assembler program to `Tiny` machine code.
+
+    Opcodes described at http://redd.it/1kqxz9
+    """
+
+    # Define small, self-explaining helpers
+    is_address = lambda s: s == '['
+    get_arg_type = lambda t: address if is_address(t) else literal
+
+    # Prepare token stream
+    hexcode = []
+    tokens = assembler_code.split()
+    iterator = iter(tokens)
+    # print 'Tokenized input:', tokens
+
+    # Process tokens
+    for token in iterator:
+        # print 'Processing token:', token
+
+        # Lookup token in instructions list
+        instruction = instructions[token.upper()]
+        # print 'Instruction:', instruction
+
+        # Get arguments, look up arg count from first instruction
+        num_args = len(instruction.values()[0])
+        # print 'Expected number of arguments:', num_args
+
+        arg_list = [iterator.next() for _ in range(num_args)]
+        arg_types = [get_arg_type(arg[0]) for arg in arg_list]
+
+        # print 'Arguments:', arg_list
+        # print 'Argument types:', arg_types
+
+        # Find matching instruction
+        opcode = None
+        for _opcode in instruction:
+            # Check if the list of type arguments matches
+            opcode_args = instruction[_opcode]
+            if opcode_args == tuple(arg_types):
+                opcode = _opcode
+
+        assert opcode, 'Unknown argument types for instruction {} and ' \
+                       'given arguments {}'.format(instruction, arg_types)
+
+        # Convert arguments to hex
+        # 1. Strip '[ ]'
+        arg_list = [arg.strip('[]') for arg in arg_list]
+        # 2. Make ints
+        arg_list = [int(arg) for arg in arg_list]
+        # 3. Make hex
+        #    Note: Using hex() would result in 0x1 instead of 0x01
+        arg_list = ['0x' + ('%02X' % arg).upper() for arg in arg_list]
+
+        # Create opcode string and store it
+        opcode += ' ' + ' '.join(arg_list)
+        opcode = opcode.strip()
+
+        hexcode.append(opcode)
+
+    return '\n'.join(hexcode)
+
+if __name__ == '__main__':
+    import sys
+    print assembler_to_hex(open(sys.argv[1]).read())
+
+EDIT: Added Enum type for arguments type enum (fallback to ints), added
+__main__
+
+EDIT: Fixed formatting
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]msiemens1 1 1 point2 points3 points 4 years ago (1 child)
+
+Gonna work on the silver medal tomorrow.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]msiemens1 1 0 points1 point2 points 4 years ago* (0 children)
+
+My current goal: Write a Tiny programm to calculate PI using a stochastic
+algorithm and a VM in Python for testing it. This will be my first assembler
+programm...
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]tchakkazulu0 2 2 points3 points4 points 4 years ago (1 child)
+
+Is it just me? I do not see the use of the JZ _ a forms. If we are comparing a
+statically known a against 0, we could just precompute if we're jumping or not,
+and change it to a no-op or a JMP as appropriate. (also, the description of the
+JZ instruction ends abruptly).
+
+Meanwhile, I'm cooking up something Haskell-y.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Elite68091 1 0 points1 point2 points 4 years ago (0 children)
+
+Probably to give it the same variation types as the other conditionals.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]jpverkamp 2 points3 points4 points 4 years ago* (3 children)
+
+Is this language actually Turing complete?
+
+Similar to the comments below from tchakkazulu et al, even if you assume
+unlimited memory, you can't actually use it. When you have a given program,
+you're going to use a finite amount of memory defined by the set of every [a]
+in the program, yes?
+
+So far as I can tell, you'd have to add at least one more operator to make it
+Turing complete. For my own implementation, I added mmov:
+
+MMOV [a] [b] - set M[M[A]] = M[M[B]]
+
+Can it be done without this?
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]tchakkazulu0 2 2 points3 points4 points 4 years ago (1 child)
+
+The OISC page states that a language consisting only of the subneg instruction
+is Turing complete, and this instruction is easily implemented:
+
+subneg a b c =
+SUB [b] [a]
+JLS c [b] 0
+
+The same property holds for subneg-programs. The maximum amount of memory used
+can be determined statically by looking at the maximum value of all 'a's and
+'b's (or just count the amount of instructions, multiply by 2, and presto).
+This suggests that memory indirection is not necessary for Turing completeness.
+The page on Turing machines, specifically the part about Computational
+complexity theory states:
+
+    The RASP's finite-state machine is equipped with the capability for
+    indirect addressing (e.g. the contents of one register can be used as an
+    address to specify another register); thus the RASP's "program" can address
+    any register in the register-sequence. The upshot of this distinction is
+    that there are computational optimizations that can be performed based on
+    the memory indices, which are not possible in a general Turing machine;
+
+which agrees with the idea that memory indirection is not necessary for Turing
+completeness.
+
+    when you have a given program, you're going to use a finite amount of
+    memory
+
+This is true. However, when looking at all possible programs (an infinity of
+them), there is no upper bound of memory. I can easily write a program that
+uses n memory cells, for an arbitrary natural number n > 0.
+
+ADD [0] [1]
+ADD [0] [2]
+ADD [0] [3]
+...
+ADD [0] [n-1]
+DPRINT [0]
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]jpverkamp 1 point2 points3 points 4 years ago (0 children)
+
+I do recall subleq although I didn't think of it earlier. Aren't the cases
+slightly different though, in that using subleq, code and data share the same
+addressing space (so far as I understand). So you can actually do indirect
+addressing using subleq. Does this change anything?
+
+So far as the memory argument, you're quite right. That's probably not the
+best. It does make the argument against Turing completeness somewhat more
+difficult though.
+
+Intuitively, Tiny (with a relaxed memory model) should be Turing complete. But
+I keep getting stuck on the one proof model that I really know which is to
+translate an arbitrary Turning machine into Tiny. Perhaps I'll give it another
+try today.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]jpverkamp 0 points1 point2 points 4 years ago (0 children)
+
+The base language still isn't Turing complete, but you can cross compile
+Turning machines to it even without mmov it turns out. Instead, if you allow
+the values in each memory cell to grow unbounded you can store the entire
+machine in 6 cells (maybe even less, I used 2 as buffers).
+
+This comment has more details.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]eBtDMoN2oXemz1iKB 2 points3 points4 points 4 years ago* (1 child)
+
+My solution in Ruby, with much inspiration from /u/EvanHahn
+
+Edit: Improved error handling
+
+INSTRUCTIONS = {
+  AND: {
+    0x00 => [:address, :address],
+    0x01 => [:address, :literal]
+  },
+  OR: {
+    0x02 => [:address, :address],
+    0x03 => [:address, :literal]
+  },
+  XOR: {
+    0x04 => [:address, :address],
+    0x05 => [:address, :literal]
+  },
+  NOT: {
+    0x06 => [:address]
+  },
+  MOV: {
+    0x07 => [:address, :address],
+    0x08 => [:address, :literal]
+  },
+  RANDOM: {
+    0x09 => [:address]
+  },
+  ADD: {
+    0x0a => [:address, :address],
+    0x0b => [:address, :literal]
+  },
+  SUB: {
+    0x0c => [:address, :address],
+    0x0d => [:address, :literal]
+  },
+  JMP: {
+    0x0e => [:address],
+    0x0f => [:literal]
+  },
+  JZ: {
+    0x10 => [:address, :address],
+    0x11 => [:address, :literal],
+    0x12 => [:literal, :address],
+    0x13 => [:literal, :literal]
+  },
+  JEQ: {
+    0x14 => [:address, :address, :address],
+    0x15 => [:literal, :address, :address],
+    0x16 => [:address, :address, :literal],
+    0x17 => [:literal, :address, :literal]
+  },
+  JLS: {
+    0x18 => [:address, :address, :address],
+    0x19 => [:literal, :address, :address],
+    0x1a => [:address, :address, :literal],
+    0x1b => [:literal, :address, :literal]
+  },
+  JGT: {
+    0x1c => [:address, :address, :address],
+    0x1d => [:literal, :address, :address],
+    0x1e => [:address, :address, :literal],
+    0x1f => [:literal, :address, :literal]
+  },
+  APRINT: {
+    0x20 => [:address],
+    0x21 => [:literal]
+  },
+  DPRINT: {
+    0x22 => [:address],
+    0x23 => [:literal]
+  },
+  HALT: {
+    0xff => []
+  }
+}
+
+class Fixnum
+  def hex
+    sprintf "0x%02X", self
+  end
+end
+
+if ARGV.first.nil?
+  raise ArgumentError, "USAGE: #{File.basename __FILE__} source_file.asm"
+end
+
+unless File.exists? ARGV.first
+  raise ArgumentError, "File not found #{ARGV.first}"
+end
+
+File.readlines(ARGV.first).each_with_index do |line, i|
+  # Ignore blank lines
+  next if line.strip.empty?
+  mnemonic, *operands = line.strip.split
+
+  unless INSTRUCTIONS.has_key? mnemonic.upcase.to_sym
+    raise SyntaxError, "Unknown instruction #{mnemonic} #{ARGV.first}:#{i+1}"
+  end
+
+  operands.map do |operand|
+    unless operand.gsub(/\[|\]/, "").to_i.between?(0, 255)
+      raise RangeError, "Operand out of range #{operand} #{ARGV.first}:#{i+1}"
+    end
+  end
+
+  begin
+    opcode = INSTRUCTIONS[mnemonic.upcase.to_sym].find do |key, value|
+      value == operands.map do |operand|
+        operand[0] == "[" ? :address : :literal
+      end
+    end.first
+
+  # Handle undefined method `first' for nil:NilClass (NoMethodError)
+  # when the :address, :literal ordering does not exist in INSTRUCTIONS
+  # (e.g. trying to MOV an address into a literal)
+  rescue NoMethodError
+    raise SyntaxError,
+      "Illegal operation #{mnemonic} #{operands.join(" ")} #{ARGV.first}:#{i+1}"
+  end
+
+  print opcode.hex
+  operands.map do |operand|
+    print " ", operand.gsub(/\[|\]/, "").to_i.hex
+  end
+  puts
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]eBtDMoN2oXemz1iKB 0 points1 point2 points 4 years ago (0 children)
+
+Here is a test.asm file with an illegal instruction to test the error handling.
+
+Mov [2] 0
+Mov [3] 0
+Jeq 6 [3] [1]
+Add [3] 1
+Add [2] [255]
+Jmp 2
+Mov [0] [2]
+Mov 0 [7]
+Halt
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 2 points3 points4 points 4 years ago (1 child)
+
+My try in Python:
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+
+INPUT = """Mov [2] 0
+Mov [3] 0
+Jeq 6 [3] [1]
+Add [3] 1
+Add [2] [0]
+Jmp 2
+Mov [0] [2]
+Halt"""
+
+
+class Assembler():
+
+    def __init__(self, input):
+        code = input.split("\n")
+        for i, line in enumerate(code):
+            code[i] = line.split(" ")
+        self.code = code
+
+        self.key = {"AND": {(True, True): "0x00", (True, False): "0x01"},
+                    "OR": {(True, True): "0x02", (True, False): "0x03"},
+                    "XOR": {(True, True): "0x04", (True, False): "0x05"},
+                    "NOT": {(True,): "0x06"},
+                    "MOV": {(True, True): "0x07", (True, False): "0x08"},
+                    "RANDOM": {(True,): "0x09"},
+                    "ADD": {(True, True): "0x0A", (True, False): "0x0B"},
+                    "SUB": {(True, True): "0x0C", (True, False): "0x0D"},
+                    "JMP": {(True,): "0x0E", (False,): "0x0F"},
+                    "JZ": {(True, True): "0x10", (True, False): "0x11",
+                        (False, True): "0x12", (False, False): "0x13"},
+                    "JEQ": {(True, True, True): "0x14",
+                        (False, True, True): "0x15",
+                        (True, True, False): "0x16",
+                        (False, True, False): "0x17"},
+                    "JLS": {(True, True, True): "0x18",
+                        (False, True, True): "0x19",
+                        (True, True, False): "0x1A",
+                        (False, True, False): "0x1B"},
+                    "JGT": {(True, True, True): "0x1C",
+                        (False, True, True): "0x1D",
+                        (True, True, False): "0x1E",
+                        (False, True, False): "0x1F"},
+                    "HALT": {(): "0xFF"},
+                    "APRINT": {(True,): "0x20", (False,): "0x21"},
+                    "DPRINT": {(True,): "0x22", (False,): "0x23"}, }
+
+    def convert(self):
+        self.converted = []
+        for line in self.code:
+            trueList = []
+            s = ""
+            for i in line[1:]:
+                trueList.append(is_bracketed(i))
+                num = hex(get_number(i))
+                if len(num) < 4:
+                    num = num[:2] + "0" + num[2:]
+                s += " " + num
+            trueList = tuple(trueList)
+            self.converted.append(self.key[line[0].upper()][trueList] + s)
+            print(self.key[line[0].upper()][trueList] + s)
+
+
+def is_bracketed(s):
+    return(s[0] == "[" and s[-1] == "]")
+
+
+def get_number(s):
+    if is_bracketed(s):
+        return(int(s[1:-1]))
+    else:
+        return(int(s))
+
+
+def main():
+    assembler = Assembler(INPUT)
+    assembler.convert()
+
+if __name__ == "__main__":
+    main()
+
+I would appreciate any feedback.
+
+  • permalink
+  • embed
+  • save
+
+[–]airstrike 1 point2 points3 points 4 years ago (0 children)
+
+That is so much more idiomatic than the other Python solutions! Good job!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]killedbythegrue 2 points3 points4 points 4 years ago (0 children)
+
+In Erlang. There ought to be a shorter way to do this.
+
+-define(MEM(X),[$[|X]).
+
+toInt(X) when is_list(X) -> {V,_} = string:to_integer(X), V;
+toInt(X) -> {V,_} = string:to_integer([X]), V.
+
+compile(InFile,OutFile) ->
+    {ok,InFd} = file:open(InFile, read),
+    {ok,OutFd} = file:open(OutFile, write),
+    doCompile(InFd, OutFd, 1).
+
+doCompile(InFd, OutFd, LineNum) ->
+    Ln = io:get_line(InFd, ''),
+    case processLn(Ln) of
+        eof ->
+            file:close(InFd),
+            file:close(OutFd),
+            ok;
+        {ok, empty} -> doCompile(InFd, OutFd, LineNum +1);
+        error ->
+            file:close(InFd),
+            file:close(OutFd),
+            io:fwrite("Error on line ~w : ~s~n", [LineNum, Ln]),
+            error;
+        {ok, Result} ->
+            lists:foreach(
+                fun(R)-> io:fwrite("    0x~2.16.0B", [R]) end, Result),
+            io:fwrite("~n"),
+            lists:foreach(
+                fun(R)-> io:fwrite(OutFd, "    0x~2.16.0B", [R]) end, Result),
+            io:fwrite(OutFd, "~n", [] ),
+            doCompile(InFd, OutFd, LineNum +1);
+        _ -> error
+    end.
+
+processLn(eof) -> eof;
+processLn(Ln) ->
+    Tokens = string:tokens(Ln, " \t\r\n"),
+    emit(Tokens).
+
+emit([]) -> {ok, empty};
+emit(Tokens) ->
+    case Tokens of
+        % logic
+        ["AND", ?MEM(A), ?MEM(B)] ->
+            M1 = toInt(A), M2 = toInt(B),
+            {ok, [16#00, M1, M2]};
+        ["AND", ?MEM(A), B] ->
+            M1 = toInt(A), V2 = toInt(B),
+            {ok, [16#01, M1, V2]};
+        ["OR", ?MEM(A), ?MEM(B)] ->
+            M1 = toInt(A), M2 = toInt(B),
+            {ok, [16#02, M1, M2]};
+        ["OR", ?MEM(A), B] ->
+            M1 = toInt(A), V2 = toInt(B),
+            {ok, [16#03, M1, V2]};
+        ["XOR", ?MEM(A), ?MEM(B)] ->
+            M1 = toInt(A), M2 = toInt(B),
+            {ok, [16#04, M1, M2]};
+        ["XOR", ?MEM(A), B] ->
+            M1 = toInt(A), V2 = toInt(B),
+            {ok, [16#05, M1, V2]};
+        ["NOT", ?MEM(A)] ->
+            M1 = toInt(A),
+            {ok, [16#06, M1]};
+        % memory
+        ["MOV", ?MEM(A), ?MEM(B)] ->
+            M1 = toInt(A), M2 = toInt(B),
+            {ok, [16#07, M1, M2]};
+        ["MOV", ?MEM(A), B] ->
+            M1 = toInt(A), V2 = toInt(B),
+            {ok, [16#08, M1, V2]};
+        % math
+        ["RANDOM", ?MEM(A)] ->
+            M1 = toInt(A),
+            {ok, [16#09, M1]};
+        ["ADD", ?MEM(A), ?MEM(B)] ->
+            M1 = toInt(A), M2 = toInt(B),
+            {ok, [16#0A, M1, M2]};
+        ["ADD", ?MEM(A), B] ->
+            M1 = toInt(A), V2 = toInt(B),
+            {ok, [16#0B, M1, V2]};
+        ["SUB", ?MEM(A), ?MEM(B)] ->
+            M1 = toInt(A), M2 = toInt(B),
+            {ok, [16#0C, M1, M2]};
+        ["SUB", ?MEM(A), B] ->
+            M1 = toInt(A), V2 = toInt(B),
+            {ok, [16#0D, M1, V2]};
+        % control
+        ["JMP", ?MEM(A)] ->
+            M1 = toInt(A),
+            {ok, [16#0E, M1]};
+        ["JMP", A] ->
+            V1 = toInt(A),
+            {ok, [16#0F, V1]};
+        ["JZ", ?MEM(A), ?MEM(B)] ->
+            M1 = toInt(A), M2 = toInt(B),
+            {ok, [16#10, M1, M2]};
+        ["JZ", ?MEM(A), B] ->
+            M1 = toInt(A), V2 = toInt(B),
+            {ok, [16#11, M1, V2]};
+        ["JZ", A, ?MEM(B)] ->
+            M1 = toInt(A), M2 = toInt(B),
+            {ok, [16#12, M1, M2]};
+        ["JZ", A, B] ->
+            M1 = toInt(A), V2 = toInt(B),
+            {ok, [16#13, M1, V2]};
+        ["JEQ", ?MEM(A), ?MEM(B), ?MEM(C)] ->
+            M1 = toInt(A), M2 = toInt(B), M3 = toInt(C),
+            {ok, [16#14, M1, M2, M3]};
+        ["JEQ", A, ?MEM(B), ?MEM(C)] ->
+            V1 = toInt(A), M2 = toInt(B), M3 = toInt(C),
+            {ok, [16#15, V1, M2, M3]};
+        ["JEQ", ?MEM(A), ?MEM(B), C] ->
+            M1 = toInt(A), M2 = toInt(B), V3 = toInt(C),
+            {ok, [16#16, M1, M2, V3]};
+        ["JEQ", A, ?MEM(B), C] ->
+            V1 = toInt(A), M2 = toInt(B), V3 = toInt(C),
+            {ok, [16#17, V1, M2, V3]};
+        ["JLS", ?MEM(A), ?MEM(B), ?MEM(C)] ->
+            M1 = toInt(A), M2 = toInt(B), M3 = toInt(C),
+            {ok, [16#18, M1, M2, M3]};
+        ["JLS", A, ?MEM(B), ?MEM(C)] ->
+            V1 = toInt(A), M2 = toInt(B), M3 = toInt(C),
+            {ok, [16#19, V1, M2, M3]};
+        ["JLS", ?MEM(A), ?MEM(B), C] ->
+            M1 = toInt(A), M2 = toInt(B), V3 = toInt(C),
+            {ok, [16#1A, M1, M2, V3]};
+        ["JLS", A, ?MEM(B), C] ->
+            V1 = toInt(A), M2 = toInt(B), V3 = toInt(C),
+            {ok, [16#1B, V1, M2, V3]};
+        ["JGT", ?MEM(A), ?MEM(B), ?MEM(C)] ->
+            M1 = toInt(A), M2 = toInt(B), M3 = toInt(C),
+            {ok, [16#1C, M1, M2, M3]};
+        ["JGT", A, ?MEM(B), ?MEM(C)] ->
+            V1 = toInt(A), M2 = toInt(B), M3 = toInt(C),
+            {ok, [16#1D, V1, M2, M3]};
+        ["JGT", ?MEM(A), ?MEM(B), C] ->
+            V1 = toInt(A), M2 = toInt(B), M3 = toInt(C),
+            {ok, [16#1D, V1, M2, M3]};
+        ["JGT", ?MEM(A), ?MEM(B), C] ->
+            M1 = toInt(A), M2 = toInt(B), V3 = toInt(C),
+            {ok, [16#1E, M1, M2, V3]};
+        ["JGT", A, ?MEM(B), C] ->
+            V1 = toInt(A), M2 = toInt(B), V3 = toInt(C),
+            {ok, [16#1F, V1, M2, V3]};
+        ["HALT"] ->
+            {ok, [16#FF]};
+        % utilities
+        ["APRINT", ?MEM(A)] ->
+            M1 = toInt(A),
+            {ok, [16#20, M1]};
+        ["APRINT", A] ->
+            V1 = toInt(A),
+            {ok, [16#21, V1]};
+        ["DPRINT", ?MEM(A)] ->
+            M1 = toInt(A),
+            {ok, [16#22, M1]};
+        ["DPRINT", A] ->
+            V1 = toInt(A),
+            {ok, [16#23, V1]};
+
+        _ -> error
+    end.
+
+Output for the sample;
+
+1> c(tiny).
+{ok,tiny}
+2> tiny:compile("sample.asm", "sample.m").
+0x08    0x02    0x00
+0x08    0x03    0x00
+0x15    0x06    0x03    0x01
+0x0B    0x03    0x01
+0x0A    0x02    0x00
+0x0F    0x02
+0x07    0x00    0x02
+0xFF
+ok
+3>
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]eBtDMoN2oXemz1iKB 2 points3 points4 points 4 years ago* (0 children)
+
+A Ruby golf version (with no error checking) based on /u/Glassfish 's Python
+solution.
+
+t = {
+  'AND'=>{'[a][a]'=>'0x00','[a]a'=>'0x01'},
+  'OR'=>{'[a][a]'=>'0x02','[a]a'=>'0x03'},
+  'XOR'=>{'[a][a]'=>'0x04','[a]a'=>'0x05'},
+  'NOT'=>{'[a]'=>'0x06'},
+  'MOV'=>{'[a][a]'=>'0x07','[a]a'=>'0x08'},
+  'RANDOM'=>{'[a]'=>'0x09'},
+  'ADD'=>{'[a][a]'=>'0x0A','[a]a'=>'0x0B'},
+  'SUB'=>{'[a][a]'=>'0x0C','[a]a'=>'0x0D'},
+  'JMP'=>{'[a]'=>'0x0E','a'=>'0x0F'},
+  'JZ'=>{'[a][a]'=>'0x10','[a]a'=>'0x11','a[a]'=>'0x12','aa'=>'0x13'},
+  'JEQ'=>{'[a][a][a]'=>'0x14','a[a][a]'=>'0x15','[a][a]a'=>'0x16','a[a]a'=>'0x17'},
+  'JLS'=>{'[a][a][a]'=>'0x18','a[a][a]'=>'0x19','[a][a]a'=>'0x1A','a[a]a'=>'0x1B'},
+  'JGT'=>{'[a][a][a]'=>'0x1C','a[a][a]'=>'0x1D','[a][a]a'=>'0x1E','a[a]a'=>'0x1F'},
+  'APRINT'=>{'[a]'=>'0x20','a'=>'0x21'},
+  'DPRINT'=>{'[a]'=>'0x22','a'=>'0x23'},
+  'HALT'=>{''=>'0xFF'}
+}
+
+$<.readlines.map{|l|o,*s=l.split;puts t[o.upcase][s.join.gsub /\d+/,?a]+' '+s.map{|e|"0x%02X"%e.scan(/\d+/)}.join(' ')}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]laserdude11 2 points3 points4 points 4 years ago (0 children)
+
+My implementation in good ol' C.
+
+There are still some things to do better; probably should split up the
+translate() function, used an enum instead of literal 0,1,2 for data types. So
+far seems pretty robust.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]lukz2 0 2 points3 points4 points 4 years ago (0 children)
+
+BASIC
+
+I started with programming in BASIC on an 8-bit computer. I don't have that
+computer anymore but recently I found an emulator and the very same BASIC
+implementation that I was using at that time. It's been at least 19 years in
+which I have not seen that system. So, I thought it would be good nostalgia
+feeling and an interesting challenge to try to re-learn that old basic and
+implement this problem in it (with some sensible simplifications).
+
+For amusement, the BASIC startup banner:
+
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+   BASIC interpreter  1Z-016 V1.0A
+   Copyright (C) 1984 by SHARP CORP.
+ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ 22459 bytes free
+
+Ready
+
+Now we can type our program:
+
+90 CLR:INPUTB$:I=1:FORJ=1TOLEN(B$):IFMID$(B$,J,1)>" "N.
+91 IFI=1C$=LEFT$(B$,J-1):GOTO94
+92 IFMID$(B$,I,1)="["C$=C$+"]":I=I+1:K=J-1ELSEC$=C$+"0":K=J
+93 A$=A$+" "+MID$(B$,I,K-I)
+94 I=J+1:IFJ<LEN(B$)N.
+95 RESTORE:FORJ=0TO35:READB$:IFB$=C$?J;A$ELSEN.:?255
+96 GOTO90
+100 DA.AND]],AND]0
+101 DA.OR]],OR]0,XOR]],XOR]0
+102 DA.NOT],MOV]],MOV]0
+103 DA.RANDOM],ADD]],ADD]0
+104 DA.SUB]],SUB]0,JMP],JMP0
+105 DA.JZ]],JZ]0,JZ0],JZ00
+106 DA.JEQ]]],JEQ0]],JEQ]]0,JEQ0]0
+107 DA.JLS]]],JLS0]],JLS]]0,JLS0]0
+108 DA.JGT]]],JGT0]],JGT]]0,JGT0]0
+109 DA.APRINT],APRINT0,DPRINT],DPRINT0
+
+And here is a sample session (? is the prompt):
+
+RUN
+? MOV [2] 0
+ 8 2 0
+? MOV [3] 0
+ 8 3 0
+? JEQ 6 [3] [1]
+ 21 6 3 1
+? ADD [3] 1
+ 11 3 1
+? ADD [2] [0]
+ 10 2 0
+? JMP 2
+ 15 2
+? MOV [0] [2]
+ 7 0 2
+? HALT
+ 255
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]NasenSpray0 1 2 points3 points4 points 4 years ago (0 children)
+
+C++ Solution using VS2012 (therefore no initializer lists)
+
+I also implemented support for labels and ASCII literals.
+
+Sample program: output prime numbers from 2 to 255.
+
+With labels:
+
+mov [0] 2
+_loop:
+mov [1] 1
+
+_prim_test:
+add [1] 1
+jeq _prim [1] [0]
+mov [2] [0]
+
+_prim_loop:
+sub [2] [1]
+jz _not_prim [2]
+jls _prim_test [2] [1]
+jmp _prim_loop
+
+_prim:
+dprint [1]
+
+_not_prim:
+add [0] 1
+jz _end [0]
+jmp _loop
+
+_end:
+halt
+
+Without:
+
+ 0: mov [0] 2
+ 3: mov [1] 1
+ 6: add [1] 1
+ 9: jeq 28 [1] [0]
+13: mov [2] [0]
+16: sub [2] [1]
+19: jz 30 [2]
+22: jls 6 [2] [1]
+26: jmp 16
+28: dprint [1]
+30: add [0] 1
+33: jz 38 [0]
+36: jmp 3
+38: halt
+
+Hex:
+
+0x08 0x00 0x02
+0x08 0x01 0x01
+0x0b 0x01 0x01
+0x15 0x1c 0x01 0x00
+0x07 0x02 0x00
+0x0c 0x02 0x01
+0x12 0x1e 0x02
+0x19 0x06 0x02 0x01
+0x0f 0x10
+0x22 0x01
+0x0b 0x00 0x01
+0x12 0x26 0x00
+0x0f 0x03
+0xff
+
+Proof using C++:
+
+    uint8_t d[256] = {0};
+    d[0] = 2;
+
+_loop:
+    d[1] = 1;
+
+_prim_test:
+    d[1] += 1;
+    if (d[1] == d[0]) goto _prim;
+    d[2] = d[0];
+
+_prim_loop:
+    d[2] -= d[1];
+    if (d[2] == 0) goto _not_prim;
+    if (d[2] < d[1]) goto _prim_test;
+    goto _prim_loop;
+
+_prim:
+    cout << (int)d[1] << endl;
+
+_not_prim:
+    d[0] += 1;
+    if (d[0] == 0) goto _end;
+    goto _loop;
+_end:
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]danneu 2 points3 points4 points 4 years ago* (0 children)
+
+Clojure
+
+The approach is pretty simple:
+
+Raw line     Parse                               Translate
+Mov [2] 0 -> [:mov [:address 2] [:literal 0]] -> 0x08 0x02 0x00
+
+The parsed format is used for the translation lookup in that big hashmap.
+
+(ns tiny.core
+  (:require [clojure.string
+             :refer [join lower-case split split-lines]]))
+
+(def translations
+  {[:and :address :address] 0x00
+   [:and :address :literal] 0x01
+   [:or :address :address] 0x02
+   [:or :address :literal] 0x03
+   [:xor :address :address] 0x04
+   [:xor :address :literal] 0x05
+   [:not :address] 0x06
+   [:mov :address :address] 0x07
+   [:mov :address :literal] 0x08
+   [:random :address] 0x09
+   [:add :address :address] 0x0a
+   [:add :address :literal] 0x0b
+   [:sub :address :address] 0x0c
+   [:sub :address :literal] 0x0d
+   [:jmp :address] 0x0e
+   [:jmp :literal] 0x0f
+   [:jz :address :address] 0x10
+   [:jz :address :literal] 0x11
+   [:jz :literal :address] 0x12
+   [:jz :literal :literal] 0x13
+   [:jeq :address :address :address] 0x14
+   [:jeq :literal :address :address] 0x15
+   [:jeq :address :address :literal] 0x16
+   [:jeq :literal :address :literal] 0x17
+   [:jls :address :address :address] 0x18
+   [:jls :literal :address :address] 0x19
+   [:jls :address :address :literal] 0x1a
+   [:jls :literal :address :literal] 0x1b
+   [:jgt :address :address :address] 0x1c
+   [:jgt :literal :address :address] 0x1d
+   [:jgt :address :address :literal] 0x1e
+   [:jgt :literal :address :literal] 0x1f
+   [:aprint :address] 0x20
+   [:aprint :literal] 0x21
+   [:dprint :address] 0x22
+   [:dprint :literal] 0x23
+   [:halt] 0xff})
+
+;; Parse ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defn parse-arg [arg]
+  (let [n (read-string (re-find #"\d" arg))]
+    (if (= (first arg) \[)
+      [:address n]
+      [:literal n])))
+
+(defn parse [line]
+  (let [[cmd & args] (split line #" ")]
+    (into [(keyword (lower-case cmd))]
+          (map parse-arg args))))
+
+;; Translate ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defn to-hex-string [n]
+  (str "0x" (.substring (Integer/toHexString (bit-or 0x100 n)) 1)))
+
+(defn translate [[cmd & args]]
+  (let [int-cmd (translations (into [cmd] (map first args)))]
+    (map to-hex-string (into [int-cmd] (map second args)))))
+
+;; Public ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defn convert-line [line]
+  (translate (parse line)))
+
+(defn convert-lines [lines]
+  (->> (split-lines lines)
+       (map convert-line)
+       (map (partial join " "))
+       (join #"\n")))
+
+Demo:
+
+(def sample
+"Mov [2] 0
+Mov [3] 0
+Jeq 6 [3] [1]
+Add [3] 1
+Add [2] [0]
+Jmp 2
+Mov [0] [2]
+Halt")
+
+(convert-lines sample)
+;; => 0x08 0x02 0x00
+;;    0x08 0x03 0x00
+;;    0x15 0x06 0x03 0x01
+;;    0x0b 0x03 0x01
+;;    0x0a 0x02 0x00
+;;    0x0f 0x02
+;;    0x07 0x00 0x02
+;;    0xff
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Osmandius 2 points3 points4 points 4 years ago (0 children)
+
+Rust 0.7
+
+My second attempt at Rust. Any feedback or advice would be greatly appreciated.
+
+use std::{io, uint};
+
+struct Instruction {
+    op: ~str, //The opcode
+    vals: ~[uint], //The hex value of the argument
+    address: ~[bool], //Whether or not the value is an address
+}
+
+impl Instruction {
+    fn new(instr: &[&str]) -> Instruction {
+        let name = instr[0].to_ascii().to_upper().to_str_ascii();
+        let mut v: ~[uint] = ~[];
+        let mut a: ~[bool] = ~[];
+
+        for instr.slice(1, instr.len()).iter().advance |arg| {
+            if arg.starts_with("[") {
+                v.push(uint::from_str(arg.trim_chars(& &['[', ']'])).unwrap());
+                a.push(true);
+            }
+
+            else {
+                v.push(uint::from_str(*arg).unwrap());
+                a.push(false);
+            }
+        }
+
+        Instruction{op: name, vals: v, address: a}
+    }
+}
+
+fn get_offset(a: &[bool]) -> uint {
+    match a {
+        [false] => 1,
+
+        [true, false] => 1,
+        [false, true] => 2,
+        [false, false] => 3,
+
+        [false, true, true] => 1,
+        [true, true, false] => 2,
+        [false, true, false] => 3,
+
+        _ => 0
+
+    }
+}
+
+fn main() {
+    let input = io::stdin().read_lines();
+
+    for input.iter().advance |line| {
+        let words = line.word_iter().collect::<~[&str]>();
+        let instr = Instruction::new(words);
+
+        let opcode: uint = match instr.op {
+            ~"AND"    => 0x00,
+            ~"OR"     => 0x02,
+            ~"XOR"    => 0x04,
+            ~"NOT"    => 0x06,
+            ~"MOV"    => 0x07,
+            ~"RANDOM" => 0x09,
+            ~"ADD"    => 0x0a,
+            ~"SUB"    => 0x0c,
+            ~"JMP"    => 0x0e,
+            ~"JZ"     => 0x10,
+            ~"JEQ"    => 0x14,
+            ~"JLS"    => 0x18,
+            ~"JGT"    => 0x1c,
+            ~"HALT"   => 0xff,
+            ~"APRINT" => 0x20,
+            ~"DPRINT" => 0x22,
+            _         => fail!("Invalid instruction")
+        } + get_offset(instr.address);
+
+        print(fmt!("0x%.2X ", opcode));
+
+        for instr.vals.iter().advance |val| {
+            print(fmt!("0x%.2X ", *val));
+        }
+
+        print("\n");
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]deds_the_scrub 2 points3 points4 points 4 years ago (0 children)
+
+Ok - here's my attempt in C.
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define MAX_INSTRUCTIONS 37
+
+typedef enum bool {
+  FALSE,
+  TRUE
+} Bool;
+
+typedef enum argument{
+  NONE,
+  ADDRESS,
+  LITERAL
+} Argument ;
+
+typedef struct instruction{
+  char * name;
+  Argument * args;
+  int opcode;
+} Instruction;
+
+ Argument aan[] = {ADDRESS,ADDRESS,NONE};
+ Argument ann[] = {ADDRESS,NONE,NONE};
+ Argument lnn[] = {LITERAL,NONE,NONE};
+ Argument lan[] = {LITERAL,ADDRESS,NONE};
+ Argument laa[] = {LITERAL,ADDRESS,ADDRESS};
+ Argument lal[] = {LITERAL,ADDRESS,LITERAL};
+ Argument lln[] = {LITERAL,LITERAL,NONE};
+ Argument aln[] = {ADDRESS,LITERAL,NONE};
+ Argument aaa[] = {ADDRESS,ADDRESS,ADDRESS};
+ Argument ala[] = {ADDRESS,LITERAL,ADDRESS};
+ Argument aal[] = {ADDRESS,ADDRESS,LITERAL};
+ Argument nnn[] = {NONE,NONE,NONE};
+
+
+Instruction instructions[] = {
+  {"AND", aan, 0x00},
+  {"AND", aln, 0x01},
+  {"OR",  aan, 0x02},
+  {"OR",  aln, 0x03},
+  {"XOR", aan, 0x04},
+  {"XOR", aln, 0x05},
+  {"NOT", ann, 0x06},
+  {"MOV", aan, 0x07},
+  {"MOV", aln, 0x08},
+  {"RANDOM",aan,0x09},
+  {"ADD",aan, 0x0a},
+  {"ADD",aln, 0x0b},
+  {"SUB",aan, 0x0c},
+  {"SUB",aln, 0x0d},
+  {"JMP",ann, 0x0e},
+  {"JMP",lnn, 0x0f},
+  {"JZ", aan, 0x10},
+  {"JZ", aln, 0x11},
+  {"JZ", lan, 0x12},
+  {"JZ", lln, 0x13},
+  {"JEQ",aaa, 0x14},
+  {"JEQ",laa, 0x15},
+  {"JEQ",aal, 0x16},
+  {"JEQ",lal, 0x17},
+  {"JLS",aaa,0x18},
+  {"JLS",laa,0x19},
+  {"JLS",aal,0x1a},
+  {"JLS",lal, 0x1b},
+  {"JGT",aaa,0x1c},
+  {"JGT",laa,0x1d},
+  {"JGT",aal,0x1e},
+  {"JGT",lal,0x1c},
+  {"HALT",nnn,0xff},
+  {"APRINT",ann,0x20},
+  {"APRINT",lnn,0x21},
+  {"DPRINT",ann,0x22},
+  {"DPRINT",lnn,0x23},
+  {NULL,nnn,0xff}
+};
+
+void error(int linenum) {
+  printf("!! ERROR line: %d!!\n",linenum);
+  exit(-1);
+}
+
+void print(int index, int args[3], int numargs) {
+  int i;
+  printf("0x%02X ",instructions[index].opcode);
+  for (i = 0; i<numargs; i++) {
+    printf("0x%02X ",args[i]);
+  }
+  printf("\n");
+}
+
+/* function that takes a string and converts all a-z characters to
+   uppercase.
+*/
+void strtoupper(char * str) {
+  while(*str) {
+    *str = (*str >= 'a' && *str <= 'z')? (*str - 'a') + 'A' : *str;
+    str++;
+  }
+}
+int match(int linenum, char * line) {
+  int i,j, numparm = 0;
+  char * cmd;
+  char * op;
+  Argument param[3] = {NONE,NONE,NONE};
+  int args[3] = {0,0,0};
+  strtoupper(line);
+
+  cmd = strtok(line, " ");
+
+  /* determine which parameters are addresses vs literals */
+  while( op = strtok(NULL," ")) {
+    if (op[0] == '[') {
+      param[numparm] = ADDRESS;
+      op++;
+      op[strlen(op)-1] = '\0';
+    } else {
+      param[numparm] = LITERAL;
+    }
+    args[numparm++] = atoi(op);
+  }
+
+  /* loop through all instructions and compare the operation */
+  for (i = 0; i < MAX_INSTRUCTIONS; i++) {
+    if (strcmp(instructions[i].name,cmd) != 0) continue;
+
+    for (j = 0; j < 3; j++) { /* when we found a match, see if it has the
+                                 correct arguments. Break when we've found
+                                 one that doesn't match. Proceed to next
+                                 instruction.
+                              */
+      if (param[j] != instructions[i].args[j]) {
+        break;
+      }
+    }
+    if (j == 3)  /* we matched each parameter type. */
+      break;
+  }
+  if (i == MAX_INSTRUCTIONS) {
+    error(linenum);
+  }
+  print(i,args,numparm);
+  return i;
+}
+
+int main(int argc, char ** argsv) {
+
+  FILE * fp = fopen(argsv[1],"r");
+  int maxline = 256;
+  char line[maxline];
+  int linenum = 0;
+  while (fgets(line, maxline-1, fp)) {
+    line[strlen(line)-1] = '\0'; /* take out the /n */
+    match(linenum++,line);
+  }
+  fclose(fp);
+  return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]agentultra 2 points3 points4 points 4 years ago (1 child)
+
+My entry in Common Lisp... you have to make the #:tiny package the current
+package in order for it to work (I haven't quite figured out how to make
+ASSEMBLE external... there's a catch with FIND-SYMBOL that I have to work
+around to fix this issue). However I'm pretty pleased with it:
+
+(defpackage #:tiny
+  (:use :cl)
+  (:export assemble))
+
+
+(in-package #:tiny)
+
+
+(defstruct (ref (:constructor make-ref (place)))
+  (place 0 :type integer))
+
+
+(defgeneric get-value-from (v))
+
+
+(defmethod get-value-from ((v ref))
+  (ref-place v))
+
+
+(defmethod get-value-from ((v integer))
+  v)
+
+
+(defmacro def-operator (name args &body specs)
+  `(progn (defgeneric ,name ,args)
+          ,@(loop for spec in specs collecting
+                 (let ((op-code (car spec))
+                       (arg-types (cdr spec)))
+                   `(defmethod ,name ,(mapcar #'list args arg-types)
+                      (format *standard-output* "~a ~{0x~2,'0X ~}"
+                              ,op-code
+                              (map 'list #'get-value-from (list ,@args))))))))
+
+
+(defmacro def-simple-operator (name op-1 op-2)
+  `(def-operator ,name (a b)
+     (,op-1 ref ref)
+     (,op-2 ref integer)))
+
+
+(defmacro def-complex-operator (name op1 op2 op3 op4)
+  `(def-operator ,name (x a b)
+     (,op1 ref ref ref)
+     (,op2 integer ref ref)
+     (,op3 ref ref integer)
+     (,op4 integer ref integer)))
+
+
+(def-simple-operator tiny-and "0x00" "0x01")
+(def-simple-operator tiny-or "0x02" "0x03")
+(def-simple-operator tiny-xor "0x04" "0x05")
+(def-operator tiny-not (a)
+  ("0x06" ref))
+(def-simple-operator tiny-mov "0x07" "0x08")
+(def-operator tiny-random (a)
+  ("0x09" ref))
+(def-simple-operator tiny-add "0x0a" "0x0b")
+(def-simple-operator tiny-sub "0x0c" "0x0d")
+(def-operator tiny-jmp (a)
+  ("0x0e" ref)
+  ("0x0f" integer))
+(def-operator tiny-jz (a b)
+  ("0x10" ref ref)
+  ("0x11" ref integer)
+  ("0x12" integer ref)
+  ("0x13" integer integer))
+(def-complex-operator tiny-jeq "0x14" "0x15" "0x16" "0x17")
+(def-complex-operator tiny-jls "0x18" "0x19" "0x1a" "0x1b")
+(def-complex-operator tiny-jgt "0x1c" "0x1d" "0x1e" "0x1f")
+(def-operator tiny-halt ()
+  ("0xFF"))
+(def-operator tiny-aprint (a)
+  ("0x20" ref)
+  ("0x21" integer))
+(def-operator tiny-dprint (a)
+  ("0x22" ref)
+  ("0x23" integer))
+
+
+(defun make-ref-reader (stream char)
+  (declare (ignore char))
+  (let ((v (read-delimited-list #\] stream t)))
+    (if (not (= (length v) 1))
+        (error "make-ref takes only a single value")
+        `(make-ref ,(first v)))))
+
+
+(set-macro-character #\[ #'make-ref-reader)
+(set-syntax-from-char #\] #\))
+
+
+(defun read-tiny (str)
+  (let* ((cmd (read (make-string-input-stream
+                     (concatenate 'string "(" str ")"))))
+         (cmd-sym (find-symbol
+                   (concatenate 'string "TINY-"
+                                (string-upcase (car cmd))))))
+    (if (not (null cmd-sym))
+        (cons cmd-sym (cdr cmd))
+        (error "Unrecognized tiny command"))))
+
+
+(defun assemble (path-to-file)
+  (with-open-file (in-stream path-to-file)
+    (with-open-file (*standard-output* (concatenate 'string path-to-file ".o") :direction :output :if-exists :supersede)
+      (loop for line = (read-line in-stream nil)
+         while line do
+           (let ((tiny-form (read-tiny line)))
+             (eval tiny-form))))))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]froydnj 0 points1 point2 points 4 years ago (0 children)
+
+You want to say (:export #:assemble) or (export :assemble) for things to work
+correctly.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]thisguyknowsc 2 points3 points4 points 4 years ago (0 children)
+
+Very data-driven implementation in C. Uses compound literals for compact
+description of the instruction set in data.
+
+#include <stdio.h>
+#include <string.h>
+
+enum operand { op_mem, op_imm };
+
+struct insn_encoding {
+    unsigned char opcode;
+    enum operand *operands;
+
+};
+#define ENC(o, ...)                 \
+    {                       \
+        .opcode     = o,            \
+        .operands   = (enum operand[]) {    \
+            __VA_ARGS__         \
+        },                  \
+    }
+
+struct insn {
+    const char name[6];
+    unsigned int nops;
+    unsigned int nbytes;
+    struct insn_encoding *ops;
+};
+#define INSN(n, o, b, ...)              \
+    {                       \
+        .name   = #n,               \
+        .nops   = o,                \
+        .nbytes = b,                \
+        .ops    = (struct insn_encoding[]) {    \
+            __VA_ARGS__         \
+        },                  \
+    }
+
+static struct insn insns[] = {
+    INSN(and, 2, 3,
+        ENC(0x00, op_mem, op_mem),
+        ENC(0x01, op_mem, op_imm)),
+    INSN(or, 2, 3,
+        ENC(0x02, op_mem, op_mem),
+        ENC(0x03, op_mem, op_imm)),
+    INSN(xor, 2, 3,
+        ENC(0x04, op_mem, op_mem),
+        ENC(0x05, op_mem, op_imm)),
+    INSN(not, 1, 2,
+        ENC(0x06, op_mem)),
+    INSN(mov, 2, 3,
+        ENC(0x07, op_mem, op_mem),
+        ENC(0x08, op_mem, op_imm)),
+    INSN(random, 1, 2,
+        ENC(0x09, op_mem)),
+    INSN(add, 2, 3,
+        ENC(0x0a, op_mem, op_mem),
+        ENC(0x0b, op_mem, op_imm)),
+    INSN(sub, 2, 3,
+        ENC(0x0c, op_mem, op_mem),
+        ENC(0x0d, op_mem, op_imm)),
+    INSN(jmp, 2, 2,
+        ENC(0x0e, op_mem),
+        ENC(0x0f, op_imm)),
+    INSN(jz, 4, 3,
+        ENC(0x10, op_mem, op_mem),
+        ENC(0x11, op_mem, op_imm),
+        ENC(0x12, op_imm, op_mem),
+        ENC(0x13, op_imm, op_imm)),
+    INSN(jeq, 4, 4,
+        ENC(0x14, op_mem, op_mem, op_mem),
+        ENC(0x15, op_imm, op_mem, op_mem),
+        ENC(0x16, op_mem, op_mem, op_imm),
+        ENC(0x17, op_imm, op_mem, op_imm)),
+    INSN(jls, 4, 4,
+        ENC(0x18, op_mem, op_mem, op_mem),
+        ENC(0x19, op_imm, op_mem, op_mem),
+        ENC(0x1a, op_mem, op_mem, op_imm),
+        ENC(0x1b, op_imm, op_mem, op_imm)),
+    INSN(jgt, 4, 4,
+        ENC(0x1c, op_mem, op_mem, op_mem),
+        ENC(0x1e, op_imm, op_mem, op_mem),
+        ENC(0x1e, op_mem, op_mem, op_imm),
+        ENC(0x1f, op_imm, op_mem, op_imm)),
+    INSN(halt, 1, 1,
+        ENC(0xff)),
+    INSN(aprint, 2, 2,
+        ENC(0x20, op_mem),
+        ENC(0x21, op_imm)),
+    INSN(dprint, 2, 2,
+        ENC(0x22, op_mem),
+        ENC(0x23, op_imm)),
+};
+
+static void output_insn(struct insn *insn)
+{
+    enum operand opertype[3];
+    struct insn_encoding *e;
+    unsigned int oper[3], i;
+
+    for (i = 0; i < insn->nops; i++)
+        if (scanf(" [%u]", &oper[i]))
+            opertype[i] = op_mem;
+        else if (scanf("%u", &oper[i]))
+            opertype[i] = op_imm;
+
+    for (i = 0; i < insn->nops; i++)
+        if (!memcmp(opertype, insn->ops[i].operands,
+                insn->nops * sizeof(enum operand)))
+            e = &insn->ops[i];
+
+    printf("0x%02X ", e->opcode);
+
+    for (i = 0; i < insn->nbytes - 1; i++)
+        printf("0x%02X ", oper[i]);
+
+    putchar('\n');
+}
+
+int main(int argc, char *argv[])
+{
+    unsigned int i;
+    char opcode[6];
+
+    while (scanf("%6s", opcode) != EOF)
+        for (i = 0; i < sizeof(insns)/sizeof(insns[0]); i++)
+            if (!strncasecmp(opcode, insns[i].name,
+                     sizeof(opcode)))
+                output_insn(&insns[i]);
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Elite68091 1 4 points5 points6 points 4 years ago* (22 children)
+
+I might be wrong here but the machine can't be Turing complete because it only
+has a limited amount of memory, can it? Therefore it's only a finite state
+machine. Not much of an expert on that though, correct me if I'm wrong. I know
+Brainfuck is Turing-complete if given an infinite tape size and Brainfuck could
+probably translated into this instruction set, however you stated a maximum
+memory size of 255 bytes.
+
+Still working on the solution, I just thought I'd say this.
+
+Edit: [DEL:In your example program you have a syntax error.:DEL]
+
+    Mov 0 [2]
+
+[DEL:That doesn't fit either of the two given formats. Which one is it meant to
+be? I'm presuming Mov [0] [2] judging from the output opcode (0x07.):DEL]
+
+Never mind, you fixed it.
+
+Edit 2: Solution complete, done in C# 5 (it would be a lot shorter if C# wasn't
+so verbose when it comes to dictionaries/maps and arrays):
+
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+
+namespace Challenge132
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            string data = File.ReadAllText(args[0]);
+            foreach (string line in data.Split(new string[] { Environment.NewLine },
+                StringSplitOptions.None))
+            {
+                string instruction = line.Trim();
+                if (instruction.Length > 0)
+                {
+                    byte[] assembled = new Instruction(instruction).ToByteArray();
+                    string res = String.Join(" ", assembled.Select<byte, string>((b) =>
+                        "0x" + b.ToString("X").PadLeft(2, '0')).ToArray());
+                    Console.WriteLine(res);
+                }
+            }
+            Console.ReadKey();
+        }
+    }
+
+    public struct Instruction
+    {
+        public static Dictionary<string, Signature[]> opcodes =
+            new Dictionary<string, Signature[]>()
+        {
+#region Opcode signature map
+            { "and", new[] {
+                    new Signature(0x00, true, true),
+                    new Signature(0x01, true, false) } },
+                { "or", new[] {
+                    new Signature(0x02, true, true),
+                    new Signature(0x03, true, false) } },
+                { "xor", new[] {
+                    new Signature(0x04, true, true),
+                    new Signature(0x05, true, false) } },
+                { "not", new[] {
+                    new Signature(0x06, true) } },
+                { "mov", new[] {
+                    new Signature(0x07, true, true),
+                    new Signature(0x08, true, false) } },
+                { "random", new[] {
+                    new Signature(0x09, true) } },
+                { "add", new[] {
+                    new Signature(0x0a, true, true),
+                    new Signature(0x0b, true, false) } },
+                { "sub", new[] {
+                    new Signature(0x0c, true, true),
+                    new Signature(0x0d, true, false) } },
+                { "jmp", new[] {
+                    new Signature(0x0e, true),
+                    new Signature(0x0f, false) } },
+                { "jz", new[] {
+                    new Signature(0x10, true, true),
+                    new Signature(0x11, true, false),
+                    new Signature(0x12, false, true),
+                    new Signature(0x13, false, false) } },
+                { "jeq", new[] {
+                    new Signature(0x14, true, true, true),
+                    new Signature(0x15, false, true, true),
+                    new Signature(0x16, true, true, false),
+                    new Signature(0x17, false, true, false) } },
+                { "jls", new[] {
+                    new Signature(0x18, true, true, true),
+                    new Signature(0x19, false, true, true),
+                    new Signature(0x1a, true, true, false),
+                    new Signature(0x1b, false, true, false) } },
+                { "jgt", new[] {
+                    new Signature(0x1c, true, true, true),
+                    new Signature(0x1d, false, true, true),
+                    new Signature(0x1e, true, true, false),
+                    new Signature(0x1f, false, true, false) } },
+                { "aprint", new[] {
+                    new Signature(0x20, true),
+                    new Signature(0x21, false) } },
+                { "dprint", new[] {
+                    new Signature(0x22, true),
+                    new Signature(0x23, false) } },
+                { "halt", new[] {
+                    new Signature(0xff) } }
+#endregion
+        };
+        public byte OpcodeValue { get; private set; }
+        public Operand[] Operands { get; private set; }
+
+        public Instruction(string s)
+            : this()
+        {
+            string[] sp = s.Split(' ');
+            string opcode = sp[0].ToLower();
+            int operandCount = sp.Length - 1;
+            bool[] operandSignature = new bool[operandCount];
+            Operands = new Operand[operandCount];
+            for (int i = 0; i < operandCount; i++)
+            {
+                Operands[i] = new Operand(sp[i + 1]);
+                operandSignature[i] = Operands[i].Pointer;
+            }
+            OpcodeValue = InstructionFromSignature(operandSignature, opcodes[opcode]);
+        }
+
+        public byte[] ToByteArray()
+        {
+            List<byte> array = new List<byte>();
+            array.Add(OpcodeValue);
+            foreach (Operand o in Operands)
+                array.Add(o.Data);
+            return array.ToArray();
+        }
+
+        private byte InstructionFromSignature(bool[] actual, params Signature[] list)
+        {
+            foreach (var sig in list)
+                if (sig.SignatureFormat.SequenceEqual(actual))
+                    return sig.ResultingOpcode;
+            throw new NotSupportedException(actual.Aggregate<bool, string>(
+                "No signature for:", (s, b) => s + " " + b.ToString()));
+        }
+    }
+
+    public struct Operand
+    {
+        public byte Data { get; private set; }
+        public bool Pointer { get; private set; }
+
+        public Operand(string s)
+            : this()
+        {
+            byte b;
+            if ((Byte.TryParse(s, out b)) || (s.StartsWith("[") && s.EndsWith("]") &&
+                    Byte.TryParse(s.Substring(1, s.Length - 2), out b)))
+            {
+                Data = b;
+                Pointer = s.StartsWith("[");
+            }
+            else
+            {
+                throw new FormatException("Not an operand: " + s);
+            }
+        }
+    }
+
+    public struct Signature
+    {
+        public byte ResultingOpcode { get; private set; }
+        public bool[] SignatureFormat { get; private set; }
+
+        public Signature(byte opcode, params bool[] format)
+            : this()
+        {
+            ResultingOpcode = opcode;
+            SignatureFormat = format;
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nint221 2[S] 3 points4 points5 points 4 years ago (9 children)
+
+Not sure; I believe Tiny is more powerful than a finite state machine, but
+clearly not a "true" true Turing Machine (because there isn't infinite memory),
+but then technical neither are modern computers. Tiny is, what I believe,
+Turing Equivalent.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]134671 1 5 points6 points7 points 4 years ago* (5 children)
+
+It can't be Turing complete -- there's a very simple proof: consider a Turing
+machine with 2^256×8+1 possible states. In order to keep track of the current
+state number, any simulation of this Turing machine would need (at least)
+256×8+1 bits of data. Since we have only 256×8 bits of data available, this is
+a Turing machine we can't simulate.
+
+EDIT: By the way, a Turing equivalent system is Turing-complete by definition.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nint221 2[S] 2 points3 points4 points 4 years ago (1 child)
+
+I think you're describing a literal Turing Machine. We're interested in the
+proof of Tiny being Turing Complete Equivalent.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]134671 1 4 points5 points6 points 4 years ago* (0 children)
+
+That Wikipedia article just links back to the "Turing completeness" one I
+linked to :(
+
+If you mean something like "virtually TC if it'd have enough space/unbounded
+cells": for some arbitrarily large 0 < a < t < b:
+
+  • Keep track of the current state in [0]
+  • The tape is "centered" on [t]
+  • State transition logic:
+      □ if [0] = 0:
+      □ * if [t] = 0: jmp transition.0.0
+      □ * if [t] = 1: jmp transition.0.1
+      □ * if [t] = 2: jmp transition.0.2
+      □ if [0] = 1:
+      □ * if [t] = 0: jmp transition.1.0
+      □ * if [t] = 1: jmp transition.1.1
+      □ * if [t] = 2: jmp transition.1.2
+      □ etc.
+  • Code at each transition address:
+      □ [0] = new state
+      □ [t] = new symbol
+  • If going right:
+      □ [a] = [a+1]
+      □ [a+1] = [a+2]
+      □ ...
+      □ [t-1] = [t]
+      □ [t] = [t+1]
+      □ [t+1] = [t+2]
+      □ ...
+      □ [b+1] = [b]
+      □ [b] = 0
+  • If going left:
+      □ [a] = 0
+      □ [a+1] = [a]
+      □ ...
+      □ [t-1] = [t-2]
+      □ [t] = [t-1]
+      □ [t+1] = [t]
+      □ ...
+      □ [b+1] = [b+2]
+      □ [b] = [b+1]
+  • Then jump back to state transition
+
+Basically, instead of moving a pointer around (which is impossible), you scroll
+the whole tape and keep reading from the same point in memory.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]novagenesis 1 point2 points3 points 4 years ago (2 children)
+
+Generally, memory constraints aren't discussed with turing completeness. Let's
+say you have C program that creates a boolean array of N+1 distinct states,
+where N is the total memory in bits available to the system. That program
+represents a turing machine that C could not simulate. Does that mean C is not
+turing complete?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]134671 1 0 points1 point2 points 4 years ago (1 child)
+
+Indeed it isn't, but not for the reason you mentioned:
+
+    An interesting example of this is the C programming language. The C
+    specification requires an integer result from sizeof() operator. The sizeof
+    () operator's result is an unsigned integer, of type size_t, for ANSI C, or
+    an int or long for traditional C. The range of these integers is bounded.
+    Since the sizeof() any object in a C implementation must be a finite size,
+    then C cannot be Turing-complete, because it cannot address an unbounded
+    storage space.
+
+Anyway, suppose C was able to address unbounded storage space somehow, then it
+would probably be TC -- the only thing keeping it from Turing-completeness in
+your example is the system, not the language itself. Tiny couldn't be TC
+because this 256-byte memory limit is "baked into" the language spec itself.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]novagenesis 1 point2 points3 points 4 years ago (0 children)
+
+Hmm.. I'm convinced. I'd give you a delta, but this isn't CMV ;)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]prophile 2 points3 points4 points 4 years ago (0 children)
+
+With a finite amount of memory, one can only implement a decider for a language
+if the language is regular.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Elite68091 1 1 point2 points3 points 4 years ago (1 child)
+
+Fair enough, in that case I'm not sure how to prove it. Updated my comment with
+a solution anyway.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]NegativeLatency 0 points1 point2 points 4 years ago (0 children)
+
+I believe you just need to implement the µ-recursive functions, or you could
+make a turing machine in tiny assembly language.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Elite68091 1 2 points3 points4 points 4 years ago (9 children)
+
+Okay, I think I have proof that this is Turing complete. It implements the
+Fibonacci sequence which is a mu-recursive function, which I believe qualifies
+this as a Turing complete language.
+
+MOV [0] 1      #00
+MOV [1] 1      #03
+DPRINT [1]     #06
+
+XOR [0] [1]    #08
+XOR [1] [0]    #11
+XOR [0] [1]    #14
+ADD [0] [1]    #17
+DPRINT [1]     #20
+
+JMP 8          #22
+
+(Ignore everything after the hashes, those are just comments of instruction
+addresses for readability.) It works by setting two bytes to 1, and then
+repeatedly {swapping their values (XOR swap), adding B to A, and printing B}.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nint221 2[S] 2 points3 points4 points 4 years ago (8 children)
+
+Can you elaborate a bit on how a μ-recursive functions, executing on a machine,
+guarantees that the machine is TM-equivalent?
+
+Ninja-edit: I read up on it a bit here and here. Looks like you've got a solid!
+I'm sure others might debate this a bit more intensely :-)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]tchakkazulu0 2 7 points8 points9 points 4 years ago* (5 children)
+
+Oh, I will debate, if only because I find theoretical CS and formal foundations
+of mathematics really interesting (though I'm not as good at it as I'd like to
+be... some day!).
+
+It's true, fibonacci is mu-recursive, but it belongs to the subset of primitive
+recursive functions, which do not need turing completeness to be computed. This
+is like saying "All real numbers are even, because 2 is even, and it's a real
+number". f(x) = 5 is also mu-recursive, according to the wikipage.
+
+A concrete counterexample: the LOOP (see wikipedia) language is not turing
+complete (it can't compute ackermann), yet it can compute the fibonacci
+function as follows:
+
+x_3 = x_3 + 1;
+LOOP x_1 DO
+  x_4 := x_2 + 0;
+  LOOP x_3 DO
+    x_4 := x_4 + 1;
+  END;
+  x_2 := x_3 + 0;
+  x_3 := x_4 + 0;
+END;
+x_0 = x_2;
+
+Starting with some value assigned to x_1, and all other variables set to 0,
+this will put fib(x_1) into variable x_0.
+
+The stack overflow post (second link /u/nint22 posted) mentions a way to prove
+Turing completeness with mu-recursive functions, though. Prove that the
+language can compute the primitive building blocks, and the way to compose
+them.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Elite68091 1 0 points1 point2 points 4 years ago (4 children)
+
+It appears you've obsoleted my gold. ;) So about the Turing machine simulation,
+does that mean the first bit of my initial post is correct? That because of the
+memory limitation (255 bytes), it can't be Turing complete? From what I'm
+seeing about the Ackermann function, depending on the size of the number, the
+amount of recursive calls could cause a stack overflow if the memory limit is
+too small.
+
+Thanks for correcting me, by the way - I used to dabble in esoteric languages
+and I could never get my head around what defined Turing-completeness.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]tchakkazulu0 2 3 points4 points5 points 4 years ago (3 children)
+
+Yes, that is true. But as /u/nint22 pointed out in another post, no actual
+machines can be Turing complete, because of physical limitations. I think the
+best you can go for is to go into the theoretical end and not care about bytes
+or hardware or whatever, and allow any natural number as constant or memory
+address. If you can prove that any mu-recursive function can be implemented
+with this infinitized-Tiny, then that'd be good enough.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Elite68091 1 0 points1 point2 points 4 years ago (2 children)
+
+Okay, assuming in this infinitized version of Tiny the unit size is also
+infinite, you could just translate Brainfuck programs across. The pointer can
+be incremented and decremented by using numbers and the value at the pointer
+could be incremented and decremented by using [numbers]. [ and ] in brainfuck
+are easily done with JEQ and JGT zero. The I/O are irrelevant.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]tchakkazulu0 2 3 points4 points5 points 4 years ago (1 child)
+
+And this is something that I've been wondering about. I'm assuming you store
+the pointer in M[0] or something. I can see how you would encode < and > (as
+SUB [0] 1 and ADD [0] 1 respectively), but how would you do + and -? They
+correspond to M[M[0]] = M[M[0]] + 1 and M[M[0]] = M[M[0]] - 1. I see no way to
+do a double-dereference, the equivalence of M[a] = M[M[b]], or even M[a] = M[M
+[a]].
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Elite68091 1 1 point2 points3 points 4 years ago (0 children)
+
+Hmm, good point. Either the 'pointer' would have to be managed differently, ie.
+not moving around but using constant references for variables, or Tiny would
+have to have some indirect addressing modes like that of the C64 added.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Elite68091 1 1 point2 points3 points 4 years ago (1 child)
+
+Hehe, both of those links are purple for me too. Thanks for the challenge -
+last time I wrote an assembler like this was for the DCPU-16 for 0x10c.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nint221 2[S] 0 points1 point2 points 4 years ago (0 children)
+
+I'm sad that Notch shelved 0x10c, but I understand his justifications.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Wedamm 1 point2 points3 points 4 years ago (1 child)
+
+Well, it isn't explicitly said how big one byte is. If a byte had infinite
+bits...
+
+But i assume we should just ignore the memory limits.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nint221 2[S] 0 points1 point2 points 4 years ago (0 children)
+
+Assume it's 8-bits per byte.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]IceDane0 0 6 points7 points8 points 4 years ago (1 child)
+
+Quoting Wikipedia:
+
+    To show that something is Turing complete, it is enough to show that it can
+    be used to simulate some Turing complete system. For example, an imperative
+    language is Turing complete if it has conditional branching (e.g., "if" and
+    "goto" statements, or a "branch if zero" instruction. See OISC) and the
+    ability to change arbitrary memory locations (e.g., the ability to maintain
+    an arbitrary number of variables). Since this is almost always the case,
+    most if not all imperative languages are Turing complete if we ignore any
+    limitations of finite memory.
+
+Is that proof enough?
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]lukz2 0 -1 points0 points1 point 4 years ago (0 children)
+
+Well, how are you going to show
+
+    the ability to maintain an arbitrary number of variables
+
+?
+
+The whole assembly language seems to be limited to 1-byte memory addresses to
+which it can only deposit 1-byte values.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Edward_H 1 point2 points3 points 4 years ago (0 children)
+
+My solution in COBOL, coming in at just under 250 lines of code. Judging by the
+detail of the descriptions, will the next challenge be to write an interpreter
+for the assembly?
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]MatthewASobol 1 point2 points3 points 4 years ago (0 children)
+
+My solution in Java. It's my first time using the ternary operator and I'm
+still learning basic java so just happy this works tbh...
+
+import java.io.*;
+
+public class TinyAssembler
+{
+
+    private String argToHexString(String arg)
+    {
+        if (this.hasBrackets(arg))
+        {
+            arg = this.stripBrackets(arg);
+        }
+        int num = Integer.parseInt(arg);
+        String str = "0x";
+        if (num < 16)
+        {
+            str += "0";
+        }
+        str += Integer.toHexString(num);
+        return str;
+    }
+
+    private boolean hasBrackets(String s)
+    {
+        return (s.contains("["));
+    }
+
+    private String stripBrackets(String s)
+    {
+        return s.substring(1, s.length()-1);
+    }
+
+    public void processInstructions(String instruction)
+    {
+        Scanner sc = new Scanner(instruction);
+        List<String> args = new ArrayList<>();
+        String assCode = "";
+        switch (sc.next().toLowerCase())
+        {
+            case "and":
+                args.add(sc.next()); args.add(sc.next());
+                assCode = (this.hasBrackets(args.get(1))) ? "0x00" : "0x01";
+                break;
+
+            case "or":
+                args.add(sc.next()); args.add(sc.next());
+                assCode = (this.hasBrackets(args.get(1))) ? "0x02" : "0x03";
+                break;
+
+            case "xor":
+                args.add(sc.next()); args.add(sc.next());
+                assCode = (this.hasBrackets(args.get(1))) ? "0x04" : "0x05";
+                break;
+
+            case "not":
+                args.add(sc.next());
+                assCode = "0x06";
+                break;
+
+            case "mov":
+                args.add(sc.next()); args.add(sc.next());
+                assCode = (this.hasBrackets(args.get(1))) ? "0x07" : "0x08";
+                break;
+
+            case "random":
+                args.add(sc.next());
+                assCode = "0x09";
+                break;
+
+            case "add":
+                args.add(sc.next()); args.add(sc.next());
+                assCode = (this.hasBrackets(args.get(1))) ? "0x0A" : "0x0B";
+                break;
+
+            case "sub":
+                args.add(sc.next()); args.add(sc.next());
+                assCode = (this.hasBrackets(args.get(1))) ? "0x0C" : "0x0D";
+                break;
+
+            case "jmp":
+                args.add(sc.next());
+                assCode = (this.hasBrackets(args.get(0))) ? "0x0E" : "0x0F";
+                break;
+
+            case "jz":
+                args.add(sc.next()); args.add(sc.next());
+                assCode = (this.hasBrackets(args.get(0))) ?
+                            (this.hasBrackets(args.get(1)) ? "0x10" : "0x11") :
+                                (this.hasBrackets(args.get(1)) ? "0x12" : "0x13");
+                break;
+
+            case "jeq":
+                args.add(sc.next()); args.add(sc.next()); args.add(sc.next());
+                assCode = (this.hasBrackets(args.get(0))) ?
+                            (this.hasBrackets(args.get(2)) ? "0x14" : "0x16") :
+                                (this.hasBrackets(args.get(2)) ? "0x15" : "0x17");
+                break;
+
+            case "jls":
+                args.add(sc.next()); args.add(sc.next()); args.add(sc.next());
+                assCode = (this.hasBrackets(args.get(0))) ?
+                            (this.hasBrackets(args.get(2)) ? "0x18" : "0x1A") :
+                                (this.hasBrackets(args.get(2)) ? "0x19" : "0x1B");
+                break;
+
+            case "jgt":
+                args.add(sc.next()); args.add(sc.next()); args.add(sc.next());
+                assCode = (this.hasBrackets(args.get(0))) ?
+                            (this.hasBrackets(args.get(2)) ? "0x1C" : "0x1E") :
+                                (this.hasBrackets(args.get(2)) ? "0x1D" : "0x1F");
+                break;
+
+            case "halt":
+                assCode = "0xFF";
+                break;
+
+            case "aprint":
+                args.add(sc.next());
+                assCode = (this.hasBrackets(args.get(0))) ? "0x20" : "0x21";
+                break;
+
+            case "dprint":
+                args.add(sc.next());
+                assCode = (this.hasBrackets(args.get(0))) ? "0x22" : "0x23";
+                break;
+
+            default:
+                assCode = "UNKNOWN INSTRUCTION: " + instruction;
+        }
+        for (String arg : args)
+        {
+            assCode += " " + this.argToHexString(arg);
+        }
+         System.out.println(assCode);
+    }
+
+    public static void main(String argv[])
+    {
+        TinyAssembler tinyAssembler = new TinyAssembler();
+        try (BufferedReader br = new BufferedReader(new FileReader("test.asm")))
+        {
+            Scanner lineScanner = new Scanner(br);
+            while (lineScanner.hasNextLine())
+            {
+                tinyAssembler.processInstructions(lineScanner.nextLine());
+            }
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]missblit 1 point2 points3 points 4 years ago (0 children)
+
+C++
+
+#include <cctype>
+#include <iostream>
+#include <vector>
+#include <sstream>
+#include <string>
+#include <map>
+#include <cassert>
+using namespace std;
+
+enum MNEM : unsigned char {
+    AND = 0x00,  OR     = 0x02,  XOR    = 0x04,  NOT  = 0x06,
+    MOV = 0x07,  RANDOM = 0x09,  ADD    = 0x0A,  SUB  = 0x0C,
+    JMP = 0x0E,  JZ     = 0x10,  JEQ    = 0x14,  JLS  = 0x18,
+    JGT = 0x1C,  APRINT = 0x20,  DPRINT = 0x22,  HALT = 0xFF
+};
+
+map<string, MNEM> mnems {
+    {"AND", AND}, {"OR", OR}, {"XOR", XOR}, {"NOT", NOT}, {"MOV", MOV},
+    {"RANDOM", RANDOM}, {"ADD", ADD}, {"SUB", SUB}, {"JMP", JMP}, {"JZ", JZ},
+    {"JEQ", JEQ}, {"JLS", JLS}, {"JGT", JGT}, {"HALT", HALT},
+    {"APRINT", APRINT}, {"DPRINT", DPRINT},
+};
+
+struct operand {
+    bool indirect;
+    unsigned char value;
+    operator unsigned char() const { return value; }
+};
+
+class Instruction {
+public:
+    Instruction(const string& str);
+    vector<unsigned char> to_opcode() const;
+
+private:
+    MNEM mnemonic;
+    vector<operand> ops;
+};
+
+Instruction::Instruction(const string& str) {
+    stringstream ss(str);
+
+    string m_str;
+    ss >> m_str;
+    this->mnemonic = mnems[m_str];
+
+    string op_str;
+    while(ss >> op_str) {
+        operand op;
+        op.indirect = (op_str[0] == '[');
+        stringstream val_ss( op_str.substr( op.indirect ) );
+        int value;
+        val_ss >> value;
+        op.value = value;
+        this->ops.push_back(op);
+    }
+}
+
+vector<unsigned char> Instruction::to_opcode() const {
+    unsigned char opcode;
+    switch(mnemonic) {
+    //zero operands or one operand w/o addressing mode option
+    case HALT: case NOT: case RANDOM:
+        opcode = mnemonic;
+        break;
+
+    //one operand w/ addressing mode option
+    case JMP: case APRINT: case DPRINT:
+        opcode = mnemonic + !ops[0].indirect;
+        break;
+
+    //standard two operands
+    case AND: case OR: case XOR: case MOV: case ADD: case SUB:
+        opcode = mnemonic + !ops[1].indirect;
+        break;
+
+    //two operands, conditional mnemonics
+    case JZ: case JEQ: case JLS: case JGT:
+        opcode = mnemonic +!ops[0].indirect + 2*!ops[2].indirect;
+        break;
+
+    default:
+        assert(false);
+        break;
+    }
+    vector<unsigned char> res = {opcode};
+    res.insert(res.end(), ops.begin(), ops.end());
+    return res;
+}
+
+int main() {
+    string line;
+    while(getline(cin,line)) {
+        for(char& c : line)
+            c = toupper(c);
+        auto bytes = Instruction( line ).to_opcode();
+        for(auto byte : bytes) {
+            cout << hex << int(byte) << " ";
+        }
+        cout << "\n";
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jimauthors 1 point2 points3 points 4 years ago (0 children)
+
+My solution in Python 2
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]atomic_cheese 1 point2 points3 points 4 years ago (0 children)
+
+Here's my Haskell solution. I'm trying to learn the language, so I'd appreciate
+any comments on my code or suggestions on how I could improve it.
+
+import Numeric
+import Data.Char
+import Data.List
+import Data.Word
+import Data.Either
+import Text.Regex.PCRE
+import Control.Applicative
+
+expressions :: [((String, [Bool]), Word8)]
+expressions = [
+    (("and",    [True,  True]),     0x00),
+    (("and",    [True,  False]),        0x01),
+    (("or",     [True,  True]),     0x02),
+    (("or",     [True,  False]),        0x03),
+    (("xor",    [True,  True]),     0x04),
+    (("xor",    [True,  False]),        0x05),
+    (("not",    [True]),            0x06),
+    (("mov",    [True,  True]),     0x07),
+    (("mov",    [True,  False]),        0x08),
+    (("random", [True]),            0x09),
+    (("add",    [True,  True]),     0x0a),
+    (("add",    [True,  False]),        0x0b),
+    (("sub",    [True,  True]),     0x0c),
+    (("sub",    [True,  False]),        0x0d),
+    (("jmp",    [True]),            0x0e),
+    (("jmp",    [False]),           0x0f),
+    (("jz",     [True,  True]),     0x10),
+    (("jz",     [True,  False]),        0x11),
+    (("jz",     [False, True]),     0x12),
+    (("jz",     [False, False]),        0x13),
+    (("jeq",    [True, True, True]),        0x14),
+    (("jeq",    [False, True, True]),       0x15),
+    (("jeq",    [True, True, False]),       0x16),
+    (("jeq",    [False, True, False]),      0x17),
+    (("jls",    [True, True, True]),        0x18),
+    (("jls",    [False, True, True]),       0x19),
+    (("jls",    [True, True, False]),       0x1a),
+    (("jls",    [False, True, False]),      0x1b),
+    (("jgt",    [True, True, True]),        0x1c),
+    (("jgt",    [False, True, True]),       0x1d),
+    (("jgt",    [True, True, False]),       0x1e),
+    (("jgt",    [False, True, False]),      0x1f),
+    (("halt", []),              0xff),
+    (("aprint", [True]),            0x20),
+    (("aprint", [False]),           0x21),
+    (("dprint", [True]),            0x22),
+    (("dprint", [False]),           0x23)]
+
+data InsnLine = InsnLine Int String [(Bool,Word8)]
+data AssemblyError = AssemblyError String Int deriving Show
+
+splitLine :: String -> String
+splitLine = unwords . filter (not . null) . words
+
+parseLine :: Int -> String -> Either AssemblyError InsnLine
+parseLine n l = InsnLine n <$> insn <*> args
+    where
+        matchRE = "([a-zA-Z]+)\\s*((?:\\[\\d+\\])|(?:\\d+))?\\s*((?:\\[\\d+\\])|(?:\\d+))?\\s*((?:\\[\\d+\\])|(?:\\d+))?"
+        insn = map toLower <$> head <$> translatedMatch
+        args :: Either AssemblyError [(Bool,Word8)]
+        args = map parseArgument <$> filter (not . null) <$> tail <$> translatedMatch
+        filtered = splitLine l
+        matched :: Maybe (String,String,String,[String])
+        matched = filtered =~~ matchRE
+        translatedMatch :: Either AssemblyError [String]
+        translatedMatch = case matched of
+            Nothing -> Left $ AssemblyError "Unable to parse line" n
+            Just (_,_,_,x) -> Right x
+        parseArgument :: String -> (Bool,Word8)
+        parseArgument s = (isDereference, toEnum numericPart)
+            where
+                isDereference :: Bool
+                isDereference = s =~ "\\[\\d+\\]"
+                numericPart :: Int
+                numericPart = read ((s =~ "\\d+") :: String)
+
+encodeLine :: InsnLine -> Either AssemblyError [Word8]
+encodeLine (InsnLine lnum iname params) = case opcode of
+    Nothing -> Left $ AssemblyError "Cannot find instruction encoding" lnum
+    Just c -> Right $ c : content
+    where
+        opcode = lookup (iname, map fst params) expressions
+        content = map snd params
+
+assembleLine :: Int -> String -> Either AssemblyError [Word8]
+assembleLine n s = parseLine n s >>= encodeLine
+
+assemble :: String -> Either [AssemblyError] [Word8]
+assemble code = joinEithers assemblyActions
+    where
+        numbered = snd $ mapAccumL (\a x->(a+1,(a,x))) 1 $ lines code
+        nonblank = filter (not . null . snd) numbered
+        assemblyActions = map (uncurry assembleLine) nonblank
+        joinEithers es = if null $ lefts es then Right $ concat $ rights es else Left $ lefts es
+
+printAsHex :: [Word8] -> IO ()
+printAsHex = putStrLn . toHex
+    where
+        octets = map (pad . showHex . fromEnum)
+        toHex :: [Word8] -> String
+        toHex = unlines . map unwords . cluster' 20 . cluster 2 . octets
+        pad s   | len < 2 = replicate (2 - len) '0' ++ s ""
+            | otherwise = s ""
+            where
+                len = length $ s ""
+        cluster n = map concat . cluster' n
+        cluster' n xs   | null xs = [[]]
+                | otherwise = take n xs : cluster' n (drop n xs)
+
+printErrors :: [AssemblyError] -> String
+printErrors errs = intercalate "\n\t" $ map showErr errs
+    where
+        showErr (AssemblyError e line) = show line ++ ": " ++ e
+
+main :: IO ()
+main = do
+    input <- getContents
+    case assemble input of
+        Left errs -> putStrLn "The following errors occurred during assembly:" >>
+            putStrLn ('\n' : printErrors errs)
+        Right bytes -> printAsHex bytes
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Seus2k11 1 point2 points3 points 4 years ago (0 children)
+
+Here's my ruby solution. It made more sense in my head to use regex matching,
+while not as elegant as some of the dictionary style solutions, I got it to
+work for my application. I could also incorporate some level of error handling
+as well if there are no matches for an instruction. Any hints or tips are
+appreciated as I'm still constantly working on my ruby skills.
+
+class Assembler
+
+  @@instructions = {
+    'AND\s+\\[(\d+)\\]\s+\\[?(\d+)\\]?'               => "0x00",  # AND [0] [0]
+    'AND\s+\\[(\d+)\\]\s+(\d+)'                       => "0x01",  # AND [0] 0
+    'OR\s+\\[(\d+)\\]\s+\\[?(\d+)\\]?'                => "0x02",  # OR [0] [0]
+    'OR\s+\\[(\d+)\\]\s+(\d+)'                        => "0x03",  # OR [0] 0
+    'XOR\s+\\[(\d+)\\]\s+\\[?(\d+)\\]?'               => "0x04",  # XOR [0] [0]
+    'XOR\s+\\[(\d+)\\]\s+(\d+)'                       => "0x05",  # XOR [0] 0
+    'NOT\s+\\[(\d+)\\]'                               => "0x06",  # NOT [0]
+    'MOV\s+\\[(\d+)\\]\s+\\[(\d+)\\]'                 => "0x07",  # MOV [0] [0]
+    'MOV\s+\\[(\d+)\\]\s+(\d+)'                       => "0x08",  # MOV [0] 0
+    'RANDOM\s+\\[(\d+)\\]'                            => "0x09",  # RANDOM [0]
+    'ADD\s+\\[(\d+)\\]\s+\\[(\d+)\\]'                 => "0x0A",  # ADD [0] [0]
+    'ADD\s+\\[(\d+)\\]\s+(\d+)'                       => "0x0B",  # ADD [0] 0
+    'SUBTRACT\s+\\[(\d+)\\]\s+\\[(\d+)\\]'            => "0x0C",  # SUBTRACT [0] [0]
+    'SUBTRACT\s+\\[(\d+)\\]\s+(\d+)'                  => "0x0D",  # SUBTRACT [0] 0
+    'JMP\s+\\[(\d+)\\]'                               => "0x0E",  # JMP [0]
+    'JMP\s+(\d+)'                                     => "0x0F",  # JMP 0
+    'JZ\s+\\[(\d+)\\]\s+\\[(\d+)\\]'                  => "0x10",  # JZ [x] [0]
+    'JZ\s+\\[(\d+)\\]\s+(\d+)'                        => "0x11",  # JZ [x] 0
+    'JZ\s+(\d+)\s+\\[(\d+)\\]'                        => "0x12",  # JZ x [0]
+    'JZ\s+(\d+)\s+(\d+)'                              => "0x13",  # JZ x 0
+    'JEQ\s+\\[(\d+)\\]\s+\\[(\d+)\\]\s+\\[(\d+)\\]'   => "0x14",  # JEQ [x] [0] [0]
+    'JEQ\s+(\d+)\s+\\[(\d+)\\]\s+\\[(\d+)\\]'         => "0x15",  # JEQ x [0] [0]
+    'JEQ\s+\\[(\d+)\\]\s+\\[(\d+)\\]\s+(\d+)'         => "0x16",  # JEQ [x] [0] 0
+    'JEQ\s+(\d+)\s+\\[(\d+)\\]\s+(\d+)'               => "0x17",  # JEQ x [0] 0
+    'JLS\s+\\[(\d+)\\]\s+\\[(\d+)\\]\s+\\[(\d+)\\]'   => "0x18",  # JLS [x] [0] [0]
+    'JLS\s+(\d+)\s+\\[(\d+)\\]\s+\\[(\d+)\\]'         => "0x19",  # JLS x [0] [0]
+    'JLS\s+\\[(\d+)\\]\s+\\[(\d+)\\]\s+(\d+)'         => "0x1A",  # JLS [x] [0] 0
+    'JLS\s+(\d+)\s+\\[(\d+)\\]\s+(\d+)'               => "0x1B",  # JLS x [0] 0
+    'JGT\s+\\[(\d+)\\]\s+\\[(\d+)\\]\s+\\[(\d+)\\]'   => "0x1C",  # JGT [x] [0] [0]
+    'JGT\s+(\d+)\s+\\[(\d+)\\]\s+\\[(\d+)\\]'         => "0x1D",  # JGT x [0] [0]
+    'JGT\s+\\[(\d+)\\]\s+\\[(\d+)\\]\s+(\d+)'         => "0x1E",  # JGT [x] [0] 0
+    'JGT\s+(\d+)\s+\\[(\d+)\\]\s+(\d+)'               => "0x1F",  # JGT x [0] 0
+    'HALT'                                            => "0xFF",
+    'APRINT\s+\\[(\d+)\\]'                            => "0x20",
+    'APRINT\s+(\d+)'                                  => "0x21",
+    'DPRINT\s+\\[(\d+)\\]'                            => "0x22",
+    'DPRINT\s+(\d+)'                                  => "0x23",
+  }
+
+  def instruction_lookup(line)
+    output = ""
+
+    @@instructions.each do |key, value|
+        regex = Regexp.new(key, true)
+
+        matches = regex.match(line)
+
+        if matches
+          output << "#{value} "
+
+          matches.captures.each do |match|
+
+            output << sprintf("0x%02X ", match)
+
+          end
+        else
+          # error handling ??
+        end
+      end
+      puts output
+  end
+
+  def process(input)
+    lines = input.split("\n")
+
+    lines.each do |line|
+      instruction_lookup(line)
+    end
+
+  end
+
+end
+
+assembler = Assembler.new
+
+assembler.process("MOV [2] 0
+MOV [3] 0
+JEQ 6 [3] [1]
+ADD [3] 1
+ADD [2] [0]
+JMP 2
+MOV [0] [2]
+HALT
+  ")
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]objective_fun 1 point2 points3 points 4 years ago* (0 children)
+
+Here's some Scala. I'm pretty new to the language so if anyone can give me any
+tips that'd be great.
+
+import scala.io.Source
+
+object Assembler {
+
+  abstract class Operand(val hexValue: String)
+  case class Address(h: String) extends Operand(h)
+  case class Literal(h: String) extends Operand(h)
+
+  def convertToHexString(intString: String): String = {
+    val intVal = intString.toInt
+    intToHexString(intVal)
+  }
+
+  def intToHexString(i: Int): String = {
+    val prefix = if (i < 16) "0x0"  else "0x"
+    prefix + i.toHexString
+  }
+
+  def parseOperand(operand: String): Operand = {
+    if (operand.startsWith("[")) {
+      def removeAddressBrackets(operandString: String) = operandString.drop(1).dropRight(1)
+
+      val operandValueString = removeAddressBrackets(operand)
+      val hexAddressValue = convertToHexString(operandValueString)
+      new Address(hexAddressValue)
+    }
+    else {
+      val hexLiteralValue = convertToHexString(operand)
+      new Literal(hexLiteralValue)
+    }
+  }
+
+  def assembleOpcode(instruction: String, operandList: List[Operand]): Int = instruction match {
+
+    case "AND" => operandList match {
+      case Address(_) :: Address(_) :: Nil => 0x00
+      case Address(_) :: Literal(_) :: Nil => 0x01
+    }
+
+    case "OR" => operandList match {
+      case Address(_) :: Address(_) :: Nil => 0x02
+      case Address(_) :: Literal(_) :: Nil => 0x03
+    }
+
+    case "XOR" => operandList match {
+      case Address(_) :: Address(_) :: Nil => 0x04
+      case Address(_) :: Literal(_) :: Nil => 0x05
+    }
+
+    case "NOT" => operandList match {
+      case Address(_) :: Nil => 0x06
+    }
+
+    case "MOV" => operandList match {
+      case Address(_) :: Address(_) :: Nil => 0x07
+      case Address(_) :: Literal(_) :: Nil => 0x08
+    }
+
+    case "RANDOM" => operandList match {
+      case Address(_) :: Nil => 0x09
+    }
+
+    case "ADD" => operandList match {
+      case Address(_) :: Address(_) :: Nil => 0x0a
+      case Address(_) :: Literal(_) :: Nil => 0x0b
+    }
+
+    case "SUB" => operandList match {
+      case Address(_) :: Address(_) :: Nil => 0x0c
+      case Address(_) :: Literal(_) :: Nil => 0x0d
+    }
+
+    case "JMP" => operandList match {
+      case Address(_) :: Nil => 0x0e
+      case Literal(_) :: Nil => 0x0f
+    }
+
+    case "JZ" => operandList match {
+      case Address(_) :: Address(_) :: Nil => 0x10
+      case Address(_) :: Literal(_) :: Nil => 0x11
+      case Literal(_) :: Address(_) :: Nil => 0x12
+      case Literal(_) :: Literal(_) :: Nil => 0x13
+    }
+
+    case "JEQ" => operandList match {
+      case Address(_) :: Address(_) :: Address(_) :: Nil => 0x14
+      case Literal(_) :: Address(_) :: Address(_) :: Nil => 0x15
+      case Address(_) :: Address(_) :: Literal(_) :: Nil => 0x16
+      case Literal(_) :: Address(_) :: Literal(_) :: Nil => 0x17
+    }
+
+    case "JLS" => operandList match {
+      case Address(_) :: Address(_) :: Address(_) :: Nil => 0x18
+      case Literal(_) :: Address(_) :: Address(_) :: Nil => 0x19
+      case Address(_) :: Address(_) :: Literal(_) :: Nil => 0x1a
+      case Literal(_) :: Address(_) :: Literal(_) :: Nil => 0x1b
+    }
+
+    case "JGT" => operandList match {
+      case Address(_) :: Address(_) :: Address(_) :: Nil => 0x1c
+      case Literal(_) :: Address(_) :: Address(_) :: Nil => 0x1d
+      case Address(_) :: Address(_) :: Literal(_) :: Nil => 0x1e
+      case Literal(_) :: Address(_) :: Literal(_) :: Nil => 0x1f
+    }
+
+    case "HALT" => 0xff
+
+    case "APRINT" => operandList match {
+      case Address(_) :: Nil => 0x20
+      case Literal(_) :: Nil => 0x21
+    }
+
+    case "DPRINT" => operandList match {
+      case Address(_) :: Nil => 0x22
+      case Literal(_) :: Nil => 0x23
+    }
+
+  }
+
+  def assembleStatement(statement: String): String = {
+    val splitStatement = statement split " "
+
+    val instruction = splitStatement(0).toUpperCase()
+
+    val operandStringList = splitStatement.drop(1).toList
+    val operandList = operandStringList map parseOperand
+
+    val opcode = assembleOpcode(instruction, operandList)
+
+    val hexOpcode = intToHexString(opcode)
+    val hexOperandList = operandList.map(_.hexValue)
+
+    hexOpcode + " " + hexOperandList.mkString(" ")
+  }
+
+  def main(args: Array[String]) = {
+    val assemblyFilePath = args(0)
+    val assemblyFileLines = Source.fromFile(assemblyFilePath).getLines
+
+    assemblyFileLines foreach ( line => println(assembleStatement(line)) )
+  }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]KompjoeFriek1 0 1 point2 points3 points 4 years ago (0 children)
+
+My first submission, straight-forward solution in C C++ PHP and JS: http://
+home.kompjoefriek.nl/reddit/132/
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Sandor_at_the_Zoo 1 point2 points3 points 4 years ago (3 children)
+
+Haskell. After a few rounds of simplifying I rather like it. I'm still learning
+Haskell, so any comments would be appreciated.
+
+import qualified Data.Map as Map
+import System.IO
+import Data.Char(toLower)
+import Numeric
+
+unadict = Map.fromList [("not", 6), ("random", 9), ("jmp", 14), ("aprint", 32), ("dprint", 34)]
+bindict = Map.fromList [("and", 0), ("or", 2), ("xor", 4), ("mov", 7), ("add", 10), ("sub", 12), ("jz", 16)]
+tridict = Map.fromList [("jeq", 20), ("jls", 24), ("jgt", 28)]
+dictdict = Map.fromList [(1, unadict), (2, bindict), (3, tridict)]
+
+padl n c s = replicate (n-length s) c ++ s
+unref r = "0x" ++ padl 2 '0' num
+         where num = if '[' `elem` r then (reverse $ tail $ reverse $ tail r) else r
+format code n args = unwords $ (unref $ showHex (code+n) ""):args
+
+convertWord :: [String] -> String
+convertWord [o] = "0xff"
+convertWord (o:args) = format code (getOffset args) (map unref args)
+  where code = (dictdict Map.! (length args)) Map.! (map toLower o)
+        getOffset args
+          | length args == 1 = (if '[' `elem` args!!0 then 0 else 1)
+          | length args == 2 = (if '[' `elem` args!!0 then 0 else 2) + (if '[' `elem` args!!1 then 0 else 1)
+          | length args == 3 = (if '[' `elem` args!!2 then 0 else 2) + (if '[' `elem` args!!1 then 0 else 1)
+
+main = do
+  let inpN = "code.tiny"
+  inph <- openFile inpN ReadMode
+  raw <- hGetContents inph
+  mapM_ (\l -> putStrLn $ convertWord $ words l) (lines raw)
+  hClose inph
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 4 years ago (2 children)
+
+[deleted]
+
+[–]Sandor_at_the_Zoo 0 points1 point2 points 4 years ago (1 child)
+
+Thanks, I felt like that should be in there somewhere. For all that its a newer
+language, I'm continually impressed how much library code there is.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]mongreldog 0 points1 point2 points 4 years ago (0 children)
+
+Its actually been around for quite some time. The first version of Haskell came
+out in 1990.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 1 point2 points3 points 4 years ago (0 children)
+
+Java - very dirty
+
+ ArrayList<String> code = new ArrayList();
+
+JsonObject codes = new JsonObject();
+
+public TinyAssembler135(){
+    //Read file and put each line into an arraylist
+    readFile();
+
+
+    //Create JSON Object with the OP codes
+
+    //Logic
+    codes.add("and",json("[0x00,0x01]"));
+    codes.add("or",json("[0x02,0x03]"));
+    codes.add("xor",json("[0x04,0x05]"));
+    codes.add("not",json("0x06"));
+    //Memory
+    codes.add("mov",json("[0x07,0x08]"));
+    //Math
+    codes.add("random",json("0x09"));
+    codes.add("add",json("[0x0a,0x0b]"));
+    codes.add("sub",json("[0x0c,0x0d]"));
+    //Control
+    codes.add("jmp",json("[0x0e,0x0f]"));
+    codes.add("jz",json("[0x10,0x11,0x12,0x13]"));
+    codes.add("jeq",json("[0x14,0x15,0x16,0x17]"));
+    codes.add("jls",json("[0x18,0x19,0x1a,0x1b]"));
+    codes.add("jgt",json("[0x1c,0x1d,0x1e,0x1f]"));
+    codes.add("halt",json("0xff"));
+    //Utilities
+    codes.add("aprint",json("[0x20,0x21,0x22,0x23]"));
+
+
+    //Parse each line
+    for(int x=0;x<code.size();x++){
+        System.out.println(parse(code.get(x)));
+    }
+
+
+
+}
+
+
+private String parse(String codeLine){
+    StringBuilder parsedStr = new StringBuilder("");
+    //Split string at spaces
+    String[] split = codeLine.split("\\s+");
+    //Get the function name
+    String func = split[0];
+    if(func.equals("and")){
+        if(split[2].contains("[")){
+            parsedStr.append(codes.get("and").getAsJsonArray().get(1)).append(" ");
+        }else{
+            parsedStr.append(codes.get("and").getAsJsonArray().get(0)).append(" ");
+        }
+
+        parsedStr.append(format(Integer.toHexString(Integer.parseInt(split[1].replace("[","").replace("]",""))))).append(" ");
+        parsedStr.append(format(Integer.toHexString(Integer.parseInt(split[2].replace("[","").replace("]",""))))).append(" ");
+    }else if(func.equals("or")){
+
+    }//So on and so on
+
+    return parsedStr.toString();
+}
+
+
+private String format(String hex){
+    StringBuilder sb = new StringBuilder("");
+    if(Integer.parseInt(hex,16) < 16){
+        sb.append("0x0").append(hex);
+    }else{
+        sb.append("0x").append(hex);
+    }
+    return sb.toString();
+}
+
+
+
+
+JsonParser p = new JsonParser();
+private JsonElement json(String input){
+    return p.parse(input);
+}
+
+//Use this read file for future reference, works perfectly
+public void readFile(){
+    try {
+        BufferedReader in = new BufferedReader(new FileReader(getClass().getClassLoader().getResource("tinycode/code").getFile()));
+        String str;
+        while ((str = in.readLine()) != null){
+            code.add(str.toLowerCase());
+        }
+
+        in.close();
+    } catch (IOException e) {
+        System.out.println(e.toString());
+    }
+}
+
+  • permalink
+  • embed
+  • save
+
+[–]monumentshorts 1 point2 points3 points 4 years ago* (0 children)
+
+F# version, using FParsec to parse the string. I did this so I could have nice
+strong types representing the syntax tree. It's longer than I wanted, but most
+of it is just data declarations
+
+open System
+open FParsec
+
+type Operand =
+    | Literal of int32
+    | Address of int32
+
+type OpCodes =
+    | AND of Operand list
+    | OR  of Operand list
+    | XOR of Operand list
+    | NOT of Operand list
+    | MOV of Operand list
+    | RANDOM of Operand list
+    | ADD of Operand list
+    | SUB of Operand list
+    | JMP of Operand list
+    | JZ of Operand list
+    | JEQ of Operand list
+    | JLS of Operand list
+    | JGT of Operand list
+    | HALT
+    | APRINT of Operand list
+    | DPRINT of Operand list
+
+let literal = spaces >>. pint32 |>> Literal
+
+let addressOf = pstring "[" >>. spaces >>. pint32  .>> spaces .>> pstring "]" |>> Address
+
+let lineDelim = newline <|> (eof >>= fun _ -> preturn ' ' )
+
+let operands = manyTill (spaces >>. choice[addressOf; literal]) lineDelim
+
+let ``and`` = pstring "and"     >>. operands |>> AND
+let ``or`` = pstring "or"       >>. operands |>> OR
+let ``xor`` = pstring "xor"     >>. operands |>> XOR
+let ``not`` = pstring "not"     >>. operands |>> NOT
+let mov = pstring "mov"         >>. operands |>> MOV
+let random = pstring "random"   >>. operands |>> RANDOM
+let add = pstring "add"         >>. operands |>> ADD
+let sub = pstring "sub"         >>. operands |>> SUB
+let jmp = pstring "jmp"         >>. operands |>> JMP
+let jz = pstring "jz"           >>. operands |>> JZ
+let jeq = pstring "jeq"         >>. operands |>> JEQ
+let jls = pstring "jls"         >>. operands |>> JLS
+let jgt = pstring "jgt"         >>. operands |>> JGT
+let halt = pstring "halt"       >>= fun _ -> preturn HALT
+let aprint = pstring "aprint"   >>. operands |>> APRINT
+let dprint = pstring "dprint"   >>. operands |>> DPRINT
+
+let optypes = choice[ ``and``; ``or``; ``xor``; ``not``; mov; random; add; sub;
+                       jmp; jz; jeq; jls; jgt; halt; aprint; dprint] .>> spaces
+
+let hexify args = List.fold (fun acc i -> acc + (sprintf "0x%02x " i)) "" args
+
+let parse (program:string) =
+    match run (many optypes) (program.ToLowerInvariant()) with
+        | Success(result, _, _)   -> result
+        | Failure(errorMsg, _, _) -> failwith errorMsg
+
+let twoOps baseAddress = function
+        | Address(x)::Address(y)::[] -> hexify [baseAddress; x; y]
+        | Address(x)::Literal(y)::[] -> hexify [baseAddress + 1; x; y]
+        | _ -> failwith "Invalid two op"
+
+let oneOps baseAddress = function
+        | Address(x)::[] -> hexify [baseAddress; x]
+        | Literal(x)::[] -> hexify [baseAddress + 1; x]
+        | _ -> failwith "Invalid one op"
+
+let threeOp baseAddress = function
+        | Address(x)::Address(a)::[] -> hexify [baseAddress; x; a]
+        | Address(x)::Literal(a)::[] -> hexify [baseAddress + 1; x; a]
+        | Literal(x)::Address(a)::[] -> hexify [baseAddress + 2; x; a]
+        | Literal(x)::Literal(a)::[] -> hexify [baseAddress + 3; x; a]
+        | _ -> failwith "Invalid three op"
+
+let fourOps baseAddress = function
+        | Address(x)::Address(a)::Address(b)::[]  -> hexify [baseAddress; x; a; b]
+        | Literal(x)::Address(a)::Address(b)::[]  -> hexify [baseAddress + 1; x; a; b]
+        | Address(x)::Address(a)::Literal(b)::[]  -> hexify [baseAddress + 2; x; a; b]
+        | Literal(x)::Address(a)::Literal(b)::[]  -> hexify [baseAddress + 3; x; a; b]
+        | _ -> failwith "Invalid four op"
+
+
+let translate = function
+    | AND h -> twoOps 0x00 h
+    | OR  h -> twoOps 0x02 h
+    | XOR h -> twoOps 0x04 h
+    | NOT (Address(x)::[]) -> hexify [6;x]
+    | MOV h -> twoOps 0x07 h
+    | RANDOM (Address(x)::[]) -> hexify[9;x]
+    | ADD h -> twoOps 0x0a h
+    | SUB h -> twoOps 0x0c h
+    | JMP h -> oneOps 0x0e h
+    | JZ h  -> threeOp 0x10 h
+    | JEQ h -> fourOps 0x14 h
+    | JLS h -> fourOps 0x18 h
+    | JGT h -> fourOps 0x1c h
+    | HALT  -> "0xFF"
+    | APRINT h -> oneOps 0x20 h
+    | DPRINT h -> oneOps 0x22 h
+    | _ -> failwith "invalid op code"
+
+let assemble program = parse program |> List.map translate |> String.concat "\n"
+
+Sample output:
+
+> assemble  @"Mov [2] 0
+Mov [3] 0
+Jeq 6 [3] [1]
+Add [3] 1
+Add [2] [0]
+Jmp 2
+Mov [0] [2]
+Halt";;
+
+val it : string =
+  "0x08 0x02 0x00
+0x08 0x03 0x00
+0x15 0x06 0x03 0x01
+0x0b 0x03 0x01
+0x0a 0x02 0x00
+0x0f 0x02
+0x07 0x00 0x02
+0xFF"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]plausibility_ 1 point2 points3 points 4 years ago (2 children)
+
+Wrote a (somewhat verbose) solution in Python. Call it like python assembler.py
+input.txt Can I get some code review on this?
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pirate_platypus 0 points1 point2 points 4 years ago (1 child)
+
+It looks really clever. However, due to all the variable names being '_' it's
+pretty hard to read.
+
+I must say, I'm curious as to whether you wrote the code with the variable
+names as they are or if you did a search/replace before publishing.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]plausibility_ 0 points1 point2 points 4 years ago (0 children)
+
+It was written normally (I don't have that copy anymore, sadly), then went
+through a period of obfuscation by myself and a friend.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]pirate_platypus 1 point2 points3 points 4 years ago (0 children)
+
+EDIT: Fixed format
+
+Python 2.7ish. Does both assembly and disassembly; automagically determines if
+the input file is assembly or byte code.
+
+It's nearly 300 lines. If I got rid of the white space, comments, and doc
+strings, it'd be about 170.
+
+#!/usr/bin/env python
+"""TinyMagic - assemble Tiny assembly language file to bytecode and
+   disassemble tiny bytecode to assembly.
+
+   Usage: TinyMagic.py input_file output_file
+"""
+
+# imports
+from sys import stderr, argv, exit, stdout
+from os.path import getsize, isfile, dirname
+from os import access, R_OK, W_OK
+from re import sub
+from string import rjust
+
+# global vars
+
+# classes
+class DummyFile:
+    """
+       Used as a workaround for in/out files being None in die()
+       prior to opening the actual input/output files.
+    """
+    def __init__(self, name):
+        self.name = name
+        self.mode = 'wb'
+    def close(self):
+        pass
+
+# functions
+def die(exit_code, in_file = None, out_file = None):
+    """
+       Leave the program, exiting with exit_code and print the exit message.
+
+        Args:
+            exit_code -- the code to exit with
+              0  - no error(s) in execution
+              1+ - errors, messages and meanings are in die.exit_msg dict
+              -1 - no errors, update in_file and/or out_file
+            in_file -- the input file
+              default = none
+            out_file -- the output file
+              default = none
+    """
+
+    # set up the die variables
+    # necessary if in/out files haven't been
+    # passed yet, such as if the user didn't
+    # use the correct arguments
+    if not 'in_file' in die.__dict__:
+        die.in_file = DummyFile('input_file')
+        die.out_file = DummyFile('output_file')
+
+    if not 'exit_msg' in die.__dict__:
+        # die exit messages will be filled in with
+        # format(die.in_file.name, die.out_file.name)
+        # when printed  zero uses an extra string
+        # added on before printing
+        die.exit_msg = {
+            0: "Completed {2} of '{0}' to '{1}'\n",
+            1: "Usage: TinyMagic.py in_file out_file.\n",
+            2: "Could not read from file '{0}'.\n",
+            3: "Output file '{1}' already exists.\n",
+            4: "Cannot write to file '{1}'.\n",
+        }
+
+    # update the in/out files if passed
+    if in_file != None:
+        die.in_file = in_file
+    if out_file != None:
+        die.out_file = out_file
+
+    # just updating in/out file
+    if exit_code == -1:
+        return
+
+    # completed without error
+    elif exit_code == 0:
+        # determine if assembling or disassembling
+        if 'b' in die.out_file.mode:
+            asm = 'assembly'
+        else:
+            asm = 'disassembly'
+        stdout.write(die.exit_msg[0].\
+            format(die.in_file.name, die.out_file.name, asm))
+
+    # error encountered
+    elif exit_code != 0:
+        stderr.write(die.exit_msg[exit_code].\
+            format(die.in_file.name, die.out_file.name))
+
+    die.in_file.close()
+    die.out_file.close()
+    exit(exit_code)
+
+def validate_args(args):
+    """
+       Make sure the script was called correctly.
+       And that the input/output files can be read/written.
+
+       Args:
+        args - the command line arguments passed to the script.
+    """
+    # check usage
+    if len(args) != 3:
+        die(1)
+
+    # check readability of input_file
+    try:
+        can_read = access(args[1], R_OK)
+    except:
+        die(2, DummyFile(args[1]))
+    if can_read == False:
+        die(2, DummyFile(args[0]))
+
+    # don't overwrite existing files
+    if isfile(args[2]):
+        die(3, None, DummyFile(args[2]))
+    # check the writeability of the directory
+    # containing the output file
+    try:
+        dir_name = dirname(args[2])
+        if dir_name == '':
+            dir_name = './'
+        can_write = access(dir_name, W_OK)
+    except:
+       die(4, None, DummyFile(args[2]))
+    if can_write == False:
+       die(4, None, DummyFile(args[2]))
+
+def open_files(in_name, out_name):
+    """
+       Open the input and output files. Return the file objects.
+       Update die's in_file and out_file.
+       Returns the input and output file objects.
+       Also returns a boolean indicating whether the input file
+       is assembly code to be assembled.
+    """
+
+    in_file = open(in_name, 'r')
+
+    # Determine whether the input file contains assembly or bytecode
+    # if the input file is assembly, open output with 'wb' mode
+    # if input is bytecode, open output with 'w'
+    # in tiny assembly, the first character of a file will always be
+    # in the range of a-x or A-X, depending on capitalization (and) (XOR)
+    # in tiny bytecode, the first character of a file will always be between
+    # 0 (And [a] [b]) and 35 (DPRINT [a]) or 255 (halt)
+    first_byte = ord(in_file.read(1))
+    in_file.seek(0)
+    if first_byte <= 35 or first_byte == 255:
+        mode = 'w'
+    else:
+        mode = 'wb'
+
+    out_file = open(out_name, mode)
+
+    # update the in/out files for die function
+    die(-1, in_file, out_file)
+
+    return in_file, out_file, mode == 'wb'
+
+def assemble_code(in_file, out_file):
+    """Assemble Tiny assembly to Tiny byte code."""
+
+    commands = {
+                   'And'    : 0,
+                   'Or'     : 2,
+                   'Xor'    : 4,
+                   'Not'    : 6,
+                   'Mov'    : 7,
+                   'Random' : 9,
+                   'Add'    : 10,
+                   'Sub'    : 12,
+                   'Jmp'    : 14,
+                   'Jz'     : 16,
+                   'Jeq'    : 20,
+                   'Jls'    : 24,
+                   'Jgt'    : 28,
+                   'Aprint' : 32,
+                   'Dprint' : 34,
+                   'Halt'   : 255
+                  }
+
+    in_size = getsize(in_file.name)
+    while in_file.tell() != in_size:
+        line = in_file.readline()[:-1]
+        op = line.split(' ')[0][0].upper() + line.split(' ')[0][1:].lower()
+        op_byte = commands[op]
+        # determine if/how much op_byte needs to be incremented
+        # based on whether its arg(s) were surrounded by brackets
+        args = sub('\d+', 'x', ' '.join(line.split(' ')[1:]))
+        if args == '[x] x'\
+          or args == 'x'\
+          or args == 'x [x] [x]':
+            op_byte += 1
+        elif args == 'x [x]'\
+          or args == '[x] [x] x':
+            op_byte += 2
+        elif args == 'x x'\
+          or args == 'x [x] x':
+            op_byte += 3
+
+        # get the byte value for each arg
+        arg_bytes = [int(sub('[\[\]]', '', x)) for x in line.split(' ')[1:]]
+
+        # convert from int to hex with leading
+        # zeros on values < 16
+        all_bytes = [op_byte] + arg_bytes
+        all_bytes = [rjust(hex(x)[2:], 2, '0') for x in all_bytes]
+
+        # write the bytes to the output file
+        [out_file.write(x.decode('hex')) for x in all_bytes]
+
+    die(0)
+
+def disassemble_code(in_file, out_file):
+    """Disassembly Tiny byte code to Tiny Assembly"""
+
+    # extend, each will have a list as the val
+    # ind 0 is the instructions byte
+    # ind 1 is the number of args
+    commands = {
+                   'And'    : [0, 2],
+                   'Or'     : [2, 2],
+                   'Xor'    : [4, 2],
+                   'Not'    : [6, 1],
+                   'Mov'    : [7, 2],
+                   'Random' : [9, 1],
+                   'Add'    : [10, 2],
+                   'Sub'    : [12, 2],
+                   'Jmp'    : [14, 1],
+                   'Jz'     : [16, 2],
+                   'Jeq'    : [20, 3],
+                   'Jls'    : [24, 3],
+                   'Jgt'    : [28, 3],
+                   'Aprint' : [32, 1],
+                   'Dprint' : [34, 1],
+                   'Halt'   : [255, 0]
+                  }
+
+    in_size = getsize(in_file.name)
+
+    while in_file.tell() != in_size:
+        byte = ord(in_file.read(1))
+        # get the instruction that the byte represents
+        inst_val = sorted([x[0] for x in commands.values() if x[0] <= byte])[-1]
+        instruction = [x for x in commands.keys() if commands[x][0] == inst_val][0]
+        output_string = instruction + ' '
+        # get the params to the instruction
+        arg_count = commands[instruction][1]
+        args = [ord(x) for x in in_file.read(arg_count)]
+        # get the formatting for the params, whether or not
+        # they are enclosed in square brackets
+        # inst_inc is the difference between what the instruction's byte was
+        # and what the lowest byte value for that instruction is since the
+        # instruction's byte is incremented based on it's parameters
+        inst_inc = byte - inst_val
+        if inst_inc == 0:
+            # instructions with all params enclosed in []
+            arg_format = ['[{}]' for x in range(arg_count)]
+        elif inst_inc == 1 and arg_count == 2:
+            arg_format = ['[{}]', '{}']
+        elif inst_inc == 1 :
+            arg_format = ['{}'] + ['[{}]' for x in range(arg_count - 1)]
+        elif inst_inc == 2 and arg_count == 2:
+            arg_format = ['{}', '[{}]']
+        elif inst_inc == 2:
+            arg_format = ['[{}]', '[{}]', '{}']
+        elif inst_inc == 3 and arg_count == 2:
+            arg_format = ['{}', '{}']
+        elif inst_inc == 3 and arg_count == 3:
+            arg_format = ['{}', '[{}]', '{}']
+
+        # format the args
+        args = [arg_format[i].format(args[i]) for i in range(len(args))]
+        arg_string = ' '.join(args)
+
+        # combine and print
+        output_string += arg_string
+        output_string += '\n'
+
+        out_file.write(output_string)
+
+    die(0)
+
+# procedure
+validate_args(argv)
+in_file, out_file, assemble = open_files(argv[1], argv[2])
+if assemble == True:
+    assemble_code(in_file, out_file)
+else:
+    disassemble_code(in_file, out_file)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Ryven_ 1 point2 points3 points 4 years ago* (0 children)
+
+Made this account to post here, been a long time since I did any c++ so this
+struck me as a great problem to work on while picking it back up and learning
+newer stuff. All criticism and comments are welcome. I hope that even though
+this problem is 3months old already, that I can get some good feedback from
+others that have done this one. This is a full command line implementation for
+Tiny. It will parse a text file of tiny instructions and output a hexcode .tny
+file and optionally run the program. The syntax has been extended for comments
+and labels. Much thanks for those in this thread that inspired me. This is my
+4th iteration of this since I started getting back into c++, and it comes in
+around 800 lines. Copy the further down tiny code into a text file and name it
+prim.txt run: tinyasm -d -c prim.txt -o prim.tny -r > log.txt for a nice look
+over. then run: tinyasm -r prim.tny to see
+
+EDIT: Setup a gist for the c++ file. TinyASM
+
+The Tiny sample program to parse, taken and extended from higher in the thread.
+This will find and print the first 100 prime numbers.
+
+; Setup
+;
+; 100 Primes
+;
+; Should find and print the first 100
+; prime numbers
+
+_title: "100 Primes\n\n"
+dprint 1
+dprint 0
+dprint 0
+aprint 32 ; space
+aprint 80  ; P
+aprint 114 ; r
+aprint 105 ; i
+aprint 109 ; m
+aprint 101 ; e
+aprint 115 ; s
+aprint 10  ; CR
+aprint 10  ; CR
+
+_begin:
+mov [0] 2 ; m[0]=2
+mov [3] 0 ; m[3]=0 prime found count
+mov [4] 100 ; m[4]= #primes to find sentinal
+
+_loop:
+mov [1] 1
+
+_prim_test:
+add [1] 1
+jeq _prim [1] [0]
+mov [2] [0]
+
+_prim_loop:
+sub [2] [1]
+jz _not_prim [2]
+jls _prim_test [2] [1]
+jmp _prim_loop
+
+_prim:
+add [3] 1  ; increment prime counter
+
+jls _prim_lt10 [3] 10 ; prim < 10
+jls _prim_lt100 [3] 100 ; prim < 100
+jls _prim_lt1000 [3] 1000 ; prim < 1000
+jmp _prim_print
+
+_prim_lt10:
+aprint 32 ; space
+aprint 32 ; space
+aprint 32 ; space
+jmp _prim_print
+
+_prim_lt100:
+aprint 32 ; space
+aprint 32 ; space
+jmp _prim_print
+
+_prim_lt1000:
+aprint 32 ; space
+jmp _prim_print
+
+_prim_print: ; "[prim_count] : [prime]\n"
+dprint [3] ; print prime count
+aprint 32 ; space
+aprint 58 ; colon
+aprint 32 ; space
+dprint [1]; print the prime
+aprint 10  ; CR
+jeq _end [3] [4] ; Sentinal count reached, terminate
+
+_not_prim:
+add [0] 1
+jz _end [0]
+jmp _loop
+
+_end:
+halt
+
+The hexcode output from the above program
+
+0x23 0x1
+0x23 0
+0x23 0
+0x21 0x20
+0x21 0x50
+0x21 0x72
+0x21 0x69
+0x21 0x6d
+0x21 0x65
+0x21 0x73
+0x21 0xa
+0x21 0xa
+0x8 0 0x2
+0x8 0x3 0
+0x8 0x4 0x64
+0x8 0x1 0x1
+0xb 0x1 0x1
+0x15 0x3a 0x1 0
+0x7 0x2 0
+0xc 0x2 0x1
+0x12 0x6d 0x2
+0x19 0x24 0x2 0x1
+0xf 0x2e
+0xb 0x3 0x1
+0x1b 0x4b 0x3 0xa
+0x1b 0x53 0x3 0x64
+0x1b 0x59 0x3 0x3e8
+0xf 0x5d
+0x21 0x20
+0x21 0x20
+0x21 0x20
+0xf 0x5d
+0x21 0x20
+0x21 0x20
+0xf 0x5d
+0x21 0x20
+0xf 0x5d
+0x22 0x3
+0x21 0x20
+0x21 0x3a
+0x21 0x20
+0x22 0x1
+0x21 0xa
+0x15 0x75 0x3 0x4
+0xb 0 0x1
+0x12 0x75 0
+0xf 0x21
+0xff
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]AultimusPrime 1 point2 points3 points 4 years ago (0 children)
+
+Python 2.7 - Could use a more efficient data structure/lookup algorithm
+
+import re, sys
+
+def sub(asm):
+    """ Substitute operand mnemonics for regexes """
+    asm = asm.replace('s', r"\s+") # whitespace
+    asm = asm.replace('l', r"(\w+)") # literal args
+    asm = asm.replace('m', r"(\[\w+\])") # memory args
+    return asm
+
+ops = {
+    # Logic ops
+    r'AND'  + sub('smsm'): '0x00',
+    r'AND'  + sub('smsl'): '0x01',
+    r'OR'   + sub('smsm'): '0x02',
+    r'OR'   + sub('smsl'): '0x03',
+    r'XOR'  + sub('smsm'): '0x04',
+    r'XOR'  + sub('smsl'): '0x05',
+    r'NOT'  + sub('sm'):   '0x06',
+
+    # Memory ops
+    r'MOV'  + sub('smsm'): '0x07',
+    r'MOV'  + sub('smsl'): '0x08',
+
+    # Math ops
+    r'RANDOM' + sub('sl'): '0x09',
+    r'ADD'  + sub('smsm'): '0x0A',
+    r'ADD'  + sub('smsl'): '0x0B',
+    r'SUB'  + sub('smsm'): '0x0C',
+    r'SUB'  + sub('smsl'): '0x0D',
+
+    # Control ops
+    r'JMP'  + sub('sm'): '0x0E',
+    r'JMP'  + sub('sl'): '0x0F',
+    r'JZ'   + sub('smsm'): '0x10',
+    r'JZ'   + sub('smsl'): '0x11',
+    r'JZ'   + sub('slsm'): '0x12',
+    r'JZ'   + sub('slsl'): '0x13',
+    r'JEQ'  + sub('smsmsm'): '0x14',
+    r'JEQ'  + sub('slsmsm'): '0x15',
+    r'JEQ'  + sub('smsmsl'): '0x16',
+    r'JEQ'  + sub('slsmsl'): '0x17',
+    r'JLS'  + sub('smsmsm'): '0x18',
+    r'JLS'  + sub('slsmsm'): '0x19',
+    r'JLS'  + sub('smsmsl'): '0x1A',
+    r'JLS'  + sub('slsmsl'): '0x1B',
+    r'JGT'  + sub('smsmsm'): '0x1C',
+    r'JGT'  + sub('slsmsm'): '0x1D',
+    r'JGT'  + sub('smsmsl'): '0x1E',
+    r'JGT'  + sub('slsmsl'): '0x1F',
+    r'HALT': '0xFF',
+
+    # Utilities
+    r'DPRINT' + sub('sm'): '0x20',
+    r'DPRINT' + sub('sl'): '0x21',
+    r'DPRINT' + sub('sm'): '0x22',
+    r'DPRINT' + sub('sl'): '0x23',
+}
+
+try:
+    inFile = sys.argv[1]
+except IndexError:
+    inFile = "input.txt"
+
+source = [line.strip() for line in open(inFile).readlines()]
+
+output = []
+for line in source:
+    # Iterating through dict might not be best in terms of efficiency
+    for mnemonic in ops.keys():
+        match = re.match(mnemonic, line, flags=re.I)
+        if match:
+            opcode = ops[mnemonic]
+            # Try and get up to three match groups - arg arg arg
+            for i in xrange(1, 4):
+                try:
+                    arg = (match.group(i))
+                    if arg[0] == "[" and arg[-1] == "]":
+                        #do some memory reading shiz
+                        arg = arg[1:-1]
+                    opcode += " 0x%0.2X" % int(arg)
+                except IndexError:
+                    break
+            output.append(opcode)
+            break
+print output
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]sinisterEyebrow 0 points1 point2 points 4 years ago (0 children)
+
+I'm new to scala so any suggestion would be greatly appreciated.
+
+Assembly class
+
+package TinyAsm
+
+class TinyAsm {
+  val op_ = """(\w+)""".r
+  val opa = """(\w+)\s*(\d+)""".r
+  val opMa = """(\w+)\s*\[(\d+)\]""".r
+  val opMaMb = """(\w+)\s*\[(\d+)\]\s*\[(\d+)\]""".r
+  val opMab = """(\w+)\s*\[(\d+)\]\s*(\d+)""".r
+  val opaMb = """(\w+)\s*(\d+)\s*\[(\d+)\]""".r
+  val opab = """(\w+)\s*(\d+)\s*(\d+)""".r
+  val opMaMbMc = """(\w+)\s*\[(\d+)\]\s*\[(\d+)\]\s*\[(\d+)\]""".r
+  val opaMbMc = """(\w+)\s*(\d+)\s*\[(\d+)\]\s*\[(\d+)\]""".r
+  val opMaMbc = """(\w+)\s*\[(\d+)\]\s*\[(\d+)\]\s*(\d+)""".r
+  val opaMbc = """(\w+)\s*(\d+)\s*\[(\d+)\]\s*(\d+)""".r
+
+  def asm(s: String): List[Int] =
+    s.toLowerCase() match {
+      case opMaMb("and", x, y) => mkLs(0x00, x, y)
+      case opMab("and", x, y) => mkLs(0x01, x, y)
+      case opMaMb("or", x, y) => mkLs(0x02, x, y)
+      case opMab("or", x, y) => mkLs(0x03, x, y)
+      case opMaMb("xor", x, y) => mkLs(0x04, x, y)
+      case opMab("xor", x, y) => mkLs(0x05, x, y)
+      case opMa("not", x) => mkLs(0x06, x)
+      case opMaMb("mov", x, y) => mkLs(0x07, x, y)
+      case opMab("mov", x, y) => mkLs(0x08, x, y)
+      case opMa("random", x) => mkLs(0x09, x)
+      case opMaMb("add", x, y) => mkLs(0x0a, x, y)
+      case opMab("add", x, y) => mkLs(0x0b, x, y)
+      case opMaMb("sub", x, y) => mkLs(0x0c, x, y)
+      case opMab("sub", x, y) => mkLs(0x0d, x, y)
+      case opMa("jmp", x) => mkLs(0x0e, x)
+      case opa("jmp", x) => mkLs(0x0f, x)
+      case opMaMb("jz", x, y) => mkLs(0x10, x, y)
+      case opMab("jz", x, y) => mkLs(0x11, x, y)
+      case opaMb("jz", x, y) => mkLs(0x12, x, y)
+      case opab("jz", x, y) => mkLs(0x13, x, y)
+      case opMaMbMc("jeq", x, y, z) => mkLs(0x14, x, y, z)
+      case opaMbMc("jeq", x, y, z) => mkLs(0x15, x, y, z)
+      case opMaMbc("jeq", x, y, z) => mkLs(0x16, x, y, z)
+      case opaMbc("jeq", x, y, z) => mkLs(0x17, x, y, z)
+      case opMaMbMc("jls", x, y, z) => mkLs(0x18, x, y, z)
+      case opaMbMc("jls", x, y, z) => mkLs(0x19, x, y, z)
+      case opMaMbc("jls", x, y, z) => mkLs(0x1a, x, y, z)
+      case opaMbc("jls", x, y, z) => mkLs(0x1b, x, y, z)
+      case opMaMbMc("jgt", x, y, z) => mkLs(0x1c, x, y, z)
+      case opaMbMc("jgt", x, y, z) => mkLs(0x1d, x, y, z)
+      case opMaMbc("jgt", x, y, z) => mkLs(0x1e, x, y, z)
+      case opaMbc("jgt", x, y, z) => mkLs(0x1f, x, y, z)
+      case opMa("aprint", x) => mkLs(0x20, x)
+      case opa("aprint", x) => mkLs(0x21, x)
+      case opMa("dprint", x) => mkLs(0x22, x)
+      case opa("dprint", x) => mkLs(0x23, x)
+      case op_("halt") => mkLs(0xff)
+    }
+
+  def hexstring(byteList: List[Int]): String = byteList match {
+    case Nil => ""
+    case b :: bs => "0x%02X ".format(b) + hexstring(bs)
+  }
+
+  def mkLs(op: Int, args: String*): List[Int] = {
+    op :: args.map(x => x.toInt).toList
+  }
+
+}
+
+Main file:
+
+package TinyAsm
+
+object AsmMain {
+
+  def main(args: Array[String]): Unit = {
+    val a = new TinyAsm()
+    val source = scala.io.Source.fromFile(args(0))
+    for(line <- source.getLines){
+      println(a.hexstring(a.asm(line)))
+    }
+    source.close()
+  }
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]holoiii 0 points1 point2 points 4 years ago (0 children)
+
+My solution in ruby:
+
+require 'tempfile'
+
+class TinyAssembler
+  attr_accessor :input_file
+
+  TYPES = {
+    address: "\\[\\d+\\]",
+    literal: "\\d+"
+  }
+
+  INSTRUCTIONS = {
+    "and" => {
+      "0x00" => [:address, :address],
+      "0x01" => [:address, :literal]
+    },
+    "or" => {
+      "0x02" => [:address, :address],
+      "0x03" => [:address, :literal]
+    },
+    "xor" => {
+      "0x04" => [:address, :address],
+      "0x05" => [:address, :literal]
+    },
+    "not" => {
+      "0x06" => [:address]
+    },
+    "mov" => {
+      "0x07" => [:address, :address],
+      "0x08" => [:address, :literal]
+    },
+    "random" => {
+      "0x09" => [:address]
+    },
+    "add" => {
+      "0x0A" => [:address, :address],
+      "0x0B" => [:address, :literal]
+    },
+    "sub" => {
+      "0x0C" => [:address, :address],
+      "0x0D" => [:address, :literal]
+    },
+    "jmp" => {
+      "0x0E" => [:address],
+      "0x0F" => [:literal],
+    },
+    "jz" => {
+      "0x10" => [:address, :address],
+      "0x11" => [:address, :literal],
+      "0x12" => [:literal, :address],
+      "0x13" => [:literal, :literal]
+    },
+    "jeq" => {
+      "0x14" => [:address, :address, :address],
+      "0x15" => [:literal, :address, :address],
+      "0x16" => [:address, :address, :literal],
+      "0x17" => [:literal, :address, :literal]
+    },
+    "jls" => {
+      "0x18" => [:address, :address, :address],
+      "0x19" => [:literal, :address, :address],
+      "0x1A" => [:address, :address, :literal],
+      "0x1B" => [:literal, :address, :literal]
+    },
+    "jgt" => {
+      "0x1C" => [:address, :address, :address],
+      "0x1D" => [:literal, :address, :address],
+      "0x1E" => [:address, :address, :literal],
+      "0x1F" => [:literal, :address, :literal]
+    },
+    "halt" => {
+      "0xFF" => []
+    },
+    "aprint" => {
+      "0x20" => [:address],
+      "0x21" => [:literal]
+    },
+    "dprint" => {
+    }
+  }
+
+  def initialize(input_file)
+    @input_file = input_file
+  end
+
+  def assemble!
+    output_file = Tempfile.new("output")
+
+    input_file.readlines.map(&:strip).each do |instruction|
+      command, *ins_array = instruction.downcase.split
+
+      command_hex = parsed_instructions(command).select do |cmd_hex, regex|
+        ins_array.join(" ").match(/#{regex}/)
+      end.keys.first
+
+      data_hex = ins_array.map do |data_piece|
+        num_to_hex(data_piece.gsub(/\[|\]/, ""))
+      end
+
+      output_line = [command_hex, data_hex].flatten.compact.join(" ")
+
+      write_line(output_file, output_line)
+    end
+
+    output_file.rewind
+    output_file
+  end
+
+  def write_line(file, string)
+    file.write([string, "\n"].join)
+  end
+
+  def num_to_hex(number)
+    "0x" + ("%02x" % number.to_i).upcase
+  end
+
+  def parsed_instructions(command)
+    parsed = INSTRUCTIONS[command].dup
+    parsed.each do |k, v|
+      parsed[k] = v.map do |type|
+        TYPES[type]
+      end.join("\\s")
+    end
+    parsed
+  end
+end
+
+Spec:
+
+require './tinyassembler'
+
+describe TinyAssembler do
+  let(:input_file) { File.open("input_file.txt") }
+  let(:output_file) { File.open("output_file.txt") }
+
+  describe "#assemble!" do
+    it "assembles correctly" do
+      TinyAssembler.new(input_file).assemble!.readlines.should == output_file.readlines
+    end
+  end
+
+  describe "#num_to_hex" do
+    it "converts a number to the equivalent hex value" do
+      TinyAssembler.new(input_file).num_to_hex(5).should == "0x05"
+      TinyAssembler.new(input_file).num_to_hex(100).should == "0x64"
+      TinyAssembler.new(input_file).num_to_hex(255).should == "0xFF"
+      TinyAssembler.new(input_file).num_to_hex("255").should == "0xFF"
+    end
+  end
+end
+
+Input for spec:
+
+Mov [2] 0
+Mov [3] 0
+Jeq 6 [3] [1]
+Add [3] 1
+Add [2] [0]
+Jmp 2
+Mov [0] [2]
+Halt
+
+Output for spec:
+
+0x08 0x02 0x00
+0x08 0x03 0x00
+0x15 0x06 0x03 0x01
+0x0B 0x03 0x01
+0x0A 0x02 0x00
+0x0F 0x02
+0x07 0x00 0x02
+0xFF
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+  • about
+  • blog
+  • about
+  • advertising
+  • careers
+
+  • help
+  • site rules
+  • Reddit help center
+  • wiki
+  • reddiquette
+  • mod guidelines
+  • contact us
+
+  • apps & tools
+  • Reddit for iPhone
+  • Reddit for Android
+  • mobile website
+  • buttons
+
+  • <3
+  • reddit gold
+  • redditgifts
+
+Use of this site constitutes acceptance of our User Agreement and Privacy
+Policy. (C) 2018 reddit inc. All rights reserved.
+
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+Advertise - technology
+
+[pixel]
+
+π Rendered by PID 110199 on app-281  at 2018-05-09 20:38:55.990278+00:00
+running 4b07d45 country code: CH.
+

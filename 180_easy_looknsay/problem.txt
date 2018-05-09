@@ -1,0 +1,4674 @@
+close this window
+jump to content
+my subreddits
+edit subscriptions
+
+  • popular
+  • -all
+  • -random
+  • -users
+
+ | 
+
+  • AskReddit
+  • -worldnews
+  • -videos
+  • -funny
+  • -todayilearned
+  • -pics
+  • -gaming
+  • -movies
+  • -news
+  • -gifs
+  • -mildlyinteresting
+  • -aww
+  • -Showerthoughts
+  • -television
+  • -Jokes
+  • -science
+  • -OldSchoolCool
+  • -sports
+  • -IAmA
+  • -Documentaries
+  • -TwoXChromosomes
+  • -explainlikeimfive
+  • -personalfinance
+  • -books
+  • -tifu
+  • -Futurology
+  • -dataisbeautiful
+  • -WritingPrompts
+  • -nottheonion
+  • -food
+  • -Music
+  • -photoshopbattles
+  • -EarthPorn
+  • -philosophy
+  • -Art
+  • -nosleep
+  • -GetMotivated
+  • -askscience
+  • -LifeProTips
+  • -space
+  • -UpliftingNews
+  • -DIY
+  • -history
+  • -gadgets
+  • -creepy
+  • -listentothis
+  • -blog
+  • -announcements
+  • -InternetIsBeautiful
+
+more >>
+dailyprogrammer dailyprogrammer
+
+  • comments
+
+Want to join? Log in or sign up in seconds.|
+
+  • English
+
+[                    ][]
+[ ]limit my search to r/dailyprogrammer
+
+use the following search parameters to narrow your results:
+
+subreddit:subreddit
+    find submissions in "subreddit"
+author:username
+    find submissions by "username"
+site:example.com
+    find submissions from "example.com"
+url:text
+    search for "text" in url
+selftext:text
+    search for "text" in self post contents
+self:yes (or self:no)
+    include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+    include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+
+see the search faq for details.
+
+advanced search: by author, subreddit...
+
+this post was submitted on  15 Sep 2014
+60 points (92% upvoted)
+shortlink:  [https://redd.it/2ggy]
+[                    ][                    ]
+[ ]remember mereset password
+login
+Submissions restricted
+Only approved users may post in this community.
+
+dailyprogrammer
+
+subscribeunsubscribe142,051 readers
+
+155 users here now
+
+ 1. Challenge #321: Easy
+ 2. Challenge #321: Intermediate
+ 3. Challenge #321: Hard
+ 4. Weekly #25: Escape the trolls
+
+Welcome to r/DailyProgrammer!
+
+First time visitors of Daily Programmer please Read the Wiki to learn
+everything about this subreddit.
+
+  • Solution Submission Tutorial
+  • Solution Submission Guidelines
+  • Code / Peer-Review Guidelines
+  • Problem Submission Guidelines
+  • Achievements System
+  • Community Projects
+  • Links to other Programming subreddits
+  • Special Thanks
+
+Can't submit solutions?
+
+If you are a new or unverified account, and are unable to post comment replies,
+please click here to verify your account. Otherwise, read the Solution
+Submission Tutorial for a walkthrough of submitting a solution, or click below
+to message the moderators for assistance.
+
+Write your own challenge!
+
+To help the community and write your own challenge to be submitted, head on
+over to /r/DailyProgrammer_Ideas and share your project - read the sidebar in
+that subreddit for more information.
+
+IRC Channel
+
+Message the Moderators
+
+Challenge List in Chronological Order
+
+created by nottoobadguya community for 6 years
+message the moderators
+
+MODERATORS
+
+  • rya111113 1
+  • nint221 2
+  • Cosmologicon2 3
+  • Elite68091 1
+  • XenophonOfAthens2 1
+  • jnazario2 0
+  • Godspiral3 3
+  • Blackshell2 0
+  • fvandepitte0 0
+  • G33kDude1 1
+  • about moderation team >>
+
+discussions in r/dailyprogrammer
+<>
+X
+ 
+39 . 10 comments
+[2018-05-09] Challenge #360 [Intermediate] Find the Nearest Aeroplane
+ 
+61 . 26 comments
+[2018-05-04] Challenge #359 [Hard] Primes in Grids
+ 
+42 . 37 comments
+[2018-05-02] Challenge #359 [Intermediate] Unwrap Some Text
+ 
+66 . 111 comments
+[2018-04-30] Challenge #359 [Easy] Regular Paperfold Sequence Generator
+ 
+65 . 12 comments
+[2018-04-27] Challenge #358 [Hard] Puzzle me this
+ 
+49 . 36 comments
+[2018-04-25] Challenge #358 [Intermediate] Everyone's A Winner!
+ 
+75 . 75 comments
+[2018-04-23] Challenge #358 [Easy] Decipher The Seven Segments
+ 
+60 . 28 comments
+[2018-04-20] Challenge #357 [Hard] Continued Fractions
+ 
+56 . 26 comments
+[2018-04-19] Challenge #357 [Intermediate] Kolakoski Sequences
+ 
+69 . 114 comments
+[2018-04-11] Challenge #356 [Intermediate] Goldbach's Weak Conjecture
+
+Welcome to Reddit,
+
+the front page of the internet.
+
+Become a Redditor
+
+and subscribe to one of thousands of communities.
+
+x
+
+59
+60
+61
+
+[9/15/2014] Challenge#180 [Easy] Look'n'Say (self.dailyprogrammer)
+
+submitted 3 years ago * by professorlamp1 0
+
+Description
+
+The Look and Say sequence is an interesting sequence of numbers where each term
+is given by describing the makeup of the previous term.
+
+The 1st term is given as 1. The 2nd term is 11 ('one one') because the first
+term (1) consisted of a single 1. The 3rd term is then 21 ('two one') because
+the second term consisted of two 1s. The first 6 terms are:
+
+1
+11
+21
+1211
+111221
+312211
+
+Formal Inputs & Outputs
+
+Input
+
+On console input you should enter a number N
+
+Output
+
+The Nth Look and Say number.
+
+Bonus
+
+Allow any 'seed' number, not just 1. Can you find any interesting cases?
+
+Finally
+
+We have an IRC channel over at
+
+webchat.freenode.net in #reddit-dailyprogrammer
+
+Stop on by :D
+
+Have a good challenge idea?
+
+Consider submitting it to /r/dailyprogrammer_ideas
+
+Thanks to /u/whonut for the challenge idea!
+
+  • 120 comments
+  • share
+  • save
+  • hide
+  • report
+
+all 120 comments
+sorted by:
+best
+topnewcontroversialoldrandomq&alive (beta)
+ [                    ]
+
+Want to add to the discussion?
+
+Post a comment!
+
+Create an account
+
+[–]le_donger 7 points8 points9 points 3 years ago (3 children)
+
+Java
+
+public class Looknsay {
+
+public static void main(String[] args) {
+    try {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(
+                System.in));
+        System.out.print("Input: ");
+        String input = reader.readLine();
+        System.out.print("N: ");
+        int n = Integer.parseInt(reader.readLine());
+
+        System.out.println(nthLooknsay(input, n, true));
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+}
+
+public static String nthLooknsay(String seed, int n, boolean printSteps) {
+    String output = seed;
+
+    for (int i = 0; i < n; i++) {
+        output = looknsay(output);
+        if (printSteps) {
+            System.out.println(output);
+        }
+    }
+
+    return output;
+}
+
+public static String looknsay(String input) {
+    String output = "";
+    char counting = 0;
+    int count = 0;
+    for (int i = 0; i < input.length(); i++) {
+        if (input.charAt(i) != counting) {
+            if (i > 0) {
+                output += count;
+                output += counting;
+            }
+            counting = input.charAt(i);
+            count = 1;
+        } else {
+            count++;
+        }
+    }
+    output += count;
+    output += counting;
+
+    return output;
+}
+
+}
+
+For the output, dunno if there are others like this, but 22 as seed will always
+output 22.
+
+Input: 22
+N: 5
+22
+22
+22
+22
+22
+22
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]rlamacraft -4 points-3 points-2 points 3 years ago (1 child)
+
+Any seed that is n repeated n times will give it self with each iteration i.e.
+1, 22, 333, 4444, 55555, etc. as it describing itself. There are 2 two's. There
+are 2 two's. There are 2 two's. Over and over again.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]le_donger 4 points5 points6 points 3 years ago (0 children)
+
+That's not quite correct. For 22 this works, 333 for example however will be 33
+in the first iteration which then turns into 23 and so on. Same goes for 4444,
+55555, etc.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]skeeto-9 8 5 points6 points7 points 3 years ago* (1 child)
+
+C, using a pair of char buffers.
+
+#include <stdio.h>
+
+void looknsay(const char *in, char *out)
+{
+    char seen = *in;
+    int count = 0;
+    do {
+        if (*in != seen) {
+            out += sprintf(out, "%d%c", count, seen);
+            count = 1;
+            seen = *in;
+        } else {
+            count++;
+        }
+    } while (*in++);
+}
+
+int main()
+{
+    char buffer[1024] = {'1'};
+    char *p[2] = { buffer, buffer + sizeof(buffer) / 2 };
+    int n;
+    scanf("%d", &n);
+    printf("%s\n", p[0]);
+    for (int i = 0; i < n - 1; i++) {
+        looknsay(p[i & 1], p[~i & 1]);
+        printf("%s\n", p[~i & 1]);
+    }
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]skeeto-9 8 1 point2 points3 points 3 years ago* (0 children)
+
+Also, here a really fast version that only uses O(n) space (on the stack), n
+being the sequence number. It can output the beginning of sequences that would
+take millennia for the computer to actually finish -- and it would finish
+successfully if given enough time. It can't compute n < 8 or on any arbitrary
+seed.
+
+  • looknsay.c
+
+The code is short but it uses a long table from here: A Derivation of Conway’s
+Degree-71 “Look-and-Say” Polynomial.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]99AFCC 4 points5 points6 points 3 years ago (1 child)
+
+Python 2.7 - Resubmitted. Didn't see the "seed" requirement
+
+from itertools import groupby
+
+def look_n_say_gen(lim, output='1'):
+    for _ in xrange(lim):
+        yield output
+        output = ''.join("{}{}".format(len(list(g)), k) for k, g in groupby(output))
+
+Output:
+
+print list(look_n_say_gen(10, '23'))
+
+['23', '1213', '11121113', '31123113', '132112132113',
+ '11131221121113122113', '311311222112311311222113',
+'1321132132211213211321322113',
+'11131221131211132221121113122113121113222113',
+'3113112221131112311332211231131122211311123113322113']
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Mawu3n4 2 points3 points4 points 3 years ago (0 children)
+
+Nice trick with groupby!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]XenophonOfAthens2 1 5 points6 points7 points 3 years ago (0 children)
+
+I remember doing this as a training exercise when I was first learning about
+prolog lists. This code is not as good as the code I wrote then, because back
+then I was young and idealistic, and I cared about such things as making sure I
+was using tail recursion. Now I'm old and gray and weary, and just do things
+the simple way. The code is actually pretty short, but I added a few comments
+and broke the lines up for readability:
+
+% Chops off the first run in a list, so like:
+% ?- first_run([1,1,1,2,3,4,4,4], A, B).
+% A = [1, 1, 1],
+% B = [2, 3, 4, 4, 4] .
+first_run([H|T], A, B) :- first_run([H|T], H, A, B).
+
+first_run([H], H, [H], []).
+first_run([H|T], E, [], [H|T])  :- H \= E.
+first_run([E|T], E, [E|R1], R2) :- first_run(T, E, R1, R2).
+
+% Turns a number to a list of numbers, like 123 into [1, 2, 3]
+% Also: tail recursion is for dorks
+numtolist(0, []).
+numtolist(N, R) :-
+    N > 0, N1 is N // 10, N2 is N mod 10,
+    numtolist(N1, R1),
+    append(R1, [N2], R).
+
+% Gives the next number in the look-and-say sequence, given the previous number
+% Also: tail recursion is for dorks!
+lookandsay([], []).             % Base case
+lookandsay([H|T], R) :-
+    first_run([H|T], L1, L2),   % First, find the first run...
+    length(L1, X),              % Count the number of elements in it...
+    numtolist(X, L3),           % Turn that number into a list...
+    lookandsay(L2, R1),         % Recurse on the rest...
+    append([L3, [H], R1], R).   % And add it all together!
+
+% Write a list of numbers as one number
+write_list([])    :- write("\n").
+write_list([H|T]) :- write(H), write_list(T).
+
+% Write the nth look-and-say number, starting with L)
+nth_number(0, L) :- write_list(L).
+nth_number(N, L1) :- N > 0, lookandsay(L1, L2), N1 is N - 1, nth_number(N1, L2).
+
+main :-
+    read(N),
+    nth_number(N, [1]).
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Barrucadu 2 points3 points4 points 3 years ago* (0 children)
+
+Haskell. The seed can be set via the first command-line argument.
+
+module Main where
+
+import Control.Applicative ((<$>))
+import Control.Monad       (forever, join)
+import Data.List           (group)
+import Data.Maybe          (fromMaybe, listToMaybe)
+import Text.Read           (readMaybe)
+import System.Environment  (getArgs)
+
+looknsay :: Integer -> Integer
+looknsay x = signum x * go (abs x)
+  where
+    go = read . concatMap compress . group . show
+    compress xs@(x:_) = show (length xs) ++ [x]
+
+main :: IO ()
+main = do
+  args <- join . fmap readMaybe . listToMaybe <$> getArgs
+  let seed = 1 `fromMaybe` args
+  let vals = iterate looknsay seed
+
+  forever $ do
+    idx <- readMaybe <$> getLine
+    putStrLn $
+      case idx of
+        Just idx' | idx' >= 0 -> show $ vals !! idx'
+        _ -> "Enter a number >= 0"
+
+edit: Now works for negative seeds (behaviour is exactly the same as positive
+seeds, but the output is negative)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]lukz2 0 4 points5 points6 points 3 years ago (0 children)
+
+Common Lisp
+
+(defun look-and-say (s &aux (a (car s)) (i (position a s :test '/=)))
+  (list* (or i (length s)) a (if i (look-and-say (nthcdr i s)))))
+(defun main (n &aux (l '(1)))
+  (dotimes (i (1- n) (format t "~{~a~}" l)) (setf l (look-and-say l))))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]whonut1 0 4 points5 points6 points 3 years ago (0 children)
+
+I submitted this! YAY!
+
+In Python:
+
+def parse(n):
+parsed = []
+seg = [n[0], ]
+for d in n[1:]:
+    if d == seg[0]:
+        seg.append(d)
+    else:
+        parsed.append(seg)
+        seg = [d, ]
+parsed.append(seg)
+return parsed
+
+def lookAndSay(n, seed):
+    '''returns the nth look and see number given a seed (0th) number'''
+    ret = str(seed)
+    while n > 0:
+        ret = ''.join(str(len(seg)) + str(seg[0]) for seg in parse(ret))
+        n -= 1
+   return ret
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dongas420 2 points3 points4 points 3 years ago* (0 children)
+
+Perl:
+
+$_++;
+for $i (2..<>) {
+    @seq = /(\d)(?!\1)/g;
+    @num = /(0+|1+|2+|3+|4+|5+|6+|7+|8+|9+)/g;
+    $_ = '';
+    $_ .= length(shift @num) . shift @seq while @seq;
+}
+print;
+
+Input:
+
+20
+
+Output:
+
+11131221131211132221232112111312111213111213211231132132211211131221131211221321123113213221123113112221131112311332211211131221131211132211121312211231131112311211232221121321132132211331121321231231121113112221121321133112132112312321123113112221121113122113121113123112112322111213211322211312113211
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Godspiral3 3 2 points3 points4 points 3 years ago* (2 children)
+
+in J
+
+   7 ,@((# , {.);.1~ 1 , 2 ~:/\ ])&.( 10&#. inv)@:]^:(1 + i.@[) 3377x
+
+2327 12131217 1112111311121117 3112311331123117 1321121321232112132117
+11131221121113121112131221121113122117
+311311222112311311123112111311222112311311222117
+
+verbose version
+
+X =:@:[ NB. left arg
+integerlist =: i.
+repeat =: ^:
+Y =: @:] NB. right arg
+getdigits =: 10&#. inv
+pairwisenotequal =: 2 ~:/\ ]
+cut =: ;.1
+passive =: ~
+append =: ,
+count =: #
+head =:{.
+
+lns =: ,@(] ( count , head )cut passive 1 append pairwisenotequal) &. getdigits
+Y repeat (1 + integerlist X)
+
+7 lns 1234x
+
+11121314 311211131114 13211231133114 11131221121321232114
+311311222112111312111213122114 13211321322112311311123112111311222114
+11131221131211132221121321133112132112311321322114
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]swingtheory 2 points3 points4 points 3 years ago (1 child)
+
+What is this?!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Godspiral3 3 2 points3 points4 points 3 years ago (0 children)
+
+jsoftware.com J language.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]cooper6581 2 points3 points4 points 3 years ago* (2 children)
+
+Go (just started learning):
+
+package main
+
+import (
+    "strconv"
+    "fmt"
+    "os"
+    "log"
+)
+
+func say(s string, index int, acc string) string {
+    if index >= len(s) {
+        return acc
+    }
+    c := s[index]
+    i := index + 1
+    count := 1
+    for i < len(s) && s[i] == c {
+        i++
+        count++
+    }
+    return say(s, i, acc + strconv.Itoa(count) + string(c))
+}
+
+func do_it(seed string, n int) {
+    var res string
+    fmt.Println(seed)
+    res = say(seed, 0, "")
+    fmt.Println(res)
+    for i := 0; i < n - 2; i++ {
+        res = say(res, 0, "")
+        fmt.Println(res)
+    }
+}
+
+func main() {
+    iterations, err := strconv.Atoi(os.Args[2])
+    if err != nil {
+        log.Fatal(err)
+    }
+    do_it(os.Args[1], iterations)
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 2 points3 points4 points 3 years ago (1 child)
+
+I'm not familiar with this language, but it looks like you declared two
+functions and named them say and do_it?
+
+Just some general good practice advice:
+
+ 1. you need to use appropriate names for your functions and variables. so if
+    you have a function that draws to the screen, it makes sense to call it
+    DrawToScreen, or a variable that holds the pixel count, should be
+    pixelCount. This makes it alot easier to go back to our code later on and
+    reference it for future projects. Which if your like me you will be doing
+    alot.
+
+ 2. Edit: disregard this I misread, but Im going to leave it for anyone else
+    that might stumble on it. it's also good practice to indent nested code. So
+    if you have code inside a function or a class you would want to indent it
+    for better readability like so:
+
+    func UselessFunction ()
+    {
+        NestedFunction()
+    }
+
+    this makes reading your code quickly alot easier.
+
+Even with small projects this can make a world of difference, so just go ahead
+and get in the habit now.
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]cooper6581 2 points3 points4 points 3 years ago (0 children)
+
+Thanks for the feedback!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Daige 2 points3 points4 points 3 years ago (8 children)
+
+C++ :
+
+Really new to C++ so any thing I've done that I shouldn't I'd like to know
+about. Hopefully be doing the rest of this weeks in C++ as well.
+
+int main(){
+    int N; string seq;
+    cout << "Starting Sequence: "; cin >> seq;
+    cout << "N: "; cin >> N;
+
+    cout << seq << endl;
+    for (int i = 0; i < N; i++){
+        int count = 0; char curr = seq[0]; string newSeq = "";
+        for (int j = 1; j <= seq.length(); j++){
+            count++;
+            if (curr != seq[j] || j == seq.length()){
+                newSeq.insert(newSeq.end(), count+'0');
+                newSeq.insert(newSeq.end(), curr);
+                count = 0; curr = seq[j];
+            }
+        }
+        cout << newSeq << endl;
+        seq = newSeq;
+    }
+    return 0;
+}
+
+Sample output:
+
+    Starting Sequence: 444222
+    N: 3
+    444222
+    3432
+    13141312
+    1113111411131112
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]gciccarelli 1 point2 points3 points 3 years ago (5 children)
+
+A couple of comments: the string newSeq can be initialized to an empty string
+by simply declaring it:
+
+string newSeq;
+
+To append to a string, prefer the operator+=() or append(); instead of relying
+on ASCII encoding (like in count+'0'), use to_string():
+
+newSeq.append(to_string(count)).append(1, curr);
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Daige 1 point2 points3 points 3 years ago (0 children)
+
+Thanks!
+
+I put newSeq = "" because it was in a loop and didn't realise just redeclaring
+it would make it empty.
+
+As for, to_string(). This is what actually took me time as I couldn't get
+to_string to compile. Just had another go at looking it up knowing it's not the
+code and it was because I wasn't compiling with C++11, so that's a fun new type
+of problem I've not had to look out for before.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]m42a 1 point2 points3 points 3 years ago (3 children)
+
+count+'0' doesn't rely on ASCII; it's required by the standard to work in all
+encodings. to_string is still better since it deals with counts greater than 9.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]gciccarelli 0 points1 point2 points 3 years ago (2 children)
+
+Thanks m42a, didn't know that. Do you mind pointing me to the relevant section
+of the standard?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]m42a 1 point2 points3 points 3 years ago (1 child)
+
+N3936 Section 2.3/3
+
+    In both the source and execution basic character sets, the value of each
+    character after 0 in the above list of decimal digits shall be one greater
+    than the value of the previous.
+
+Similar wording exists in the C++11 standard, and I believe the C++98 standard
+as well.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]gciccarelli 0 points1 point2 points 3 years ago (0 children)
+
+Thank you!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]m42a 1 point2 points3 points 3 years ago (0 children)
+
+    if (curr != seq[j] || j == seq.length())
+
+if j==seq.length() then accessing seq[j] is undefined behavior. You should
+remove that length check, make the loop condition j<seq.length(), and then put
+the work you would do when j is seq.length() after the loop.
+
+    newSeq.insert(newSeq.end(),
+
+string has a member function called push_back that inserts at the end, and it's
+less verbose and harder to screw up.
+
+There are also some inefficiencies in here:
+
+    string newSeq = "";
+
+A default constructed string is already empty, so initializing with an empty
+string it isn't necessary, and can be less efficient.
+
+    seq = newSeq;
+
+Since newSeq is destroyed immediately after this statement, you should move it
+into seq rather than copy it.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]MayhapPerchance 0 points1 point2 points 3 years ago* (0 children)
+
+Same approach, terser code. Your inner loop is my find_if().
+
+string looksay = "1";
+
+int n;
+cin >> n;
+
+while(n-- > 0)
+{
+    string s;
+
+    for(string::iterator i = looksay.begin(), j; i != looksay.end(); i = j)
+    {
+        j = find_if(i, looksay.end(), [=](char c){ return c != *i; });
+
+        s += to_string(distance(i, j)) + *i;
+    }
+
+    looksay = s;
+}
+
+cout << looksay << endl;
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]regul 2 points3 points4 points 3 years ago (0 children)
+
+Python: it's not super elegant, but it's pretty readable, I think.
+
+import sys
+
+def translate(number):
+    final = ""
+    currentChain = 0
+    currentChar = number[0]
+    for d in number:
+        if d == currentChar:
+            currentChain+=1
+        else:
+            final = final+str(currentChain)+currentChar
+            currentChar = d
+            currentChain = 1
+    final = final+str(currentChain)+currentChar
+    return final
+
+result = sys.argv[2]
+
+for x in xrange(int(sys.argv[1])-1):
+    print result
+    result = translate(result)
+
+print result
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]MJkram 2 points3 points4 points 3 years ago (2 children)
+
+Javascript
+Using regex search and replace to find the matches.
+Only returns the final result.
+
+function lands(i,n){
+    for(; n--; )
+        i = (i+'').replace(/(\d)(\1+)|(\d)/g, function(a,b,c,d){
+            return c ? 1+c.length+b : '1'+d;
+        });
+    return i;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Preachieved 1 point2 points3 points 3 years ago (1 child)
+
+I also opted to go for regex and javascript. Any reason you chose (\d)(\1+)|(\
+d) instead of just (\d)\1*? http://jsfiddle.net/Preachieved/sktpfj5y/3/
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]MJkram 0 points1 point2 points 3 years ago (0 children)
+
+Honestly, I forgot about the * character and what it did.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Godd2 2 points3 points4 points 3 years ago (0 children)
+
+Here's mine in Ruby:
+
+def looknsay(n, seed = 1)
+  output = a = seed
+  (n-1).times do |i|
+    output = ""
+    a.to_s.scan(/1+|2+|3+|4+|5+|6+|7+|8+|9+|0+/).each do |set|
+      output << set.length.to_s + set[0]
+    end
+    a = output.to_i
+  end
+  output
+end
+print "Please type a number: "
+input = gets.chomp.to_i
+print "Please type a seed: "
+puts looknsay(input, gets.chomp.to_i)
+
+Cool thing about seeds is that the result always ends in the seed. Also, this
+thing start to seriously slow down for inputs of >40.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]kurtlocker 1 point2 points3 points 3 years ago (0 children)
+
+Javascript. I was originally returning an array with a sequence of numbers
+representing the nth 'look and say' number which I just barf convert at the
+end, now.
+
+function looknsay(seed,n) {
+    var temp = [seed], count = 0, finalnum = "";
+    for (var i = 0; i < n; i++) {
+        var newTemp = [];
+        for (var k = 0; k < temp.length; k++) {
+            if (temp[k]===temp[k+1]){
+                count++; continue;
+            } else if (temp[k]!==temp[k+1]){
+                count++;
+                var current = temp[k];
+                newTemp.push(count); newTemp.push(current)
+                count=0;
+            }
+        }
+        temp = newTemp;
+    }
+    temp.forEach(function(num) {
+        finalnum += num.toString();
+    });
+    return parseInt(finalnum);
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]kirsybuu0 1 1 point2 points3 points 3 years ago (1 child)
+
+D Language, with bonus
+
+import std.stdio, std.string, std.conv, std.range, std.algorithm;
+auto lookNsay(string seed) {
+    return seed.splitDigits.array()
+               .recurrence!((a,n) => a[n-1].group
+                                           .map!(t => t[1].splitDigits
+                                                          .chain(t[0].only))
+                                           .joiner.array());
+}
+auto splitDigits(T)(T i) { return i.text.map!(c => cast(uint)(c-'0')); }
+void main() {
+    writefln("%(%(%u%)\n%)",readln.chomp.lookNsay.take(readln.chomp.to!size_t));
+}
+
+Example:
+
+010 // seed
+10  // n
+010
+101110
+11103110
+3110132110
+1321101113122110
+1113122110311311222110
+31131122211013211321322110
+132113213221101113122113121113222110
+111312211312111322211031131122211311123113322110
+31131122211311123113322110132113213221133112132123222110
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Meenhard 0 points1 point2 points 3 years ago (0 children)
+
+No mine feels boring ;(
+
+import std.stdio;
+
+uint[] lookSay(in uint[] input)
+{
+    //if empty return
+    if(input.length == 0)
+        return  input.dup;
+
+
+    uint[] result;
+    uint num_equal_letters = 1;
+    uint current_byte = input[0];
+
+    for(uint i = 1; i < input.length; ++i) // iterate over all elements in the input array
+    {
+        if(current_byte != input[i]) // if the letter is not the same as before, store the number of letters and the letter in the resulting array reset the experiment
+        {
+            result ~=[num_equal_letters,current_byte]; //this merges two dynamic arrays
+            current_byte = input[i];
+            num_equal_letters = 0;
+        }
+        num_equal_letters++;
+    }
+    result ~= [num_equal_letters,current_byte];
+    return result;
+}
+
+void main(string[] args)
+{
+    uint[] look_there = [1];
+    for(int i=0; i < 20; ++i)
+    {
+        writeln(look_there=lookSay(look_there));
+    }
+    stdin.readln();
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]erfvbtgfdctyhnmujhgb 1 point2 points3 points 3 years ago* (0 children)
+
+Decided to give python 2.7 a go. Armed with a reference sheet this is what I
+managed to come up with. Strings... strings everywhere :D
+
+n = input("What # of iteration would you like of the \"look And Say\" ~$")
+
+init = "1"  #The seed (this can be changed)
+if(n == 1):
+    print init
+    quit()
+
+iteration = 0
+
+while(iteration < n-1):
+    oldInit = init
+    currentElement = init[0]
+    init = ""
+    counter = 0
+
+    for x in oldInit:
+        if(currentElement == str(x)):
+            counter += 1
+        else:
+            init = init + str(counter) + currentElement
+            counter = 1
+            currentElement = x
+
+    init = init + str(counter) + currentElement
+    iteration += 1
+
+print init
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]JustinKSU 1 point2 points3 points 3 years ago (0 children)
+
+Java
+
+public static void lookAndSay(String seed, int iterations) {
+    if (seed != null && seed.length() > 0) {
+        for (int i = 0; i < iterations; i++) {
+            System.out.println(seed);
+
+            StringBuilder sb = new StringBuilder();
+            char current = seed.charAt(0);
+            int count = 0;
+            for (char c : seed.toCharArray()) {
+                if (c == current) {
+                    count++;
+                } else {
+                    sb.append(count).append(current);
+                    current = c;
+                    count = 1;
+                }
+            }
+            sb.append(count).append(current);
+            seed = sb.toString();
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]snarf2888 0 points1 point2 points 3 years ago (6 children)
+
+C. I, too, enjoy a good Numberphile video:
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#if !defined(__APPLE__)
+#include <malloc.h>
+#endif
+
+void next_num(char **next, char *num) {
+    int length = 0, count = 0, total = 0, offset = 0;
+    int i = 0, j = 0, k = 0, l = 0;
+    char *tmp = NULL;
+
+    length = (int)strlen(num);
+
+    tmp = malloc(sizeof(char) * (length) + 1);
+    strcpy(tmp, num);
+
+    for (i = 0, j = length; i < j; i += count) {
+        count = 1;
+
+        for (k = i + 1, l = length; k < l; k++) {
+            if (tmp[k] == tmp[i]) {
+                count++;
+            } else {
+                k = l;
+            }
+        }
+
+        total++;
+    }
+
+    *next = malloc(sizeof(char) * (total * 2) + 1);
+
+    for (i = 0, j = length; i < j; i += count) {
+        count = 1;
+
+        for (k = i + 1, l = length; k < l; k++) {
+            if (tmp[k] == tmp[i]) {
+                count++;
+            } else {
+                k = l;
+            }
+        }
+
+        offset += sprintf(*next + offset, "%d%c", count, tmp[i]);
+    }
+
+    free(tmp);
+}
+
+int main(int argc, char *argv[]) {
+    int rc = 0, iterations = 10, i = 0, l = 0;
+    char *num = NULL;
+
+    if (argc < 2) {
+        printf("Usage: %s <start> <iterations>\n", argv[0]);
+
+        rc = 1;
+        goto cleanup;
+    }
+
+    num = malloc(sizeof(char) * (int)strlen(argv[1]) + 1);
+    num = argv[1];
+
+    if (argc > 2) {
+        iterations = atoi(argv[2]);
+    }
+
+    printf("%s\n", num);
+
+    for (i = 0, l = iterations; i < l; i++) {
+        next_num(&num, num);
+        printf("%s\n", num);
+    }
+
+cleanup:
+    if (num) {
+        free(num);
+    }
+
+    return rc;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]greenlight227 1 point2 points3 points 3 years ago (5 children)
+
+not a fan of that goto :P
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]lukz2 0 1 point2 points3 points 3 years ago (4 children)
+
+In C you don't have try/catch statement, so this is how you do exception
+handling. The usage here is OK in my opinion.
+
+The other option would be to copy the free() directly into the if() {}
+statement, but then you end up having free() twice in the function, which is
+maybe even worse.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Big9erfan 1 point2 points3 points 3 years ago (3 children)
+
+You've done 0 allocations before that error condition. Why not just return
+there?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]lukz2 0 0 points1 point2 points 3 years ago (1 child)
+
+In this case that would be even better solution.
+
+But I am not the original author. I just wanted to point out to people who may
+not be familiar with C that some better language constructs available in other
+languages are not available in C and goto is used as a substitute for that.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Big9erfan 0 points1 point2 points 3 years ago (0 children)
+
+Fair enough :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]snarf2888 0 points1 point2 points 3 years ago (0 children)
+
+I always include some type of cleanup label to make it easy to add features in
+the future.
+
+Say I wanted to be able to throw an error if the number of iterations provided
+was too large. I could put that error logic in there and tell it to goto
+cleanup. That happens after num is allocated, so it would need to be free'd.
+
+tl;dr I'd rather be overly cautious about freeing allocations than to have any
+memory leakage.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago* (0 children)
+
+C#. Accepts any 'seed.' Edited to switch to a recursive approach.
+
+static void Main(string[] args)
+{
+    for (int i = 1; i <= 10; i++)
+    {
+        Console.WriteLine(looknsay(i, "1"));
+    }
+
+    Console.Read();
+}
+
+static readonly Regex r = new Regex(@"(\d)\1*", RegexOptions.Compiled);
+static string looknsay(int n, string seed)
+{
+    if (n < 1) return seed;
+
+    StringBuilder sb = new StringBuilder();
+    foreach (Match match in r.Matches(seed))
+    {
+        string group = match.Value;
+        sb.Append(group.Length);
+        sb.Append(group[0]);
+    }
+
+    return looknsay(n - 1, sb.ToString());
+}
+
+  • permalink
+  • embed
+  • save
+
+[–]Bleach984 0 points1 point2 points 3 years ago* (0 children)
+
+One interesting seed case I found is seed 22, which translates to 22 regardless
+of N.
+
+Ruby
+
+def next_look(current)
+    str = ""
+    count = 0
+    unique = current[0]
+
+    on_unique = lambda do |c|
+        str << "#{count}#{unique}"
+        count = 1
+        unique = c
+    end
+
+    current.each_char do |c|
+        if c == unique then
+            count += 1
+        else
+            on_unique.call c
+        end
+    end
+    on_unique.call ""
+    str
+end
+
+def nth_looknsee(n, seed="1")
+    ith = seed
+    (1..(n.to_i)).each do
+        ith = next_look(ith)
+    end
+    ith
+end
+
+if __FILE__ == $0 then
+    puts nth_looknsee(*ARGV)
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ateBites 0 points1 point2 points 3 years ago (0 children)
+
+Here's my solution, done in python ignoring every best practice possible
+
+def parseSet(prevstr):
+    endindex = 0
+    curstr = prevstr[:]
+    totalstr = ""
+
+    #print(curstr)
+    while(len(curstr) > 0):
+        endindex = getendindex(curstr)
+        totalstr = totalstr + str(endindex) + str(curstr[0])
+        curstr = curstr[endindex:(len(curstr))]
+        #print(str(len(curstr)) + " " + curstr + " " + totalstr)
+
+
+    print(totalstr)
+    return totalstr
+
+
+def getendindex(prevstr):
+     firstchar = prevstr[0]
+    count = 0
+
+    for i in prevstr:
+        if (firstchar == prevstr[count]):
+            count = count+1
+        else:
+            break
+
+    return count
+
+
+#parseSet("1")
+
+n = int(input("enter start NO:"))
+
+count = 0
+
+j = str(n)
+while(count < n):
+    count += 1
+    j = parseSet(j)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jpverkamp 0 points1 point2 points 3 years ago (0 children)
+
+Racket/Scheme version:
+
+; Create a look and see list by combining repeated values
+; For example: 111221 becomes 3 1s, 2 2s, 1 1 => 312211
+(define (look-and-say ls)
+  (apply
+   append
+   (let count ([ls (rest ls)] [i 1] [v (first ls)])
+     (cond
+       [(null? ls)
+        (list (list i v))]
+       [(equal? (first ls) v)
+        (count (rest ls) (+ i 1) v)]
+       [else
+        (list* (list i v) (count (rest ls) 1 (first ls)))]))))
+
+I get a little more into depth (with more Racket specific code) on my blog:
+Look and Say @ jverkamp.com
+
+Specifically, how to create an infinite Look and Say sequence, plotting the
+length of the sequence over time, and visualizing the evolution of the sequence
+over time.
+
+One bit I'd like to see would some sort of visualization for those distinct
+sequences that Conway talked about. It would be interesting to see how those
+grow and change over time. Anyone have an efficient thoughts on that? (Would be
+an interesting intermediate challenge :))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]toodim 0 points1 point2 points 3 years ago (0 children)
+
+Python 3.4.
+
+def look_say(num):
+    str_num = str(num)
+    current = ""
+    current_count = 0
+    final_str = ""
+    for x in str_num:
+        if current_count == 0:
+            current+=x
+        if x == current:
+            current_count += 1
+            continue
+        final_str += str(current_count) + current
+        current = x
+        current_count = 1
+    final_str += str(current_count) + current
+    return final_str
+
+def n_looks(n,num):
+    if n == 1:
+        return look_say(num)
+    return n_looks(n-1,look_say(num))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jlinden_ 0 points1 point2 points 3 years ago (0 children)
+
+Python solution: Run: look_and_say.py seed N
+
+import sys
+
+def convert_to_look_and_say( sequence ) :
+    count = 1
+    previous = sequence[0]
+    translation = ""
+
+    for digit in sequence[1:] :
+        if digit != previous :
+            translation += ( str(count)+previous )
+            count = 0
+        count+=1
+        previous = digit
+
+    if count != 0 :
+        translation += ( str(count)+previous )
+
+    return translation
+
+def main( seed, N ):
+    for i in range(int(N)-1) :
+        seed = convert_to_look_and_say(seed)
+    print seed
+
+if __name__ == "__main__":
+    main(sys.argv[1], sys.argv[2])
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]savage8841 1 0 points1 point2 points 3 years ago (0 children)
+
+C#. Gratuitous and reckless abuse of extension methods and aggregation.
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace SeeAndSay
+{
+    static class Extensions
+    {
+        // because GroupBy(T) just isn't any fun these days
+        public static IEnumerable<IList<T>> GroupConsecutive<T>(this IEnumerable<T> collection)
+            where T : IEquatable<T>
+        {
+            if (!collection.Any())
+                yield break;
+
+            var cache = new List<T>() { collection.First() };
+            foreach (var item in collection.Skip(1))
+            {
+                if (item.Equals(cache.First()))
+                    cache.Add(item);
+
+                else
+                {
+                    yield return cache;
+                    cache = new List<T>() { item };
+                }
+            }
+            if (cache.Any()) yield return cache;
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // best argument parsing in history ;)
+            // actually, I have an argument parsing library on nuget that I should be dog fooding >.<
+            var seed = ReadArgument<long?>(() => Int32.Parse(args[0]), () => Int32.Parse(Console.ReadLine())) ?? 1;
+            var terms = Series(seed.ToString(), term => SeeAndSay(term)).Take(10);
+
+            foreach (var term in terms)
+            {
+                Console.WriteLine(term);
+            }
+        }
+
+        // reckless and wanton abuse of extension methods
+        static string SeeAndSay(string term)
+        {
+            var groups = term.GroupConsecutive();
+
+            return groups.Aggregate(new StringBuilder(), (a, b) => a.Append(b.Count.ToString() + b.First().ToString())).ToString();
+        }
+
+        // favorite method ever
+        static IEnumerable<T> Series<T>(T seed, Func<T, T> incrementor)
+        {
+            yield return seed;
+
+            while (true) yield return seed = incrementor(seed);
+        }
+
+        // look at this awesome waste of code /flex
+        static T ReadArgument<T>(params Func<T>[] sources)
+        {
+            foreach (var function in sources)
+            {
+                try
+                {
+                    return function();
+                }
+                catch (Exception)
+                {
+                }
+            }
+            return default(T);
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]mthjones 0 points1 point2 points 3 years ago* (0 children)
+
+Scala
+
+Tried to make it fairly concise but still readable. The actual program is in
+LookNSay.scala. The Util file is just helpers that are mostly general purpose.
+
+LookNSay.scala
+
+package dp180e
+
+object LookNSay {
+  import dp180e.Util._
+
+  def looknsay(n: Int, seed: String): String = times(n-1, seed)(describe)
+  def describe(s: String): String =
+    s.foldWithTake("") { s1 => _ == s1.head } { (s1, acc) => acc + s1.length + s1.head }
+
+  def main(args: Array[String]) = println(args.headOption.flatMap(_.toIntOption) match {
+    case Some(i) => looknsay(i, args.tail.headOption.getOrElse("1"))
+    case None => "Usage: scala dp180e.LookNSay n [seed]"
+  })
+}
+
+Util.scala
+
+package dp180e
+
+import scala.annotation.tailrec
+
+object Util {
+  implicit class DP180StringOps(s: String) {
+    def foldWithTake[B](z: B)(f: String => Char => Boolean)(g: (String, B) => B): B = {
+      @tailrec
+      def loop(s1: String, acc: B): B =
+        if (s1.isEmpty) acc
+        else {
+          val (eq, tail) = s1.span(f(s1))
+          loop(tail, g(eq, acc))
+        }
+      loop(s, z)
+    }
+
+    def toIntOption: Option[Int] = try {
+      Some(s.toInt)
+    } catch {
+      case _: NumberFormatException => None
+    }
+  }
+
+  def times[B](n: Int, z: B)(f: B => B): B = List.fill(n)(f).foldRight(z)(_(_))
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dooglehead 0 points1 point2 points 3 years ago (0 children)
+
+C
+
+#include <stdio.h>
+
+int main()
+{
+    char *currentLine, *nextLine;
+    char* temp;
+    unsigned int n, i, currentIndex, nextIndex, numCount;
+    char currentChar;
+    currentLine = malloc(21 * sizeof(char));
+    nextLine = malloc(21 * sizeof(char));
+    printf("seed: ");
+    scanf("%s", currentLine);
+    printf("n: ");
+    scanf("%u", &n);
+
+    for (i = 0; i < n; i++)
+    {
+        numCount = currentIndex = nextIndex = 0;
+        currentChar = currentLine[0];
+        do
+        {
+            if (currentLine[currentIndex] == currentChar)
+            {
+                numCount++;
+            }
+            else
+            {
+                nextLine[nextIndex] = numCount + '0';
+                nextLine[nextIndex+1] = currentChar;
+                nextIndex += 2;
+                currentChar = currentLine[currentIndex];
+                numCount = 1;
+            }
+        } while (currentLine[currentIndex++]);
+
+        nextLine[nextIndex] = 0;
+        temp = currentLine;
+        currentLine = nextLine;
+        nextLine = temp;
+    }
+    printf("%s", nextLine);
+    free(nextLine);
+    free(currentLine);
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ben_jl 0 points1 point2 points 3 years ago* (0 children)
+
+In Haskell, still a novice in the language but I managed to get it. Can take
+any positive integer as a seed and generates the n'th look and say number with
+the sayNseeded function. The default behavior is generated by sayN, which
+simply calls sayNseeded w/ seed=1.
+
+import Data.List
+
+msplit :: (Integral a) => [a] -> [[a]]
+msplit [] = []
+msplit all@(x:xs) = [takeWhile (==x) all] ++ msplit (dropWhile (==x) all)
+
+pronounce :: [Int] -> [Int]
+pronounce lst = [length lst, head lst]
+
+say :: [Int] -> [Int]
+say seq = concat $ map pronounce (msplit seq)
+
+saynSeq :: Int -> Int -> [Int]
+saynSeq 1 seed = [seed]
+saynSeq n seed = say (saynSeq (n-1) seed)
+
+sayNseeded :: Int -> Int -> Int
+sayNseeded n seed = fromDigits (saynSeq n seed)
+
+sayN :: Int -> Int
+sayN n = sayNseeded n 1
+
+-- fromDigits code from stackOverflow
+fromDigits :: [Int] -> Int
+fromDigits = foldl addDigit 0
+        where addDigit num d = 10*num + d
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dohaqatar71 1 0 points1 point2 points 3 years ago* (2 children)
+
+My Haskell Solution. It works for any seed by forgetting about the numbers and
+treating the everything as a String.
+
+import Data.List
+import Control.Applicative
+
+main = do
+  seed:iteration:_ <-words <$> getLine
+  putStrLn.unlines.take (read iteration).generateSequence $ seed
+
+generateSequence :: String -> [String]
+generateSequence str = str:(generateSequence.sayNumber $ str)
+
+sayNumber :: String -> String
+sayNumber = concatMap (\xs -> (show.length$xs) ++ [head xs]).group
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Barrucadu 0 points1 point2 points 3 years ago (1 child)
+
+Just to let you know, there's a concatMap function.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]dohaqatar71 1 0 points1 point2 points 3 years ago (0 children)
+
+So, That mean that sayNumber can be shortened to this?
+
+sayNumber :: String -> String
+sayNumber = concatMap (\xs -> (show.length$xs) ++ [head xs]).group
+
+Thanks thanks for the tip!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]SilentBunny 0 points1 point2 points 3 years ago (0 children)
+
+First time participating in one of these! RUBY - code as gist
+
+6 iterations starting with seed 10 output: 10 110 11110 31110 1321110
+11131221110
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]skitch920 0 points1 point2 points 3 years ago* (1 child)
+
+JavaScript Uses coercive comparison x <= y && x >= y and reduces from the
+right:
+
+// Pops from the right of the list
+var yieldRightGroupSubList = function (list) {
+    var val,
+        tmpVal,
+        subList,
+        i;
+    if (list.length > 0) {
+        val = list.pop();
+        subList = [val];
+        i = list.length;
+        while (i--) {
+            tmpVal = list[i];
+            if (val <= tmpVal && val >= tmpVal) {
+                subList.unshift(list.pop());
+            } else {
+                break;
+            }
+        }
+    }
+    return subList ? [val, subList.length] : subList;
+};
+
+var computeLookAndSay = function (val) {
+    // Convert to string array
+    val = ('' + val).split('');
+    // Reduce array from the right until empty
+    var tmpVal = yieldRightGroupSubList(val),
+        out = '';
+    while (tmpVal) {
+        out = tmpVal[1] + tmpVal[0] + out;
+        tmpVal = yieldRightGroupSubList(val);
+    }
+    return out;
+};
+
+var run = function (input, limit) {
+    var i = limit;
+    while (i--) {
+        console.log(input = computeLookAndSay(input));
+    }
+};
+
+Output
+
+run(21, 7);
+1211
+111221
+312211
+13112221
+1113213211
+31131211131221
+13211311123113112211
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]skitch920 0 points1 point2 points 3 years ago* (0 children)
+
+Also Coffeescript:
+
+# Pops from the right of the list
+yieldRightGroupSubList = (list) ->
+    if list.length > 0
+        val = list.pop()
+        subList = [val]
+        i = list.length
+        while i--
+            tmpVal = list[i]
+            if val <= tmpVal and val >= tmpVal
+                subList.unshift list.pop()
+            else
+                break
+    if subList then [
+        val
+        subList.length
+    ] else subList
+
+computeLookAndSay = (val) ->
+    # Convert to string array
+    val = ("" + val).split ""
+    # Reduce array from the right until empty
+    tmpVal = yieldRightGroupSubList val
+    out = ""
+    while tmpVal
+        out = tmpVal[1] + tmpVal[0] + out
+        tmpVal = yieldRightGroupSubList val
+    out
+
+run = (input, limit) ->
+    i = limit
+    console.log input = computeLookAndSay input  while i--
+    return
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]minikomi 0 points1 point2 points 3 years ago (0 children)
+
+Clojure:
+
+ user=> (defn look-say [n-str]
+   #_=>   (->> (partition-by identity n-str)
+   #_=>        (mapcat #(list (count %) (first %)))
+   #_=>        (apply str)))
+ #'user/look-say
+ user=> (look-say "1111")
+ "41"
+ user=> (look-say "1")
+ "11"
+ user=> (look-say *1)
+ "21"
+ user=> (look-say *1)
+ "1211"
+ user=> (look-say *1)
+ "111221"
+ user=> (look-say *1)
+ "312211"
+ user=> (look-say *1)
+ "13112221"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]PyBanana 0 points1 point2 points 3 years ago (0 children)
+
+My non-elegant python solution.
+
+def look_and_say(N):
+    look = '1'
+    for i in range(N):
+        final = ''
+        start = look[0]
+        current = 0
+        for j in look:
+            if j == start:
+                current += 1
+            else:
+                final += str(current) + str(start)
+                start = j
+                current = 1
+        final += str(current) + str(start)
+        look = final
+    return look
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]InSine 0 points1 point2 points 3 years ago (0 children)
+
+in Python 2.7.8
+
+def looknSay(n):
+    Stringn=str(n)+"a"
+    newString=""
+    nCount=1
+    for i in range(len(Stringn)-1):
+        if Stringn[i] == Stringn[i+1]:
+            nCount+=1
+        else:
+            newString=newString + str(nCount) + Stringn[i]
+            nCount=1
+    return newString
+
+def recur(n,i):
+    """i is the string, n is the number of iterations"""
+    Stringn=str(i)
+    for i in range(n):
+        Stringn=looknSay(Stringn)
+    return Stringn
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pirothezero 0 points1 point2 points 3 years ago (0 children)
+
+C#. Naive approach may go back to it later. Was able to get up to N = 66 before
+OutOfMemory Exception. Tried both string and StringBuilder.
+
+StringBuilder Time for 66: 00:00:20.6573819 compared to regular string concat
+Time for 50: 00:04:11.6734004
+
+static void Main(string[] args)
+    {
+        FileStream filestream = new FileStream("recursive.txt", FileMode.Create);
+        var streamwriter = new StreamWriter(filestream);
+        streamwriter.AutoFlush = true;
+        Console.SetOut(streamwriter);
+        Console.SetError(streamwriter);
+
+        for (int i = 1; i <= 100; i++ )
+        {
+            var stopwatch = System.Diagnostics.Stopwatch.StartNew();
+
+            var result = LookAndSay(i);
+            stopwatch.Stop();
+            Console.WriteLine(string.Format("Time for {0}: {1}", i, stopwatch.Elapsed));
+        }
+        Console.ReadLine();
+    }
+
+    public static string LookAndSay(int n)
+    {
+       string workingTerm = "";
+       for(int i = 1; i <= n; i++)
+       {
+            List<KeyValuePair<char, int>> table = new List<KeyValuePair<char, int>>();
+            int index = -1;
+            if(String.IsNullOrEmpty(workingTerm))
+            {
+                workingTerm += i;
+            }
+            else
+            {
+                char current = '\0';
+                foreach(char j in workingTerm)
+                {
+                    if (current != j)
+                    {
+                        index++;
+                        current = j;
+                        table.Add(new KeyValuePair<char, int>(j, 1));
+                    }
+                    else
+                    {
+                        var newValue = table[index].Value;
+                        table[index] = new KeyValuePair<char, int>(table[index].Key, ++newValue);
+                    }
+                }
+                StringBuilder result = new StringBuilder();
+
+                foreach(var p in table)
+                {
+                    result.Append(p.Value + "" + p.Key);
+                }
+                workingTerm = result.ToString();
+
+            }
+       }
+       return workingTerm;
+    }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]sagan_radiation 0 points1 point2 points 3 years ago (0 children)
+
+Python 3
+
+#returns next value of a sequence
+def counter(x):
+    ans = ''
+    while x != '':
+        count = 1
+        head, x = (x[0], x[1:])
+        while len(x) > 0 and x[0] == head:
+            x = x[1:]
+            count += 1
+        ans += str(count) + head
+    return ans
+
+#wrapper function
+def looper(n):
+    x = '1'
+    for i in range(n):
+        x = counter(x)
+    return x
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]frozensunshine1 0 0 points1 point2 points 3 years ago (0 children)
+
+C99, with bonus. Would love feedback. Thank you.
+
+// compile: gcc -g -std=c99 -Wall look_and_say.c -o look_and_say
+// run: ./look_and_say string_seed num_iterations
+// for example: ./look_and_say 145 6
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<math.h>
+
+char** look_and_say(char* seed, int iter){
+
+    int len = strlen(seed);
+    char** seed_output = malloc(iter*sizeof(char*));
+
+    for (int i = 0; i<iter; i++){
+
+        seed_output[i] = malloc(2*len*sizeof(char)); // don't forget to update len at the end of the loop
+
+        int k = 0;
+        int start_idx = 0;
+        int end_idx = 0;
+
+        for(int j = 0; j<len; j++){// cover the entire length of input seed
+            if (j < len-1){
+                if(seed[j]!=seed[j+1]){
+                    end_idx = j;
+                    seed_output[i][k] = '0' + end_idx-start_idx+1; //#chars btwn start & end, incl both
+                    k++;
+                    seed_output[i][k] = seed[j]; //the char itself
+                    k++;
+                    start_idx = j+1;
+                }
+            }else if (j== (len-1)){
+                    end_idx = len-1;
+                    seed_output[i][k] = '0' + end_idx - start_idx + 1;
+                    k++;
+                    seed_output[i][k] = seed[j];
+                    k++;
+            }
+        }
+
+        seed_output[i][k] = '\0';
+        seed = seed_output[i];
+        len = k;
+    }
+
+    return seed_output;
+
+}
+
+void print_pattern(char** table, char* seed, int iter){
+
+    printf("The table is\n");
+    printf("%s\n", seed);
+    for (int i = 0; i <iter; i++){
+        printf("%s\n", table[i]);
+    }
+    return;
+}
+
+int main(int arg, char* argv[]){
+
+    char* seed = argv[1];
+    int iter = atoi(argv[2]);
+
+    char** seed_output = look_and_say(seed, iter);
+
+    print_pattern(seed_output, seed, iter);
+
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Puttepingvin 0 points1 point2 points 3 years ago (0 children)
+
+PowerShell:
+
+$z = Read-Host 'Seed'
+$n = Read-Host 'N'
+for($i = 0; $i -lt $n; $i++){
+$z = look $z;
+echo $z
+}
+
+function look{
+    $array = $args[0].ToCharArray()
+    $count = 1
+    for($i = 0; $i -lt $array.Count; $i++){
+        if($array[$i] -eq $array[$i+1]){
+            $count++;
+        }
+        else{
+            $return += $count.ToString() + $array[$i];
+            $count = 1;
+        }
+    }
+    return $return
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]fvandepitte0 0 0 points1 point2 points 3 years ago (0 children)
+
+C#
+
+Usage
+
+ConsoleApplication4.exe 1 6
+
+Code:
+
+using System;
+using System.Text;
+
+internal class Program
+{
+    private static void Main(string[] args) {
+        string seed = args[0];
+        int n = int.Parse(args[1]);
+
+        for (int i = 0; i < n; i++)
+        {
+            Console.WriteLine("Generatetion {0}: {1}", i, seed);
+
+            StringBuilder newSeed = new StringBuilder();
+            char c = seed[0];
+            int counter = 0;
+            for (int j = 0; j < seed.Length; j++)
+            {
+                if (seed[j] == c)
+                {
+                    counter++;
+                }
+                else
+                {
+                    newSeed.AppendFormat("{0}{1}", counter, c);
+                    c = seed[j];
+                    counter = 1;
+                }
+            }
+            newSeed.AppendFormat("{0}{1}", counter, c);
+            seed = newSeed.ToString();
+        }
+        Console.WriteLine("Result: {0}", seed);
+        Console.ReadKey();
+    }
+}
+
+Output:
+
+Generatetion 0: 1
+Generatetion 1: 11
+Generatetion 2: 21
+Generatetion 3: 1211
+Generatetion 4: 111221
+Generatetion 5: 312211
+Result: 13112221
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]rsamrat 0 points1 point2 points 3 years ago (0 children)
+
+Clojure:
+
+(defn look-and-say
+  [seed]
+  (reduce-kv (fn [s k v]
+               (str s v k))
+             ""
+             (frequencies seed)))
+
+Usage:
+
+(take 10 (iterate look-and-say "990"))
+
+And to find the nth look-and-say number:
+
+(nth (take (inc n) (iterate look-and-say "990")) n)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Mawu3n4 0 points1 point2 points 3 years ago (0 children)
+
+Here's mine in Python
+
+def looknsay(seed):
+    numbers = seed
+    while True:
+        yield numbers
+        count = 0
+        res = ''
+        for i, n in enumerate(numbers[1:]):
+            if n == numbers[i]:
+                count += 1
+            else:
+                res += str(count+1)+numbers[i]
+                count = 0
+
+        numbers = res+str(count+1)+numbers[-1]
+
+
+gen = looknsay(str(input("Seed ?: ")))
+
+for i in range(input("Nth ?: ") - 1):
+    gen.next()
+
+print gen.next()
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]datgohan 0 points1 point2 points 3 years ago (0 children)
+
+Python, any comments and what not are very welcome as I'm still learning
+Python.
+
+def looknsay(number):
+    result = ''
+    noofrepeats = 1
+    repeatnumber = number[0]
+    number = number[1:]+" "
+
+    for i in number:
+        if i != repeatnumber:
+            result += str(noofrepeats)+repeatnumber
+            noofrepeats = 1
+            repeatnumber = i
+        else:
+            noofrepeats += 1
+
+    return result
+
+print "Please input a number: "
+a = raw_input();
+print "Choose seed number (press return to use seed 1): "
+seed = raw_input();
+if seed == '':
+    seed = "1"
+print "Show All?"
+s = raw_input()
+if a.isdigit() == False or seed.isdigit() == False:
+    print "Please choose a number"
+    quit()
+else:
+    for i in range(int(a)):
+        if (i == int(a)-1) or s.lower() == "y":
+            print seed
+        seed = looknsay(seed)
+
+Added an option to choose whether it just prints out the nth term (as
+specified) or to print out everything (for visual purposes and my debugging/
+testing)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]video_game 0 points1 point2 points 3 years ago* (0 children)
+
+C#:
+
+using System;
+using System.Text;
+
+namespace Daily_Programmer_9_15_14
+{
+    class Program091514
+    {
+        static void Main(string[] args)
+        {
+            string seed = "1";
+            Console.WriteLine(seed);
+            for(int i = 0; i < 10; i++)
+                Console.WriteLine(seed = LookNSay(seed));
+        }
+
+        static string LookNSay(string str)
+        {
+            StringBuilder sb = new StringBuilder();
+            for(int i = 0; i < str.Length; i++)
+            {
+                int count = 1;
+                char c = str[i];
+                while(i+1<str.Length && str[i + 1] == c)
+                {
+                    count++;
+                    i++;
+                }
+                sb.Append(count);
+                sb.Append(c);
+            }
+            return sb.ToString();
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]sillygreen89 0 points1 point2 points 3 years ago (0 children)
+
+My first submission and first non-tutorial Python attempt so be gentle, input
+welcome/encouraged.
+
+def Look_n_Say(n, seed):
+    list=[seed]
+    i=0
+    count = 0
+    val = seed
+    temp = []
+    print(list)
+    for i in range(i,n):
+        for num in list:
+            if(num == val):
+                count += 1
+            else:
+                temp += [count, val]
+                val = num
+                count = 1
+        temp += [count, val]
+        list = temp
+        print(list)
+        count = 0
+        val = list[0]
+        temp = []
+
+Input
+
+7 5
+
+Output
+
+[5]
+[1, 5]
+[1, 1, 1, 5]
+[3, 1, 1, 5]
+[1, 3, 2, 1, 1, 5]
+[1, 1, 1, 3, 1, 2, 2, 1, 1, 5]
+[3, 1, 1, 3, 1, 1, 2, 2, 2, 1, 1, 5]
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 3 years ago (1 child)
+
+[deleted]
+
+[–]zeringus 0 points1 point2 points 3 years ago (0 children)
+
+Looks good! Some notes...
+
+if n < 0 || n == 0 || seed.to_i < 0 || seed.to_i == 0
+
+should be rewritten as
+
+if n <= 0 || seed.to_i <= 0
+
+Also, in your first function, the return in
+
+return say
+
+is implicit and can be omitted. Finally,
+
+Array.first
+
+is a method that's equivalent to calling
+
+some_array[0]
+
+and might be more readable.
+
+Of course, the last two points are only stylistic. Just wanted to make sure
+that you were aware of the language features.
+
+Good job!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]G33kDude1 1 0 points1 point2 points 3 years ago (0 children)
+
+My solution in AutoHotkey
+
+InputBox, n,, Which Look and Say number do you want?
+InputBox, Seed,, Starting seed (Default is blank)
+Loop, % n
+    Seed := LookNSay(Seed)
+MsgBox, % Seed
+return
+
+LookNSay(Seed)
+{
+    Chars := StrSplit(Seed)
+    LastChar := Chars.Remove(1)
+    Num := 1
+    for each, Char in Chars
+    {
+        if (Char == LastChar)
+            Num++
+        else
+        {
+            Out .= Num . LastChar
+            LastChar := Char
+            Num := 1
+        }
+    }
+    Out .= Num . LastChar
+    return Out
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]zeringus 0 points1 point2 points 3 years ago (0 children)
+
+Ruby
+
+def look_and_say n, seed = 1
+    if n <= 1 # base case
+        seed
+    else
+        current_char = nil; current_count = nil
+        look_and_say(n - 1, seed.to_s.each_char.reduce("") do |acc, char|
+            unless current_char == char
+                acc << "#{current_count}#{current_char}" if current_char
+                current_char = char; current_count = 0
+            end
+            current_count += 1; acc
+        end << "#{current_count}#{current_char}")
+    end
+end
+
+puts look_and_say gets.chomp.to_i
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]gciccarelli 0 points1 point2 points 3 years ago (0 children)
+
+Language: C++. Any feedback welcome. https://gist.github.com/sturmer/
+79db5d9923e4e920ba81
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jnazario2 0 0 points1 point2 points 3 years ago* (0 children)
+
+F# updated to add a main method, clean up code a bit
+
+let pack xs =
+    let collect x = function
+        | (y::xs)::xss when x = y -> (x::y::xs)::xss
+        | xss -> [x]::xss
+    List.foldBack collect xs []
+
+let count xs =
+    pack xs |> List.map ( fun x -> List.length x, List.head x )
+
+let lookAndSay(N:int) =
+    let mutable input = [1]
+    let mutable res = ["1"]
+    for _ in [ 1..N ] do
+        let output = count input
+        let O = output |> List.map ( fun (x,y) -> string(x)+string(y) ) |> String.concat("")
+        res <- res @ [O]
+        input <- O.ToCharArray() |> Array.map(fun x -> int(x)-48) |> Array.toList
+    res
+
+[<EntryPoint>]
+let main args =
+    let N = int32(System.Console.ReadLine())
+    let res = lookAndSay(N)
+    System.Console.WriteLine("{0}", res |> String.concat("\n"))
+    0
+
+result, first number is the number of rounds to do
+
+$ mono lookAndSay.exe
+8
+1
+11
+21
+1211
+111221
+312211
+13112221
+1113213211
+31131211131221
+
+i got it up to 40 before i got tired of how slow it became
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Regimardyl 0 points1 point2 points 3 years ago (0 children)
+
+My solution in Haskell. I guess that implemention of the lookandsay function is
+the shortest possible.
+
+import           Control.Applicative (liftA2)
+import           Data.Char           (isDigit)
+import           Data.List           (group, nub)
+import           System.Environment  (getArgs)
+
+-- |Makes the next look-and-say sequence
+--  Uses String since that makes parsing single digits the easiest
+--  Non-digits just get removed
+lookandsay :: String -> String
+lookandsay = concatMap (liftA2 (++) (show . length) nub) . group . filter isDigit
+
+-- Decided to go for a GHC-style do-block, pretty neat but indentation is a hassle
+main = do { (n:r) <- getArgs
+          ; putStrLn $ (!!read n) $ iterate lookandsay $ case r of
+                                                         s:_ -> s
+                                                         _   -> "1"
+          }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+I suck :(
+
+Python 2.7.7:
+
+def calculate(input_string):
+    main_char = ""
+    count = 0
+    output_string = ""
+    for char in input_string:
+        if char != main_char:
+            if output_string == "" and count == 0:
+                main_char = char
+                count = 1
+            else:
+                output_string = output_string + str(str(count) + main_char)
+                main_char = char
+                count = 1
+        else:
+            count += 1
+    return output_string + str(str(count) + main_char)
+
+def look_and_say(n):
+    output = "1"
+    while n>0:
+        output = calculate(output)
+        n -= 1
+    return output
+
+  • permalink
+  • embed
+  • save
+
+[–]jeaton 0 points1 point2 points 3 years ago (0 children)
+
+C++
+
+#include <iostream>
+#include <sstream>
+#include <iterator>
+#include <vector>
+
+template<typename T>
+std::string list_some(T seed, size_t N) {
+  std::vector<T> numbers{seed}, next;
+  while (--N) {
+    for (size_t i = 0, l = numbers.size(); i < l; i++) {
+      T c, e;
+      for (c = 1, e = numbers.at(i); i + 1 < l && numbers.at(i+1) == e; i++) {
+        c++;
+      }
+      next.push_back(c);
+      next.push_back(e);
+    }
+    numbers = std::move(next);
+  }
+  std::ostringstream result;
+  std::copy(numbers.begin(), numbers.end(), std::ostream_iterator<T>(result));
+  return result.str();
+}
+
+int main() {
+  std::cout << list_some(1, 10) << std::endl;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago* (0 children)
+
+sweet pattern!
+
+Here is my solution in Java.
+
+https://gist.github.com/anonymous/a3d40fde9c4027170524
+
+  • permalink
+  • embed
+  • save
+
+[–]extasytj 0 points1 point2 points 3 years ago (0 children)
+
+My Ruby submission
+
+puts "Nth?"; n = gets.chomp.to_i
+puts "Seed?"; current = gets.chomp
+(1..n).each do |i|
+  result = current.scan(/((\d)\2*)/).map(&:first)
+  current = result.map {|a| a.length.to_s + a[0]}.join
+end
+puts "Result: " + current
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]mxt3 0 points1 point2 points 3 years ago (0 children)
+
+Python 2.7 Did it recursivly. It reaches quite fast the max recursion depth
+though.
+
+def looknsay( number, start = -1 ):
+    length = len(number)
+
+    if start < -length:
+        return ""
+
+    first_num = number[start]
+    count = 1
+    for i in range(start - 1, -length - 1, -1):
+        if first_num == number[i]:
+            count += 1
+        else:
+            break
+    return looknsay( number, start - count ) + str(count) + first_num
+
+a = raw_input("Look and say number ... ? ")
+
+if a.isdigit():
+    result = raw_input("Seed? Nothing or a non-digit defaults to 1: ")
+    if not result.isdigit():
+        result = "1"
+    a = int(a)
+    result = "1"
+    for i in range(1,int(a)):
+        result = looknsay(result)
+    print result
+else:
+    print "You are smart"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]greasedonkey 0 points1 point2 points 3 years ago (0 children)
+
+PHP
+
+<?php
+function looknsay($seed, $n){
+
+    echo $seed . "<br />";
+
+    if($n > 0){
+        $lsCount = 0;
+        $lsNumber = 0;
+        $lsFinal = "";
+        $seedCharacters = str_split($seed);
+        foreach($seedCharacters as $seedCharacter){
+            if($lsNumber != $seedCharacter && $lsNumber != 0){
+                $lsFinal .= $lsCount . $lsNumber;
+                $lsCount = 0;
+            }
+
+            $lsNumber = $seedCharacter;
+
+            $lsCount++;
+        }
+
+        $lsFinal .= $lsCount . $lsNumber;
+
+        looknsay($lsFinal, ($n-1));
+    }
+}
+
+looknsay(1, 20);
+?>
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]RustyRoboR 0 points1 point2 points 3 years ago* (0 children)
+
+My first submission in C
+
+#include <stdio.h>
+#include <string.h>
+
+#define MAXLEN 1000
+
+
+int looknsay(char *seq) {
+    int i,j,l;
+    char s[MAXLEN];
+    l = 0;
+
+    for (i=0; seq[i]!='\0'; i++) {
+        for (j=i; *(seq+j)== *(seq+i) && seq+j!='\0'; j++)
+            ;
+
+        if (l+3 > MAXLEN)
+            return 0;
+
+        s[l++] = (j-i) + '0';
+        s[l++] = *(seq+i);
+        i = j - 1;
+    }
+    s[l] = '\0';
+    strcpy(seq, s);
+
+    return 1;
+}
+
+int main(int argc, char *argv[]) {
+    char seq[MAXLEN];
+    int n = atoi(argv[1]);
+    int i = 0;
+    strcpy(seq, argv[2]);
+
+    while (looknsay(seq) && i++ < n)
+        printf("%s\n", seq);
+
+    return 0;
+}
+
+There is seed with infinite loop such as "22" :D
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]aendi 0 points1 point2 points 3 years ago (0 children)
+
+Scala
+
+def lookAndSay(iteration: Int, seed: String) : String = {
+  def readAndConvert(str: String) : String = {
+    if (str.length == 0) ""
+    else {
+      val sequence = str.takeWhile(x => x.equals(str.head))
+
+      s"${sequence.length}${str.head}${readAndConvert(str.substring(sequence.length))}"
+    }
+  }
+
+  def doRec(iter: Int) : String = {
+    if (iter == 0) seed
+    else {
+      readAndConvert(doRec(iter - 1))
+    }
+  }
+
+  doRec(iteration)
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]fantastik78 0 points1 point2 points 3 years ago (0 children)
+
+C# that's pretty ugly... will need to work on it
+
+class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter a starting number: ");
+            var startingNumber = Console.ReadLine();
+            Console.Write("Number of iteration: ");
+            var numberOfIteration = Console.ReadLine();
+
+            Console.WriteLine(startingNumber);
+
+            var input = startingNumber.ToArray();
+            for (int i = 0; i < int.Parse(numberOfIteration); i++)
+            {
+                var numbers = Array.ConvertAll(input, c => (int)Char.GetNumericValue(c));
+                input = LookAndSay(numbers).ToArray();
+            }
+
+            Console.ReadLine();
+        }
+
+        private static string LookAndSay(int[] numbers)
+        {
+            var enumerator = numbers.GetEnumerator();
+            Queue<string> lookAndSayQueue = new Queue<string>();
+
+            int? lastValue = null;
+            int occurence = 0;
+            while (enumerator.MoveNext())
+            {
+                if (enumerator.Current != null)
+                {
+                    int currentValue = (int)enumerator.Current;
+                    if (lastValue == null || (lastValue == currentValue && lastValue != null))
+                    {
+                        occurence += 1;
+                    }
+                    else
+                    {
+                        lookAndSayQueue.Enqueue(string.Format("{0}{1}", occurence, lastValue));
+                        occurence = 1;
+                    }
+
+                    lastValue = currentValue;
+                }
+            }
+
+            lookAndSayQueue.Enqueue(string.Format("{0}{1}", occurence, lastValue));
+
+            StringBuilder sb = new StringBuilder();
+            var numberOfItemInTheQueue = lookAndSayQueue.Count;
+            for (int i = 0; i < numberOfItemInTheQueue; i++)
+            {
+                sb.Append(lookAndSayQueue.Dequeue());
+            }
+
+            Console.WriteLine(sb.ToString());
+
+            return sb.ToString();
+        }
+    }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Splanky2220 0 0 points1 point2 points 3 years ago* (0 children)
+
+As has been my custom lately, short and sweet C++ using the STL. This time I
+used a regex iterator to sweep through each repeated character. Not that regex
+is necessarily needed for this, but I am underexperienced in regex so I decided
+to use them anyways. The side benefit is that it's very easy to accept
+arbitrary initializations, even including non-numeric input.
+
+#include <iostream> //cout
+#include <string> //string, to_string, stoi
+#include <regex> //regex
+#include <utility> //move
+
+class look_n_say {
+public:
+    void operator()(int n, std::string num) const {
+        std::cout << num << std::endl;
+        for (int i = 0; i < n; ++i) {
+            num = next_look_n_say(num);
+            std::cout << num << std::endl;
+        }
+    }
+
+private:
+    std::regex const rex{R"raw((\S)\1*)raw"};
+
+    std::string look_n_say_subst(std::string subst) const {
+        return std::to_string(subst.length()) + subst[0];
+    }
+
+    std::string next_look_n_say(std::string pattern) const {
+        std::regex_iterator<std::string::iterator> regex_it(pattern.begin(), pattern.end(), rex);
+        std::regex_iterator<std::string::iterator> rend;
+
+        std::string out;
+        for (; regex_it != rend; ++regex_it) {
+            out += look_n_say_subst(regex_it->str());
+        }
+        return std::move(out);
+    }
+};
+
+int main(int argc, char **argv) {
+    int n = std::stoi(std::string(argv[1]));
+    std::string init = argc == 3 ? std::string(argv[2]) : "1";
+    look_n_say lns;
+    lns(n, std::move(init));
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]newbie12q 0 points1 point2 points 3 years ago* (0 children)
+
+Python, Still learning so all feedback's are welcome
+
+def Lookandsay(n):
+    def Nextone(a):
+        if a == '':
+            return ''
+        else:
+            x =''
+            ans=''
+            counter = 0
+            for p in a:
+                counter+=1
+                if counter >1:
+                    if x[len(x)-1]!=p:
+                        break
+                    else:
+                        x+=p
+                else:
+                    x+=p
+            ans = str(len(x))+x[0]
+            if len(a) == 1:
+                return ans
+            else:
+                return ans + Nextone(a[len(x):])
+    count =1
+    a = '1'        #you can change the value of seed by changing a
+    while count !=n:
+        a = Nextone(a)
+        count+=1
+    return a
+
+for x in range(1, input('Enter an Integer: ')):
+    print Lookandsay(x)
+
+Sample Output
+
+Enter an Integer:  20
+seed = a = '1'
+1
+11
+21
+1211
+111221
+312211
+13112221
+1113213211
+31131211131221
+13211311123113112211
+11131221133112132113212221
+3113112221232112111312211312113211
+1321132132111213122112311311222113111221131221
+11131221131211131231121113112221121321132132211331222113112211
+311311222113111231131112132112311321322112111312211312111322212311322113212221
+
+132113213221133112132113311211131221121321131211132221123113112221131112311332111213211322211312113211
+11131221131211132221232112111312212321123113112221121113122113111231133221121321132132211331121321231231121113122113322113111221131221
+31131122211311123113321112131221123113112211121312211213211321322112311311222113311213212322211211131221131211132221232112111312111213111213211231131122212322211331222113112211
+1321132132211331121321231231121113112221121321132122311211131122211211131221131211132221121321132132212321121113121112133221123113112221131112311332111213122112311311123112111331121113122112132113213211121332212311322113212221
+
+#EDIT :Seeing others code here , i think i suck :(
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Tyr42 0 points1 point2 points 3 years ago (0 children)
+
+Haskell: I used the writer monad in my run length encoding, just for fun. I
+also swapped in a difference list, though I didn't actually profile it.
+
+{-# LANGUAGE LambdaCase #-}
+
+import Data.Foldable (foldlM)
+import Control.Monad.Writer.Strict
+import qualified Data.DList as DList
+import System.Environment (getArgs)
+
+rle :: (Eq a) => [a] -> [(Int, a)]
+-- The `>>= tell` makes sure the last element is also tallied, since we only
+-- tell in f upon finding a different element.
+rle [] = []
+rle (x:xs) = DList.toList . snd . runWriter $ foldlM f (1,x) xs >>= tell . DList.singleton
+    where
+        f (n,x) y | y == x    = return (n+1, x)
+                  | otherwise = do tell $ DList.singleton (n,x)
+                                   return (1,y)
+
+step xs = concatMap go $ rle xs
+    where go (n,c) = (show n ++ [c])
+
+repeated 0 f a = a
+repeated n f a = repeated (n-1) f (f a)
+
+main = getArgs >>= \case
+        [n] -> go (read n) "1"
+        [n, seed] -> go (read n) seed
+        _ -> putStrLn "Usage: 180 n [seed]"
+    where go n seed = putStrLn $ repeated n step seed
+
+https://gist.github.com/35795421df03b48a5f0f
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]square_zero 0 points1 point2 points 3 years ago (0 children)
+
+Java. Good excuse to brush up before school starts. Hopefully this isn't too
+messy :P
+
+import java.io.Console;
+
+public class SeeAndSay {
+    public static void main(String[] args) throws NumberFormatException {
+      Console console = System.console();
+      int initialNum = Integer.parseInt(console.readLine("Please enter a starting number: "));
+      int iterations = Integer.parseInt(console.readLine("How many iterations shall I run? "));
+
+      for (int i = 0; i < iterations; i++) {
+         initialNum = modify(initialNum);
+      }
+
+      System.out.println(initialNum + "");
+    }
+
+   // modifies a given integer using the See And Say algorithm
+   public static int modify(int num) {
+      String str = num + ""; // initial string
+      String strOut = ""; // return string, except if length == 1
+      char ch;
+
+      if (str.length() == 1) { // special case
+         return Integer.parseInt(1 + "" + num);
+      }
+
+      str += " "; // placeholder to avoid OutOfBounds exception
+
+      int pos = 0;
+      int count = 1;
+
+      while (pos < str.length() - 1) {
+         ch = str.charAt(pos + 1);
+         if (str.charAt(pos++) == ch) {
+            count++;
+         } else {
+            strOut = strOut + count + "" + str.charAt(pos - 1);
+            count = 1;
+         }
+      }
+
+      return Integer.parseInt(strOut);
+   }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Halvarian 0 points1 point2 points 3 years ago (0 children)
+
+Using Python 3.4
+
+def lookandsay(term):
+    '''
+        the look and say sequence
+        any term in this sequence describes the previous term
+        by enumerating each digit
+        for example: the term after 11 is 21
+
+        the first 6 terms are:
+        1
+        11
+        21
+        1211
+        111221
+        312211
+    '''
+
+    if not isinstance(term,int):
+        return 'Please input an integer that represents the term'
+    if term==1:
+        return 1
+
+
+    currentvalue = '1'
+
+# We need to iterate from the first term to build out sequence
+# Number of iterations necessary is the term given less the first term
+    for itera in range(1,term):
+
+        # memory will be used to count the number of instances an integer appears consecutively
+        # memory2 will be the placeholder while the current sequence is built
+        memory = 1
+        memory2 = []
+
+        for i in range(0,len(currentvalue)):
+            # An exception is given by currentvalue[i+1] on the final i,
+            # this means that we can append what we have in memory and memory2 just at the last iteration finishes
+            try:
+                if currentvalue[i]==currentvalue[i+1]:
+                    memory+=1
+                else:
+                    memory2.append(str(memory))
+                    memory2.append(currentvalue[i])
+                    memory=1
+            except:
+                    memory2.append(str(memory))
+                    memory2.append(currentvalue[i])
+                    memory=1
+
+        # memory2 is in the form of a  string list, thus we use ''.join to convert to just a string
+        currentvalue = ''.join(memory2)
+
+    return int(currentvalue)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]louiswins 0 points1 point2 points 3 years ago (0 children)
+
+I'm a little late to the party, but I thought I would bring some C++ template
+metaprogramming fun - that's right, we're going to calculate the look 'n say
+sequence at compile time!
+
+The first parameter to the look_and_say template is the number N, and any
+others are the initial seed sequence. If no seed is given, it defaults to a
+seed of 1. It contains a type typedef that represents the sequence as a
+lisp-like list, which can be printed with the printlist<LIST_GOES_HERE>::print
+() function.
+
+Here it is on ideone. (It works! I'm probably more surprised than you are!)
+
+#include <iostream>
+
+struct nil {};
+template <int head, typename tail> struct cons;
+
+template <int... list> struct variadic2list;
+template <int head, int... rest>
+struct variadic2list<head, rest...> {
+    typedef cons<head, typename variadic2list<rest...>::type> type;
+};
+template <> struct variadic2list<> { typedef nil type; };
+
+template <typename typelist>
+struct printlist {
+    template <typename T>
+    static void print(T& os) {}
+};
+template <int head, typename tail>
+struct printlist<cons<head, tail>> {
+    template <typename T>
+    static void print(T& os) {
+        os << head;
+        printlist<tail>::print(os);
+    }
+};
+
+template <int val, int count, typename rest> struct single_look_and_say;
+template <int val, int count, int next, typename rest>
+struct single_look_and_say<val, count, cons<next, rest>> {
+    typedef cons<count, cons<val, typename single_look_and_say<next, 1, rest>::type>> type;
+};
+template <int val, int count, typename rest>
+struct single_look_and_say<val, count, cons<val, rest>> {
+    typedef typename single_look_and_say<val, count + 1, rest>::type type;
+};
+template <int val, int count>
+struct single_look_and_say<val, count, nil> {
+    typedef typename variadic2list<count, val>::type type;
+};
+
+template <size_t iters, typename seq> struct look_and_say_impl;
+template <size_t iters, int head, typename tail>
+struct look_and_say_impl<iters, cons<head, tail>> {
+    typedef typename look_and_say_impl<iters - 1,
+        typename single_look_and_say<head, 1, tail>::type>::type type;
+};
+// I need to pull apart head and tail to tell the compiler that this is more specialized.
+template <int head, typename tail>
+struct look_and_say_impl<1, cons<head, tail>> {
+    typedef cons<head, tail> type;
+};
+
+template <size_t iters, int... seed>
+struct look_and_say {
+    typedef typename look_and_say_impl<iters, typename variadic2list<seed...>::type>::type type;
+};
+// Seed defaults to 1
+template <size_t iters>
+struct look_and_say<iters> {
+    typedef typename look_and_say<iters, 1>::type type;
+};
+
+int main() {
+    printlist<look_and_say<6>::type>::print(std::cout);       // 6th value
+    std::cout << '\n';
+    printlist<look_and_say<4, 2, 2>::type>::print(std::cout); // 4th value from 22
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]tmoravec 0 points1 point2 points 3 years ago* (0 children)
+
+C++
+
+#include <iostream>
+#include <string>
+#include <sstream>
+
+using namespace std;
+
+string compute_line(string prev_line) {
+    ostringstream new_line;
+    char prev_char(prev_line[0]);
+    unsigned short count(0);
+
+    for (string::iterator it = prev_line.begin(); it < prev_line.end(); it++) {
+        if (prev_char == *it) {
+            count += 1;
+        } else {
+            new_line << count;
+            new_line << prev_char;
+            count = 1;
+        }
+        prev_char = *it;
+
+        // print the last item
+        if (it != prev_line.end() && it == --prev_line.end()) {
+            new_line << count;
+            new_line << *it;
+        }
+    }
+
+    return new_line.str();
+}
+
+int main() {
+    string line("1");
+    unsigned short count;
+    cout << "How many lines to print: ";
+    cin >> count;
+
+    for (unsigned short i = 0; i < count; i++) {
+        cout << line << endl;
+        line = compute_line(line);
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]zenyoul 0 points1 point2 points 3 years ago (0 children)
+
+I'm late, but the 100th python solution
+
+def look_n_say(n): # finds the nth term in the look n say sequence.
+    if n == 1:
+        return 1
+    else:
+        return look(look_n_say(n-1))
+
+def look(nums):
+    nnums = ""
+    lnnums = []
+    lnums = list(str(nums))
+    char = lnums[0]
+    count = 0
+    for num in lnums:
+        if num == char:
+            count += 1
+        else:
+            lnnums.append(str(count))
+            lnnums.append(char)
+            count = 1
+            char = num
+    lnnums.append(str(count))
+    lnnums.append(char)
+    for i in lnnums:
+        nnums += i
+    return nnums
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]just_lookin_ 0 points1 point2 points 3 years ago (0 children)
+
+Python 2.7
+
+I'm very new to programming, self taught. I would love some feedback.
+
+import re
+
+
+def lookSay(look):
+
+    say = ""
+
+    while True:
+
+        if len(look) == 0:
+            break
+
+        search = re.match( look[0]+'*',look)
+
+        if search:
+
+            result = search.group()
+
+            grouping = len(result)
+
+            say += (str(grouping) + look[0])
+
+            look  = look[grouping:]
+
+    return say
+
+def seedToNth(n,seed=1):
+    seed = str(seed)
+    for i in range(n):
+        seed = lookSay(seed)
+
+    return seed
+
+
+print seedToNth(3)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]frauxer1 0 points1 point2 points 3 years ago (0 children)
+
+Python 3.3.5 This took too long for me to figure out
+
+import sys
+a= sys.stdin.readline().strip()
+starting= "1"
+new_list=[]
+for ax in range(int(a)):
+    new_string=""
+    print(starting)
+
+
+    if starting == "1":
+        new_list.extend(["1","1"])
+        starting=new_string.join(new_list)
+    else:
+        first_term=""
+        term_count=1
+        new_new_list=[]
+        for i in range(len(new_list)):
+            if i == 0:
+                first_term=new_list[i]
+            elif new_list[i]==first_term:
+                term_count+=1
+                if (i+1)==len(new_list):
+                    new_new_list.extend([str(term_count),first_term])
+            else:
+                new_new_list.extend([str(term_count),first_term])
+                if (i+1)==len(new_list):
+                   new_new_list.extend(["1",new_list[i]])
+
+                else:
+                    first_term=new_list[i]
+                    term_count=1
+
+        starting=new_string.join(new_new_list)
+        new_list=new_new_list
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]deuteros 0 points1 point2 points 3 years ago (0 children)
+
+Here's my solution in C#.
+
+using System;
+using System.Linq;
+using System.Text;
+
+namespace LookAndSay
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Seed: ");
+            string seed = Console.ReadLine();
+            Console.WriteLine("Iterations: ");
+            int iterations = Int32.Parse(Console.ReadLine());
+            Console.Clear();
+
+            Console.WriteLine("Seed: " + seed);
+
+            for (int i = 1; i <= iterations; i++)
+            {
+                seed = LookAndSay(seed);
+                Console.WriteLine(seed);
+            }
+
+            Console.ReadLine();
+        }
+
+        public static string LookAndSay(string input)
+        {
+            var lookNSay = new StringBuilder();
+            for (int i = 0; i < input.Length; i++)
+            {
+                int count = 0;
+                char num = input[i];
+                while (i + count < input.Length && input[i + count] == num)
+                {
+                    count++;
+                }
+                i += count - 1;
+                lookNSay.Append(String.Format("{0}{1}", count, num));
+            }
+            return lookNSay.ToString();
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Mifano1337 0 points1 point2 points 3 years ago (0 children)
+
+Did I do this right? Beginner... feedback highly appreciated!
+
+Python
+
+from itertools import groupby
+
+def looknsay(term):
+    print "Look: ", term
+    say_number = "Say: "
+
+    term_count = [[k,len(list(g))] for k, g in groupby(term)]
+
+    i = 0
+    while i < len(term_count):
+        number = term_count[i]
+        say_number = say_number + str(number[1]) + str(number[0])
+        i = i + 1
+
+    print say_number
+
+number = raw_input("Enter the number you want to 'Look N Say': ")
+term = str(number)
+looknsay(term)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Mifano1337 0 points1 point2 points 3 years ago (0 children)
+
+Alright! Now I re-did it exactly as it was requested. Damn feels so good to
+finish my first challenge ever since just reading books. Feedback plz:
+
+Python 2.7
+
+from itertools import groupby
+import copy
+
+def lns(n):
+    seed = 1
+    term_at = "1"
+    lookN = "1"
+
+    while seed <= n:
+        say_number = ""
+        term_count = [[k,len(list(g))] for k, g in groupby(term_at)]
+
+        i= 0
+        while i < len(term_count):
+            number = term_count[i]
+            say_number = say_number + str(number[1]) + str(number[0])
+
+            i = i + 1
+
+        seed = seed + 1
+        lookN = copy.copy(term_at)
+        term_at = copy.copy(say_number)
+        say_number = ""
+
+    print "The n=", n, "term Look:", lookN
+    print "The n=", n, "term Say:", term_at
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Coder_d00d1 3 0 points1 point2 points 3 years ago (0 children)
+
+Objective-C
+
+#import <Foundation/Foundation.h>
+
+int main(int argc, const char * argv[])
+{
+@autoreleasepool {
+
+    int seed, iteration, count, index;
+    char eol;
+    NSMutableString *oldStr = [[NSMutableString alloc] init];
+    NSMutableString *newStr = [[NSMutableString alloc] init];
+
+    printf("Enter Seed->");
+    scanf("%i%c", &seed, &eol);
+
+    printf("Iteration-->");
+    scanf("%i%c", &iteration, &eol);
+
+    [oldStr appendString: [NSString stringWithFormat: @"%i", seed]];
+    for (int iter = 2; iter <= iteration; iter++) {
+        for (int i = 0; i < [oldStr length]; ) {
+            index = i;
+            count = 0;
+            while ([oldStr characterAtIndex: i] == [oldStr characterAtIndex: index]) {
+                count++;
+                i++;
+                if (i >= [oldStr length])
+                    break;
+            }
+            [newStr appendString: [NSString stringWithFormat: @"%i%c", count, [oldStr characterAtIndex: index]]];
+        }
+        oldStr = nil;
+        oldStr = newStr;
+        newStr = nil;
+        newStr = [[NSMutableString alloc] init];
+    }
+    printf("%4d: %s\n", iteration, [oldStr UTF8String]);
+}
+return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]archangelic 0 points1 point2 points 3 years ago (0 children)
+
+Python
+
+n = raw_input('Enter n: ')
+y = raw_input('Enter starting number: ')
+for i in range(0,int(n)):
+    print y
+    saydict = {}
+    numlist = []
+    for each in str(y):
+        try:
+            if saydict[each]:
+                saydict[each] += 1
+        except:
+            saydict[each] = 1
+            numlist.append(each)
+        numlist.sort()
+        for each in range(0,len(numlist)):
+            x = numlist[each]
+            if each == 0:
+                y = ''
+                y = y + str(saydict[x]) + x
+            else:
+                y = y + str(saydict[x]) + x
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]GambitGamer 0 points1 point2 points 3 years ago (0 children)
+
+Python 3.4
+
+A little late to the party but I had a lot of fun with this one. You can choose
+the seed number, the number of iterations (referred to as N in the challenge
+description), and whether or not you would like to see the intermediate Look
+and Say numbers between the seed and the Nth number. It also works with
+letters, which is neat.
+
+import sys
+
+seedInput = input("Which seed number would you like to use? ")
+n = input("Which Nth Look and Say number would you like calculated? ")
+intermediate = input("Would you like to see the intermediate Look and Say numbers between the seed and Nth number (y/n)? ")
+if "y" in intermediate.lower():
+    intermediate = True
+
+def lookNSay(seed, iteration):
+    if int(n) == 1:
+        print(seed)
+        sys.exit()
+    if intermediate is True and iteration == 2:
+        print(seed)
+    strBuilder = ""
+    i = 0
+    for x in range(0,len(seed)):
+        i += 1
+        if x == len(seed)-1:
+            strBuilder += str(i)+seed[x]
+        elif seed[x] != seed[x+1]:
+            strBuilder += str(i)+seed[x]
+            i = 0
+    if iteration == int(n):
+        print(strBuilder)
+        sys.exit()
+    if intermediate is True:
+        print(strBuilder)
+    lookNSay(strBuilder, iteration+1)
+
+lookNSay(seedInput, 2)
+
+Input:
+
+ABC
+
+4
+
+y
+
+Output:
+
+ABC
+
+1A1B1C
+
+111A111B111C
+
+311A311B311C
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jkudria 0 points1 point2 points 3 years ago (0 children)
+
+Nice challenge, definitely a good way to get back into Python after a few weeks
+break.
+
+Here you are: https://github.com/jkudria/reddit/blob/master/week180/
+look_n_say.py
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dailyjava 0 points1 point2 points 3 years ago (0 children)
+
+Java, a bit hack and slash with the "parsing" of numbers (charvalue - 48).
+
+public class LooknSay {
+    private String currentNumber = "";
+    public LooknSay(int seed, int numbers) {
+        currentNumber = ""+seed;
+        for (int i = 0; i < numbers; i++) {
+            writeLine(i);
+        }
+    }
+
+    private void writeLine(int number) {
+        int count = 0;
+        String newCurrent = "";
+        int current = currentNumber.charAt(0)-48;
+        for (int i = 0; i < currentNumber.length(); i++) {
+            if ((int)currentNumber.charAt(i)-48 == current) {
+                count++;
+            } else {
+                newCurrent+= ""+count+""+current;
+                count = 1;
+                current = (int)currentNumber.charAt(i)-48;
+            }
+        }
+        newCurrent+= ""+count+""+current;
+        System.out.println(currentNumber);
+        currentNumber = newCurrent;
+
+    }
+}
+
+Output for seed 111 and N = 7:
+
+111
+31
+1311
+111321
+31131211
+132113111221
+1113122113312211
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago* (0 children)
+
+Maybe not the most efficient regex (I'm new to regex) or algorithm but I
+thought it was worth posting.
+
+function looknsay(term,i){
+    var newTerm = [];
+// I suppose I could use (\d)\1* instead. (Thanks Preachieved!)
+    term.match(/(?:[1]+|[2]+|[3]+|[4]+|[5]+|[6]+|[7]+|[8]+|[9]+)/g).forEach(function(entry){
+        newTerm.push(entry.length + "" + entry.charAt(0));
+    });
+    console.log(term = newTerm.join(""));
+
+    i--;
+    if(i>0){
+        looknsay(term,i); // If wished could print out this, or could also save in array if wanted all strings returned.
+    } else {
+        return term;
+    }
+}
+
+  • permalink
+  • embed
+  • save
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+Python
+
+import re
+
+def main(instr, iters):
+    def las(instr, outstr = ""):
+        strs = (match[0] for match in re.findall("((.)\\2*)", instr))
+        for s in strs:
+            outstr += str(len(s)) + s[0]
+        print outstr
+        return outstr
+
+    for i in range(iters):
+        instr = las(instr)
+
+main("1", 20)
+
+Decided to do some fancy regexing and generator stuff
+
+  • permalink
+  • embed
+  • save
+
+[–]borncorp 0 points1 point2 points 3 years ago (0 children)
+
+Heres my solution, works great, but I skipped the scanner because I wanted to
+focus on the logic.
+
+JAVA:
+
+public class Main {
+public static void main(String[] args) {
+    Long number = (long) 665;
+    int n = 4;
+    System.out.println(number);
+    for (int i = 0; i < n; i++) {
+        number = printline(number);
+    }
+}
+
+public static Long printline(Long number) {
+    String numbertxt = number.toString();
+    StringBuilder sbnumbers = new StringBuilder();
+
+    char[] txt = numbertxt.toCharArray();
+
+    int counter = 1;
+    for (int i = 0; i < txt.length; i++) {
+        try {
+            if (txt[i] == txt[i + 1]) {
+                counter++;
+            } else {
+                sbnumbers.append(counter);
+                sbnumbers.append(txt[i]);
+                counter = 1;
+            }
+        } catch (Exception e) {
+            sbnumbers.append(counter);
+            sbnumbers.append(txt[i]);
+            counter = 1;
+        }
+    }
+
+    System.out.println(sbnumbers.toString());
+    return Long.valueOf(sbnumbers.toString());
+}
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]greshick 0 points1 point2 points 3 years ago (0 children)
+
+Rust 0.12-nightly 3b6e880ff 2014-09-19
+
+Not a new programmer, but new to Rust. Been fun so far.
+
+use std::io;
+
+fn main() {
+    loop {
+        println!("What term are you looking for?.");
+
+        let input = io::stdin().read_line().ok().expect("Failed to read line");
+        let input_num: Option<uint> = from_str(input.as_slice().trim());
+
+        match input_num {
+            Some(num) => get_term(num),
+            None      => {
+                println!("Please input a number!");
+                continue;
+            }
+        };
+    }
+}
+
+fn get_term(num: uint){
+    let mut result = String::from_str("1");
+
+    for i in range(0, num) {
+        result = look_and_say(result);
+        println!("Step {} is: {}", i + 1, result);
+    }
+
+    println!("The result is: {}", result);
+}
+
+fn look_and_say(input: String) -> String{
+    let mut output = String::new();
+    let mut counting: char = '0';
+    let mut count = 0i;
+    let slice = input.as_slice();
+
+    for i in range(0, input.len()){
+        if slice.char_at(i) != counting {
+            if i > 0 {
+                output = output.append(count.to_string().as_slice());
+                output = output.append(counting.to_string().as_slice());
+            }
+
+            counting = slice.char_at(i);
+            count = 1;
+        }
+        else{
+            count += 1;
+        }
+    }
+    output = output.append(count.to_string().as_slice());
+    output = output.append(counting.to_string().as_slice());
+
+    output
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]pbl24 0 points1 point2 points 3 years ago (0 children)
+
+Naive Python solution:
+
+def look_and_say(n):
+  if n == 1: return [1]
+  l = look_and_say(n - 1)
+
+  i = 0
+  r = []
+  while i < len(l):
+    char = l[i]
+    count = 1
+    while (i < len(l) - 1) and (l[i] == l[i + 1]):
+      (i, count) = (i + 1, count + 1)
+
+    r.extend([ str(count), str(l[i]) ])
+    i += 1
+
+  return r
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+Sorry for digging up old threads but I started solving all [Easy] Challenges in
+this subreddit. Implemented this in Python using recursion.
+
+#!/usr/bin/python
+
+def las(number, t, fin):
+  if t == fin:
+    return
+
+  print t+1, number
+  pivot = number[0]
+  rep = 1
+  newnum = ''
+  for i in number[1:]+' ':
+    if i == pivot:
+      rep += 1
+    else:
+      newnum += str(rep) + pivot
+      rep = 1
+      pivot = i
+  las(newnum, t+1, fin)
+
+def main():
+  times, num = input('Enter times, number: ')
+  num = str(num)
+
+  las(num, 0, times)
+
+if __name__ == '__main__':
+  main()
+
+  • permalink
+  • embed
+  • save
+
+[–]Ferdi265 0 points1 point2 points 3 years ago* (0 children)
+
+Bash
+
+#!/bin/bash
+looknsay() {
+    in=$1
+    cur=
+    last=
+    count=0
+    out=
+    first=1
+    for i in $(seq 0 ${#in}); do
+        cur=${in:$i:1}
+        if [ "$cur" == "$last" ]; then
+            count=$(expr $count + 1)
+            last=$cur
+        else
+            if [ $first -eq 0 ]; then
+                out=$out$count$last
+            fi
+            count=1
+            last=$cur
+        fi
+        first=0
+    done
+    echo $out
+}
+echo n-th Look and Say number: \(n\)
+read num
+echo Look and Say seed: \(n\)
+read seed
+lnum=$seed
+for i in $(seq 2 $num); do
+    lnum=$(looknsay $lnum)
+done
+echo Output:
+echo $lnum
+
+Output Demo: (the 1st look and say number is the seed)
+
+n-th Look and Say number: (n)
+5
+Look and Say seed: (n)
+1
+Output:
+111221
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ArcanixPR 0 points1 point2 points 3 years ago* (0 children)
+
+C, C#, C++, Java, and any other language with the same structure and syntax.
+Uses only [DEL:integers:DEL] long variables.
+
+long lookNSay(long seed, long n) {
+    if(n == 1) return seed;
+    long term = 0;
+    long terms = 0;
+    while(seed > 0) {
+        long value = seed % 10;
+        seed /= 10;
+        long count = 1;
+        while(seed % 10 == value) {
+            count++;
+            seed /= 10;
+        }
+        if(terms == 0) {
+            term = 10*count+value;
+            terms = 1;
+        }
+        else {
+            term += terms*100*(10*count+value);
+            terms *= 100;
+        }
+    }
+    return lookNSay(term, n-1);
+}
+
+EDIT: Obviously this function works up to the limits of the int data type.
+
+EDIT2: Modified to use long instead of int.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Joris1225 -1 points0 points1 point 3 years ago (0 children)
+
+My solution in Java. It uses Strings instead of integers because that seemed
+easier.
+
+public class LookNSay {
+
+    private static String getNextLookNSay(String s) {
+        String result = "";
+        int i = 0;
+        while (i < s.length()) {
+            char c = s.charAt(i);
+            int count = 1;
+            while (i < s.length()) {
+                i++;
+                if (i == s.length() || s.charAt(i) != c) {
+                    result += Integer.toString(count) + c;
+                    break;
+                } else {
+                    count++;
+                }
+            }
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        String s = "1";
+        for (int i = 0; i < 10; i++) {
+            System.out.println(s);
+            s = getNextLookNSay(s);
+        }
+
+    }
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]c2v4 -1 points0 points1 point 3 years ago (0 children)
+
+My solution in Java too a bit messy but quite easy to understand: public class
+Main {
+
+private static long lookAndSay(long n) {
+    long result = 1;
+    if (n > 1) {
+        String res="";
+        String s = String.valueOf(lookAndSay(n-1));
+        int prevval=0;
+        int count=0;
+        Integer valueOf;
+        for(char c : s.toCharArray()){
+            valueOf = Integer.valueOf(Character.toString(c));
+            if (valueOf !=prevval){
+
+                if (prevval!=0){
+                    res+=String.valueOf(count)+String.valueOf(prevval);
+                }
+                prevval=valueOf;
+                count=0;
+            }
+                count++;
+
+        }
+        res+=String.valueOf(count)+String.valueOf(prevval);
+        result=Long.valueOf(res);
+    }
+    return result;
+}
+
+public static void main(String[] args) {
+    System.out.println(lookAndSay(Long.valueOf(args[0])));
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]chunes1 2 -1 points0 points1 point 3 years ago (0 children)
+
+Java:
+
+import java.util.List;
+import java.util.ArrayList;
+import static java.lang.Integer.*;
+
+public class LookAndSay {
+
+    public static void main(String[] args) {
+        int seed = parseInt(args[1]);
+        List<Integer> seq = new ArrayList<>();
+        seq.add(seed);
+        for (int n = parseInt(args[0]) - 1; n > 0; n--)
+            seq = nextTerm(seq);
+        for (int e : seq)
+            System.out.print(e);
+    }
+
+    private static List<Integer> nextTerm(List<Integer> seq) {
+        List<Integer> next = new ArrayList<>();
+        while (seq.size() > 0) {
+            int[] chunk = grabChunk(seq);
+            next.add(chunk[0]);
+            next.add(chunk[1]);
+        }
+        return next;
+    }
+
+    private static int[] grabChunk(List<Integer> seq) {
+        int i, n = seq.get(0);
+        for (i = 0; i < seq.size() && seq.get(i) == n; i++);
+        seq.subList(0, i).clear();
+        return new int[] {i, n};
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] -1 points0 points1 point 3 years ago (0 children)
+
+Java
+
+import java.util.Scanner;
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input;
+        do {
+            System.out.print("Enter number of times to loop: ");
+            input = scanner.nextLine();
+        } while (!input.matches("^[0-9]*"));
+        String seed;
+        do {
+            System.out.print("Enter a seed number: ");
+            seed = scanner.nextLine();
+        } while (!seed.matches("^[0-9]*"));
+
+        String line=seed;
+        System.out.println(line);
+        for (int i=0; i<Integer.valueOf(input); i++) {
+            line = lookandsay(line);
+            System.out.println(i+1 + ": " + line);
+        }
+    }
+
+    public static String lookandsay(String line) {
+        int numChar=0;
+        StringBuilder toRet = new StringBuilder();
+        char toLookAt = line.charAt(0);
+        for (char c : line.toCharArray()) {
+            if (c == toLookAt) {
+                numChar++;
+            }
+            else {
+                toRet.append(numChar);
+                toRet.append(toLookAt);
+                toLookAt=c;
+                numChar=1;
+            }
+        }
+        toRet.append(numChar);
+        toRet.append(toLookAt);
+        return toRet.toString();
+    }
+}
+
+  • permalink
+  • embed
+  • save
+
+[–]spfy -1 points0 points1 point 3 years ago (0 children)
+
+Here's my Java solution. Should work with any seed!
+
+public class Sequence
+{
+    private String current;
+
+    public Sequence(String seed) { current = seed; }
+
+    public Sequence next()
+    {
+        String newSequence = new String();
+        char observed = current.charAt(0);
+        int count = 1;
+        for (int i = 1; i < current.length(); ++i)
+        {
+            if (current.charAt(i) == observed)
+            {
+                count++;
+            }
+            else
+            {
+                newSequence += Integer.toString(count) + observed;
+                observed = current.charAt(i);
+                count = 1;
+            }
+        }
+        newSequence += Integer.toString(count) + observed;
+        return new Sequence(newSequence);
+    }
+
+    public Sequence next(int iterations)
+    {
+        if (iterations <= 0)
+        {
+            return this;
+        }
+        else
+        {
+            return this.next().next(iterations - 1);
+        }
+    }
+
+    public String toString() { return current; }
+
+    public static void main(String[] args)
+    {
+        Sequence lookNSay = new Sequence("1");
+        System.out.println(lookNSay.next(5));
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Reverse_Skydiver1 0 -1 points0 points1 point 3 years ago (0 children)
+
+Here's my solution in Java. Chose to go iterative instead of recursive.
+Implements the bonus too.
+
+import java.util.ArrayList;
+
+public class C0180_Easy {
+
+    private static int seed = 1;
+    private static int cycles = 13;
+
+    public static void main(String[] args) {
+        if(seed > 0 && cycles > 1)  solve2(seed + "", cycles);
+    }
+
+    private static void solve2(String s, int count){
+        System.out.println(s);
+        String[] n;
+        for(int i = 0; i < count; i++){
+            n = split(s);
+            s = "";
+            for(int j = 0; j < n.length; j++){
+                System.out.print(n[j].length() + "" + n[j].charAt(0) + (j == n.length-1 ? "\n" : ""));
+                s = s + n[j].length() + n[j].charAt(0);
+            }
+        }
+    }
+
+    private static String[] split(String s){
+        ArrayList<String> list = new ArrayList<String>();
+        int lo = 0;
+        for(int i = 0; i < s.length()-1; i++){
+            if(s.charAt(i) != s.charAt(i+1)){
+                list.add(s.substring(lo, i+1));
+                lo = i+1;
+            }
+        }
+        list.add(s.substring(lo, s.length()));
+        return list.toArray(new String[list.size()]);
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+  • about
+  • blog
+  • about
+  • advertising
+  • careers
+
+  • help
+  • site rules
+  • Reddit help center
+  • wiki
+  • reddiquette
+  • mod guidelines
+  • contact us
+
+  • apps & tools
+  • Reddit for iPhone
+  • Reddit for Android
+  • mobile website
+  • buttons
+
+  • <3
+  • reddit gold
+  • redditgifts
+
+Use of this site constitutes acceptance of our User Agreement and Privacy
+Policy. (C) 2018 reddit inc. All rights reserved.
+
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+Advertise - technology
+
+[pixel]
+
+π Rendered by PID 17645 on app-608  at 2018-05-09 20:24:35.590820+00:00 running
+4c4e6ea country code: CH.
+

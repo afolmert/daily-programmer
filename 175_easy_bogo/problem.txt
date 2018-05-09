@@ -1,0 +1,6374 @@
+close this window
+jump to content
+my subreddits
+edit subscriptions
+
+  • popular
+  • -all
+  • -random
+  • -users
+
+ | 
+
+  • AskReddit
+  • -worldnews
+  • -videos
+  • -funny
+  • -todayilearned
+  • -pics
+  • -gaming
+  • -movies
+  • -news
+  • -gifs
+  • -mildlyinteresting
+  • -aww
+  • -Showerthoughts
+  • -television
+  • -Jokes
+  • -science
+  • -OldSchoolCool
+  • -sports
+  • -IAmA
+  • -Documentaries
+  • -TwoXChromosomes
+  • -explainlikeimfive
+  • -personalfinance
+  • -books
+  • -tifu
+  • -Futurology
+  • -dataisbeautiful
+  • -WritingPrompts
+  • -nottheonion
+  • -food
+  • -Music
+  • -photoshopbattles
+  • -EarthPorn
+  • -philosophy
+  • -Art
+  • -nosleep
+  • -GetMotivated
+  • -askscience
+  • -LifeProTips
+  • -space
+  • -UpliftingNews
+  • -DIY
+  • -history
+  • -gadgets
+  • -creepy
+  • -listentothis
+  • -blog
+  • -announcements
+  • -InternetIsBeautiful
+
+more >>
+dailyprogrammer dailyprogrammer
+
+  • comments
+
+Want to join? Log in or sign up in seconds.|
+
+  • English
+
+[                    ][]
+[ ]limit my search to r/dailyprogrammer
+
+use the following search parameters to narrow your results:
+
+subreddit:subreddit
+    find submissions in "subreddit"
+author:username
+    find submissions by "username"
+site:example.com
+    find submissions from "example.com"
+url:text
+    search for "text" in url
+selftext:text
+    search for "text" in self post contents
+self:yes (or self:no)
+    include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+    include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+
+see the search faq for details.
+
+advanced search: by author, subreddit...
+
+this post was submitted on  11 Aug 2014
+64 points (92% upvoted)
+shortlink:  [https://redd.it/2d8y]
+[                    ][                    ]
+[ ]remember mereset password
+login
+Submissions restricted
+Only approved users may post in this community.
+
+dailyprogrammer
+
+subscribeunsubscribe142,051 readers
+
+144 users here now
+
+ 1. Challenge #321: Easy
+ 2. Challenge #321: Intermediate
+ 3. Challenge #321: Hard
+ 4. Weekly #25: Escape the trolls
+
+Welcome to r/DailyProgrammer!
+
+First time visitors of Daily Programmer please Read the Wiki to learn
+everything about this subreddit.
+
+  • Solution Submission Tutorial
+  • Solution Submission Guidelines
+  • Code / Peer-Review Guidelines
+  • Problem Submission Guidelines
+  • Achievements System
+  • Community Projects
+  • Links to other Programming subreddits
+  • Special Thanks
+
+Can't submit solutions?
+
+If you are a new or unverified account, and are unable to post comment replies,
+please click here to verify your account. Otherwise, read the Solution
+Submission Tutorial for a walkthrough of submitting a solution, or click below
+to message the moderators for assistance.
+
+Write your own challenge!
+
+To help the community and write your own challenge to be submitted, head on
+over to /r/DailyProgrammer_Ideas and share your project - read the sidebar in
+that subreddit for more information.
+
+IRC Channel
+
+Message the Moderators
+
+Challenge List in Chronological Order
+
+created by nottoobadguya community for 6 years
+message the moderators
+
+MODERATORS
+
+  • rya111113 1
+  • nint221 2
+  • Cosmologicon2 3
+  • Elite68091 1
+  • XenophonOfAthens2 1
+  • jnazario2 0
+  • Godspiral3 3
+  • Blackshell2 0
+  • fvandepitte0 0
+  • G33kDude1 1
+  • about moderation team >>
+
+discussions in r/dailyprogrammer
+<>
+X
+ 
+44 . 10 comments
+[2018-05-09] Challenge #360 [Intermediate] Find the Nearest Aeroplane
+ 
+59 . 26 comments
+[2018-05-04] Challenge #359 [Hard] Primes in Grids
+ 
+41 . 37 comments
+[2018-05-02] Challenge #359 [Intermediate] Unwrap Some Text
+ 
+62 . 111 comments
+[2018-04-30] Challenge #359 [Easy] Regular Paperfold Sequence Generator
+ 
+68 . 12 comments
+[2018-04-27] Challenge #358 [Hard] Puzzle me this
+ 
+48 . 36 comments
+[2018-04-25] Challenge #358 [Intermediate] Everyone's A Winner!
+ 
+75 . 75 comments
+[2018-04-23] Challenge #358 [Easy] Decipher The Seven Segments
+ 
+54 . 28 comments
+[2018-04-20] Challenge #357 [Hard] Continued Fractions
+ 
+60 . 26 comments
+[2018-04-19] Challenge #357 [Intermediate] Kolakoski Sequences
+ 
+69 . 114 comments
+[2018-04-11] Challenge #356 [Intermediate] Goldbach's Weak Conjecture
+
+Welcome to Reddit,
+
+the front page of the internet.
+
+Become a Redditor
+
+and subscribe to one of thousands of communities.
+
+x
+
+63
+64
+65
+
+[8/11/2014] Challenge #175 [Easy] Bogo! (self.dailyprogrammer)
+
+submitted 3 years ago by professorlamp1 0
+
+Description
+
+A bogo sort is a purposefully inefficient algorithm for sorting a sequence.
+Today we will be using this for strings to test for equality.
+
+Here is wikipedias entry for a Bogo-Sort
+
+Inputs & Outputs
+
+Given a scrambled string N and another string M. You must sort N so that it
+matches M. After it has been sorted, it must output how many iterations it took
+to complete the sorting.
+
+Sample Inputs & Outputs
+
+Input:
+
+Bogo("lolhe","Hello")
+
+Output:
+
+1456 iterations
+
+Bonus
+
+For a bit of fun, the LEAST efficient algorithm wins. Check out the bogo-bogo
+sort, an algorithm that's designed not to succeed before the heat death of the
+universe
+
+http://www.dangermouse.net/esoteric/bogobogosort.html
+
+If you have designed an algorithm but it still hasn't finished sorting, if you
+can prove it WILL sort, you may post your proof.
+
+Notes
+
+Have an idea for a challenge?
+
+Consider submitting it to /r/dailyprogrammer_ideas
+
+  • 159 comments
+  • share
+  • save
+  • hide
+  • report
+
+all 159 comments
+sorted by:
+best
+topnewcontroversialoldrandomq&alive (beta)
+ [                    ]
+
+Want to add to the discussion?
+
+Post a comment!
+
+Create an account
+
+[–]hutsboR3 0 9 points10 points11 points 3 years ago* (4 children)
+
+Clojure:
+
+(defn bogo-sort [in out iter]
+  (if (= (vec out) (shuffle (vec in)))
+    iter (bogo-sort in out (inc iter))))
+
+Case-insensitive version:
+
+(defn bogo-sort [in out iter]
+  (if (.equalsIgnoreCase  out (clojure.string/join (shuffle (vec in))))
+    iter (bogo-sort in out (inc iter))))
+
+One line version:
+
+(defn a [b c i] (if (= (vec c) (shuffle (vec b))) i (a b c (inc i))))
+
+Safe version: (Ensures no StackOverflowError, case-insensitive)
+
+(defn safe-bogo [in out]
+   (loop [iter 0]
+     (if (.equalsIgnoreCase out (clojure.string/join (shuffle (vec in))))
+       iter
+       (recur (inc iter)))))
+
+Usage: (Been running the safe sort on the alphabet for almost 2 hours, will
+update when complete)
+
+UPDATE: 5 hours in, still going strong. This is going to take a while.
+
+UPDATE 2: Over 8 hours, going to sleep. If I'm lucky it'll complete overnight.
+
+UPDATE 3: 17+ hours, nothing yet!
+
+UPDATE 4: 24 hours. Couldn't find the needle in the haystack. Expected as much
+but had fun!
+
+(bogo-sort "elentpha" "elephant" 0)
+=> 17772
+
+(safe-bogo "elephatn" "elephant")
+=> 72353
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]XenophonOfAthens2 1 2 points3 points4 points 3 years ago* (3 children)
+
+Dude, save yourself the electricity. There are 26! different permutations of
+the alphabet, and 26! is a massive number. If you generated one billion of them
+every second, the time it would take to run through all of them is roughly
+equal to the age of the Universe.
+
+In addition, there's no guarantee that it will ever finish. I'm assuming that
+"shuffle" uses a PRNG (a pseudo-random number generator)? Well, many PRNGs have
+periods far shorter than 26!, which means that the vast majority of possible
+shuffles never appear. Even if the period is long enough, there's no guarantee
+that the random number generator will spit out all values that will properly
+generate a shuffle.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]hutsboR3 0 1 point2 points3 points 3 years ago* (2 children)
+
+You are very correct. I was going in with the prospect of it completing is in
+all practicality zero. It could have happened though! I have no intention of
+running it for much longer.
+
+That's interesting. If you take a look at Clojure's implementation of shuffle
+it's actually using Java Interoperability:
+
+(defn shuffle
+  "Return a random permutation of coll"
+  {:added "1.2"
+   :static true}
+ [^java.util.Collection coll]
+ (let [al (java.util.ArrayList. coll)]
+   (java.util.Collections/shuffle al)
+   (clojure.lang.RT/vector (.toArray al))))
+
+It's taking the collection, converts it to a Java ArrayList and calling
+Collections's shuffle on it. So I guess the real answer lies in Java's
+implementation of shuffle.
+
+Edit: Yes, Java's Collections.shuffle uses PRNG, so it may never complete!
+Interesting.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]XenophonOfAthens2 1 0 points1 point2 points 3 years ago (1 child)
+
+According to the docs, java.util.Random (which I assume would be the generator
+they're using) uses a old-school linear congruential generator, and according
+to wikipedia, it has a period of 2^48 (that's the "m" parameter). Given that
+26! is between 2^88 and 2^89 , there's no way it can generate all shuffles
+(only a tiny fraction of all shuffles would be generated). There are PRNGs with
+far longer periods, like the Mersenne twister with a period of 2^19937 , but
+even with those cases I don't know enough about them to say that they're
+guaranteed to generate all possible shuffles (though it seems fairly likely,
+that's an enormous period).
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]hutsboR3 0 0 points1 point2 points 3 years ago* (0 children)
+
+    (only a tiny fraction of all shuffles would be generated)
+
+I wonder exactly how the fraction that is chosen is determined? Let's say you
+have 26! permutations and you're trying to search for the alphabet sequence. If
+that specific sequence actually exists in the fraction of shuffles generated by
+the 2^48 period it would be more likely to be generated opposed to using
+something like Mersenne twister because of the sheer difference in the amount
+of possible shuffles. (2^48 vs 2^19937 (all 26! possible permutations))
+
+So hypothetically if the algorithm your using to generate the PRNG shuffle is
+naive in the sense that it cannot generate all possible shuffles but does
+generate the specific shuffle you're looking for that could certainly increase
+the probability of generating what you need.
+
+I'm sure there's a rigorous mathematics solution that describes the parameters
+of the fraction of possible shuffles. That's not my strong suit though. Just a
+thought.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]XenophonOfAthens2 1 12 points13 points14 points 3 years ago (12 children)
+
+I'm doing this in Prolog, because no one ever submits problem solutions in
+Prolog, and the world could always use more Prolog (it's the most fascinating
+language). Also, the solution is particularly neat, clocking in at only two
+lines:
+
+permutation([], []).
+permutation(X, [S|Y]) :- select(S, X, X1), permutation(X1, Y).
+
+In Prolog, you don't really have functions at all, the only things you have are
+predicates. Predicates are logical statements that are either true or false,
+and Prolog tries to figure out which is the case.
+
+This statement is the logical statement "permutation(X, Y) is true if and only
+if X is a permutation of Y". You can run it to test things like this problem:
+
+?- permutation("hello", "elloh").
+true.
+
+Or, you can leave one of the arguments as a variable, and then you get all
+permutations of some sequence:
+
+?- permutation([1,2,3], Y).
+Y = [1, 2, 3] ;
+Y = [1, 3, 2] ;
+Y = [2, 1, 3] ;
+Y = [2, 3, 1] ;
+Y = [3, 1, 2] ;
+Y = [3, 2, 1] ;
+
+It's actually cheating a bit, because when you run this code with two supplied
+arguments, the interpreter is actually smart enough not to try every
+permutation, but I think it's in the spirit of the problem ("try enough
+permutations until you hit jackpot"). Actually explaining the code is a little
+bit more complicated, but I'll give it a shot if anyone's interested.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]professorlamp1 0[S] 1 point2 points3 points 3 years ago (9 children)
+
+I'd like an explanation. I've never really looked at Prolog but logic based
+programming sounds fascinating. Do tell!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]XenophonOfAthens2 1 14 points15 points16 points 3 years ago* (8 children)
+
+Ok, I'll give it a shot, but it might be a little long because I have to
+explain the basics of Prolog :)
+
+What you have to remember is that Prolog is fundamentally different from all
+other standard programming languages. There are no functions (well, almost
+none: there are some simple arithmetic functions), there are only logical
+predicates. Logical predicates can only be true or false, they don't really
+return any value. In practice, this means that functions in most languages
+which would take two arguments are represented in Prolog as predicates which
+take three arguments (two for the "input", one for the "output", though it's
+not that simple as you'll see).
+
+A good example is the append predicate, which is used to append two lists
+together. So, for instance, if you run the query:
+
+?- append([1,2,3], [4,5,6], X).
+X = [1,2,3,4,5,6].
+
+X here is a variable, and after running this, X has been bound to
+[1,2,3,4,5,6], the two lists appended to each other. When a variable gets
+assigned a specific value, that's known as "unification" in Prolog (so you say
+that X has been unified to [1,2,3,4,5,6]).
+
+But here's the kicker: since the append predicate is not a function, but a
+logical predicate, you can use it in different ways by making different
+arguments variables. For instance:
+
+?- append([1,2,3], X, [1,2,3,4,5,6])
+X = [4,5,6].
+
+See what's happening there? By making the second argument into a variable,
+Prolog now figures out what list when appended to [1,2,3] results in
+[1,2,3,4,5,6]. And you can go even further than that. Observe:
+
+?- append(X, Y, [1,2,3,4]).
+X = [],
+Y = [1, 2, 3, 4] ;
+X = [1],
+Y = [2, 3, 4] ;
+X = [1, 2],
+Y = [3, 4] ;
+X = [1, 2, 3],
+Y = [4] ;
+X = [1, 2, 3, 4],
+Y = [] ;
+
+By making the first two arguments into variables, it figures out every possible
+combination of X and Y that, when appended to each other, result in [1,2,3,4].
+
+All of this is possible because append is a logical statement that means
+roughly "append(X, Y, Z) is true if and only if X appended to Y results in Z".
+Then, depending on what arguments and variables you supply, Prolog figures out
+the rest. The select predicate, which I used in my code, is similar: it is
+defined something like "select(E, X, Y) is true if and only if E is an element
+of the list X, and if you remove it from X you get the list Y". So, for
+instance select(2, [1,2,3], [1,3]) is a true statement, and if you run:
+
+?- select(E, [1,2,3], Y).
+E = 1,
+Y = [2, 3] ;
+E = 2,
+Y = [1, 3] ;
+E = 3,
+Y = [1, 2] ;
+
+See how that works?
+
+(edit: exercise for the reader: what happens if you run the query ?- select(1,
+X, [2,3,4]).? Think about it!)
+
+Now, finally, we can get into the two lines of code I wrote. I defined a new
+predicate called permutation, which has the meaning "permutation(X, Y) is true
+if and only if X is a permutation of Y". I defined it recursively as follows:
+
+permutation([], []).
+permutation(X, [S|Y]) :- select(S, X, X1), permutation(X1, Y).
+
+The first line is a simple statement that says that an empty list is a
+permutation of an empty list (this is the base case for the recursion).
+
+The second line is much more complicated. First off all, [S|Y] has the meaning
+of a list where the first element is S and the rest of the list is Y (so the
+list [1,2,3,4] is the same as [1|[2,3,4]]). This is very similar to how
+languages like Lisp and Haskell defines lists, with a head and a tail. Second,
+the :- operator means simply "if". After the "if", other predicates are
+separated with a comma. The comma means "and". So, the full statement of the
+second line is something like:
+
+    X is a permutation of [S|Y] if you remove an element S from X, resulting in
+    the list X1, and then then also if X1 is a permutation of Y.
+
+This is tricky to get your head around if you're not used to it, but it
+basically works like this: when you call it the first time, it selects an
+element S from X, and we get a list X1 that is one element shorter. We now run
+the predicate recursively, to generate all permutations of list X1 (which in
+turn will also become one element shorter, and on and on till we get to the
+recursion base case). The magic comes in when we ask Prolog for more than one
+answer: it then selects another element S from X and tries again. Doing this,
+we get all permutations of the original list.
+
+In my opinion, Prolog is one of the craziest, most fascinating and most
+beautiful programming languages ever devised (this example here barely
+scratches the surface). When I first learned of it, it totally blew my mind. I
+had no idea programming languages could work like this! Instead of writing code
+that detailed how you get an answer, you instead write a logical statement of
+what answer you want, and then the programming language figures it out for you.
+In practice, it's not the most useful language in the world, because it's kind
+of difficult at times, and in order to use it effectively, you need sort-of a
+subtle understanding of how the Prolog interpreter actually works. But I love
+it all the same.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]professorlamp1 0[S] 5 points6 points7 points 3 years ago* (1 child)
+
+Thanks for the thorough explanation and exercises, that definitely deserves a
+silver medal!
+
+Your flair will show up eventually, probably when you next post.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]XenophonOfAthens2 1 1 point2 points3 points 3 years ago (0 children)
+
+Thanks! Always wanted one of those!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]LpSamuelm 2 points3 points4 points 3 years ago (1 child)
+
+I've never even heard about Prolog! Seems well worth looking into, though.
+Very, very different.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]abathologist 1 point2 points3 points 3 years ago* (0 children)
+
+Prolog is lovely. Quirky--a bit--and lovely.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]baynaam 0 points1 point2 points 3 years ago (3 children)
+
+I love you. I took Functional and Logic Programming a 3 years ago and learned
+Prolog and Lisp. Got an A in that class and absolutely loved working with those
+two languages. This explanation reminded me of all the things I loved about it.
+But as a fellow Prolog-enthusiast, what real world applications are there for
+it? I know it's commonly used in AI but how could one develop those skills to
+actually use it in the real world?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]XenophonOfAthens2 1 1 point2 points3 points 3 years ago (1 child)
+
+As far as I know, there's basically no real world use of Prolog, at least
+outside academia (and even there I don't think it's much used much outside of
+teaching, though I couldn't say for certain). I think even in AI other
+languages have become more dominant.
+
+It's basically an evolutionary branch of programming that never took hold for
+whatever reason. It could've been the case that Prolog took off in the same way
+Lisp did and provided the basis for the "not imperative" branch of programming,
+but it didn't. Logical programming lost out to functional programming, and
+didn't continue to evolve and become standardized.
+
+There's no reason why it couldn't have taken off, though. Wouldn't it have been
+cool if we were all programming websites in Prolog instead of PHP? :)
+
+It's such a cool language! I just love it to bits.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]adamse 0 points1 point2 points 3 years ago* (0 children)
+
+You might call this an academic use but I believe that IBM used prolog in the
+language processing parts of their Watson program/computer.
+
+Edit: http://www.cs.nmsu.edu/ALP/2011/03/
+natural-language-processing-with-prolog-in-the-ibm-watson-system/
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]abathologist 1 point2 points3 points 3 years ago (0 children)
+
+Pace /u/XenophonOfAthens 's reply, their is in fact commercial use of Prolog.
+See the StackOverflow question on the topic. It is also worth mentioning
+SWI-Prolog's http support. The SWI-Prolog website (including the wiki for
+online documentation) is built with the http package and runs on Prolog.
+
+Commerce aside, there's lots of active (and, I think, exciting) developments in
+logic and functional logic languages:
+
+  • SWI-Prolog is focused on practical applications, with relatively extensive
+    set of packages and libraries.
+  • Ciao Prolog is more focused on exploring logic-based multi-paradigm
+    programming.
+  • Mercury is a functional logic language with Prolog-based syntax. It's
+    focused on efficiency and pursues the ideals of purity and static typing
+  • Flora2 uses XSB Prolog (which prides itself on effective use of tabeling to
+    support an object oriented, higher order, logical knowledge representation
+    language. I find it fascinating, but don't understand it very well.
+  • Curry is a functional logic language with Haskell-like syntax.
+  • minikanren is a tiny embeddable logic programming language, implemented in
+    a ton of a languages, and designed to make domain specific LP available
+    within more mainstream languages.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Godspiral3 3 0 points1 point2 points 3 years ago (1 child)
+
+I used the same approach in J. { gives all permutations.
+
+Unlike the variants that use random shuffles, its "guaranteed" to terminate.
+
+For extra bogo, the J implementation first creates all permutations and then
+matches them to target, which might get optimized in prolog (but currently is
+not in J the way I wrote it)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]XenophonOfAthens2 1 1 point2 points3 points 3 years ago (0 children)
+
+It is actually quite optimized in Prolog. This code doesn't actually run
+through all the permutations when you supply both arguments, but it's a bit
+complicated to explain why :) Basically, it sees that the first item S in the
+second list has to be a member of X, so it can search for it directly. It's
+thus O(n) instead of O(n!), which is why I said it was kinda cheating to use
+Prolog for this problem. But it's a neat example of how the language is
+miraculously able to optimize Bogosort into a fast algorithm!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Nazywam 4 points5 points6 points 3 years ago (4 children)
+
+My little c++ entry, harsh criticism appreciated.
+
+int Bogo(string startText, string finalText) {
+    int i = 0;
+    while(startText != finalText){
+        random_shuffle(startText.begin(), startText.end());
+        i++;
+    }
+    return i;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ReaverKS 0 points1 point2 points 3 years ago (3 children)
+
+As someone very new to programming, and starting with C++ a few weeks ago, how
+does this code stack up? It looks good to me, but I don't know what I don't
+know.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Nazywam 0 points1 point2 points 3 years ago (2 children)
+
+What do you mean by "stack up"?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ReaverKS 0 points1 point2 points 3 years ago (1 child)
+
+Would you say it's clean, well written?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Nazywam 1 point2 points3 points 3 years ago (0 children)
+
+Well, I'm not really good at the technical side of c++ but the code is pretty
+clear (mainly due to its length) and noone is shouting at me for it, so I guess
+it's OK :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]thestoicattack0 0 3 points4 points5 points 3 years ago* (0 children)
+
+A simple one in bash:
+
+#!/bin/bash
+
+result="$1"
+target="$2"
+iters=0
+for ((i = 0; i < ${#result}; i++)); do
+    chars+=("${result:i:1}")
+done
+until [[ "$result" = "$target" ]]; do
+    result="$(shuf -e "${chars[@]}")"
+    result="${result//$'\n'/}"
+    iters=$((iters + 1))
+done
+printf "%d iterations\n" "$iters"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jnazario2 0 1 point2 points3 points 3 years ago (1 child)
+
+F#
+
+open System.Random
+let Bogo (mess:string) (good:string) =
+    let rnd = new Random()
+    let mutable i = 0
+    let mutable doLoop = true
+    while doLoop do
+        if good = (mess.ToCharArray()
+                    |> Array.map ( fun x -> (rnd.Next(), x) )
+                    |> Array.sort
+                    |> Array.map ( fun (_,x) -> x)
+                    |> String.Concat) then
+            doLoop <- false
+        else
+            i <- i + 1
+    i
+
+yields results all over the map
+
+> Bogo "llhoe" "hello";;
+val it : int = 42
+> Bogo "llhoe" "hello";;
+val it : int = 8
+> Bogo "llhoe" "hello";;
+val it : int = 29
+> Bogo "llhoe" "hello";;
+val it : int = 48
+> Bogo "llhoe" "hello";;
+val it : int = 64
+> Bogo "llhoe" "hello";;
+val it : int = 102
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]jnazario2 0 0 points1 point2 points 3 years ago (0 children)
+
+updated F# using recursion inspired by some of the other answers
+
+open System.Random
+
+let rnd = new Random()
+
+let shuffle (s:string) =
+    s.ToCharArray() |> Array.map ( fun x -> (rnd.Next(), x) )
+                    |> Array.sort
+                    |> Array.map ( fun (_,x) -> x)
+                    |> String.Concat
+
+let rec Bogo (bad:string) (good:string) (n:int) =
+    if bad = good then n
+    else
+       Bogo (shuffle bad) good (n+1)
+
+usage
+
+> Bogo "elephant" "elephnta" 0;;
+val it : int = 14893
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]wadehn 4 points5 points6 points 3 years ago* (1 child)
+
+C++: Pretty uninteresting approach that interweaves computation of the
+Ackermann-function A(n,n) (Wikipedia) with selection sort. Already takes -3+2^2
+^2^2^2^2^2 iterations for 1234 and 4321 (if we would use arbitrary-precision
+arithmetic).
+
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <cstdint>
+using namespace std;
+
+// Intervowen computation of Ackermann function and sorting
+template<typename It>
+uint64_t bogo_sort(It from_begin, It from_end, It to_begin, uint64_t level) {
+  if (from_begin == from_end) {
+    volatile uint64_t it = 0;
+    for (uint64_t i = 1; i <= level + 1; ++i) {
+      it++;
+    }
+    return it;
+  } else {
+    swap(*from_begin, *find(from_begin, from_end, *to_begin));
+    uint64_t sub_level = level == 0 ? 1 : bogo_sort(from_begin, from_end, to_begin, level - 1);
+    return bogo_sort(from_begin + 1, from_end, to_begin + 1, sub_level);
+  }
+}
+
+int main() {
+  string from, to;
+  while (cin >> from >> to) {
+    if (from.size() != to.size() || !is_permutation(from.begin(), from.end(), to.begin())) {
+      cout << "Mismatched input: " << from << " " << to << endl;
+    } else {
+      auto it = bogo_sort(from.begin(), from.end(), to.begin(), from.size());
+      cout << "result is " << from << " after " << it << " iterations" << endl;
+    }
+  }
+}
+
+Example:
+
+322 232
+result is 232 after 61 iterations
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]XenophonOfAthens2 1 0 points1 point2 points 3 years ago (0 children)
+
+That's really clever. I wish I'd thought of it :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]mvpete 2 points3 points4 points 3 years ago (0 children)
+
+C++, case sensitive
+
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <cstdlib>
+
+
+void randomize(std::string &str)
+{
+    std::srand(time(NULL));
+    std::string tmp;
+    while(str.length())
+    {
+        int pos(std::rand()%str.length());
+        tmp.push_back(str[pos]);
+        str=str.erase(pos,1);
+    }
+    str=tmp;
+}
+
+int main(int argc, const char **argv)
+{
+    if( argc < 3 )
+    {
+    std::cout << "invalid arguments" << std::endl;
+    return -1;
+    }
+
+
+
+    std::string rand(first);
+    int its(0);
+    while(rand.compare(second) != 0)
+    {
+        randomize(rand);
+        ++its;
+    }
+
+    std::cout << "iterations: " << its << std::endl;
+
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]killedbythegrue 2 points3 points4 points 3 years ago* (0 children)
+
+Erlang
+
+I found a really nice random ordering routine that I shamelessly stole.
+
+Edit: simplified the code.
+
+bogo(In, Out) -> io:fwrite("~b iterations~n", [bogo(In,Out,0)]).
+
+bogo(In, In, Iters) -> Iters;
+bogo(In, Out, Iters) -> bogo(shuffle(In), Out, Iters+1).
+
+shuffle(Str) -> [X||{_,X} <- lists:sort([{random:uniform(),S} || S <- Str]  )].
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]el_daniero 1 point2 points3 points 3 years ago* (5 children)
+
+Straight-forward Ruby 2.0+
+
+def bogo(n,m)
+  i = 0
+  i+=1 until n.chars.shuffle == m.chars
+  i
+end
+
+puts "#{bogo *ARGV} iterations"
+
+Run with e.g $ ruby bogo.rb lolhe hello
+
+If you don't want it to shuffle anything if the two strings are identical
+initially, add an if modifier:
+
+i+=1 if n != m until n.chars.shuffle == m.chars
+
+or
+
+i+=1 until n.chars.shuffle == m.chars if n != m
+
+edit: code typo
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]DumbVelociraptor 0 points1 point2 points 3 years ago (4 children)
+
+That until statement is nifty. Might have just convinced me to have a look at
+Ruby.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]el_daniero 0 points1 point2 points 3 years ago (3 children)
+
+Well, until only means while not. And technically, it's an until modifier,
+placed at the end of a single statement. There are also if, unless and while
+modifiers. An until (or if etc) statement has a begin and end with any amount
+of statements in between. Usually I try to avoid these loop/conditional
+statements because they are very imperative and not very Ruby-like.
+
+I corrected my code, turning the != to a == because I had earlier changed a
+while into an until.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]DumbVelociraptor 0 points1 point2 points 3 years ago (2 children)
+
+Ah, that makes more sense. Still, nifty way to do things.
+
+Although, as someone in the statistical analysis side of things, would I be
+well-served picking up Ruby, if I'm already working (as well as a non-expert
+can work) in Python and R?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]el_daniero 0 points1 point2 points 3 years ago* (1 child)
+
+As a programmer, I think you're always better off knowing more languages. I
+know roughly 10-15 languages myself (but not R), and often I find that knowing
+one language improves how I work with another, even though (or rather because)
+the two requires different strategies to solve a problem.
+
+For someone who's not primarily a programmer though, I really don't know. At
+first glance, Ruby looks very much like Python. I sometimes think of Ruby as a
+Python with all the annoying things removed and fixed. I think Ruby is a lot
+more concise, has fewer wtf moments, but some of the implicit stuff may take
+some time to get used to; Python is very explicit in comparison -- nothing
+happens by itself unless you ask it to. This is why in ~95% of the cases Ruby
+code is shorter than equivalent Python code (based on my general experiences,
+and for instance playing around on http://codegolf.stackexchange.com).
+
+Doing statistical analysis, I can imagine that you use NumPy? Not sure if Ruby
+has anything equivalent. There's some talk about it here: http://
+stackoverflow.com/q/11597727/1373657
+
+A few things, from the top of my head, that are better in Ruby than in Python:
+
+  • Text manipulation. Ruby's way of dealing with input, either through files
+    or stdin is superior. Also dealing with regex is awesome. Most things here
+    are stolen directly from Perl. which also makes Ruby a very fun language to
+    hack around with.
+  • Object-orientation. The class system in Ruby is really, really great and
+    incredibly dynamic. Anything can be altered, including the way class
+    definitions are read by the interpreter. Also, in both languages everything
+    is objects, but only Ruby truly acts like it.
+  • Functional programming. Many have argued that Ruby is a Lisp. The power of
+    code blocks have no equivalent in Python. Sure, Python has lambdas, but in
+    Ruby, Lambda is implemented with code blocks :)
+
+A few things that Python has that Ruby lacks:
+
+  • List comprehension. Usually you don't need them in Ruby, but every now and
+    then... they could surely have been useful.
+  • List slicing. It's entirely possible in Ruby too, but that syntactic sugar
+    in Python surely is very elegant.
+
+Final warning: Ruby is the kind of language you start feeling very passionate
+about. Before you know it, you start writing these long post to complete
+strangers, telling them how great Ruby is :P
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]DumbVelociraptor 0 points1 point2 points 3 years ago (0 children)
+
+Heh. Yeah, the major concern I have is that I work with the Anaconda package,
+which is pretty much my bread and butter. Looks like I'll dabble a bit, and
+wait and see about the rest.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]nasnasnastynas 1 point2 points3 points 3 years ago (0 children)
+
+In erlang.
+
+-module(bogo_sort).
+-export([start_sort/2,swap_elements/3,sort/3]).
+
+start_sort(A, B) ->
+    sort(A,B,0).
+
+sort(A,B,N) ->
+    if
+        A /= B ->
+            N1 = random:uniform(length(A)),
+            N2 = random:uniform(length(A)),
+            if
+                N1 > N2 ->
+                    sort(swap_elements(A, N1, N2), B, N + 1);
+                true ->
+                    sort(swap_elements(A,N2, N1), B, N + 1)
+            end;
+        A == B ->
+            io:format("Iterations: ~p~n", [N])
+    end.
+swap_elements(List,S1,S2) ->
+    {List2,[F|List3]} = lists:split(S1-1,List),
+   LT = List2++[lists:nth(S2,List)|List3],
+   {List4,[_|List5]} = lists:split(S2-1,LT),
+   List4++[F|List5].
+
+Output
+
+bogo_sort:start("lolhe","hello").
+55
+191
+140
+20
+51
+117
+52
+85
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]skeeto-9 8 1 point2 points3 points 3 years ago (5 children)
+
+C11, using two separate approaches. Both are case-insensitive. First is the
+Bogosort. I'm using _GNU_SOURCE to get strdupa(), because string literals are
+immutable and can't be sorted in-place. It just does a straight sort rather
+than comparing to a particular string.
+
+For the bonus I'm doing an in-memory sleep sort. It's an incredible O(n)
+sorting algorithm that, despite have such a low time complexity is incredibly
+inefficient. Like Bogosort, it's unstable, but, worse, it's non-deterministic
+and the result may not always be completely sorted if your system happens to
+hiccup at the wrong moment. One thread is started for each character of input.
+
+What probably makes this sleep sort so interesting is that it uses a C11 atomic
+integer and a pthread barrier. The atomic integer ensures that two threads
+don't write to the same output byte, and it does so without locking. The
+barrier ensures that all the threads begin at the same instant, increasingly
+the likelihood that we'll get a valid sort. Under ideal circumstances it can
+sort an ASCII string of any length in about 1.3 seconds. In reality, the longer
+the string the less likely it will sort correctly and the longer it will take.
+
+I would have used the new C11 threads.h threads instead of pthreads, but I
+don't think anyone has actually implemented these yet.
+
+#define _GNU_SOURCE
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stdbool.h>
+#include <string.h>
+#include <ctype.h>
+
+#define SWAP(a, b) if (a ^ b) {a ^= b; b ^= a; a ^= b;}
+
+/* Fischer-Yates */
+void shuffle(char *string)
+{
+    int length = strlen(string);
+    for (int i = length - 1; i > 0; i--) {
+        int n = rand() % (i + 1);
+        SWAP(string[i], string[n]);
+    }
+}
+
+bool is_sorted(const char *string)
+{
+    for (const char *p = string; p[1]; p++)
+        if (toupper(p[0]) > toupper(p[1])) return false;
+    return true;
+}
+
+uint64_t bogo_sort(char *string)
+{
+    uint64_t count;
+    for (count = 0; !is_sorted(string); count++)
+        shuffle(string);
+    return count;
+}
+
+int main(int argc, char **argv)
+{
+    char *message = strdupa(argc > 1 ? argv[1] : "Hello world");
+    int count = bogo_sort(message);
+    printf("%s\n%d iterations\n", message, count);
+    return 0;
+}
+
+On my system with the default rand() seed this takes 2,969,312 iterations to
+sort "Hello world".
+
+And here's the bonus program, sleep sort:
+
+#define _GNU_SOURCE
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <stdatomic.h>
+#include <pthread.h>
+#include <unistd.h>
+
+struct output {
+    char *string;
+    atomic_int position;
+    pthread_barrier_t barrier;
+};
+
+struct job {
+    struct output *output;
+    char c;
+};
+
+void *worker(void *arg)
+{
+    struct job *job = (struct job *)arg;
+    pthread_barrier_wait(&job->output->barrier);
+    usleep(toupper(job->c) * 10000);
+    int p = atomic_fetch_add(&job->output->position, 1);
+    job->output->string[p] = job->c;
+    return NULL;
+}
+
+void sleep_sort(char *message)
+{
+    int length = strlen(message);
+    struct output output = {message, 0};
+    pthread_barrier_init(&output.barrier, NULL, length);
+    pthread_t threads[length];
+    struct job jobs[length];
+    for (int i = 0; i < length; i++) {
+        jobs[i].c = message[i];
+        jobs[i].output = &output;
+        pthread_create(threads + i, NULL, worker, jobs + i);
+
+    }
+    for (int i = 0; i < length; i++) {
+        pthread_join(threads[i], NULL);
+    }
+    pthread_barrier_destroy(&output.barrier);
+}
+
+int main(int argc, char **argv)
+{
+    char *message = strdupa(argc > 1 ? argv[1] : "Hello world");
+    sleep_sort(message);
+    printf("%s\n", message);
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Regimardyl 0 points1 point2 points 3 years ago (4 children)
+
+Making a non-threadsafe sleep sort reminds me of Java 2K.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]skeeto-9 8 0 points1 point2 points 3 years ago (3 children)
+
+My sleep sort is threadsafe in the sense that the output is guaranteed to be a
+well-formed string with the exact same characters as the input string. The only
+issue is the character order being non-deterministic. The characters are
+probably sorted, but if not they're probably nearly sorted. :-)
+
+Java2K looks like a funny language.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]XenophonOfAthens2 1 0 points1 point2 points 3 years ago (2 children)
+
+Is it really always O(n)? Doesn't the OS has to perform some sort of O(n log n)
+sort to figure the order in which the threads need to wake up? And for large
+values of n, this sort will take longer than each sleep period? It's a
+brilliant little idea either way, though :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]skeeto-9 8 0 points1 point2 points 3 years ago* (1 child)
+
+To get O(n) forget any of the details of how the underlying threads might be
+scheduled. Consider the ideal situation where every thread is running
+concurrently without scheduling concerns. Big O loses some meaning when it
+comes to parallelism.
+
+You're right, though, that scheduler is probably performing a regular sort
+internally. For this situation -- sorting integers -- O(n) isn't very
+impressive anyway because no comparator is needed.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]XenophonOfAthens2 1 0 points1 point2 points 3 years ago (0 children)
+
+It's true that you can use things like radix sort for integers, but this method
+could potentially be used for things like floats as well where you can't really
+use those O(n) sorts. I was just thinking about where it was cheating.
+
+Also, it strikes me that if even if you consider OS scheduling as magic, if you
+don't consider the size of the integers as constant, this kind of sorting
+actually runs at O(n 2^k ) where k is the bit length of the integers (unlike
+radix sort, which is O(kn)). That big-O notation makes a bit more sense :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Reboare 1 point2 points3 points 3 years ago (1 child)
+
+Using rust 0.12.0-pre-nightly (51e19e750 2014-08-06 19:26:19 +0000)
+
+case sensitive and feedback is welcome as always.
+
+use std::rand::{task_rng, Rng};
+
+fn bogo_str(inp: &str, des: &str) -> u64 {
+    let input = Vec::from_slice(inp.as_bytes());
+    let desired = Vec::from_slice(des.as_bytes());
+    bogo(input, desired)
+}
+
+
+fn bogo(inp: Vec<u8>, desired: Vec<u8>) -> u64 {
+    let mut sorted = inp;
+    let mut iterations = 0;
+
+    loop {
+        iterations += 1;
+        sorted = shuffle(&mut sorted);
+        if desired == sorted{
+            break
+        }
+    }
+    iterations
+}
+
+fn shuffle(inp: &mut Vec<u8>) -> Vec<u8>{
+    let mut new = Vec::new();
+
+    let mut gen = task_rng();
+    while inp.len() > 0 {
+        let indx = gen.gen_range(0, inp.len());
+        let val = inp.swap_remove(indx).unwrap();
+        new.push(val);
+    }
+    new
+}
+
+fn main(){
+    println!("{} iterations!", bogo_str("lolhe", "hello"))
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Lurker3780 0 4 points5 points6 points 3 years ago (0 children)
+
+The rust standard library has a shuffle method you could replace your bogo
+function and get rid of your shuffle function with:
+
+fn bogo(inp: Vec<u8>, desired: Vec<u8>) -> u64 {
+    let mut sorted = inp;
+    let mut iterations = 0;
+    let mut gen = task_rng();
+
+    loop {
+        iterations += 1;
+        gen.shuffle(sorted.as_mut_slice());
+        if desired == sorted{
+            break
+        }
+    }
+    iterations
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]134671 1 1 point2 points3 points 3 years ago (0 children)
+
+Haskell:
+
+module Main where
+import Control.Monad
+import Control.Monad.Loops
+import Control.Monad.Random
+import System.Environment
+import System.IO
+import Text.Printf
+
+-- Pick one random out of a list and leave the rest
+-- e.g. pick [1..5] ==> Just (2,[1,3,4,5])
+--      pick []     ==> Nothing
+pick :: MonadRandom m => [a] -> m (Maybe (a, [a]))
+pick [] = return Nothing
+pick xs = do
+  n <- getRandomR (0, length xs - 1)
+  let (ps, q:qs) = splitAt n xs
+  return $ Just (q, ps ++ qs)
+
+-- Shuffling a list with MonadRandom is just a monadic unfold of
+-- picking elements!
+shuffle :: MonadRandom m => [a] -> m [a]
+shuffle = unfoldrM pick
+
+bogoSort :: (MonadRandom m, Eq a) => [a] -> [a] -> m Int
+bogoSort xs goal
+  | xs == goal = return 0
+  | otherwise = do
+      xs' <- shuffle xs
+      liftM (+1) $ bogoSort xs' goal
+
+main = do
+  args <- getArgs
+  case args of
+    [xs, goal] -> do
+      n <- bogoSort xs goal
+      printf "Sorted \"%s\" in %d shuffles.\n" goal n
+    _ -> do
+      hPutStrLn stderr "Usage: bogosort.hs source-string goal-string"
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Regimardyl 1 point2 points3 points 3 years ago* (0 children)
+
+Haskell. Heavily abusing the way RNG in Haskell works (numbers always generated
+from given seed) to make a single reordering run multiple times with the same
+seed (resulting in the same result). This shouldn't change the complexity, but
+makes it run longer nevertheless.
+
+I might re-write this to permanently run in the IO monad so that I always try
+it with a new seed instead of the "continuation seed" I get from each random
+operation.
+
+Exits if the list is sorted (by unicode numbers), since I can easily make a
+rather inefficient sorting checking algorithm that way. Might do one exactly
+equal to the challenge input tomorrow.
+
+import           Data.List
+import           System.Environment (getArgs)
+import           System.Random
+
+-- Who the fuck wouldn't do redundant calculations
+-- Compile without optimizations, since the compiler might get behind this
+
+randomOrder :: (RandomGen g, Eq a) => g -> [a] -> ([a],g)
+randomOrder g [] = ([],g)
+randomOrder g xs = (xs !! fst (randomR (0,length xs - 1) g)
+    : fst (randomOrder (snd $ randomR (0,length xs - 1) g)
+    $ delete (xs !! fst (randomR (0,length xs - 1) g)) xs)
+    , snd (randomOrder (snd $ randomR (0,length xs - 1) g)
+    $ delete (xs !! fst (randomR (0,length xs - 1) g)) xs))
+
+isSorted :: Ord a => [a] -> Bool
+isSorted [] = True
+isSorted xs = isSorted (tail xs) && head xs == minimum xs
+
+-- Tail recursive to avoid eventual stackoverflow
+bogoSort :: (RandomGen g, Ord a) => g -> [a] -> Integer -> ([a], Integer)
+bogoSort g xs n = if isSorted $ fst $ randomOrder g xs
+                then (fst $ randomOrder g xs,n)
+                else bogoSort (snd $ randomOrder g xs) xs (n+1)
+
+main = do
+    g <- getStdGen
+    a <- getArgs
+    putStrLn $ "Initial StdGen: " ++ show g
+    putStrLn $ unwords $ fst $ bogoSort g a 1
+    putStrLn $ "Took " ++ show (snd $ bogoSort g a 1) ++ " tries."
+
+Running it:
+
+$ time ./Bogosort {1..10} # expansion is done by bash, not my code
+Initial StdGen: 924222414 1
+1 10 2 3 4 5 6 7 8 9
+Took 1174934 tries.
+
+real    0m55.362s
+user    0m54.087s
+sys     0m0.437s
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nuunien 1 point2 points3 points 3 years ago (0 children)
+
+In Go:
+
+package main
+
+import (
+    "fmt"
+    "math/rand"
+    "time"
+)
+
+func shuffle(str string) string {
+    out := make([]byte, len(str))
+    for i, v := range rand.Perm(len(str)) {
+        out[v] = str[i]
+    }
+    return string(out)
+}
+
+func Bogo(str, match string) int {
+    iter := 0
+    for ; ; iter++ {
+        if str == match {
+            return iter
+        }
+
+        str = shuffle(str)
+    }
+}
+
+func main() {
+    rand.Seed(time.Now().UTC().UnixNano())
+    iter := Bogo("lolhe", "hello")
+    fmt.Println(iter, "iterations")
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]LandOfTheLostPass 1 point2 points3 points 3 years ago (0 children)
+
+Solution in PowerShell going for inefficient and just bad practice all around:
+
+function hashByte([byte]$byte) {
+    $byteHash = ""
+    $sha1 = [System.Security.Cryptography.HashAlgorithm]::Create("SHA1")
+    $hashBytes = $sha1.ComputeHash($byte)
+    foreach($hashByte in $hashBytes) {
+        $byteHash += [System.BitConverter]::ToString($hashByte)
+    }
+    return $byteHash
+}
+
+function hashLetter([char]$char) {
+    $letterHash = ""
+    $charBytes = [System.BitConverter]::GetBytes($char)
+    foreach($byte in $charBytes) {
+        $letterHash += hashByte($byte)
+    }
+    return $letterHash
+}
+
+function hashString([string]$string) {
+    $stringHash = ""
+    foreach($letter in $string.GetEnumerator()) {
+        $stringHash += hashLetter($letter)
+    }
+    return $stringHash
+}
+
+function selectCase([string]$letter) {
+    $randomBytes = New-Object byte[] 4
+    $rng = [System.Security.Cryptography.RNGCryptoServiceProvider]::Create()
+    $rng.GetBytes($randomBytes)
+    $caseChoice = [System.BitConverter]::ToUInt32($randomBytes, 0) % 2
+    if($caseChoice -eq 1) {
+        return $letter.ToUpper()
+    } else {
+        return $letter.ToLower()
+    }
+}
+
+function selectOrder([string]$letters) {
+    # Create byte array from the letters
+    $chars = $letters.ToCharArray()
+    $charBytes = New-Object byte[] ($chars.Length * 2)
+    for($i = 0; $i -lt $chars.Length; $i++) {
+        $charBytes[2 * $i] = [System.BitConverter]::GetBytes($chars[$i])[0]
+        $charBytes[(2 * $i) + 1] = [System.BitConverter]::GetBytes($chars[$i])[1]
+    }
+
+    # randomize byte order
+    $bytes = New-Object byte[] $charBytes.Length
+    $selected = @{}
+    $randomBytes = New-Object byte[] 4
+    $rng = [System.Security.Cryptography.RNGCryptoServiceProvider]::Create()
+    $CurrentByte = 0
+    while($selected.Count -lt $bytes.Count) {
+        $rng.GetBytes($randomBytes)
+        $bytePicker = [System.BitConverter]::ToUInt32($randomBytes, 0) % $bytes.Count
+        if($selected[$bytePicker] -like $null) {
+            $bytes[$CurrentByte] = $charBytes[$bytePicker]
+            $selected[$bytePicker] = $true
+            $CurrentByte++
+        }
+    }
+    return $bytes
+}
+
+
+
+function badBogoSort([string]$letters, [string]$string) {
+    $counter = 0
+    $startTime = [DateTime]::Now
+    do {
+        $correctHash = hashString($string)
+        $checkHash = ""
+        $casedLetters = ""
+        foreach($letter in $letters) {
+            $casedLetters += selectCase($letter)
+        }
+        $orderedBytes = selectOrder($casedLetters)
+        foreach($byte in $orderedBytes) {
+            $checkHash += hashByte($byte)
+        }
+        $counter++
+    } while ($checkHash -ne $correctHash)
+    $endTime = [DateTime]::Now
+    $timeTaken = ($endTime - $startTime).milliseconds
+    Write-Host ("Sorted `"{0}`" to `"{1}`" in {2} attempts taking {3} milliseconds" -f $letters, $string, $counter.ToString(), $timeTaken)
+}
+
+Explanation:
+I thought, if we really want to be sure we've got that sorting correct, why
+sort letters? Let's sort the bytes which make up the letters. And who wants to
+just do string comparisons, I want hashes! So, we're going to hash every byte
+(because that's fast, right?) and build a nice immutable string via
+concatenation (a good plan in .net, Shirley!) Of course, to be sure we're being
+secure (who brought that up?) we're going to use the RNGCryptoGraphicProvider
+to get our random numbers when needed. And so dear reader (why are deers
+reading this?) I present to you my badBogoSort in PowerShell (because IDEs are
+hard).
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Davess1 1 point2 points3 points 3 years ago (0 children)
+
+Clojure
+
+(defn bogo-sort
+        [scrambled-word word]
+        (loop [new-scrambled-word scrambled-word
+               times 0]
+          (if (= new-scrambled-word word)
+            (println "It took: " times " times")
+            (let [new-new-scrambled-word (clojure.string/join "" (shuffle (seq new-scrambled-word)))
+                  new-times (+ 1 times)]
+              (recur new-new-scrambled-word new-times)))))
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Godspiral3 3 1 point2 points3 points 3 years ago (0 children)
+
+in J, not using iterations but comparing possible permutations
+
+  bogo =: ((0 < +/^:_) ('match found: '&,)^:[ ' permutations tried' ,~ [: ": [: */ $)@:(<@:[ = ([: { # $ <)@:])
+
+'acb' bogo 'abc'
+match found: 27 permutations tried
+
+'ehllo' bogo 'hello'
+match found: 3125 permutations tried
+
+'dhllo' bogo 'hello'
+3125 permutations tried
+
+this will provably find a result i(or terminate if there is no match) in len^
+len time
+
+9 letters is 3.8742e8 permutations checked.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]revereddesecration 1 point2 points3 points 3 years ago (1 child)
+
+Lua:
+
+function bogosort(have, want, seed)
+    math.randomseed(seed)
+    iterations, done = 0, false
+    while not done do
+        str, result = have, ""
+        for i = 1, #str do
+            n = math.random(1, #str)
+            result = result..string.sub(str, n, n)
+            str = string.sub(str, 1, n-1)..string.sub(str, n+1, #str)
+        end
+        iterations, done = iterations + 1, true and result == want or false
+        math.randomseed(math.random(1,1000000))
+    end
+    return result, iterations
+end
+
+seed = os.time()  --or any other number
+iterations = bogosort("lolhe", "hello", seed)
+
+Averages 47~48 iterations on trials of 10^3~5 different seeds.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]revereddesecration 0 points1 point2 points 3 years ago (0 children)
+
+It doesn't always work though. bogosort("edcba", "abcde", 27)) fails because of
+a looped random.
+
+407056
+4       edc     ab
+1       dc      abe
+2       d       abec
+1               abecd
+252358
+345348
+950896
+604725
+736900
+308787
+223793
+114048
+43734
+305949
+657888
+396100
+602558
+905576
+908720
+539842
+859768
+860256
+212653
+987091
+567492
+180243
+540514
+689322
+137822
+204444
+259591
+367993
+874142
+166967
+526750
+323100
+736473
+750420
+498795
+32350
+2778
+122136
+278116
+955260
+116917
+554186
+316935
+157232
+852962
+395948
+164892
+433974
+44222
+658376
+748528
+788172
+352367
+646871
+952270
+113377
+309184
+932646
+138188
+968780
+306925
+362713
+356152
+163061
+517411
+263192
+407056
+4       edc     ab
+1       dc      abe
+2       d       abec
+1               abecd
+252358
+
+This is easily solved by changing math.random(1,1000000) to math.random
+(1,10000000).
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]CoffeeDrivenCoder 1 point2 points3 points 3 years ago (0 children)
+
+Pretty straight forward in Python (3.4 & 2.7)
+
+import random
+
+def bogo(n, m):
+    x =  0
+    while n != m:
+        n = ''.join(random.sample(n, len(n)))
+        x += 1
+
+        print("Currently on iteration: " + str(x) + " with word > " + n)
+
+
+
+bogo('lolhe', 'hello')
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]sadjava 0 points1 point2 points 3 years ago (4 children)
+
+Java. Two versions. runBogo() is a version of bogo sort that would actually
+end, and the run() is bogobogosort. It should outlive the universe. It is not
+case sensitive.
+
+import java.util.Random;
+
+
+public class BogoSort implements Runnable
+{
+    private Random rand;
+    private final String in;
+    private String jumble;
+    private long permuteCount;
+    private final int numberUppercase;
+
+    private static final char TOSS_CHAR = '*';
+
+    public BogoSort(String input, String jumbleWord)
+    {
+        rand = new Random();
+        in = input;
+        jumble = jumbleWord;
+        permuteCount = 0;
+        numberUppercase = numUppers(input);
+    }
+
+    private int numUppers(String input)
+    {
+        int count = 0;
+        for (int i = 0; i < in.length(); i++)
+        {
+            if (Character.isUpperCase(input.charAt(i)))
+                count++;
+        }
+
+        return count;
+    }
+
+
+    public void runBogo()
+    {
+        //standard bozo sort
+        while (!in.equals(jumble))
+        {
+            int upperCount = 0;
+            jumble = jumble.toLowerCase();
+            char[] temp = new char[jumble.length()];
+            char[] tossOut = jumble.toCharArray();
+            for (int i = 0; i < temp.length; i++)
+            {
+                int pos = rand.nextInt(tossOut.length);
+                while (tossOut[pos] == TOSS_CHAR)
+                {
+                    pos = rand.nextInt(tossOut.length);
+                }
+
+                if (upperCount < numberUppercase)
+                {
+                    tossOut[pos] = Character.toUpperCase(tossOut[pos]);
+                    upperCount++;
+                }
+
+                temp[i] = tossOut[pos];
+                tossOut[pos] = TOSS_CHAR;
+            }
+
+            permuteCount++;
+            jumble = new String(temp);
+
+        }
+    }
+
+    @Override
+    public void run()
+    {
+        long lastPrint = 0;
+
+        //bogo bogo
+        while (!in.equals(jumble))
+        {
+            int upperCount = 0;
+            boolean passed = false;
+            jumble = jumble.toLowerCase();
+            char[] temp = new char[jumble.length()];
+            char[] tossOut = jumble.toCharArray();
+
+            for(int i = 0; i < temp.length; i++)
+            {
+                int pos = rand.nextInt(tossOut.length);
+                while (tossOut[pos] == TOSS_CHAR)
+                {
+                    pos = rand.nextInt(tossOut.length);
+                }
+
+                if (upperCount < numberUppercase)
+                {
+                    tossOut[pos] = Character.toUpperCase(tossOut[pos]);
+                    upperCount++;
+                }
+
+                temp[i] = tossOut[pos];
+                tossOut[pos] = TOSS_CHAR;
+
+                if(i != 0)
+                {
+                    for (int j = 0; j < i; j++)
+                    {
+                        if (temp[i] != in.charAt(i))
+                        {
+                            tossOut = jumble.toCharArray();
+                            i = 0;
+                            permuteCount++;
+                            if(permuteCount - lastPrint == 1000000)
+                            {
+                                System.out.println(permuteCount);
+                                lastPrint = permuteCount;
+                            }
+                        }
+                    }
+                    passed = true;
+                }
+
+                if(passed)
+                    jumble = new String(temp);
+            }
+        }
+    }
+
+    public long permuteCount()
+    {
+        return permuteCount;
+    }
+
+    public static void main(String[] args) throws InterruptedException
+    {
+        String in = "Hello";
+        String jumble = "lolhe";
+        BogoSort sort = new BogoSort(in, jumble);
+        sort.runBogo();
+        System.out.println(jumble + " to " + in + " took " + sort.permuteCount() + " iterations!");
+
+        sort = new BogoSort(in, jumble);
+        Thread t = new Thread(sort);
+        t.start();
+        t.join();
+        System.out.println(jumble + " to " + in + " took " + sort.permuteCount() + " iterations!");
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]calitransplant 0 points1 point2 points 3 years ago (3 children)
+
+I too wrote it in java. However I would like any and all feedback about it. i
+think the code makes sense and it did compile, but I couldn't get an output
+when I ran the program.
+
+https://gist.github.com/anonymous/104502e43a4908025cd1#file-awesomeness
+
+Thanks!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Charlie_went_Brown 0 points1 point2 points 3 years ago (2 children)
+
+I found the error. The range of your error is only four numbers (0, 1, 2, 3).
+It should be r0.nextInt(5) and not r0.nextInt(4). The number you put in the
+brackets is excluded. Here is more info about it.
+
+You do know that one Random object is sufficient? You could have used r0 to get
+a random number for each String in the array. strtest[1] = strtest[r1.nextInt
+(5)]; could have been strtest[1] = strtest[r0.nextInt(5)]; instead.
+
+And you could have used a for loop to shorten the program even more. Instead of
+writing strtest[0], strtest[1], etc. you could have written "for (i=0; i<5;
+i++) {strtest[i] = strtest[r0.nextInt(5)]; ... }"
+
+If you want to see the program rearranging the words while it's running, put
+"System.out.println(str1);" under the str1.
+
+I'm not sure if your program will ever have the Strings matching since it takes
+any of the random letters from the strtest[]. So, it might take "e" for strtest
+[0] and then again "e" for strtest[1].
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]calitransplant 0 points1 point2 points 3 years ago (1 child)
+
+Thanks for pointing out the error and the info about Random numbers in Java!
+
+I also incorporated the error pointed out on github by ddsnowboard about how to
+set strings to be equal (in this case not equal).
+
+Regarding the one random object, i thought that if I used r0 more than once, it
+would come up with the same same random number for each string in the array. In
+other words, every str1 would be "ooooo" or "hhhhh". I'm wrong about that
+though!
+
+I used the System.out.println(str1 +" " + counter) to just keep track of how
+many iterations. Mathmatically speaking, there are 5^5 (3,125) arrangements of
+hello (ignoring the fact that there are 2 "l"s ) so I thought it should at
+least come up by the 4,000th attempt...it's on 5 million right now and it still
+hasn't come up with it. Is that a limitation of the random function, or am I
+doing something wrong?
+
+Thank you for the help!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Charlie_went_Brown 0 points1 point2 points 3 years ago (0 children)
+
+Sure, I'm glad I could help!
+
+Clever, I forgot to mention that!
+
+What you're doing wrong was already pointed out by me and ddsnowboard on
+github. Basically, you didn't remove the items from the strtest array or
+checked if that random number was already used. What you could do is remove
+items from the strtest, but this could get complicated and long I think. The
+way I would do it is when I'd get a random number I'd store it in an array
+called ranArray[] and for every next random number I get, I'd check if it's
+already in the array. If it is, I'd get a new random number (until it's
+different from all the numbers already in the array). If it's not, I'd store it
+in the array. In the end you'd just have to to make the string like this: str1
+= strtest[ranArray[0]] + strtest[ranArray[1]] +....
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ENoether 1 point2 points3 points 3 years ago (2 children)
+
+Python 3.4.1; as always, feedback and criticism welcome.
+
+import random
+
+def bogol(scrambled, m):
+    i = 0
+    tmp = list(scrambled.lower())
+    target = list(m.lower())
+    while not tmp == target:
+        i+= 1
+        random.shuffle(tmp)
+    return i
+
+if __name__ == "__main__":
+    for _ in range(10):
+        print(bogol("ollhe", "hello"))
+
+Run:
+
+C:\Users\Noether\Documents\programs>python dp_175_mon.py
+69
+72
+67
+26
+95
+176
+111
+36
+18
+11
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]VerifiedMyEmail 0 points1 point2 points 3 years ago* (0 children)
+
+What is the point of having a "tmp" variable?
+
+you don't need to save how "scrambled" started. Why not get rid of another
+name?
+
+And for clarity, personally, I wrote out the "match"
+
+Also capitalize target because it is a constant.
+
+import random
+
+def bogo(scrambled, match):
+    scrambled = list(scrambled)
+    MATCH = list(match)
+    count = 0
+    while scrambled != MATCH:
+        random.shuffle(scrambled)
+        count += 1
+    print('ITERATIONS: {0}'.format(count))
+
+bogo('lolhe', 'hello')
+
+EDIT: you could do this.
+
+tmp, TARGET = reformat(scrambled), reformat(m)
+
+def reformat(string):
+    return list(string.lower())
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]joyeuxnoelle 0 points1 point2 points 3 years ago* (0 children)
+
+I got pretty much what you did, yeah. :)
+
+import random
+def bogo(s,t):
+    q = 0
+    if len(s) != len(t):
+        raise ValueError("The strings do not match.")
+    for e in s:
+        if e not in t:
+            raise ValueError("The strings do not match.")
+    for e in t:
+        if e not in s:
+            raise ValueError("The strings do not match.")
+    while not s.lower() == t.lower():
+        s = list(s)
+        random.shuffle(s)
+        n = ""
+        for r in s:
+            n += r
+        s = n
+        q += 1
+    return [s,q]
+
+if __name__ == '__main__':
+    for _ in range(10):
+        a = bogo('lolhe','hello')
+        print("Got %s in %s iterations." % (a[0],a[1]))
+
+Out:
+
+Got hello in 67 iterations.
+Got hello in 4 iterations.
+Got hello in 8 iterations.
+Got hello in 64 iterations.
+Got hello in 3 iterations.
+Got hello in 35 iterations.
+Got hello in 41 iterations.
+Got hello in 26 iterations.
+Got hello in 8 iterations.
+Got hello in 85 iterations.
+
+e: added some error checking
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Coder_d00d1 3 0 points1 point2 points 3 years ago (0 children)
+
+Objective C
+
+I randomly swap 2 spots (could be the same spot) until it matches. Made a
+Category off NSMutableString to handle the sort.
+
+//
+//  NSMutableString+BogoExtension.h
+//  174 bogo sort
+//
+
+#import <Foundation/Foundation.h>
+
+@interface NSMutableString (BogoExtension)
+- (void) BogoSortTo: (NSString *) s;
+@end
+
+// ============================================
+
+//
+//  NSMutableString+BogoExtension.m
+//  174 bogo sort
+
+#import "NSMutableString+BogoExtension.h"
+@implementation NSMutableString (BogoExtension)
+
+- (void) BogoSortTo: (NSString *) s {
+    bool sorted = FALSE;
+    int sortCount = 0;
+
+    while (!sorted) {
+        int swapIndex = arc4random() % self.length;
+        int swapWithIndex = arc4random() % self.length;
+
+        if (swapIndex != swapWithIndex) {
+            char temp1 = [self characterAtIndex: swapIndex];
+            char temp2 = [self characterAtIndex: swapWithIndex];
+
+            [self replaceCharactersInRange: NSMakeRange(swapIndex, 1)
+                                withString: [NSMutableString stringWithFormat: @"%c", temp2] ];
+
+            [self replaceCharactersInRange: NSMakeRange(swapWithIndex, 1)
+                                withString: [NSMutableString stringWithFormat: @"%c", temp1] ];
+        }
+        sortCount++;
+        if ([self compare: s] == NSOrderedSame)
+            sorted = TRUE;
+    }
+    NSLog(@"BogoSort Completed in %d iterations\n", sortCount);
+}
+@end
+//===========================================================================
+
+
+#import <Foundation/Foundation.h>
+#import "NSMutableString+BogoExtension.h"
+
+int main(int argc, const char * argv[])
+{
+    @autoreleasepool {
+        for (int i = 0; i < 10; i++) {
+            NSMutableString *sortString = [@"lolhe" mutableCopy];
+            [sortString BogoSortTo: @"hello"];
+        }
+    }
+    return 0;
+}
+
+I do the sort 10 times to see trends/patterns in the sort.
+
+Output:
+
+2014-08-11 12:04:16.221 174 bogo sort[3236:303] BogoSort Completed in 81 iterations
+2014-08-11 12:04:16.223 174 bogo sort[3236:303] BogoSort Completed in 163 iterations
+2014-08-11 12:04:16.224 174 bogo sort[3236:303] BogoSort Completed in 87 iterations
+2014-08-11 12:04:16.225 174 bogo sort[3236:303] BogoSort Completed in 335 iterations
+2014-08-11 12:04:16.226 174 bogo sort[3236:303] BogoSort Completed in 135 iterations
+2014-08-11 12:04:16.226 174 bogo sort[3236:303] BogoSort Completed in 250 iterations
+2014-08-11 12:04:16.227 174 bogo sort[3236:303] BogoSort Completed in 112 iterations
+2014-08-11 12:04:16.228 174 bogo sort[3236:303] BogoSort Completed in 349 iterations
+2014-08-11 12:04:16.228 174 bogo sort[3236:303] BogoSort Completed in 18 iterations
+2014-08-11 12:04:16.229 174 bogo sort[3236:303] BogoSort Completed in 47 iterations
+Program ended with exit code: 0
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]whonut1 0 0 points1 point2 points 3 years ago (0 children)
+
+I made up bogosort to sort numerically on a whim a while ago. This was much
+more fun. In Python:
+
+import random
+
+
+def bogo(scrambled, goal):
+    assert len(scrambled) == len(goal)
+    s_list = list(scrambled.lower())
+    g_list = list(goal.lower())
+    i = 0
+    while not s_list == g_list:
+        random.shuffle(s_list)
+        i += 1
+    return i
+
+
+def recBogo(scrambled, goal, i=0):
+    assert len(scrambled) == len(goal)
+    s_list = map(str.lower, scrambled)
+    g_list = map(str.lower, goal)
+    if s_list == g_list:
+        return i
+    else:
+        random.shuffle(s_list)
+        return recBogo(s_list, g_list, i=i+1)
+
+I tried to get it to sort 'macintosh'. The iterative version takes several
+hundreds of thousands of iterations and, unsurprisingly, the recursive one
+falls to the recursion depth limit.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]TiZ_EX1 0 points1 point2 points 3 years ago (0 children)
+
+ECMAScript 6 on node.js with sugar. I may attempt bogobogo later.
+
+require("sugar");
+var iters = 0, [mess, target] = process.argv.slice(2);
+for (; mess != target; iters++) mess = mess.chars().randomize().join("");
+console.log("%s ITERS, THIS IS STUPID", iters);
+
+Output:
+
+NH116:m175$ ./bogo lolhe hello
+44 ITERS, THIS IS STUPID
+NH116:m175$ ./bogo lolhe hello
+178 ITERS, THIS IS STUPID
+NH116:m175$ ./bogo lolhe hello
+60 ITERS, THIS IS STUPID
+NH116:m175$ ./bogo lolhe hello
+59 ITERS, THIS IS STUPID
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]theBonesae 0 points1 point2 points 3 years ago (0 children)
+
+C# Not that inefficient. takes anywhere from 1 to 100 iterations usually.
+
+Comments and feedback welcome.
+
+https://gist.github.com/theBonesae/1d9f42a101ae26a5b067
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]galaktos 0 points1 point2 points 3 years ago* (0 children)
+
+Shell:
+
+IN="lolhe";
+RES="$IN";
+OUT="hello";
+i=0;
+while command [ "$RES" != "$OUT" ]; do
+    RES="$(command echo "$RES" |
+        fold -w1 `# fold into 1-wide lines, i. e. one character per line` |
+        shuf `# shuffle` |
+        tr -d '\n' `# fold back into one line`)";
+    i=$(bc <<< "$i + 1");
+done;
+echo "$i iterations";
+
+The main part of the inefficiency comes from the fact that it requires your OS
+to spawn six processes each iteration :)
+
+Thus, sorting a seven letter string took only 2602 iterations, but still
+approximately 11 seconds.
+
+(The folding comes from here, although I’m using -w rather than -s or -c. I’m
+not sure why these work, but I think -w is the option intended for the width.
+For all I know, -s1 might not work on a non-GNU fold.)
+
+(Edited because I was using bash addition. We want this to be inefficient and
+POSIX compliant, we should use bc for that!)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]swingtheory 0 points1 point2 points 3 years ago (0 children)
+
+This is my solution in python 3. I averaged the length of each algorithm, one
+with finding the permutations of a string, and another for using
+random.shuffle. The two functions averaged 58 and 60 iterations, respectively.
+
+from itertools import permutations
+from random import randint, shuffle
+
+def Bogo_perm(n, m):
+    count = 0
+    while n != m:
+        perms = list(set(permutations(n)))
+        n = ''.join(perms[randint(0, len(perms)-1)])
+        count += 1
+
+    return count
+
+def Bogo_shuffle(n, m):
+    count = 0
+    while n != m:
+        n = list(n)
+        shuffle(n)
+        n = ''.join(n)
+        count += 1
+
+    return count
+
+if __name__ == '__main__':
+    a, b = 'helol', 'hello'
+    iterations = 0
+    perm_total, shuffle_total = 0, 0
+    while iterations < 250:
+        perm_total += Bogo_perm(a, b)
+        shuffle_total += Bogo_shuffle(a, b)
+        iterations += 1
+
+    print('average perm:',  perm_total/250)
+    print('average shuffle:', shuffle_total/250)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]eslag90 0 points1 point2 points 3 years ago (0 children)
+
+Been trying to learn Perl over the last week. Emphasis on "trying".
+
+#!/usr/bin/perl
+
+use warnings;
+use strict;
+
+
+my @input = ("lolhe", "hello");
+my $i = 0;
+my $answer = "";
+while ($input[0] ne $input[1]) {
+    $i += 1;
+    while ($input[0]) {
+        my $index = int(rand(length($input[0])));
+        my $random_char = substr $input[0], $index, 1;
+        $answer .= $random_char;
+        $input[0] =~ s/$random_char{1}//;
+    }
+    $input[0] = $answer;
+    $answer = "";
+}
+print "$i iterations\n";
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]minikomi 0 points1 point2 points 3 years ago* (0 children)
+
+Racket. Uses online randomizer for extra [DEL:inefficiency:DEL] randomness.
+
+ #lang racket/base
+
+ (require net/http-client
+          racket/port
+          racket/string
+          racket/vector
+          )
+
+ (define target-host "www.random.org")
+ (define target-url "/sequences/?min=0&max=~a&col=1&format=plain&rnd=new")
+
+ (define (true-random-shuffle s)
+   (define-values (c h reply-body)
+     (http-sendrecv
+       target-host
+       (format target-url (sub1 (string-length s)))))
+
+   (define new-order (map string->number  (string-split (port->string reply-body) "\n")))
+   (list->string (map (lambda (n) (string-ref s n)) new-order)))
+
+ (define (bogo input target [n 0])
+   (if (string=? input target)
+     (displayln (format "Success after ~a time~a: ~a - ~a" n (if (= n 1) "" "s") input target))
+     (begin
+       (displayln (format "Bogoed ~a time~a. Current Result: ~a != ~a." n (if (= n 1) "" "s") input target))
+       (displayln "bogo shuffling after 1s Sleep...")
+       (sleep 1)
+       (let ([bogo-shuffled (true-random-shuffle input)])
+         (bogo bogo-shuffled target (add1 n))))))
+
+ (define args (current-command-line-arguments))
+
+ (if (= (vector-length args) 2)
+   (bogo (vector-ref args 0)(vector-ref args 1))
+   (displayln "Usage: boko.rkt input target"))
+
+Edit: holy crap!
+
+ λ ~ → racket ./bogo.rkt abnana banana
+ Bogoed 0 times. Result: abnana != banana.
+ bogo shuffling after 1s Sleep...
+ Success after 1 bogo: banana - banana
+ λ ~ →
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dMenche 0 points1 point2 points 3 years ago* (0 children)
+
+C:
+
+I tested this several times using the sample inputs, and it ranged from as good
+as 8 iterations to as bad as 1249 iterations. Strings of 10 characters or over
+rarely finish sorting before hitting the limit (1000000 iterations).
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+#include <time.h>
+
+#define MAX_LENGTH 15
+#define MAX_ITERATIONS 1000000
+
+void shuffle(char* str) ;
+
+int main(void)
+{
+    unsigned int iterations = 0 ;
+    char scramble[15] = {0} ;
+    char goal[15] = {0} ;
+
+    srand(time(NULL)) ;
+
+    fputs("Enter scrambled string:\n", stdout) ;
+    fgets(scramble, MAX_LENGTH, stdin) ;
+    fputs("Enter final string:\n", stdout) ;
+    fgets(goal, MAX_LENGTH, stdin) ;
+
+    while(strcmp(scramble, goal) != 0)
+    {
+        if(iterations >= MAX_ITERATIONS)
+        {
+            fputs("Max iterations exceeded!\n", stdout) ;
+            exit(EXIT_FAILURE) ;
+        }
+
+        shuffle(scramble) ;
+        iterations++ ;
+    }
+
+    printf("%i iterations\n", iterations) ;
+
+    exit(EXIT_SUCCESS) ;
+}
+
+void shuffle(char* str)
+{
+    uint8_t length = strlen(str) ;
+    char* target = calloc(sizeof(char), length) ;
+    uint8_t* checklist = calloc(8, length) ;
+
+    for(uint8_t i=0 ; i<length ; i++)
+    {
+        uint8_t random = rand()%length ;
+
+        while(1)
+        {
+            if(checklist[random] == 0)
+            {
+                target[i] = str[random] ;
+                checklist[random] = 1 ;
+                break ;
+            }
+            else
+            {
+                random = rand()%length ;
+            }
+        }
+    }
+
+    strcpy(str, target) ;
+    free(target) ;
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]ff123 0 points1 point2 points 3 years ago (0 children)
+
+I've been writing a decent amount of lua in the past few weeks after taking a
+plunge writing small games in Love2D. Though I enjoy the simplicity of the
+language, I miss having batteries included.
+
+-- Convolute the input string and return the new string
+function randomSort(s)
+  local t = {}
+  for i = 1, s:len() do
+    t[i] = {math.random(), s:byte(i)}
+  end
+  table.sort(t, compare)
+
+  local ret = {}
+  for k, v in pairs(t) do
+    table.insert(ret, string.char(v[2]))
+  end
+  return table.concat(ret, "")
+end
+
+--sort callback
+function compare(a, b) return a[1] < b[1] end
+
+--Sorts a string randomly until it matches the output and returns the number
+--of iterations it took to get there
+function bogo(input, output)
+  local i = 0
+  while(input:lower() ~= output:lower()) do
+    input = randomSort(input)
+    i = i + 1
+  end
+  return i
+end
+
+function main()
+  math.randomseed(os.time())
+  io.write("Input string: ")
+  local input = io.read()
+  io.write("Output string: ")
+  local output = io.read()
+  local i = bogo(input, output)
+  io.write(i, " iterations \n")
+end
+
+main()
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]king_of_the_universe 0 points1 point2 points 3 years ago (5 children)
+
+    Bogo("lolhe","Hello")
+
+Bogo("lolHe","Hello") <---
+
+Would it be legitimate to just have a loop that generates a random text,
+attempts to compile the text, checks if there were no errors and if the output
+is as desired? Or would this be the monkey-typewriter-sort? At least it could
+be used for all other problems, too.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]professorlamp1 0[S] 0 points1 point2 points 3 years ago (4 children)
+
+That would be legitimate enough for me. Inifficiency is key in this challenge!
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]PalestraRattus 0 points1 point2 points 3 years ago (2 children)
+
+Random pre-coffee thoughts. If inefficiency is the goal of a bogo sort. And we
+view sorting of any type as the idea of finding N for the most efficient route.
+Wouldn't N^∞ be the most inefficient method? Which could in turn be represented
+by any program that will never sort the word?
+
+Like bam your code doesn't even compile...that would be a pretty inefficient
+algorithm. Or is that being a bit too literal with the challenge?
+
+Or is the spirit behind the stated goal the most inefficient method that will
+in theory eventually do something? From a philosophical standpoint is there
+really a difference between a formula that doesn't finish before the universe
+ends vs one that never finishes because it can't if both share the same result?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]professorlamp1 0[S] 0 points1 point2 points 3 years ago (0 children)
+
+It must eventually finish.
+
+If you can prove that the algorithm will finish, then you can post your proof
+as code :)
+
+But no, an infinite loop or something similar does not count as inefficient.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]king_of_the_universe 0 points1 point2 points 3 years ago (0 children)
+
+    Or is the spirit behind the stated goal the most inefficient method that
+    will in theory eventually do something?
+
+I bet so. Otherwise, not having made this posted would immediately have
+resulted in an infinite amount of the best answers.
+
+    From a philosophical standpoint is there really a difference between a
+    formula that doesn't finish before the universe ends vs one that never
+    finishes because it can't if both share the same result?
+
+All computers we have do eventually break, let's say after 10 years of running
+the respective program. Would an answer that would have been achieved after 50
+years, but that can never be reached in one run on one computer, be seen as
+equal to your N^∞ concept? I don't think so. We would just assume the program
+to run on an imaginary computer, or to continue running on a different
+computer.
+
+In the same line of thinking, you could imagine the program to continue running
+in a different universe. But not only do we not really know when the universe
+will end (and it looks like it will never - but computers would eventually stop
+running because everything is just one useless entropy soup), we also don't
+know if there will be universes "after" this one, or if there are parallel
+universes, or if the "technology of existence" even allows for more than one
+universe in forever. So, that's all too hypothetical to base decisions on. We
+just can't determine it.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]king_of_the_universe -1 points0 points1 point 3 years ago (0 children)
+
+I got a little lazy, didn't want to go into the whole "use Java compiler from
+within Java" thing (though I once made a class that does this, painfully
+realized that it only works if JDK installed, no use as a scripting solution
+for JRE people).
+
+The following program generates an application that implements BogoSort in the
+requested way, incl. a sophisticated GUI and some easter eggs. You need to be a
+little patient, though, it might take a Heat Death or two, plus it will
+probably create malicious software, too. But worry not! The attempt counter
+uses BigInteger, so you won't get a signed long overflow.
+
+Even though this code runs an infinite loop, a proper result will find this
+application in memory and kill the task gracefully.
+
+The min size is 1 kb, the max size is 64 mb. The file is filled with random
+crap that might or might not possibly ever produce anything but errors.
+
+import java.awt.*;
+import java.io.File;
+import java.io.IOException;
+import java.math.BigInteger;
+import java.nio.file.Files;
+import java.security.SecureRandom;
+import java.util.Random;
+
+final public class HalfassedBogosortSolution {
+
+    final private static File FILE = new File("bogosort_with_gui_and_autotest_and_eastereggs.exe");
+
+    final private static Random RAND = new SecureRandom();
+
+    final private static int EXECUTABLE_MIN_SIZE = 1024;
+    final private static int EXECUTABLE_MAX_SIZE = 1024 * 1024 * 64 - EXECUTABLE_MIN_SIZE;
+
+    final public static void main(final String[] args) {
+
+        BigInteger attemptCounter = BigInteger.ZERO;
+
+        while (true) {
+
+            attemptCounter = attemptCounter.add(BigInteger.ONE);
+
+            final int size = RAND.nextInt(EXECUTABLE_MAX_SIZE) + EXECUTABLE_MIN_SIZE;
+
+            System.out.print("Attempt " + attemptCounter.toString() + " (" + size + " bytes):\t");
+
+            createKillerApplication(size);
+
+            try {
+                Desktop.getDesktop().open(FILE);
+            } catch (IOException e) {
+                // e.printStackTrace();
+                System.out.println("Failed.");
+            }
+        }
+    }
+
+    final private static void createKillerApplication(final int size) {
+
+        final byte[] content = new byte[size];
+        RAND.nextBytes(content);
+
+        try {
+            Files.write(FILE.toPath(), content);
+        } catch (IOException e) {
+            System.err.println("ERROR: Could not create/overwrite " + FILE + ".");
+            e.printStackTrace();
+            System.exit(-1);
+        }
+    }
+
+}
+
+Demo output:
+
+Attempt 1 (19934960 bytes): Failed.
+Attempt 2 (46028664 bytes): Failed.
+Attempt 3 (38154552 bytes): Failed.
+Attempt 4 (35863087 bytes): Failed.
+Attempt 5 (61050771 bytes): Failed.
+Attempt 6 (6932723 bytes):  Failed.
+Attempt 7 (60062543 bytes):
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ambiturnal 0 points1 point2 points 3 years ago (0 children)
+
+I didn't really bother with the "input" part... "Characters provided" are a
+crutch no real programmer needs. I'll just make my own! Scala power!
+
+def nonSort(target : String) : BigInt = {
+   assert(target.filter(!_.isLower).isEmpty)
+
+   val alphas = ('a' to 'z').foldLeft(IntMap.empty[Char])((m, c) => m.updated(c.toInt - 97, c))
+   def randomChar : Char = alphas(scala.util.Random.nextInt(26))
+
+   def guess(s :String = "") : String = {
+     if (s.size == target.size) s
+     else guess(s + randomChar)
+   }
+
+   var ct : BigInt = 0  // ct doesn't increment per char, but per full string.
+   while (guess() != target) {
+     ct += 1
+   }
+   ct
+
+}
+
+some helpers to test it:
+
+def runs (x :Int, s : String) = for(_ <- 1 to x) yield nonSort(s)
+def average(xs : Seq[BigInt]) : BigInt = xs.sum / xs.size
+
+some output:
+
+scala> average(runs(10000, "uh"))
+
+res0: BigInt = 672
+
+scala> average(runs(10000, "wat"))
+
+res1: BigInt = 17881
+
+scala> average(runs(100, "heck"))
+
+res2: BigInt = 431130
+
+scala> average(runs(10, "hello")) res3: BigInt = 14241916
+
+Oh dear...
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]joeyGibson 0 points1 point2 points 3 years ago (0 children)
+
+I don't know how good/bad this is, but it's my Clojure version. Pretty version
+is at https://github.com/joeygibson/dailyprogrammer/blob/master/src/
+dailyprogrammer/ch175_easy_bogo.clj
+
+(ns dailyprogrammer.ch175-easy-bogo
+  (:require [clojure.string :as st]))
+
+(defn- remove-index
+  "Accepts a sequence, and removes the element at the given index.
+  If the index is outside the sequence, it returns the sequence, unchanged."
+  [col i]
+  (let [ex-i (inc i)]
+    (if (> ex-i (count col))
+      col
+      (concat (take i col)
+              (drop ex-i col)))))
+
+(defn- randomize-string
+  "Suffles the string into a 'random' order."
+  [string]
+  (loop [string string
+         res []]
+    (if (empty? string)
+      (apply str res)
+      (let [i (rand-int (count string))
+            letter (get string i)]
+        (recur (apply str (remove-index string i))
+               (conj res letter))))))
+
+(defn bogo
+  "Compares the two strings. If they are not the same, it randomizes
+  the first one and compares again. This continues until they are the same.
+  It returns the number of tries it took to achieve sameness."
+  [str1 str2]
+  (loop [str1 str1
+         iter 0]
+    (if (= str1 (st/lower-case str2))
+      iter
+      (recur (randomize-string str1)
+             (inc iter)))))
+
+(defn -main
+  [& args]
+  (let [res (bogo (first args)
+                  (second args))]
+    (println (format "%d iterations" res))))
+
+And here are some simple runs:
+
+# lein run -m dailyprogrammer.ch175-easy-bogo elhol Hello
+89 iterations
+
+# lein run -m dailyprogrammer.ch175-easy-bogo elentpha elephant
+27792 iterations
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]bcd87 0 points1 point2 points 3 years ago* (0 children)
+
+Did it in Scala. Although I'm not entirely sure this is the Scala way of
+programming, because the 5 minutes I've spent on this is literally the only
+time I've spent on Scala :)
+
+object Challenge175 {
+  def main(args: Array[String]) {
+    var a = 0;
+    while (scala.util.Random.shuffle(
+        args(0).split("").toSeq).mkString("") != args(1)) {
+      a += 1;
+    }
+    println(s"Sorting took $a iterations");
+  }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+Javascript
+
+I went with the wiki description of shuffling cards over and over till they are
+in order. Stole the shuffle function from Stackoverflow
+
+function bogoSort(N, M) {
+    numSorts = 0;
+    nShuffled = N;
+    while (N != M) {
+        numSorts++;
+        nShuffled = N.shuffle();
+    }
+Console.log(numSorts + " iterations");
+}
+
+String.prototype.shuffle = function () {
+    var a = this.split(""),
+    n = a.length;
+
+    for(var i = n - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var tmp = a[i];
+        a[i] = a[j];
+        a[j] = tmp;
+    }
+return a.join("");
+}
+
+  • permalink
+  • embed
+  • save
+
+[–]OSCPro 0 points1 point2 points 3 years ago (0 children)
+
+C++ - Quick and dirty
+
+#include <iostream>
+#include <string>
+#include <stdlib.h>
+#include <time.h>
+
+void shuffle(std::string& str);
+
+int main()
+{
+    srand(time(0));
+
+    std::string correct_answer("Hello");
+    std::string testing_str("lloeH");
+
+    for (int i = 0; i < 100000; i++){
+        std::cout << testing_str << std::endl;
+        if (correct_answer == testing_str){
+             printf("Found Answer! Total iterations: %d\n", i);
+             break;
+        }
+        shuffle(testing_str);
+    }
+
+    return 0;
+}
+
+// Bogo sort
+void shuffle(std::string& str)
+{
+    for(int i = 0; i < str.length(); i++){
+        int rand_num = rand() % str.length();
+        std::swap(str.at(i), str.at(rand_num));
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nuclearalchemist 0 points1 point2 points 3 years ago (1 child)
+
+First submission using Go, and first submission to this forum. I've been having
+formatting issues with getting the code and spoilers working correctly, so
+hopefully this works out for the best. Please let me know if I screw anything
+up. I tried to make this as inefficient as possible given that it was pretty
+late by the time I started on the problem, so there are probably much much
+slower solutions.
+
+//Reddit daily programmer challenge number 175 easy
+package main
+
+import (
+    "flag"
+    "fmt"
+    "log"
+    "math/rand"
+    "strconv"
+    "strings"
+    "time"
+)
+
+var string1 = flag.String("string1", "", "scrambled string to use")
+var string2 = flag.String("string2", "", "scrambled string to use")
+var seed = flag.String("seed", "", "rng seed to use")
+
+func main() {
+    defer timeTrack(time.Now(), "bobo sorter")
+    flag.Parse()
+    if *seed != "" {
+        nSeed, _ := strconv.ParseInt(*seed, 10, 64)
+        rand.Seed(nSeed)
+    } else {
+        rand.Seed(time.Now().UTC().UnixNano())
+    }
+
+    iterations := Bogo(*string1, *string2)
+    fmt.Printf("%d iterations\n", iterations)
+}
+
+func Bogo(scrambled, unscrambled string) uint64 {
+    //Check that the two strings have the same number of characters
+    scrambled = strings.ToLower(scrambled)
+    unscrambled = strings.ToLower(unscrambled)
+    if len(scrambled) != len(unscrambled) {
+        log.Fatal("words not same length")
+    }
+
+    iterations := uint64(0)
+    for {
+        //Check to see if the two strings are equal
+        if BogoCheckString(scrambled, unscrambled) {
+            return iterations
+        }
+
+        //rescramble
+        scrambled = BogoShuffle(scrambled)
+        iterations++
+    }
+
+    return iterations
+}
+
+func BogoCheckString(s1, s2 string) bool {
+    //Make this terrible
+    stringsEqual := true
+    for i := 0; i < len(s1); i++ {
+        if s1[i] != s2[i] {
+            stringsEqual = false
+            //fmt.Println("element ", i, " not equal")
+        }
+    }
+    return stringsEqual
+}
+
+func BogoShuffle(s string) string {
+    var startList, shuffledList []rune
+    startList = make([]rune, len(s))
+    shuffledList = make([]rune, len(s))
+
+    for index, runeValue := range s {
+        startList[index] = runeValue
+        //fmt.Printf("original rune[%d] = %v\n", index, runeValue)
+    }
+
+    //Now randomly assign into the shuffled list
+    j := 0
+    for len(startList) > 0 {
+        //Pick which index to get
+        ipop := rand.Intn(len(startList))
+        //Append that index to the current shuffledList
+        shuffledList[j] = startList[ipop]
+        j++
+        //shuffledList = append(shuffledList, startList[ipop])
+        startList = append(startList[:ipop], startList[ipop+1:]...)
+    }
+    //Check the new shuffled order
+    var newScrambled string
+    for i := 0; i < len(s); i++ {
+        newScrambled = newScrambled + string(shuffledList[i])
+    }
+    //fmt.Printf("New scrambled: %s\n", newScrambled)
+    return newScrambled
+}
+
+func timeTrack(start time.Time, name string) {
+    elapsed := time.Since(start)
+    log.Printf("%s took %s", name, elapsed)
+}
+
+Usage: Pass in strings and random seed via tags. Different results for the
+lolhe gives:
+
+  • go run dailyProgrammerBogoSort.go -string1="lolhe" -string2="hello"
+  • 128 iterations
+  • go run dailyProgrammerBogoSort.go -string1="lolhe" -string2="hello"
+  • 75
+
+I was going to do a whole bunch of runs and find the average and std. dev, but
+I have to work today unfortunately.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]nuclearalchemist 0 points1 point2 points 3 years ago (0 children)
+
+Looks like on average I get 57 iterations to 'converge.' I was hoping to do
+worse, but oh well.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]ejoe23 0 points1 point2 points 3 years ago (0 children)
+
+Done in Java. Takes a string and places all the letters in random places, then
+checks to see if it matches.
+
+import java.util.Random;
+
+public class BogoSort {
+
+String input;
+String jumble;
+int counter;
+
+public BogoSort(String input,String jumble)
+{
+    this.input = input;
+    this.jumble = jumble;
+    counter = 0;
+}
+
+public void sort()
+{
+Random rand = new Random();
+int pos;
+ while(true)
+ {
+
+     char letters[];
+     letters = jumble.toCharArray();//array of letters
+     char tempString[] = new char[jumble.length()];
+
+     for(int i = 0; i < jumble.length(); i++)//set array to blank            spaces
+     {
+         tempString[i] = ' ';
+     }
+
+     for(int i = 0; i < jumble.length(); i++)
+     {
+        while(true)//keep running until the random pos is   empty then fill it
+        {
+        pos = rand.nextInt(jumble.length());//make new pos for letter to go in
+        if(tempString[pos] == ' ')//if no letter is already there
+        {
+            tempString[pos] = letters[i];
+            break;
+        }
+
+        }//end while
+     }//end for
+
+     String finished = new String(tempString);//rebuild string   from char array
+     if(input.equals(finished))
+     {
+         break;
+     }
+     counter++;
+     System.out.println(counter);
+ }
+
+ System.out.println("Finished");
+}
+
+ public static void main( String args[] )
+ {
+     System.out.println("Welcome to the BogoSort program");
+     System.out.println("Be prepared to be here a while");
+     BogoSort sort = new BogoSort("hello","elhol");
+     sort.sort();
+ }
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]newbie12q 0 points1 point2 points 3 years ago* (5 children)
+
+Python
+
+import random
+count = 0
+
+def Bogo(x, y):
+
+    '''Bogo sorts two strings'''
+
+    p=list (x)
+    global count
+    if list(x) == list(y):
+        print count
+    else:
+        random.shuffle (p)
+        count +=1
+        return Bogo(p, y)
+
+Bogo(raw_input(), raw_input())
+
+My Problem: I run out of recursion depth whenever i try to sort longer strings,
+any idea on how to deal with it ? I would love any and all feedback :)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]VerifiedMyEmail 0 points1 point2 points 3 years ago (4 children)
+
+It seems unnecessarily complex. why use recursion?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]newbie12q 0 points1 point2 points 3 years ago (3 children)
+
+Finally someone commented on my code :), thank you so much.
+So how do you suggest me to do that then?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]VerifiedMyEmail 1 point2 points3 points 3 years ago (0 children)
+
+Let's have a conversation about this.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]VerifiedMyEmail 1 point2 points3 points 3 years ago (1 child)
+
+I guess I will put my code here. To give me feedback
+
+import random
+
+def bogo(scrambled, match):
+    scrambled, MATCH = reformat(scrambled), reformat(match)
+    count = 0
+    while scrambled != MATCH:
+        random.shuffle(scrambled)
+        count += 1
+    print('ITERATIONS: ', count)
+
+def reformat(string):
+    return list(string.lower())
+
+bogo('lolhe', 'hello')
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]newbie12q 0 points1 point2 points 3 years ago (0 children)
+
+wow, thank you i especially liked how you made the code work for case
+insensitive cases
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]mtko 0 points1 point2 points 3 years ago* (0 children)
+
+Little late to this one, but it seemed fun so I wanted to throw a solution
+together.
+
+C#:
+
+public static double Bogo(string input, string output, Random rand)
+    {
+        double iterations = 0;
+        StringBuilder sb = new StringBuilder();
+
+        while (sb.Length < output.Length && !sb.ToString().Equals(output))
+        {
+            sb.Append(input[rand.Next(0, output.Length)]);
+            if (sb.Length > 0 && !sb.ToString().Equals(output.Substring(0, sb.Length)))
+            {
+                sb.Clear();
+            }
+            iterations++;
+        }
+
+        return iterations;
+    }
+
+Basically I just build a random string from the input string, but as soon as I
+get an invalid letter, I discard the whole string and start over.
+
+Some stats:
+
+Attempting to sort polo until it matches loop. 1000 trials.
+Average Iterations per Bogo Sort: ~~22.474~~ 94.665
+
+Attempting to sort omno until it matches moon. 1000 trials.
+Average Iterations per Bogo Sort: ~~23.902~~ 90.387
+
+Attempting to sort kaje until it matches jake. 1000 trials.
+Average Iterations per Bogo Sort: ~~80.149~~ 344.738
+
+Attempting to sort inynn until it matches ninny. 1000 trials.
+Average Iterations per Bogo Sort: ~~42.482~~ 215.926
+
+Attempting to sort polos until it matches loops. 1000 trials.
+Average Iterations per Bogo Sort: ~~202.495~~ 1061.234
+
+Attempting to sort lolhe until it matches hello. 1000 trials.
+Average Iterations per Bogo Sort: ~~199.885~~ 969.05
+
+Attempting to sort hatwc until it matches watch. 1000 trials.
+Average Iterations per Bogo Sort: ~~790.057~~ 4000.938
+
+Attempting to sort birto until it matches orbit. 1000 trials.
+Average Iterations per Bogo Sort: ~~743.211~~ 3992.523
+
+Attempting to sort akmer until it matches maker. 1000 trials.
+Average Iterations per Bogo Sort: ~~803.87~~ 3996.85
+
+Attempting to sort giehyt until it matches eighty. 1000 trials.
+Average Iterations per Bogo Sort: ~~9144.807~~ 55608.689
+
+Attempting to sort rarkme until it matches marker. 1000 trials.
+Average Iterations per Bogo Sort: ~~4715.913~~ 13626.499
+
+Attempting to sort ahtojnna until it matches jonathan. 1000 trials.
+Average Iterations per Bogo Sort: ~~301020~~ 1167542.704
+
+Attempting to sort nperlasn until it matches planners. 1000 trials.
+Average Iterations per Bogo Sort: ~~566010.304~~ 4850642.913
+
+Attempting to sort cselmria until it matches miracles. 1000 trials.
+Average Iterations per Bogo Sort: ~~2353708.366~~  Didn't run this one again.  Takes too long :P
+
+Edit: Whoops, I had to fix my algorithm a bit. Strikethrough numbers were my
+original run. Everything went up by a factor of somewhere between
+NumberOfUniqueLetters and NumberOfLettersTotal.
+
+Words with multiple repeated letters (predictably) get sorted much faster than
+words with all unique letters.
+
+Thanks for the challenge, was fun!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]zifu 0 points1 point2 points 3 years ago* (0 children)
+
+Javascript!
+
+Live version!
+
+Important bits
+
+function bogoSort() {
+    var word = $('#words').val().split(' ')[0];
+    var solution = $('#words').val().split(' ')[1];
+
+    function shuffle() {
+        function swap(a, b) { //stupid swap method! wooot
+            var tA = word.charAt(a);
+            var tB = word.charAt(b);
+            var sliced = word.substr(0, a);
+            word = sliced + tB + word.substr(a + 1, word.length);
+            sliced = word.substr(0, b);
+            word = sliced + tA + word.substr(b + 1, word.length);
+        }
+
+        for (var i = word.length - 1; i > 0; i--) {
+            var rand = Math.floor((Math.random() * word.length - 1)) % (i);
+            swap(i, rand);
+        }
+    }
+
+    while (word !== solution) {
+        shuffle();
+    }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]DookieChumo 0 points1 point2 points 3 years ago (0 children)
+
+c# - First time posting a solution on here. Still learning and I haven't done a
+huge amount of programming so happy for some feed back. Cheers.
+
+using System;
+
+namespace bogo
+{
+   class Program
+   {
+    public static void Main(string[] args)
+    {
+        dobogo("elloh", "hello");
+        Console.Write("Press any key to continue . . . ");
+        Console.ReadKey(true);
+    }
+
+    public static void dobogo(string jumble, string result)
+    {
+        long count = 0;
+        while(!jumble.Equals(result))
+        {
+            string newJumble = null;
+            Random rnd = new Random();
+
+            foreach(var letter in jumble)
+            {
+                int number = rnd.Next(0,jumble.Length);
+
+                string temp = jumble.Substring(number, 1);
+                newJumble = temp + newJumble;
+
+                string temp2 = jumble.Remove(number,1);
+                jumble = temp2;
+            }
+            jumble = newJumble;
+            Console.WriteLine("Jumble: " + jumble + " Count: " + count);
+            count ++;
+
+        }
+       }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+Matlab:
+
+function nIter = bogosort(inStr)
+tic;
+testStr = inStr(randperm(length(inStr))); % create a perumted version
+nIter = 0;
+while (~strcmp(testStr(randperm(length(inStr))), inStr))
+    nIter = nIter+1;
+end
+dT = toc;
+fprintf('# Iterations = %d in %1.2fms\n', nIter, dT*1000);
+
+  • permalink
+  • embed
+  • save
+
+[–]kriskova 0 points1 point2 points 3 years ago (0 children)
+
+Ruby. Built in shuffle. Average 59 iterations.
+
+def bogo_sort(string1, string2)
+  i = 0
+  i +=1 until string1.split("").shuffle.join == string2
+  i
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]flightcrank 0 points1 point2 points 3 years ago (0 children)
+
+this is what an easy challenge should be. because it doesn't take up to much
+time, but is still a fun challenge !
+
+my input is hard coded and i changed the output but its all the same thing ;)
+
+output:
+
+string "lolhe" shuffled 86 times to reach sorted string "hello"
+
+code:
+
+challange_175_e.c
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+Python
+
+i'm lame and didn't want to try to make this less efficient. banged it out in a
+few minutes.
+
+from random import shuffle
+
+def bogo(a, b):
+c = 0
+while(a not in b):
+    d = list(a)
+    shuffle(d)
+    a = ''.join(d)
+    c += 1
+return c
+
+print bogo("heoll","hello")
+
+results are all over the place. I got 2, and I also got 437.
+
+  • permalink
+  • embed
+  • save
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+First one (I wasn't trying to be extremely inefficient though) in Java:
+
+public static void Bogo(String n, String m){
+    char temp;
+    int counter = 0;
+    int length = n.length();
+    Random rn = new Random();
+
+    while(!n.equals(m)){
+        char[] c = n.toCharArray();
+        int r1 = rn.nextInt(length);
+        int r2 = rn.nextInt(length);
+
+        temp = c[r1];
+        c[r1] = c[r2];
+        c[r2] = temp;
+
+        n = new String(c);
+        counter += 1;
+    }
+    System.out.println(counter + " iterations");
+}
+
+  • permalink
+  • embed
+  • save
+
+[–]ddsnowboard 0 points1 point2 points 3 years ago (0 children)
+
+Here I go, late to the party, once again. I haven't played with Java for quite
+a while, so this might be pretty verbose and unidiomatic. Let me know if you
+have any criticism.
+
+import java.util.ArrayList;
+import java.util.Random;
+
+
+public class BogoSort {
+
+    public static void main(String[] args) {
+        ArrayList<Integer> times = new ArrayList<Integer>();
+        for(int i=0; i<100000;i++)
+        {
+            times.add(bogoSort(args[0], args[1]));
+        }
+        float avg = 0;
+        long tot = 0;
+        for(int d : times)
+        {
+            tot+=d;
+        }
+        avg = 1.0f * tot/times.size();
+        System.out.printf("Average after 100000 times: %f", avg);
+
+    }
+    public static int bogoSort(String shuffled, String main)
+    {
+        int times = 0;
+        while(!main.equals(shuffled))
+        {
+            shuffled = scramble(shuffled);
+            times++;
+        }
+        return times;
+    }
+    public static String scramble(String str) {
+        ArrayList<Character> in = new ArrayList<Character>();
+        for(int i = 0; i<str.length();i++)
+        {
+            in.add(str.charAt(i));
+        }
+        ArrayList<Character> out = new ArrayList<Character>();
+        Random rand = new Random();
+        String ret = "";
+        int pick = 0;
+        while(!in.isEmpty())
+        {
+            pick = rand.nextInt(in.size());
+            out.add(in.remove(pick));
+            in.trimToSize();
+        }
+        for(int i = 0; i<out.size();i++)
+        {
+            ret+=out.get(i);
+        }
+        return ret;
+    }
+}
+
+This runs 100000 times and gives you the average. For with "elloh" and "hello"
+as inputs, I got an average of 60 iterations, and with "apples" and "selpap" I
+got about 360. I guess I lost...
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Maping 0 points1 point2 points 3 years ago (0 children)
+
+I think you guys are better at this. Mine usually took less than 200 iterations
+to complete.
+
+Java:
+
+import java.util.Random;
+import java.util.Scanner;
+
+
+public class _175_bogoSort {
+
+public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+
+    while (scan.hasNext()) {
+        String input = scan.nextLine();
+        input = input.substring(5, input.length()-1); //removes the "Bogo" and parenthesis
+        String parts[] = input.split("\""); //splits at the quotes
+        parts[1] = parts[1].toLowerCase(); //avoids the beginning blank string and the comma
+        parts[3] = parts[3].toLowerCase();
+
+        int count = 0;
+        while (!parts[3].equals(parts[1])) { //while the first does not match the second
+            Random randoms = new Random();
+            String temp = parts[1];
+            parts[1] = ""; //blanks the first
+            //parts[1].length
+            char[] letters = temp.toCharArray(); //puts each letter into a "section"
+            char[] toPlace = new char[temp.length()];
+            for (int ii = 0; ii < temp.length(); ii++) { //sets it blank
+                toPlace[ii] = ' ';
+            }
+            for (int ii = 0; ii < temp.length(); ii++) { //runs down each letters
+                boolean placed = false;
+                while (placed == false) { //loops until it's placed in a new position
+                    int pos = randoms.nextInt(temp.length()); //generates  random new position
+                    if (toPlace[pos] == ' ') {
+                        toPlace[pos] = letters[ii]; //puts it into the array
+                        placed = true; //ends the loop
+                    }
+                }
+            }
+            for (int ii = 0; ii < temp.length(); ii++) {
+                parts[1] += toPlace[ii]; //adds each letter back into the first "string"
+            }
+            count++;
+        }
+        System.out.println("Sorted in " + count + " iterations."); //prints out the count
+    }
+
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]crashRevoke 0 points1 point2 points 3 years ago* (0 children)
+
+here's my go at perl, i'm a completel newbie to perl and this was the best way
+i could find, it seems very verbose compared to what i usually write in, python
+
+#! /usr/bin/perl
+use strict;
+use warnings;
+use List::Util "shuffle";
+
+sub Randomize_str {
+    my $self = shift;
+    my @self_array = split('', $self);
+
+    return join('', @self_array);
+}
+
+sub Bogo {
+    my @args = @_;
+    my $counter = 0;
+    my ($guess, $random_str, @random_array);
+    my @scrambled_str = split('', $args[0]);
+
+    while (1) {
+        $counter ++;
+        @random_array = shuffle @scrambled_str;
+        $guess = join('', @random_array);
+        if ($guess eq $args[1]) {
+            return "$counter\n";
+        }
+    }
+}
+
+print Bogo(Randomize_str("party_hard"), "party_hard");
+
+result:
+
+bones@Andromeda:~/Desktop/programming/perl$ perl bogo.pl
+549388
+bones@Andromeda:~/Desktop/programming/perl$ perl bogo.pl
+181442
+bones@Andromeda:~/Desktop/programming/perl$ perl bogo.pl
+361978
+bones@Andromeda:~/Desktop/programming/perl$ perl bogo.pl
+1755984
+bones@Andromeda:~/Desktop/programming/perl$ perl bogo.pl
+1571922
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Saltyfork 0 points1 point2 points 3 years ago (0 children)
+
+Here's my solution on Python 2.7.6.
+
+import random
+
+def Bogo(messy,goal):
+    iterations=0
+    while messy.lower() != goal.lower():
+        #print messy
+        messy=shuffle(messy)
+        iterations+=1
+    #print messy
+    return str(iterations)+" Iterations."
+
+def shuffle(s):
+    string_list=list(s)
+    random.shuffle(string_list)
+    return "".join(string_list)
+
+print Bogo("dderit","reddit")
+
+Output:
+
+363 Iterations.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]wahoyaho 0 points1 point2 points 3 years ago (0 children)
+
+C#
+
+    static void Main(string[] args)
+    {
+        var iterations = Bogo("lolhe", "hello");
+
+        Console.Write(iterations);
+    }
+
+    private static int Bogo(string scrambled, string match)
+    {
+        int iterations = 0;
+        var index = new List<int>();
+
+        for (var i = 0; i < scrambled.Length; i++)
+        {
+            index.Add(i);
+        }
+
+        while (!scrambled.Equals(match))
+        {
+            var randomIndex = Shuffle(new List<int>(index));
+            var sb = new StringBuilder();
+            var array = scrambled.ToCharArray();
+
+            for (var i = 0; i < randomIndex.Count; i++)
+            {
+                sb.Append(array[randomIndex[i]]);
+            }
+
+            scrambled = sb.ToString();
+
+            iterations++;
+        }
+
+        return iterations;
+    }
+
+    private static List<int> Shuffle(List<int> input) {
+        var randomIndex = new List<int>();
+
+        while (input.Count != 0)
+        {
+            Random rand = new Random();
+
+            var next = rand.Next(input.Count);
+
+            randomIndex.Add(input[next]);
+            input.RemoveAt(next);
+        }
+
+        return randomIndex;
+    }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]anserk 0 points1 point2 points 3 years ago (0 children)
+
+Python:
+
+import sys
+import random
+
+def shuffle(s1):
+    s = list(s1)
+    random.shuffle(s)
+    return ''.join(s)
+
+def bogo_sort( s1, s2):
+
+    if not set(s1) - set(s2) == set([]):
+        sys.exit(-1)
+
+    iteration = 0
+    while s1 != s2 :
+        iteration += 1
+        s1 = shuffle(s1)
+    print('%s iteration' % iteration)
+
+if __name__ == '__main__' :
+    bogo_sort(sys.argv[1], sys.argv[2])
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]dog_time 0 points1 point2 points 3 years ago* (0 children)
+
+python, dunno how good it is...
+
+from random import randint
+from sys import argv
+from string import lower
+
+try:
+    to_sort = lower(argv[1])
+    sort_to = lower(argv[2])
+except:
+    print "Usage: bogo.py <source> <target>"
+    exit(1)
+
+to_sort = list(to_sort)
+sort_to = list(sort_to)
+
+def shuffle(a_list):
+    new_list = []
+    temp = a_list
+    for x in xrange(len(a_list)):
+        y = randint(1,len(temp))
+        new_list.append(temp.pop(y-1))
+    return new_list
+
+c = 0
+while True:
+    if to_sort == sort_to:
+        print "".join(to_sort) + " == " + "".join(sort_to)
+        print "Iterations: " + str(c)
+        break
+    else:
+        c = c+1
+        to_sort = shuffle(to_sort)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+Python 2.7:
+
+import random
+
+def bogo(n, m):
+    guess = ''
+    iterations = 1
+    while guess != m.lower():
+        guess = ''.join(random.sample(n,len(n)))
+        iterations = iterations + 1
+        print guess
+    return str(iterations) + " iterations."
+
+print bogo('olleh', 'hello')
+
+Output:
+
+hloel
+olhle
+helol
+olelh
+llhoe
+eholl
+loelh
+ehlol
+elhlo
+hlole
+ellho
+lhoel
+eolhl
+eolhl
+lelho
+leolh
+leloh
+llheo
+holel
+olleh
+lehol
+lleoh
+eollh
+ohlel
+lhloe
+loehl
+ohlle
+hlelo
+lohle
+lheol
+oelhl
+hlelo
+elloh
+hlelo
+llohe
+helol
+leohl
+holel
+hello
+40 iterations.
+
+  • permalink
+  • embed
+  • save
+
+[–]indianDeveloper 0 points1 point2 points 3 years ago* (0 children)
+
+Ruby:
+
+counter = 0
+
+str1 = ARGV[0].to_s
+str2 = ARGV[1].to_s
+
+while(str1 != str2)
+  str1 = str1.split(//).shuffle.join("")
+  counter += 1
+end
+
+p counter
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]BlueHarvest28 0 points1 point2 points 3 years ago (0 children)
+
+Java
+
+import java.util.Collections;
+import java.util.Arrays;
+import java.util.List;
+
+public class Bogo {
+
+
+    public static void main(String[] args)
+    {
+    Bogo_Sort("leloh", "hello");
+    }
+
+     public Bogo(){}
+
+    public static void Bogo_Sort(String i,String j)
+    {
+
+    int counter = 0;
+    boolean flag = false;
+
+    while(!flag)
+    {
+         String shuffled = "";
+         List<String> letters = Arrays.asList(i.split(""));
+         Collections.shuffle(letters);
+
+        for (String letter : letters)
+        {
+        shuffled += letter;
+        }
+        counter++;
+
+        if(shuffled.equals(j))
+        {
+        flag = true;
+        }
+     }
+     System.out.println("Found in: " + counter + " tries.");
+    }
+ }
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]killmefirst 0 points1 point2 points 3 years ago* (0 children)
+
+My C++ approach. The algorithm scans the input string char by char, adds a
+random offset (0 - length()), checks if the letter is in place, and if so,
+advances to the next letter. At any given moment, if the letters don't match,
+the process starts from the beginning. max_ok is used for debugging, it shows
+max proper checks. A lot depends on the string length (calculating the offset),
+so it works best with longer strings.
+
++/u/CompileBot C++ --time
+
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <cstdlib>
+#include <ctime>
+
+using namespace std;
+
+unsigned long long int Bogo(string s1, string s2)
+{
+
+  unsigned long long int iterations = 0;
+  int max_ok = 0, curr_ok = 0;
+
+  string::iterator it = s1.begin();
+  string::iterator it2 = s2.begin();
+
+  while(it != s1.end())
+  {
+    srand(time(NULL));
+
+    int offset = rand() % s1.length();
+    swap(*it, *(s1.begin() + offset));
+
+    if(*it == *it2)
+    {
+      it++; it2++;
+      curr_ok++;
+      if(curr_ok > max_ok)
+        max_ok = curr_ok;
+    }
+    else
+    {
+      it = s1.begin();
+      it2 = s2.begin();
+      curr_ok = 0;
+    }
+
+    iterations++;
+  }
+
+  return iterations;
+}
+
+//------------------------------------------------------------------------------
+
+int main() {
+
+    cout << Bogo("thpelnea", "elephant");
+
+    return 0;
+
+}
+
+And here's a sorted set of number of iterations it took. I wanted to bogosort
+this too, would take too long though:
+
+279711885
+1512680357
+2567193710
+3057292053
+3085730281
+3221197408
+3631533191
+4953192509
+6311072033
+6919498559
+7795882416
+7936202106
+9163668424
+10751827114
+11152755611
+11557701360
+11646880826
+12127490825
+19354430973
+22202921501
+23133836249
+24117428387
+26845192582
+28902152997
+39849551316
+49827095312
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Paindefender 0 points1 point2 points 3 years ago (0 children)
+
+Python:
+
+import random
+
+def bogo(text1,text2):
+    i = 0
+    text1 = text1.lower()
+    text2 = text2.lower()
+    text1list = list(text1)
+    text2list = list(text2)
+    while text1list != text2list:
+        random.shuffle(text1list)
+        i += 1
+    print "Solved after only",i,"iterations."
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]abathologist 0 points1 point2 points 3 years ago* (0 children)
+
+A Prolog predicate that gives a probabilistic outcome:
+
+bogo(Scrambled, Ordered, I) :-
+    ( random_permutation(Scrambled, Ordered)
+    -> format('~w iterations', [I])
+    ;  J is I + 1,
+       bogo(Scrambled, Ordered, J)
+    ).
+
+E.g.,
+
+?- bogo(`elentpha`, `elephant`, 1).
+382 iterations
+true.
+
+?- bogo(`elentpha`, `elephant`, 1).
+35379 iterations
+true.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Bloogson 0 points1 point2 points 3 years ago (0 children)
+
+Here's my solution using Java. Happily open to criticism :)
+
+http://pastebin.com/m2GSUVfB
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago* (0 children)
+
+Hey There, I'm a 3rd year CS Student and I'm just starting to do these problems
+as a way for me to practice coding when I'm not working/in class. (In fact this
+is my first one!) This one did not take very long for me but I was wondering if
+you guys could code review it for me and basically tell me where I can improve,
+as I have not had much opportunity to see what good coding standards are.
+Anywho here is my code in C++:
+
+EDIT: Also forgot to mention, this is a bit long due to me adding a string
+verifier function to ensure it is trying to unscramble 2 Strings that are
+actually the same.
+
+EDIT2: Actually messed up on verifying the string.. Didn't set isMatched back
+to false after each iteration haha.
+
+// Bogo.cpp : Defines the entry point for the console application.
+//
+#include "stdafx.h"
+#include <stdlib.h>
+#include <iostream>
+#include <string>
+#include<time.h>
+
+using namespace std;
+
+bool validateStr(string tempString, string correctStr)
+{
+    bool isMatch = false;
+    if(tempString.length() == correctStr.length())
+    {
+        int iterator = 0;
+        while(tempString.length() > 0)
+        {
+            isMatch = false;
+            if(tempString.length() <= iterator)
+
+                return false;
+
+            for(int i = 0; i < correctStr.length(); i++)
+            {
+                if(tempString[iterator] == correctStr[i])
+                    isMatch = true;
+            }
+            if(isMatch)
+                tempString.erase(iterator, 1);
+            else
+                iterator++;
+        }
+    }
+    else
+    {
+        return false;
+    }
+}
+
+int BogoChar(string scrambledStr, string correctStr)
+{
+    //Variables I figure I need
+    int iterations = 0;
+    string tempString = scrambledStr;
+    char tempChar;
+    bool isMatch = false;
+
+    while(!isMatch)
+    {
+        //increment total iterations passed in program
+        iterations++;
+
+        //Shuffle da string
+        for(int i = 0; i < scrambledStr.length(); i++)
+        {
+            int randIndex = rand() % scrambledStr.length();
+            tempChar = tempString[i];
+            tempString[i] = tempString[randIndex];
+            tempString[randIndex] = tempChar;
+        }
+
+        //compare da string
+        if(tempString.compare(correctStr) == 0)
+        {
+            isMatch = true;
+        }
+    }
+    return iterations;
+}
+
+void PlayBogoSort()
+{
+    //Generate Seed for random Shuffle on BOGO
+    srand (time(nullptr));
+    string scrambledStr, correctStr;
+
+    //Typical user I/O
+    cout << "Please enter scrambled String: ";
+    getline(cin, scrambledStr);
+
+    cout << "Please enter correct String: ";
+    getline(cin, correctStr);
+
+    //Verify Strings can be sorted & Call function while reporting output
+    bool isValid = validateStr(scrambledStr, correctStr);
+    if(isValid)
+    {
+        int iterations = BogoChar(scrambledStr, correctStr);
+        cout << "Iterations: " << iterations << "\n";
+    }
+    else
+    {
+        cout << "Are you trying to cheat you twat?!\n\n";
+        PlayBogoSort();
+    }
+}
+int main( int argc, char *argv[] )
+{
+    PlayBogoSort();
+    return 0;
+}
+
+  • permalink
+  • embed
+  • save
+
+[–]dp_account 0 points1 point2 points 3 years ago (0 children)
+
+Python 3.4
+
+from random import shuffle
+
+def bogosort(N, M):
+    N, M = list(N), list(M)
+    iterations = 0
+    while N != M:
+        shuffle(N)
+        iterations += 1
+    return iterations
+
+N = input()
+M = input()
+print(bogosort(N, M), "iterations")
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]kurtlocker 0 points1 point2 points 3 years ago (0 children)
+
+JavaScript. Used this dude's shuffler: http://stackoverflow.com/a/3943985
+
+function bogo(scramble, target) {
+    var count = 0;
+    while(true) {
+        if (scramble===target) return [count,scramble]
+        var scrArray = scramble.split("");
+        for(var i = scrArray.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var tmp = scrArray[i];
+            scrArray[i] = scrArray[j];
+            scrArray[j] = tmp;
+        }
+        scramble = scrArray.join("");
+        count++;
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]efflicto 0 points1 point2 points 3 years ago (0 children)
+
+Ruby, it takes 58 times in average of 100k iterations for "lolhe"
+
+def sorter(n,m)
+  i = 0
+  i+=1 until m== n.split("").shuffle.join
+  i
+end
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+A month late but I did it anyway :^)
+
+Python 2.7
+
+import random
+word1 = list(raw_input("Enter a word: "))
+word2 = list(word1)
+counter = 0
+random.shuffle(word2)
+
+while (word1 != word2):
+    counter = counter + 1
+    random.shuffle(word2)
+    result = ''.join(word2)
+    print str(counter) + " " + result
+
+Enter a word: hello
+
+1 lhloe
+
+2 elohl
+
+3 ehllo
+
+4 olehl
+
+5 lolhe
+
+6 olehl
+
+7 olhle
+
+8 hello
+
+  • permalink
+  • embed
+  • save
+
+[–][deleted] 0 points1 point2 points 3 years ago* (0 children)
+
+*
+
+  • permalink
+  • embed
+  • save
+
+[–]PalestraRattus 0 points1 point2 points 3 years ago (0 children)
+
+C# Case sensitive, sorry is so sloppy I kind of threw it together in a flash.
+Takes input from 2 textboxes. This kicks off a threading timer that fires once
+every 9.223372e+15 seconds. Each time it fires it makes a random roll of 32000.
+If that value is 0 it makes an attempt to unshuffle the word.
+
+But just because it's set to true it doesn't just act. There's an additional
+delay before it attempts a single reshuffle. It builds a new string by randomly
+pulling characters from the final goal word. It makes no attempt to sort
+besides random luck, and using a letter does not remove it from the pool of
+possible letters.
+
+If the new word matches the final goal word it kills the timers. And outputs
+total iterations of the threading timer.
+
+ using System;
+ using System.ComponentModel;
+ using System.Drawing;
+ using System.Text;
+using System.Threading;
+using System.Windows.Forms;
+
+ namespace Bogo_Sort
+ {
+public partial class Form1 : Form
+{
+    System.Threading.Timer slowTime;
+    TimerCallback stTCB;
+    AutoResetEvent asEvent = new AutoResetEvent(false);
+    handleTime myHT = new handleTime();
+    System.Windows.Forms.Timer coreTime = new System.Windows.Forms.Timer();
+
+    private string wordBuffer = "";
+    private string wordJumble = "";
+    private string wordFinal = "";
+
+    public Form1()
+    {
+        InitializeComponent();
+
+        coreTime.Interval = 32000;
+        coreTime.Tick += coreTime_Tick;
+        coreTime.Enabled = true;
+        coreTime.Start();
+    }
+
+    private void coreTime_Tick(object sender, EventArgs e)
+    {
+        if (myHT.doITestWord)
+        {
+            wordBuffer = shuffleWord(wordJumble);
+            richTextBox1.Text = richTextBox1.Text + myHT.iterations.ToString() + " " + wordBuffer + "\n";
+
+            if (richTextBox1.TextLength > 32000)
+            {
+                richTextBox1.Text = "Initial Jumble: " + wordJumble + " Final Goal: " + wordFinal + "\n";
+            }
+
+            if(wordBuffer == wordFinal)
+            {
+                coreTime.Enabled = false;
+                coreTime.Stop();
+
+                richTextBox1.Text = richTextBox1.Text + "Total Iterations: " + myHT.iterations.ToString();
+                slowTime.Dispose();
+            }
+        }
+
+        myHT.doITestWord = false;
+    }
+
+    private void button1_Click(object sender, EventArgs e)
+    {
+        wordJumble = textBox1.Text;
+        wordFinal = textBox2.Text;
+
+        if(coreTime.Enabled == false)
+        {
+            coreTime.Enabled = true;
+            coreTime.Start();
+        }
+
+        richTextBox1.Text = "Initial Jumble: " + wordJumble + " Final Goal: " + wordFinal + "\n";
+
+        myHT = new handleTime();
+        stTCB = myHT.manageTimer;
+        slowTime = new System.Threading.Timer(stTCB, asEvent, 9223372036854775807, 9223372036854775807);
+    }
+
+    private string shuffleWord(string initialWord)
+    {
+        string shuffledWord = "";
+
+        for (int a = 0; a < initialWord.Length; a++ )
+        {
+            shuffledWord = shuffledWord + initialWord[myHT.RandomInt(initialWord.Length)];
+        }
+
+            return shuffledWord;
+    }
+
+
+}
+
+public class handleTime
+{
+    public bool doITestWord = false;
+    public long iterations = 0;
+    private int RandomIndex = 1;
+    private Random FirstRandom = new Random();
+    private Random SecondRandom = new Random();
+    private Random ThirdRandom = new Random();
+
+    public handleTime()
+    {
+
+    }
+
+    public void manageTimer(Object stateInfo)
+    {
+        doITestWord = false;
+        doITestWord = doIRoll();
+        iterations++;
+    }
+
+    public bool doIRoll()
+    {
+        bool doIRoll = false;
+        int tempValue = RandomInt(32000);
+
+        if(tempValue == 0)
+        {
+            doIRoll = true;
+        }
+
+        return doIRoll;
+    }
+
+    public int RandomInt(int myMax)
+    {
+        int myValue = 0;
+
+        switch (RandomIndex)
+        {
+            case 1: myValue = FirstRandom.Next(myMax);
+                RandomIndex++;
+                break;
+            case 2: myValue = SecondRandom.Next(myMax);
+                myValue = SecondRandom.Next(myMax);
+                RandomIndex++;
+                break;
+            case 3: myValue = ThirdRandom.Next(myMax);
+                myValue = ThirdRandom.Next(myMax);
+                myValue = ThirdRandom.Next(myMax);
+                RandomIndex = 1;
+                break;
+        }
+
+        return myValue;
+    }
+
+}
+
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]yoho139 0 points1 point2 points 3 years ago* (1 child)
+
+Java: (Edit: O(n^n ), I think)
+
+import java.util.Random;
+
+public class C175 {
+
+public static void main(String[] args) {
+    String toSort = args[0].toLowerCase();
+    String want = args[1].toLowerCase();
+    int wlength = want.length();
+    int counter = 0;
+    String result = "";
+    Random r = new Random();
+
+    while (!result.equals(want)) {
+        result = "";
+        char[] c = toSort.toCharArray();
+        for (int i = 0; i < wlength; i++) {
+            result += c[r.nextInt(wlength)] + "";
+        }
+        counter++;
+    }
+
+    System.out.println("Took " + counter + " iterations.");
+}
+
+}
+
+Took an average of 783.3 iterations over 10000 runs with the challenge input.
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]yoho139 0 points1 point2 points 3 years ago (0 children)
+
+For fun, here's the maths of it.
+
+To scramble from the initial word ("hello" in any order) you'll have a 4/3125
+chance of getting the word - or 1/781.25, which is pretty close to what I got.
+
+I decided to copy another poster, and try with some permutation of
+"elephant"... It took 12.5 seconds to do it ten times, so doing it 10000 was
+out of the question. However... It works out to a probability of 1/4194304 !
+(not factorial, just surprise)
+
+The algorithm is, roughly O(n^n ).
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Beck3570 0 points1 point2 points 3 years ago (0 children)
+
+Java
+
+I'm getting an average of around 30-35 iterations after 1000 tries.
+
+import java.util.Random;
+import java.util.ArrayList;
+
+
+public class Bogo {
+
+
+public static void main(String args[])
+{
+    String one = "Hello";
+    String two = "lolhe";
+
+    double sum = 0;
+    for (int i = 0; i < 1000; i++)
+    {
+        sum += sort(one, two);
+    }
+    sum = sum / 1000;
+
+    System.out.print("It took and average of " + sum + " iterations after 1000 trials.");
+
+
+}
+
+public static int sort(String x, String y)
+{
+    Random rand = new Random();
+
+    x = x.toLowerCase();
+    y = y.toLowerCase();
+
+    int length = x.length(); // Length of the string.
+
+    /* converting the string to a character list */
+    ArrayList<Character> one = new ArrayList<Character>();
+    for (int i = 0; i < x.length(); i++)
+    {
+        one.add(x.charAt(i));
+    }
+
+    /* converting the string to a character list */
+    ArrayList<Character> two = new ArrayList<Character>();
+    for (int i = 0; i < y.length(); i++)
+    {
+        two.add(y.charAt(i));
+    }
+
+    int counter = 0;
+    int checker = 0;
+
+    while (true)
+    {
+        for (int i = 0; i < length; i++)
+        {
+            if (one.get(i) == two.get(i))
+            {
+
+                checker++; // The characters are equal
+                if (checker == 5) // If they are all equal
+                {
+                    printOut(one, two); // Test print just to make sure.
+                    return counter; // return number of iterations.
+                }
+            }
+
+            else
+            {
+                checker = 0; // set checker back to 0 so the program works correctly.
+
+                /* randomly swap characters from the first arrayList) */
+                char temp1 = one.get(i);
+                int tempInt = rand.nextInt(length);
+                char temp2 = one.get(tempInt);
+
+                one.set(i, temp2);
+                one.set(tempInt, temp1);
+            }
+
+            counter++;
+        }
+    }
+
+}
+
+/* checking just in case */
+public static void printOut(ArrayList<Character> one, ArrayList<Character>two)
+{
+    for (char temp: one)
+    {
+        System.out.print(temp);
+    }
+
+    System.out.println();
+
+    for (char temp: two)
+    {
+        System.out.print(temp);
+    }
+
+    System.out.println();
+
+
+}
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]britboy3456 0 points1 point2 points 3 years ago* (0 children)
+
+Java. Average result is 142. Longest result is 2895. My first attempt at a
+challenge so I could get back into java. Feedback appreciated.
+
+import java.util.Random;
+
+public class sort
+{
+    public static int bogo(String N, String M)
+    {
+        Random rng = new Random();
+        int c = 0;
+        int d1 = 0;
+        int d2 = 0;
+        char[] unsorted = N.toCharArray();
+        char[] sorted = M.toCharArray();
+        while(!check(unsorted, sorted))
+        {
+            if(c % 2 == 1)
+            {
+                int d1 = rng.nextInt(unsorted.length);
+            }
+            else
+            {
+                int d2 = rng.nextInt(unsorted.length);
+            }
+            char s = unsorted[d1];
+            unsorted[d1] = unsorted[d2];
+            unsorted[d2] = s;
+            c++;
+        }
+        return c;
+    }
+
+    public static boolean check(char[] N, char[] M)
+    {
+        for(int i = 0; i < N.length; i++)
+        {
+            if(N[i] != M[i])
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public static void main(String[] args)
+    {
+        int len = 1000000;
+        int[] iters = new int[len];
+        int total = 0;
+        int max = 0;
+        for(int i = 0; i < len; i++)
+        {
+            iters[i] = bogo("lolhe", "hello");
+            System.out.println(iters[i] + " iterations.");
+            total += iters[i];
+            if(iters[i] > max)
+            {
+                max = iters[i];
+            }
+        }
+        System.out.println("Average length: " + total / len);
+        System.out.println("Longest length: " + max);
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]viciu88 0 points1 point2 points 3 years ago (0 children)
+
+Java:
+
+Implemented simple bogo and bozo sort.
+
+package easy.c175_EasyBogo;
+
+import java.security.SecureRandom;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
+
+import org.apache.commons.lang3.ArrayUtils;
+
+public class EasyBogo
+{
+    public static final int ITERATIONS = 20;
+    public static final String input = "elentpha";
+    public static final String expected = "elephant";
+
+    public static long bogoSort(String input, String expected)
+    {
+        long i = 1;
+        while (!shuffle(input).equalsIgnoreCase(expected))
+            i++;
+        return i;
+    }
+    public static long bozoSort(String input, String expected)
+    {
+        long i = 1;
+        while (!(input = switchTwo(input)).equalsIgnoreCase(expected))
+            i++;
+        return i;
+    }
+    public static void main(String[] args)
+    {
+        double bogoSum = 0;
+        long bogoMax = 0;
+        double bozoSum = 0;
+        long bozoMax = 0;
+        long iter;
+        for (int i = 0; i < ITERATIONS; i++)
+        {
+            bogoSum += iter = bogoSort(input, expected);
+            bogoMax = Math.max(iter, bogoMax);
+            bozoSum += iter = bozoSort(input, expected);
+            bozoMax = Math.max(iter, bozoMax);
+        }
+        System.out.printf("Sorted by bogo sort in average %.2f iterations (max %d)%n", bogoSum / ITERATIONS, bogoMax);
+        System.out.printf("Sorted by bozo sort in average %.2f iterations (max %d)%n", bozoSum / ITERATIONS, bozoMax);
+    }
+
+    public static String shuffle(String input)
+    {
+        List<Character> list = Arrays.asList(ArrayUtils.toObject(input.toCharArray()));
+        Collections.shuffle(list);
+        return String.valueOf(ArrayUtils.toPrimitive(list.toArray(ArrayUtils.EMPTY_CHARACTER_OBJECT_ARRAY)));
+    }
+
+    public static String switchTwo(String input)
+    {
+        char[] cs = input.toCharArray();
+        Random rng = new SecureRandom();
+        int tmp1 = rng.nextInt(cs.length);
+        int tmp2 = rng.nextInt(cs.length);
+        char tmp = cs[tmp1];
+        cs[tmp1] = cs[tmp2];
+        cs[tmp2] = tmp;
+        return String.valueOf(cs);
+    }
+}
+
+Output:
+
+Sorted by bogo sort in average 15710,45 iterations (max 41117)
+Sorted by bozo sort in average 24150,15 iterations (max 74205)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]chunes1 2 0 points1 point2 points 3 years ago (0 children)
+
+Java:
+
+import java.util.*;
+
+public class Easy175 {
+
+    public static void main(String[] args) {
+        System.out.print(bogoSort(args[0], args[1]) + " iterations.");
+    }
+
+    private static int bogoSort(String shuffled, String target) {
+        int iterations = 0;
+        while (!shuffled.equals(target)) {
+            shuffled = shuffle(shuffled);
+            iterations++;
+        }
+        return iterations;
+    }
+
+    private static String shuffle(String s) {
+        char[] c = s.toCharArray();
+        Random r = new Random();
+        for (int i = 0; i < s.length(); i++)
+            c = swap(c, i, r.nextInt(s.length()));
+        return new String(c);
+    }
+
+    //Swaps c[a] and c[b].
+    private static char[] swap(char[] c, int a, int b) {
+        char t = c[b];
+        c[b] = c[a];
+        c[a] = t;
+        return c;
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]BlueVenir 0 points1 point2 points 3 years ago (0 children)
+
+C#:
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace BogoSort
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Bogo("lolhe", "hello");
+            Console.ReadKey();
+        }
+
+        static void Bogo(string s, string s2)
+        {
+            Char[] s_arr = s.ToCharArray();
+            Char[] s2_arr = s2.ToCharArray();
+            int iterations = 0;
+
+            if (s == s2)
+            {
+                Console.WriteLine("Is this a joke? {0} and {1} are the same!", s, s2);
+            }
+            else
+            {
+                do
+                {
+                    s_arr = Shuffle(s_arr);
+                    iterations++;
+                } while (!s_arr.SequenceEqual(s2_arr));
+            }
+
+            Console.WriteLine("{0} to {1}", s, s2);
+            Console.WriteLine("Bogo sorted at super speed with {0} iterations!", iterations);
+        }
+
+        static Char[] Shuffle(Char[] s)
+        {
+            Random rnd = new Random();
+            List<Char> buffer = s.ToList();
+            List<Char> ls = new List<Char>();
+
+            for (int i = 0; i < buffer.Count; i++)
+            {
+                int random_index = rnd.Next(0, buffer.Count);
+                ls.Add(buffer[random_index]);
+                buffer.Remove(buffer[random_index]);
+                i--;
+            }
+            return ls.ToArray();
+        }
+    }
+}
+
+Example outputs:
+
+lolhe to hello
+Bogo sorted at super speed with 331569 iterations!
+
+lolhe to hello
+Bogo sorted at super speed with 11637 iterations!
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]EnhanceHonors 0 points1 point2 points 3 years ago (0 children)
+
+Python 2.7.5 My solution is just a basic class that sorts when initialized and
+has accessors to get the data from the instance once complete. I could have
+accomplished the same thing with a function but I'm using these challenges to
+practice before Uni starts back up.
+
+##BogoSort
+import random
+
+class BogoSort:
+    def __init__(self, strIn, strDesired):
+        array = list(strIn)
+        gen = random.Random()
+        self.iterations = 0
+        while ''.join(array) != strDesired:
+            switch = (gen.randint(0, len(array) - 1), gen.randint(0, len(array) - 1))
+            array[switch[0]], array[switch[1]] = array[switch[1]], array[switch[0]]
+            self.iterations += 1
+        self.input = strIn
+        self.target = strDesired
+    def getIterations(self):
+        return self.iterations
+
+    def getInput(self):
+        return self.input
+
+    def getTarget(self):
+        return self.target
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]antesignanus 0 points1 point2 points 3 years ago (0 children)
+
+Some Java code. I was more interested in the stats than the actual program
+itself...
+
+package easy;
+
+import java.util.Collections;
+import java.util.List;
+
+import org.apache.commons.math3.stat.Frequency;
+import org.apache.commons.math3.stat.descriptive.SummaryStatistics;
+import org.apache.commons.math3.stat.descriptive.rank.Median;
+
+import com.google.common.primitives.Chars;
+
+
+
+public class Daily175 {
+    public static void main(String[] args) {
+        int timesRun = 1000000;
+        SummaryStatistics stats = new SummaryStatistics();
+        Frequency freq = new Frequency();
+        double[] vals = new double[timesRun];
+
+        for (int i = 0; i < timesRun; i++) {
+            int count = bogo("lolHe", "Hello");
+            System.out.println(i + ": " + count);
+            stats.addValue(count);
+            freq.addValue(count);
+            vals[i] = count;
+        }
+        Median median = new Median();
+        median.setData(vals);
+
+        System.out.println("Max: " + stats.getMax());
+        System.out.println("Min: " + stats.getMin());
+        System.out.println("Mean: " + stats.getMean());
+        System.out.println("Standard Deviation: " + stats.getStandardDeviation());
+        System.out.println("Mode: " + freq.getMode());
+        System.out.println("Unique Count: " + freq.getUniqueCount());
+        System.out.println("Median: " + median.evaluate());
+    }
+
+    static int bogo(String str, String target) {
+        char[] chars = str.toCharArray();
+        char[] targetChars = target.toCharArray();
+        List<Character> charsList = Chars.asList(chars);
+        List<Character> targetCharsList = Chars.asList(targetChars);
+
+        return bogo(charsList, targetCharsList);
+    }
+
+    static int bogo(List<Character> chars, List<Character> target) {
+        int count = 0;
+
+        while(!chars.equals(target)) {
+            Collections.shuffle(chars);
+            count++;
+        }
+        return count;
+    }
+}
+
+Output:
+
+Max: 832.0
+Min: 1.0
+Mean: 59.940105000003186
+Standard Deviation: 59.466309586445874
+Mode: [1]
+Unique Count: 609
+Median: 42.0
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago* (0 children)
+
+Java. I just did specifically what wiki said the algorithm is. I take the
+string and shuffle it until I get the String I want back. Rather random length
+of time.
+
+package stupidsort;
+
+import java.util.ArrayList;
+import java.util.Random;
+import java.util.Collections;
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+public class Main {
+
+  public static void main(String[] args) {
+    DecimalFormat formatter = new DecimalFormat("#,###");
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Enter string: ");
+    String toMatch = scanner.nextLine();
+    String shuffled = shuffle(toMatch);
+    double x = 0;
+    while (!shuffled.matches(toMatch)) {
+      shuffled = shuffle(shuffled);
+      if (x%50 == 0)
+        System.out.println(formatter.format(x) + " " + shuffled);
+      x++;
+    }
+    System.out.println(formatter.format(x) + " " + shuffled);
+  }
+
+  public static String shuffle(String toShuffle) {
+    ArrayList<Character> chars = new ArrayList<Character>();
+    Random random = new Random();
+    StringBuilder shuffled = new StringBuilder();
+
+    for (char c : toShuffle.toCharArray())
+      chars.add(c);
+
+    Collections.shuffle(chars, random);
+    for (int i=0; i<chars.size(); i++)
+      shuffled.append(chars.get(i));
+    return shuffled.toString();
+  }
+}
+
+This will output every 50th shuffle and when ti finally matches it will output
+the match and the iterator count.
+
+I have a 17 character string that's been running (outputting every 10,000,000th
+x) for the past few hours that's at 14 billion and counting.
+
+Also, seriously, again? Who's the prick downvoting nearly every Java solution
+in this thread?
+
+I did a ctrl+f on Java and almost every solution (including mine) was voted to
+zero until I upvoted the rest.
+
+  • permalink
+  • embed
+  • save
+
+[–]MaximaxII -1 points0 points1 point 3 years ago* (3 children)
+
+Turns out that Bogosort actually is pretty efficient once you implement
+Bogobogosort!! Here's a script comparing the two.
+
+Challenge #175 Easy - Python 3.4
+
+import random
+
+def bogosort(n, m):
+    i = 0
+    while n != m:
+        n = ''.join(random.sample(n,len(n)))
+        i += 1
+    print(i, 'iterations')
+
+def bogobogosort(n, m):
+    i = 0 #number of iterations
+    j = 2 #number of elements
+    while n[:j] != m:
+        n = ''.join(random.sample(n,len(n)))
+        while n[:j] != m[:j]:
+            n = ''.join(random.sample(n,len(n)))
+            i += 1
+            if n[:j] != m[:j]:
+                j = 2 #Start over
+        j += 1
+    print(i, 'iterations')
+
+print("BOGO SORT\n==============================")
+for i in range(10):
+    bogosort("lolhe","hello")
+
+print("\nBOGOBOGO SORT\n==============================")
+for i in range(10):
+    bogobogosort("lolhe","hello")
+
+And some sample output.
+
+Output
+
+BOGO SORT
+==============================
+29 iterations
+20 iterations
+1 iterations
+18 iterations
+22 iterations
+43 iterations
+80 iterations
+36 iterations
+9 iterations
+56 iterations
+
+BOGOBOGO SORT
+==============================
+13444 iterations
+5774 iterations
+17247 iterations
+10959 iterations
+1329 iterations
+1256 iterations
+6839 iterations
+1430 iterations
+21624 iterations
+5506 iterations
+
+Averages over 50 runs are:
+
+  • Bogosort: 50.44 iterations
+  • Bogobogosort: 10252.48 iterations
+
+Edit: Could I get some feedback, instead of a downvote? Surely it means that
+something is wrong?
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]Nodocify 0 points1 point2 points 3 years ago* (2 children)
+
+From what i can tell, you implemented your bogobogosort wrong. You are actual
+doing something like a bogosort inside of a bogosort. Here I have commented
+what your code is doing:
+
+def bogobogosort(n, m):
+    i = 0
+    j = 2
+    while n[:j] != m: # while the first j chars of n don't match m
+        n = ''.join(random.sample(n,len(n))) # n now equals itself but shuffled
+        while n[:j] != m[:j]:
+            n = ''.join(random.sample(n,len(n))) # n is still max length
+            # The above 2 lines are the same as the ones above
+            i += 1 # increment i up by 1
+            if n[:j] != m[:j]: # if the first j chars of n don't match the first j chars of m
+                j = 2 #Start over
+        j += 1
+    print(i, 'iterations')
+
+Notice how your code is incrementally checking but not actually shuffling
+appropriately? From wikipedia the bogobogosort, "works by implementing the
+bogosort on the first two elements in the list. If they are in order, then it
+bogosorts the first three elements, and so on, increasing by one until the
+entire list is sorted. Should the list not be in order at any point, the sort
+starts over with the first two elements." 'bogosort' is being used instead of
+simply saying shuffle. Below is what I came up with.
+
+import random
+def bogobogosort(x,y):
+    z = ''
+    i = 0
+    j = 2
+    while z != y:
+        z = ''.join(random.sample(x, j))
+        if z == y[:j]:
+            #print(z, 'j =', j)
+            j+=1
+        else:
+            #print(z, 'j =', j)
+            j=2
+        i+=1
+    print('Finished: %d iterations with word %r' % (i, z))
+
+If you compare this to your own you can start to see how your code was actually
+making it more efficient. Uncomment the 2 print statements that i was using for
+debug and you can see how this works.
+
+ho j = 2
+le j = 2
+he j = 2
+hel j = 3
+ollh j = 4
+eo j = 2
+...
+...
+el j = 2
+he j = 2
+hel j = 3
+hell j = 4
+hello j = 5
+Finished: 5175511 iterations with word 'hello'
+
+The thing that makes the bogobogosort so inefficient is that first you must
+randomly get the order of the first 2 characters, then randomly get the first 3
+characters, and so forth until you randomly get all the characters. If at ANY
+time it doesn't match the unscrambled word it must start completely from the
+beginning again with just the first 2 characters.
+
+Also, when this code runs it can take hours to find the solution, but i have
+also had it succeed in as little as 280,000 iterations. It just needs 4
+randomly generated patterns, match, in consecutive order to unscramble the word
+'hello'. Hope this helps. EDIT: A typo.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]MaximaxII 0 points1 point2 points 3 years ago* (1 child)
+
+Thank you for the detailed feedback! Running it a few times, I managed to get a
+minimum of 96,930 iterations, which is almost 10 times as "bad" as the average
+of my weird bogo-inside-bogosort, so it's definitely an improvement ;)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]Nodocify 0 points1 point2 points 3 years ago (0 children)
+
+Glad I could help :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]the_dinks0 1 -1 points0 points1 point 3 years ago* (2 children)
+
+Python 2.7
+
+Code
+
+from random import shuffle
+
+def bogo_sort(input_str, target_str): #both inputs must be strings
+    in_order = False
+    counter = 0
+    input_list = list(input_str) ; target_list = list(target_str)
+    while not in_order:
+        shuffle(input_list)
+        counter += 1
+        in_order = input_list == target_list
+    return 'It took %s shuffles to sort the input string.' %(str(counter))
+
+Output
+
+Obviously this gives results all over the place.
+
+for x in range(11):
+    print bogo_sort("lolHe", "Hello")
+
+
+It took 54 shuffles to sort the input string.
+It took 30 shuffles to sort the input string.
+It took 67 shuffles to sort the input string.
+It took 21 shuffles to sort the input string.
+It took 50 shuffles to sort the input string.
+It took 48 shuffles to sort the input string.
+It took 1 shuffles to sort the input string.
+It took 16 shuffles to sort the input string.
+It took 37 shuffles to sort the input string.
+It took 73 shuffles to sort the input string.
+It took 69 shuffles to sort the input string.
+
+EDIT: See below
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]MaximaxII 1 point2 points3 points 3 years ago (1 child)
+
+I wouldn't use sorted as a variable name if I were you: it's already a
+function... though it does make the while not sorted look really good ;)
+
+You can actually shorten it down just a little bit. Instead of:
+
+if input_list == target_list:
+    sorted = True
+
+You can use
+
+sorted = input_list == target_list
+
+since input_list == target_list returns True
+
+Apart from that, it looks good :)
+
++/u/dogetipbot 999 doge
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]the_dinks0 1 0 points1 point2 points 3 years ago (0 children)
+
+Thanks for the tip about sorted and the boolean, I'll change that :)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] -1 points0 points1 point 3 years ago (9 children)
+
+Python 2.7 - Didn't know about random.shuffle() so came up with my own way of
+scrambling. Currently works in about 4 iterations for 3 characters. Sorting for
+4 characters now but it's taking a while. I'd appreciate any feedback as i'm
+new to python. Python question: Would it have been better to store the length
+in a variable instead of using the len() function each time it loops? Also, how
+might I prove that this will work for higher amounts of characters.....
+
+import random
+
+def bogo(a, b):
+    number = 0
+    while a not in b:
+        cut = random.randint(0, len(a) - 1)
+        a = a[cut:] + a[:cut]
+        number += 1
+    return 'It took ' + str(number) + ' iterations'
+
+  • permalink
+  • embed
+  • save
+
+[–]galaktos 0 points1 point2 points 3 years ago (1 child)
+
+    Would it have been better to store the length in a variable instead of
+    using the len() function each time it loops?
+
+Probably, but we’re trying to be inefficient here, so that’s actually great ;)
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+That's true lol.
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–][deleted] 0 points1 point2 points 3 years ago (6 children)
+
+40 minutes trying to go from abcd to cabd. Wondering if it will actually finish
+at some point or if there is an issue in my 'algorithm' past 3 characters.
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]chunes1 2 0 points1 point2 points 3 years ago* (5 children)
+
+The reason it's taking so long is that you aren't shuffling — you're cutting
+the deck. In fact, it's not possible to get from abcd to cabd just by splitting
+abcd in two. Try it:
+
+  • a|bcd -> bcda
+  • ab|cd -> cdab
+  • abc|d -> dabc
+
+Cutting the deck multiple times per iteration could work as a shuffle, but you
+only do it once.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (4 children)
+
+Here's what I was trying to do:
+
+a -> abcd b -> cabd
+
+a|bcd -> a = bcda bc|da(from variable a) -> a = dabc (Etc)
+
+Note how I carried over bcda from the first cut. Is that not happening in my
+while loop? Is the value of 'a' being set back to abcd? I thought it was
+working the way above but maybe I'm missing something.
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]chunes1 2 0 points1 point2 points 3 years ago (3 children)
+
+You're right; a changes each time. However..
+
+a|bcd -> bc|da -> dab|c -> cd|ab -> abc|d -> d|abc -> ab|cd -> cda|b -> bc|da
+-> dabc
+
+Sensing a pattern here?
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (2 children)
+
+Assuming it loops through sequentially for the index numbers to cut by then
+you're right. The way I wrote it, it is picking a random number each time, so I
+assumed the function just needs a certain set of random numbers. One again
+though I'm new to programming so maybe I'm way off.
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]chunes1 2 0 points1 point2 points 3 years ago (1 child)
+
+I was picking random numbers too. Instead of 'cutting the deck' at a random
+index, try swapping the letters at 2 random indices. That's the way I made my
+shuffle function and it seems to work. TBH I'm not really sure why your method
+doesn't work, but it seems to get stuck in the same patterns.
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–][deleted] 0 points1 point2 points 3 years ago (0 children)
+
+Okay I'll try that. Yeah it's weird I was pretty excited when I came up with
+this but I'm not sure why it gets stuck. There are too many iterations to be
+able to watch the output so I can't really look for how it gets stuck.
+
+  • permalink
+  • embed
+  • save
+  • parent
+
+[–]brynnflynn -1 points0 points1 point 3 years ago (0 children)
+
+C#, probably more efficient than it needs to be.
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace DailyProgrammer175
+{
+    internal class Program
+    {
+        private static Random RandomGen = new Random();
+
+        private static void Main(string[] args)
+        {
+            Console.WriteLine("Enter the first string: ");
+            var objInput1 = Console.ReadLine();
+            Console.WriteLine("Enter the second string: ");
+            var objInput2 = Console.ReadLine();
+
+            string strScrambled = objInput1.Trim();
+            string strClean = objInput2.Trim();
+
+            int intIterations = BogoSort(strScrambled, strClean, 0);
+            Console.WriteLine("It took {0} iterations.", intIterations);
+            Console.ReadLine();
+        }
+
+        private static int BogoSort(string strScrambled, string strClean, int p)
+        {
+            if (!strScrambled.Equals(strClean))
+            {
+                return BogoSort(Rescramble(strScrambled), strClean, ++p);
+            }
+            else
+                return p;
+        }
+
+        private static string Rescramble(string strScrambled)
+        {
+            var list = new SortedList<int, char>();
+            foreach (var c in strScrambled)
+                list.Add(RandomGen.Next(), c);
+            return new string(list.Values.ToArray());
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–][deleted] -1 points0 points1 point 3 years ago (0 children)
+
+Was quite fun. Python 2.7.7:
+
+import random
+
+def bogosort(jumbled_string, compared_string):
+    iterations = 0
+    while True:
+        ordered = "".join(random.sample(jumbled_string, len(jumbled_string)))
+        if ordered == compared_string:
+            break
+        iterations += 1
+    return str(iterations) + " iterations"
+
+print bogosort("lolhe", "hello")
+
+I'm finding that it's actually fairly quick. Was expecting 400-500 iterations,
+but I'm getting 80-100 on average.
+
+  • permalink
+  • embed
+  • save
+
+[–]Adoro_Te_Devote -1 points0 points1 point 3 years ago (0 children)
+
+Python 2.7. Returned the result as a string instead of integer.
+
+import random
+
+def bogo(jumbled, normal):
+    bogo1 = 0
+    temp = list(jumbled.lower())
+    target = list(normal.lower())
+    while not temp == target:
+        bogo1 += 1
+        random.shuffle(temp)
+    return bogo1
+
+if __name__ == '__main__':
+    for x in range(10):
+        string_format = (str((bogo("ollhe", "hello")))) # return a string instead of integer
+        print my_list
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]stabzorzz -1 points0 points1 point 3 years ago (0 children)
+
+Here's my Python 2.7 solution. Pretty straightforward once I looked through the
+documentation for the random module. My average was about 60.
+
+import random
+def bogo(scrambled,target):
+    '''Randomly permutates the string until it is the same as the target. Returns the number of iterations it took.'''
+    count = 0
+    while scrambled.lower() != target.lower():
+        scrambled = list(scrambled)
+        random.shuffle(scrambled)
+        scrambled = ''.join(scrambled)
+       count += 1
+    return count
+
+def mean(numlist):
+'''Finds the mean of a list of numbers'''
+    return reduce(lambda x,y: x+y,numlist)/len(numlist)
+
+def avg(iterations):
+'''Finds the average number of iterations a 5 letter bogosort goes through.'''
+    results = []
+    for i in range(iterations):
+        results.append(bogo('lolhe','hello'))
+    return mean(results)
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]you_reddit_right -1 points0 points1 point 3 years ago (0 children)
+
+Fairly straight forward Python Random sort. I laugh every time I say "bogo" :)
+
+import time
+import random
+
+def RandomizeString(string):
+    string = list(string)
+    random.shuffle(string)
+    return "".join(string)
+
+def BogoSort(matchString, sortString):
+    steps = 0
+    while (sortString != matchString):
+        sortString = RandomizeString(matchString)
+        steps += 1
+        #print("Current Bogo String: {0}".format(sortString))
+    return steps
+
+def Main():
+    inString = "Hello Kitty"
+    ranString = "".join(random.sample(inString, len(inString)))
+
+    print("String to match: {0}".format(inString))
+    print("Starting String: {0}".format(ranString))
+
+    start = time.clock()
+    stepCount = BogoSort(inString, ranString)
+    print("Time to complete execution of {0} Bogo Sort Steps: {1:10} seconds".format(stepCount, int(time.clock()-start)))
+
+if __name__ == "__main__":
+    Main()
+
+Sample Output:
+
+    String to match: Hello Kitty
+    Starting String: llKteyH tio
+    Time to complete execution of 5262436 Bogo Sort Steps:         64 seconds
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]tally_in_da_houise -1 points0 points1 point 3 years ago (0 children)
+
+quick python 2.7 implementation:
+
+def shuffle_sort(input1, input2):
+        from random import shuffle
+        input1, input2 = list(input1.lower()), list(input2.lower())
+        count = 0
+        while input1 != input2:
+            shuffle(input1)
+            count += 1
+        return count
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]fvandepitte0 0 -1 points0 points1 point 3 years ago (1 child)
+
+C#, I've made it not "Throw it in the air and pick at random" but more like,
+"if I swap this and this, is it now ok?"
+
+using System;
+using System.Text;
+
+namespace ConsoleApplication22
+{
+    internal class Program
+    {
+        private static Random RND = new Random();
+
+        private static void Main(string[] args)
+        {
+            Func<string, string>[] options = new Func<string, string>[] { Shift, Shuffle, Swap };
+            string input = args[0].ToLower();
+            string check = args[1].ToLower();
+            int iteretions = 0;
+
+            do
+            {
+                for (int i = 0; i < input.Length; i++)
+                {
+                    input = options[RND.Next(options.Length)](input);
+                }
+                iteretions++;
+            } while (!Equals(input, check));
+
+            Console.WriteLine("Done after {0} iterations", iteretions);
+            Console.ReadKey();
+        }
+
+        private static bool Equals(string input, string check)
+        {
+            bool equal = true;
+            for (int i = 0; i < input.Length; i++)
+            {
+                equal = equal & input[i].Equals(check[i]);
+            }
+            return equal;
+        }
+
+        private static string Shift(string input)
+        {
+            bool clockwise = RND.Next() % 2 == 0;
+
+            if (clockwise)
+            {
+                StringBuilder builder = new StringBuilder();
+                builder.Append(input[input.Length - 1]);
+                builder.Append(input.Substring(0, input.Length - 1));
+                return builder.ToString();
+            }
+            else
+            {
+                StringBuilder builder = new StringBuilder();
+                builder.Append(input.Substring(1, input.Length - 1));
+                builder.Append(input[0]);
+                return builder.ToString();
+            }
+        }
+
+        private static string Shuffle(string input)
+        {
+            int times = RND.Next(1000);
+            string result = input;
+
+            for (int i = 0; i < times; i++)
+            {
+                result = Swap(result);
+            }
+
+            return result;
+        }
+
+        private static string Swap(string input)
+        {
+            char[] arrInput = input.ToCharArray();
+
+            int a = RND.Next(arrInput.Length);
+            int b = RND.Next(arrInput.Length);
+
+            char c = arrInput[a];
+            arrInput[a] = arrInput[b];
+            arrInput[b] = c;
+
+            return new string(arrInput);
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]fvandepitte0 0 -1 points0 points1 point 3 years ago (0 children)
+
+Got an other solution
+
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+
+namespace ConsoleApplication22
+{
+    internal class Program
+    {
+        private static Random RND = new Random();
+
+        private static void Main(string[] args)
+        {
+            char[] pool = args[0].ToLower().ToCharArray();
+            string sorted = string.Empty;
+            string check = args[1].ToLower();
+            int iteretions = 0;
+            Stopwatch watch = Stopwatch.StartNew();
+            do
+            {
+                sorted = new string(GetRandomnSequence(pool).ToArray());
+                Console.WriteLine("Iteration {0}: {1}", ++iteretions, sorted);
+            } while (!Equals(sorted, check));
+            watch.Stop();
+            Console.WriteLine("Done after {0} iterations after {1} seconds ", iteretions, watch.Elapsed.Seconds);
+            Console.ReadKey();
+        }
+
+        private static bool Equals(string input, string check)
+        {
+            bool equal = true;
+            for (int i = 0; i < input.Length; i++)
+            {
+                equal = equal & input[i].Equals(check[i]);
+            }
+            return equal;
+        }
+
+        private static IEnumerable<char> GetRandomnSequence(char[] chars)
+        {
+            for (int i = 0; i < chars.Length; i++)
+            {
+                yield return chars[RND.Next(chars.Length)];
+            }
+        }
+    }
+}
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]SeaCowVengeance0 0 -1 points0 points1 point 3 years ago (1 child)
+
+Took the edgy approach and tried to write the most efficient solution. A
+concurrent bogosort written in Go:
+
++/u/CompileBot go --time
+
+package main
+
+import (
+    "fmt"
+    "math/rand"
+    "time"
+)
+
+func bogosort(scrambled, sorted string) int {
+    attempts := 0
+    ch := make(chan int)
+
+    sort_routine := func(ch chan int) {
+        rand.Seed(time.Now().UnixNano())
+        sort_attempt := ""
+        perm := rand.Perm(len(scrambled))
+
+        for _, rand_pos := range perm {
+            sort_attempt += string(scrambled[rand_pos])
+        }
+
+        if sort_attempt == sorted {
+            ch <- 1
+        } else {
+            ch <- 0
+        }
+    }
+
+    go sort_routine(ch)
+    for result := range ch {
+        if result == 0 {
+            attempts++
+            go sort_routine(ch)
+        } else {
+            close(ch)
+        }
+    }
+    return attempts
+}
+
+func main() {
+    attempts := bogosort("lolhe", "hello")
+    fmt.Printf("%v iterations", attempts)
+}
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+[–]CompileBot -1 points0 points1 point 3 years ago (0 children)
+
+Output:
+
+8 iterations
+
+Execution Time: 0.0 seconds
+
+^source ^| ^info ^| ^git ^| ^report
+
+  • permalink
+  • embed
+  • save
+  • parent
+  • give gold
+
+[–]BensThrowawayAcct -1 points0 points1 point 3 years ago (0 children)
+
+Ruby:
+
+random = ARGV[0].dup
+sorted = ARGV[1].dup
+
+iters = 0
+until random == sorted do
+    iters += 1
+    for x in 0...random.length do
+        y = rand(random.length)
+        random[x], random[y] = random[y], random[x]
+    end
+end
+puts iters
+
+The number of iterations is all over the place:
+
+$ ruby dp175.rb lleho hello
+
+40
+
+$ ruby dp175.rb lleho hello
+
+36
+
+$ ruby dp175.rb lleho hello
+
+130
+
+$ ruby dp175.rb lleho hello
+
+22
+
+$ ruby dp175.rb lleho hello
+
+74
+
+$ ruby dp175.rb lleho hello
+
+14
+
+  • permalink
+  • embed
+  • save
+  • give gold
+
+  • about
+  • blog
+  • about
+  • advertising
+  • careers
+
+  • help
+  • site rules
+  • Reddit help center
+  • wiki
+  • reddiquette
+  • mod guidelines
+  • contact us
+
+  • apps & tools
+  • Reddit for iPhone
+  • Reddit for Android
+  • mobile website
+  • buttons
+
+  • <3
+  • reddit gold
+  • redditgifts
+
+Use of this site constitutes acceptance of our User Agreement and Privacy
+Policy. (C) 2018 reddit inc. All rights reserved.
+
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+Advertise - technology
+
+[pixel]
+
+π Rendered by PID 117518 on app-605  at 2018-05-09 20:25:33.454947+00:00
+running 4c4e6ea country code: CH.
+
