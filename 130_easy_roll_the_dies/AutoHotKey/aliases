@@ -1,0 +1,1 @@
+alias r='touch ./Output.log && /bin/rm ./Output.log && touch ./Output.log && /cygdrive/c/Program\ Files/AutoHotkey/AutoHotkey.exe main.ahk && cat ./Output.log'
