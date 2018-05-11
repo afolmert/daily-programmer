@@ -1,0 +1,5879 @@
+ 
+r/dailyprogrammer
+log insign upsign in
+Reddit Feeds
+
+  • popular
+  • all
+  • 
+
+Sign up and stay connected to your favorite communities.
+
+sign uplog in
+ 
+r/
+
+dailyprogrammer
+
+Posts
+75
+Posted by
+u/nint22
+4 years ago
+
+[12/11/13] Challenge #144 [Easy] Nuts & Bolts
+
+ (Easy): Nuts & Bolts
+
+You have just been hired at a local home improvement store to help compute the
+proper costs of inventory. The current prices are out of date and wrong; you
+have to figure out which items need to be re-labeled with the correct price.
+
+You will be first given a list of item-names and their current price. You will
+then be given another list of the same item-names but with the correct price.
+You must then print a list of items that have changed, and by how much.
+
+Formal Inputs & Outputs
+
+Input Description
+
+The first line of input will be an integer N, which is for the number of rows
+in each list. Each list has N-lines of two space-delimited strings: the first
+string will be the unique item name (without spaces), the second string will be
+the price (in whole-integer cents). The second list, following the same format,
+will have the same unique item-names, but with the correct price. Note that the
+lists may not be in the same order!
+
+Output Description
+
+For each item that has had its price changed, print a row with the item name
+and the price difference (in cents). Print the sign of the change (e.g. '+' for
+a growth in price, or '-' for a loss in price). Order does not matter for
+output.
+
+Sample Inputs & Outputs
+
+Sample Input 1
+
+4
+CarriageBolt 45
+Eyebolt 50
+Washer 120
+Rivet 10
+CarriageBolt 45
+Eyebolt 45
+Washer 140
+Rivet 10
+
+Sample Output 1
+
+Eyebolt -5
+Washer +20
+
+Sample Input 2
+
+3
+2DNail 3
+4DNail 5
+8DNail 10
+8DNail 11
+4DNail 5
+2DNail 2
+
+Sample Output 2
+
+2DNail -1
+8DNail +1
+
+193 comments
+share
+96% Upvoted
+Sort by
+best
+ 
+best
+ 
+top
+ 
+new
+ 
+controversial
+ 
+old
+ 
+q&a
+YoYoDingDongYo
+26 points·4 years ago·edited 4 years ago
+
+Is golfing welcome here? I'll delete if not.
+
+Perl:
+
+perl -ane 'printf"$x %+d\n",$.if$_=$h{$x=$F[0]}and$.=$F[1]-$_;$h{$x}=$F[1]'
+
+EDIT: I'll explain in case anyone's curious:
+
+ 1     perl -ane           # -e means "Here's the script on the command line"
+ 2                         # -n means "and run this script on each line of input"
+ 3                         # -a means "but first split each line on whitespace
+ 4                         #           into an array named @F."
+ 5
+ 6     printf "$x %+d\n",  # Do a formatted print of the item name
+ 7                         # we'll save in $x on line 22.
+ 8                         # "%+d" means put a plus in front of the number
+ 9                         # if it's positive.
+10            $.           # The second argument to printf (the price change),
+11                         # which we store in variable "$." on line 28.  We use
+12                         # $. instead of a normal variable like $d because
+13                         # that allows us to say "printf ...,$.if ...", while
+14                         # if we used a letter "printf ...,$dif ..." wouldn't
+15                         # parse.
+16
+17     if                  # We only print that if ...
+18     $_ =                # (just a sec: we tuck away $h{$F[0]} in $_ to save characters...)
+19
+20     $h{                 # OK, we only print that if there's something in the %h hash table
+21                         # with our item name.
+22         $x =            # We tuck away $F[0] (the item name) in $x to save characters
+23         $F[0]           # This is the item name, which we're using as our hash key.
+24     }
+25     and                 # We use "and" instead of "&&" because it's lower precedence,
+26                         # which allows us to do an assignment next without any parens.
+27
+28     $. =                # Save the price difference for use on line 10.
+29     $F[1]               # The new price (we didn't get this far on the old price because
+30                         # of the if on line 17).
+31
+32     - $_;               # Minus the old price, which we saved on line 18. Only print if non-zero.
+33
+34     $h{$x} = $F[1]      # Now we just put the price into the hash, using the $x alias
+35                         # for $F[0] we stored on line 22.  This is only relevant for the
+36                         # run through the old prices.
+
+share
+Save
+Laremere
+1 07 points·4 years ago
+
+I think the easy problems are an excellent chance to code golf.
+
+share
+Save
+tet5uo
+8 points·4 years ago
+
+Just don't try to figure them out if you're an "easy" level programmer yourself
+:D
+
+Well, do actually.. but prepare to be saying "WTF"
+
+share
+Save
+YoYoDingDongYo
+2 points·4 years ago
+
+I'm just a duffer compared to the Perl golfers of the 90s. I've added an
+explanation if you're curious how it works.
+
+share
+Save
+tet5uo
+1 point·4 years ago
+
+Thanks :D
+
+share
+Save
+whaaatanasshole
+3 points·4 years ago
+
+What's the minimized metric on golfing? Characters, lines, readability...? :)
+
+share
+Save
+rowenlemmings
+5 points·4 years ago
+
+Lines then characters. Readability is a moot point imo.
+
+share
+Save
+YoYoDingDongYo
+2 points·4 years ago
+
+Characters for sure.
+
+share
+Save
+[deleted]
+3 points·4 years ago
+
+You're a wizard Harry! But no, seriously, nice job.
+
+share
+Save
+[deleted]
+14 points·4 years ago
+
+Python 3
+
+n = int(input())
+old = {k:int(v) for k,v in [input().split() for _ in range(n)]}
+new = {k:int(v) for k,v in [input().split() for _ in range(n)]}
+
+for k in new:
+    d = new[k] - old[k]
+    if d:
+        print(k + str(" " if d<0 else " +") + str(d))
+
+share
+Save
+[deleted]
+2 points·4 years ago
+
+Oneliner! Uses same input code as above.
+
+print("\n".join([k+str(" " if v<0 else " +")+str(v) for k,v in {k:int(new[k])-int(old[k]) for k in new}.items() if v]))
+
+share
+Save
+Alborak
+1 point·4 years ago
+
+Damn that's elegant. What is what you did for initializing the hash tables
+called? Are they just anonymous code blocks with a return value?
+
+share
+Save
+raylu
+2 points·4 years ago
+
+Dict comprehension
+
+share
+Save
+[deleted]
+1 point·4 years ago·edited 4 years ago
+
+Thank you! Read up on dictionaries and you'll get the hang of it quick. It's
+basically a list (array) with key strings instead of integer indexes. Accessing
+a value in a dict is done by new["Eyebolt"], and it returns 50.
+
+Edit: read up on sets as well - basically indexless lists
+
+share
+Save
+whonut
+1 01 point·4 years ago
+
+Dict comprehension! Dammit why didn't I think of that?
+
+Edit: Also, didn't know you could use conditionals in prints like that. Is that
+a python 3 thing?
+
+share
+Save
+draconis183
+1 point·4 years ago
+
+Any language that has first-class functions.
+
+Wikipedia Link
+
+share
+Save
+whonut
+1 01 point·4 years ago
+
+Thanks. Super duper useful.
+
+share
+Save
+Tekmo
+11 points·4 years ago
+
+Haskell:
+
+import Control.Monad
+import qualified Data.Map as M
+import Text.Printf
+
+main = do
+    n <- readLn
+    let toRow l = let [w1, w2] = words l in (w1, read w2)
+        readMap = fmap (M.fromList . map toRow) (replicateM n getLine)
+    xs <- readMap
+    ys <- readMap
+    let zs = M.toList (M.filter (/= 0) (M.unionWith (-) ys xs))
+    forM_ zs $ \(key, val) -> do
+        printf "%s %+d\n" (key :: String) (val :: Int)
+
+share
+Save
+professorlamp
+1 06 points·4 years ago
+
+I've wishlisted 'Learning you a haskell for great good' for christmas. Good god
+I hope I get it!
+
+share
+Save
+OldNedder
+2 points·4 years ago
+
+I've just starting reading this book just yesterday. It's a fun change of pace
+from the usual curly-brace languages we're familiar with. Back in college I had
+to learn Scheme and Common Lisp. This functional language is syntactically much
+different than the above Lisp dialects, and seems to be much more expressive
+and suitable for "real world" programming (but I admit to being very naive
+still - just 1 day of experience). I also want to have a look at Scala and
+Erlang some day (after I'm able to do exercises like these in Haskell).
+
+share
+Save
+nullmove
+1 02 points·4 years ago
+
+The book is so good that it put most of the novels I read to a shame.
+
+share
+Save
+[deleted]
+18 points·4 years ago·edited 4 years ago
+
+what's the opposite of golfing? Let's call this pedantic Java:
+
+    Item.java
+
+package com.savthecoder.dailyprogrammer.nutsandbolts;
+
+public class Item
+{
+
+        private String itemName;
+        private int itemPrice;
+
+        public Item (String itemName, int itemPrice)
+        {
+                this.itemName = itemName;
+                this.itemPrice = itemPrice;
+        }
+
+        public String getItemName()
+        {
+                return itemName;
+        }
+
+        public int getItemPrice()
+        {
+                return itemPrice;
+        }
+
+        public boolean equals(Item i)
+        {
+                return this.getItemName().equals(i.getItemName());
+        }
+
+
+
+}
+
+    ItemComparison.java
+
+package com.savthecoder.dailyprogrammer.nutsandbolts;
+
+public class ItemComparison
+{
+
+        private Item beforeItem;
+        private Item afterItem;
+
+        public ItemComparison(Item before, Item after)
+        {
+                this.beforeItem = before;
+                this.afterItem = after;
+        }
+
+        public int priceDifference() throws Exception
+        {
+                if(!beforeItem.equals(afterItem))
+                {
+                        throw new Exception("Item name must be the same");
+                }
+
+                return afterItem.getItemPrice() - beforeItem.getItemPrice();
+        }
+
+}
+
+    ItemList.java
+
+package com.savthecoder.dailyprogrammer.nutsandbolts;
+
+public class ItemList
+{
+
+        private Item[] beforeItems;
+        private Item[] afterItems;
+        private int numberOfItems;
+
+        public ItemList(int numberOfItems)
+        {
+                this.numberOfItems = numberOfItems;
+
+                beforeItems = new Item[numberOfItems];
+                afterItems = new Item[numberOfItems];
+
+        }
+
+        public void addItem(Item item, int position, ListVersion listVersion)
+        {
+                switch (listVersion)
+                {
+                        case BEFORE:
+                                beforeItems[position] = item;
+                                break;
+
+                        case AFTER:
+                                afterItems[position] = item;
+
+                        default:
+                                break;
+                }
+        }
+
+        public Item getItem(String itemName, ListVersion listVersion)
+        {
+                switch (listVersion)
+                {
+                        case BEFORE:
+                                for(Item i : beforeItems)
+                                {
+                                        if(i.getItemName().equals(itemName))
+                                        {
+                                                return i;
+                                        }
+                                }
+
+                        case AFTER:
+                                for(Item i : afterItems)
+                                {
+                                        if(i.getItemName().equals(itemName))
+                                        {
+                                                return i;
+                                        }
+                                }
+
+                        default:
+                                return null;
+                }
+        }
+
+        public Item getItem(int itemIndex, ListVersion listVersion)
+        {
+                switch (listVersion)
+                {
+                        case BEFORE:
+                                return beforeItems[itemIndex];
+
+                        case AFTER:
+                                return afterItems[itemIndex];
+
+                        default:
+                                return null;
+                }
+        }
+
+}
+
+    ListVersion.java
+
+package com.savthecoder.dailyprogrammer.nutsandbolts;
+
+public enum ListVersion
+{
+
+        BEFORE, AFTER
+
+}
+
+    ItemListFromFile.java
+
+package com.savthecoder.dailyprogrammer.nutsandbolts;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class ItemListFromFile
+{
+
+        private File file;
+        private Scanner scanner;
+        private ItemList list;
+        private int numberOfItems;
+
+        public ItemListFromFile() throws FileNotFoundException
+        {
+                file = new File("inputfile.txt");
+                scanner = new Scanner(file);
+
+                String firstLine = scanner.nextLine();
+                numberOfItems = Integer.parseInt(firstLine);
+
+                list = new ItemList(numberOfItems);
+
+                for(int i = 0 ; i < numberOfItems ; i++)
+                {
+                        String nextLine = scanner.nextLine();
+                        String[] splitLine = nextLine.split(" ");
+
+                        Item newItem = new Item(splitLine[0], Integer.parseInt(splitLine[1]));
+
+                        list.addItem(newItem, i, ListVersion.BEFORE);
+
+                }
+
+                for(int i = 0 ; i < numberOfItems ; i++)
+                {
+                        String nextLine = scanner.nextLine();
+                        String[] splitLine = nextLine.split(" ");
+
+                        Item newItem = new Item(splitLine[0], Integer.parseInt(splitLine[1]));
+
+                        list.addItem(newItem, i, ListVersion.AFTER);
+
+                }
+
+        }
+
+        public ItemList getItemList()
+        {
+                return list;
+        }
+
+        public int getItemCount()
+        {
+                return numberOfItems;
+        }
+
+}
+
+    Main.java
+
+package com.savthecoder.dailyprogrammer.nutsandbolts;
+
+import java.io.FileNotFoundException;
+
+public class Main
+{
+
+        public static void main(String[] args) throws Exception
+        {
+
+                ItemListFromFile items = new ItemListFromFile();
+
+                int numberOfItems = items.getItemCount();
+
+                for(int i = 0 ; i < numberOfItems ; i++)
+                {
+                        Item beforeItem = items.getItemList().getItem(i, ListVersion.BEFORE);
+
+                        Item afterItem = items.getItemList().getItem(beforeItem.getItemName(), ListVersion.AFTER);
+
+                        ItemComparison comparison = new ItemComparison(beforeItem, afterItem);
+
+                        System.out.println(beforeItem.getItemName() + " " + comparison.priceDifference());
+
+                }
+        }
+
+}
+
+share
+Save
+pbl24
+17 points·4 years ago
+
+Comparable to enterprise Java FizzBuzz.
+
+https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition
+
+share
+Save
+mrsim0ns
+2 points·4 years ago
+
+Laughed so hard it hurt, thanks for that :)
+
+share
+Save
+
+1 more reply
+
+Zaph0d42
+3 points·4 years ago
+
+
+    what's the opposite of golfing? Let's call this pedantic Java:
+
+Enterprise Java.
+
+share
+Save
+Rhinoceros_Party
+2 points·4 years ago
+
+I believe the term you're looking for is "over engineering." :D
+
+share
+Save
+[deleted]
+1 point·4 years ago
+
+ah yes that's the one! :)
+
+share
+Save
+youssarian
+0 02 points·4 years ago
+
+I think you had a little too much fun with this. :D
+
+share
+Save
+beanerbobe
+2 points·4 years ago
+
+nice
+
+share
+Save
+pandubear
+0 18 points·4 years ago·edited 4 years ago
+
+After spending an hour and a half determined to get this done in Brainfuck, I
+gave up and gave it a go in bash.
+
+There's gotta be a better way, though... anyone with better command-line-fu
+want to give it a go? (Also, how does sed "N;s/\n/ /" work?)
+
+let n=$(head -n 1 $1)
+sed -n "2,$ p" $1 |
+sed "1,$n s/ / a /" |
+sed "$(($n+1)),$ s/ / b /" |
+sort |
+awk '{print $1,$3;}' |
+uniq -u |
+sed "N;s/\n/ /" |
+awk '{print $1, $4 - $2;}' |
+sed "s/ \([0-9]\)/ +\1/"
+
+Usage: ./nutsnbolts.sh [INPUTFILE]
+
+Not sure how to make it use standard input instead of having to read a file.
+
+Explanation:
+
+# Some example input:
+    # 3
+    # Cat 20
+    # Elephant 90
+    # Dog 30
+    # Elephant 90
+    # Cat 25
+    # Dog 20
+
+# Take everything after the first line:
+    # Cat 20
+    # Elephant 90
+    # Dog 30
+    # Elephant 90
+    # Cat 25
+    # Dog 20
+let n=$(head -n 1 $1)
+sed -n "2,$ p" $1 |
+
+# Insert "a" in between item and price for the old data, and "b" for the new
+# data
+    # Cat a 20
+    # Elephant a 90
+    # Dog a 30
+    # Elephant b 90
+    # Cat b 25
+    # Dog b 20
+sed "1,$n s/ / a /" |
+sed "$(($n+1)),$ s/ / b /" |
+
+# Now when we sort we get the items in order, with old price first and new
+# price second:
+    # Cat a 20
+    # Cat b 25
+    # Dog a 30
+    # Dog b 20
+    # Elephant a 90
+    # Elephant b 90
+sort |
+
+# Delete the added a's and b's and then keep only unique lines, so we get just
+# the items with changes:
+    # Cat 20
+    # Cat 25
+    # Dog 30
+    # Dog 20
+awk '{print $1,$3;}' |
+uniq -u |
+
+# Combine pairs of lines, perform arithmetic, and add plus signs for positive
+# numbers
+    # Cat +5
+    # Dog -10
+sed "N;s/\n/ /" |
+awk '{print $1, $4 - $2;}' |
+sed "s/ \([0-9]\)/ +\1/"
+
+share
+Save
+thisguyknowsc
+3 points·4 years ago
+
+I'd highly suggest if you are going to invoke awk at all...just use awk for the
+whole thing:
+
+NR == 1 { next }
+{ if (v[$1] && v[$1] != $2)
+     printf "%s %+d\n", $1, ($2 - v[$1])
+  else
+     v[$1] = $2
+}
+
+Or, if you really want to be all bash, make proper use of bash's read
+functionality, and associative arrays (only available in bash > 4.2):
+
+#!/bin/bash
+
+declare -A prices
+
+read N
+
+for ((i = 0; i < N; i++)); do
+        read item price
+        prices[$item]=$price
+done
+
+for ((i = 0; i < N; i++)); do
+        read item price
+        if (( price != prices[$item] )); then
+                printf '%s %+d\n' "$item" "$((price - prices[$item]))"
+        fi
+done
+
+share
+Save
+mrsim0ns
+1 point·4 years ago
+
+Nice, this problem is perfect for awk, well done!
+
+share
+Save
+letalhell
+8 points·4 years ago
+
+If anyone want a bigger list:
+
+44
+Apple 162
+Bananas 105
+Bed 63
+Beef 73
+Bottle 118
+Bread 46
+Brocolli 165
+Carrots 122
+Cat 130
+Chicken 46
+Chocolate 176
+Computer 63
+Cow 101
+Crow 160
+Dolphin 194
+Dove 120
+Drawer 125
+Egg 13
+Fish 16
+Fork 110
+Fridge 40
+Giraffe 3
+Hamster 145
+Knife 104
+Lamp 175
+Lion 198
+Milk 113
+Orange 48
+Panda 84
+Phone 29
+Plate 14
+Rat 37
+Rhino 134
+Shark 143
+Sheep 12
+Sofa 83
+Spectacles 60
+Spoon 135
+Squirrel 149
+Tiger 180
+Tomato 10
+Turtle 187
+Whale 140
+Zebra 31
+Apple 162
+Bananas 105
+Bed 63
+Beef 72
+Bottle 113
+Bread 50
+Brocolli 165
+Carrots 122
+Cat 130
+Chicken 46
+Chocolate 176
+Computer 63
+Cow 101
+Crow 145
+Dolphin 194
+Dove 110
+Drawer 125
+Egg 13
+Fish 16
+Fork 110
+Fridge 40
+Giraffe 3
+Hamster 145
+Knife 104
+Lamp 175
+Lion 198
+Milk 113
+Orange 48
+Panda 84
+Phone 29
+Plate 12
+Rat 37
+Rhino 146
+Shark 143
+Sheep 10
+Sofa 83
+Spectacles 60
+Spoon 135
+Squirrel 149
+Tiger 180
+Tomato 10
+Turtle 179
+Whale 140
+Zebra 31
+
+Output:
+
+Beef -1
+Bottle -5
+Bread +4
+Crow -15
+Dove -10
+Plate -2
+Rhino +12
+Sheep -2
+Turtle -8
+
+share
+Save
+skeeto
+-9 87 points·4 years ago
+
+Lisp.
+
+(defun parse-list (n)
+  (sort (loop repeat n collect (list (read) (read)))
+        #'string<
+        :key (lambda (e) (symbol-name (first e)))))
+
+(defun inventory ()
+  (let* ((n (read))
+         (wrong (parse-list n))
+         (right (parse-list n)))
+    (loop for (item a) in wrong and (_ b) in right
+          for diff = (- b a)
+          for sign = (if (< diff 0) "" "+")
+          unless (zerop diff)
+          do (format t "~a ~a~a~%" item sign diff))))
+
+Unfortunately Common Lisp doesn't preserve case by default, but I wrote this in
+Elisp originally, which does preserve case.
+
+share
+Save
+ponkanpinoy
+1 point·4 years ago
+
+Can you explain the for (item a) in wrong and (_ b) in right bit?
+
+Also in common lisp (don't know about elisp) you can use ~@d to force the
+printing of the sign.
+
+share
+Save
+skeeto
+-9 81 point·4 years ago
+
+
+    Can you explain the for (item a) in wrong and (_ b) in right bit?
+
+The loop macro supports destructuring bindings. The two lists are each in alist
+form, so each element in the list is a pair of values. I used _ because I don't
+care about that variable, being identical to item, and I used an underscore as
+a convention for this. In Elisp there's no (declare (ignore ...)) and instead
+any variable starting with an underscore tells the compiler you intend to
+ignore that variable.
+
+    Also in common lisp (don't know about elisp) you can use ~@d to force the
+    printing of the sign.
+
+Thanks for the tip. I've have almost no practice with the Common Lisp format
+directives so I don't know any of the tricks. Elisp only supports a printf-like
+format, and I had ported it directly from that. Now that I think about it, I
+could have used %+d in that case, too.
+
+share
+Save
+Comment deleted4 years ago
+vtcapsfan
+1 point·4 years ago
+
+Any reason to add them to a third vector rather then just printing anyone's
+that have changed as you go?
+
+share
+Save
+
+1 more reply
+
+1 more reply
+
+thinksInCode
+7 points·4 years ago
+
+JavaScript (using node for file I/O):
+
+fs = require('fs');
+
+var priceData = fs.readFileSync(process.argv[2], 'utf8').split('\r\n');
+var numItems = parseInt(priceData[0]);
+var currPriceData = priceData.slice(1, numItems + 1);
+var correctPriceData = priceData.slice(numItems + 1);
+var currPrices = [];
+
+currPriceData.forEach(function(item) {
+    var data = item.split(' ');
+    currPrices[data[0]] = parseInt(data[1]);
+});
+
+correctPriceData.forEach(function(item) {
+    var data = item.split(' ');
+    var difference = parseInt(data[1]) - currPrices[data[0]];
+    if (Math.abs(difference) > 0) {
+        console.log(data[0] + ' ' + (difference > 0 ? '+' : '') + difference);
+    }
+});
+
+share
+Save
+vishbar
+6 points·4 years ago·edited 4 years ago
+
+F#
+
+Still getting used to the functional approach, but I'm loving it so far.
+
+let parseLine (line:System.String) =
+    let parsedString = line.Split(' ')
+    ( parsedString.[0], int (parsedString.[1]) )
+
+let printLine = function
+    | (product, price) when price > 0 -> System.Console.WriteLine(product + " +" + string price)
+    | (product, price) when price < 0 -> System.Console.WriteLine(product + " " + string price)
+    | _ -> ()
+
+[<EntryPoint>]
+let main argv =
+    let number = int (System.Console.ReadLine())
+    let getLines count =
+        [for n in [1..count] -> System.Console.ReadLine()]
+            |> List.map parseLine
+    let priceMap = getLines number |> List.fold (fun acc (product, price) -> Map.add product price acc) Map.empty
+    getLines number
+        |> List.map (fun (product, price) -> (product, price - Map.find product priceMap))
+        |> List.filter (fun (product, price) -> price <> 0)
+        |> List.iter printLine
+    0
+
+share
+Save
+Braber02
+1 point·4 years ago
+
+This is the first time I've seen an F# Entry in this sub Have an upvote
+
+share
+Save
+vishbar
+1 point·4 years ago
+
+Thanks!
+
+I try to do all the problems in F#. I haven't gotten around to the latest ones
+yet (holiday season), but I have a fair few others solved in F#.
+
+share
+Save
+winged_scapula
+11 points·4 years ago
+
+Python 2.7
+
+with open('file.txt') as f:
+    n = int(f.readline())
+    data = [line.strip('\n').split() for line in f.readlines()]
+    oldist, newlist = data[: n], data[n:]
+
+for k1, v1 in oldist:
+    for k2, v2 in newlist:
+        if k1 == k2 and v1 != v2:
+            print "{} {:+}".format(k1, int(v2) - int(v1))
+
+share
+Save
+OldNedder
+2 points·4 years ago
+
+I like this - my mind was locked into using a dict, but using lists like this
+works fine and most importantly - is very readable
+
+share
+Save
+phantomesse
+5 points·4 years ago·edited 4 years ago
+
+I'm trying to teach myself PHP, so this is my first attempt at programming in
+PHP and doing a Daily Programmer Challenge! Any critiques welcome!
+
+<?php
+
+function nuts_and_bolts($filename) {
+    $filereader = fopen($filename,'r');
+
+    # Get number of rows
+    $rows = fgets($filereader);
+
+    # Fill out the old list
+    $old_list = array();
+    for ($i = 0; $i < $rows; $i++) {
+        $line = split(" ", fgets($filereader));
+        $old_list[$line[0]] = $line[1];
+    }
+
+    # Scan through new list, filling out changes array
+    $changes = array();
+    for ($i = 0; $i < $rows; $i++) {
+        $line = split(" ", fgets($filereader));
+        $change = $line[1] - $old_list[$line[0]];
+        if ($change !== 0) {
+            $changes[$line[0]] = $change;
+        }
+    }
+
+    # Print changes
+    foreach($changes as $item => $change) {
+        echo $item." ";
+        if ($change > 0) {
+            echo "+".$change."<br />";
+        } else {
+            echo $change."<br />";
+        }
+    }
+
+    fclose($filereader);
+}
+
+?>
+
+Usage:
+
+<?php
+
+nuts_and_bolts("nutsandbolts_input.txt");
+
+?>
+
+share
+Save
+KompjoeFriek
+1 01 point·4 years ago·edited 4 years ago
+
+I think you did a good job. You even managed to support multiple price changes
+and only output them once, which would be nice for the person using the output
+:-)
+
+But i think you forgot a check to output a negative change. And you might also
+want take a look at using foreach. It could replace your while-loop and
+eliminate the usage of key, current and next functions.
+
+share
+Save
+phantomesse
+1 point·4 years ago
+
+Thanks for the response! I output the negative change in the else statement. If
+the change is negative, then the element of the changes array is negative, so a
+negative sign is automatically printed out.
+
+I looked into using foreach for printing out the change array, but my changes
+array is structured like changes[name_of_item] = change. If I did a foreach,
+then the syntax would be something like foreach($changes as $change), right?
+This means that I only get access to $change, which is just the number. I want
+to also be able to print out the key of the element, since that's the name of
+the item. How would I do that using a foreach?
+
+share
+Save
+KompjoeFriek
+1 01 point·4 years ago
+
+Oh yeah, forgot about php-magic that adds the minus signs :D
+
+The foreach could look like:
+
+foreach($changes as $name => $change)
+
+share
+Save
+phantomesse
+1 point·4 years ago
+
+Thanks! Edited! :)
+
+share
+Save
+Edward_H
+4 points·4 years ago
+
+A COBOL solution:
+
+       >>SOURCE FREE
+IDENTIFICATION DIVISION.
+PROGRAM-ID. nuts-and-bolts.
+
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+01  num-items                           PIC 99.
+01  items-area.
+    03  items                           OCCURS 1 TO 50 TIMES
+                                        DEPENDING ON num-items
+                                        INDEXED BY items-idx.
+        05  item-name                   PIC X(30).
+        05  old-price                   PIC 9(5).
+        05  new-price                   PIC 9(5).
+
+01  input-str                           PIC X(50).
+
+01  item-to-find                        PIC X(30).
+01  item-to-find-price                  PIC 9(5).
+
+01  difference                          PIC +(5).
+
+PROCEDURE DIVISION.
+    ACCEPT num-items
+    PERFORM VARYING items-idx FROM 1 BY 1 UNTIL items-idx > num-items
+        ACCEPT input-str
+        UNSTRING input-str DELIMITED BY SPACES INTO item-name (items-idx),
+            old-price (items-idx)
+    END-PERFORM
+
+    PERFORM num-items TIMES
+        ACCEPT input-str
+        UNSTRING input-str DELIMITED BY SPACES INTO item-to-find,
+            item-to-find-price
+
+        SET items-idx TO ZERO
+        SEARCH items
+            WHEN item-name (items-idx) = item-to-find
+                MOVE item-to-find-price TO new-price (items-idx)
+        END-SEARCH
+    END-PERFORM
+
+    DISPLAY SPACE
+
+    PERFORM VARYING items-idx FROM 1 BY 1 UNTIL items-idx > num-items
+        SUBTRACT new-price (items-idx) FROM old-price (items-idx)
+            GIVING difference
+        IF difference <> SPACES
+            DISPLAY FUNCTION TRIM(item-name (items-idx)) " "
+                FUNCTION TRIM(difference)
+        END-IF
+    END-PERFORM
+    .
+END PROGRAM nuts-and-bolts.
+
+share
+Save
+windtony
+4 points·4 years ago·edited 4 years ago
+
+erlang
+
+-module(nutsnbolts).
+-export([main/1]).
+
+read_prices(Count) ->
+    lists:map(
+        fun(_) ->
+            {ok, [Item, Price]} = io:fread("", "~s ~d"),
+            {Item, Price}
+        end,
+        lists:seq(1, Count)
+    ).
+
+show_prices(Prices) ->
+    lists:foreach(
+        fun({Item, Price}) ->
+            case Price > 0 of
+                true -> io:fwrite("~s +~B\n", [Item, Price]);
+                false -> io:fwrite("~s ~B\n", [Item, Price])
+            end
+        end,
+        Prices
+    ).
+
+price_changes(Old_prices, New_prices) ->
+    [{Item, Price_change} ||
+        {Item, Price_change} <- lists:zipwith(
+            fun({Item, Old_price}, {Item, New_price}) -> {Item, New_price - Old_price} end,
+            lists:sort(Old_prices),
+            lists:sort(New_prices)
+        ),
+        Price_change /= 0
+    ].
+
+main(_) ->
+    {ok, [Count]} = io:fread("", "~d"),
+    {Old_prices, New_prices} = {read_prices(Count), read_prices(Count)},
+    show_prices(price_changes(Old_prices, New_prices)).
+
+share
+Save
+windtony
+2 points·4 years ago
+
+On second thought it's probably more "erlang" to do the i/o like this:
+
+read_prices(0) -> [];
+read_prices(Count) ->
+        {ok, [Item, Price]} = io:fread("", "~s ~d"),
+        [{Item, Price}] ++ read_prices(Count - 1).
+
+show_prices([]) -> [ok];
+show_prices([{Item, Price}|Tail]) when Price > 0 ->
+    [io:fwrite("~s +~B\n", [Item, Price])] ++ show_prices(Tail);
+show_prices([{Item, Price}|Tail]) ->
+    [io:fwrite("~s ~B\n", [Item, Price])] ++ show_prices(Tail).
+
+share
+Save
+kirsybuu
+0 14 points·4 years ago
+
+D Language
+
+import std.stdio, std.algorithm, std.range, std.conv, std.typecons;
+
+auto toItemAndPrice(char[] line) {
+    auto t = line.findSplit(" ");
+    return tuple(t[0].idup, t[2].to!int());
+}
+void main() {
+    int[string] pricemap;
+    foreach(item, price ; stdin.byLine().drop(1).map!toItemAndPrice) {
+        auto badPrice = item in pricemap;
+        if (badPrice && *badPrice != price) {
+            writefln("%s %+d", item, price - *badPrice);
+        }
+        else {
+            pricemap[item] = price;
+        }
+    }
+}
+
+share
+Save
+rectal_smasher_2000
+1 12 points·4 years ago
+
+my preferred language i c++. is D worth learning?
+
+share
+Save
+kirsybuu
+0 12 points·4 years ago
+
+I'd definitely say so. The language and standard library are designed in a way
+which makes them really enjoyable to use. Compared to C++, D does a lot of
+things much better; this page has some comparisons.
+
+In general, you can learn a lot from trying out a bunch of different languages
+and seeing how they make different ideas easy or hard to express, what
+trade-offs they make, etc.
+
+share
+Save
+rectal_smasher_2000
+1 11 point·4 years ago
+
+noice. thanks!
+
+share
+Save
+Laremere
+1 05 points·4 years ago
+
+Golang:
+
+package main
+
+import (
+        "fmt"
+        "os"
+)
+
+func main(){
+        var count int
+        num, err := fmt.Scanln(&count)
+        if(err != nil || num != 1){
+                fmt.Println("Error reading file");
+                os.Exit(1);
+        }
+        items := make(map[string]int)
+
+        for i := 0; i < count; i++ {
+                var cost int
+                var name string
+                num, err = fmt.Scanln(&name, &cost)
+                if(err != nil || num != 2){
+                        fmt.Println("Error reading file");
+                        os.Exit(1);
+                }
+                items[name] = cost
+        }
+
+        for i := 0; i < count; i++ {
+                var cost int
+                var name string
+                num, err = fmt.Scanln(&name, &cost)
+                if(err != nil || num != 2){
+                        fmt.Println("Error reading file");
+                        os.Exit(1);
+                }
+
+                difference := cost - items[name]
+                if difference != 0 {
+                        var sign string
+                        if (difference > 0){
+                                sign = "+"
+                        }
+                        fmt.Printf("%s %s%d\n", name, sign, difference)
+                        if(err != nil || num != 2){
+                                fmt.Println("Error printing result");
+                                os.Exit(1);
+                        }
+                }
+        }
+}
+
+share
+Save
+Comment deleted4 years ago
+Laremere
+1 03 points·4 years ago
+
+Did not know, many thanks.
+
+share
+Save
+OffPiste18
+3 points·4 years ago
+
+Scala
+
+object NutsAndBolts {
+
+  def main(args: Array[String]): Unit = {
+    val n = readLine().toInt
+    val prev = readPrices(n).sortBy(_._1)
+    val next = readPrices(n).sortBy(_._1)
+    val diffs = next.zip(prev).map{ case (n, p) => (n._1, n._2 - p._2) }
+    diffs.filter(_._2 != 0).foreach {
+      case (item, diff) => println(s"$item $diff")
+    }
+  }
+
+  def readPrices(n: Int): List[(String, Int)] = {
+    (1 to n).map { _ =>
+      val line = readLine()
+      val item = line.split("\\s")(0)
+      val price = line.split("\\s")(1).toInt
+      (item, price)
+    }.toList
+  }
+
+}
+
+share
+Save
+rectal_smasher_2000
+1 13 points·4 years ago
+
+c++(11)
+
+#include <iostream>
+#include <map>
+
+int main() {
+        std::map<std::string, int> items;
+        std::string item;
+        int n_items, price;
+
+        std::cin >> n_items;
+
+        for(unsigned i = 0; i < n_items; ++i) {
+                std::cin >> item >> price;
+                items[item] = price;
+        }
+
+        for(unsigned i = 0; i < n_items; ++i) {
+                std::cin >> item >> price;
+                items[item] = price - items[item];
+        }
+
+        for(auto it : items) {
+                if(it.second > 0)
+                        std::cout << it.first << " +" << it.second << std::endl;
+                else if(it.second < 0)
+                        std::cout << it.first << " -" << it.second * -1 << std::endl;
+        }
+}
+
+share
+Save
+OldNedder
+5 points·4 years ago
+
+Groovy:
+
+System.in.withReader { reader ->
+nLines = reader.readLine().toInteger()
+parts = [:]
+1.upto(nLines) {
+        line = reader.readLine().split()
+        parts[line[0]]=line[1].toInteger()
+}
+1.upto(nLines) {
+        line = reader.readLine().split()
+        oldv = parts.get(line[0]).toInteger()
+        newv = line[1].toInteger()
+        d = newv - oldv
+        if (d != 0) {
+                printf("%s %+d\n",line[0],d);
+        }
+}
+}
+
+share
+Save
+prondose
+0 04 points·4 years ago·edited 4 years ago
+
+Perl:
+
+sub dp144 {
+        my (%o, %n, $d);
+        while (@_) {
+                %o = (%o, split / /, shift);
+                %n = (%n, split / /, pop);
+        }
+
+        map {
+                ($d = $o{$_} - $n{$_}) && printf "%s %+d\n", $_, $d
+        } %o;
+}
+
+share
+Save
+tet5uo
+4 points·4 years ago·edited 4 years ago
+
+I seem to be able to make the simple tasks into a complicated function :D
+
+In Javascript:
+
+function nutsAndBolts(input){
+        var result;
+
+        function PriceList(){
+                this.currentPrices = {};
+                this.oldPrices = {};
+        }
+
+        PriceList.prototype.compare = function(){
+                var diffs = {};
+                var curr = this.currentPrices;
+                var old = this.oldPrices;
+                for (var key in curr){
+                        if (curr[key] !== old[key]){
+                                if(curr[key] < old[key]){
+                                        diffs[key] = -(old[key] - curr[key]);
+                                }else
+                                diffs[key] = curr[key] - old[key];
+                        }
+                }
+                return diffs;
+        };
+
+        function parseInput(inputText){
+                var lines = inputText.split(/\n/g);
+                var numLines = lines.shift();
+                var old = [] , current = [];
+                var list = new PriceList();
+
+                for(var i = 0; i < numLines; ++i){
+                        old.push(lines[i].split(" "));
+                }
+                for(var j = numLines; j < lines.length; ++j){
+                        current.push(lines[j].split(" "));
+                }
+                old.forEach(function(ele){ list.oldPrices[ele[0]] = ele[1]; });
+                current.forEach(function(ele){ list.currentPrices[ele[0]] = ele[1]; });
+                return list;
+        }
+
+        result = parseInput(input).compare();
+        for (var item in result){
+                console.log(item, result[item]);
+        }
+
+}
+
+share
+Save
+BondDotCom
+4 points·4 years ago
+
+VBScript:
+
+a = Split(CreateObject("Scripting.FileSystemObject").OpenTextFile("input.txt", 1).ReadAll(), vbCrLf)
+For i = 1 To (UBound(a) - 1) / 2
+        b = Filter(a, Split(a(i), " ")(0), True)
+        c = Split(b(1), " ")(1) - Split(b(0), " ")(1)
+        If c <> 0 Then WScript.Echo Split(a(i), " ")(0) & Array(" "," +")(Abs(c > 0)) & c
+Next
+
+share
+Save
+leobm
+5 points·4 years ago·edited 4 years ago
+
+Clojure:
+
+(let [l [["CarriageBolt" 45]
+         ["Eyebold" 50]
+         ["Washer" 120]
+         ["Rivet" 10]
+         ["CarriageBolt" 45]
+         ["Eyebold" 45]
+         ["Washer" 140]
+         ["Rivet" 10]]]
+
+  (filter #(not (-> % val (= 0)))
+          (reduce (fn [m [k v]]
+                    (assoc m k (- v (get m k 0)))) {} l)))
+
+output: (["Washer" 20] ["Eyebold" -5])
+
+share
+Save
+code508
+4 points·4 years ago
+
+First Post in Python
+
+def main():
+  item_count = int(raw_input())
+
+  current_list = {}
+  correct_list = {}
+
+  for n in range(item_count):
+    item, price = raw_input().split()
+    current_list[item] = price
+
+  for n in range(item_count):
+    item, price = raw_input().split()
+    correct_list[item] = price
+
+  for key in sorted(correct_list.keys()):
+    if correct_list[key] != current_list[key]:
+      print key, "%+d" % (int(correct_list[key]) - int(current_list[key]))
+
+if __name__ == "__main__":
+  main()
+
+share
+Save
+letalhell
+3 points·4 years ago
+
+May I give you some tip.
+
+You are doing "item, price = raw_input().split()" twice. Instead of putting
+them inside the for loop, put them outside, using a 'for n in range
+(item_count*2)' and a 'if n > item count'.
+
+I like the way you used sorted. ;)
+
+share
+Save
+minikomi
+5 points·4 years ago·edited 4 years ago
+
+racket:
+
+#lang racket
+
+(define (nuts-n-bolts input-string)
+  (define data
+    (port->lines
+     (open-input-string input-string)))
+  (define n (string->number (first data)))
+  (define lines (map string-split (rest data)))
+  (define-values [old new]
+    (values
+     (sort (take lines n) #:key car string<?)
+     (sort (drop lines n) #:key car string<?)))
+  (for ([o old]
+        [n new])
+    (define delta (- (string->number (cadr n))
+                     (string->number (cadr o))))
+    (cond
+      [(> 0 delta)
+       (displayln (~a (car n) ": " delta))]
+      [(< 0 delta)
+       (displayln (~a (car n) ": +" delta))])))
+
+share
+Save
+Tappity
+7 points·4 years ago·edited 4 years ago
+
+Java doesn't have to be all that long either...
+
+import java.util.*;
+class NutsBolts {
+        public static void main(String[] args) {
+                Scanner sc = new Scanner(System.in);
+                int n = sc.nextInt();
+                Hashtable<String, Integer> nTable = new Hashtable<String, Integer>();
+
+                for (int i = 0; i < n; i++)
+                        nTable.put(sc.next(), sc.nextInt()); // put into hashtable
+                for (int i = 0; i < n; i++) {
+                        String item = sc.next();
+                        int q = sc.nextInt() - nTable.get(item); // subtract item's old quantity from new
+                        if (q != 0) System.out.println(item + " " + ((q > 0) ? "+"+q : q)); // print
+                }
+        }
+}
+
+share
+Save
+chunes
+1 26 points·4 years ago
+
+lazy Java
+
+import java.util.Scanner;
+
+public class Easy144 {
+
+    public static void main(String[] args) {
+
+                //input parsing
+            Scanner sc = new Scanner(System.in);
+            int size = Integer.parseInt(sc.nextLine());
+            String[] stupidList = new String[size];
+            String[] goodList = new String[size];
+            stupidList = populate(sc, stupidList);
+            goodList = populate(sc, goodList);
+
+                //main routine
+            for (int i = 0; i < goodList.length; ++i) {
+                    int a = compare(goodList, stupidList, i);
+                    if (a != 0) {
+                            System.out.println(fetchName(goodList[i]) +
+                                    " " + a);
+                    }
+            }
+    }
+
+        //helper method to populate an array with input data
+    private static String[] populate(Scanner sc, String[] s) {
+            for (int i = 0; i < s.length; ++i)
+                    s[i] = sc.nextLine();
+            return s;
+    }
+
+        //grabs the price from a line of input
+    private static int fetchPrice(String line) {
+            String[] z = line.split(" ");
+            return Integer.parseInt(z[1]);
+    }
+
+        //grabs the name from a line of input
+    private static String fetchName(String line) {
+            String[] z = line.split(" ");
+            return z[0];
+    }
+
+        //compares the prices for the thing at gl[index]. Returns
+        //their difference.
+    private static int compare(String[] gl, String[] sl, int index) {
+                int goodPrice = fetchPrice(gl[index]);
+            String name = fetchName(gl[index]);
+            for (int i = 0; i < sl.length; ++i) {
+                        if (sl[i].startsWith(name)) {
+                            int badPrice = fetchPrice(sl[i]);
+                            return goodPrice - badPrice;
+                    }
+            }
+            return -2000; //this will never happen
+    }
+}
+
+share
+Save
+rya11111
+3 17 points·4 years ago
+
+damn java is always big...
+
+share
+Save
+AncientSwordRage
+5 points·4 years ago
+
+But readable, at least it,is to me
+
+share
+Save
+chunes
+1 23 points·4 years ago
+
+Not always. I'm just a fan of helper methods and I used a data structure that
+didn't fit the problem as well as a hash table would've. I also like to keep
+things to one action per line to keep it as readable as possible. And of
+course, there are comments..
+
+share
+Save
+skyangelisme
+0 16 points·4 years ago
+
+Python 2.7 (as it relies on dict comprehensions):
+
+n = int(raw_input())
+d = {x[0]: int(x[1]) for i in xrange(n) for x in [raw_input().split()] }
+d = {x[0]: d[x[0]]-int(x[1]) for i in xrange(n) for x in [raw_input().split()] }
+print "\n".join(k+" "+str(v) for k,v in d.items() if v != 0)
+
+share
+Save
+f0rkk
+3 points·4 years ago
+
+assuming sanitized input the first line can just be
+
+n = input()
+
+in 2.7 as it'll just interpret it as an int to begin with. It's dangerous to do
+something like that normally, but this is looking code-golfy already, so might
+as well.
+
+cool code!
+
+share
+Save
+Comment deleted4 years ago
+f0rkk
+1 point·4 years ago
+
+no problem! Just remember it's not something you can normally do, as 2.7's
+input() tries to interpret stdin as a well-formed python expression. If you
+type anything other than an int (i think) it'll just ask you what you meant as
+there's no variable or function named "(whatever you typed in)". It's weird and
+in fact python 3's input() is just python 2.7's raw_input() which is a lot
+nicer and more predictable.
+
+share
+Save
+zck
+3 points·4 years ago
+
+My code in Arc. Try it online!
+
+(def price-difference (price-string)
+     (w/instring price-port price-string
+                 (withs (items (int (readline price-port))
+                         original-prices (get-nextn-prices price-port items)
+                         updated-prices (get-nextn-prices price-port items))
+
+                       (each (item value) original-prices
+                             (let difference (- updated-prices.item
+                                                original-prices.item)
+                                  (unless (is difference 0)
+                                    (prn item
+                                         #\tab
+                                         (if (< difference 0)
+                                             #\-
+                                           #\+)
+                                         (abs difference)))))))
+     nil)
+
+(def get-nextn-prices (price-port n)
+     (let prices (obj)
+          (repeat n
+                  (let cur (tokens (readline price-port))
+                       (= (prices (car cur))
+                          (int (cadr cur)))))
+          prices))
+
+Call it like this:
+
+arc> (price-difference "4
+CarriageBolt 45
+Eyebolt 50
+Washer 120
+Rivet 10
+CarriageBolt 45
+Eyebolt 45
+Washer 140
+Rivet 10")
+Washer  +20
+Eyebolt -5
+
+share
+Save
+itsthatguy42
+3 points·4 years ago·edited 4 years ago
+
+Javascript using the html5 file api to read the input file. The bare solution
+for this problem is contained in the "code" function.
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <input type="file" id="input">
+    <script type="application/javascript">
+        var readFile = function(evt) {
+            if (window.File && window.FileReader && window.FileList && window.Blob) {
+                var file = evt.target.files[0];
+                if(file) {
+                    var r = new FileReader();
+                    r.onload = function(e) {
+                        code(e.target.result);
+                    }
+                    r.readAsText(file);
+                }
+            } else {
+                alert("The File APIs are not fully supported by your browser.");
+            }
+        };
+        var code = function(file) {
+            file = file.split("\r\n");
+            while(file.indexOf("") != -1)
+                file.splice(file.indexOf(""), 1);
+            var num = Number(file.splice(0, 1)), elem;
+            var incorrect = file.splice(0, num);
+            incorrect.sort();
+            file.sort();
+            for(var i = 0; i < num; i++) {
+                elem = Number(file[i].split(" ")[1]) - Number(incorrect[i].split(" ")[1]);
+                if(elem)
+                    document.write(file[i].split(" ")[0] + " " + elem + "</br>");
+            }
+        };
+        document.getElementById("input").addEventListener("change", readFile, false);
+    </script>
+</body>
+</html>
+
+share
+Save
+[deleted]
+3 points·4 years ago·edited 4 years ago
+
+I'd love to learn how to compact this code with perl's magic.
+
+Perl:
+
+#!/usr/bin/perl
+use v5.10;
+use Data::Dumper;
+use autodie;
+use strict;
+#######################
+#Variables:
+###########
+my %h;
+my @entry;
+my $name;
+my $price;
+my $plus;
+my $items;
+#######################
+#Subroutines:
+#############
+
+#######################
+#I/O
+####
+$items = <>;
+while(<>){
+        chomp;
+        @entry = split;
+        ($name, $price) = @entry;
+        if (exists $h{$name}){
+                $h{$name} = $price - $h{$name};
+        }
+        else{
+                $h{$name} = $price;
+        }
+}
+foreach (sort keys %h) {
+        if ($h{$_}){
+                $plus = "+" if ($h{$_} > 0);
+                say "$_ $plus$h{$_}";
+                $plus = "";
+        }
+}
+
+share
+Save
+h3ckf1r3
+3 points·4 years ago
+
+I tried to golf this, but I ran into a problem and was able to get it to work
+for the first sample where the items are in the same order, but wasn't sure how
+to do it in a different order. Here is what I was able to do, any help
+appreciated :)
+
+Array.new(gets.to_i).to_a.map{gets.split(" ")}.map {|item| [item[0],gets.split(" ")[1].to_i-item[1].to_i]}.each{|item| puts item.join(item[1]>0 ? " +" : " ") if item[1]!=0}
+
+I also solved it in normal code:
+
+old = Array.new(gets.to_i).map{gets.split(" ")}
+new = Array.new(old.size).map{gets.split(" ")}
+old.each do |item|
+        buff = new.reject{|i| !(i[0]==item[0])}.flatten
+        buff[1] = buff[1].to_i - item[1].to_i
+        puts buff.join(buff[1]>0 ? " +" : " ") if buff[1] !=0
+end
+
+Thanks
+
+share
+Save
+thewts
+3 points·4 years ago
+
+C:
+
+#include <stdio.h>
+#include <string.h>
+
+#define MAX_LINE_LENGTH 80
+
+struct Item {
+        char name[20];
+        int price;
+};
+
+void print_items(struct Item items[], int size);
+int get_num_items(FILE *file);
+void read_items(FILE *file, struct Item *items, int num_items);
+void print_differences(struct Item *old_items, struct Item *new_items, int num_items);
+
+int main(int argc, char **argv)
+{
+        char *filename;
+        char line[MAX_LINE_LENGTH];
+        FILE *file;
+
+        if(argc <= 1)
+        {
+                puts("This application requires an argument. The argument should be a file.");
+                return 0;
+        }
+        else
+        {
+                filename = argv[1];
+                file = fopen(filename, "r");
+
+                if(file != NULL)
+                {
+                        int num_items = get_num_items(file);
+
+                        struct Item old_items[num_items];
+                        struct Item new_items[num_items];
+
+                        read_items(file, old_items, num_items);
+                        read_items(file, new_items, num_items);
+                        print_differences(old_items, new_items, num_items);
+                }
+                else
+                {
+                        puts("Couldn't open the file");
+                }
+        }
+
+        return 0;
+}
+
+void read_items(FILE *file, struct Item *items, int num_items)
+{
+        char line[MAX_LINE_LENGTH];
+        int i;
+        for(i = 0; i < num_items; i++)
+        {
+                if(fgets(line, MAX_LINE_LENGTH, file) != NULL)
+                {
+                        sscanf(line, "%s %d", items[i].name, &items[i].price);
+                }
+        }
+}
+
+int get_num_items(FILE *file)
+{
+        char line[MAX_LINE_LENGTH];
+        fgets(line, MAX_LINE_LENGTH, file);
+        int num_items;
+        sscanf(line, "%d", &num_items);
+
+        return num_items;
+}
+
+void print_items(struct Item items[], int size)
+{
+        int i;
+        for(int i = 0; i < size; i++)
+        {
+                printf("%s %d\n", items[i].name, items[i].price);
+        }
+}
+
+void print_differences(struct  Item *old_items, struct Item *new_items, int num_items)
+{
+        struct Item old_item;
+        struct Item new_item;
+
+        int i, j;
+        for(int i = 0; i < num_items; i++)
+        {
+                old_item = old_items[i];
+                for(int j = 0; j < num_items; j++)
+                {
+                        new_item = new_items[j];
+
+                        if(strcmp(old_item.name, new_item.name) == 0)
+                        {
+                                if(new_item.price == old_item.price)
+                                {
+                                        break;
+                                }
+
+                                printf("%s ", old_item.name);
+
+                                if(new_item.price < old_item.price)
+                                {
+                                        printf("%c%d\n", '-', old_item.price-new_item.price);
+                                }
+                                else
+                                {
+                                        printf("%c%d\n", '+', new_item.price-old_item.price);
+                                }
+
+                                break;
+                        }
+                }
+        }
+}
+
+share
+Save
+howdoimakeathrowaway
+3 points·4 years ago
+
+C
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct{
+        char    name[80];
+        int     price;
+} element;
+
+void fill(element* arr, int n){
+        int price, i;
+        char name[80];
+        for (i = 0; i < n; ++i){
+                scanf("%s %i", name, &price);
+                strcpy(arr[i].name, name);
+                arr[i].price = price;
+        }
+}
+
+int main(void){
+        int n;
+        fscanf(stdin, "%i\n", &n);
+
+        element* old = malloc(sizeof(element) * n);
+        element* new = malloc(sizeof(element) * n);
+
+        fill(old, n);
+        fill(new, n);
+
+        for (int i = 0; i < n; ++i){
+                for (int j = 0; j < n; ++j){
+                        if (strcmp(old[i].name, new[j].name) != 0)
+                                continue;
+
+                        if(old[i].price != new[j].price){
+                                int difference = new[j].price - old[i].price;
+                                printf("%s %s%i\n", old[i].name, difference < 0 ? "" : "+", difference);
+                        }
+                }
+        }
+
+        free(old);
+        free(new);
+
+        return 0;
+}
+
+share
+Save
+7f0b
+3 points·4 years ago
+
+PHP class:
+
+class NutsAndBolts
+{
+    public static function getUpdatedItems($input)
+    {
+        // Explode list of rows from input
+        $inputList = explode("\n", str_replace("\r\n", "\n", $input));
+
+        // Item count
+        $itemCount = $inputList[0];
+
+        // Separate old and new item lists
+        $oldList = array_splice($inputList, 1, $itemCount);
+        $newList = array_splice($inputList, 1);
+
+        // Calculate changed rows
+        $changeList = array();
+        for ($i = 0; $i < $itemCount; $i ++) {
+            $old = explode(' ', $oldList[$i]);
+            $new = explode(' ', $newList[$i]);
+            if ($new[1] > $old[1]) {
+                $changeList[] = $new[0] . ' +' . ($new[1] - $old[1]);
+            } elseif ($new[1] < $old[1]) {
+                $changeList[] = $new[0] . ' ' . ($new[1] - $old[1]);
+            }
+        }
+
+        // Return changed rows
+        return implode("\n", $changeList);
+    }
+}
+
+Usage:
+
+echo NutsAndBolts::getUpdatedItems('4
+CarriageBolt 45
+Eyebolt 50
+Washer 120
+Rivet 10
+CarriageBolt 45
+Eyebolt 45
+Washer 140
+Rivet 10');
+
+Output:
+
+Eyebolt -5
+Washer +20
+
+share
+Save
+7f0b
+2 points·4 years ago
+
+And a more compact non-OOP PHP solution:
+
+function getUpdatedItems($input) {
+    $inputList = explode("\n", str_replace("\r\n", "\n", $input));
+    $itemCount = $inputList[0];
+    $oldList = array_splice($inputList, 1, $itemCount);
+    $newList = array_splice($inputList, 1);
+    for ($i = 0; $i < $itemCount; $i ++) {
+        $old = explode(' ', $oldList[$i]);
+        $new = explode(' ', $newList[$i]);
+        if ($new[1] > $old[1]) {
+            echo $new[0] . ' +' . ($new[1] - $old[1]) . "\n";
+        } elseif ($new[1] < $old[1]) {
+            echo $new[0] . ' ' . ($new[1] - $old[1]) . "\n";
+        }
+    }
+}
+
+Usage:
+
+getUpdatedItems('4
+CarriageBolt 45
+Eyebolt 50
+Washer 120
+Rivet 10
+CarriageBolt 45
+Eyebolt 45
+Washer 140
+Rivet 10');
+
+share
+Save
+huuuuh
+3 points·4 years ago
+
+I enjoyed doing this, thanks. I learned a few things, too.
+
+Python 2.7:
+
+itemList = open('itemlist.txt','r').read().splitlines()
+listLength = int(itemList[0])
+
+oldPrices = {itemList[i].split()[0]: int(itemList[i].split()[1])
+             for i in range(1,listLength+1)}
+newPrices = {itemList[i].split()[0]: int(itemList[i].split()[1])
+             for i in range(listLength+1,2*listLength+1)}
+
+for k in oldPrices.keys():
+    if k in newPrices.keys() and oldPrices[k] != newPrices[k]:
+         print "{} {:+d}".format(k, newPrices[k]-oldPrices[k])
+
+share
+Save
+Fatal510
+3 points·4 years ago
+
+My first submission for one of these. In C#
+
+using System;
+using System.Collections.Generic;
+using System.IO;
+
+namespace DailyProgrammer
+{
+    class Item
+    {
+        public Item(string name, int price)
+        {
+            this.name = name;
+            this.price = price;
+        }
+        public string name;
+        public int price;
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<Item> items = new List<Item>();
+            int records;
+            string line;
+
+            StreamReader sr = new StreamReader("records.txt");
+            records = Convert.ToInt32(sr.ReadLine());
+            while ((line = sr.ReadLine()) != null)
+            {
+                var parts = line.Split(' ');
+                items.Add(new Item(parts[0], Convert.ToInt32(parts[1])));
+            }
+
+            for (int i = 0; i < 4; i++)
+            {
+                for (int x = records; x < records * 2; x++)
+                {
+                    if (items[i].name == items[x].name)
+                    {
+                        int diff = items[x].price - items[i].price;
+                        if (diff != 0)
+                        {
+                            Console.WriteLine(items[i].name + " " + diff.ToString("+0;-0"));
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+share
+Save
+simpsun77
+1 point·4 years ago
+
+In this line:
+
+for (int i = 0; i < 4; i++)
+
+I think you mean:
+
+for (int i = 0; i < records / 2; i++)
+
+Also, you can avoid the double for-loop by using some collection like a
+dictionary. Once the first half of the input is read, you'll be able to quickly
+look up the old value for each line in the second half.
+
+share
+Save
+nivekmai
+3 points·4 years ago
+
+Naive python (gotta go learn about dicts):
+
+with open("data.txt") as f:
+        data = f.read().split('\n');
+for line in xrange( 1, int(data[0])+1):
+        oldName, oldPrice = data[line].split()
+        for nextLine in xrange(int(data[0]), len(data)-1):
+                newName, newPrice = data[nextLine].split()
+                if newName == oldName:
+                        diff = int(newPrice) - int(oldPrice)
+                        if diff != 0:
+                                # she can na' go deepah cap'n!
+                                print newName + (" +" if diff > 0 else " ") + str(diff)
+                                break
+
+share
+Save
+ponkanpinoy
+3 points·4 years ago
+
+Common lisp. Needed to learn some string and stream handling. Otherwise parsing
+the input could be less complex. Actually it would still be crappy even if I
+processed them as symbols. At least it preserves case this way.
+
+(defun update (prices)
+  (let ((item-num 0)
+        (old nil)
+        (new nil)
+        (item-list nil))
+    (with-open-stream (s (make-string-input-stream prices))
+      (setf item-num (read s))
+      (dotimes (i item-num) (push (cons (read s) (read s)) old))
+      (dotimes (i item-num) (push (cons (read s) (read s)) new)))
+  (setf item-list (mapcar #'car old))
+  (loop for item in item-list
+          unless (equal (assoc item old) (assoc item new))
+          do (format t "~15@a ~,2@f ~&" item (- (cdr (assoc item new))
+                                                                    (cdr (assoc item old)))))))
+
+share
+Save
+pbl24
+3 points·4 years ago
+
+Python
+
+def run(orig, new):
+  t = { k: ((new[k] - orig[k]), '+' if new[k] > orig[k] else '-') for k in new }
+  print '\n'.join(['%s %s%s' % (k, v[1], abs(v[0])) for (k, v) in t.items() if v[0] != 0])
+
+def pi(i):
+  return { i[n].split(' ')[0]: int(i[n].split(' ')[1]) for n in range(0, len(i)) }
+
+n = input()
+d1 = pi([raw_input() for x in xrange(n)])
+d2 = pi([raw_input() for x in xrange(n)])
+run(d1, d2)
+
+share
+Save
+tanaqui
+3 points·4 years ago
+
+more noob Java!
+
+import java.io.File;
+import java.io.IOException;
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class NutsAndBolts {
+
+    private static class Item {
+        private String itemName;
+        private int currentPrice;
+        private int changeFromPreviousPrice;
+
+        public Item(String name, int price) {
+            itemName = name;
+            currentPrice = price;
+        }
+
+        public String getItemName() {
+            return itemName;
+        }
+
+        public int getChangeInPrice() {
+            return changeFromPreviousPrice;
+        }
+
+        public void setCurrentPrice(int newPrice) {
+            changeFromPreviousPrice = newPrice - currentPrice;
+            currentPrice = newPrice;
+        }
+
+        public String toString() {
+            DecimalFormat priceChange = new DecimalFormat("+#;-#");
+            return String.format("%s %s", itemName,
+                                             priceChange.format(changeFromPreviousPrice));
+        }
+    }
+
+    public static Item findItemByName(String name, Item[] items) {
+        for (Item i : items) {
+            if (name.equals(i.getItemName())) {
+                return i;
+            }
+        }
+
+        return null;
+    }
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter input filename: ");
+        String filename = input.nextLine().trim();
+
+        try {
+            Scanner file = new Scanner(new File(filename));
+
+            int itemsToRead = Integer.parseInt(file.nextLine());
+            Item[] items = new Item[itemsToRead];
+
+            for (int i=0; i < items.length; i++) {
+                items[i] = new Item(file.next(), Integer.parseInt(file.next()));
+            }
+
+            while (itemsToRead > 0) {
+                Item i = findItemByName(file.next(), items);
+                i.setCurrentPrice(Integer.parseInt(file.next()));
+                if (i.getChangeInPrice() != 0) {
+                    System.out.println(i);
+                }
+                itemsToRead--;
+            }
+        } catch (IOException e) {
+            System.out.println("File read error");
+        }
+    }
+}
+
+share
+Save
+stats94
+3 points·4 years ago
+
+First attempt at doing any one of these. Thought I'd stick to the java, there's
+probably a better way to do it though!
+
+Java
+
+    Item.java
+
+public class Item {
+private final String name;
+private final int price;
+
+public Item(String info){
+        String[] splitInfo = info.split(" ");
+
+        name = splitInfo[0];
+        price = Integer.parseInt(splitInfo[1]);
+}
+
+public String getName() {
+        return name;
+}
+public int getPrice() {
+        return price;
+}
+
+    NutsAndBolts.java
+
+public class NutsAndBolts {
+private ArrayList<Item> items = new ArrayList<Item>();
+
+public static void main(String[] args) {
+        NutsAndBolts nab = new NutsAndBolts();
+
+        File file1 = new File("src//challenge144//sampleinput1.txt");
+        File file2 = new File("src//challenge144//sampleinput2.txt");
+
+        nab.read(file1);
+        System.out.println();
+        nab.read(file2);
+}
+
+public void read(File file1){
+        Scanner sc = null;
+        try {
+                sc = new Scanner(file1);
+        } catch (FileNotFoundException e1) {
+                // TODO Auto-generated catch block
+                e1.printStackTrace();
+        }
+
+        int rows = 0;
+
+        try {
+                rows = Integer.parseInt(sc.nextLine());
+        } catch (NumberFormatException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+        }
+
+        for (int i = 0; i < rows; i++){
+                Item item = createItem(sc);
+
+                items.add(item);
+        }
+
+        for (int i = 0; i < rows; i++){
+                Item item = createItem(sc);
+
+                for(Item origItem : items){
+                        if(origItem.getName().equals(item.getName())){
+                                int newPrice = item.getPrice();
+                                int origPrice = origItem.getPrice();
+
+                                if (newPrice != origPrice) {
+                                        int difference = origPrice - newPrice;
+
+                                        System.out.println(item.getName() +" "+ difference);
+                                }
+                        }
+                }
+        }
+}
+
+private Item createItem(Scanner br) {
+        String line = null;
+        line = br.nextLine();
+
+        Item item = new Item(line);
+
+        return item;
+}
+
+}
+
+share
+Save
+_ewan
+3 points·4 years ago
+
+Python
+
+#!/usr/bin/python
+
+import sys
+
+num = int(sys.stdin.readline())
+input = sys.stdin.readlines()
+
+dict = {}
+
+for x in input:
+    key, value =  x.strip().split()
+    if dict.has_key(key):
+        if dict[key] != value:
+            difference =  (int(value) - int(dict[key]))
+            if difference > 0:
+                print "{} +{}".format(key, difference)
+            else:
+                print key, difference
+    else:
+        dict[key]=value
+
+share
+Save
+thoth7907
+0 13 points·4 years ago·edited 4 years ago
+
+First time (late) entry. I decided to learn PowerShell by doing these
+challenges, make it fun!
+
+$a = (get-content $args[0])
+
+$inv = @{}
+foreach($i in $a) {
+  $l = $i.split()
+  if (!$l[1]) {
+    continue;
+  }
+
+  if ($inv.ContainsKey($l[0])) {
+  #item present, adjust price
+    $price = $inv.Get_Item($l[0])
+    $price = $l[1] - $price
+    $inv.Set_Item($l[0], $price)
+  }
+  else {
+  #item not present, add it
+    $inv.Add($l[0], $l[1])
+  }
+}
+
+foreach ($i in $inv.GetEnumerator()) {
+  if ($i.Value) {
+    Write-Host -NoNewLine "$($i.Name) "
+    if ($i.Value -gt 0) {
+      Write-Host -NoNewLine "+"
+    }
+    Write-Host "$($i.Value)"
+  }
+}
+
+This works by using a hash table - the first time an item shows up, add it; the
+second time will be a new price, so calculate the delta. This method ignores
+the first line of the file, the number of inventory items, since it isn't
+needed (assuming well-formed data files). It reads the file passed in on the
+command line.
+
+share
+Save
+itsteve
+1 point·4 years ago
+
+Sweet, another PowerShell entry. Nice work!
+
+share
+Save
+letalhell
+3 points·4 years ago·edited 4 years ago
+
+Python 2.7 I see I have used far too many iterations... Anyway...
+
+f = open('nutbolt.txt')
+nOfItems = int(f.readline())
+items_old = {}
+items_new = {}
+change_list = {}
+for n in xrange(nOfItems*2):
+    item, price = f.readline().split(' ')
+    if n < nOfItems:
+        items_old[item] = int(price)
+    else:
+        items_new[item] = int(price)
+for item in items_old:
+        if items_old[item] != items_new[item]:
+            change_list[item] = items_new[item] - items_old[item]
+for item, price in sorted(change_list.iteritems()):
+    print item,'%+d'%price
+
+share
+Save
+dogpants
+3 points·4 years ago
+
+JavaScript
+
+function computeCosts(data) {
+    if (data instanceof Array) {
+        var rows = data[0];
+        if (typeof rows !== 'number' || data.length - 1 !== rows * 2)
+            throw new Error('computeCosts: invalid input');
+        var oldArr = data.slice(1, rows + 1);
+        var newArr = data.slice(rows + 1);
+        var result = [];
+
+        for (var i = 0; i < rows; i++) {
+            var o = oldArr.shift().split(' ');
+            for (var j = 0; j < rows; j++) {
+                var n = newArr[j].split(' ');
+                if (o[0].toLowerCase() === n[0].toLowerCase()) {
+                    var val = n[1] - o[1];
+                    if (val > 0) val = '+' + val;
+                    if (val === 0) continue;
+                    result.push(n[0], ''+val);
+                }
+            }
+        }
+
+        return result;
+    }
+}
+
+var costs = computeCosts(in2);
+
+for (var i = 0; i < costs.length; i += 2) {
+    console.log(costs[i] + ': ' + costs[i + 1]);
+}
+
+share
+Save
+jellyw00t
+3 points·4 years ago
+
+import java.util.Scanner;
+public class Nuts_And_Bolts{
+    public static void main(String[] args){
+            Scanner userInput = new Scanner (System.in);
+            System.out.print("Enter the number of items: ");
+            String[][] oldItems = new String[2][userInput.nextInt()];
+            String[][] newItems = new String[2][oldItems[0].length];
+            for(int i=0; i<oldItems[0].length; i++){oldItems[0][i]="";oldItems[1][i]="";newItems[0][i]="";newItems[1][i]="";}
+            String[] changedItems = new String[oldItems[0].length];
+            int[] changedPrice = new int[changedItems.length];
+            userInput.nextLine();
+
+        for(int i=0; i<oldItems[0].length; i++){
+                System.out.println("Enter the name of the item w/o spaces followed by a space and then the old price in whole integers:");
+                String both=userInput.nextLine();
+                boolean change = false;
+                for(int j=0; j<both.length(); j++){
+                        if(both.charAt(j)==' '){change=true;}
+                        else if(change){oldItems[1][i]=oldItems[1][i]+both.charAt(j);}
+                        else{oldItems[0][i]=oldItems[0][i]+both.charAt(j);}
+                }
+        }
+
+        for(int i=0; i<newItems[0].length; i++){
+                System.out.println("Enter the name of the item w/o spaces followed by a space and then the new price in whole integers:");
+                String both=userInput.nextLine();
+                boolean change = false;
+                for(int j=0; j<both.length(); j++){
+                        if(both.charAt(j)==' '){change=true;}
+                        else if(change){newItems[1][i]=newItems[1][i]+both.charAt(j);}
+                        else{newItems[0][i]=newItems[0][i]+both.charAt(j);}
+                }
+        }
+
+        int k=0;
+        for(int i=0; i<oldItems[0].length; i++){
+                for(int j=0; j<newItems[0].length; j++){
+                        if(oldItems[0][i].equals(newItems[0][j])){
+                                if(Integer.parseInt(oldItems[1][i])!=Integer.parseInt(newItems[1][j])){
+                                        changedItems[k]=newItems[0][j];
+                                        changedPrice[k]=Integer.parseInt(newItems[1][j])-Integer.parseInt(oldItems[1][i]);
+                                        k++;
+                                }
+                        }
+                }
+        }
+
+        System.out.println("These items have changed in price:");
+        for(int i=0; i<changedItems.length && changedItems[i]!=null; i++){
+                System.out.print(changedItems[i]+" ");
+                if(changedPrice[i]>0){System.out.print("+");}
+                System.out.println(changedPrice[i]);
+        }
+}
+
+}
+
+First time posting here.. Feedback would be great! Java
+
+share
+Save
+BestPseudonym
+1 point·4 years ago
+
+Mine if you want to compare, I'm fairly new to programming but it works
+alright. It scans in a file and outputs into another file.
+
+import java.util.*;
+import java.io.*;
+
+public class NutsNBolts
+{
+        public static void main(String[] args)
+        {
+                if(args.length < 2)
+                {
+                        System.out.println("Usage: NutsNBolts inputFile outputFile");
+                }
+                try
+                {
+                        Scanner in = new Scanner(new File(args[0]));
+                        PrintWriter out = new PrintWriter(new File(args[1]));
+                        ArrayList<String> itemName = new ArrayList<>();
+                        ArrayList<Integer> itemPrice = new ArrayList<>();
+
+                        while(in.hasNextLine())
+                        {
+                                String line = in.nextLine();
+                                String[] tokens = line.split(" ");
+
+                                for(int i=0; i<tokens.length; i++)
+                                {
+                                        if(Character.isDigit(tokens[i].charAt(0)))
+                                        {
+                                                itemPrice.add(Integer.parseInt(tokens[i]));
+                                        }
+                                        else
+                                        {
+                                                itemName.add(tokens[i]);
+                                        }
+                                }
+                        }
+                        for(int i=0; i<itemName.size()/2; i++)
+                        {
+                                int price1 = itemPrice.get(i);
+                                int price2 = itemPrice.get(i+itemName.size()/2);
+                                if(price1 != price2)
+                                {
+                                        if(price2 - price1 < 0)
+                                        {
+                                                out.println(itemName.get(i) + " " + (price2 - price1));
+                                        }
+                                        else
+                                        {
+                                                out.println(itemName.get(i) + " +" + (price2 - price1));
+                                        }
+                                }
+                        }
+
+                        out.close();
+                }
+                catch(IOException exception)
+                {
+                        System.out.println("IO Exception");
+                }
+        }
+}
+
+share
+Save
+Rivaw
+3 points·4 years ago
+
+My very short and not OOP Java solution, critique will be apreciated. Also
+first time I submit something here :)
+
+EDIT: Oh dear, I hadn't noticed the part where it says the lists may not have
+the same order, will work on a solution in a few hours.
+
+    public class Easy144 {
+     public static void main(String[] args) throws NumberFormatException, IOException {
+
+
+                BufferedReader buffer = new BufferedReader(new FileReader("C:\\items.txt"));
+                ArrayList<String[]> items = new ArrayList<String[]>();
+                int limit = Integer.parseInt(buffer.readLine());
+                for(int i = 0; i < limit*2; i++) {
+                        items.add(buffer.readLine().split(" "));
+                }
+                buffer.close();
+                for(int i = 0; i < items.size()/2; i++) {
+                        if (Integer.parseInt(items.get(i)[1])!= Integer.parseInt(items.get(i+limit)[1])) {
+                                if (Integer.parseInt(items.get(i)[1]) < Integer.parseInt(items.get(i+limit)[1]))
+                                        System.out.println(items.get(i)[0]+" +"+(Integer.parseInt(items.get(i+limit)[1]) -Integer.parseInt(items.get(i)[1])));
+                                else
+                                        System.out.println(items.get(i)[0]+" -"+(Integer.parseInt(items.get(i)[1]) - (Integer.parseInt(items.get(i+limit)[1]))));
+                        }
+                     }
+         }
+   }
+
+share
+Save
+0x746d616e
+3 points·4 years ago
+
+Go:
+
+package main
+
+import (
+        "fmt"
+)
+
+func main() {
+        var n, price int
+        var name string
+        items := make(map[string]int)
+        fmt.Scanln(&n)
+
+        for i := 0; i < n; i++ {
+                fmt.Scan(&name)
+                fmt.Scan(&price)
+                items[name] = price
+        }
+
+        for i := 0; i < n; i++ {
+                fmt.Scan(&name)
+                fmt.Scan(&price)
+                diff := price - items[name]
+                if diff != 0 {
+                        fmt.Printf("%s %+d\n", name, diff)
+                }
+        }
+}
+
+share
+Save
+Jerae
+3 points·4 years ago·edited 4 years ago
+
+My attempt in Python (3) after a looong hiatus with no programming. Having
+forgotten most of the basics, this took longer than expected to be honest, and
+it's waay less elegant than some of the solutions posted here. In any case...
+
+#!/usr/bin/env python3
+import os
+from sys import argv
+
+def main(route):
+    with open(os.path.abspath(route)) as f:
+        data = [line.strip("\n").split() for line in f.readlines()]
+    names, prices = map(list, zip(*data))
+    prices = [int(x) for x in prices]
+    result = [[], []]
+    for item in names:
+        if names.count(item) > 1 and item in result[0]:
+            positions = [x for x, y in enumerate(names) if y == item]
+            result[1][result[0].index(item)] = \
+                prices[positions[1]] - result[1][result[0].index(item)]
+        else:
+            result[0].append(item)
+            result[1].append(prices[names.index(item)])
+    return result
+
+res = main(argv[1])
+for item in res[0]:
+    if res[1][res[0].index(item)] == 0:
+        continue
+    else:
+        print("{0} {1:+}".format(item, res[1][res[0].index(item)]))
+
+Usage: ./nails.py <name/route of the file>
+
+My program supposes that the file is properly formatted, aka no trailing
+whitespace and no invalid values.
+
+share
+Save
+munkyeetr
+3 points·4 years ago
+
+VB.NET 2010
+
+Imports System.IO
+
+Private inventory As New System.Collections.Generic.Dictionary(Of String, Integer)
+
+Sub Main()
+    Using r As StreamReader = New StreamReader("prices.txt")
+        Do Until r.EndOfStream
+            Dim line() As String = r.ReadLine.Split
+
+            Dim product As String = line(0)         ' product name
+            Dim price As Integer = CInt(line(1))    ' product price
+
+            ' if this is a new product, add it to inventory
+            If Not inventory.ContainsKey(product) Then
+                inventory.Add(product, price)
+            Else
+                ' if price has changed...
+                If inventory(product) <> price Then
+                    ' output the difference in price
+                    Console.WriteLine(String.Format("{0} {1}{2}", product, If(inventory(product) < price, "+", String.Empty), price - inventory(product)))
+                    ' update the inventory
+                    inventory(product) = price
+                End If
+            End If
+        Loop
+    End Using
+End Sub
+
+share
+Save
+AnthonyInsanity
+3 points·4 years ago
+
+my python 2.7! I improved a lot from last weeks [easy].
+
+with open('input.txt', 'r') as f:
+        a = int(f.readline().strip())
+        inv = dict([f.readline().split() for i in range(a)])
+        newinv = dict([f.readline().split() for i in range(a)])
+
+result = [' '.join((keys, str(int(inv[keys]) - int(newinv[keys])))) for keys in inv if inv[keys] != newinv[keys]]
+print result
+
+share
+Save
+itsteve
+3 points·4 years ago
+
+PowerShell
+
+$lista = @()
+$listb = @()
+$n = Read-Host "# rows in list"
+$rows = 0
+
+while($rows -ne 2*$n){
+    [string]$input = Read-Host
+    if($rows -lt $n){
+        $lista += $input
+    }
+    else {
+        $listb += $input
+    }
+    $rows += 1
+}
+foreach($itema in $lista){
+    foreach($itemb in $listb){
+        $data = $itema -split "\s"
+        if($itemb -match $data[0]){
+            $data2 = $itemb -split "\s"
+            if($data2[1] -ne $data[1]){
+                $newprice = $data2[1] - $data[1]
+                if($newprice -gt 0){
+                    $newprice = "+" + $newprice
+                }
+                "$($data[0]) $newprice"
+            }
+        }
+    }
+}
+
+share
+Save
+donttalktome
+3 points·4 years ago
+
+Another java:
+
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class NutsAndBolts {
+
+        public static void main(String[] args)
+        {
+        Scanner userInput = new Scanner(System.in);
+        int size = userInput.nextInt();
+        HashMap<String, Integer> price = new HashMap<String, Integer>();
+
+        for (int i = 0; i < size; i++) {
+                price.put(userInput.next(), userInput.nextInt());
+        }
+
+        System.out.print("\n\nPrice Changes:\n");
+
+        for (int i = 0; i < size; i++) {
+                String item = userInput.next();
+                int firstPrice  = price.get(item);
+                int secondPrice = userInput.nextInt();
+                int priceChange = secondPrice - firstPrice;
+
+                if (priceChange != 0) {
+                        System.out.print(item + " ");
+                        if (priceChange > 0) {
+                                 System.out.print("+");
+                        }
+
+                        System.out.println(priceChange);
+                }
+         }
+        }
+}
+
+share
+Save
+whonut
+1 03 points·4 years ago
+
+Python. I've been wholly outshone by u/kamelasher, but hey:
+
+item_oldprice=dict()
+item_newprice=dict()
+num_items=raw_input('Enter the number of items: ')
+for n in range(0,int(num_items)):
+    input=raw_input('Enter item and old price: ')
+    item_oldprice[input.split()[0]]=int(input.split()[1])
+for n in range(0,int(num_items)):
+    input=raw_input('Enter item and new price: ')
+    item_newprice[input.split()[0]]=int(input.split()[1])
+print ''
+for item in item_oldprice.keys():
+    if item_oldprice[item]!=item_newprice[item]:
+        if item_oldprice[item]<item_newprice[item]:
+            print item,'+'+str(item_newprice[item]-item_oldprice[item])
+        else:
+            print item,str(item_newprice[item]-item_oldprice[item])
+
+share
+Save
+brvisi
+3 points·4 years ago
+
+C++. Would greatly appreciate some feedback.
+
+#include <string>
+#include <vector>
+#include <iostream>
+#include <sstream>
+
+struct sItem
+{
+    std::string strName;
+    std::string strPrice;
+};
+
+std::vector<sItem> vList1;
+std::vector<sItem> vList2;
+std::vector<sItem> vResult;
+
+int main()
+{
+    int nLines;
+    std::cin >> nLines;
+
+    for (int iii=0; iii<nLines; iii++)
+    {
+            sItem sItem;
+            std::cin >> sItem.strName >> sItem.strPrice;
+            vList1.push_back(sItem);
+    }
+
+    for (int iii=0; iii<nLines; iii++)
+    {
+            sItem sItem;
+            std::cin >> sItem.strName >> sItem.strPrice;
+            vList2.push_back(sItem);
+    }
+
+    for (unsigned int iii=0; iii<vList1.size(); iii++)
+    {
+            for (unsigned int jjj=0; jjj<vList2.size(); jjj++)
+            {
+                    if (vList1[iii].strName == vList2[jjj].strName &&
+                           vList1[iii].strPrice != vList2[iii].strPrice)
+                    {
+                            sItem sItem;
+                            sItem.strName = vList1[iii].strName;
+                            std::stringstream ss;
+                            int nPriceDif;
+                            nPriceDif = atoi(vList2[iii].strPrice.c_str()) - atoi(vList1[iii].strPrice.c_str());
+                            if (nPriceDif > 0) { ss << "+" << nPriceDif; }
+                            if (nPriceDif < 0) { ss << nPriceDif; }
+                            sItem.strPrice = ss.str();
+                            vResult.push_back(sItem);
+                    }
+            }
+    }
+
+    for (unsigned int iii=0; iii<vResult.size(); iii++)
+    {
+            std::cout << vResult[iii].strName << " " << vResult[iii].strPrice << std::endl;
+    }
+
+    return 0;
+}
+
+share
+Save
+[deleted]
+3 points·4 years ago
+
+C++, any feedback is appreciated:
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+    vector<string> items;
+    vector<float> prices;
+    int number_of_items;
+    string current_item;
+    float current_price;
+    vector<int> corrected_items;
+    vector<float> price_changes;
+
+    cin >> number_of_items;
+
+    for(int i = 0; i < number_of_items; i++)
+    {
+        cin >> current_item >> current_price;
+        items.push_back(current_item);
+        prices.push_back(current_price);
+    }
+
+    for(int i = 0; i < number_of_items; i++)
+    {
+        cin >> current_item >> current_price;
+
+        for(int j = 0; j < number_of_items; j++)
+        {
+            if(items[j] == current_item && prices[j] != current_price)
+            {
+                corrected_items.push_back(j);
+                price_changes.push_back(current_price - prices[j]);
+            }
+        }
+    }
+
+    cout <<endl;
+
+    for(int i = 0; i < corrected_items.size(); i++)
+    {
+        cout << items[corrected_items[i]] << " ";
+
+        if(price_changes[i] > 0)
+        {
+            cout << "+";
+        }
+
+        cout << price_changes[i]<<endl;
+    }
+
+    cin.get();
+    cin.ignore(255, '\n');
+    cin.clear();
+    return 0;
+}
+
+share
+Save
+youssarian
+0 03 points·4 years ago
+
+C#. I was able to omit the number of rows by using a dictionary.
+
+class Program
+{
+    static void Main()
+    {
+        Dictionary<string, int> stock = new Dictionary<string, int>();
+
+        // Read in every line in the file.
+        using (StreamReader reader = new StreamReader("input.txt"))
+        {
+            string line;
+            while ((line = reader.ReadLine()) != null)
+            {
+                string[] words = line.Split(' ');
+                string item = words[0];
+                int count = Int32.Parse(words[1]);
+
+                if(stock.ContainsKey(item)){
+                    if(stock[item] != count)
+                      Console.WriteLine(item + " " + (count - stock[item]));
+                }else{
+                    stock.Add(item, count);
+                }
+             }
+        }
+    }
+}
+
+share
+Save
+BestPseudonym
+3 points·4 years ago
+
+Java, with writing the output into a file and taking input from a file:
+
+import java.util.*;
+import java.io.*;
+
+public class NutsNBolts
+{
+        public static void main(String[] args)
+        {
+                try
+                {
+                        Scanner in = new Scanner(new File(args[0]));
+                        PrintWriter out = new PrintWriter(new File(args[1]));
+                        ArrayList<String> itemName = new ArrayList<>();
+                        ArrayList<Integer> itemPrice = new ArrayList<>();
+
+                        while(in.hasNextLine())
+                        {
+                                String line = in.nextLine();
+                                String[] tokens = line.split(" ");
+
+                                for(int i=0; i<tokens.length; i++)
+                                {
+                                        if(Character.isDigit(tokens[i].charAt(0)))
+                                        {
+                                                itemPrice.add(Integer.parseInt(tokens[i]));
+                                        }
+                                        else
+                                        {
+                                                itemName.add(tokens[i]);
+                                        }
+                                }
+                        }
+                        for(int i=0; i<itemName.size()/2; i++)
+                        {
+                                int price1 = itemPrice.get(i);
+                                int price2 = itemPrice.get(i+itemName.size()/2);
+                                if(price1 != price2)
+                                {
+                                        if(price2 - price1 < 0)
+                                        {
+                                                out.println(itemName.get(i) + " " + (price2 - price1));
+                                        }
+                                        else
+                                        {
+                                                out.println(itemName.get(i) + " +" + (price2 - price1));
+                                        }
+                                }
+                        }
+
+
+                        out.close();
+                }
+                catch(IOException exception)
+                {
+                        System.out.println("IO Exception");
+                }
+        }
+}
+
+share
+Save
+stuartnelson3
+3 points·4 years ago
+
+In Go:
+
+package main
+
+import (
+    "fmt"
+)
+
+func main() {
+    var loopCount int
+    fmt.Scan(&loopCount)
+    var itemMap = make(map[string]int, loopCount)
+    for i := 0; i < 2*loopCount; i++ {
+        var name string
+        var price int
+        fmt.Scan(&name, &price)
+        if i < loopCount {
+            itemMap[name] = price
+        } else {
+            itemMap[name] = price - itemMap[name]
+            if itemMap[name] == 0 {
+                delete(itemMap, name)
+            }
+        }
+    }
+    for k, v := range itemMap {
+        fmt.Printf("%s %d\n", k, v)
+    }
+}
+
+share
+Save
+jjiceman
+3 points·4 years ago
+
+Ruby
+
+items = Hash.new(0)
+num = $stdin.readline.to_i
+(2 * num).times { |i|
+        line = $stdin.readline.split
+        items[line[0]] += (i >= num ? 1 : -1) * line[1].to_i
+}
+items.each { |k,v|
+        puts "%s %+d" % [k, v] if v != 0
+}
+
+share
+Save
+omnichroma
+3 points·4 years ago
+
+C#
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace inventory
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int lines = Int32.Parse(Console.ReadLine());
+            List<string> final = new List<string>();
+            Dictionary<string, int> incorrect = new Dictionary<string,int>();
+            for (int i = 0; i < lines; i++)
+            {
+                string[] temp = Console.ReadLine().Split();
+                incorrect.Add(temp[0], Int32.Parse(temp[1]));
+            }
+            Dictionary<string, int> correct = new Dictionary<string, int>();
+            for (int i = 0; i < lines; i++)
+            {
+                string[] temp = Console.ReadLine().Split();
+                correct.Add(temp[0], Int32.Parse(temp[1]));
+            }
+            foreach(KeyValuePair<string, int> kv in incorrect)
+            {
+                if (kv.Value > correct[kv.Key] || kv.Value < correct[kv.Key])
+                {
+                    if (kv.Value < correct[kv.Key])
+                    {
+                        final.Add(kv.Key + " +" + (Math.Abs(correct[kv.Key] - kv.Value)));
+                    }
+                    else
+                    {
+                        final.Add(kv.Key + " -" + (Math.Abs(kv.Value - correct[kv.Key])));
+                    }
+                }
+            }
+            final.ForEach(s => Console.WriteLine(s));
+            Console.ReadKey();
+        }
+    }
+}
+
+share
+Save
+CujoIHSV
+4 points·4 years ago
+
+C#
+
+using System;
+using System.Collections.Generic;
+using System.IO;
+
+namespace NutsAndBolts
+{
+
+    class MainClass
+    {
+
+        public static void Main(string[] args)
+        {
+
+            var inputText = File.ReadAllLines(args[0]);
+            var nItems = Convert.ToInt32(inputText[0]);
+
+            var inventory = new Dictionary<string, string>();
+            for (var i = 1; i <= nItems; ++i)
+            {
+                var itemStrings = inputText[i].Split(' ');
+                inventory.Add(itemStrings[0], itemStrings[1]);
+            }
+
+            var outputText = string.Empty;
+            for (var i = 1; i <= nItems; ++i)
+            {
+
+                var itemStrings = inputText[i + nItems].Split(' ');
+                if (itemStrings[1] != inventory[itemStrings[0]])
+                {
+
+                    var priceDiff = Convert.ToInt32(itemStrings[1])
+                                       - Convert.ToInt32(inventory[itemStrings[0]]);
+                    outputText += itemStrings[0] + " ";
+                    if (priceDiff > 0)
+                        outputText += "+";
+                    outputText += priceDiff.ToString() + "\n";
+
+                }
+
+            }
+
+            Console.Write(outputText);
+
+        }
+
+    }
+
+}
+
+Edited to fix one line getting cut off due to length.
+
+share
+Save
+drch
+0 13 points·4 years ago
+
+C# Linq one-liner of doom:
+
+static void Main(string[] args)
+{
+    Console.WriteLine(string.Join("\n", Console.In.ReadToEnd().Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries).Skip(1).Select(x => x.Split()).Select(x => new { Name = x[0], Price = int.Parse(x[1]) }).ToLookup(x => x.Name).Select(x => new { x.First().Name, Diff = x.ElementAt(1).Price - x.ElementAt(0).Price }).Where(x => x.Diff != 0).Select(x => x.Name + " " + (x.Diff > 0 ? "+" : "") + x.Diff)));
+}
+
+Readable version:
+
+Console.WriteLine(
+    string.Join("\n",
+        Console.In.ReadToEnd()
+            .Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries)
+            .Skip(1)
+            .Select(x => x.Split())
+            .Select(x => new { Name = x[0], Price = int.Parse(x[1]) })
+            .ToLookup(x => x.Name)
+            .Select(x => new { x.First().Name, Diff = x.ElementAt(1).Price - x.ElementAt(0).Price })
+            .Where(x => x.Diff != 0)
+            .Select(x => x.Name + " " + (x.Diff > 0 ? "+" : "") + x.Diff)
+        ));
+
+share
+Save
+dunnowins
+5 points·4 years ago
+
+Not the prettiest Ruby solution but here goes... Would love some feedback:
+
+def read_inv x
+  File.readlines('inventory.txt')[x]
+end
+
+inv_start_hsh = {}
+inv_end_hsh = {}
+inv_comp = {}
+inv_size = read_inv(0).to_i
+inv_start = read_inv (1..inv_size)
+inv_end = read_inv (-inv_size..-1)
+
+inv_start.map! {|x| x.chomp}
+inv_end.map! {|x| x.chomp}
+
+inv_start.each do |x|
+  inv_start_hsh.merge!(x.split[0] => x.split[1].to_i)
+end
+
+inv_end.each do |x|
+  inv_end_hsh.merge!(x.split[0] => x.split[1].to_i)
+end
+
+inv_end_hsh.each_pair do |k, v|
+  inv_comp.merge!(k => (v - inv_start_hsh[k]))
+end
+
+
+inv_comp.each_pair do |k, v|
+  if v != 0
+    puts k + " #{v > 0 ? "+#{v}" : v}"
+  end
+end
+
+share
+Save
+Hashiota
+3 points·4 years ago
+
+Very nice. I don't know any Ruby but found this quite readable. The map method
+looks beautiful in Ruby's syntax.
+
+share
+Save
+dunnowins
+3 points·4 years ago
+
+I'm relatively new to Ruby and programming in general. Over the last year that
+I've been learning the language I've learned that 'readability' is one of the
+main selling points of the language. If you follow best practices Ruby can end
+up reading like English. My solution here could be cleaned up a lot but I wrote
+it really quickly in an attempt to see how fast I could put together a working
+script. This took a little under 5 minutes.
+
+Edit: Thanks.
+
+share
+Save
+simon911011
+4 points·4 years ago
+
+Python, first post.
+
+dictionary = {}
+lines = [line.split() for line in open('input.txt')]
+for line in lines:
+    if line[0] in dictionary:
+        diff = int(line[1]) -dictionary[ line[0] ]
+        if diff != 0:
+            print("%s %+d" % (line[0], diff))
+    dictionary[ line[0] ] = int(line[1])
+
+share
+Save
+farmer_jo
+5 points·4 years ago
+
+Ruby
+
+n = gets.to_i
+items = {}
+n.times { item, price = gets.chomp.split; items[item] = price.to_i }
+n.times do
+  item, price = gets.chomp.split
+  printf "%s %+d\n", item, price.to_i - items[item] if (price.to_i - items[item]) != 0
+end
+
+share
+Save
+try_username
+2 points·4 years ago
+
+A bit too complexe - Go:
+
+package main
+
+import (
+        "bufio"
+        "fmt"
+        "os"
+        "strconv"
+        "strings"
+)
+
+type Inventory struct {
+        item string
+        cost int
+}
+
+func main() {
+        inventory := make([]map[string]int, 2)
+        // initialize maps
+        for i := range inventory {
+                inventory[i] = make(map[string]int)
+        }
+
+        count, rows, item := 0, 0, 0
+        var err error
+
+        scanner := bufio.NewScanner(os.Stdin)
+
+        fmt.Println("How many rows for each list?")
+        for scanner.Scan() {
+                scanned_text := scanner.Text()
+                if rows == 0 {
+                        // get the number of rows
+                        rows, err = strconv.Atoi(scanned_text)
+                        if err != nil {
+                                // handle error
+                                fmt.Println("Please enter a valid number")
+                        }
+                        count = rows
+                } else {
+                        if count == 0 {
+                                count = rows
+                                item++
+                        }
+
+                        splitted := strings.Fields(scanned_text)
+                        if len(splitted) != 2 {
+                                fmt.Println("Missing argument")
+                                continue
+                        }
+
+                        // convert the string price to int
+                        nr, err := strconv.Atoi(splitted[1])
+                        if err != nil {
+                                // handle error
+                                fmt.Println("Please enter a valid number")
+                                continue
+                        }
+
+                        // add the new inventory to our list
+                        inventory[item][splitted[0]] = nr
+                        count--
+                }
+
+                // we have all the information we need
+                if len(inventory) == 2 && len(inventory[0]) == rows && len(inventory[1]) == rows {
+                        break
+                }
+
+        }
+
+        for k, _ := range inventory[0] {
+                difference := inventory[1][k] - inventory[0][k]
+                if difference != 0 {
+                        fmt.Println("k:", k, "v:", difference)
+                }
+        }
+}
+
+share
+Save
+antoniocs
+2 points·4 years ago·edited 4 years ago
+
+My solution in C (still relearning c. Note to self: Use more structs)
+
+#include <stdio.h>
+#include <string.h> //memset, strcmp
+
+#define BUFFERSIZE 100
+
+int main(int argc, char **argv) {
+    int list = 0;
+    scanf("%d",&list);
+
+    if (list > 0) {
+        getchar();//get rid of the DAMN \n
+
+        char oldListItems[list][BUFFERSIZE];
+        char newListItems[list][BUFFERSIZE];
+
+        int oldListPrices[list];
+        int newListPrices[list];
+
+        memset(oldListPrices,0,list);
+        memset(newListPrices,0,list);
+
+        int t = 0;
+        int max = list*2;
+        char buf[BUFFERSIZE];
+        int k = 0;
+
+        while (t < max) {
+            memset(buf,0,BUFFERSIZE);
+
+            fgets(buf,BUFFERSIZE,stdin);
+
+            if (t >= list) {
+                memset(newListItems[k],0,BUFFERSIZE);
+                sscanf(buf,"%s %d",newListItems[k],&newListPrices[k]);
+                k++;
+            }
+            else {
+                memset(oldListItems[t],0,BUFFERSIZE);
+                sscanf(buf,"%s %d",oldListItems[t],&oldListPrices[t]);
+            }
+
+            t++;
+        }
+
+        for(int i = 0; i <= list;i++) {
+            for (int x = 0;x <= list;x++) {
+                if (strcmp(oldListItems[i],newListItems[x]) == 0) {
+                    if (oldListPrices[i] != newListPrices[x]) {
+                        printf("%s ",oldListItems[i]);
+                        if (oldListPrices[i] > newListPrices[x]) {
+                            printf("-%d\n",oldListPrices[i] - newListPrices[x]);
+                        }
+                        else {
+                            printf("+%d\n",newListPrices[x] - oldListPrices[i]);
+                        }
+                    }
+
+                    break;
+                }
+            }
+        }
+    }
+}
+
+share
+Save
+imladris
+2 points·4 years ago
+
+Matlab:
+
+function c144(filename)
+
+fid = fopen(filename);
+n = str2double(fgetl(fid));
+input = textscan(fid,'%s %d');
+fclose(fid);
+
+[oldkey,ox] = sort(input{1}(1:n));
+oldval = input{2}(ox);
+[newkey,nx] = sort(input{1}((n+1):(2*n)));
+newval = input{2}(n+nx);
+
+ind = find(newval-oldval);
+chkey = oldkey(ind);
+chval = newval(ind)-oldval(ind);
+
+for i = 1:length(chkey)
+    fprintf('%s %+d\n',chkey{i},chval(i));
+end
+
+end
+
+share
+Save
+imladris
+1 point·4 years ago
+
+Matlab alternative, using a hash table:
+
+function c144_map(filename)
+
+fid = fopen(filename);
+n = str2double(fgetl(fid));
+input = textscan(fid,'%s %d');
+fclose(fid);
+
+oldkeys = input{1}(1:n);
+oldvals = input{2}(1:n);
+newkeys = input{1}((n+1):(2*n));
+newvals = input{2}((n+1):(2*n));
+
+map = containers.Map(oldkeys,oldvals);
+
+chvals = newvals-cell2mat(values(map,newkeys));
+ind = find(chvals);
+
+for i = ind'
+    fprintf('%s %+d\n',newkeys{i},chvals(i));
+end
+
+end
+
+share
+Save
+dee_bo
+2 points·4 years ago
+
+I'm trying to get better at Python, all help is welcome.
+
+import fileinput
+
+numberOfEntries = -1
+dictOfItems = dict()
+for line in fileinput.input():
+    if fileinput.isfirstline() == True:
+        numberOfEntries = int(line)
+    # adding 1 to # of entries accounts for first line being number of entries.
+    elif numberOfEntries+1 >= fileinput.lineno():
+        parsedLine = line.split()
+        dictOfItems[parsedLine[0]] = [parsedLine[1]]
+    # look at second list of items that may differ in price
+    else:
+        parsedLine = line.split()
+        dictOfItems[parsedLine[0]].append(parsedLine[1])
+
+for listItem,valueTuple in dictOfItems.items():
+    if int(valueTuple[0]) != int(valueTuple[1]):
+        finalValue = int(valueTuple[1]) - int(valueTuple[0])
+        if (int(valueTuple[1]) - int(valueTuple[0])) > 0:
+            print '+'+str(finalValue)
+        else:
+            print (finalValue)
+
+share
+Save
+TheOriginalIrish
+2 points·4 years ago
+
+C++:
+
+#include <iostream>
+#include <map>
+#include <string>
+
+using namespace std;
+
+int main(){
+    int noItems = 0;
+    cin >> noItems;
+
+    if(noItems <= 0) return 1;      // Input was malformed
+
+    map<string, int> items;
+
+    // Collect the old prices
+    for(int i=0; i<noItems; i++){
+        string name;    cin >> name;
+        int price;      cin >> price;
+        items[name] = price;
+    }
+
+    // Collect the new prices, and compare them to the old ones
+    for(int i=0; i<noItems; i++){
+        string name;    cin >> name;
+        int newPrice;   cin >> newPrice;
+
+        int diff = newPrice - items[name];
+        if(diff == 0)   continue;
+
+        cout << name << " " << (diff > 0 ? "+" : "") << diff << "\n";
+    }
+
+    return 0;
+}
+
+share
+Save
+danohuiginn
+2 points·4 years ago·edited 4 years ago
+
+python:
+
+def nutsbolts(inp):
+    saveditems = {}
+    for line in inp.split('\n')[1:]:
+        item, price = line.split(' ')
+        price = int(price)
+        if item in saveditems:
+            pricediff = price - saveditems[item]
+            if pricediff != 0:
+                print('%s %+d' % (item, pricediff))
+        saveditems[item] = price
+
+share
+Save
+Vhitewidow
+2 points·4 years ago
+
+My Java solution:
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+
+public class Main144e {
+
+static int products;
+static Map<String, Integer> original, corrected, corrections;
+static Scanner sc = null;
+static File f;
+
+public static void main(String[] args)
+{
+        init();
+        readFile();
+        calculateDifference();
+        displayDifference();
+}
+
+static void init()
+{
+        original = new HashMap<String, Integer>();
+        corrected = new HashMap<String, Integer>();
+        corrections = new HashMap<String, Integer>();
+
+        f =  new File("input.txt");
+        try {
+                sc = new Scanner(f);
+        } catch (FileNotFoundException e) {
+                System.out.println("Could not find file.");
+        }
+}
+
+static void readFile()
+{
+        String[] input = null;
+        products = Integer.parseInt(sc.nextLine());
+
+        for(int i=0;i<products;i++)
+        {
+                input = sc.nextLine().split(" ");
+                original.put(input[0], Integer.parseInt(input[1]));
+        }
+        for(int i=0;i<products;i++)
+        {
+                input = sc.nextLine().split(" ");
+                corrected.put(input[0], Integer.parseInt(input[1]));
+        }
+}
+
+static void calculateDifference()
+{
+        for(String key : original.keySet())
+        {
+                if (corrected.containsKey(key))
+                        calculateProductPriceDifference(key);
+                else
+                        System.out.println("Product " + key + " not found in list of corrected products.");
+        }
+}
+
+static void calculateProductPriceDifference (String _key)
+{
+        int difference = corrected.get(_key) - original.get(_key);
+
+        if (difference == 0)
+                return;
+
+        corrections.put(_key, difference);
+}
+
+static void displayDifference()
+{
+        for(String key : corrections.keySet())
+        {
+                System.out.println(key + " " + addSign(corrections.get(key)));
+        }
+}
+
+static String addSign(int _difference)
+{
+        if (_difference < 0)
+                return String.valueOf(_difference);
+        else
+                return "+" + _difference;
+}
+}
+
+share
+Save
+thestoicattack
+0 02 points·4 years ago·edited 4 years ago
+
+bash:
+
+#!/bin/bash
+
+oldname=
+oldprice=
+sed 1d "$@" | sort -k1,1 -s | while read name price; do
+    if [[ "$name" = "$oldname" ]]; then
+        [[ "$price" = "$oldprice" ]] && continue
+        printf "%s %+d\n" "$name" $((price - oldprice))
+    else
+        oldname=$name
+        oldprice=$price
+    fi
+done
+
+share
+Save
+VerifiedMyEmail
+2 points·4 years ago·edited 4 years ago
+
+javascript with html
+
+feedback would be appreciated
+
+working codepen
+
+<!doctype html>
+<html>
+  <head>
+    <style type='text/css'>
+      #input {
+        height: 200px;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id='input' rows='50' cols='50'>
+4
+CarriageBolt 45
+Eyebolt 50
+Washer 120
+Rivet 10
+CarriageBolt 45
+Eyebolt 45
+Washer 140
+Rivet 10
+    </textarea>
+    <button id='button' type='submit' onclick='results()'>get cost changes</button>
+    <div id='output'></div>
+    <script>
+
+      function results() {
+        input = document.getElementById('input').value
+        output = document.getElementById('output')
+        var itemsAndPrices = input.toString().match(/([a-zA-Z]+\s\d+)/g),
+            tempItem = '',
+            tempPrice = 0,
+            outputString = '',
+            items = {}
+        for (var i = 0; i < itemsAndPrices.length; i++) {
+          tempItem = /[a-zA-Z]+/.exec(itemsAndPrices[i])
+          tempPrice = parseInt(/\d+/.exec(itemsAndPrices[i]))
+          if (items.hasOwnProperty(tempItem)) {
+            // compare prices
+            if(items[tempItem] != tempPrice) {
+              outputString = outputString + tempItem + ' ' +
+                             (tempPrice - items[tempItem]) + '<br>'
+            }
+
+          } else {
+            items[tempItem] = tempPrice
+          }
+        }
+        output.innerHTML = outputString
+      }
+    </script>
+  </body>
+  <footer>
+  </footer>
+</html>
+
+share
+Save
+Alborak
+2 points·4 years ago
+
+I'm really disappointed. I looked at this problem, immediately knew its solved
+by hashing and figgured I could write the code for it in 5 mins or less. This
+code took me almost 15 mins to write :(
+
+public class PriceChange {
+
+public static void main(String args[]) {
+        HashMap<String, Integer> map = new HashMap<String, Integer>();
+        HashMap<String, Integer> output = new HashMap<String, Integer>();
+        Scanner stdin = new Scanner(System.in);
+        String[] toks;
+        int val;
+
+        int count = Integer.parseInt(stdin.nextLine());
+
+        for(int i = 0; i < count; ++i)
+        {
+                toks = stdin.nextLine().trim().split("\\s");
+                map.put(toks[0], Integer.parseInt(toks[1]));
+        }
+
+
+        for(int i = 0; i < count; ++i)
+        {
+                toks = stdin.nextLine().trim().split("\\s");
+                val = Integer.parseInt(toks[1]);
+                if(map.get(toks[0]) != val) {
+                        output.put(toks[0], val);
+                }
+        }
+
+        for(String name : output.keySet()) {
+                val = (output.get(name) - map.get(name));
+                System.out.println(name + (val > 0 ? " +" : " ")+ val);
+        }
+}
+
+}
+
+share
+Save
+mesmoria
+2 points·4 years ago·edited 4 years ago
+
+R Solution (corrected to load library)
+
+library(data.table)
+
+# load skips the first row, the file definition say there will be
+# equal numbers of rows for current and actual price
+# rest of solution doesn't rely on that.
+t <- read.table("nutsbolts.txt", sep=" ", skip=1, col.names=c("name", "price"))
+pcurrent <- data.table(head(t, nrow(t)/2))
+pactual  <- data.table(tail(t, nrow(t)/2))
+
+pboth    <- merge(pcurrent,pactual,by="name")
+pp       <- pboth[pboth$price.y!=pboth$price.x,]
+pdifs    <- pp[,diff:=pp$price.y-pp$price.x]
+
+writeLines(sprintf("%s %+d", pdifs$name, pdifs$diff))
+
+share
+Save
+plydauk
+2 points·4 years ago
+
+Also went with R, although using a different approach:
+
+priceChange <- function(file = "clipboard") {
+  List <- suppressWarnings(readLines(file)[-1])
+  List <- do.call(rbind, strsplit(List, " "))
+  List <- tapply(as.numeric(List[,2]), List[,1], diff)
+  List[List != 0]
+}
+
+priceChange()
+
+share
+Save
+mesmoria
+1 point·4 years ago·edited 4 years ago
+
+I was irked by my handling of the number of lines, so i fixed it.
+
+library(data.table)
+
+price.check <- function(price.file) {
+    n <-  read.table(price.file, nrows=1)[,1]
+
+    tcurrent <- read.table(price.file, sep=" ", skip=1, nrows=n, col.names=c("name", "price"))
+    tactual  <- read.table(price.file, sep=" ", skip=(1+n), col.names=c("name", "price"))
+
+    pboth    <- data.table(merge(tcurrent,tactual,by="name"))
+    pp       <- pboth[pboth$price.y!=pboth$price.x,]
+    pdifs    <- pp[,diff:=pp$price.y-pp$price.x]
+
+    writeLines(sprintf("%s %+d", pdifs$name, pdifs$diff))
+}
+price.check("nutsbolts.txt")
+price.check("nutsbolts2.txt")
+
+share
+Save
+asdman1
+2 points·4 years ago
+
+PHP
+
+$file_lines = file("file2.txt");
+$line_separator = $file_lines[0];
+$items_to_update = array();
+
+for($a = 1; $a < count($file_lines); $a++) {
+        $item = trim($file_lines[$a]);
+        list($item_label, $price) = explode("  ", $item);
+
+        if (!isset($items_to_update[$item_label])) {
+                $items_to_update[$item_label] = $price;
+        } else {
+                $items_to_update[$item_label] = $price - $items_to_update[$item_label];
+        }
+
+}
+
+foreach ($items_to_update as $label => $change_price) {
+        if ($change_price != 0) {
+                echo "$label :: $change_price\n";
+        }
+}
+
+share
+Save
+szernex
+2 points·4 years ago
+
+Python3
+
+Not as elegant as it could be, but the most intuitive approach imo:
+
+import fileinput
+
+
+
+def readPrices():
+    data = ""
+
+    for line in fileinput.input():
+        data += line
+
+    prices = data.strip().split('\n')
+
+    if prices[0].isdigit():
+        prices = prices[1:]
+
+    prices = dict(((x.split()[0], int(x.split()[1])) for x in prices))
+
+    return prices
+
+
+print('Input old price list:')
+oldprices = readPrices()
+print('Input new price list:')
+newprices = readPrices()
+
+print('Changes:')
+
+for k, v in oldprices.items():
+    if k in newprices:
+        if v > newprices[k]:
+            print("%s -%d" % (k, (v - newprices[k])))
+        elif v < newprices[k]:
+            print("%s +%d" % (k, (newprices[k] - v)))
+
+share
+Save
+slackertwo
+2 points·4 years ago
+
+Ruby, not the best, but meh.
+
+input = ARGF.read.split("\n")
+
+n = input.shift.to_i - 1
+
+track = {}
+for i in 0..n do
+  k,v = input.shift.split
+  track[k] = v.to_i
+end
+
+for i in 0..n do
+  k,v = input.shift.split
+  diff = v.to_i - track[k]
+  puts "%s%s%s" % [k, diff > 0 ? " +" : " ", diff] unless diff == 0
+end
+
+Output:
+
+$ echo '3
+2DNail 3
+4DNail 5
+8DNail 10
+8DNail 11
+4DNail 5
+2DNail 2' | ruby 12_11_13.rb
+8DNail +1
+2DNail -1
+
+share
+Save
+
+1 more reply
+
+Jviscus
+2 points·4 years ago·edited 4 years ago
+
+C++
+
+#include <string>
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+ifstream data("data.txt");
+
+void init(int x[], string s[], int n){
+for(int i = 0; i < n; i++){
+    data >> s[i] >> x[i];
+}
+
+}
+
+void change(int a1[], int a2[], string s1[], string s2[], int n){
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < n; j++){
+            if(s1[i] == s2[j] && a1[i] != a2[j]){
+            if(a2[j] - a1[i] < 0)
+                    cout << s1[i] << " " << (a2[j] - a1[i]) << endl;
+                else
+                    cout << s1[i] << " +" << (a2[j] - a1[i]) << endl;
+            }
+        }
+    }
+}
+
+int main(){
+
+int n;
+
+data >> n;
+
+string s1[n], s2[n];
+int a1[n], a2[n]; // previous and present quantities of cents
+
+// initialize
+
+init(a1, s1, n);
+init(a2, s2, n);
+
+// compute
+
+change(a1, a2, s1, s2, n);
+
+return 0;
+
+}
+
+share
+Save
+jwalton512
+2 points·4 years ago
+
+Python 2.7, still a beginner, probably could be more concise, but it works
+
+EDIT: formatting
+
+#!/usr/bin/env python2.7
+import sys
+
+list_size = int(sys.stdin.readline())
+old = {}
+new = {}
+for x in range(list_size):
+    item,price = sys.stdin.readline().split()
+    old[item] = float(price)
+
+for x in range(list_size):
+    item,price = sys.stdin.readline().split()
+    new[item] = float(price)
+
+print "\n"
+for item,price in old.items():
+    if price != new[item]:
+        print "%s %+d" % (item, new[item] - price)
+
+Results
+Input:
+2
+Bolt 30
+Screw 10
+Bolt 40
+Screw 8
+
+Output:
+Screw -2
+Bolt +10
+
+share
+Save
+jwalton512
+1 point·4 years ago
+
+Tried to make a bit more concise
+
+#!/usr/bin/env python2.7
+import sys
+
+list_size = int(sys.stdin.readline())
+items = {}
+for x in range(list_size*2):
+    item,price = sys.stdin.readline().split()
+    items[item][:] = price
+
+print "\n"
+for item,prices in items.items():
+    if prices[0] != prices[1]:
+        print "%s %+d" % (item, prices[0] - prices[1])
+
+share
+Save
+i4X-xEsO
+2 points·4 years ago·edited 4 years ago
+
+python:
+
+#!/usr/bin/python
+
+from sys import argv
+
+script, filename = argv
+txt = open(filename)
+
+# get number of lines in each group (should be first line)
+numLines = int(txt.readline())
+
+# setup comparitive dictionaries
+currPrices = {}
+newPrices = {}
+
+# cycle through current prices
+for i in range(numLines):
+    line = txt.readline().rstrip('n')
+    item = line.split(' ')[0]
+    price = line.split(' ')[1]
+    currPrices[item] = price
+
+# cycle through new prices
+for i in range(numLines):
+    line = txt.readline().rstrip('n')
+    item = line.split(' ')[0]
+    price = line.split(' ')[1]
+    newPrices[item] = price
+
+# print out differences
+for item in newPrices.keys():
+    difference = int(newPrices[item]) - int(currPrices[item])
+
+    if difference > 0:
+        print item + " +" + str(difference)
+
+    elif difference < 0:
+        print item + " " + str(difference)
+
+# close file
+txt.close()
+
+share
+Save
+i4X-xEsO
+1 point·4 years ago
+
+Updated to reflect better output handling (copied from jwaltont512)
+
+#!/usr/bin/python
+
+from sys import argv
+
+script, filename = argv
+txt = open(filename)
+
+# get number of lines in each group (should be first line)
+numLines = int(txt.readline())
+
+# setup comparitive dictionaries
+currPrices = {}
+newPrices = {}
+
+# cycle through current prices
+for i in range(numLines):
+    line = txt.readline().rstrip('\n')
+    item = line.split(' ')[0]
+    price = line.split(' ')[1]
+    currPrices[item] = price
+
+# cycle through new prices
+for i in range(numLines):
+    line = txt.readline().rstrip('\n')
+    item = line.split(' ')[0]
+    price = line.split(' ')[1]
+    newPrices[item] = price
+
+# print out differences
+for item in newPrices.keys():
+    difference = int(newPrices[item]) - int(currPrices[item])
+
+    if difference:
+        print "%s %+d" % (item, difference)
+
+# close file
+txt.close()
+
+example: cat ./sample_input_01.txt
+
+4
+
+CarriageBolt 45
+
+Eyebolt 50
+
+Washer 120
+
+Rivet 10
+
+CarriageBolt 45
+
+Eyebolt 45
+
+Washer 140
+
+Rivet 10
+
+./144_easy.py ./sample_input_01.txt
+
+Washer +20
+
+Eyebolt -5
+
+share
+Save
+grimcraftman
+2 points·4 years ago
+
+My solution in Python 3.3. Though the other Python submissions are more
+concise. For example, using dictionary comprehension should cut back a lot of
+lines in my code. All feedback is welcomed.
+
+#! /usr/bin/env python
+
+price_list = {}
+price_change = {}
+list_length = int(input())
+
+for a in range(list_length):
+    price_input = input().split()
+    price_list[price_input[0]] = int(price_input[1])
+
+for b in range(list_length):
+    price_input = input().split()
+    change = price_list[price_input[0]] - int(price_input[1])
+    if change:
+        price_change[price_input[0]] = change
+
+print()
+
+for key in price_change:
+    if price_change[key] > 0:
+        print(key, " +", price_change[key], sep = '')
+    else:
+        print(key, price_change[key])
+
+share
+Save
+SiNoEvol
+2 points·4 years ago·edited 4 years ago
+
+Perl:
+
+#Nuts&Bolts
+
+use strict;
+use warnings;
+
+my $fileName = "Items.txt";
+#decided it to challenge myself and learn about file handling a bit
+open FILE, "$fileName" or die "Can't find $fileName";
+my @lines;
+while(<FILE>){
+        push(@lines, $_);
+}
+close FILE;
+
+my $numItems = $lines[0];
+
+my @oldItems;
+for(my $i = 1; $i < $numItems+1; $i++){
+        push(@oldItems, $lines[$i]);
+}
+
+
+my @newItems;
+for(my $i = $numItems+1; $i < scalar(@lines); $i++){
+        push(@newItems, $lines[$i]);
+}
+
+#compare each item of old and new
+for(my $i = 0; $i < $numItems; $i++){
+        my $oldItemName = substr($oldItems[$i],0 , (index($oldItems[$i], " ") - length($oldItems[$i])));
+        my $oldItemPrice = substr($oldItems[$i],index($oldItems[$i], " "));
+
+        my $newItemName = substr($newItems[$i],0 , (index($newItems[$i], " ") - length($newItems[$i])));
+        my $newItemPrice = substr($newItems[$i],index($newItems[$i], " "));
+
+        if($oldItemPrice ne $newItemPrice){
+                print "$oldItemName " . ($oldItemPrice - $newItemPrice) . "\n";
+        }
+}
+
+the text file:
+
+2
+Nuts 2
+Bolts 2
+Nuts 5
+Bolts 5
+
+And output:
+
+Nuts -3
+Bolts -3
+
+Edit: I popped my post cherry on the sub so yeah.
+
+share
+Save
+monumentshorts
+2 points·4 years ago·edited 4 years ago
+
+Here is another Haskell one. Not as terse as the previous one, but I'm always
+for easy readability. I also went the route to strongly type the data, instead
+of leveraging built in primitive functions. It actually made things a little
+more complicated since there are a lot of helpers in Data.Map to deal with
+strict key value pairs, but it was still fun
+
+module Temp where
+
+import Control.Monad
+import Data.List
+
+data Item = Item { name :: String, price :: Integer }
+                                deriving (Show, Read, Ord, Eq)
+
+strToLine :: String -> Item
+strToLine str = Item name (read price)
+        where
+                name:price:_ = words str
+
+formatPair :: (Item, Item) -> String
+formatPair (busted, actual) = format
+        where
+                diff = price actual - price busted
+                direction = if diff > 0 then "+" else "-"
+                format = name busted ++ " " ++ direction ++ show (abs diff)
+
+getPairs :: IO [(Item, Item)]
+getPairs = do
+        n <- readLn
+        let readGroup = fmap (sort . map strToLine) (replicateM n getLine)
+        old <- readGroup
+        new <- readGroup
+        let busted = filter (\(a,b) -> a /= b) $ zip old new
+        return $ busted
+
+printPairs :: IO [(Item, Item)] -> IO [String]
+printPairs pairs = fmap (map formatPair) pairs
+
+Edit: I changed the name, price decomposition to match on cons list instead of
+just a discrete list like [name, price] since that failed the larger exampel
+below (probably due to spaces). This way its whitespace agnostic.
+
+share
+Save
+Braber02
+1 point·4 years ago
+
+Have you thought of learning F#? It's a multiparadam language but it's main
+basis is functional but has all the OOP features of the .NET Platform I'm
+looking to get started on it from starting out on challange 1 but those are
+archived and I can't submit my soulutions :(
+
+share
+Save
+monumentshorts
+1 point·4 years ago
+
+Actually I've used F# heavily for the last couple years, and have been doing
+things in Haskell recently as a change of pace :-P. That said, F# is totally
+awesome, I LOVE it.
+
+share
+Save
+Braber02
+1 point·4 years ago
+
+Yeah I'm trying to get into it however Microsoft won't include it with the
+stupid Express editions :(
+
+share
+Save
+
+3 more replies
+
+staffinator
+2 points·4 years ago·edited 4 years ago
+
+Java:
+
+package nuts_and_bolts;
+
+public class NutsAndBoltsDemo {
+
+/**
+ * @param args
+ */
+public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        NABList myValues = new NABList(args);
+        myValues.printValues();
+        myValues.calculateAndPrintResults();
+
+}
+}
+
+package nuts_and_bolts;
+
+ //Main Class, implements logic & prints out the results.
+ public class NABList {
+
+private int listSize;
+private String[] firstList;
+private int[] firstListQuantities;
+private String[] secondList;
+private int[] secondListQuantities;
+
+
+public NABList(String[] args){
+        listSize = Integer.valueOf(args[0]);
+        firstList = new String[listSize];
+        firstListQuantities = new int[listSize];
+        secondList= new String[listSize];
+        secondListQuantities = new int[listSize];
+        for(int i=1,j=0;(i<(2*listSize))&&(j<listSize);i=i+2,j++){
+                firstList[j]= args[i];
+                firstListQuantities[j]=Integer.valueOf(args[i+1]);}
+        for(int i=((listSize*2)+ 1),j=0;(i<i*2)&&(j<listSize);i=i+2,j++){
+                secondList[j]=args[i];
+                secondListQuantities[j]=Integer.valueOf(args[i+1]);}
+}
+
+   //Check if the stream of values were inserted correctly.
+public void printValues(){
+        for(int i=0;i<listSize;i++){
+                System.out.println(firstList[i]);
+                System.out.println(firstListQuantities[i]);}
+        for(int i=0;i<listSize;i++){
+                System.out.println(secondList[i]);
+                System.out.println(secondListQuantities[i]);
+        }
+}
+
+public void calculateAndPrintResults(){
+        int numberHolder;
+        String stringHolder;
+
+            //Re-arrange order of both lists.
+        for(int i=0;i<listSize;i++){
+                if(!(firstList[i].equals(secondList[i]))){
+                        numberHolder = secondListQuantities[i];
+                        stringHolder = secondList[i].toString();
+                        for(int j=0;j<listSize;j++){
+                                if(firstList[i].equals(secondList[j])){
+                                        secondList[i]= secondList[j];
+                                        secondListQuantities[i]=secondListQuantities[j];
+                                        secondList[j]=stringHolder;
+                                        secondListQuantities[j]=numberHolder;
+                                }
+
+                        }
+                }
+
+        }
+
+        int[] listDifferences = new int[listSize];
+        for(int i=0;i<listSize;i++){
+                listDifferences[i]=secondListQuantities[i]-firstListQuantities[i];
+                }
+        for(int i=0;i<listSize;i++){
+                if(listDifferences[i]!=0){
+                        System.out.print(firstList[i]+" ");
+                        System.out.println(listDifferences[i]);
+                }
+
+        }
+}
+
+}
+
+share
+Save
+_Bia
+2 points·4 years ago
+
+Python
+
+def read_items(N):
+    items = {}
+    # for N lines, split into a word-price pair
+    for i in range(N):
+        item = raw_input().split()
+        items[item[0]] = int(item[1])
+    return items
+
+# read in the price listing
+N = input()
+original_items = read_items(N)
+new_items = read_items(N)
+
+# output the differences in prices
+for item,price in original_items.iteritems():
+    change = new_items[item] - original_items[item]
+    sign = ''
+    if change > 0:
+        sign = '+'
+    if change != 0:
+        print "%s %s%d" % (item, sign, change)
+
+share
+Save
+jjiceman
+2 points·4 years ago
+
+If you want to eliminate a few lines you could do
+
+print "%s %+d" % (item, change)
+
+The %+d will put a plus sign in automatically if it's positive :)
+
+share
+Save
+
+1 more reply
+
+godzab
+2 points·4 years ago
+
+Java:
+
+import java.util.ArrayList;
+import java.util.Scanner;
+public class NutsAndBolts {
+
+public static void main(String[] args){
+        Scanner s = new Scanner(System.in);
+        ArrayList<String> items = new ArrayList<String>();
+        ArrayList<Integer> price = new ArrayList<Integer>();
+        ArrayList<String> result = new ArrayList<String>();
+        int rows = s.nextInt();
+
+        for(int i = 0; i < rows; i++){
+                String item = s.next();
+                int p = s.nextInt();
+                items.add(item);
+                price.add(p);
+        }
+        System.out.println("\n");
+        for(int k = 0; k < rows; k++){
+                String updatedItem = s.next();
+                int updatedPrice = s.nextInt();
+
+                for(int j = 0; j < rows; j++){
+                        if(updatedItem.equals(items.get(j)) && (updatedPrice - price.get(j) != 0)){
+                                String r = updatedItem + " " + (updatedPrice - price.get(j));
+                                if(updatedPrice - price.get(j) > 0){
+                                        r = updatedItem + " +" + (updatedPrice - price.get(j));
+                                }
+                                result.add(r);
+                        }
+                }
+
+        }
+
+        for(int l = 0; l <= result.size() - 1; l++){
+                System.out.println(result.get(l));
+        }
+
+}
+
+}
+
+share
+Save
+agambrahma
+2 points·4 years ago
+
+C++ solution:
+
+#include <cassert>
+#include <cmath>
+#include <cstdint>
+#include <cstdio>
+#include <cstdlib>
+#include <algorithm>
+#include <array>
+#include <fstream>
+#include <iomanip>
+#include <iostream>
+#include <limits>
+#include <map>
+#include <memory>
+#include <string>
+#include <vector>
+#include <queue>
+#include <unordered_map>
+
+using namespace std;
+
+typedef unordered_map<string, int> Inventory;
+
+void ReadInventory(int number_items, Inventory* inventory) {
+  for (int i = 0; i < number_items; ++i) {
+    string item;
+    int quantity;
+    cin >> item >> quantity;
+    inventory->insert(make_pair(item, quantity));
+  }
+}
+
+int main(int argc, char* argv[]) {
+  int number_items;
+  cin >> number_items;
+
+  Inventory before, after;
+  ReadInventory(number_items, &before);
+  ReadInventory(number_items, &after);
+
+  for (const auto& it : before) {
+    assert(after.find(it.first) != after.end());
+    int diff_quantity = after[it.first] - it.second;
+    if (diff_quantity != 0) {
+      cout << it.first << " " << showpos << diff_quantity << endl;
+    }
+  }
+}
+
+share
+Save
+weakhairs
+2 points·4 years ago
+
+In Java:
+
+import java.util.Scanner;
+import java.util.ArrayList;
+/* Daily Programmer Easy #144 Nuts and Bolts */
+public class Easy144{
+  public static void main(String[] args){
+    Scanner in  = new Scanner(System.in);
+    int numberOfItems = in.nextInt();
+    ArrayList<String> items = new ArrayList<String>();
+    ArrayList<Integer> prices = new ArrayList<Integer>();
+    ArrayList<Integer> change = new ArrayList<Integer>();
+    for (int i=0; i<numberOfItems; i++){
+       items.add(i, in.next());
+       prices.add(i, Integer.parseInt(in.next()));
+    }
+    System.out.print("New Prices: ");
+    for (int i=0; i<numberOfItems; i++){
+      if (items.contains(in.next())){
+        change.add(i, Integer.parseInt(in.next()) - prices.get(i));
+      }
+    }
+    for(int i=0; i< numberOfItems; i++){
+      if (change.get(i)<0){
+      System.out.println(items.get(i) + ": " + change.get(i));
+      }
+      else{
+        System.out.println(items.get(i) +":  +" + change.get(i));
+      }
+    }
+  }
+}
+
+share
+Save
+[deleted]
+2 points·4 years ago
+
+C++. Doesn't record price differences, just prints changes as it compares.
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+struct item
+{
+    std::string name;
+    float price;
+};
+
+// Alphabetic sort for item structures by name.
+bool sortItems(item a, item b) { return a.name < b.name; }
+
+int main()
+{
+    int numItems;
+    std::cin >> numItems;
+
+    std::vector<item> oldPrices(numItems), newPrices(numItems);
+
+    for (int i = 0; i < numItems; i++)
+        std::cin >> oldPrices[i].name >> oldPrices[i].price;
+
+    for (int i = 0; i < numItems; i++)
+        std::cin >> newPrices[i].name >> newPrices[i].price;
+
+    sort(oldPrices.begin(), oldPrices.end(), sortItems);
+    sort(newPrices.begin(), newPrices.end(), sortItems);
+
+    for (int i = 0; i < numItems; i++)
+    {
+        if (oldPrices[i].price != newPrices[i].price)
+        {
+            std::cout << newPrices[i].name << " ";
+
+            if (newPrices[i].price - oldPrices[i].price > 0)
+                std::cout << "+";
+
+            std::cout << newPrices[i].price - oldPrices[i].price << std::endl;
+        }
+    }
+
+    return 0;
+}
+
+share
+Save
+danohuiginn
+2 points·4 years ago
+
+Trying to remember how to write PHP:
+
+<?php
+
+class NutsBolts {
+
+  private $prices = array();
+
+  function process($fh) {
+$numrows = fgets($fh); // don't need this
+while (!feof($fh)){
+  $lineparts = explode(" ", fgets($fh));
+  if(array_key_exists($lineparts[0], $this->prices)){
+      if ( (int)$lineparts[1] != (int)$this->prices[$lineparts[0]]){
+        $pricediff = (int)$lineparts[1] - (int)$this->prices[$lineparts[0]];
+        echo($lineparts[0] . " " . (string)$pricediff . "\n");
+      }
+  }
+  $this->prices[$lineparts[0]] = $lineparts[1];
+}
+  }
+}
+$nb = new NutsBolts();
+$nb->process(STDIN);
+
+?>
+
+share
+Save
+killmefirst
+2 points·4 years ago
+
+C++ with <map> and input from file:
+
+#include <fstream>
+#include <iostream>
+#include <map>
+
+using namespace std;
+
+typedef map<string, int> mymap;
+typedef map<string, int>::iterator imymap;
+
+int main(int argc, char* argv[])
+{
+        ifstream in_file("input.txt");
+        mymap start_list;
+        int nr_pos;
+
+        if (!in_file.is_open() || in_file.bad())
+        {
+                cout << "Problem with input file";
+                return 1;
+        }
+
+        in_file >> nr_pos;
+        for (int i = 0; i < 2 * nr_pos; i++)
+        {
+                char name[100];
+                int cents;
+
+                in_file >> name;
+                in_file >> cents;
+
+                if (i < nr_pos)
+                        start_list[name] = cents;
+                else
+                {
+                        imymap it = start_list.find(name);
+                        if (it != start_list.end() && it->second - cents != 0)
+                                cout << it->first.c_str() << " " << (cents - it->second > 0 ? "+" : "") << (cents - it->second) << endl;
+                }
+        }
+
+        start_list.clear();
+        return 0;
+}
+
+share
+Save
+davejumba
+3 points·4 years ago·edited 4 years ago
+
+Python:
+
+def main():
+        d = {}
+        lines = [line.strip() for line in open('input.txt')]
+        num_items = int(lines[0])
+
+        for i in range(1, num_items + 1):
+                (item, price) = lines[i].split()
+                d[item] = int(price)
+
+        for i in range(num_items + 1, 2 * num_items + 1):
+                (item, price) = lines[i].split()
+                diff = int(price) - int(d[item])
+                if(abs(diff) > 0):
+                        print "{} {}".format(lines[i].split()[0], diff)
+
+if __name__ == '__main__':
+        main()
+
+I'm fairly new to Python, so critiques are welcome.
+
+share
+Save
+Kratzyyy
+4 points·4 years ago
+
+
+    lines = [line.strip() for line in open('input.txt')]
+
+I haven't really looked into Python much, but I think this line just convinced
+me to learn more of it.
+
+share
+Save
+rowenlemmings
+7 points·4 years ago
+
+Unfortunately, that bit of code doesn't ever close the file so it will
+introduce a memory leak over time.
+
+better would have been
+
+with open('input.txt') as f:
+    lines = [line.strip() for line in f.readlines()]
+
+share
+Save
+davejumba
+3 points·4 years ago
+
+I'm guessing the "with" keyword deallocates everything once out of scope?
+
+share
+Save
+rowenlemmings
+2 points·4 years ago
+
+Here's more info. It's mostly useful because if your code is forced to exit
+halfway through execution (after f = open("blah") but before f.close()) it
+still closes the file for you.
+
+share
+Save
+rowenlemmings
+3 points·4 years ago·edited 4 years ago
+
+Ha, meant this to be a toplevel comment. Ah well!
+
+Python:
+
+PRICEFILE = "prices.txt"
+
+def splitPrices(priceFile):
+    with open(priceFile,'r') as f:
+        file = f.readlines()
+    lines = int(file[0].strip())
+    oldPrices = file[1:lines+1]
+    newPrices = file[lines+1:]
+    return oldPrices,newPrices
+
+prices = splitPrices(PRICEFILE)
+
+currentPrices,newPrices = dict(),dict()
+
+for line in prices[0]:
+    currentPrices[line.split(" ")[0]] = line.split(" ")[1].strip()
+
+for line in prices[1]:
+    newPrices[line.split(" ")[0]] = line.split(" ")[1].strip()
+
+changeList = {}
+for each in newPrices:
+    try:
+        if newPrices[each] != currentPrices[each]:
+            changeList[each] = "{}".format("+" if int(newPrices[each])>int(currentPrices[each]) else "-")+str(abs(int(newPrices[each])-int(currentPrices[each])))
+    except KeyError as e:
+        pass
+
+print("{old:7}{new:7}{name:25}{change:8}".format(old="Old",new="New",name="Item     Name",change="Change"))
+for each in changeList:
+    d = {"old":currentPrices[each],"new":newPrices[each],"name":each,"change":changeList[each]}
+    print("{old:7}{new:7}{name:25}{change:8}".format(**d))
+
+Added a little bit of pretty printing at the end.
+
+#OUTPUT
+Old    New    Item Name                Change
+120    140    Washer                   +20
+50     45     Eyebolt                  -5
+
+share
+Save
+KZISME
+2 points·4 years ago
+
+Can you explain how you formatted your print statements?
+
+share
+Save
+rowenlemmings
+2 points·4 years ago
+
+String Formatting is a wondrous thing! the String.format() method is a
+mini-language of its own (and indeed the pydocs on it is titled Format
+Specification Mini-Language) but I'll expand on what I used in this example,
+anyhow -- anything further is up to you! :)
+
+I used two string formats in this script, one to write to changeList and one to
+output to the user. The one from changeList:
+
+changeList[each] = "{}".format("+" if int(newPrices[each])>int(currentPrices[each]) else "-")+str(abs(int(newPrices[each])-int(currentPrices[each])))
+
+basically is only to check whether we use a "+" or a "-" sign. The curly braces
+inside the first set of quotation marks get substituted for parameters given to
+the format() function, so in this case I'm telling it to substitute that for a
+"+" if newPrice is greater than currentPrice, otherwise to use a "-". Then I
+use a simple string concatenation (+) to add the absolute value of the
+difference in price, which should be transparent enough.
+
+To output to the user is a little more complicated, but not too bad. I use two
+parts of String.format() in this bit, one to replace fields (as I did above,
+but with keywords 'old','new','name','change' which lets me use a dictionary to
+sub them in. More on that in a minute) and one to set the field width. I
+defined my dictionary first, d = {"old":currentPrices[each],...} and all that,
+which I then can feed into my String.format() for the substitutions. I could
+have alternately just listed each keyword in my String.format() as parameters,
+or even not used keywords at all and done the substitution like I did the +/-
+sign above. More than anything I was writing to shake the rust off, so I wanted
+to remember how to do dict mapping to string :). The number after the colon is
+the field width -- no matter how many characters the string substitution is,
+the final printed string will put that number of spaces between the beginning
+of that sub and the end of it. That's why everything is arranged in a grid in
+the output.
+
+For a bit of fun, run this code for an easy multiplication table:
+
+from math import log
+try:
+    max_num = int(input("How large is your times table?"))
+except ValueError as e:
+    print("You have to at least put in a number. Here let's just make it 10....")
+    max_num = 10
+field_width = int(round(log(max_num*max_num,10),0))+1
+for row in range(1,max_num+1):
+    print(*("{:{field_width}}".format(col*row,field_width=field_width) for col in range(1,max_num+1)))
+
+share
+Save
+KZISME
+2 points·4 years ago
+
+Makes more sense after that explanation! I think I just have to put it to use
+:)
+
+share
+Save
+f0rkk
+1 point·4 years ago
+
+I did more or less the same thing, just reading from stdin:
+
+hardware_dict = {}
+
+for _ in range(int(input())*2):
+    inputs = input().split()
+    if inputs[0] in hardware_dict:
+        hardware_dict[inputs[0]] += int(inputs[1])
+    else:
+        hardware_dict[inputs[0]] = -int(inputs[1])
+
+for item in hardware_dict:
+    if hardware_dict[item] != 0:
+        print(item, hardware_dict[item])
+
+to me this seemed like the clearest solution. this is definitely a dictionaries
+problem.
+
+share
+Save
+stickcult
+3 points·4 years ago
+
+Python
+
+def main():
+    lines = open('input.txt').read().splitlines()
+    length = lines.pop(0)
+    data = {}
+
+    for line in lines:
+        item, price = line.split()
+        if item in data:
+            # item has already been added, so this price must be the new one, since
+            # it appears after the old price in the input
+            data[item]['new'] = int(price)
+        else:
+            # item hasn't been added, so this price must be the old one
+            data[item] = {'old': int(price)}
+
+    for item in data.keys():
+        if data[item]['old'] != data[item]['new']:
+            diff = data[item]['new'] - data[item]['old']
+            print "%s %+d" % (item, diff)
+
+if __name__ == '__main__':
+    main()
+
+share
+Save
+rowenlemmings
+4 points·4 years ago
+
+remember that file_obj.readlines() returns an array of strings split by lines.
+Your first line could have as easily been lines = open('input.txt').readlines
+().
+
+That said, remember also that if you open() a file you need to .close() it as
+well, which you can't do in your code. Try a with context.
+
+with open('input.txt') as f:
+    lines = f.readlines()
+
+in fact you can golf further:
+
+with open('input.txt') as f:
+    item, price = [line.split() for line in f.readlines()]
+
+share
+Save
+stickcult
+3 points·4 years ago
+
+Thanks, it's been a while since I've done file IO stuff, completely forgot
+about contexts!
+
+share
+Save
+Comment deleted4 years ago
+rowenlemmings
+2 points·4 years ago
+
+Halfway through my implementation I thought about how well zip would work with
+this problem. Ah well ;)
+
+share
+Save
+toodim
+3 points·4 years ago
+
+Python 3.3
+
+data = [x.strip() for x in open("challenge144.txt").readlines()]
+
+old_prices = sorted(data[1:int(data[0])+1])
+new_prices = sorted(data[int(data[0])+1:])
+diff_prices =[(x.split(),y.split()) for x,y in zip(old_prices,new_prices) if x not in new_prices]
+
+for d in diff_prices:
+    diff = int(d[1][1])-int(d[0][1])
+    if diff < 0:
+        diff_str = " " + str(diff)
+    else:
+        diff_str = " +" +str(diff)
+    print(d[0][0] +diff_str)
+
+share
+Save
+winged_scapula
+3 points·4 years ago·edited 4 years ago
+
+You could replace this block of code:
+
+if diff < 0:
+    diff_str = " " + str(diff)
+else:
+    diff_str = " +" +str(diff)
+print(d[0][0] +diff_str)
+
+with this:
+
+if diff != 0:
+    print ("{} {:+}".format(d[0][0], diff))
+
+EDIT: Yup, it should be just:
+
+print ("{} {:+}".format(d[0][0], diff))
+
+share
+Save
+toodim
+2 points·4 years ago
+
+Thanks, I'm not too familiar with string formatting. I knew there was a better
+way to do that part but I just wanted to make a 5 min solution. What exactly
+does {:+} do and how does it preserve the negative numbers? Also It seems I'd
+only need:
+
+print ("{} {:+}".format(d[0][0], diff))
+
+The if diff != 0 part does't do anything.
+
+share
+Save
+winged_scapula
+2 points·4 years ago
+
+You are right, I assumed diff_prices was something else without looking trough
+that part of code.
+
+For string formatting I suggest to look at the official python docs for string,
+very usefull stuff there.
+
+share
+Save
+demon_ix
+1 03 points·4 years ago
+
+Python
+
+lines = [line.strip().split() for line in open('input.txt').readlines()]
+numlines = int(lines[0][0])
+prices = dict((line[0],int(line[1])) for line in lines[1:numlines+1])
+for line in lines[numlines+1:]:
+    if prices[line[0]] != int(line[1]):
+        diff = int(line[1])-prices[line[0]]
+        print(line[0] + ' ' + ('+' if diff > 0 else '') + str(diff))
+
+share
+Save
+hardleaningwork
+2 points·4 years ago
+
+C#
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Challenge144
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int numItems = 0;
+            Dictionary<string, int[]> items = new Dictionary<string, int[]>();
+
+            numItems = Int32.Parse(Console.ReadLine());
+            for (int i = 0; i < numItems; i++)
+            {
+                string[] incorrectItem = Console.ReadLine().Split(' ');
+                items.Add(incorrectItem[0], new int[]{Int32.Parse(incorrectItem[1]), 0});
+            }
+
+            for (int i = 0; i < numItems; i++)
+            {
+                string[] correctItem = Console.ReadLine().Split(' ');
+                items[correctItem[0]][1] = Int32.Parse(correctItem[1]);
+            }
+
+            foreach (KeyValuePair<string, int[]> item in items)
+            {
+                if (item.Value[0] != item.Value[1])
+                {
+
+                    Console.WriteLine(item.Key + " " + ((item.Value[1] - item.Value[0] > 0) ? "+" : "") + (item.Value[1] - item.Value[0]));
+                }
+            }
+        }
+    }
+}
+
+share
+Save
+TromboneAMB
+2 points·4 years ago
+
+Java solution using standard input (not input from reading a .txt file):
+
+import java.util.ArrayList; import java.util.Scanner;
+
+/**
+
+  • Solution for r/dailyprogramming # 144: "Nuts & Bolts".
+
+  • @author TromboneAMB */ public class DailyProgramming144 {
+
+    /**
+
+      □ Representation of an input line of data as defined in the requirements
+        */ public static class InputLine{ private String name; private int
+        price; public InputLine(){} public InputLine(String name, int price){
+        this.name = name; this.price = price; }//end of constructor
+
+        public int getPriceDifference(InputLine x){ return x.price -
+        this.price; }//end of getPriceDifference method
+
+        public boolean equalNames(InputLine x){ return this.name.equals(x.name)
+        ? true : false; }//end of equalNames method }//end of InputLine class
+
+    public static void main(String[] args) { ArrayList<InputLine> input1 = new
+    ArrayList<InputLine>();//original values' ArrayList ArrayList<InputLine>
+    input2 = new ArrayList<InputLine>();//new values' ArrayList Scanner input =
+    new Scanner(System.in); int numberOfItems = input.nextInt();//get number of
+    items for each list
+
+    for(int k = 0; k < numberOfItems; k++){//get initial values
+    input1.add(new InputLine(input.next(), input.nextInt()));
+            }//end of loop
+
+    for(int k = 0; k < numberOfItems; k++){//get revised values
+    input2.add(new InputLine(input.next(), input.nextInt()));
+            }//end of loop
+
+    //nested for loops to match each item from input1 with its possibly updated version in input2
+    for(InputLine original : input1){
+        for(InputLine revised: input2){
+            if(original.equalNames(revised)){//verify that the same item is being referenced
+                int difference = original.getPriceDifference(revised);
+                if(difference != 0){//prints if and only if the price changes
+                    System.out.print("\n");
+                    System.out.print(original.name);
+                    System.out.print(difference > 0 ? " +" + difference : " " + difference);//formatting for sign
+                    }//end of printing difference
+                break;//go on to the next InputLine in input1
+            }//end of code executed if names match
+        }//end of inner loop
+    }//end of outer loop
+
+    }//end of main method }//end of class
+
+share
+Save
+russjr08
+2 points·4 years ago
+
+Not the prettiest Java solution, but its late.
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+/**
+ * User: russjr08
+ * Date: 12/11/13
+ * Time: 9:40 PM
+ */
+public class Challenge {
+
+    public static void main(String... args){
+        ArrayList<Item> items = new ArrayList<Item>();
+        ArrayList<Item> secondItemList = new ArrayList<Item>();
+
+        int numItems;
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("How many items?");
+
+        numItems = input.nextInt();
+        input.nextLine();
+
+        System.out.println("Enter First List");
+        for(int i = 0; i < numItems; i++){
+            String data = input.nextLine();
+            items.add(new Item(data.split(" ")[0], Integer.valueOf(data.split(" ")[1])));
+        }
+        System.out.println("Enter Second List");
+        for(int i = 0; i < numItems; i++){
+            String data = input.nextLine();
+            secondItemList.add(new Item(data.split(" ")[0], Integer.valueOf(data.split(" ")[1])));
+        }
+
+        for(Item item : items){
+            for(Item second : secondItemList){
+                if(item.name.equalsIgnoreCase(second.name)){
+                    if(item.price > second.price){
+                        System.out.println(String.format("%s -%s", item.name, item.price - second.price));
+                    }else if(item.price < second.price){
+                        System.out.println(String.format("%s +%s", item.name, second.price - item.price));
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+class Item{
+    public String name;
+    public int price;
+
+    public Item(String name, int price){
+        this.name = name;
+        this.price = price;
+    }
+}
+
+share
+Save
+impboy
+2 points·4 years ago·edited 4 years ago
+
+Yet Another Post-teen Python Solution.
+
+EDIT: Most solutions here interpreted the "input" as a .txt file. I merely put
+them in a list, since it wasn't explicitly stated to treat the input as a file.
+
+def list_this(thatput):
+  stop = int(thatput.pop(0))
+  end = len(thatput)
+  fist_list = [thatput[i].split() for i in range(stop)]
+  thisp_list = [thatput[i].split() for i in range(stop, end)]
+  for a, b in fist_list:
+    for c, d in thisp_list:
+    if a == c and b != d:
+        diff = int(d) - int(b)
+            if diff > 0:
+                print a, "+" + str(diff)
+            else:
+                print a, str(diff)
+
+share
+Save
+vape
+2 points·4 years ago
+
+Python 3 solution. I don't like the k[0][0] part but I'll try to live with it
+:)
+
+from operator import itemgetter
+
+sub = lambda x, y: int(x) - int(y)
+sort = lambda l: sorted(l, key=itemgetter(0))
+lines = [l.split(' ') for l in open('input.txt').read().splitlines()]
+changes = [(k[0][0], sub(*map(itemgetter(1), k))) for k in
+         (zip(sort(lines[:len(lines) // 2]), sort(lines[len(lines) // 2:])))]
+[print(prod, difference) for prod, difference in changes if difference != 0]
+
+share
+Save
+em_blem
+2 points·4 years ago
+
+First ti[M]e participating in dailyprogammer, be gentle. Written in Python 2.7.
+
+with open('input.txt') as f:
+        lines = [line.strip() for line in f.readlines()]
+
+inv = {}
+inv_count = int(lines[0])
+
+for i in xrange(1, inv_count + 1):
+        inv[lines[i].split()[0]] = int(lines[i].split()[1])
+
+for c in xrange(inv_count + 1, inv_count * 2 + 1):
+        difference = int(lines[c].split()[1]) - inv[lines[c].split()[0]]
+        if difference:
+                print lines[c].split()[0], difference
+
+share
+Save
+code508
+2 points·4 years ago
+
+Another attempt in Java:
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+
+import java.util.Map;
+import java.util.HashMap;
+import java.util.Iterator;
+
+
+public class E144 {
+  private BufferedReader in;
+  private int itemCount;
+
+  private Map<String,Integer> currentList;
+  private Map<String,Integer> correctList;
+
+  public E144() throws IOException
+  {
+    in =  new BufferedReader(new InputStreamReader(System.in));
+    itemCount = Integer.parseInt(in.readLine());
+    currentList = new HashMap<String, Integer>();
+    correctList = new HashMap<String, Integer>();
+  }
+
+  public void go()
+    throws IOException
+  {
+    for ( int i = 0; i < itemCount; i++){
+      String[] tokens = in.readLine().split(" ");
+      currentList.put(tokens[0],Integer.parseInt(tokens[1]));
+    }
+
+    for ( int i = 0; i < itemCount; i++){
+      String[] tokens = in.readLine().split(" ");
+      correctList.put(tokens[0], Integer.parseInt(tokens[1]));
+    }
+
+    Iterator<String> listIterator = correctList.keySet().iterator();
+
+    while(listIterator.hasNext()){
+      String item = listIterator.next();
+      int currentPrice = currentList.get(item);
+      int correctPrice = correctList.get(item);
+      if(currentPrice != correctPrice)
+        System.out.printf("%s %+d\n",item, correctPrice - currentPrice);
+    }
+  }
+
+  public static void main(String[] args) {
+    try {
+      E144 app = new E144();
+      app.go();
+    }
+    catch(IOException e){
+      System.out.println(e);
+    }
+  }
+}
+
+share
+Save
+
+10 more replies
+
+Community Details
+r/dailyprogrammer
+
+142k
+
+Subscribers
+
+64
+
+Online
+
+**Welcome to r/DailyProgrammer!** First time visitors of Daily Programmer
+please [Read the Wiki] (http://www.reddit.com/r/dailyprogrammer/wiki/index) to
+learn everything about this subreddit. 3 Programming Challenges a week!
+
+SubscribeCreate Post
+aboutcareerspress
+advertisebloghelp
+the reddit appreddit goldreddit gifts
+content policy| privacy policy
+user agreement| mod policy
+© 2018 Reddit, Inc. All rights reserved
+back to top
